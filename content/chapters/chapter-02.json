@@ -9,11 +9,11 @@
     "stem": "Theo C. Mác, sản xuất hàng hóa khác với sản xuất để tự cấp, tự túc trước hết ở mục đích nào?",
     "options": [
       "Tạo sản phẩm chủ yếu để người sản xuất trực tiếp tiêu dùng",
-      "Tạo sản phẩm nhằm trao đổi, mua bán",
       "Tạo sản phẩm để phân phối hoàn toàn bằng mệnh lệnh hành chính",
+      "Tạo sản phẩm nhằm trao đổi, mua bán",
       "Tạo sản phẩm chỉ để biếu tặng, không có trao đổi"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Sản xuất hàng hóa là kiểu tổ chức kinh tế trong đó sản phẩm được làm ra nhằm trao đổi, mua bán. Mục đích sử dụng trực tiếp cho chính người sản xuất thuộc sản xuất tự cấp, tự túc.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -83,11 +83,11 @@
     "stem": "Vì sao sự tách biệt về kinh tế khiến sản phẩm của các chủ thể phải trao đổi dưới hình thức hàng hóa?",
     "options": [
       "Vì sự tách biệt làm mọi chủ thể có chung sản phẩm và hoàn toàn thống nhất lợi ích",
-      "Vì sự tách biệt xóa bỏ chuyên môn hóa và làm mỗi người tự sản xuất mọi thứ mình cần",
       "Vì các chủ thể độc lập về lợi ích; muốn dùng sản phẩm của nhau phải trao đổi, mua bán",
+      "Vì sự tách biệt xóa bỏ chuyên môn hóa và làm mỗi người tự sản xuất mọi thứ mình cần",
       "Vì sự tách biệt tự động tạo ra tiền trước khi có bất kỳ hoạt động trao đổi nào"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Sự tách biệt làm các chủ thể sản xuất độc lập và có lợi ích riêng. Vì thế, sản phẩm của người này chỉ chuyển sang người khác thông qua trao đổi, mua bán chứ không được phân phối như tài sản chung.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -109,11 +109,11 @@
     "stem": "Một cộng đồng đã chuyên môn hóa: nhóm trồng lúa, nhóm dệt vải. Tuy nhiên, toàn bộ sản phẩm được đưa vào kho chung rồi phân phối theo quyết định chung, các nhóm không độc lập về lợi ích. Kết luận nào phù hợp nhất?",
     "options": [
       "Sản xuất hàng hóa đã hình thành đầy đủ vì chỉ cần có chuyên môn hóa",
-      "Sản xuất hàng hóa chưa hình thành vì còn thiếu sự tách biệt kinh tế giữa các nhóm",
+      "Sản xuất hàng hóa chưa hình thành vì các nhóm không có nhu cầu đối với sản phẩm của nhau",
       "Sản xuất hàng hóa chỉ chưa hình thành vì cộng đồng chưa phát hành tiền",
-      "Sản xuất hàng hóa chưa hình thành vì các nhóm không có nhu cầu đối với sản phẩm của nhau"
+      "Sản xuất hàng hóa chưa hình thành vì còn thiếu sự tách biệt kinh tế giữa các nhóm"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Cộng đồng đã có phân công lao động nhưng chưa có sự tách biệt kinh tế: sản phẩm vẫn thuộc và được phân phối từ kho chung. Vì thiếu điều kiện thứ hai, sản xuất hàng hóa chưa hình thành.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -134,12 +134,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Định nghĩa nào phản ánh đầy đủ khái niệm hàng hóa trong giáo trình?",
     "options": [
-      "Sản phẩm lao động có thể thỏa mãn nhu cầu của con người thông qua trao đổi, mua bán",
       "Mọi vật có ích tồn tại trong tự nhiên, dù không phải sản phẩm của lao động",
+      "Sản phẩm lao động có thể thỏa mãn nhu cầu của con người thông qua trao đổi, mua bán",
       "Mọi sản phẩm của lao động, kể cả sản phẩm chỉ để người làm ra tự sử dụng",
       "Mọi đối tượng có giá cả, bất kể có gắn với sản xuất và trao đổi hay không"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Một vật là hàng hóa khi vừa là sản phẩm của lao động, có khả năng thỏa mãn nhu cầu, vừa được đưa ra trao đổi, mua bán. Sản phẩm chỉ để tự dùng chưa phải hàng hóa.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -188,10 +188,10 @@
     "options": [
       "Thuộc tính tự nhiên tạo nên công dụng của hàng hóa khi được tiêu dùng",
       "Mức độ hữu ích của hàng hóa do từng người tiêu dùng đánh giá riêng",
-      "Giá bán bằng tiền do người sản xuất niêm yết trước khi trao đổi",
-      "Lao động xã hội của người sản xuất kết tinh trong hàng hóa"
+      "Lao động xã hội của người sản xuất kết tinh trong hàng hóa",
+      "Giá bán bằng tiền do người sản xuất niêm yết trước khi trao đổi"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Giá trị là lao động xã hội đã hao phí để sản xuất hàng hóa và kết tinh trong hàng hóa. Giá cả chỉ là hình thức biểu hiện bằng tiền của giá trị, không đồng nhất với giá trị.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -212,12 +212,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Đặc điểm nào xác định một hoạt động là lao động cụ thể?",
     "options": [
-      "Là sự hao phí sức lao động nói chung, không xét hình thức nghề nghiệp cụ thể",
       "Là lao động có ích trong một nghề, có mục đích, đối tượng và phương pháp riêng",
+      "Là sự hao phí sức lao động nói chung, không xét hình thức nghề nghiệp cụ thể",
       "Là lao động giản đơn có thể thực hiện mà không cần đào tạo chuyên môn sâu",
       "Là mức độ khẩn trương của lao động trong một thời gian sản xuất nhất định"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Lao động cụ thể luôn tồn tại dưới một hình thức nghề nghiệp hữu ích nhất định và có các yếu tố riêng về mục đích, đối tượng, công cụ, phương pháp, kết quả. Nó tạo ra giá trị sử dụng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -264,12 +264,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Trong các trường hợp sau, sản phẩm nào là hàng hóa theo đúng khái niệm của giáo trình?",
     "options": [
-      "Một xưởng may sản xuất áo theo mẫu để bán tại cửa hàng",
+      "Nước chảy tự nhiên trong sông, chưa qua hoạt động lao động",
       "Một gia đình trồng rau chỉ để dùng trong các bữa ăn của mình",
       "Một người đan khăn rồi tặng cho người thân, không trao đổi",
-      "Nước chảy tự nhiên trong sông, chưa qua hoạt động lao động"
+      "Một xưởng may sản xuất áo theo mẫu để bán tại cửa hàng"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Áo là sản phẩm của lao động, có công dụng và được sản xuất để bán nên là hàng hóa. Các sản phẩm chỉ để tự dùng, biếu tặng hoặc vật tự nhiên chưa qua lao động không thỏa mãn đầy đủ điều kiện này.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -291,11 +291,11 @@
     "stem": "Mối quan hệ giữa giá trị và giá trị trao đổi của hàng hóa được hiểu đúng như thế nào?",
     "options": [
       "Giá trị trao đổi là nội dung của trao đổi; giá trị chỉ là hình thức biểu hiện ra ngoài",
-      "Giá trị và giá trị trao đổi là hai tên gọi đồng nhất, không khác nhau về nội dung",
+      "Giá trị là nội dung và cơ sở trao đổi; giá trị trao đổi là hình thức biểu hiện bên ngoài",
       "Giá trị sử dụng là nội dung duy nhất và trực tiếp quyết định mọi tỷ lệ trao đổi",
-      "Giá trị là nội dung và cơ sở trao đổi; giá trị trao đổi là hình thức biểu hiện bên ngoài"
+      "Giá trị và giá trị trao đổi là hai tên gọi đồng nhất, không khác nhau về nội dung"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Lao động xã hội kết tinh là nội dung của giá trị. Trong quan hệ giữa các hàng hóa, nội dung đó biểu hiện ra ngoài thành một tỷ lệ trao đổi nhất định.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -312,12 +312,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao người sản xuất phải hoàn thiện giá trị sử dụng của hàng hóa nếu muốn thu hồi hao phí lao động đã kết tinh trong đó?",
     "options": [
-      "Vì giá trị sử dụng càng nhiều thì thời gian lao động xã hội cần thiết luôn tăng tương ứng",
-      "Vì người sản xuất chỉ quan tâm đến công dụng và không cần bán hàng hóa",
       "Vì hàng hóa phải đáp ứng nhu cầu người mua và được bán thì giá trị của nó mới được thực hiện",
+      "Vì người sản xuất chỉ quan tâm đến công dụng và không cần bán hàng hóa",
+      "Vì giá trị sử dụng càng nhiều thì thời gian lao động xã hội cần thiết luôn tăng tương ứng",
       "Vì mọi giá trị sử dụng đều tự tạo ra giá trị mà không cần lao động"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Giá trị sử dụng dành cho người mua là điều kiện để thị trường chấp nhận hàng hóa. Chỉ khi bán được hàng, người sản xuất mới thực hiện được giá trị và thu hồi hao phí lao động đã kết tinh.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -390,12 +390,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Đặc điểm nào phân biệt dịch vụ với hàng hóa vật thể thông thường nhưng vẫn cho thấy dịch vụ là hàng hóa?",
     "options": [
-      "Dịch vụ là hàng hóa vô hình do lao động tạo ra, không thể cất trữ và được sản xuất đồng thời với tiêu dùng",
-      "Dịch vụ là hàng hóa không cần hao phí lao động, có giá trị sử dụng nhưng hoàn toàn không có giá trị",
       "Dịch vụ là hàng hóa chỉ phục vụ người cung ứng, không nhằm đáp ứng bất kỳ nhu cầu nào của người mua",
+      "Dịch vụ là hàng hóa không cần hao phí lao động, có giá trị sử dụng nhưng hoàn toàn không có giá trị",
+      "Dịch vụ là hàng hóa vô hình do lao động tạo ra, không thể cất trữ và được sản xuất đồng thời với tiêu dùng",
       "Dịch vụ là hàng hóa luôn tồn tại như vật thể, có thể lưu kho lâu dài rồi mới đưa ra tiêu dùng"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Dịch vụ là hoạt động hữu ích vô hình được tạo ra bằng lao động để đáp ứng nhu cầu của người khác. Điểm khác đáng chú ý là dịch vụ không thể cất trữ và được sản xuất đồng thời với tiêu dùng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -417,11 +417,11 @@
     "stem": "Để làm một sản phẩm cùng chất lượng, cơ sở A mất 10 giờ trong khi mức hao phí xã hội chấp nhận là 6 giờ. Khi hàng được trao đổi theo mức xã hội, 4 giờ chênh lệch được hiểu thế nào?",
     "options": [
       "Được cộng vào giá trị xã hội vì mọi thời gian lao động thực tế đều được thừa nhận",
-      "Là hao phí cá biệt vượt mức nên không được xã hội thừa nhận vào giá trị",
+      "Được chuyển thành lao động cụ thể của người mua ngay sau khi trao đổi",
       "Làm giá trị sử dụng của sản phẩm tăng theo đúng tỷ lệ bốn giờ chênh lệch",
-      "Được chuyển thành lao động cụ thể của người mua ngay sau khi trao đổi"
+      "Là hao phí cá biệt vượt mức nên không được xã hội thừa nhận vào giá trị"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Giá trị không do thời gian riêng của một cơ sở tùy ý quyết định mà do thời gian lao động xã hội cần thiết. Phần hao phí cá biệt vượt mức xã hội chấp nhận không được tính thêm vào giá trị.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -438,12 +438,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một hợp đồng chuyển nhượng ghi khoản tiền phải trả để bên mua được khai thác một thửa đất trong phạm vi pháp luật cho phép. Theo giáo trình, đối tượng trao đổi nên được nhận thức thế nào?",
     "options": [
-      "Đối tượng là bản thân đất đai, một hàng hóa do lao động trực tiếp tạo ra và có giá trị bằng giá chuyển nhượng",
-      "Khoản tiền là thước đo chính xác lượng lao động xã hội kết tinh trong bản thân đất đai",
       "Đối tượng là quyền sử dụng đất, có công dụng và giá cả nhưng không được tạo ra như hàng hóa thông thường",
+      "Khoản tiền là thước đo chính xác lượng lao động xã hội kết tinh trong bản thân đất đai",
+      "Đối tượng là bản thân đất đai, một hàng hóa do lao động trực tiếp tạo ra và có giá trị bằng giá chuyển nhượng",
       "Giao dịch làm tổng của cải xã hội tăng đúng bằng khoản chênh lệch tiền giữa hai bên"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Giao dịch là chuyển quyền sử dụng đất, không phải mua bán đất như một sản phẩm lao động thông thường. Quyền này có công dụng và giá cả, nhưng giá cả còn chịu nhiều yếu tố như cung cầu, khan hiếm, đầu cơ và đô thị hóa.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -464,12 +464,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Thời gian lao động xã hội cần thiết để sản xuất một hàng hóa là thời gian nào?",
     "options": [
-      "Thời gian sản xuất trong điều kiện bình thường, với độ thành thạo và cường độ trung bình",
+      "Thời gian do từng người bán tự xác định theo chi phí riêng trước khi đưa sản phẩm ra thị trường",
       "Thời gian thực tế của cơ sở có kỹ thuật lạc hậu nhất trong ngành",
       "Thời gian thực tế của cơ sở có công nghệ tiên tiến nhất trong ngành",
-      "Thời gian do từng người bán tự xác định theo chi phí riêng trước khi đưa sản phẩm ra thị trường"
+      "Thời gian sản xuất trong điều kiện bình thường, với độ thành thạo và cường độ trung bình"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Thước đo lượng giá trị là thời gian lao động xã hội cần thiết, không phải thời gian cá biệt tùy ý. Nó gắn với điều kiện sản xuất bình thường, trình độ thành thạo và cường độ trung bình của xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -490,12 +490,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Năng suất lao động được đo bằng chỉ tiêu nào?",
     "options": [
-      "Mức độ khẩn trương của hoạt động lao động trong một đơn vị thời gian",
+      "Sản lượng trong một đơn vị thời gian hoặc thời gian cần cho một sản phẩm",
       "Thời gian đào tạo chuyên môn cần thiết để người lao động thực hiện công việc",
       "Tổng tiền công được trả cho người lao động trong một đơn vị thời gian",
-      "Sản lượng trong một đơn vị thời gian hoặc thời gian cần cho một sản phẩm"
+      "Mức độ khẩn trương của hoạt động lao động trong một đơn vị thời gian"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Năng suất phản ánh năng lực sản xuất: có thể đo bằng đầu ra trên một đơn vị thời gian hoặc nghịch đảo là thời gian hao phí cho một sản phẩm. Nó khác với cường độ lao động.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -568,12 +568,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Nếu chỉ tăng cường độ lao động trong cùng một khoảng thời gian, còn năng suất và các điều kiện khác không đổi, kết quả nào đúng?",
     "options": [
-      "Tổng sản phẩm và tổng giá trị tăng, còn giá trị mỗi đơn vị không đổi",
-      "Tổng sản phẩm không đổi, còn lượng giá trị của một đơn vị giảm",
       "Tổng giá trị không đổi, còn lượng giá trị của một đơn vị giảm",
+      "Tổng sản phẩm không đổi, còn lượng giá trị của một đơn vị giảm",
+      "Tổng sản phẩm và tổng giá trị tăng, còn giá trị mỗi đơn vị không đổi",
       "Tổng sản phẩm tăng, còn lượng giá trị của một đơn vị tăng cùng tỷ lệ"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Tăng cường độ là tăng mức khẩn trương, giống như tăng lượng lao động hao phí trong cùng thời gian: nhiều sản phẩm và tổng giá trị hơn. Xét riêng tác động này, thời gian xã hội tính cho một đơn vị không đổi.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -617,11 +617,11 @@
     "stem": "Một đơn vị hàng hóa ban đầu có lượng giá trị tương ứng 4 giờ lao động xã hội cần thiết. Năng suất lao động xã hội tăng gấp đôi, cường độ và độ phức tạp lao động không đổi. Lượng giá trị mới của một đơn vị là bao nhiêu?",
     "options": [
       "8 giờ lao động xã hội cần thiết",
-      "4 giờ lao động xã hội cần thiết",
       "2 giờ lao động xã hội cần thiết",
+      "4 giờ lao động xã hội cần thiết",
       "1 giờ lao động xã hội cần thiết"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Lượng giá trị một đơn vị tỷ lệ nghịch với năng suất. Năng suất gấp đôi làm thời gian cần cho một đơn vị còn một nửa: 4 / 2 = 2 giờ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -642,12 +642,12 @@
     "kind": "van_dung_tinh_toan",
     "stem": "Giả sử trong một phép quy đổi xã hội, 1 giờ lao động phức tạp tương đương 3 giờ lao động giản đơn. Hai giờ lao động phức tạp tạo lượng giá trị tương đương bao nhiêu giờ lao động giản đơn?",
     "options": [
-      "3 giờ",
       "6 giờ",
+      "3 giờ",
       "1,5 giờ",
       "5 giờ"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Lao động phức tạp được coi là lao động giản đơn nhân bội. Theo hệ số đã cho, 2 × 3 = 6 giờ lao động giản đơn tương đương.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -665,11 +665,11 @@
     "stem": "Khi trao đổi trực tiếp không còn phù hợp và nhiều hàng hóa cùng biểu hiện giá trị ở một vật ngang giá chung, hình thái nào đã xuất hiện?",
     "options": [
       "Hình thái giá trị giản đơn",
-      "Hình thái giá trị mở rộng",
+      "Hình thái chung của giá trị",
       "Hình thái tiền của giá trị",
-      "Hình thái chung của giá trị"
+      "Hình thái giá trị mở rộng"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Ở hình thái chung, nhiều hàng hóa B, C, D cùng biểu hiện giá trị của mình ở một hàng hóa A làm vật ngang giá chung. Hình thái tiền chỉ xuất hiện khi vật ngang giá chung được thống nhất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -690,12 +690,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Bản chất của tiền được giáo trình xác định như thế nào?",
     "options": [
-      "Một hàng hóa đặc biệt đóng vai trò vật ngang giá chung cho thế giới hàng hóa",
-      "Một ký hiệu do nhà nước tạo ra và hoàn toàn không liên quan đến hàng hóa",
       "Một giấy chứng nhận nợ chỉ dùng trong quan hệ tín dụng thương mại",
+      "Một ký hiệu do nhà nước tạo ra và hoàn toàn không liên quan đến hàng hóa",
+      "Một hàng hóa đặc biệt đóng vai trò vật ngang giá chung cho thế giới hàng hóa",
       "Một vật khan hiếm bất kỳ được cá nhân giữ lại để không trao đổi"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Tiền ra đời từ sự phát triển của sản xuất và trao đổi hàng hóa. Nó là hàng hóa đặc biệt được tách ra làm vật ngang giá chung và là hình thái biểu hiện giá trị của các hàng hóa khác.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -718,10 +718,10 @@
     "options": [
       "Thước đo giá trị",
       "Phương tiện cất trữ",
-      "Phương tiện lưu thông",
-      "Tiền tệ thế giới"
+      "Tiền tệ thế giới",
+      "Phương tiện lưu thông"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Tiền làm phương tiện lưu thông khi đóng vai trò môi giới trong trao đổi hàng hóa. Chức năng này đòi hỏi tiền thực tế tham gia giao dịch, khác với việc chỉ dùng tiền tưởng tượng để định giá.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -742,12 +742,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Một lượng tiền vàng đủ giá trị được rút khỏi lưu thông và giữ lại để dự trữ. Tiền đang thực hiện chức năng nào?",
     "options": [
-      "Thước đo giá trị",
       "Phương tiện cất trữ",
+      "Thước đo giá trị",
       "Phương tiện lưu thông",
       "Phương tiện thanh toán"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Tiền thực hiện chức năng cất trữ khi rút khỏi lưu thông để dự trữ và sẵn sàng quay lại lưu thông. Theo trình bày của giáo trình, tiền cất trữ phải có đủ giá trị như vàng hoặc bạc.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -768,12 +768,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Điểm khác nhau cơ bản giữa hình thái giá trị giản đơn và hình thái giá trị đầy đủ hay mở rộng là gì?",
     "options": [
-      "Giản đơn biểu hiện giá trị ở một hàng hóa khác; mở rộng biểu hiện ở nhiều hàng hóa khác",
       "Giản đơn dùng một vật ngang giá chung; mở rộng dùng một loại tiền vàng thống nhất",
+      "Giản đơn biểu hiện giá trị ở một hàng hóa khác; mở rộng biểu hiện ở nhiều hàng hóa khác",
       "Giản đơn trao đổi bằng tiền; mở rộng trở lại trao đổi trực tiếp có tính ngẫu nhiên",
       "Giản đơn có tỷ lệ cố định toàn quốc; mở rộng không xác lập bất kỳ tỷ lệ trao đổi nào"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Ở hình thái giản đơn, chẳng hạn 1A = 2B, giá trị A chỉ biểu hiện ở B. Khi trao đổi thường xuyên hơn, 1A có thể biểu hiện ở B, C, D và nhiều hàng hóa khác, tạo hình thái mở rộng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -796,10 +796,10 @@
     "options": [
       "Hình thái chung không cho phép bất kỳ hàng hóa nào đảm nhiệm vai trò vật ngang giá",
       "Hình thái chung chỉ xuất hiện sau khi tiền giấy đã được lưu hành phổ biến trên thị trường",
-      "Hình thái chung làm các hàng hóa mất toàn bộ giá trị sử dụng trong quá trình trao đổi",
-      "Vật ngang giá chung có thể khác nhau theo vùng; hình thái tiền thống nhất một vật ngang giá chung"
+      "Vật ngang giá chung có thể khác nhau theo vùng; hình thái tiền thống nhất một vật ngang giá chung",
+      "Hình thái chung làm các hàng hóa mất toàn bộ giá trị sử dụng trong quá trình trao đổi"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Ở hình thái chung, nhiều hàng hóa cùng biểu hiện giá trị ở một vật ngang giá nhưng vật đó có thể khác giữa các vùng. Thị trường mở rộng đòi hỏi một vật ngang giá chung thống nhất, dẫn tới hình thái tiền.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -821,11 +821,11 @@
     "stem": "Nhận định nào giải thích đúng quan hệ giữa giá trị và giá cả hàng hóa?",
     "options": [
       "Giá cả hoàn toàn tách khỏi giá trị và chỉ do người bán tùy ý quyết định trên thị trường",
-      "Giá cả biểu hiện giá trị bằng tiền nhưng còn biến động theo giá trị tiền và quan hệ cung - cầu",
       "Giá trị là hình thức bằng tiền của giá cả và luôn thay đổi theo mức giá được niêm yết",
+      "Giá cả biểu hiện giá trị bằng tiền nhưng còn biến động theo giá trị tiền và quan hệ cung - cầu",
       "Giá cả luôn bằng giá trị trong từng giao dịch, bất kể trạng thái cung và cầu"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Giá trị là cơ sở của giá cả, còn giá cả là biểu hiện bằng tiền của giá trị. Giá cả thực tế có thể lên xuống do giá trị hàng hóa, giá trị tiền và quan hệ cung - cầu.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -842,12 +842,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Một doanh nghiệp thanh toán khoản nợ mua chịu nguyên liệu khi đến hạn. Tiền đang thực hiện chức năng nào?",
     "options": [
-      "Thước đo giá trị",
-      "Phương tiện lưu thông",
       "Phương tiện thanh toán",
+      "Phương tiện lưu thông",
+      "Thước đo giá trị",
       "Phương tiện cất trữ"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Hàng đã được nhận trước và tiền được chi sau để hoàn tất nghĩa vụ nợ. Đây là chức năng phương tiện thanh toán gắn với mua bán chịu và tín dụng thương mại.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -868,12 +868,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một doanh nghiệp Việt Nam dùng đồng tiền được quốc tế công nhận để thanh toán hợp đồng nhập khẩu máy móc từ nước ngoài. Trong giao dịch này, tiền chủ yếu làm chức năng gì?",
     "options": [
-      "Tiền tệ thế giới",
+      "Phương tiện lưu thông",
       "Phương tiện cất trữ",
       "Thước đo giá trị",
-      "Phương tiện lưu thông"
+      "Tiền tệ thế giới"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Trao đổi đã vượt biên giới quốc gia và đồng tiền được dùng làm phương tiện thanh toán quốc tế. Đây là chức năng tiền tệ thế giới.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -942,12 +942,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Nền kinh tế thị trường là nền kinh tế như thế nào?",
     "options": [
-      "Nền kinh tế tự cấp, tự túc không có trao đổi giữa các chủ thể",
       "Nền kinh tế hàng hóa phát triển cao, vận hành theo cơ chế và các quy luật thị trường",
+      "Nền kinh tế tự cấp, tự túc không có trao đổi giữa các chủ thể",
       "Nền kinh tế trong đó mọi quan hệ đều do từng hộ tự quyết, không có thị trường",
       "Nền kinh tế chỉ tồn tại một hình thức sở hữu và một chủ thể sản xuất"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Kinh tế thị trường là giai đoạn phát triển cao của kinh tế hàng hóa. Các quan hệ sản xuất và trao đổi được thực hiện qua thị trường và chịu tác động, điều tiết của các quy luật thị trường.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -968,12 +968,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Một lô hàng có công dụng nhưng không tìm được người mua. Tình huống này cho thấy vai trò nào của thị trường chưa được thực hiện đối với lô hàng?",
     "options": [
-      "Làm môi trường thực hiện giá trị hàng hóa thông qua trao đổi",
-      "Tạo ra trực tiếp giá trị sử dụng vật chất của hàng hóa",
       "Quyết định thời gian lao động cá biệt mà doanh nghiệp đã hao phí",
+      "Tạo ra trực tiếp giá trị sử dụng vật chất của hàng hóa",
+      "Làm môi trường thực hiện giá trị hàng hóa thông qua trao đổi",
       "Xóa bỏ hoàn toàn khoảng cách giữa sản xuất và tiêu dùng"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Giá trị hàng hóa được thực hiện khi hàng được trao đổi trên thị trường. Lô hàng không bán được thì hao phí kết tinh chưa chuyển hóa thành tiền, nên giá trị chưa được thực hiện.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1020,12 +1020,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Phát biểu nào phù hợp với đặc trưng phổ biến của nền kinh tế thị trường?",
     "options": [
-      "Nguồn lực xã hội chủ yếu được phân bổ bằng mệnh lệnh hành chính của Nhà nước",
+      "Chủ thể và hình thức sở hữu đa dạng, các chủ thể bình đẳng trước pháp luật",
       "Giá cả được ấn định ngoài thị trường và cạnh tranh bị loại bỏ khỏi kinh doanh",
       "Thị trường trong nước vận hành biệt lập, không liên hệ với thị trường quốc tế",
-      "Chủ thể và hình thức sở hữu đa dạng, các chủ thể bình đẳng trước pháp luật"
+      "Nguồn lực xã hội chủ yếu được phân bổ bằng mệnh lệnh hành chính của Nhà nước"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Nền kinh tế thị trường có nhiều chủ thể và nhiều hình thức sở hữu cùng tồn tại; các chủ thể bình đẳng trước pháp luật. Nó còn có giá cả theo nguyên tắc thị trường, cạnh tranh và tính mở.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1072,12 +1072,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một nhà máy có lãi cao nhờ không xử lý nước thải, trong khi thiệt hại môi trường do cộng đồng gánh chịu. Tình huống này minh họa nhận định nào?",
     "options": [
-      "Động cơ lợi nhuận có thể gây ô nhiễm mà cơ chế thị trường không tự khắc phục",
       "Cạnh tranh luôn buộc mọi doanh nghiệp tự nguyện chịu toàn bộ chi phí môi trường",
+      "Động cơ lợi nhuận có thể gây ô nhiễm mà cơ chế thị trường không tự khắc phục",
       "Giá bán có lãi chứng minh doanh nghiệp đã tính đủ và tối ưu mọi chi phí xã hội",
       "Kinh tế tự cấp, tự túc là nguyên nhân trực tiếp và duy nhất của mọi ô nhiễm"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Do theo đuổi lợi nhuận tối đa, chủ thể có thể chuyển chi phí môi trường sang xã hội. Đây là một khuyết tật mà bản thân cơ chế thị trường không tự sửa chữa được.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1124,12 +1124,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Quy luật cung - cầu trực tiếp điều tiết mối quan hệ nào trên thị trường?",
     "options": [
-      "Quan hệ giữa hao phí lao động cá biệt và hao phí lao động xã hội",
-      "Quan hệ giữa lượng tiền phát hành và tốc độ lưu thông tiền",
       "Quan hệ giữa bên bán cung ứng và bên mua có nhu cầu về hàng hóa",
+      "Quan hệ giữa lượng tiền phát hành và tốc độ lưu thông tiền",
+      "Quan hệ giữa hao phí lao động cá biệt và hao phí lao động xã hội",
       "Quan hệ ganh đua giữa các chủ thể để giành lợi ích tối đa"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Cung đại diện cho bên bán và cầu đại diện cho bên mua. Quy luật cung - cầu điều tiết quan hệ hữu cơ giữa hai phía và qua đó ảnh hưởng trực tiếp đến giá cả, quy mô và cơ cấu thị trường.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1150,12 +1150,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Quy luật cạnh tranh điều tiết khách quan quan hệ nào?",
     "options": [
-      "Quan hệ ganh đua giữa các chủ thể trong sản xuất và trao đổi hàng hóa",
-      "Quan hệ quy đổi lao động phức tạp thành một bội số của lao động giản đơn",
       "Quan hệ giữa tiền được cất trữ và tiền đang dùng để đo lường giá trị",
+      "Quan hệ quy đổi lao động phức tạp thành một bội số của lao động giản đơn",
+      "Quan hệ ganh đua giữa các chủ thể trong sản xuất và trao đổi hàng hóa",
       "Quan hệ phân phối sản phẩm trực tiếp trong nền kinh tế tự cấp, tự túc"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Cạnh tranh là sự ganh đua nhằm giành ưu thế trong sản xuất, tiêu thụ và thu lợi ích tối đa. Khi tham gia thị trường, các chủ thể vừa hợp tác vừa phải chấp nhận cạnh tranh.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1177,11 +1177,11 @@
     "stem": "Một doanh nghiệp cải tiến kỹ thuật làm giá trị cá biệt thấp hơn giá trị xã hội, trong khi hàng vẫn được bán quanh giá trị xã hội. Hệ quả phù hợp với quy luật giá trị là gì?",
     "options": [
       "Doanh nghiệp buộc phải bán đúng bằng mức hao phí cá biệt thấp hơn của mình",
-      "Doanh nghiệp có lợi thế thu nhập, qua đó kích thích các chủ thể khác tăng năng suất",
+      "Quan hệ cung - cầu không còn ảnh hưởng đến sự vận động của giá cả",
       "Thời gian lao động xã hội cần thiết tự động tăng lên bằng mức của doanh nghiệp",
-      "Quan hệ cung - cầu không còn ảnh hưởng đến sự vận động của giá cả"
+      "Doanh nghiệp có lợi thế thu nhập, qua đó kích thích các chủ thể khác tăng năng suất"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Hàng hóa trao đổi theo giá trị xã hội nên chủ thể có giá trị cá biệt thấp hơn thu được lợi thế. Sức ép đó thúc đẩy cải tiến kỹ thuật, quản lý và tăng năng suất trong toàn ngành.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1203,11 +1203,11 @@
     "stem": "Nhận định nào phân biệt đúng kết quả của cạnh tranh trong nội bộ ngành với mục đích của cạnh tranh giữa các ngành?",
     "options": [
       "Nội bộ ngành nhằm tìm nơi đầu tư có lợi; giữa các ngành hình thành giá trị thị trường của hàng hóa",
-      "Cả hai loại cạnh tranh chỉ hình thành giá trị thị trường và không làm dịch chuyển nguồn lực",
+      "Nội bộ ngành góp phần hình thành giá trị thị trường; giữa các ngành tìm nơi đầu tư có lợi nhất",
       "Nội bộ ngành di chuyển nguồn lực sang ngành khác; giữa các ngành hạ giá trị cá biệt cùng mặt hàng",
-      "Nội bộ ngành góp phần hình thành giá trị thị trường; giữa các ngành tìm nơi đầu tư có lợi nhất"
+      "Cả hai loại cạnh tranh chỉ hình thành giá trị thị trường và không làm dịch chuyển nguồn lực"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Cạnh tranh nội bộ ngành giữa những người làm cùng loại hàng hóa góp phần hình thành giá trị thị trường. Cạnh tranh giữa các ngành nhằm tìm nơi đầu tư có lợi nhất bằng cách di chuyển nguồn lực.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1230,10 +1230,10 @@
     "options": [
       "Cung lớn hơn cầu và giá cả giảm xuống dưới giá trị",
       "Cung bằng cầu và giá cả luôn giữ đúng bằng giá trị",
-      "Cung nhỏ hơn cầu và giá cả có xu hướng cao hơn giá trị",
-      "Cầu tự động mất đi nên giá cả không chịu bất kỳ tác động nào"
+      "Cầu tự động mất đi nên giá cả không chịu bất kỳ tác động nào",
+      "Cung nhỏ hơn cầu và giá cả có xu hướng cao hơn giá trị"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Nguồn cung giảm trong khi cầu giữ nguyên làm cung nhỏ hơn cầu. Theo quan hệ được giáo trình nêu, tình trạng này gây sức ép để giá cả cao hơn giá trị.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1255,11 +1255,11 @@
     "stem": "Trong một thời kỳ, tổng mức giá nhân với khối lượng hàng hóa, dịch vụ lưu thông là 900 tỷ đồng; mỗi đồng tiền quay 6 vòng. Theo công thức M = P.Q/V, cần bao nhiêu tiền cho lưu thông?",
     "options": [
       "5.400 tỷ đồng",
-      "150 tỷ đồng",
       "900 tỷ đồng",
+      "150 tỷ đồng",
       "6 tỷ đồng"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Áp dụng M = P.Q/V: M = 900/6 = 150 tỷ đồng. Tốc độ lưu thông càng cao thì lượng tiền cần thiết càng nhỏ khi tổng giá cả không đổi.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1302,12 +1302,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Người sản xuất tham gia thị trường với vai trò cơ bản nào?",
     "options": [
-      "Mua hàng hóa, dịch vụ để thỏa mãn nhu cầu tiêu dùng và định hướng sản xuất",
-      "Kết nối thông tin, làm cầu nối giữa người sản xuất và người tiêu dùng",
       "Sử dụng đầu vào để sản xuất, cung cấp hàng hóa, dịch vụ và tìm kiếm lợi nhuận",
+      "Kết nối thông tin, làm cầu nối giữa người sản xuất và người tiêu dùng",
+      "Mua hàng hóa, dịch vụ để thỏa mãn nhu cầu tiêu dùng và định hướng sản xuất",
       "Quản lý kinh tế, tạo môi trường và khắc phục các khuyết tật của thị trường"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Người sản xuất gồm các nhà sản xuất, đầu tư và kinh doanh sử dụng đầu vào để cung cấp hàng hóa, dịch vụ. Họ hướng tới lợi nhuận nhưng đồng thời phải có trách nhiệm với con người và xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1380,12 +1380,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một thị trường xuất hiện ô nhiễm kéo dài và doanh nghiệp không tự nguyện khắc phục vì chi phí lớn. Giải pháp nào đúng với vai trò kinh tế của Nhà nước trong giáo trình?",
     "options": [
-      "Không can thiệp vì thị trường tự khắc phục chắc chắn mọi thiệt hại môi trường",
       "Dùng pháp luật và công cụ kinh tế để xử lý khuyết tật, đồng thời tạo môi trường kinh doanh",
+      "Không can thiệp vì thị trường tự khắc phục chắc chắn mọi thiệt hại môi trường",
       "Đình chỉ vĩnh viễn mọi hoạt động sản xuất, kể cả cơ sở đáp ứng tiêu chuẩn môi trường",
       "Thay thế thị trường bằng việc ấn định toàn bộ quyết định sản xuất của từng doanh nghiệp"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nhà nước vừa tạo lập môi trường thuận lợi cho hoạt động kinh tế, vừa dùng pháp luật, chính sách và công cụ kinh tế để sửa chữa khuyết tật thị trường. Can thiệp không đồng nghĩa thay thế hoàn toàn thị trường.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1395,6 +1395,774 @@
         "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
         "number": 37
       }
+    }
+  },
+  {
+    "id": "C02-Q056",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tính lịch sử của giá trị hàng hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phạm trù giá trị hàng hóa tồn tại trong điều kiện lịch sử nào?",
+    "options": [
+      "Khi con người tạo ra mọi sản phẩm có công dụng, kể cả để tự sử dụng",
+      "Khi xã hội có phân công lao động, dù sản phẩm không được trao đổi",
+      "Khi nhà nước phát hành tiền và trực tiếp quy định mọi mức giá",
+      "Khi có sản xuất và trao đổi hàng hóa giữa các chủ thể"
+    ],
+    "answer": 3,
+    "explanation": "Giá trị không phải thuộc tính tồn tại trong mọi sản phẩm lao động. Đây là phạm trù lịch sử, chỉ xuất hiện khi sản phẩm được sản xuất và trao đổi dưới hình thức hàng hóa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 33,
+      "text": "Giá trị hàng hóa là phạm trù có tính lịch sử; khi có sản xuất và trao đổi hàng hóa thì có phạm trù giá trị hàng hóa."
+    }
+  },
+  {
+    "id": "C02-Q057",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Cấu thành lượng giá trị hàng hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Xét về cấu thành, lượng giá trị của một đơn vị hàng hóa gồm những bộ phận nào?",
+    "options": [
+      "Giá trị cá biệt của cơ sở và giá trị xã hội được thị trường chấp nhận",
+      "Giá trị sử dụng cho cá nhân và giá trị sử dụng cho hoạt động sản xuất",
+      "Chi phí lưu thông của người bán và chênh lệch do cung - cầu tạo ra",
+      "Lao động quá khứ trong vật tư và lao động mới kết tinh thêm"
+    ],
+    "answer": 3,
+    "explanation": "Lượng giá trị của một đơn vị hàng hóa gồm lao động quá khứ chứa trong vật tư, nguyên nhiên liệu đã tiêu dùng và lao động mới của người sản xuất kết tinh thêm vào sản phẩm.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 37,
+      "text": "Lượng giá trị một đơn vị hàng hóa bao hàm hao phí lao động quá khứ trong vật tư, nguyên nhiên liệu và hao phí lao động mới kết tinh thêm."
+    }
+  },
+  {
+    "id": "C02-Q058",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Các nhân tố ảnh hưởng đến năng suất lao động",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm yếu tố nào được giáo trình nêu là các nhân tố ảnh hưởng đến năng suất lao động?",
+    "options": [
+      "Sức khỏe, tâm lý, kỷ luật lao động, nhịp độ thao tác và thời gian nghỉ ngơi",
+      "Tay nghề, công nghệ, tổ chức, tư liệu sản xuất và điều kiện tự nhiên",
+      "Mức lương, giá đất, tín dụng, thuế, lợi nhuận và phương thức thanh toán",
+      "Cung hàng hóa, cầu thị trường, giá cả, cạnh tranh và tốc độ lưu thông tiền"
+    ],
+    "answer": 1,
+    "explanation": "Năng suất chịu ảnh hưởng của trình độ khéo léo trung bình, khoa học và mức độ áp dụng công nghệ, sự kết hợp xã hội của sản xuất, quy mô và hiệu suất tư liệu sản xuất cùng các điều kiện tự nhiên.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 38,
+      "text": "Các nhân tố của năng suất gồm trình độ người lao động, khoa học - công nghệ, sự kết hợp sản xuất, tư liệu sản xuất và điều kiện tự nhiên."
+    }
+  },
+  {
+    "id": "C02-Q059",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tính khách quan của sản xuất hàng hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một cơ quan muốn dùng mệnh lệnh xóa bỏ sản xuất hàng hóa dù phân công lao động xã hội và sự tách biệt kinh tế vẫn tồn tại. Vì sao chủ trương này không phù hợp?",
+    "options": [
+      "Vì các điều kiện khách quan vẫn tồn tại; xóa bỏ bằng ý chí có thể dẫn tới khan hiếm, khủng hoảng",
+      "Vì tiền tệ là điều kiện duy nhất, nên muốn xóa sản xuất hàng hóa phải ngừng mọi thanh toán",
+      "Vì mọi sản phẩm có công dụng đều là hàng hóa, kể cả vật tự nhiên hoặc sản phẩm chỉ để tự dùng",
+      "Vì phân công lao động làm mỗi chủ thể tự sản xuất đủ sản phẩm và không còn nhu cầu trao đổi"
+    ],
+    "answer": 0,
+    "explanation": "Phân công lao động xã hội và sự tách biệt kinh tế là các điều kiện khách quan. Khi chúng vẫn tồn tại, ý chí chủ quan không thể xóa bỏ sản xuất hàng hóa; cố tình xóa bỏ có thể dẫn tới khan hiếm và khủng hoảng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 31,
+      "text": "Khi phân công lao động và sự tách biệt kinh tế còn tồn tại, con người không thể dùng ý chí chủ quan xóa bỏ sản xuất hàng hóa; cố tình xóa bỏ sẽ dẫn tới khan hiếm và khủng hoảng."
+    }
+  },
+  {
+    "id": "C02-Q060",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tính tương đối của vai trò sản xuất và tiêu dùng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao việc phân chia người sản xuất và người tiêu dùng trên thị trường chỉ mang tính tương đối?",
+    "options": [
+      "Vai trò chủ thể do nhà nước ấn định, không phụ thuộc giao dịch",
+      "Mọi người tiêu dùng đều trực tiếp sản xuất toàn bộ hàng hóa họ mua",
+      "Người sản xuất chỉ mua, còn người tiêu dùng chỉ bán trong mọi giao dịch",
+      "Doanh nghiệp vừa là người mua đầu vào, vừa là người bán sản phẩm đầu ra"
+    ],
+    "answer": 3,
+    "explanation": "Cách phân chia nhằm làm rõ chức năng chính trong từng quan hệ. Trên thực tế, cùng một doanh nghiệp mua yếu tố đầu vào và đồng thời bán sản phẩm đầu ra nên có thể giữ cả hai vai trò.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 69,
+      "text": "Việc phân chia người sản xuất và người tiêu dùng chỉ có tính tương đối; doanh nghiệp luôn vừa là người mua, vừa là người bán."
+    }
+  },
+  {
+    "id": "C02-Q061",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Phát hiện giá trị sử dụng mới",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một vật liệu đã được sản xuất từ lâu, nay được nghiên cứu khoa học phát hiện thêm công dụng lọc nước. Tình huống này minh họa nhận định nào về giá trị sử dụng?",
+    "options": [
+      "Mỗi sản phẩm chỉ có những công dụng được biết tại thời điểm bắt đầu sản xuất",
+      "Sự phát triển khoa học - công nghệ giúp phát hiện thêm giá trị sử dụng của sản phẩm",
+      "Trao đổi trên thị trường tự tạo ra công dụng mới mà không cần hoạt động nghiên cứu",
+      "Giá trị sử dụng mới chỉ xuất hiện sau khi nhà nước quy định giá bán của sản phẩm"
+    ],
+    "answer": 1,
+    "explanation": "Giá trị sử dụng là công dụng có thể thỏa mãn nhu cầu. Khi khoa học - công nghệ phát triển, con người có thể nhận biết thêm những công dụng của sản phẩm mà trước đó chưa được khai thác.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 32,
+      "text": "Nền sản xuất và khoa học - công nghệ càng phát triển càng giúp con người phát hiện thêm các giá trị sử dụng của sản phẩm."
+    }
+  },
+  {
+    "id": "C02-Q062",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tiền làm thước đo giá trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điều kiện nào gắn với việc tiền thực hiện chức năng thước đo giá trị?",
+    "options": [
+      "Tiền phải hiện diện dưới dạng tiền mặt và chuyển giao đồng thời với hàng hóa",
+      "Bản thân tiền phải có giá trị, còn khi định giá chỉ cần lượng tiền tưởng tượng",
+      "Tiền phải được rút hoàn toàn khỏi lưu thông để giữ nguyên dưới dạng dự trữ",
+      "Tiền phải là đồng tiền quốc tế được mọi quốc gia công nhận để thanh toán"
+    ],
+    "answer": 1,
+    "explanation": "Tiền đo và biểu hiện giá trị của hàng hóa khác nên bản thân nó phải có giá trị. Khi định giá, không cần tiền mặt hiện diện mà chỉ cần so sánh với một lượng tiền trong tưởng tượng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 42,
+      "text": "Muốn làm thước đo giá trị, bản thân tiền phải có giá trị; việc đo lường chỉ cần một lượng tiền tưởng tượng.",
+      "slide": {
+        "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
+        "number": 17
+      }
+    }
+  },
+  {
+    "id": "C02-Q063",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tiền làm phương tiện lưu thông",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao tiền làm phương tiện lưu thông vừa giúp trao đổi thuận lợi, vừa chứa khả năng khủng hoảng?",
+    "options": [
+      "Vì tiền môi giới trao đổi nhưng tách hành vi bán và mua về không gian, thời gian",
+      "Vì tiền xóa bỏ hành vi mua và bán, khiến hàng hóa không cần đi qua thị trường",
+      "Vì tiền chỉ đo giá trị trong tưởng tượng nên không thể xuất hiện trong giao dịch thực tế",
+      "Vì tiền buộc mọi khoản mua chịu phải được thanh toán ngay tại thời điểm nhận hàng"
+    ],
+    "answer": 0,
+    "explanation": "Tiền làm môi giới giúp quá trình mua bán thuận lợi hơn. Tuy nhiên, nó cho phép bán mà chưa mua hoặc mua ở nơi và lúc khác, nên sự tách rời giữa hai hành vi có thể chứa khả năng khủng hoảng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 43,
+      "text": "Tiền làm phương tiện lưu thông giúp trao đổi thuận lợi nhưng làm hành vi mua và bán tách rời về không gian, thời gian, nên có thể tiềm ẩn khủng hoảng."
+    }
+  },
+  {
+    "id": "C02-Q064",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tác dụng của tiền cất trữ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trong chế độ tiền vàng đủ giá trị, sự vận động nào cho thấy tiền cất trữ dự trữ cho lưu thông?",
+    "options": [
+      "Hàng hóa tăng thì tiền rút khỏi lưu thông; hàng hóa giảm thì tiền cất trữ đi vào lưu thông",
+      "Hàng hóa tăng hay giảm đều khiến toàn bộ tiền cất trữ nằm ngoài lưu thông vĩnh viễn",
+      "Hàng hóa tăng: tiền cất trữ vào lưu thông; hàng hóa giảm: một phần tiền rút ra cất trữ",
+      "Hàng hóa tăng thì nhà nước xóa tiền cất trữ; hàng hóa giảm thì phát hành tiền không giới hạn"
+    ],
+    "answer": 2,
+    "explanation": "Tiền cất trữ là phần dự trữ sẵn sàng cho lưu thông. Khi lượng hàng hóa tăng, tiền được đưa trở lại lưu thông; khi sản xuất và lượng hàng giảm, một phần tiền vàng rút ra để cất trữ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 44,
+      "text": "Tiền cất trữ dự trữ cho lưu thông: hàng hóa tăng thì tiền đi vào lưu thông, hàng hóa giảm thì một phần tiền vàng rút ra cất trữ."
+    }
+  },
+  {
+    "id": "C02-Q065",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Trao đổi thương hiệu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, cơ sở để một thương hiệu có thể hình thành và có giá cả cao là gì?",
+    "options": [
+      "Nỗ lực lao động gắn với hoạt động sản xuất hàng hóa, dịch vụ có thực",
+      "Việc đăng ký tên gọi, dù doanh nghiệp chưa có hoạt động kinh doanh thực",
+      "Sự đầu cơ tên gọi, hoàn toàn tách khỏi chất lượng hàng hóa và dịch vụ",
+      "Quyết định hành chính, không liên quan đến uy tín tích lũy trên thị trường"
+    ],
+    "answer": 0,
+    "explanation": "Thương hiệu hay danh tiếng là kết quả nỗ lực và hao phí sức lao động của một hoặc nhiều người. Thương hiệu có giá cao phải được hình thành trên cơ sở hoạt động sản xuất hàng hóa, dịch vụ có thực.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 47,
+      "text": "Thương hiệu là kết quả nỗ lực lao động và chỉ có thể hình thành dựa trên sản xuất hàng hóa, dịch vụ có thực."
+    }
+  },
+  {
+    "id": "C02-Q066",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Chuyển nhượng cầu thủ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận thức nào phù hợp với quan hệ chuyển nhượng một cầu thủ tài năng giữa hai câu lạc bộ?",
+    "options": [
+      "Mua quyền sở hữu cầu thủ; giá phản ánh khối lượng vật chất của cơ thể",
+      "Mua quyền sử dụng sân bóng; giá phản ánh vị trí đất và tốc độ đô thị hóa",
+      "Mua sức lao động đá bóng; giá phản ánh tài năng khan hiếm và lợi ích kỳ vọng",
+      "Mua giấy tờ phái sinh; giá phản ánh lãi suất và số vòng lưu thông của tiền"
+    ],
+    "answer": 2,
+    "explanation": "Câu lạc bộ nhận chuyển nhượng mua sức lao động để cầu thủ thi đấu, không mua con người như một vật. Mức giá còn chịu tác động của tài năng khan hiếm và lợi ích mà câu lạc bộ kỳ vọng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 47,
+      "text": "Các câu lạc bộ mua bán sức lao động đá bóng; giá chuyển nhượng cao do tài năng khan hiếm và lợi ích kỳ vọng từ cầu thủ."
+    }
+  },
+  {
+    "id": "C02-Q067",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Chứng khoán và chứng quyền",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao giáo trình xem chứng khoán, chứng quyền là yếu tố có tính hàng hóa phái sinh chứ không phải hàng hóa thông thường?",
+    "options": [
+      "Vì chúng không thể trao đổi, không có giá cả và không mang lại thu nhập",
+      "Vì việc mua bán chúng phải dựa trên một tổ chức sản xuất, kinh doanh có thực",
+      "Vì chúng là sản phẩm tự nhiên dùng trực tiếp để thỏa mãn nhu cầu cá nhân",
+      "Vì chúng chỉ được phát hành dưới dạng tiền vàng làm vật ngang giá chung"
+    ],
+    "answer": 1,
+    "explanation": "Chứng khoán, chứng quyền có thể mua bán và mang lại thu nhập, nhưng sự tồn tại của chúng phải dựa trên một tổ chức sản xuất, kinh doanh có thực. Vì vậy, chúng là yếu tố phái sinh có tính hàng hóa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 48,
+      "text": "Chứng khoán, chứng quyền là yếu tố phái sinh có tính hàng hóa; việc mua bán phải dựa trên một tổ chức sản xuất, kinh doanh có thực."
+    }
+  },
+  {
+    "id": "C02-Q068",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Giá cả chứng khoán và của cải xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Giá cổ phiếu tăng mạnh, một nhà đầu tư kết luận riêng việc mua đi bán lại cổ phiếu đã làm toàn xã hội giàu thêm đúng bằng phần giá tăng. Đánh giá nào phù hợp nhất?",
+    "options": [
+      "Kết luận đúng; mọi khoản tiền người bán thu thêm đều là giá trị mới của toàn xã hội",
+      "Sai; giá phản ánh lợi ích kỳ vọng, còn của cải xã hội dựa trên sản xuất có thực",
+      "Kết luận đúng; cổ phiếu là hàng hóa thông thường chứa lao động đúng bằng giá thị trường",
+      "Kết luận sai; cổ phiếu không thể mua bán và không thể mang lại thu nhập cho bất kỳ ai"
+    ],
+    "answer": 1,
+    "explanation": "Giá chứng khoán phản ánh lợi ích kỳ vọng và giao dịch có thể chuyển tiền giữa các chủ thể, nhưng không tự tạo ra lượng của cải tương ứng cho toàn xã hội. Sự giàu có xã hội phải dựa trên nền sản xuất có thực.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 49,
+      "text": "Giá chứng khoán phản ánh lợi ích kỳ vọng; toàn xã hội không thể giàu có chỉ bằng buôn bán chứng khoán mà phải dựa trên sản xuất có thực."
+    }
+  },
+  {
+    "id": "C02-Q069",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Phân loại thị trường",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Căn cứ vào vai trò của các yếu tố được trao đổi, mua bán, thị trường được chia thành cặp nào?",
+    "options": [
+      "Thị trường tư liệu tiêu dùng và tư liệu sản xuất",
+      "Thị trường trong phạm vi quốc gia và thị trường thế giới",
+      "Thị trường tự do và thị trường có điều tiết",
+      "Thị trường hàng hóa và thị trường dịch vụ"
+    ],
+    "answer": 0,
+    "explanation": "Vai trò của yếu tố được trao đổi là căn cứ để phân biệt tư liệu tiêu dùng với tư liệu sản xuất. Ba cặp còn lại lần lượt dựa trên đối tượng, phạm vi và tính chất vận hành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 51,
+      "text": "Theo vai trò của yếu tố được trao đổi, có thị trường tư liệu tiêu dùng và thị trường tư liệu sản xuất.",
+      "slide": {
+        "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
+        "number": 22
+      }
+    }
+  },
+  {
+    "id": "C02-Q070",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Trách nhiệm của người tiêu dùng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ngoài việc thỏa mãn nhu cầu cá nhân, người tiêu dùng cần thực hiện trách nhiệm nào?",
+    "options": [
+      "Chỉ chọn hàng rẻ nhất, không cần xét ảnh hưởng xã hội của hành vi tiêu dùng",
+      "Quyết định thay người sản xuất mọi yếu tố đầu vào và phương pháp sản xuất",
+      "Quan tâm tới sự phát triển bền vững của xã hội trong lựa chọn và tiêu dùng",
+      "Ấn định bắt buộc giá bán và sản lượng cho tất cả doanh nghiệp trên thị trường"
+    ],
+    "answer": 2,
+    "explanation": "Người tiêu dùng không chỉ thỏa mãn nhu cầu riêng. Lựa chọn tiêu dùng của họ còn định hướng sản xuất, vì vậy họ cần có trách nhiệm đối với sự phát triển bền vững của xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 69,
+      "text": "Ngoài việc thỏa mãn nhu cầu, người tiêu dùng cần có trách nhiệm đối với sự phát triển bền vững của xã hội."
+    }
+  },
+  {
+    "id": "C02-Q071",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Quan hệ giữa mở rộng thị trường và phát triển sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao sự mở rộng thị trường vừa là yêu cầu, vừa trở thành động lực trở lại đối với sản xuất hàng hóa?",
+    "options": [
+      "Vì nhiều hàng hóa cần thị trường rộng; thị trường rộng lại thúc đẩy sản xuất",
+      "Vì sản xuất càng phát triển thì hàng hóa càng ít, nên thị trường tiêu thụ phải thu hẹp",
+      "Vì thị trường trực tiếp tạo ra sản phẩm mà không cần hoạt động sản xuất của các chủ thể",
+      "Vì mở rộng thị trường xóa bỏ trao đổi, khiến sản xuất quay về tự cấp, tự túc"
+    ],
+    "answer": 0,
+    "explanation": "Sản xuất phát triển tạo ra nhiều hàng hóa, dịch vụ nên cần thị trường tiêu thụ rộng hơn. Đến lượt mình, thị trường mở rộng làm tăng khả năng thực hiện giá trị và thúc đẩy sản xuất tiếp tục phát triển.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 52,
+      "text": "Sản xuất càng phát triển càng cần thị trường tiêu thụ rộng; sự mở rộng thị trường đến lượt nó lại thúc đẩy sản xuất phát triển."
+    }
+  },
+  {
+    "id": "C02-Q072",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Cơ chế thị trường",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thuật ngữ “cơ chế thị trường” chỉ phương thức vận hành nào?",
+    "options": [
+      "Hệ thống mệnh lệnh hành chính phân phối trực tiếp mọi sản phẩm cho các hộ gia đình",
+      "Phương thức tự cấp, tự túc giúp từng chủ thể tách khỏi mọi quan hệ trao đổi",
+      "Quy tắc phát hành tiền dùng để thay thế toàn bộ quan hệ cung, cầu và cạnh tranh",
+      "Hệ thống quan hệ tự điều chỉnh theo các quy luật kinh tế và phân bổ các nguồn lực"
+    ],
+    "answer": 3,
+    "explanation": "Cơ chế thị trường là hệ thống quan hệ có khả năng tự điều chỉnh theo yêu cầu của các quy luật kinh tế. Nó là phương thức cơ bản để phân phối và sử dụng các nguồn lực trong kinh tế thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 53,
+      "text": "Cơ chế thị trường là hệ thống quan hệ tự điều chỉnh theo các quy luật kinh tế và là phương thức cơ bản để phân phối, sử dụng nguồn lực.",
+      "slide": {
+        "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
+        "number": 24
+      }
+    }
+  },
+  {
+    "id": "C02-Q073",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Vai trò thông tin và định hướng của thị trường",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một doanh nghiệp điều chỉnh cơ cấu sản phẩm sau khi quan sát nhu cầu và tín hiệu mua bán. Điều này thể hiện vai trò nào của thị trường?",
+    "options": [
+      "Trực tiếp tạo ra công dụng vật chất của sản phẩm thay cho người sản xuất",
+      "Nối sản xuất với tiêu dùng và cung cấp thông tin định hướng kinh doanh",
+      "Quy định thời gian lao động cá biệt mà từng doanh nghiệp phải hao phí",
+      "Xóa bỏ mọi khác biệt giữa nhu cầu của người mua và kế hoạch của người bán"
+    ],
+    "answer": 1,
+    "explanation": "Thị trường nối sản xuất với tiêu dùng và truyền tín hiệu về nhu cầu. Doanh nghiệp dựa vào thông tin đó để điều chỉnh sản phẩm, nên thị trường thực hiện vai trò thông tin và định hướng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 52,
+      "text": "Thị trường là cầu nối giữa sản xuất và tiêu dùng, có vai trò thông tin và định hướng cho nhu cầu sản xuất kinh doanh."
+    }
+  },
+  {
+    "id": "C02-Q074",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Vai trò liên kết kinh tế của thị trường",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Các quan hệ sản xuất, lưu thông, phân phối và tiêu dùng trong nước kết nối với những quan hệ tương ứng ở nước ngoài qua trao đổi. Vai trò nào của thị trường được thể hiện?",
+    "options": [
+      "Giới hạn hoạt động kinh tế trong phạm vi từng địa phương của một quốc gia",
+      "Gắn kinh tế quốc gia với kinh tế thế giới qua các quan hệ liên thông",
+      "Tách thị trường trong nước khỏi biến động và nhu cầu của thị trường quốc tế",
+      "Thay thế mọi quan hệ sản xuất bằng hoạt động thanh toán tiền tệ quốc tế"
+    ],
+    "answer": 1,
+    "explanation": "Thị trường làm cho các khâu của nền kinh tế không bó hẹp trong phạm vi quốc gia mà kết nối với các quan hệ trên phạm vi thế giới. Đây là vai trò gắn kết kinh tế quốc gia với kinh tế thế giới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 53,
+      "text": "Thị trường kết nối các quan hệ sản xuất, lưu thông, phân phối, tiêu dùng trong nước với các quan hệ trên phạm vi thế giới.",
+      "slide": {
+        "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
+        "number": 23
+      }
+    }
+  },
+  {
+    "id": "C02-Q075",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Sự hình thành kinh tế thị trường",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trình tự phát triển khách quan nào dẫn tới sự hình thành nền kinh tế thị trường?",
+    "options": [
+      "Kinh tế thị trường, kinh tế hàng hóa, rồi kinh tế tự nhiên tự túc",
+      "Kinh tế kế hoạch hóa, kinh tế tự nhiên, rồi kinh tế hàng hóa giản đơn",
+      "Kinh tế tự nhiên tự túc, kinh tế hàng hóa, rồi kinh tế thị trường",
+      "Kinh tế tiền giấy, kinh tế trao đổi trực tiếp, rồi kinh tế tự cấp tự túc"
+    ],
+    "answer": 2,
+    "explanation": "Kinh tế thị trường hình thành khách quan trong lịch sử: kinh tế tự nhiên, tự túc phát triển thành kinh tế hàng hóa, rồi kinh tế hàng hóa phát triển cao thành kinh tế thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 54,
+      "text": "Sự hình thành kinh tế thị trường đi từ kinh tế tự nhiên, tự túc đến kinh tế hàng hóa, rồi từ kinh tế hàng hóa phát triển thành kinh tế thị trường."
+    }
+  },
+  {
+    "id": "C02-Q076",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Đặc điểm của hàng khuyến dụng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo Hộp 2.1, vì sao y tế và giáo dục được xếp vào nhóm hàng khuyến dụng?",
+    "options": [
+      "Vì đó là hàng mà một người dùng xong thì người khác không thể dùng",
+      "Vì đó là hàng mà một người dùng không làm giảm khả năng dùng của người khác",
+      "Vì xã hội chỉ khuyến khích người có thu nhập cao tiếp nhận các hàng hóa ấy",
+      "Vì xã hội cho rằng mọi người nên được tiếp nhận, bất kể mức thu nhập"
+    ],
+    "answer": 3,
+    "explanation": "Hàng khuyến dụng là những hàng hóa mà xã hội cho rằng người dân nên tiêu dùng hoặc tiếp nhận dù thu nhập ở mức nào. Y tế và giáo dục thuộc nhóm này; tiêu chí đó khác với khả năng cùng sử dụng của hàng hóa công cộng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 34,
+      "text": "Hàng khuyến dụng là hàng hóa xã hội cho rằng người dân nên tiêu dùng hoặc tiếp nhận dù thu nhập ở mức nào; y tế và giáo dục là những ví dụ."
+    }
+  },
+  {
+    "id": "C02-Q077",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Ưu thế phát huy tiềm năng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ưu thế nào của kinh tế thị trường gắn trực tiếp với việc biến lợi thế của chủ thể, vùng và quốc gia thành lợi ích xã hội?",
+    "options": [
+      "Thúc đẩy xu hướng cạn kiệt tài nguyên và suy thoái môi trường",
+      "Làm xuất hiện thường xuyên các rủi ro khủng hoảng trên thị trường",
+      "Phát huy tiềm năng của các chủ thể, vùng miền và lợi thế quốc gia",
+      "Làm sâu sắc phân hóa thu nhập và cơ hội giữa các nhóm xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Nhờ vai trò gắn kết của thị trường, tiềm năng và lợi thế của từng thành viên, vùng miền và quốc gia có điều kiện chuyển hóa thành lợi ích đóng góp cho xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 56,
+      "text": "Kinh tế thị trường phát huy tiềm năng của mọi chủ thể, vùng miền và lợi thế quốc gia, biến chúng thành lợi ích đóng góp cho xã hội.",
+      "slide": {
+        "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt",
+        "number": 26
+      }
+    }
+  },
+  {
+    "id": "C02-Q078",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Khuyết tật trong cung ứng lĩnh vực thiết yếu",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một lĩnh vực thiết yếu cần vốn lớn, thời gian thu hồi dài và lợi nhuận kỳ vọng thấp nên ít doanh nghiệp muốn đầu tư. Tình huống này cho thấy khuyết tật nào?",
+    "options": [
+      "Thị trường luôn tự phân bổ đủ nguồn lực cho mọi lĩnh vực thiết yếu của xã hội",
+      "Hàng hóa thiết yếu không có giá trị sử dụng nên không thể trở thành đối tượng đầu tư",
+      "Nhu cầu xã hội mất hoàn toàn vai trò khi quy mô đầu tư của dự án tăng lên",
+      "Động cơ lợi nhuận khiến lĩnh vực thiết yếu ít sinh lợi không được cung ứng đầy đủ"
+    ],
+    "answer": 3,
+    "explanation": "Chủ thể kinh doanh theo đuổi lợi nhuận có thể không đầu tư vào lĩnh vực thiết yếu nếu lợi nhuận thấp, rủi ro cao, vốn lớn và thu hồi chậm. Cơ chế thị trường không tự khắc phục được thiếu hụt này.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 58,
+      "text": "Chủ thể có thể không tham gia lĩnh vực thiết yếu nếu lợi nhuận thấp, rủi ro cao, đầu tư lớn và thu hồi vốn dài; thị trường không tự khắc phục được."
+    }
+  },
+  {
+    "id": "C02-Q079",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Kinh tế thị trường có điều tiết",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao trong thực tế không tồn tại một nền kinh tế thị trường thuần túy?",
+    "options": [
+      "Vì nhiều khuyết tật không tự được sửa chữa nên cần nhà nước điều tiết và khắc phục",
+      "Vì kinh tế thị trường không có ưu thế nào đối với sáng tạo và phát triển sản xuất",
+      "Vì nhà nước tạo ra toàn bộ khuyết tật rồi cấm các chủ thể trao đổi hàng hóa",
+      "Vì sản xuất hàng hóa chỉ có thể vận hành khi không tồn tại bất kỳ quy luật thị trường nào"
+    ],
+    "answer": 0,
+    "explanation": "Nhiều khuyết tật của cơ chế thị trường không thể tự khắc phục. Vì vậy, nhà nước phải can thiệp để sửa chữa thất bại thị trường, tạo thành kinh tế thị trường có điều tiết hay kinh tế hỗn hợp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 58,
+      "text": "Do các khuyết tật của thị trường, không có kinh tế thị trường thuần túy; sự can thiệp của nhà nước tạo nên kinh tế thị trường có điều tiết hay kinh tế hỗn hợp."
+    }
+  },
+  {
+    "id": "C02-Q080",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Cơ chế tác động của quy luật giá trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quy luật giá trị phát huy tác dụng trên thị trường thông qua cơ chế nào?",
+    "options": [
+      "Giá cả trong từng giao dịch luôn cố định đúng bằng giá trị của hàng hóa",
+      "Giá cả thị trường vận động xoay quanh giá trị dưới tác động của cung - cầu",
+      "Giá trị cá biệt của từng cơ sở được dùng làm giá chung cho toàn thị trường",
+      "Mọi tỷ lệ trao đổi được xác định trực tiếp bằng mệnh lệnh hành chính"
+    ],
+    "answer": 1,
+    "explanation": "Giá cả không đứng yên tại giá trị mà lên xuống xoay quanh giá trị dưới tác động của cung - cầu. Sự vận động đó là cơ chế biểu hiện hoạt động của quy luật giá trị.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 59,
+      "text": "Quy luật giá trị tác động thông qua sự vận động của giá cả thị trường xoay quanh giá trị dưới ảnh hưởng của cung - cầu."
+    }
+  },
+  {
+    "id": "C02-Q081",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Vận dụng quy luật cung - cầu của Nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhà nước dùng chính sách giá, tín dụng và thuế để tác động đến cung, cầu của một mặt hàng. Cách giải thích nào phù hợp?",
+    "options": [
+      "Nhà nước vận dụng quy luật cung - cầu để duy trì các tỷ lệ cân đối hợp lý",
+      "Quy luật cung - cầu chỉ tồn tại khi nhà nước không sử dụng công cụ kinh tế",
+      "Các công cụ này làm cung và cầu mất quan hệ với giá cả và quy mô thị trường",
+      "Nhà nước đã xóa bỏ quy luật cung - cầu và thay bằng quyết định chủ quan"
+    ],
+    "answer": 0,
+    "explanation": "Quy luật cung - cầu vẫn hoạt động khách quan. Trên cơ sở nhận thức quy luật, nhà nước có thể dùng chính sách giá, tín dụng, thuế và các biện pháp kinh tế để hướng cung - cầu tới cân đối lành mạnh.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 62,
+      "text": "Nhà nước có thể vận dụng quy luật cung - cầu qua giá cả, lợi nhuận, tín dụng, hợp đồng, thuế và cơ cấu tiêu dùng để duy trì cân đối hợp lý."
+    }
+  },
+  {
+    "id": "C02-Q082",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Điều tiết lưu thông hàng hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cùng một mặt hàng đang dư thừa và có giá thấp ở vùng X, nhưng khan hiếm và có giá cao ở vùng Y. Hành động nào phù hợp với tác động điều tiết lưu thông của quy luật giá trị?",
+    "options": [
+      "Chuyển hàng từ vùng Y sang vùng X để làm chênh lệch cung - cầu lớn hơn",
+      "Giữ toàn bộ hàng ở vùng X vì lưu thông không chịu ảnh hưởng của giá cả",
+      "Tăng thời gian lao động cá biệt ở vùng X để buộc giá thị trường cùng tăng",
+      "Chuyển hàng từ vùng X sang vùng Y, góp phần cân bằng cung - cầu giữa hai vùng"
+    ],
+    "answer": 3,
+    "explanation": "Quy luật giá trị điều tiết hàng hóa từ nơi giá thấp, cung lớn hơn cầu đến nơi giá cao, cung nhỏ hơn cầu. Dòng hàng từ X sang Y vì vậy góp phần cân bằng cung - cầu giữa các vùng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 60,
+      "text": "Quy luật giá trị điều tiết hàng hóa từ nơi giá thấp đến nơi giá cao, từ nơi cung lớn hơn cầu đến nơi cung nhỏ hơn cầu."
+    }
+  },
+  {
+    "id": "C02-Q083",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Hàng hóa cá nhân",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một lít nhiên liệu đã được một xe tiêu thụ thì xe khác không thể dùng chính lượng nhiên liệu đó. Theo Hộp 2.1, đây là loại hàng hóa nào?",
+    "options": [
+      "Hàng hóa công cộng",
+      "Hàng hóa cá nhân",
+      "Hàng khuyến dụng",
+      "Hàng hóa phái sinh"
+    ],
+    "answer": 1,
+    "explanation": "Lượng nhiên liệu là hàng hóa cá nhân vì sau khi một chủ thể đã tiêu dùng thì chủ thể khác không thể sử dụng chính lượng hàng hóa đó nữa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 34,
+      "text": "Hàng hóa cá nhân là loại hàng hóa mà khi một người đã tiêu dùng thì người khác không thể sử dụng chính hàng hóa đó nữa."
+    }
+  },
+  {
+    "id": "C02-Q084",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Phát hành tiền giấy và lạm phát",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo quy luật lưu thông tiền tệ, hệ quả trực tiếp nào có thể xảy ra khi tiền giấy được phát hành quá nhiều so với yêu cầu lưu thông?",
+    "options": [
+      "Đồng tiền tăng giá trị và giá cả hàng hóa đồng loạt giảm xuống",
+      "Đồng tiền mất giá, giá cả hàng hóa tăng và xuất hiện lạm phát",
+      "Khối lượng hàng hóa tăng đúng bằng lượng tiền phát hành thêm trong kỳ",
+      "Tốc độ lưu thông tiền tự động bằng không và hàng hóa ngừng có giá trị"
+    ],
+    "answer": 1,
+    "explanation": "Tiền đưa vào lưu thông phải phù hợp với yêu cầu lưu thông hàng hóa. Phát hành tiền giấy quá mức làm đồng tiền mất giá và mức giá hàng hóa tăng, dẫn tới lạm phát.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 63,
+      "text": "Phát hành quá nhiều tiền giấy làm đồng tiền mất giá, giá cả hàng hóa tăng và dẫn đến lạm phát."
+    }
+  },
+  {
+    "id": "C02-Q085",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Vai trò kiến tạo của Nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một cơ quan loại bỏ thủ tục gây cản trở và xây dựng môi trường kinh doanh minh bạch để doanh nghiệp phát huy sáng tạo. Việc này phù hợp với vai trò nào của Nhà nước?",
+    "options": [
+      "Xóa bỏ cạnh tranh để mọi chủ thể nhận lợi ích như nhau bất kể hiệu quả sử dụng nguồn lực",
+      "Thay doanh nghiệp quyết định chi tiết mọi sản phẩm, công nghệ và phương thức kinh doanh",
+      "Quản trị phát triển bằng cách tạo môi trường thuận lợi và gỡ bỏ rào cản không cần thiết",
+      "Rút khỏi quản lý kinh tế để thị trường tự xử lý mọi khuyết tật và bất bình đẳng"
+    ],
+    "answer": 2,
+    "explanation": "Nhà nước quản trị phát triển bằng cách tạo môi trường tốt để các chủ thể phát huy sức sáng tạo. Những rào cản do quản lý gây ra có thể kìm hãm động lực và cần được loại bỏ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 71,
+      "text": "Nhà nước tạo lập môi trường kinh tế tốt cho sáng tạo; các rào cản từ quản lý làm kìm hãm động lực phát triển cần được loại bỏ."
+    }
+  },
+  {
+    "id": "C02-Q086",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Giá trị thị trường",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo cách trình bày của C. Mác trong giáo trình, giá trị thị trường của một loại hàng hóa được hiểu như thế nào?",
+    "options": [
+      "Giá trị trung bình hoặc giá trị cá biệt trong điều kiện trung bình chiếm khối lượng lớn",
+      "Giá trị cá biệt thấp nhất của doanh nghiệp có năng suất cao nhất trong ngành",
+      "Giá trị cá biệt cao nhất của doanh nghiệp có kỹ thuật lạc hậu nhất trong ngành",
+      "Mức giá do một doanh nghiệp tùy ý niêm yết mà không phụ thuộc điều kiện sản xuất"
+    ],
+    "answer": 0,
+    "explanation": "Giá trị thị trường có thể được xem là giá trị trung bình của hàng hóa trong một khu vực sản xuất, hoặc là giá trị cá biệt của hàng hóa sản xuất trong điều kiện trung bình và chiếm khối lượng lớn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 65,
+      "text": "Giá trị thị trường là giá trị trung bình, hoặc giá trị cá biệt trong điều kiện sản xuất trung bình và chiếm khối lượng lớn của ngành."
+    }
+  },
+  {
+    "id": "C02-Q087",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tác động đến môi trường kinh doanh của cạnh tranh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tác động tiêu cực nào của cạnh tranh không lành mạnh trực tiếp làm suy yếu môi trường kinh doanh?",
+    "options": [
+      "Thúc đẩy doanh nghiệp ứng dụng kỹ thuật mới và nâng cao trình độ người lao động",
+      "Tạo thêm sản phẩm đa dạng, chất lượng tốt và giá thành thấp cho người tiêu dùng",
+      "Phân bổ nguồn lực linh hoạt cho những chủ thể có khả năng sử dụng hiệu quả hơn",
+      "Các thủ đoạn xấu làm xói mòn môi trường kinh doanh và các giá trị đạo đức xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Khi các chủ thể dùng biện pháp hoặc thủ đoạn xấu để giành lợi thế, cạnh tranh không lành mạnh làm xói mòn môi trường kinh doanh và có thể làm suy giảm các giá trị đạo đức xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 67,
+      "text": "Cạnh tranh không lành mạnh dùng các thủ đoạn xấu làm xói mòn môi trường kinh doanh và các giá trị đạo đức xã hội."
+    }
+  },
+  {
+    "id": "C02-Q088",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Tác động tiêu cực của cạnh tranh không lành mạnh",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một doanh nghiệp chiếm giữ nguồn nguyên liệu khan hiếm chỉ để ngăn đối thủ tiếp cận, nhưng không đưa nguyên liệu vào sản xuất. Tác động nào phù hợp nhất?",
+    "options": [
+      "Thúc đẩy lực lượng sản xuất vì toàn bộ nguyên liệu đã được sử dụng hiệu quả hơn",
+      "Tăng khả năng thỏa mãn nhu cầu vì thị trường có thêm nhiều sản phẩm để lựa chọn",
+      "Gây lãng phí nguồn lực và làm tổn hại phúc lợi do cơ hội sản xuất bị mất đi",
+      "Phân bổ linh hoạt nguồn lực vì nguyên liệu đã đến đúng chủ thể tạo giá trị cao nhất"
+    ],
+    "answer": 2,
+    "explanation": "Chiếm giữ nguồn lực mà không sử dụng là biểu hiện cạnh tranh không lành mạnh. Nguồn lực bị lãng phí, sản phẩm đáng lẽ có thể được tạo ra không xuất hiện và phúc lợi xã hội bị tổn hại.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 68,
+      "text": "Cạnh tranh không lành mạnh có thể làm lãng phí nguồn lực; khi nguồn lực không được sử dụng hiệu quả, phúc lợi xã hội bị tổn thất."
+    }
+  },
+  {
+    "id": "C02-Q089",
+    "chapter": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+    "chapterNum": 2,
+    "topic": "Trách nhiệm xã hội của người sản xuất",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sản phẩm đem lại lợi nhuận cao nhưng kiểm định cho thấy có nguy cơ gây hại sức khỏe người dùng. Cách xử lý nào phù hợp với trách nhiệm của người sản xuất?",
+    "options": [
+      "Tiếp tục bán vì mục tiêu lợi nhuận cho phép bỏ qua mọi tổn hại đối với người tiêu dùng",
+      "Ngừng cung ứng hoặc khắc phục nguy cơ trước khi bán, dù lợi nhuận trước mắt bị giảm",
+      "Che giấu kết quả kiểm định và chuyển toàn bộ trách nhiệm sang chủ thể trung gian",
+      "Tăng quảng cáo để mở rộng sức mua mà không thay đổi đặc tính gây hại của sản phẩm"
+    ],
+    "answer": 1,
+    "explanation": "Mục tiêu lợi nhuận không loại bỏ trách nhiệm đối với con người. Người sản xuất phải cung cấp hàng hóa, dịch vụ không gây tổn hại sức khỏe và lợi ích của các thành viên trong xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 69,
+      "text": "Ngoài tìm kiếm lợi nhuận, người sản xuất có trách nhiệm cung cấp hàng hóa, dịch vụ không làm tổn hại sức khỏe và lợi ích con người."
     }
   }
 ]

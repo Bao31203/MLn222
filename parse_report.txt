@@ -1,34 +1,42 @@
 Ngân hàng: C:\Users\pgb31\mln222-quiz\questions.json
-Tổng số câu: 300
+Tổng số câu: 504
 Lỗi: 0
 Cảnh báo: 0
 
 Phân bố theo chương:
-  Chương 1: 30
-  Chương 2: 55
-  Chương 3: 65
-  Chương 4: 50
-  Chương 5: 50
-  Chương 6: 50
+  Chương 1: 64
+  Chương 2: 89
+  Chương 3: 99
+  Chương 4: 84
+  Chương 5: 84
+  Chương 6: 84
 
 Phân bố mức độ:
-  Nhận biết: 120
-  Thông hiểu: 120
-  Vận dụng: 60
+  Nhận biết: 204
+  Thông hiểu: 204
+  Vận dụng: 96
 
 Phân bố dạng câu:
-  nhan_biet_khai_niem: 118
-  thong_hieu_phan_biet: 81
-  trinh_tu_quan_he: 41
-  van_dung_tinh_huong: 45
+  nhan_biet_khai_niem: 199
+  thong_hieu_phan_biet: 125
+  trinh_tu_quan_he: 84
+  van_dung_tinh_huong: 81
   van_dung_tinh_toan: 15
 
 Vị trí đáp án theo chương:
-  Chương 1: A=8, B=8, C=7, D=7
-  Chương 2: A=14, B=14, C=14, D=13
-  Chương 3: A=17, B=16, C=16, D=16
-  Chương 4: A=13, B=13, C=12, D=12
-  Chương 5: A=13, B=13, C=12, D=12
-  Chương 6: A=13, B=13, C=12, D=12
+  Chương 1: A=16, B=16, C=16, D=16
+  Chương 2: A=23, B=22, C=22, D=22
+  Chương 3: A=25, B=25, C=25, D=24
+  Chương 4: A=21, B=21, C=21, D=21
+  Chương 5: A=21, B=21, C=21, D=21
+  Chương 6: A=21, B=21, C=21, D=21
+
+Dấu hiệu độ dài ở 204 câu mở rộng:
+  Chương 1: dài nhất duy nhất=9, dài nhất/đồng hạng=9, ngắn nhất duy nhất=9, ngắn nhất/đồng hạng=12, TB đúng/nhiễu=90.0/90.0
+  Chương 2: dài nhất duy nhất=8, dài nhất/đồng hạng=11, ngắn nhất duy nhất=8, ngắn nhất/đồng hạng=11, TB đúng/nhiễu=72.5/72.9
+  Chương 3: dài nhất duy nhất=7, dài nhất/đồng hạng=10, ngắn nhất duy nhất=9, ngắn nhất/đồng hạng=12, TB đúng/nhiễu=71.7/72.5
+  Chương 4: dài nhất duy nhất=8, dài nhất/đồng hạng=12, ngắn nhất duy nhất=6, ngắn nhất/đồng hạng=8, TB đúng/nhiễu=87.5/86.5
+  Chương 5: dài nhất duy nhất=8, dài nhất/đồng hạng=9, ngắn nhất duy nhất=6, ngắn nhất/đồng hạng=9, TB đúng/nhiễu=78.5/78.4
+  Chương 6: dài nhất duy nhất=8, dài nhất/đồng hạng=11, ngắn nhất duy nhất=7, ngắn nhất/đồng hạng=8, TB đúng/nhiễu=82.8/81.7
 
 Kết quả: HỢP LỆ cho bước đóng gói website.

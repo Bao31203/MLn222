@@ -58,9 +58,9 @@ Mỗi file chương là một mảng JSON. Mỗi phần tử có đúng cấu tr
 
 ## Phân bổ mục tiêu
 
-- Tổng: 300 câu.
-- Chương 1-6: lần lượt 30, 55, 65, 50, 50, 50 câu.
-- Toàn bộ ngân hàng: khoảng 40% Nhận biết, 40% Thông hiểu, 20% Vận dụng.
+- Tổng: 504 câu.
+- Chương 1-6: lần lượt 64, 89, 99, 84, 84, 84 câu.
+- Toàn bộ ngân hàng: 204 Nhận biết, 204 Thông hiểu, 96 Vận dụng.
 - Vị trí đáp án đúng trong mỗi chương phải gần cân bằng; chênh lệch giữa vị trí nhiều nhất và ít nhất không quá 2 câu.
 
 ## Tự kiểm trước khi bàn giao file chương

@@ -7,8 +7,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Công thức chung của tư bản được C. Mác biểu diễn như thế nào?",
-    "options": ["H - T - H", "T - T", "T - H - T'", "H - T - H'"],
-    "answer": 2,
+    "options": [
+      "H - T - H",
+      "T - H - T'",
+      "T - T",
+      "H - T - H'"
+    ],
+    "answer": 1,
     "explanation": "Tư bản vận động theo công thức T - H - T', trong đó T' = T + t và t > 0. Mục đích của vận động này là thu về một giá trị lớn hơn giá trị ứng ra ban đầu.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -28,8 +33,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Điểm khác nhau cơ bản về mục đích giữa lưu thông H - T - H và vận động T - H - T' là gì?",
-    "options": ["H - T - H nhằm tăng giá trị, còn T - H - T' nhằm đổi giá trị sử dụng", "Cả hai đều nhằm bảo toàn nguyên vẹn số tiền ban đầu", "Cả hai đều kết thúc ở hàng hóa để phục vụ tiêu dùng", "H - T - H nhằm có giá trị sử dụng, còn T - H - T' nhằm có giá trị lớn hơn"],
-    "answer": 3,
+    "options": [
+      "H - T - H nhằm tăng giá trị, còn T - H - T' nhằm đổi giá trị sử dụng",
+      "Cả hai đều nhằm bảo toàn nguyên vẹn số tiền ban đầu",
+      "H - T - H nhằm có giá trị sử dụng, còn T - H - T' nhằm có giá trị lớn hơn",
+      "Cả hai đều kết thúc ở hàng hóa để phục vụ tiêu dùng"
+    ],
+    "answer": 2,
     "explanation": "Lưu thông hàng hóa giản đơn hướng đến giá trị sử dụng để thỏa mãn nhu cầu. Lưu thông tư bản chỉ có ý nghĩa khi kết thúc bằng T' lớn hơn T.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -45,8 +55,13 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao mua rẻ rồi bán đắt không giải thích được nguồn gốc giá trị tăng thêm trên phạm vi toàn xã hội?",
-    "options": ["Vì mọi hàng hóa trên thị trường đều luôn được bán đúng bằng chi phí sản xuất", "Vì người bán không bao giờ đồng thời đóng vai trò là người mua", "Vì mọi chênh lệch giá đều tự động chuyển thành tiền công của người lao động", "Vì khoản lợi của người bán là khoản thiệt của người mua nên lưu thông chỉ phân phối lại giá trị"],
-    "answer": 3,
+    "options": [
+      "Vì mọi hàng hóa trên thị trường đều luôn được bán đúng bằng chi phí sản xuất",
+      "Vì người bán không bao giờ đồng thời đóng vai trò là người mua",
+      "Vì khoản lợi của người bán là khoản thiệt của người mua nên lưu thông chỉ phân phối lại giá trị",
+      "Vì mọi chênh lệch giá đều tự động chuyển thành tiền công của người lao động"
+    ],
+    "answer": 2,
     "explanation": "Trong nền kinh tế thị trường, mỗi người vừa có thể là người bán vừa có thể là người mua. Mua bán không ngang giá có thể chuyển giá trị giữa các bên, nhưng không tạo thêm giá trị mới cho toàn xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -62,8 +77,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Theo giáo trình, tiền biến thành tư bản khi nào?",
-    "options": ["Khi được cất giữ lâu dài ngoài lưu thông", "Khi được dùng làm phương tiện thanh toán", "Khi được đổi lấy một hàng hóa tiêu dùng", "Khi được dùng với mục đích mang lại giá trị thặng dư"],
-    "answer": 3,
+    "options": [
+      "Khi được dùng với mục đích mang lại giá trị thặng dư",
+      "Khi được dùng làm phương tiện thanh toán",
+      "Khi được đổi lấy một hàng hóa tiêu dùng",
+      "Khi được cất giữ lâu dài ngoài lưu thông"
+    ],
+    "answer": 0,
     "explanation": "Không phải mọi khoản tiền đều là tư bản. Tiền chỉ trở thành tư bản khi được ứng ra trong sự vận động nhằm thu về giá trị thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -79,8 +99,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Sức lao động được hiểu là gì?",
-    "options": ["Toàn bộ tư liệu sản xuất mà một người đang sở hữu", "Toàn bộ sản phẩm mà một người tạo ra trong ngày", "Hoạt động lao động đã được thực hiện trong sản xuất", "Toàn bộ năng lực thể chất và tinh thần được con người vận dụng khi sản xuất"],
-    "answer": 3,
+    "options": [
+      "Toàn bộ tư liệu sản xuất mà một người đang sở hữu",
+      "Toàn bộ năng lực thể chất và tinh thần được con người vận dụng khi sản xuất",
+      "Hoạt động lao động đã được thực hiện trong sản xuất",
+      "Toàn bộ sản phẩm mà một người tạo ra trong ngày"
+    ],
+    "answer": 1,
     "explanation": "Sức lao động là năng lực tồn tại trong con người sống; lao động mới là sự vận dụng năng lực ấy vào quá trình sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -100,8 +125,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Hai điều kiện để sức lao động trở thành hàng hóa là gì?",
-    "options": ["Người lao động tự do về thân thể và không có đủ tư liệu sản xuất cần thiết", "Người lao động có đủ tư liệu sản xuất và tự quyết định mọi sản phẩm", "Người lao động mất tự do thân thể và được cấp đầy đủ tư liệu sinh hoạt", "Người lao động có vốn tiền tệ lớn và thuê được nhiều lao động khác"],
-    "answer": 0,
+    "options": [
+      "Người lao động mất tự do thân thể và được cấp đầy đủ tư liệu sinh hoạt",
+      "Người lao động có đủ tư liệu sản xuất và tự quyết định mọi sản phẩm",
+      "Người lao động tự do về thân thể và không có đủ tư liệu sản xuất cần thiết",
+      "Người lao động có vốn tiền tệ lớn và thuê được nhiều lao động khác"
+    ],
+    "answer": 2,
     "explanation": "Người lao động phải có quyền định đoạt sức lao động của mình, đồng thời thiếu tư liệu sản xuất để tự sản xuất hàng hóa nên buộc phải bán sức lao động.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -121,8 +151,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Phân biệt nào đúng giữa sức lao động và lao động?",
-    "options": ["Sức lao động là năng lực; lao động là sự vận dụng năng lực đó trong sản xuất", "Sức lao động là sản phẩm; lao động là giá cả của sản phẩm đó", "Sức lao động là tư liệu sản xuất; lao động là sự hao mòn tư liệu ấy", "Sức lao động là kết quả đã vật hóa; lao động là tiền dùng để mua kết quả ấy"],
-    "answer": 0,
+    "options": [
+      "Sức lao động là tư liệu sản xuất; lao động là sự hao mòn tư liệu ấy",
+      "Sức lao động là sản phẩm; lao động là giá cả của sản phẩm đó",
+      "Sức lao động là năng lực; lao động là sự vận dụng năng lực đó trong sản xuất",
+      "Sức lao động là kết quả đã vật hóa; lao động là tiền dùng để mua kết quả ấy"
+    ],
+    "answer": 2,
     "explanation": "Sức lao động tồn tại như một khả năng trong con người sống. Khi khả năng ấy được sử dụng trong quá trình sản xuất thì mới trở thành lao động.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -142,8 +177,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Giá trị hàng hóa sức lao động gồm những bộ phận cơ bản nào?",
-    "options": ["Tư liệu sinh hoạt để tái sản xuất sức lao động, phí đào tạo và tư liệu sinh hoạt để nuôi con", "Tư liệu sinh hoạt chỉ cho bản thân người lao động, phí đào tạo và khoản tiết kiệm tự nguyện", "Tư liệu sinh hoạt của người lao động, chi phí tuyển dụng và chi phí quản lý của doanh nghiệp", "Tư liệu sinh hoạt vật chất tối thiểu, tiền thưởng năng suất và phần chia lợi nhuận"],
-    "answer": 0,
+    "options": [
+      "Tư liệu sinh hoạt chỉ cho bản thân người lao động, phí đào tạo và khoản tiết kiệm tự nguyện",
+      "Tư liệu sinh hoạt để tái sản xuất sức lao động, phí đào tạo và tư liệu sinh hoạt để nuôi con",
+      "Tư liệu sinh hoạt của người lao động, chi phí tuyển dụng và chi phí quản lý của doanh nghiệp",
+      "Tư liệu sinh hoạt vật chất tối thiểu, tiền thưởng năng suất và phần chia lợi nhuận"
+    ],
+    "answer": 1,
     "explanation": "Ba bộ phận phản ánh chi phí tái sản xuất người lao động hiện tại, hình thành trình độ nghề nghiệp và tái sản xuất thế hệ lao động tiếp theo.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -163,8 +203,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Điều gì làm cho giá trị sử dụng của hàng hóa sức lao động trở nên đặc biệt?",
-    "options": ["Khi được sử dụng, nó vừa bảo tồn giá trị vừa tạo ra giá trị mới lớn hơn giá trị của bản thân", "Khi được sử dụng, toàn bộ giá trị của nó chỉ chuyển nguyên vẹn vào sản phẩm", "Khi được sử dụng, nó không tạo giá trị mới nhưng làm giảm chi phí lưu thông", "Khi được sử dụng, giá trị của nó tăng lên mà không cần có quá trình lao động"],
-    "answer": 0,
+    "options": [
+      "Khi được sử dụng, giá trị của nó tăng lên mà không cần có quá trình lao động",
+      "Khi được sử dụng, toàn bộ giá trị của nó chỉ chuyển nguyên vẹn vào sản phẩm",
+      "Khi được sử dụng, nó không tạo giá trị mới nhưng làm giảm chi phí lưu thông",
+      "Khi được sử dụng, nó vừa bảo tồn giá trị vừa tạo ra giá trị mới lớn hơn giá trị của bản thân"
+    ],
+    "answer": 3,
     "explanation": "Giá trị sử dụng đặc biệt của sức lao động chỉ bộc lộ trong lao động: nó có khả năng tạo ra lượng giá trị mới lớn hơn chính giá trị sức lao động. Đây là chìa khóa giải thích nguồn gốc giá trị thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -184,8 +229,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Nhận định nào giải thích đúng việc hàng hóa sức lao động mang yếu tố tinh thần và lịch sử?",
-    "options": ["Giá trị sức lao động chỉ do lượng calo tối thiểu quyết định ở mọi quốc gia", "Giá trị sức lao động chỉ thay đổi khi máy móc trong doanh nghiệp bị hao mòn", "Mọi người lao động ở mọi thời kỳ đều có cơ cấu nhu cầu hoàn toàn giống nhau", "Nhu cầu tái sản xuất sức lao động gồm cả nhu cầu tinh thần và phụ thuộc hoàn cảnh lịch sử từng nơi"],
-    "answer": 3,
+    "options": [
+      "Giá trị sức lao động chỉ do lượng calo tối thiểu quyết định ở mọi quốc gia",
+      "Giá trị sức lao động chỉ thay đổi khi máy móc trong doanh nghiệp bị hao mòn",
+      "Nhu cầu tái sản xuất sức lao động gồm cả nhu cầu tinh thần và phụ thuộc hoàn cảnh lịch sử từng nơi",
+      "Mọi người lao động ở mọi thời kỳ đều có cơ cấu nhu cầu hoàn toàn giống nhau"
+    ],
+    "answer": 2,
     "explanation": "Tái sản xuất sức lao động không chỉ đòi hỏi tư liệu vật chất mà còn có nhu cầu tinh thần. Mức và cơ cấu các nhu cầu ấy chịu ảnh hưởng của điều kiện lịch sử, xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -205,8 +255,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Giá trị thặng dư là bộ phận nào trong giá trị hàng hóa?",
-    "options": ["Phần giá trị tư liệu sản xuất chuyển nguyên vẹn vào sản phẩm", "Phần giá trị dùng để bù đắp hao mòn máy móc", "Phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra", "Phần giá trị sức lao động được hoàn trả đầy đủ dưới dạng tiền công"],
-    "answer": 2,
+    "options": [
+      "Phần giá trị tư liệu sản xuất chuyển nguyên vẹn vào sản phẩm",
+      "Phần giá trị dùng để bù đắp hao mòn máy móc",
+      "Phần giá trị sức lao động được hoàn trả đầy đủ dưới dạng tiền công",
+      "Phần giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra"
+    ],
+    "answer": 3,
     "explanation": "Giá trị thặng dư, ký hiệu m, là phần giá trị mới vượt quá giá trị sức lao động. Phần này là kết quả của thời gian lao động thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -226,8 +281,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Trong một ngày lao động, thời gian lao động tất yếu và thời gian lao động thặng dư được phân biệt như thế nào?",
-    "options": ["Thời gian tất yếu tạo giá trị bù đắp sức lao động; thời gian thặng dư tạo phần giá trị dôi ra", "Thời gian tất yếu chuyển giá trị máy móc; thời gian thặng dư chuyển giá trị nguyên liệu", "Thời gian tất yếu diễn ra trong lưu thông; thời gian thặng dư diễn ra ngoài sản xuất", "Thời gian tất yếu thuộc nhà tư bản; thời gian thặng dư được hoàn trả toàn bộ cho công nhân"],
-    "answer": 0,
+    "options": [
+      "Thời gian tất yếu chuyển giá trị máy móc; thời gian thặng dư chuyển giá trị nguyên liệu",
+      "Thời gian tất yếu tạo giá trị bù đắp sức lao động; thời gian thặng dư tạo phần giá trị dôi ra",
+      "Thời gian tất yếu diễn ra trong lưu thông; thời gian thặng dư diễn ra ngoài sản xuất",
+      "Thời gian tất yếu thuộc nhà tư bản; thời gian thặng dư được hoàn trả toàn bộ cho công nhân"
+    ],
+    "answer": 1,
     "explanation": "Người lao động chỉ cần một phần ngày lao động để tạo lượng giá trị ngang với giá trị sức lao động. Phần thời gian còn lại tạo ra giá trị thặng dư cho người mua sức lao động.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -243,8 +303,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một cơ sở dùng 100 triệu đồng nguyên liệu, 10 triệu đồng hao mòn máy móc và 30 triệu đồng mua sức lao động. Hàng hóa làm ra có giá trị 170 triệu đồng. Giá trị thặng dư là bao nhiêu?",
-    "options": ["30 triệu đồng", "20 triệu đồng", "40 triệu đồng", "60 triệu đồng"],
-    "answer": 0,
+    "options": [
+      "60 triệu đồng",
+      "20 triệu đồng",
+      "40 triệu đồng",
+      "30 triệu đồng"
+    ],
+    "answer": 3,
     "explanation": "Tổng giá trị tư bản đã tiêu dùng là 100 + 10 + 30 = 140 triệu đồng. Vì G = c + v + m nên m = 170 - 140 = 30 triệu đồng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -260,8 +325,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Trong quá trình sản xuất giá trị thặng dư, lao động cụ thể và lao động trừu tượng của công nhân có vai trò nào?",
-    "options": ["Lao động cụ thể tạo toàn bộ giá trị mới; lao động trừu tượng chỉ bảo quản giá trị cũ", "Lao động cụ thể tạo riêng phần v; lao động trừu tượng chỉ tạo hình thái vật chất", "Lao động cụ thể chuyển giá trị tư liệu sản xuất; lao động trừu tượng tạo giá trị mới v + m", "Lao động cụ thể tạo giá trị mới v + m; lao động trừu tượng chuyển giá trị tư liệu sản xuất"],
-    "answer": 2,
+    "options": [
+      "Lao động cụ thể chuyển giá trị tư liệu sản xuất; lao động trừu tượng tạo giá trị mới v + m",
+      "Lao động cụ thể tạo riêng phần v; lao động trừu tượng chỉ tạo hình thái vật chất",
+      "Lao động cụ thể tạo toàn bộ giá trị mới; lao động trừu tượng chỉ bảo quản giá trị cũ",
+      "Lao động cụ thể tạo giá trị mới v + m; lao động trừu tượng chuyển giá trị tư liệu sản xuất"
+    ],
+    "answer": 0,
     "explanation": "Lao động cụ thể bảo tồn và chuyển giá trị bông, máy móc vào sợi. Lao động trừu tượng tạo ra giá trị mới, trong đó một phần bù đắp v và phần còn lại là m.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -277,8 +347,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Bộ phận tư bản nào được gọi là tư bản bất biến?",
-    "options": ["Bộ phận tồn tại dưới hình thái sức lao động và tạo lượng giá trị mới lớn hơn", "Bộ phận tồn tại dưới hình thái tư liệu sản xuất nhưng tự tăng giá trị trong sản xuất", "Bộ phận tồn tại dưới hình thái tư liệu sản xuất, có giá trị được chuyển vào sản phẩm", "Bộ phận tồn tại dưới hình thái sức lao động, có giá trị chỉ chuyển nguyên vẹn vào sản phẩm"],
-    "answer": 2,
+    "options": [
+      "Bộ phận tồn tại dưới hình thái tư liệu sản xuất, có giá trị được chuyển vào sản phẩm",
+      "Bộ phận tồn tại dưới hình thái tư liệu sản xuất nhưng tự tăng giá trị trong sản xuất",
+      "Bộ phận tồn tại dưới hình thái sức lao động và tạo lượng giá trị mới lớn hơn",
+      "Bộ phận tồn tại dưới hình thái sức lao động, có giá trị chỉ chuyển nguyên vẹn vào sản phẩm"
+    ],
+    "answer": 0,
     "explanation": "Tư bản bất biến, ký hiệu c, tồn tại dưới hình thái tư liệu sản xuất. Giá trị của nó được lao động cụ thể bảo tồn và chuyển vào sản phẩm, không tăng lên trong sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -298,8 +373,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Tư bản khả biến là bộ phận tư bản dùng để làm gì?",
-    "options": ["Mua tư liệu lao động có giá trị chuyển dần", "Mua hàng hóa sức lao động tạo ra giá trị mới lớn hơn", "Mua nguyên liệu có giá trị chuyển toàn bộ", "Mua tư liệu sản xuất có giá trị được bảo tồn nhưng không tăng"],
-    "answer": 1,
+    "options": [
+      "Mua tư liệu lao động có giá trị chuyển dần",
+      "Mua nguyên liệu có giá trị chuyển toàn bộ",
+      "Mua hàng hóa sức lao động tạo ra giá trị mới lớn hơn",
+      "Mua tư liệu sản xuất có giá trị được bảo tồn nhưng không tăng"
+    ],
+    "answer": 2,
     "explanation": "Tư bản khả biến, ký hiệu v, dùng mua sức lao động. Thông qua lao động trừu tượng của công nhân, bộ phận này tái hiện và tăng thêm về lượng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -319,8 +399,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Nhận định nào đúng về vai trò của máy móc và nguyên liệu đối với giá trị thặng dư?",
-    "options": ["Chúng trực tiếp tạo ra toàn bộ giá trị mới và giá trị thặng dư", "Chúng không tạo giá trị thặng dư nhưng là điều kiện cần để quá trình tạo giá trị thặng dư diễn ra", "Chúng không tham gia quá trình sản xuất mà chỉ tham gia lưu thông", "Chúng tạo giá trị thặng dư ngay cả khi không có lao động sống vận hành"],
-    "answer": 1,
+    "options": [
+      "Chúng không tạo giá trị thặng dư nhưng là điều kiện cần để quá trình tạo giá trị thặng dư diễn ra",
+      "Chúng trực tiếp tạo ra toàn bộ giá trị mới và giá trị thặng dư",
+      "Chúng không tham gia quá trình sản xuất mà chỉ tham gia lưu thông",
+      "Chúng tạo giá trị thặng dư ngay cả khi không có lao động sống vận hành"
+    ],
+    "answer": 0,
     "explanation": "Tư liệu sản xuất không tự tăng giá trị; giá trị của chúng chỉ được chuyển vào sản phẩm. Tuy vậy, chúng là điều kiện vật chất cần thiết để lao động sống tạo giá trị mới và giá trị thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -336,7 +421,12 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Cách hiểu nào phản ánh đúng bản chất tiền công trong chủ nghĩa tư bản?",
-    "options": ["Tiền công là giá cả của toàn bộ sản phẩm mà công nhân tạo ra", "Tiền công là giá cả của toàn bộ lao động đã hao phí trong ngày", "Tiền công là giá cả hàng hóa sức lao động và thuộc phần giá trị mới do công nhân tạo ra", "Tiền công là phần giá trị tư liệu sản xuất được công nhân chuyển vào sản phẩm"],
+    "options": [
+      "Tiền công là giá cả của toàn bộ sản phẩm mà công nhân tạo ra",
+      "Tiền công là giá cả của toàn bộ lao động đã hao phí trong ngày",
+      "Tiền công là giá cả hàng hóa sức lao động và thuộc phần giá trị mới do công nhân tạo ra",
+      "Tiền công là phần giá trị tư liệu sản xuất được công nhân chuyển vào sản phẩm"
+    ],
     "answer": 2,
     "explanation": "Tiền công biểu hiện như khoản người mua sức lao động trả, nhưng nguồn của nó nằm trong giá trị mới do chính lao động làm thuê tạo ra. Nó là giá cả của sức lao động, không phải giá cả của toàn bộ lao động đã hao phí.",
     "source": {
@@ -357,8 +447,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Điều kiện trực tiếp để giá trị thặng dư chứa trong hàng hóa được thực hiện dưới hình thái tiền là gì?",
-    "options": ["Hàng hóa phải bán được và được thị trường chấp nhận", "Máy móc phải được khấu hao hết ngay trong một chu kỳ", "Người lao động phải sở hữu toàn bộ tư liệu sản xuất", "Tư bản phải dừng lại ở hình thái hàng hóa H'"],
-    "answer": 0,
+    "options": [
+      "Người lao động phải sở hữu toàn bộ tư liệu sản xuất",
+      "Máy móc phải được khấu hao hết ngay trong một chu kỳ",
+      "Hàng hóa phải bán được và được thị trường chấp nhận",
+      "Tư bản phải dừng lại ở hình thái hàng hóa H'"
+    ],
+    "answer": 2,
     "explanation": "Sản xuất tạo ra H' có chứa giá trị thặng dư, nhưng chỉ khi H' bán được thì nhà tư bản mới thu T' và thực hiện giá trị thặng dư dưới hình thái tiền.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -374,8 +469,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Tuần hoàn của tư bản là sự vận động lần lượt qua những hình thái nào?",
-    "options": ["Tư bản tiền tệ, tư bản sản xuất và tư bản hàng hóa rồi trở về hình thái ban đầu", "Tư bản tiền tệ, tư bản hàng hóa và tư bản sản xuất rồi dừng ở sản xuất", "Tư bản sản xuất, tư bản tiền tệ và tư bản hàng hóa rồi dừng ở hàng hóa", "Tư bản hàng hóa, tư bản sản xuất và tư bản tiền tệ rồi không trở về hình thái đầu"],
-    "answer": 0,
+    "options": [
+      "Tư bản tiền tệ, tư bản hàng hóa và tư bản sản xuất rồi dừng ở sản xuất",
+      "Tư bản tiền tệ, tư bản sản xuất và tư bản hàng hóa rồi trở về hình thái ban đầu",
+      "Tư bản sản xuất, tư bản tiền tệ và tư bản hàng hóa rồi dừng ở hàng hóa",
+      "Tư bản hàng hóa, tư bản sản xuất và tư bản tiền tệ rồi không trở về hình thái đầu"
+    ],
+    "answer": 1,
     "explanation": "Trong tuần hoàn, tư bản lần lượt mang ba hình thái để thực hiện các chức năng chuẩn bị sản xuất, sản xuất và thực hiện giá trị, sau đó quay về hình thái ban đầu cùng giá trị thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -395,8 +495,13 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Mô tả nào ghép đúng giai đoạn và chức năng trong tuần hoàn T - H → SX → H' - T'?",
-    "options": ["T - H thực hiện giá trị thặng dư; SX mua đầu vào; H' - T' tạo sức lao động", "T - H tạo hàng hóa mới; SX bán hàng; H' - T' mua tư liệu sản xuất", "T - H chuẩn bị yếu tố sản xuất; SX tạo H' chứa giá trị thặng dư; H' - T' thực hiện giá trị", "T - H thực hiện giá trị hàng hóa; SX chuyển tư bản hàng hóa thành tiền; H' - T' tạo giá trị thặng dư"],
-    "answer": 2,
+    "options": [
+      "T - H thực hiện giá trị thặng dư; SX mua đầu vào; H' - T' tạo sức lao động",
+      "T - H tạo hàng hóa mới; SX bán hàng; H' - T' mua tư liệu sản xuất",
+      "T - H thực hiện giá trị hàng hóa; SX chuyển tư bản hàng hóa thành tiền; H' - T' tạo giá trị thặng dư",
+      "T - H chuẩn bị yếu tố sản xuất; SX tạo H' chứa giá trị thặng dư; H' - T' thực hiện giá trị"
+    ],
+    "answer": 3,
     "explanation": "T - H chuyển tư bản tiền tệ thành các yếu tố sản xuất. Trong SX, lao động kết hợp tư liệu sản xuất tạo H'; bán H' ở giai đoạn cuối đưa tư bản trở về T' và hiện thực hóa giá trị thặng dư.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -416,8 +521,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Chu chuyển của tư bản được hiểu là gì?",
-    "options": ["Một lần mua bán hàng hóa tách khỏi quá trình sản xuất", "Tuần hoàn tư bản xét như quá trình định kỳ, thường xuyên lặp lại và đổi mới theo thời gian", "Sự chuyển riêng giá trị máy móc vào sản phẩm theo khấu hao", "Sự phân chia giá trị thặng dư thành lợi nhuận, lợi tức và địa tô"],
-    "answer": 1,
+    "options": [
+      "Tuần hoàn tư bản xét như quá trình định kỳ, thường xuyên lặp lại và đổi mới theo thời gian",
+      "Một lần mua bán hàng hóa tách khỏi quá trình sản xuất",
+      "Sự chuyển riêng giá trị máy móc vào sản phẩm theo khấu hao",
+      "Sự phân chia giá trị thặng dư thành lợi nhuận, lợi tức và địa tô"
+    ],
+    "answer": 0,
     "explanation": "Chu chuyển nhấn mạnh tính lặp lại định kỳ của tuần hoàn theo thời gian. Nó được đo bằng thời gian chu chuyển hoặc tốc độ chu chuyển.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -437,7 +547,12 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một tư bản hoàn thành một vòng chu chuyển trong 3 tháng. Lấy một năm bằng 12 tháng, tốc độ chu chuyển của tư bản đó là bao nhiêu?",
-    "options": ["3 vòng/năm", "6 vòng/năm", "4 vòng/năm", "12 vòng/năm"],
+    "options": [
+      "3 vòng/năm",
+      "6 vòng/năm",
+      "4 vòng/năm",
+      "12 vòng/năm"
+    ],
     "answer": 2,
     "explanation": "Áp dụng n = CH/ch, ta có n = 12 tháng / 3 tháng = 4 vòng/năm.",
     "source": {
@@ -458,7 +573,12 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Tiêu chí nào phân biệt đúng tư bản cố định với tư bản lưu động?",
-    "options": ["Tư bản cố định chuyển giá trị từng phần; tư bản lưu động chuyển toàn bộ giá trị sau mỗi quá trình sản xuất", "Tư bản cố định tạo giá trị mới; tư bản lưu động chỉ bảo tồn giá trị cũ", "Tư bản cố định chỉ tồn tại trong lưu thông; tư bản lưu động chỉ tồn tại ngoài lưu thông", "Tư bản cố định dùng mua sức lao động; tư bản lưu động chỉ dùng mua máy móc"],
+    "options": [
+      "Tư bản cố định chuyển giá trị từng phần; tư bản lưu động chuyển toàn bộ giá trị sau mỗi quá trình sản xuất",
+      "Tư bản cố định tạo giá trị mới; tư bản lưu động chỉ bảo tồn giá trị cũ",
+      "Tư bản cố định chỉ tồn tại trong lưu thông; tư bản lưu động chỉ tồn tại ngoài lưu thông",
+      "Tư bản cố định dùng mua sức lao động; tư bản lưu động chỉ dùng mua máy móc"
+    ],
     "answer": 0,
     "explanation": "Tư liệu lao động tham gia toàn bộ quá trình nhưng giá trị chuyển dần theo hao mòn. Sức lao động, nguyên liệu và vật liệu phụ chuyển giá trị một lần, toàn phần sau từng quá trình sản xuất.",
     "source": {
@@ -475,8 +595,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Hao mòn hữu hình và hao mòn vô hình của tư bản cố định khác nhau ở điểm nào?",
-    "options": ["Hữu hình do sử dụng và tự nhiên; vô hình do năng suất tăng và tư liệu lao động mới xuất hiện", "Hữu hình do giá thị trường tăng; vô hình do máy móc được sử dụng nhiều hơn", "Hữu hình chỉ làm mất giá; vô hình chỉ làm mất giá trị sử dụng vật chất", "Hữu hình phát sinh trong lưu thông; vô hình chỉ phát sinh khi bán sản phẩm"],
-    "answer": 0,
+    "options": [
+      "Hữu hình do giá thị trường tăng; vô hình do máy móc được sử dụng nhiều hơn",
+      "Hữu hình do sử dụng và tự nhiên; vô hình do năng suất tăng và tư liệu lao động mới xuất hiện",
+      "Hữu hình chỉ làm mất giá; vô hình chỉ làm mất giá trị sử dụng vật chất",
+      "Hữu hình phát sinh trong lưu thông; vô hình chỉ phát sinh khi bán sản phẩm"
+    ],
+    "answer": 1,
     "explanation": "Hao mòn hữu hình gắn với sự suy giảm vật chất và giá trị do sử dụng hoặc tự nhiên. Hao mòn vô hình là sự mất giá thuần túy khi công nghệ sản xuất tư liệu lao động tiến bộ hoặc thế hệ máy mới hiệu quả hơn xuất hiện.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -492,8 +617,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Công thức tính tỷ suất giá trị thặng dư theo giá trị là công thức nào?",
-    "options": ["m' = v/m × 100%", "m' = m/v × 100%", "m' = m/(c + v) × 100%", "m' = (c + v)/m × 100%"],
-    "answer": 1,
+    "options": [
+      "m' = v/m × 100%",
+      "m' = m/(c + v) × 100%",
+      "m' = m/v × 100%",
+      "m' = (c + v)/m × 100%"
+    ],
+    "answer": 2,
     "explanation": "Tỷ suất giá trị thặng dư là tỷ lệ phần trăm giữa giá trị thặng dư m và tư bản khả biến v đã sản xuất ra lượng m đó.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -513,7 +643,12 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Tỷ suất giá trị thặng dư và khối lượng giá trị thặng dư phản ánh hai mặt nào?",
-    "options": ["Tỷ suất phản ánh trình độ khai thác sức lao động; khối lượng phản ánh quy mô giá trị thặng dư thu được", "Tỷ suất phản ánh quy mô tư bản bất biến; khối lượng phản ánh tốc độ hao mòn máy móc", "Tỷ suất phản ánh giá cả hàng hóa; khối lượng phản ánh giá trị sử dụng của hàng hóa", "Tỷ suất phản ánh số vòng chu chuyển; khối lượng phản ánh thời gian một vòng"],
+    "options": [
+      "Tỷ suất phản ánh trình độ khai thác sức lao động; khối lượng phản ánh quy mô giá trị thặng dư thu được",
+      "Tỷ suất phản ánh quy mô tư bản bất biến; khối lượng phản ánh tốc độ hao mòn máy móc",
+      "Tỷ suất phản ánh giá cả hàng hóa; khối lượng phản ánh giá trị sử dụng của hàng hóa",
+      "Tỷ suất phản ánh số vòng chu chuyển; khối lượng phản ánh thời gian một vòng"
+    ],
     "answer": 0,
     "explanation": "m' là số đo tương đối cho biết quan hệ giữa lao động thặng dư và lao động tất yếu. M là số tuyệt đối bằng tiền cho biết tổng quy mô giá trị thặng dư chủ sở hữu thu được.",
     "source": {
@@ -530,8 +665,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một ngày lao động gồm 3 giờ lao động tất yếu và 5 giờ lao động thặng dư. Tỷ suất giá trị thặng dư bằng bao nhiêu?",
-    "options": ["60,00%", "100,00%", "125,00%", "166,67%"],
-    "answer": 3,
+    "options": [
+      "166,67%",
+      "100,00%",
+      "125,00%",
+      "60,00%"
+    ],
+    "answer": 0,
     "explanation": "Theo công thức m' = t'/t × 100%, ta có m' = 5/3 × 100% = 166,67%.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -547,8 +687,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một doanh nghiệp sử dụng tổng tư bản khả biến 400 triệu đồng và đạt tỷ suất giá trị thặng dư 150%. Khối lượng giá trị thặng dư là bao nhiêu?",
-    "options": ["266,67 triệu đồng", "400 triệu đồng", "550 triệu đồng", "600 triệu đồng"],
-    "answer": 3,
+    "options": [
+      "266,67 triệu đồng",
+      "400 triệu đồng",
+      "600 triệu đồng",
+      "550 triệu đồng"
+    ],
+    "answer": 2,
     "explanation": "Đổi 150% thành 1,5 rồi áp dụng M = m' × V: M = 1,5 × 400 = 600 triệu đồng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -568,7 +713,12 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Nhận định nào đúng về quan hệ giữa m', V và M?",
-    "options": ["V không đổi thì m' tăng làm M tăng; m' giảm vẫn có thể đi cùng M tăng nếu V tăng đủ lớn", "V không đổi thì m' tăng làm M giảm; m' giảm luôn làm M tăng", "M chỉ phụ thuộc V nên mọi thay đổi của m' đều không có tác động", "M chỉ phụ thuộc m' nên tăng số lao động không thể làm M thay đổi"],
+    "options": [
+      "V không đổi thì m' tăng làm M tăng; m' giảm vẫn có thể đi cùng M tăng nếu V tăng đủ lớn",
+      "V không đổi thì m' tăng làm M giảm; m' giảm luôn làm M tăng",
+      "M chỉ phụ thuộc V nên mọi thay đổi của m' đều không có tác động",
+      "M chỉ phụ thuộc m' nên tăng số lao động không thể làm M thay đổi"
+    ],
     "answer": 0,
     "explanation": "Do M = m' × V, khi V cố định thì M biến thiên cùng chiều với m'. Nếu cả hai cùng thay đổi, mức tăng đủ lớn của V có thể bù quá mức giảm của m'.",
     "source": {
@@ -589,7 +739,12 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_huong",
     "stem": "Một nhà tư bản trả đúng giá trị hàng hóa sức lao động theo hợp đồng. Trong sản xuất, công nhân tạo ra lượng giá trị mới lớn hơn giá trị sức lao động và phần dôi ra thuộc nhà tư bản. Kết luận nào phù hợp với phân tích của C. Mác?",
-    "options": ["Trao đổi sức lao động ngang giá làm cho giá trị thặng dư không thể xuất hiện", "Quy luật trao đổi ngang giá vẫn có thể được tuân thủ, còn giá trị thặng dư phát sinh từ lao động sống trong sản xuất", "Giá trị thặng dư do máy móc tự tạo ra vì máy móc thuộc sở hữu của nhà tư bản", "Giá trị thặng dư chỉ là khoản chuyển từ người mua sang người bán do mua rẻ, bán đắt"],
+    "options": [
+      "Trao đổi sức lao động ngang giá làm cho giá trị thặng dư không thể xuất hiện",
+      "Quy luật trao đổi ngang giá vẫn có thể được tuân thủ, còn giá trị thặng dư phát sinh từ lao động sống trong sản xuất",
+      "Giá trị thặng dư do máy móc tự tạo ra vì máy móc thuộc sở hữu của nhà tư bản",
+      "Giá trị thặng dư chỉ là khoản chuyển từ người mua sang người bán do mua rẻ, bán đắt"
+    ],
     "answer": 1,
     "explanation": "Việc mua sức lao động có thể diễn ra đúng giá trị, nhưng giá trị sử dụng đặc biệt của nó tạo ra giá trị mới lớn hơn trong sản xuất. Phần dôi ra bắt nguồn từ lao động sống, qua đó biểu hiện quan hệ giữa người mua và người bán sức lao động.",
     "source": {
@@ -606,8 +761,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Giá trị thặng dư tuyệt đối được tạo ra bằng cách nào?",
-    "options": ["Rút ngắn thời gian lao động thặng dư trong khi ngày lao động không đổi", "Hạ giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội", "Kéo dài ngày lao động vượt thời gian tất yếu khi năng suất và giá trị sức lao động không đổi", "Tăng tổng tư bản khả biến bằng cách thuê thêm lao động trong khi tỷ lệ thời gian lao động không đổi"],
-    "answer": 2,
+    "options": [
+      "Rút ngắn thời gian lao động thặng dư trong khi ngày lao động không đổi",
+      "Hạ giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội",
+      "Tăng tổng tư bản khả biến bằng cách thuê thêm lao động trong khi tỷ lệ thời gian lao động không đổi",
+      "Kéo dài ngày lao động vượt thời gian tất yếu khi năng suất và giá trị sức lao động không đổi"
+    ],
+    "answer": 3,
     "explanation": "Phương pháp tuyệt đối làm tăng phần lao động thặng dư bằng cách kéo dài ngày lao động, trong khi thời gian lao động tất yếu và các điều kiện nêu trong định nghĩa vẫn không đổi.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -627,8 +787,13 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao nhà tư bản không thể kéo dài ngày lao động và tăng cường độ lao động vô hạn?",
-    "options": ["Vì thời gian lao động tất yếu luôn bằng toàn bộ ngày tự nhiên", "Vì kéo dài ngày lao động luôn làm giá trị sức lao động bằng không", "Vì có giới hạn thể chất, tinh thần của người lao động và sự đấu tranh về độ dài ngày lao động", "Vì mọi quốc gia đều ấn định một độ dài ngày lao động giống hệt nhau"],
-    "answer": 2,
+    "options": [
+      "Vì thời gian lao động tất yếu luôn bằng toàn bộ ngày tự nhiên",
+      "Vì kéo dài ngày lao động luôn làm giá trị sức lao động bằng không",
+      "Vì mọi quốc gia đều ấn định một độ dài ngày lao động giống hệt nhau",
+      "Vì có giới hạn thể chất, tinh thần của người lao động và sự đấu tranh về độ dài ngày lao động"
+    ],
+    "answer": 3,
     "explanation": "Con người cần thời gian ăn, ngủ, nghỉ ngơi và cường độ lao động chịu giới hạn sức chịu đựng. Xung đột lợi ích còn dẫn tới đấu tranh xác lập độ dài ngày lao động trong từng điều kiện lịch sử.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -644,8 +809,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Ngày lao động ban đầu dài 8 giờ, trong đó lao động tất yếu là 4 giờ. Nếu ngày lao động tăng lên 10 giờ còn thời gian tất yếu không đổi, tỷ suất giá trị thặng dư mới là bao nhiêu?",
-    "options": ["100%", "150%", "200%", "250%"],
-    "answer": 1,
+    "options": [
+      "100%",
+      "200%",
+      "150%",
+      "250%"
+    ],
+    "answer": 2,
     "explanation": "Thời gian lao động thặng dư mới là 10 - 4 = 6 giờ. Do đó m' = 6/4 × 100% = 150%.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -665,7 +835,12 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Đặc trưng của phương pháp sản xuất giá trị thặng dư tương đối là gì?",
-    "options": ["Kéo dài thời gian lao động tất yếu và rút ngắn thời gian thặng dư trong ngày lao động không đổi", "Kéo dài ngày lao động trong khi giữ nguyên thời gian tất yếu", "Tăng số người lao động nhưng giữ nguyên thời gian tất yếu và thặng dư của mỗi người", "Rút ngắn thời gian lao động tất yếu để kéo dài thời gian thặng dư trong một ngày lao động không tăng"],
+    "options": [
+      "Kéo dài thời gian lao động tất yếu và rút ngắn thời gian thặng dư trong ngày lao động không đổi",
+      "Kéo dài ngày lao động trong khi giữ nguyên thời gian tất yếu",
+      "Tăng số người lao động nhưng giữ nguyên thời gian tất yếu và thặng dư của mỗi người",
+      "Rút ngắn thời gian lao động tất yếu để kéo dài thời gian thặng dư trong một ngày lao động không tăng"
+    ],
     "answer": 3,
     "explanation": "Giá trị sức lao động giảm làm thời gian tất yếu ngắn lại. Vì tổng ngày lao động không tăng, phần lao động thặng dư tương ứng dài hơn.",
     "source": {
@@ -686,8 +861,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một ngày lao động dài 8 giờ. Sau khi năng suất xã hội tăng, thời gian lao động tất yếu giảm từ 4 giờ xuống 2 giờ. Tỷ suất giá trị thặng dư mới là bao nhiêu?",
-    "options": ["150%", "200%", "300%", "400%"],
-    "answer": 2,
+    "options": [
+      "150%",
+      "200%",
+      "400%",
+      "300%"
+    ],
+    "answer": 3,
     "explanation": "Ngày lao động vẫn là 8 giờ nên thời gian thặng dư mới là 8 - 2 = 6 giờ. m' = 6/2 × 100% = 300%.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -707,8 +887,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Giá trị thặng dư siêu ngạch phát sinh trực tiếp từ điều kiện nào?",
-    "options": ["Giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội nhờ năng suất cá biệt cao hơn", "Giá trị cá biệt của hàng hóa cao hơn giá trị xã hội do năng suất thấp hơn", "Mọi doanh nghiệp cùng lúc có giá trị cá biệt bằng giá trị xã hội", "Giá bán hàng hóa thấp hơn cả chi phí sản xuất của doanh nghiệp"],
-    "answer": 0,
+    "options": [
+      "Giá trị cá biệt của hàng hóa cao hơn giá trị xã hội do năng suất thấp hơn",
+      "Giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội nhờ năng suất cá biệt cao hơn",
+      "Mọi doanh nghiệp cùng lúc có giá trị cá biệt bằng giá trị xã hội",
+      "Giá bán hàng hóa thấp hơn cả chi phí sản xuất của doanh nghiệp"
+    ],
+    "answer": 1,
     "explanation": "Doanh nghiệp đi đầu về kỹ thuật có năng suất cao, làm giá trị cá biệt thấp hơn giá trị xã hội nhưng vẫn bán theo mức xã hội. Phần chênh lệch tạo giá trị thặng dư siêu ngạch.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -728,8 +913,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Nhận định nào mô tả đúng tính chất của giá trị thặng dư siêu ngạch?",
-    "options": ["Tạm thời đối với từng xí nghiệp, thường xuyên xét toàn xã hội và là hình thái biến tướng của giá trị thặng dư tương đối", "Thường xuyên với từng xí nghiệp, tạm thời với toàn xã hội và độc lập với năng suất lao động", "Chỉ có khi mọi xí nghiệp dùng cùng công nghệ và có cùng giá trị cá biệt", "Là hình thái của giá trị thặng dư tuyệt đối do kéo dài đồng loạt ngày lao động"],
-    "answer": 0,
+    "options": [
+      "Là hình thái của giá trị thặng dư tuyệt đối do kéo dài đồng loạt ngày lao động",
+      "Thường xuyên với từng xí nghiệp, tạm thời với toàn xã hội và độc lập với năng suất lao động",
+      "Chỉ có khi mọi xí nghiệp dùng cùng công nghệ và có cùng giá trị cá biệt",
+      "Tạm thời đối với từng xí nghiệp, thường xuyên xét toàn xã hội và là hình thái biến tướng của giá trị thặng dư tương đối"
+    ],
+    "answer": 3,
     "explanation": "Lợi thế của một xí nghiệp mất đi khi công nghệ phổ biến, nên mang tính tạm thời ở cấp cá biệt. Nhưng luôn có những đơn vị đổi mới trước, nên hiện tượng tồn tại thường xuyên ở cấp xã hội và thúc đẩy giá trị thặng dư tương đối.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -749,7 +939,12 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Phân biệt nào đúng giữa tái sản xuất giản đơn và tái sản xuất mở rộng?",
-    "options": ["Giản đơn làm quy mô tăng; mở rộng giữ nguyên quy mô", "Giản đơn không lặp lại sản xuất; mở rộng chỉ lặp lại một lần", "Giản đơn dùng toàn bộ giá trị thặng dư để mua máy; mở rộng dùng toàn bộ cho tiêu dùng", "Giản đơn lặp lại quy mô cũ; mở rộng lặp lại với quy mô lớn hơn"],
+    "options": [
+      "Giản đơn làm quy mô tăng; mở rộng giữ nguyên quy mô",
+      "Giản đơn không lặp lại sản xuất; mở rộng chỉ lặp lại một lần",
+      "Giản đơn dùng toàn bộ giá trị thặng dư để mua máy; mở rộng dùng toàn bộ cho tiêu dùng",
+      "Giản đơn lặp lại quy mô cũ; mở rộng lặp lại với quy mô lớn hơn"
+    ],
     "answer": 3,
     "explanation": "Trong tái sản xuất giản đơn, toàn bộ giá trị thặng dư được tiêu dùng cá nhân nên quy mô không đổi. Tái sản xuất mở rộng đòi hỏi biến một phần giá trị thặng dư thành tư bản phụ thêm.",
     "source": {
@@ -770,8 +965,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Bản chất của tích lũy tư bản là gì?",
-    "options": ["Chuyển hóa một phần giá trị thặng dư thành tư bản phụ thêm để tái sản xuất mở rộng", "Chuyển toàn bộ tư bản bất biến thành quỹ tiêu dùng cá nhân", "Dùng toàn bộ giá trị thặng dư để duy trì nguyên quy mô sản xuất", "Hợp nhất các tư bản cá biệt mà không làm thay đổi quy mô từng tư bản"],
-    "answer": 0,
+    "options": [
+      "Chuyển toàn bộ tư bản bất biến thành quỹ tiêu dùng cá nhân",
+      "Chuyển hóa một phần giá trị thặng dư thành tư bản phụ thêm để tái sản xuất mở rộng",
+      "Dùng toàn bộ giá trị thặng dư để duy trì nguyên quy mô sản xuất",
+      "Hợp nhất các tư bản cá biệt mà không làm thay đổi quy mô từng tư bản"
+    ],
+    "answer": 1,
     "explanation": "Tích lũy không phải chỉ là cất giữ tiền. Đó là tư bản hóa một phần giá trị thặng dư để mua thêm sức lao động, nguyên liệu, máy móc và mở rộng kinh doanh.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -791,7 +991,12 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Khi khối lượng giá trị thặng dư không đổi, điều gì xảy ra nếu nhà tư bản tăng tỷ lệ dành cho quỹ tích lũy?",
-    "options": ["Quy mô tích lũy giảm và quỹ tiêu dùng tăng", "Quy mô tích lũy tăng và phần dành cho tiêu dùng cá nhân giảm", "Cả quỹ tích lũy và quỹ tiêu dùng đều tăng bằng đúng một lượng", "Tỷ lệ phân chia không ảnh hưởng đến quy mô tích lũy"],
+    "options": [
+      "Quy mô tích lũy giảm và quỹ tiêu dùng tăng",
+      "Quy mô tích lũy tăng và phần dành cho tiêu dùng cá nhân giảm",
+      "Cả quỹ tích lũy và quỹ tiêu dùng đều tăng bằng đúng một lượng",
+      "Tỷ lệ phân chia không ảnh hưởng đến quy mô tích lũy"
+    ],
     "answer": 1,
     "explanation": "Một khối lượng giá trị thặng dư cố định được chia giữa tích lũy và tiêu dùng. Tăng tỷ trọng của một quỹ tất yếu làm giảm tỷ trọng quỹ còn lại và làm quy mô tích lũy tăng.",
     "source": {
@@ -812,8 +1017,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Trong điều kiện thị trường thuận lợi và hàng hóa bán được, đại lượng nào càng lớn càng tạo tiền đề tăng quy mô tích lũy?",
-    "options": ["Thời gian của một vòng chu chuyển càng dài", "Tỷ lệ giá trị thặng dư dành cho tiêu dùng càng lớn", "Đại lượng tư bản ứng trước", "Mức hao mòn vô hình của máy móc càng lớn"],
-    "answer": 2,
+    "options": [
+      "Thời gian của một vòng chu chuyển càng dài",
+      "Tỷ lệ giá trị thặng dư dành cho tiêu dùng càng lớn",
+      "Mức hao mòn vô hình của máy móc càng lớn",
+      "Đại lượng tư bản ứng trước"
+    ],
+    "answer": 3,
     "explanation": "Giáo trình xác định đại lượng tư bản ứng trước là một nhân tố của quy mô tích lũy. Khi đầu ra thuận lợi, tư bản ứng trước lớn tạo cơ sở thu khối lượng giá trị thặng dư và tích lũy lớn hơn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -829,7 +1039,12 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Chuỗi tác động nào giải thích việc năng suất lao động xã hội tăng có thể làm quy mô tích lũy tăng?",
-    "options": ["Giá trị tư liệu sinh hoạt tăng → giá trị sức lao động tăng → giá trị thặng dư tăng", "Giá trị tư liệu sinh hoạt giảm → giá trị sức lao động tăng → giá trị thặng dư giảm", "Giá trị tư liệu sinh hoạt giảm → giá trị sức lao động giảm → giá trị thặng dư có điều kiện tăng", "Giá trị tư liệu sinh hoạt không đổi → giá trị sức lao động tăng → tích lũy không đổi"],
+    "options": [
+      "Giá trị tư liệu sinh hoạt tăng → giá trị sức lao động tăng → giá trị thặng dư tăng",
+      "Giá trị tư liệu sinh hoạt giảm → giá trị sức lao động tăng → giá trị thặng dư giảm",
+      "Giá trị tư liệu sinh hoạt giảm → giá trị sức lao động giảm → giá trị thặng dư có điều kiện tăng",
+      "Giá trị tư liệu sinh hoạt không đổi → giá trị sức lao động tăng → tích lũy không đổi"
+    ],
     "answer": 2,
     "explanation": "Năng suất tăng làm giá trị tư liệu sinh hoạt hạ xuống, từ đó giá trị sức lao động giảm. Trong các điều kiện khác không đổi, phần giá trị thặng dư tăng lên và tạo khả năng mở rộng tích lũy.",
     "source": {
@@ -846,7 +1061,12 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao sử dụng hiệu quả máy móc có thể hỗ trợ mở rộng tích lũy trước khi phải thay máy?",
-    "options": ["Vì máy móc chuyển toàn bộ giá trị trong một chu kỳ rồi tiếp tục hoạt động mà không cần đổi mới", "Vì máy móc hoạt động toàn bộ công năng nhưng chuyển giá trị dần, còn quỹ khấu hao chưa dùng có thể hỗ trợ mở rộng", "Vì máy móc tự tạo giá trị mới lớn hơn phần khấu hao mà không cần lao động sống vận hành", "Vì giá trị máy móc không chuyển vào sản phẩm nên toàn bộ doanh thu có thể đưa vào quỹ tích lũy"],
+    "options": [
+      "Vì máy móc chuyển toàn bộ giá trị trong một chu kỳ rồi tiếp tục hoạt động mà không cần đổi mới",
+      "Vì máy móc hoạt động toàn bộ công năng nhưng chuyển giá trị dần, còn quỹ khấu hao chưa dùng có thể hỗ trợ mở rộng",
+      "Vì máy móc tự tạo giá trị mới lớn hơn phần khấu hao mà không cần lao động sống vận hành",
+      "Vì giá trị máy móc không chuyển vào sản phẩm nên toàn bộ doanh thu có thể đưa vào quỹ tích lũy"
+    ],
     "answer": 1,
     "explanation": "Giá trị sử dụng của máy được huy động toàn bộ nhưng giá trị của nó chỉ chuyển dần qua khấu hao. Khi chưa đến lúc đổi máy, quỹ khấu hao tích tụ có thể trở thành nguồn tài chính tạm thời cho mở rộng sản xuất.",
     "source": {
@@ -863,8 +1083,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Cấu tạo hữu cơ của tư bản được biểu hiện bằng tỷ lệ nào?",
-    "options": ["c/v", "v/c", "m/v", "t'/t"],
-    "answer": 0,
+    "options": [
+      "m/v",
+      "v/c",
+      "c/v",
+      "t'/t"
+    ],
+    "answer": 2,
     "explanation": "Cấu tạo hữu cơ là cấu tạo giá trị do cấu tạo kỹ thuật quyết định và phản ánh sự biến đổi của cấu tạo kỹ thuật; nó được ký hiệu bằng tỷ lệ c/v.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -884,7 +1109,12 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Khác biệt cốt lõi giữa tích tụ tư bản và tập trung tư bản là gì?",
-    "options": ["Tích tụ hợp nhất các tư bản đã có nên không tăng tư bản xã hội; tập trung tư bản hóa m nên làm tư bản xã hội tăng", "Tích tụ làm tăng tư bản xã hội nhưng không tăng tư bản cá biệt; tập trung làm giảm cả hai loại quy mô tư bản", "Tích tụ tư bản hóa m nên tăng tư bản cá biệt và xã hội; tập trung hợp nhất tư bản nên chỉ tăng tư bản cá biệt", "Tích tụ diễn ra bằng sáp nhập các tư bản cá biệt; tập trung diễn ra bằng tích lũy m trong từng doanh nghiệp"],
+    "options": [
+      "Tích tụ hợp nhất các tư bản đã có nên không tăng tư bản xã hội; tập trung tư bản hóa m nên làm tư bản xã hội tăng",
+      "Tích tụ làm tăng tư bản xã hội nhưng không tăng tư bản cá biệt; tập trung làm giảm cả hai loại quy mô tư bản",
+      "Tích tụ tư bản hóa m nên tăng tư bản cá biệt và xã hội; tập trung hợp nhất tư bản nên chỉ tăng tư bản cá biệt",
+      "Tích tụ diễn ra bằng sáp nhập các tư bản cá biệt; tập trung diễn ra bằng tích lũy m trong từng doanh nghiệp"
+    ],
     "answer": 2,
     "explanation": "Tích tụ bổ sung tư bản mới từ giá trị thặng dư nên quy mô tư bản xã hội tăng. Tập trung chỉ tổ chức lại các tư bản đã có thành một tư bản cá biệt lớn hơn, không làm tổng tư bản xã hội tăng.",
     "source": {
@@ -905,8 +1135,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_huong",
     "stem": "Doanh nghiệp A dùng giá trị thặng dư giữ lại để mua thêm máy và thuê thêm lao động. Hai doanh nghiệp B và C sáp nhập thành một doanh nghiệp lớn nhưng không tạo thêm tư bản xã hội tại thời điểm sáp nhập. Hai trường hợp lần lượt là gì?",
-    "options": ["Tập trung tư bản; tích tụ tư bản", "Tích tụ tư bản; tập trung tư bản", "Tái sản xuất giản đơn; tích tụ tư bản", "Tập trung tư bản; tái sản xuất giản đơn"],
-    "answer": 1,
+    "options": [
+      "Tích tụ tư bản; tập trung tư bản",
+      "Tập trung tư bản; tích tụ tư bản",
+      "Tái sản xuất giản đơn; tích tụ tư bản",
+      "Tập trung tư bản; tái sản xuất giản đơn"
+    ],
+    "answer": 0,
     "explanation": "A tăng quy mô bằng cách tư bản hóa giá trị thặng dư nên là tích tụ. B và C hợp nhất các tư bản đã có thành một tư bản cá biệt lớn hơn nên là tập trung.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -922,8 +1157,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Biểu hiện nào phân biệt đúng bần cùng hóa tương đối với bần cùng hóa tuyệt đối?",
-    "options": ["Tương đối là mức sống giảm tuyệt đối; tuyệt đối là tỷ trọng của công nhân tăng", "Tương đối là thu nhập công nhân có thể tăng nhưng tỷ trọng giảm; tuyệt đối là mức sống thực tế sụt giảm", "Tương đối chỉ xảy ra khi thất nghiệp; tuyệt đối chỉ xảy ra khi kinh tế tăng trưởng", "Tương đối và tuyệt đối đều chỉ có nghĩa là tiền công danh nghĩa không đổi"],
-    "answer": 1,
+    "options": [
+      "Tương đối là thu nhập công nhân có thể tăng nhưng tỷ trọng giảm; tuyệt đối là mức sống thực tế sụt giảm",
+      "Tương đối là mức sống giảm tuyệt đối; tuyệt đối là tỷ trọng của công nhân tăng",
+      "Tương đối chỉ xảy ra khi thất nghiệp; tuyệt đối chỉ xảy ra khi kinh tế tăng trưởng",
+      "Tương đối và tuyệt đối đều chỉ có nghĩa là tiền công danh nghĩa không đổi"
+    ],
+    "answer": 0,
     "explanation": "Bần cùng hóa tương đối nói về phần phân phối của công nhân giảm so với phần của tư sản dù mức tuyệt đối có thể tăng. Bần cùng hóa tuyệt đối là mức sống giảm thực sự, thường rõ trong thất nghiệp hoặc khủng hoảng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -939,7 +1179,12 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Chi phí sản xuất tư bản chủ nghĩa k được xác định như thế nào?",
-    "options": ["k = c + m, gồm tư liệu sản xuất và giá trị thặng dư", "k = v + m, gồm sức lao động và giá trị thặng dư", "k = c + v, gồm tư liệu sản xuất đã tiêu dùng và sức lao động đã sử dụng", "k = c + v + m, bằng toàn bộ giá trị hàng hóa"],
+    "options": [
+      "k = c + m, gồm tư liệu sản xuất và giá trị thặng dư",
+      "k = v + m, gồm sức lao động và giá trị thặng dư",
+      "k = c + v, gồm tư liệu sản xuất đã tiêu dùng và sức lao động đã sử dụng",
+      "k = c + v + m, bằng toàn bộ giá trị hàng hóa"
+    ],
     "answer": 2,
     "explanation": "Chi phí sản xuất là phần giá trị bù lại giá cả tư liệu sản xuất đã tiêu dùng và sức lao động đã sử dụng. Vì vậy k = c + v, còn giá trị hàng hóa G = k + m.",
     "source": {
@@ -960,7 +1205,12 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một máy trị giá 600 triệu đồng được dùng đều trong 6 chu kỳ; mỗi chu kỳ còn tiêu dùng 400 triệu đồng nguyên liệu và 100 triệu đồng tư bản khả biến. Nếu m' = 100%, cặp chi phí sản xuất k và giá trị hàng hóa G của một chu kỳ là bao nhiêu?",
-    "options": ["k = 500 triệu; G = 600 triệu", "k = 600 triệu; G = 700 triệu", "k = 700 triệu; G = 800 triệu", "k = 1.100 triệu; G = 1.200 triệu"],
+    "options": [
+      "k = 500 triệu; G = 600 triệu",
+      "k = 600 triệu; G = 700 triệu",
+      "k = 700 triệu; G = 800 triệu",
+      "k = 1.100 triệu; G = 1.200 triệu"
+    ],
     "answer": 1,
     "explanation": "Khấu hao máy mỗi chu kỳ là 600/6 = 100 triệu; c tiêu dùng = 100 + 400 = 500 triệu. k = c + v = 500 + 100 = 600 triệu; m = 100% × 100 = 100 triệu; G = k + m = 700 triệu.",
     "source": {
@@ -977,8 +1227,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Theo C. Mác, lợi nhuận là gì?",
-    "options": ["Hình thái hoàn trả của tư bản bất biến đã tiêu dùng trong sản xuất", "Hình thái chuyển hóa của giá trị thặng dư, được quan niệm như con đẻ của toàn bộ tư bản ứng trước", "Hình thái chuyển hóa của tiền công khi hàng hóa được bán đúng giá trị", "Hình thái chênh lệch giữa tư bản cố định đã dùng và phần khấu hao"],
-    "answer": 1,
+    "options": [
+      "Hình thái chuyển hóa của giá trị thặng dư, được quan niệm như con đẻ của toàn bộ tư bản ứng trước",
+      "Hình thái hoàn trả của tư bản bất biến đã tiêu dùng trong sản xuất",
+      "Hình thái chuyển hóa của tiền công khi hàng hóa được bán đúng giá trị",
+      "Hình thái chênh lệch giữa tư bản cố định đã dùng và phần khấu hao"
+    ],
+    "answer": 0,
     "explanation": "Trên bề mặt kinh doanh, khoản chênh lệch giữa giá trị hàng hóa và chi phí sản xuất xuất hiện như lợi nhuận do toàn bộ tư bản sinh ra. Về bản chất, đó là giá trị thặng dư đã chuyển hóa hình thái.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -998,8 +1253,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Một hàng hóa có chi phí sản xuất 80 triệu đồng và giá trị 100 triệu đồng. Nếu bán với giá 90 triệu đồng, kết luận nào đúng?",
-    "options": ["Không có lợi nhuận vì giá bán thấp hơn giá trị", "Có lợi nhuận 10 triệu đồng, nhỏ hơn giá trị thặng dư 20 triệu đồng", "Có lợi nhuận 20 triệu đồng vì lợi nhuận luôn bằng giá trị thặng dư", "Bị lỗ 10 triệu đồng vì giá bán thấp hơn giá trị"],
-    "answer": 1,
+    "options": [
+      "Không có lợi nhuận vì giá bán thấp hơn giá trị",
+      "Có lợi nhuận 20 triệu đồng vì lợi nhuận luôn bằng giá trị thặng dư",
+      "Có lợi nhuận 10 triệu đồng, nhỏ hơn giá trị thặng dư 20 triệu đồng",
+      "Bị lỗ 10 triệu đồng vì giá bán thấp hơn giá trị"
+    ],
+    "answer": 2,
     "explanation": "Lợi nhuận cá biệt tính theo giá bán trừ chi phí: 90 - 80 = 10 triệu đồng. Giá trị thặng dư chứa trong hàng hóa là 100 - 80 = 20 triệu đồng, nên lợi nhuận thực hiện nhỏ hơn m dù doanh nghiệp vẫn có lãi.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1015,8 +1275,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Công thức và ý nghĩa đúng của tỷ suất lợi nhuận là gì?",
-    "options": ["p' = p/v × 100%, phản ánh trình độ khai thác sức lao động", "p' = p/c × 100%, phản ánh tốc độ chu chuyển", "p' = (c + v)/p × 100%, phản ánh quy mô chi phí", "p' = p/(c + v) × 100%, phản ánh mức doanh lợi của tư bản đầu tư"],
-    "answer": 3,
+    "options": [
+      "p' = p/v × 100%, phản ánh trình độ khai thác sức lao động",
+      "p' = p/c × 100%, phản ánh tốc độ chu chuyển",
+      "p' = p/(c + v) × 100%, phản ánh mức doanh lợi của tư bản đầu tư",
+      "p' = (c + v)/p × 100%, phản ánh quy mô chi phí"
+    ],
+    "answer": 2,
     "explanation": "Tỷ suất lợi nhuận so sánh lợi nhuận với toàn bộ tư bản ứng trước c + v. Đây là số đo tương đối phản ánh mức doanh lợi, khác với m' chỉ so m với v.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1036,8 +1301,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một doanh nghiệp ứng trước 800 triệu đồng tư bản bất biến và 200 triệu đồng tư bản khả biến, thu lợi nhuận 250 triệu đồng. Tỷ suất lợi nhuận là bao nhiêu?",
-    "options": ["20%", "22%", "25%", "30%"],
-    "answer": 2,
+    "options": [
+      "25%",
+      "22%",
+      "20%",
+      "30%"
+    ],
+    "answer": 0,
     "explanation": "Tổng tư bản ứng trước là 800 + 200 = 1.000 triệu đồng. p' = 250/1.000 × 100% = 25%.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1053,7 +1323,12 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Giữ nguyên tư bản khả biến và giá trị thặng dư, thay đổi nào làm tỷ suất lợi nhuận tăng?",
-    "options": ["Tăng tư bản bất biến đã sử dụng", "Tăng đồng thời c và v với lợi nhuận không đổi", "Giảm lợi nhuận trong khi tổng tư bản không đổi", "Tiết kiệm tư bản bất biến để giảm mẫu số c + v"],
+    "options": [
+      "Tăng tư bản bất biến đã sử dụng",
+      "Tăng đồng thời c và v với lợi nhuận không đổi",
+      "Giảm lợi nhuận trong khi tổng tư bản không đổi",
+      "Tiết kiệm tư bản bất biến để giảm mẫu số c + v"
+    ],
     "answer": 3,
     "explanation": "Với p và v không đổi, p' = p/(c + v) × 100%. Tiết kiệm c làm tổng tư bản ứng trước giảm, vì vậy tỷ suất lợi nhuận tăng.",
     "source": {
@@ -1074,8 +1349,13 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Lợi nhuận bình quân là gì và được hình thành chủ yếu qua cơ chế nào?",
-    "options": ["Số lợi nhuận bằng nhau của những tư bản bằng nhau ở các ngành khác nhau, hình thành qua cạnh tranh giữa các ngành", "Số lợi nhuận khác nhau của những tư bản bằng nhau ở các ngành khác nhau, hình thành khi vốn ngừng di chuyển", "Số lợi nhuận bằng nhau của những tư bản bằng nhau trong cùng một ngành, hình thành chỉ qua cạnh tranh nội bộ ngành", "Số lợi nhuận tỷ lệ với tư bản khả biến của từng ngành, hình thành mà không cần tư bản tự do di chuyển"],
-    "answer": 0,
+    "options": [
+      "Số lợi nhuận khác nhau của những tư bản bằng nhau ở các ngành khác nhau, hình thành khi vốn ngừng di chuyển",
+      "Số lợi nhuận bằng nhau của những tư bản bằng nhau ở các ngành khác nhau, hình thành qua cạnh tranh giữa các ngành",
+      "Số lợi nhuận bằng nhau của những tư bản bằng nhau trong cùng một ngành, hình thành chỉ qua cạnh tranh nội bộ ngành",
+      "Số lợi nhuận tỷ lệ với tư bản khả biến của từng ngành, hình thành mà không cần tư bản tự do di chuyển"
+    ],
+    "answer": 1,
     "explanation": "Chênh lệch tỷ suất lợi nhuận thúc đẩy tư bản di chuyển giữa các ngành. Quá trình đó làm các tỷ suất tiến gần nhau và tạo lợi nhuận bình quân cho các tư bản có quy mô bằng nhau.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1095,7 +1375,12 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Ngành A có tư bản 200 tỷ đồng và tỷ suất lợi nhuận 20%; ngành B có tư bản 300 tỷ đồng và tỷ suất lợi nhuận 40%. Tỷ suất lợi nhuận bình quân gia quyền là bao nhiêu?",
-    "options": ["30%", "32%", "36%", "60%"],
+    "options": [
+      "30%",
+      "32%",
+      "36%",
+      "60%"
+    ],
     "answer": 1,
     "explanation": "Lợi nhuận A = 200 × 20% = 40 tỷ; lợi nhuận B = 300 × 40% = 120 tỷ. Tỷ suất bình quân = (40 + 120)/(200 + 300) × 100% = 32%.",
     "source": {
@@ -1112,8 +1397,13 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Khi lợi nhuận chuyển hóa thành lợi nhuận bình quân, giá trị hàng hóa chuyển hóa thành giá cả sản xuất theo quan hệ nào?",
-    "options": ["Giá cả sản xuất = k + tư bản khả biến", "Giá cả sản xuất = k + lợi tức cho vay", "Giá cả sản xuất = giá trị hàng hóa + k", "Giá cả sản xuất = k + lợi nhuận bình quân"],
-    "answer": 3,
+    "options": [
+      "Giá cả sản xuất = k + lợi nhuận bình quân",
+      "Giá cả sản xuất = k + lợi tức cho vay",
+      "Giá cả sản xuất = giá trị hàng hóa + k",
+      "Giá cả sản xuất = k + tư bản khả biến"
+    ],
+    "answer": 0,
     "explanation": "Sự hình thành lợi nhuận bình quân làm giá trị hàng hóa chuyển thành giá cả sản xuất. Giá cả sản xuất gồm chi phí sản xuất k cộng lợi nhuận bình quân tương ứng với tư bản ứng trước.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1129,7 +1419,12 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Nguồn gốc của lợi nhuận thương nghiệp là gì?",
-    "options": ["Giá trị mới do bản thân hành vi mua và bán tạo ra trong lưu thông", "Khoản phụ giá cao hơn giá trị mà người tiêu dùng luôn phải trả", "Khoản tiết kiệm chi phí lưu thông do riêng thương nhân tạo ra", "Một phần giá trị thặng dư do sản xuất tạo ra được nhà tư bản sản xuất nhường cho nhà tư bản thương nghiệp"],
+    "options": [
+      "Giá trị mới do bản thân hành vi mua và bán tạo ra trong lưu thông",
+      "Khoản phụ giá cao hơn giá trị mà người tiêu dùng luôn phải trả",
+      "Khoản tiết kiệm chi phí lưu thông do riêng thương nhân tạo ra",
+      "Một phần giá trị thặng dư do sản xuất tạo ra được nhà tư bản sản xuất nhường cho nhà tư bản thương nghiệp"
+    ],
     "answer": 3,
     "explanation": "Tư bản thương nghiệp giúp thực hiện hàng hóa nhưng lưu thông không tự tạo giá trị thặng dư. Lợi nhuận của nó là phần giá trị thặng dư trong sản xuất được phân chia để trả cho chức năng tiêu thụ.",
     "source": {
@@ -1150,8 +1445,13 @@
     "difficulty": "Thông hiểu",
     "kind": "trinh_tu_quan_he",
     "stem": "Cơ chế nào cho phép nhà tư bản thương nghiệp có lợi nhuận mà vẫn bán hàng hóa đúng giá trị?",
-    "options": ["Thương nghiệp mua đúng giá trị rồi bán cao hơn giá trị để giữ toàn bộ khoản chênh lệch", "Thương nghiệp mua dưới chi phí sản xuất rồi bán đúng chi phí, lấy phần giảm giá làm lợi nhuận", "Nhà tư bản sản xuất bán đúng giá trị, còn thương nghiệp chỉ thu thêm lợi tức từ người mua", "Nhà tư bản sản xuất bán dưới giá trị nhưng trên k; thương nghiệp bán đúng giá trị và hưởng phần chênh lệch"],
-    "answer": 3,
+    "options": [
+      "Nhà tư bản sản xuất bán dưới giá trị nhưng trên k; thương nghiệp bán đúng giá trị và hưởng phần chênh lệch",
+      "Thương nghiệp mua dưới chi phí sản xuất rồi bán đúng chi phí, lấy phần giảm giá làm lợi nhuận",
+      "Nhà tư bản sản xuất bán đúng giá trị, còn thương nghiệp chỉ thu thêm lợi tức từ người mua",
+      "Thương nghiệp mua đúng giá trị rồi bán cao hơn giá trị để giữ toàn bộ khoản chênh lệch"
+    ],
+    "answer": 0,
     "explanation": "Nhà tư bản sản xuất giữ một phần lợi nhuận bằng cách bán cho thương nghiệp với giá cao hơn k nhưng thấp hơn giá trị. Thương nghiệp bán ở giá trị, và chênh lệch mua - bán là phần giá trị thặng dư được nhường lại.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1167,7 +1467,12 @@
     "difficulty": "Nhận biết",
     "kind": "nhan_biet_khai_niem",
     "stem": "Lợi tức trong quan hệ tư bản cho vay là gì?",
-    "options": ["Toàn bộ lợi nhuận bình quân người đi vay chuyển cho người cho vay", "Phần tiền gốc người đi vay hoàn trả sau thời hạn sử dụng", "Khoản tiền mua đứt quyền sở hữu tư bản của người cho vay", "Một phần lợi nhuận bình quân người đi vay trả cho người cho vay vì sử dụng tư bản tiền tệ"],
+    "options": [
+      "Toàn bộ lợi nhuận bình quân người đi vay chuyển cho người cho vay",
+      "Phần tiền gốc người đi vay hoàn trả sau thời hạn sử dụng",
+      "Khoản tiền mua đứt quyền sở hữu tư bản của người cho vay",
+      "Một phần lợi nhuận bình quân người đi vay trả cho người cho vay vì sử dụng tư bản tiền tệ"
+    ],
     "answer": 3,
     "explanation": "Người sử dụng vốn vay thu lợi nhuận trong hoạt động kinh doanh rồi trích một phần trả chủ sở hữu vốn. Về thực chất, lợi tức là một phần giá trị thặng dư được phân chia qua lợi nhuận bình quân.",
     "source": {
@@ -1188,8 +1493,13 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một nhà tư bản vay 2 tỷ đồng trong một năm với tỷ suất lợi tức 8%/năm. Số lợi tức phải trả cuối năm là bao nhiêu?",
-    "options": ["80 triệu đồng", "120 triệu đồng", "140 triệu đồng", "160 triệu đồng"],
-    "answer": 3,
+    "options": [
+      "80 triệu đồng",
+      "160 triệu đồng",
+      "140 triệu đồng",
+      "120 triệu đồng"
+    ],
+    "answer": 1,
     "explanation": "Từ z' = z/TBCV × 100% suy ra z = z' × TBCV. Số lợi tức = 8% × 2 tỷ = 0,16 tỷ = 160 triệu đồng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1205,7 +1515,12 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Vì sao công thức vận động T - T' của tư bản cho vay dễ tạo ảo tưởng tiền tự sinh ra tiền?",
-    "options": ["Vì công thức trình bày đầy đủ quá trình sử dụng sức lao động trong sản xuất", "Vì công thức lược bỏ các khâu sản xuất và lưu thông trung gian, che khuất nguồn gốc giá trị thặng dư của lợi tức", "Vì T' luôn nhỏ hơn T nên không cần giải thích phần chênh lệch", "Vì người cho vay đồng thời là người trực tiếp tạo ra mọi hàng hóa"],
+    "options": [
+      "Vì công thức trình bày đầy đủ quá trình sử dụng sức lao động trong sản xuất",
+      "Vì công thức lược bỏ các khâu sản xuất và lưu thông trung gian, che khuất nguồn gốc giá trị thặng dư của lợi tức",
+      "Vì T' luôn nhỏ hơn T nên không cần giải thích phần chênh lệch",
+      "Vì người cho vay đồng thời là người trực tiếp tạo ra mọi hàng hóa"
+    ],
     "answer": 1,
     "explanation": "T - T' chỉ biểu hiện tiền ứng ra quay về cùng một khoản tăng thêm. Khi quá trình kinh doanh của người đi vay bị che khuất, phần lợi tức có vẻ như do bản thân tiền sinh ra thay vì là phần giá trị thặng dư.",
     "source": {
@@ -1222,8 +1537,13 @@
     "difficulty": "Thông hiểu",
     "kind": "thong_hieu_phan_biet",
     "stem": "Mảnh đất A đem lại lợi thế vì độ màu mỡ tự nhiên và vị trí thuận lợi; mảnh đất B đem lại lợi thế sau khi được đầu tư thâm canh. Hai phần địa tô tương ứng là gì?",
-    "options": ["A là địa tô chênh lệch II; B là địa tô chênh lệch I", "A là địa tô chênh lệch I; B là địa tô chênh lệch II", "A và B đều là địa tô chênh lệch I", "A và B đều là địa tô chênh lệch II"],
-    "answer": 1,
+    "options": [
+      "A là địa tô chênh lệch II; B là địa tô chênh lệch I",
+      "A và B đều là địa tô chênh lệch II",
+      "A và B đều là địa tô chênh lệch I",
+      "A là địa tô chênh lệch I; B là địa tô chênh lệch II"
+    ],
+    "answer": 3,
     "explanation": "Địa tô chênh lệch I gắn với độ màu mỡ và điều kiện tự nhiên thuận lợi sẵn có. Địa tô chênh lệch II gắn với kết quả đầu tư, thâm canh làm tăng độ màu mỡ của đất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1243,13 +1563,786 @@
     "difficulty": "Vận dụng",
     "kind": "van_dung_tinh_toan",
     "stem": "Một mảnh đất đem lại địa tô 240 triệu đồng mỗi năm. Nếu tỷ suất lợi tức nhận gửi của ngân hàng là 6%/năm, giá cả đất đai theo công thức của giáo trình là bao nhiêu?",
-    "options": ["1,44 tỷ đồng", "2,4 tỷ đồng", "4 tỷ đồng", "14,4 tỷ đồng"],
-    "answer": 2,
+    "options": [
+      "1,44 tỷ đồng",
+      "2,4 tỷ đồng",
+      "14,4 tỷ đồng",
+      "4 tỷ đồng"
+    ],
+    "answer": 3,
     "explanation": "Giá cả đất đai = Địa tô / Tỷ suất lợi tức. Đổi 6% thành 0,06: 240 triệu / 0,06 = 4.000 triệu đồng = 4 tỷ đồng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
       "page": 109,
       "text": "Về nguyên lý, giá cả đất đai được tính bằng địa tô chia cho tỷ suất lợi tức nhận gửi của ngân hàng."
+    }
+  },
+  {
+    "id": "C03-Q066",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cách đo giá trị hàng hóa sức lao động",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sức lao động chỉ tồn tại trong con người sống, lượng giá trị của hàng hóa này được xác định gián tiếp qua đâu?",
+    "options": [
+      "Lượng giá trị các tư liệu sinh hoạt cần thiết để tái sản xuất sức lao động",
+      "Lượng thời gian lao động cá biệt mà người lao động thực hiện mỗi ngày",
+      "Lượng giá trị tư liệu sản xuất mà người lao động sử dụng trong công việc",
+      "Mức giá bán các sản phẩm do người lao động trực tiếp làm ra"
+    ],
+    "answer": 0,
+    "explanation": "Sức lao động chỉ tồn tại trong con người sống nên phải được tái sản xuất bằng một lượng tư liệu sinh hoạt nhất định. Vì vậy, giá trị sức lao động được đo gián tiếp bằng giá trị những tư liệu sinh hoạt cần thiết cho việc tái sản xuất đó.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 78,
+      "text": "Giá trị hàng hóa sức lao động được đo lường gián tiếp thông qua giá trị các tư liệu sinh hoạt cần thiết để tái sản xuất sức lao động."
+    }
+  },
+  {
+    "id": "C03-Q067",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Điều kiện xã hội của sản xuất giá trị thặng dư",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Điều kiện về trình độ sản xuất nào làm cho thời gian lao động thặng dư có thể xuất hiện trong ngày lao động đã thỏa thuận?",
+    "options": [
+      "Người lao động phải dùng toàn bộ ngày lao động mới tái tạo đủ giá trị sức lao động",
+      "Tư liệu sản xuất tự tạo giá trị mới trước khi sức lao động được đưa vào sử dụng",
+      "Người lao động chỉ cần một phần ngày lao động để tạo giá trị bù đắp sức lao động",
+      "Việc mua sức lao động trong lưu thông tự làm số tiền ứng trước tăng thêm giá trị"
+    ],
+    "answer": 2,
+    "explanation": "Sản xuất phải đạt trình độ mà người lao động chỉ cần một phần thời gian đã thỏa thuận để tạo lượng giá trị bù đắp sức lao động. Phần thời gian còn lại dưới sự quản lý của người mua sức lao động là thời gian lao động thặng dư.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 79,
+      "text": "Khi người lao động chỉ cần một phần thời gian đã thỏa thuận để bù đắp giá trị sức lao động, thời gian còn lại trở thành thời gian lao động thặng dư."
+    }
+  },
+  {
+    "id": "C03-Q068",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cấu trúc quá trình sản xuất giá trị thặng dư",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quá trình sản xuất giá trị thặng dư là sự thống nhất của hai quá trình nào?",
+    "options": [
+      "Quá trình bảo quản hàng hóa và quá trình chuyển quyền sở hữu",
+      "Quá trình tạo ra giá trị và quá trình làm tăng giá trị",
+      "Quá trình định giá hàng hóa và quá trình phân phối thu nhập",
+      "Quá trình vay tư bản và quá trình hoàn trả lợi tức"
+    ],
+    "answer": 1,
+    "explanation": "Sản xuất giá trị thặng dư vừa là quá trình lao động tạo ra giá trị mới, vừa là quá trình kéo dài sự tạo giá trị vượt điểm bù đắp giá trị sức lao động để làm tăng giá trị ứng trước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 79,
+      "text": "Quá trình sản xuất giá trị thặng dư là sự thống nhất của quá trình tạo ra giá trị và quá trình làm tăng giá trị."
+    }
+  },
+  {
+    "id": "C03-Q069",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Lao động quản lý và giá trị mới",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chủ doanh nghiệp vừa sở hữu tư liệu sản xuất vừa trực tiếp tổ chức, điều hành hoạt động sản xuất bằng sức lao động của mình. Đánh giá nào phù hợp với phân tích của giáo trình?",
+    "options": [
+      "Toàn bộ giá trị mới do máy móc tạo ra vì người chủ sở hữu máy móc",
+      "Toàn bộ giá trị mới chỉ do lao động làm thuê tạo ra trong mọi trường hợp",
+      "Lao động quản lý chỉ phân phối giá trị cũ nên không thể đóng góp vào giá trị mới",
+      "Lao động quản lý có thể góp vào giá trị mới với tư cách lao động phức tạp"
+    ],
+    "answer": 3,
+    "explanation": "Khi người mua sức lao động cũng thực sự hao phí sức lao động để quản lý, giá trị mới có sự đóng góp của lao động quản lý với tư cách lao động phức tạp. Điều này khác giả định nhà tư bản chỉ là chủ sở hữu thuần túy.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 82,
+      "text": "Nếu người mua sức lao động cũng hao phí sức lao động quản lý thì giá trị mới có một phần đóng góp của lao động quản lý với tư cách lao động phức tạp."
+    }
+  },
+  {
+    "id": "C03-Q070",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cấu thành thời gian chu chuyển",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thời gian chu chuyển của tư bản gồm hai bộ phận cơ bản nào?",
+    "options": [
+      "Thời gian sản xuất và thời gian lưu thông",
+      "Thời gian hao mòn hữu hình và thời gian hao mòn vô hình",
+      "Thời gian lao động tất yếu và thời gian lao động thặng dư",
+      "Thời gian tích lũy và thời gian tiêu dùng"
+    ],
+    "answer": 0,
+    "explanation": "Một vòng chu chuyển bao quát cả thời gian tư bản ở trong lĩnh vực sản xuất và thời gian tư bản thực hiện các hoạt động mua, bán trong lưu thông.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 86,
+      "text": "Thời gian chu chuyển của tư bản bao gồm thời gian sản xuất và thời gian lưu thông.",
+      "slide": {
+        "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt",
+        "number": 22
+      }
+    }
+  },
+  {
+    "id": "C03-Q071",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Môi trường kinh doanh và hiệu quả tuần hoàn",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao nỗ lực tổ chức bên trong doanh nghiệp chưa phải là điều kiện duy nhất bảo đảm tuần hoàn tư bản đạt hiệu quả?",
+    "options": [
+      "Do hiệu quả chỉ phụ thuộc quy mô tiền ứng trước, không liên quan tổ chức hay môi trường",
+      "Do doanh nghiệp chỉ cần chờ Nhà nước quyết định thay mọi hoạt động mua, sản xuất và bán",
+      "Do còn cần điều kiện bên ngoài thuận lợi và Nhà nước kiến tạo môi trường kinh doanh",
+      "Do mọi doanh nghiệp thực hiện đủ quy trình luôn đạt mức hiệu quả hoàn toàn giống nhau"
+    ],
+    "answer": 2,
+    "explanation": "Doanh nghiệp phải tổ chức tốt đầu vào, sản xuất và đầu ra, nhưng hiệu quả còn phụ thuộc các điều kiện khách quan bên ngoài. Vì vậy, môi trường kinh doanh thuận lợi và sự hỗ trợ kiến tạo của Nhà nước cũng cần thiết.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 86,
+      "text": "Kinh doanh hiệu quả cần nỗ lực tổ chức của doanh nhân, điều kiện bên ngoài thuận lợi và sự hỗ trợ của Nhà nước trong kiến tạo môi trường kinh doanh."
+    }
+  },
+  {
+    "id": "C03-Q072",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Rút ngắn thời gian lưu thông",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một doanh nghiệp giữ nguyên thời gian sản xuất nhưng rút ngắn được thời gian tìm khách hàng, giao hàng và thu tiền. Hệ quả trực tiếp nào phù hợp?",
+    "options": [
+      "Thời gian lưu thông ngắn hơn, thời gian chu chuyển ngắn hơn và tốc độ tăng",
+      "Thời gian lưu thông không đổi, thời gian chu chuyển không đổi và tốc độ giữ nguyên",
+      "Thời gian sản xuất ngắn hơn, thời gian chu chuyển ngắn hơn và tốc độ tăng",
+      "Thời gian lưu thông dài hơn, thời gian chu chuyển dài hơn và tốc độ giảm"
+    ],
+    "answer": 0,
+    "explanation": "Tìm khách hàng, giao hàng và thu tiền thuộc thời gian bán trong lưu thông. Rút ngắn bộ phận này làm tổng thời gian chu chuyển giảm; với cùng kỳ tính, số vòng chu chuyển tăng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 86,
+      "text": "Thời gian chu chuyển gồm thời gian sản xuất và lưu thông; rút ngắn một bộ phận làm tổng thời gian chu chuyển giảm.",
+      "slide": {
+        "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt",
+        "number": 22
+      }
+    }
+  },
+  {
+    "id": "C03-Q073",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Phối hợp các giai đoạn tuần hoàn",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao các hoạt động mua yếu tố đầu vào, tổ chức sản xuất và bán hàng phải được phối hợp nhịp nhàng trong tuần hoàn tư bản?",
+    "options": [
+      "Vì mỗi hoạt động đều độc lập tạo ra toàn bộ giá trị thặng dư cho doanh nghiệp",
+      "Vì chỉ hoạt động bán hàng quyết định sản xuất còn hai hoạt động kia không có chức năng",
+      "Vì đình trệ ở một khâu sẽ cản trở các khâu còn lại của vòng tuần hoàn",
+      "Vì phối hợp ba hoạt động sẽ loại bỏ hoàn toàn nhu cầu thị trường và rủi ro kinh doanh"
+    ],
+    "answer": 2,
+    "explanation": "Ba giai đoạn thực hiện những chức năng kế tiếp và phụ thuộc nhau. Thiếu đầu vào làm sản xuất đình trệ, tổ chức sản xuất kém không tạo được H', còn bán hàng chậm cản trở việc thực hiện giá trị và bắt đầu vòng mới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 86,
+      "text": "Tuần hoàn phản ánh các quan hệ khách quan giữa những hoạt động cần kết hợp nhịp nhàng, kịp thời và đúng lúc trong sản xuất kinh doanh."
+    }
+  },
+  {
+    "id": "C03-Q074",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Các cuộc biến đổi trong tổ chức sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách ghép nào đúng về ba cuộc biến đổi lớn trong sản xuất mà giáo trình nêu?",
+    "options": [
+      "Tổ chức - hiệp tác giản đơn; sức lao động - hiệp tác có phân công; tư liệu lao động - đại công nghiệp",
+      "Tổ chức - đại công nghiệp; sức lao động - hiệp tác giản đơn; tư liệu lao động - hiệp tác có phân công",
+      "Tổ chức - hiệp tác có phân công; sức lao động - đại công nghiệp; tư liệu lao động - hiệp tác giản đơn",
+      "Tổ chức - đại công nghiệp; sức lao động - hiệp tác có phân công; tư liệu lao động - hiệp tác giản đơn"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình lần lượt gắn cách mạng về tổ chức với hiệp tác giản đơn, cách mạng về sức lao động với hiệp tác có phân công và cách mạng về tư liệu lao động với sự hình thành đại công nghiệp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 93,
+      "text": "Các cuộc biến đổi lớn gồm hiệp tác giản đơn về tổ chức, hiệp tác có phân công về sức lao động và đại công nghiệp về tư liệu lao động."
+    }
+  },
+  {
+    "id": "C03-Q075",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Phạm vi tăng năng suất để hạ giá trị sức lao động",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Để hạ giá trị sức lao động và tạo giá trị thặng dư tương đối, năng suất lao động cần tăng trong phạm vi nào?",
+    "options": [
+      "Trong ngành làm tư liệu sinh hoạt cùng các ngành tạo đầu vào",
+      "Chỉ trong các ngành sản xuất hàng xa xỉ cho tiêu dùng cá nhân",
+      "Chỉ trong xí nghiệp đang trực tiếp thuê người lao động làm thuê",
+      "Trong riêng các hoạt động mua bán và thanh toán sau khi sản xuất"
+    ],
+    "answer": 0,
+    "explanation": "Giá trị sức lao động giảm khi giá trị tư liệu sinh hoạt và dịch vụ cần thiết giảm. Điều này đòi hỏi năng suất tăng cả ở các ngành trực tiếp tạo tư liệu sinh hoạt và các ngành cung cấp tư liệu sản xuất cho chúng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 92,
+      "text": "Muốn hạ giá trị sức lao động phải tăng năng suất trong các ngành sản xuất tư liệu sinh hoạt và các ngành sản xuất tư liệu sản xuất cho những ngành đó."
+    }
+  },
+  {
+    "id": "C03-Q076",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Từ giá trị thặng dư siêu ngạch đến tương đối",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao sự theo đuổi giá trị thặng dư siêu ngạch của từng doanh nghiệp có thể góp phần hình thành giá trị thặng dư tương đối trong toàn xã hội?",
+    "options": [
+      "Bán hàng cao hơn giá trị xã hội làm lưu thông tạo thêm giá trị mới cho toàn nền kinh tế",
+      "Mọi doanh nghiệp đồng loạt kéo dài ngày lao động nên thời gian tất yếu tự động giảm",
+      "Đổi mới lan rộng làm năng suất xã hội tăng, tạo điều kiện hạ giá trị sức lao động",
+      "Đổi mới kỹ thuật làm giá trị cá biệt tăng, khiến thời gian lao động tất yếu kéo dài hơn"
+    ],
+    "answer": 2,
+    "explanation": "Lợi thế kỹ thuật giúp doanh nghiệp đi trước thu giá trị thặng dư siêu ngạch. Khi cải tiến được phổ biến, năng suất lao động xã hội tăng; nếu tác động đến các tư liệu tái sản xuất sức lao động, giá trị thặng dư tương đối được hình thành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 92,
+      "text": "Cạnh tranh vì giá trị thặng dư siêu ngạch thúc đẩy cải tiến kỹ thuật, làm tăng năng suất xã hội và hình thành giá trị thặng dư tương đối."
+    }
+  },
+  {
+    "id": "C03-Q077",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cấu tạo kỹ thuật của tư bản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khi quan sát tư bản ở hình thái hiện vật qua tỷ lệ giữa tư liệu sản xuất và sức lao động, giáo trình dùng khái niệm nào?",
+    "options": [
+      "Tỷ suất giá trị thặng dư",
+      "Cấu tạo hữu cơ của tư bản",
+      "Cấu tạo kỹ thuật của tư bản",
+      "Tỷ suất lợi nhuận của tư bản"
+    ],
+    "answer": 2,
+    "explanation": "Cấu tạo kỹ thuật quan sát tư bản ở hình thái hiện vật, tức tỷ lệ giữa khối lượng tư liệu sản xuất được sử dụng và lượng sức lao động vận hành chúng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 96,
+      "text": "Cấu tạo kỹ thuật là quan hệ tỷ lệ giữa số lượng tư liệu sản xuất và số lượng sức lao động."
+    }
+  },
+  {
+    "id": "C03-Q078",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Quan hệ giữa cấu tạo kỹ thuật và hữu cơ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao cấu tạo hữu cơ của tư bản không chỉ là một tỷ lệ giá trị c/v bất kỳ?",
+    "options": [
+      "Vì tỷ lệ này chỉ do biến động giá thị trường của hàng hóa cuối cùng quyết định",
+      "Vì c/v do cấu tạo kỹ thuật quyết định và phản ánh biến đổi của cấu tạo ấy",
+      "Vì tỷ lệ này được xác định bằng quan hệ giữa giá trị thặng dư và tiền công",
+      "Vì tỷ lệ này hoàn toàn độc lập với lượng tư liệu sản xuất và sức lao động"
+    ],
+    "answer": 1,
+    "explanation": "Cấu tạo hữu cơ là cấu tạo giá trị có liên hệ nội tại với hình thái hiện vật của sản xuất. Nó được cấu tạo kỹ thuật quyết định và phản ánh sự thay đổi của quan hệ giữa tư liệu sản xuất với sức lao động.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 96,
+      "text": "Cấu tạo hữu cơ là cấu tạo giá trị do cấu tạo kỹ thuật quyết định và phản ánh sự biến đổi của cấu tạo kỹ thuật."
+    }
+  },
+  {
+    "id": "C03-Q079",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cấu tạo hữu cơ và tỷ suất lợi nhuận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Hai doanh nghiệp có cùng tổng tư bản ứng trước, cùng tỷ suất giá trị thặng dư và tốc độ chu chuyển. Doanh nghiệp A có c/v cao hơn B. Kết luận nào phù hợp?",
+    "options": [
+      "A có tỷ suất lợi nhuận cao hơn vì sử dụng nhiều tư bản bất biến hơn",
+      "Không thể so sánh dù các nhân tố cần thiết đã được giữ không đổi",
+      "Hai bên có tỷ suất lợi nhuận bằng nhau vì tổng tư bản ứng trước bằng nhau",
+      "A có tỷ suất lợi nhuận thấp hơn vì tỷ trọng tư bản khả biến nhỏ hơn"
+    ],
+    "answer": 3,
+    "explanation": "Khi tổng tư bản và m' bằng nhau, c/v cao hơn nghĩa là tỷ trọng v thấp hơn. Vì m = m' × v nên A tạo khối lượng m nhỏ hơn trên cùng tổng tư bản, do đó p' = m/(c + v) của A thấp hơn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 102,
+      "text": "Cấu tạo hữu cơ c/v là một nhân tố tác động tới lợi nhuận và tỷ suất lợi nhuận.",
+      "slide": {
+        "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt",
+        "number": 48
+      }
+    }
+  },
+  {
+    "id": "C03-Q080",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Vai trò của lợi nhuận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, lợi nhuận giữ vai trò nào trong hoạt động sản xuất, kinh doanh của nhà tư bản?",
+    "options": [
+      "Chỉ xuất hiện khi hàng hóa được bán thấp hơn chi phí sản xuất",
+      "Chỉ là khoản bù đắp tư bản bất biến đã tiêu dùng trong sản xuất",
+      "Là thước đo trực tiếp trình độ khai thác sức lao động làm thuê",
+      "Là mục tiêu, động cơ và động lực của hoạt động sản xuất, kinh doanh"
+    ],
+    "answer": 3,
+    "explanation": "Lợi nhuận là lợi ích kinh tế trực tiếp mà nhà tư bản theo đuổi. Vì vậy, nó trở thành mục tiêu, động cơ và động lực của hoạt động sản xuất, kinh doanh trong nền kinh tế thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 101,
+      "text": "Lợi nhuận là mục tiêu, động cơ và động lực của hoạt động sản xuất, kinh doanh trong nền kinh tế thị trường."
+    }
+  },
+  {
+    "id": "C03-Q081",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Hai mặt xã hội của tích lũy tư bản",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào phản ánh đúng tính hai mặt của quá trình tích lũy tư bản theo C. Mác?",
+    "options": [
+      "Tích lũy đồng thời làm giảm của cải của nhà tư bản và tăng tiền công của mọi lao động",
+      "Tích lũy sự giàu sang cho tư sản đồng thời tích lũy sự bần cùng cho lao động làm thuê",
+      "Tích lũy chỉ làm tăng máy móc nên không tác động đến quan hệ thu nhập giữa các giai cấp",
+      "Tích lũy phân phối của cải ngang nhau cho nhà tư bản và người lao động làm thuê"
+    ],
+    "answer": 1,
+    "explanation": "Sự mở rộng quy mô và tăng cấu tạo hữu cơ làm của cải tập trung về phía chủ sở hữu tư bản, trong khi tư bản khả biến giảm tương đối và người lao động đối mặt với nguy cơ thất nghiệp, bần cùng hóa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 97,
+      "text": "Tích lũy tư bản có hai mặt: tích lũy sự giàu sang về phía tư sản và tích lũy sự bần cùng về phía công nhân làm thuê."
+    }
+  },
+  {
+    "id": "C03-Q082",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Ý nghĩa của các hình thức biểu hiện giá trị thặng dư",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nghiên cứu các hình thức biểu hiện của giá trị thặng dư thực chất là phân tích quan hệ nào?",
+    "options": [
+      "Quan hệ trao đổi hàng hóa giữa người sản xuất với người tiêu dùng",
+      "Quan hệ điều tiết giá cả giữa cơ quan nhà nước và doanh nghiệp",
+      "Quan hệ phân bổ tư liệu sinh hoạt giữa các nhóm người lao động",
+      "Quan hệ phân chia giá trị thặng dư giữa các nhà tư bản và địa chủ"
+    ],
+    "answer": 3,
+    "explanation": "Lợi nhuận, lợi nhuận thương nghiệp, lợi tức và địa tô biểu hiện việc phân chia giá trị thặng dư giữa những chủ thể sở hữu tư bản và đất đai, chứ không phải những nguồn độc lập tạo ra giá trị mới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 98,
+      "text": "Các hình thức biểu hiện của giá trị thặng dư phản ánh quan hệ lợi ích giữa các nhà tư bản với nhau và giữa nhà tư bản với địa chủ trong phân chia giá trị thặng dư."
+    }
+  },
+  {
+    "id": "C03-Q083",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Vai trò của chi phí sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vai trò nào thuộc về chi phí sản xuất tư bản chủ nghĩa?",
+    "options": [
+      "Bù đắp tư bản đã tiêu dùng, bảo đảm tái sản xuất và làm căn cứ cạnh tranh giá",
+      "Đo trình độ khai thác, quyết định địa tô và loại bỏ rủi ro kinh doanh",
+      "Tạo giá trị thặng dư, xác định tiền công và thay thế vai trò của thị trường",
+      "Hoàn trả toàn bộ tư bản cố định, bảo toàn lợi nhuận và cố định giá bán"
+    ],
+    "answer": 0,
+    "explanation": "Chi phí sản xuất bù lại tư liệu sản xuất đã tiêu dùng và sức lao động đã sử dụng cả về giá trị lẫn hiện vật. Nó bảo đảm điều kiện tái sản xuất và là căn cứ quan trọng trong cạnh tranh về giá bán.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 100,
+      "text": "Chi phí sản xuất bù đắp tư bản về giá trị và hiện vật, bảo đảm tái sản xuất, đồng thời là căn cứ cạnh tranh về giá bán."
+    }
+  },
+  {
+    "id": "C03-Q084",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Lợi nhuận và tỷ suất lợi nhuận",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Lợi nhuận tính bằng số tuyệt đối và tỷ suất lợi nhuận phản ánh khác nhau như thế nào?",
+    "options": [
+      "Lợi nhuận phản ánh tốc độ chu chuyển; tỷ suất lợi nhuận phản ánh thời gian một vòng",
+      "Lợi nhuận phản ánh mức doanh lợi; tỷ suất lợi nhuận phản ánh quy mô tư bản cố định",
+      "Lợi nhuận phản ánh trình độ khai thác; tỷ suất lợi nhuận phản ánh giá trị sức lao động",
+      "Lợi nhuận phản ánh quy mô hiệu quả; tỷ suất lợi nhuận phản ánh mức doanh lợi"
+    ],
+    "answer": 3,
+    "explanation": "Số lợi nhuận cho biết doanh nghiệp thu được một lượng chênh lệch lớn hay nhỏ. Tỷ suất lợi nhuận so sánh khoản đó với toàn bộ tư bản ứng trước nên phản ánh đầy đủ hơn mức độ hiệu quả đầu tư.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 101,
+      "text": "Lợi nhuận tuyệt đối phản ánh quy mô hiệu quả, còn tỷ suất lợi nhuận là số đo tương đối phản ánh mức doanh lợi đầu tư tư bản."
+    }
+  },
+  {
+    "id": "C03-Q085",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Trình độ khai thác sức lao động và tích lũy",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một doanh nghiệp giữ nguyên tỷ lệ chia giá trị thặng dư giữa tích lũy và tiêu dùng, nhưng cắt giảm tiền công và tăng thời gian làm thêm. Nhân tố nào đang làm quy mô tích lũy có điều kiện tăng?",
+    "options": [
+      "Năng suất lao động xã hội tăng làm giá trị tư liệu sinh hoạt giảm",
+      "Chênh lệch giữa tư bản cố định sử dụng và tư bản đã tiêu dùng tăng",
+      "Đại lượng tư bản ứng trước tăng trong khi thị trường đầu ra thuận lợi",
+      "Trình độ khai thác sức lao động tăng, tạo khả năng tăng giá trị thặng dư"
+    ],
+    "answer": 3,
+    "explanation": "Cắt giảm tiền công và tăng thời gian làm thêm là các biện pháp nâng trình độ khai thác sức lao động. Khi tỷ suất và khối lượng giá trị thặng dư tăng, phần dành cho tích lũy cũng có điều kiện tăng dù tỷ lệ phân chia không đổi.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 95,
+      "text": "Tăng trình độ khai thác sức lao động bằng các biện pháp như cắt giảm tiền công, tăng ca và tăng cường độ tạo điều kiện tăng quy mô tích lũy."
+    }
+  },
+  {
+    "id": "C03-Q086",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Tác động tới tỷ suất lợi nhuận",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trong các điều kiện khác không đổi, chuỗi tác động nào đúng đối với tỷ suất lợi nhuận?",
+    "options": [
+      "Tỷ suất giá trị thặng dư tăng làm tỷ suất lợi nhuận giảm; chu chuyển nhanh làm tỷ suất lợi nhuận giảm",
+      "Tỷ suất giá trị thặng dư tăng làm tỷ suất lợi nhuận tăng; chu chuyển nhanh làm tỷ suất lợi nhuận tăng",
+      "Tỷ suất giá trị thặng dư không tác động; chu chuyển nhanh chỉ làm thay đổi hao mòn hữu hình",
+      "Tỷ suất giá trị thặng dư tăng chỉ làm c tăng; chu chuyển nhanh chỉ làm v giảm"
+    ],
+    "answer": 1,
+    "explanation": "Tỷ suất giá trị thặng dư tăng trực tiếp làm tăng lượng giá trị thặng dư tương ứng. Chu chuyển nhanh hơn làm tỷ lệ giá trị thặng dư hằng năm tăng; do đó cả hai đều tạo xu hướng tăng tỷ suất lợi nhuận khi các điều kiện khác giữ nguyên.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 102,
+      "text": "Tỷ suất giá trị thặng dư tăng và tốc độ chu chuyển lớn hơn đều tác động làm tỷ suất lợi nhuận tăng."
+    }
+  },
+  {
+    "id": "C03-Q087",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Vai trò định hướng của lợi nhuận bình quân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao lợi nhuận bình quân trở thành căn cứ để doanh nghiệp lựa chọn ngành, nghề và phương án kinh doanh?",
+    "options": [
+      "Vì bảo đảm mọi khoản tư bản đều thu cùng một số lợi nhuận tuyệt đối",
+      "Vì làm giá cả từng hàng hóa luôn bằng đúng giá trị trong mọi thời điểm",
+      "Vì cung cấp chuẩn so sánh để lựa chọn hướng đầu tư có hiệu quả hơn",
+      "Vì thay thế cạnh tranh và ngăn tư bản di chuyển giữa các ngành"
+    ],
+    "answer": 2,
+    "explanation": "Lợi nhuận bình quân biểu hiện mức lợi nhuận mà những tư bản như nhau có xu hướng thu được khi đầu tư vào các ngành khác nhau. Vì vậy, nó là chuẩn để so sánh và lựa chọn hướng kinh doanh hiệu quả.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 105,
+      "text": "Lợi nhuận bình quân trở thành căn cứ để doanh nghiệp lựa chọn ngành, nghề và phương án kinh doanh có hiệu quả."
+    }
+  },
+  {
+    "id": "C03-Q088",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Điều kiện hình thành lợi nhuận bình quân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai điều kiện được giáo trình nêu cho sự hình thành tỷ suất lợi nhuận bình quân, lợi nhuận bình quân và giá cả sản xuất là gì?",
+    "options": [
+      "Tư bản bị cố định giữa các ngành và sức lao động không thể di chuyển",
+      "Tư bản tự do di chuyển và sức lao động tự do di chuyển",
+      "Mọi ngành có cùng cấu tạo hữu cơ và không cần diễn ra cạnh tranh",
+      "Mọi hàng hóa bán cùng một giá và các nhà tư bản ngừng đầu tư"
+    ],
+    "answer": 1,
+    "explanation": "Cạnh tranh giữa ngành chỉ phát huy cơ chế san bằng khi tư bản có thể chuyển đến nơi có tỷ suất lợi nhuận cao hơn và sức lao động cũng có khả năng dịch chuyển giữa các ngành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 105,
+      "text": "Điều kiện hình thành lợi nhuận bình quân và giá cả sản xuất gồm tư bản tự do di chuyển và sức lao động tự do di chuyển."
+    }
+  },
+  {
+    "id": "C03-Q089",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Sự hình thành tư bản thương nghiệp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tư bản thương nghiệp xuất hiện như thế nào trong nền kinh tế thị trường tư bản chủ nghĩa?",
+    "options": [
+      "Là bộ phận tư bản xã hội chuyên cho vay lượng tiền nhàn rỗi",
+      "Là bộ phận chuyên môn hóa lưu thông hàng hóa do phân công lao động xã hội",
+      "Là bộ phận tư bản chuyên thực hiện mua bán và nhờ lưu thông tự tạo ra toàn bộ giá trị mới",
+      "Là bộ phận tư bản nông nghiệp chuyên cho thuê những mảnh đất tốt"
+    ],
+    "answer": 1,
+    "explanation": "Khi phân công lao động xã hội phát triển, chức năng lưu thông hàng hóa được chuyên môn hóa thành hoạt động của tư bản thương nghiệp. Chuyên môn hóa lưu thông không làm mua bán trở thành nguồn tạo giá trị thặng dư.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 105,
+      "text": "Do phân công lao động xã hội, một bộ phận chuyên môn hóa việc lưu thông hàng hóa xuất hiện và được gọi là tư bản thương nghiệp.",
+      "slide": {
+        "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt",
+        "number": 50
+      }
+    }
+  },
+  {
+    "id": "C03-Q090",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Cơ sở hình thành quan hệ cho vay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tình hình kinh tế nào trực tiếp thúc đẩy quan hệ cho vay và đi vay hình thành?",
+    "options": [
+      "Mọi chủ thể đều có đủ vốn nên không phát sinh nhu cầu sử dụng vốn của nhau",
+      "Mọi lượng tiền đều đi vào tiêu dùng nên không có tiền nhàn rỗi trong nền kinh tế",
+      "Chỉ địa chủ có đất cho thuê còn các chủ thể sản xuất không cần ứng trước vốn",
+      "Có chủ thể tạm thời thừa tiền trong khi chủ thể khác cần vốn kinh doanh"
+    ],
+    "answer": 3,
+    "explanation": "Sự cùng tồn tại của lượng tiền tạm thời nhàn rỗi và nhu cầu vốn để mở rộng sản xuất kinh doanh tạo cơ sở cho quan hệ tín dụng; người cho vay thu lợi tức và người đi vay phải trả lợi tức.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 106,
+      "text": "Quan hệ vay hình thành khi có chủ thể có tiền nhàn rỗi và chủ thể khác cần tiền để mở rộng sản xuất kinh doanh."
+    }
+  },
+  {
+    "id": "C03-Q091",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Quyền sở hữu và sử dụng tư bản cho vay",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Sự tách rời quyền sở hữu khỏi quyền sử dụng trong tư bản cho vay được hiểu như thế nào?",
+    "options": [
+      "Người đi vay trở thành chủ sở hữu, còn người cho vay chỉ được sử dụng vốn trong thời hạn vay",
+      "Người đi vay có cả quyền sở hữu lẫn sử dụng vĩnh viễn như khi mua hàng hóa thông thường",
+      "Người cho vay và người đi vay đều mất mọi quyền đối với vốn ngay khi giao dịch được ký",
+      "Người cho vay giữ quyền sở hữu; người đi vay chỉ sử dụng vốn trong thời hạn vay"
+    ],
+    "answer": 3,
+    "explanation": "Chủ thể sở hữu tư bản cho phép chủ thể khác sử dụng vốn trong một thời hạn nhưng không chuyển quyền sở hữu. Hết thời hạn, người đi vay phải hoàn trả vốn và trả lợi tức theo quan hệ đã thỏa thuận.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 106,
+      "text": "Trong tư bản cho vay, chủ thể sở hữu không trực tiếp sử dụng, còn chủ thể sử dụng chỉ có quyền sử dụng trong một thời hạn nhất định."
+    }
+  },
+  {
+    "id": "C03-Q092",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Tích lũy và tư bản khả biến tương đối",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Sau nhiều vòng tích lũy, doanh nghiệp tăng máy móc nhanh hơn nhiều so với tăng lao động; số lao động vẫn tăng nhẹ nhưng tỷ lệ v so với c giảm. Kết luận nào phù hợp?",
+    "options": [
+      "v giảm tuyệt đối và giảm tương đối so với c, nên cấu tạo hữu cơ giảm",
+      "v tăng tuyệt đối nhưng giảm tương đối so với c, nên nguy cơ dư thừa lao động tăng",
+      "v tăng nhanh hơn c, nên nhu cầu sức lao động tăng nhanh hơn quy mô tư bản",
+      "v tăng cùng tỷ lệ với c, nên cấu tạo hữu cơ và nhu cầu sức lao động không đổi"
+    ],
+    "answer": 1,
+    "explanation": "Tăng tuyệt đối số lao động không loại trừ việc v giảm tương đối so với c. Khi cấu tạo hữu cơ tăng và nhu cầu sức lao động tăng chậm hơn quy mô tư bản, nguy cơ hình thành bộ phận lao động dư thừa xuất hiện.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 97,
+      "text": "Khi cấu tạo hữu cơ tăng, tư bản khả biến có xu hướng giảm tương đối so với tư bản bất biến, dẫn tới nguy cơ thừa nhân khẩu."
+    }
+  },
+  {
+    "id": "C03-Q093",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Giá cả của tư bản cho vay",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao giá cả của tư bản cho vay không được quyết định trực tiếp bởi giá trị của bản thân số tiền cho vay?",
+    "options": [
+      "Vì số tiền cho vay mất hoàn toàn giá trị sử dụng ngay khi được chuyển giao",
+      "Vì giá cả của vốn vay chỉ bằng chi phí in và bảo quản lượng tiền đó",
+      "Vì giá cả ấy dựa vào khả năng sử dụng vốn để thu lợi nhuận bình quân",
+      "Vì người đi vay mua đứt quyền sở hữu nên không phải hoàn trả tiền gốc"
+    ],
+    "answer": 2,
+    "explanation": "Tư bản cho vay là hàng hóa đặc biệt. Giá cả của nó gắn với giá trị sử dụng là khả năng đem lại lợi nhuận bình quân cho người sử dụng, nên không do giá trị của số tiền quyết định và thấp hơn nhiều so với giá trị ấy.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 107,
+      "text": "Giá cả tư bản cho vay do giá trị sử dụng là khả năng thu lợi nhuận bình quân quyết định, không do giá trị của tư bản cho vay quyết định."
+    }
+  },
+  {
+    "id": "C03-Q094",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Nhân tố ảnh hưởng tỷ suất lợi tức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai nhân tố chủ yếu ảnh hưởng đến tỷ suất lợi tức là gì?",
+    "options": [
+      "Cấu tạo kỹ thuật và mức hao mòn hữu hình của máy móc",
+      "Tỷ suất lợi nhuận bình quân và cung cầu về tư bản cho vay",
+      "Giá trị sức lao động và số vòng chu chuyển của tư bản cố định",
+      "Độ màu mỡ của đất và tỷ lệ phân chia quỹ tiêu dùng"
+    ],
+    "answer": 1,
+    "explanation": "Khả năng sinh lợi của vốn trong kinh doanh đặt nền tảng cho lợi tức, còn quan hệ cung cầu vốn cho vay tác động trực tiếp đến mức tỷ suất được thỏa thuận trên thị trường tín dụng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 107,
+      "text": "Tỷ suất lợi tức chịu ảnh hưởng chủ yếu của tỷ suất lợi nhuận bình quân và tình hình cung cầu về tư bản cho vay."
+    }
+  },
+  {
+    "id": "C03-Q095",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Tư bản giả",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Loại tài sản nào được C. Mác gọi là tư bản giả trong nội dung về thị trường chứng khoán?",
+    "options": [
+      "Cổ phiếu và trái phiếu được giao dịch tương đối tách biệt với kinh doanh thực",
+      "Tiền công và tư liệu sinh hoạt dùng để tái sản xuất sức lao động",
+      "Máy móc, nhà xưởng và nguyên liệu đang trực tiếp vận động trong quá trình sản xuất thực",
+      "Tiền mặt được cất giữ ngoài lưu thông và không phát sinh giao dịch"
+    ],
+    "answer": 0,
+    "explanation": "Cổ phiếu và trái phiếu là những chứng khoán có thể được mua bán tương đối tách biệt với quá trình sản xuất kinh doanh thực. Vì đặc điểm đó, C. Mác gọi chúng là tư bản giả.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 107,
+      "text": "Cổ phiếu và trái phiếu được gọi là tư bản giả vì được giao dịch tương đối tách biệt với quá trình sản xuất kinh doanh thực."
+    }
+  },
+  {
+    "id": "C03-Q096",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Khái niệm địa tô tư bản chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Địa tô tư bản chủ nghĩa là bộ phận nào trong kết quả kinh doanh nông nghiệp?",
+    "options": [
+      "Phần lợi nhuận siêu ngạch ngoài lợi nhuận bình quân được trả cho địa chủ",
+      "Toàn bộ lợi nhuận bình quân mà nhà tư bản nông nghiệp giữ lại sau khi thuê đất",
+      "Phần tiền công của công nhân nông nghiệp được chuyển thành giá thuê đất",
+      "Phần lợi tức ngân hàng trả cho địa chủ vì đã gửi số tiền thu từ nông nghiệp"
+    ],
+    "answer": 0,
+    "explanation": "Nhà tư bản kinh doanh nông nghiệp trước hết thu lợi nhuận bình quân như tư bản ở ngành khác. Phần giá trị thặng dư dôi ra ngoài lợi nhuận bình quân được chuyển cho chủ đất dưới hình thái địa tô.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 108,
+      "text": "Địa tô là phần giá trị thặng dư còn lại sau khi khấu trừ lợi nhuận bình quân mà nhà tư bản nông nghiệp phải trả cho địa chủ.",
+      "slide": {
+        "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt",
+        "number": 52
+      }
+    }
+  },
+  {
+    "id": "C03-Q097",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Giá cả đất đai và tỷ suất lợi tức",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo công thức ở trang 109, nếu địa tô không đổi còn tỷ suất lợi tức nhận gửi của ngân hàng giảm, giá cả đất đai thay đổi thế nào?",
+    "options": [
+      "Giảm vì tỷ suất lợi tức thấp hơn làm mẫu số trong công thức giá đất tăng lên",
+      "Tăng vì cùng một địa tô được chia cho tỷ suất lợi tức thấp hơn",
+      "Tăng đúng bằng mức giảm của tỷ suất lợi tức, không phụ thuộc quy mô địa tô",
+      "Không đổi vì tỷ suất lợi tức chỉ chi phối vốn cho vay, không tham gia cách tính giá đất"
+    ],
+    "answer": 1,
+    "explanation": "Giá cả đất đai bằng địa tô chia cho tỷ suất lợi tức nhận gửi của ngân hàng. Khi địa tô giữ nguyên và mẫu số giảm, thương số tăng; vì vậy giá đất tăng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 109,
+      "text": "Giá cả đất đai được tính bằng địa tô chia cho tỷ suất lợi tức nhận gửi của ngân hàng."
+    }
+  },
+  {
+    "id": "C03-Q098",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Trách nhiệm trong quan hệ lao động",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chủ doanh nghiệp cho rằng trả lương đúng hạn là đã hết mọi trách nhiệm, dù cách tổ chức công việc gây tổn hại lợi ích của người lao động. Đánh giá nào phù hợp?",
+    "options": [
+      "Chưa đầy đủ; người mua sức lao động phải có trách nhiệm với lợi ích của người lao động",
+      "Đúng, vì tư liệu sản xuất là nguồn duy nhất tạo giá trị mới cho doanh nghiệp",
+      "Đúng, vì tiền công là khoản chủ doanh nghiệp tự tạo ra rồi trao cho người lao động",
+      "Chưa đầy đủ; người lao động phải từ bỏ lợi ích để bảo đảm lợi nhuận cho doanh nghiệp"
+    ],
+    "answer": 0,
+    "explanation": "Tiền công là một phần giá trị mới do người lao động tạo ra, không phải món quà của chủ doanh nghiệp. Người mua sức lao động phải đối xử có trách nhiệm, còn người lao động có quyền bảo vệ lợi ích chính đáng của mình.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 84,
+      "text": "Người mua sức lao động cần đối xử có trách nhiệm vì người lao động là nguồn gốc sự giàu có; người bán sức lao động cần bảo vệ lợi ích của mình."
+    }
+  },
+  {
+    "id": "C03-Q099",
+    "chapter": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+    "chapterNum": 3,
+    "topic": "Ý nghĩa thực tiễn của lý luận địa tô",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Định hướng chính sách nào phù hợp với ý nghĩa thực tiễn của lý luận địa tô tư bản chủ nghĩa?",
+    "options": [
+      "Hoàn thiện thuế và quan hệ đất đai, điều tiết địa tô, khuyến khích thâm canh và tiết kiệm đất",
+      "Bãi bỏ điều tiết địa tô, miễn mọi thuế đất và khuyến khích để đất không sử dụng",
+      "Ấn định một giá đất vĩnh viễn, tách giá đất khỏi lợi tức và không xét hiệu quả sử dụng",
+      "Chuyển toàn bộ địa tô cho thương nghiệp, hạn chế đầu tư nông nghiệp và mở rộng đất bỏ hoang"
+    ],
+    "answer": 0,
+    "explanation": "Lý luận địa tô cung cấp cơ sở cho chính sách thuế, điều tiết địa tô và giải quyết quan hệ đất đai. Mục tiêu là kết hợp lợi ích, khuyến khích thâm canh, sử dụng đất tiết kiệm và phát triển nông nghiệp hàng hóa bền vững.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 109,
+      "text": "Lý luận địa tô là cơ sở cho chính sách thuế, điều tiết địa tô và đất đai nhằm hài hòa lợi ích, khuyến khích thâm canh và sử dụng đất tiết kiệm."
     }
   }
 ]

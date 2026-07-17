@@ -16,6 +16,16 @@ OUTPUT = BASE / "index.html"
 PLACEHOLDER = "/*__QUESTIONS__*/[]"
 
 
+def serialize_for_inline_script(data: object) -> str:
+    """Serialize JSON without exposing HTML parser control sequences."""
+    return (
+        json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+        .replace("<", "\\u003c")
+        .replace("\u2028", "\\u2028")
+        .replace("\u2029", "\\u2029")
+    )
+
+
 def main() -> int:
     configure_utf8_console()
 
@@ -52,9 +62,7 @@ def main() -> int:
             print("Template phải chứa đúng một placeholder dữ liệu.")
             return 1
 
-        payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace(
-            "</", "<\\/"
-        )
+        payload = serialize_for_inline_script(data)
         html = template.replace(PLACEHOLDER, payload)
 
         with tempfile.NamedTemporaryFile(

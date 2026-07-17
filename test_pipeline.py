@@ -3,12 +3,19 @@
 from __future__ import annotations
 
 import json
+import os
 import re
+import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 
+from build_html import PLACEHOLDER, serialize_for_inline_script
 from validate_questions import (
+    find_repeated_answer_cycle,
     has_truncation_ellipsis,
     normalize_option,
     validate_file,
@@ -34,7 +41,11 @@ class ValidatorUnitTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "questions.json"
             path.write_text(json.dumps(questions, ensure_ascii=False), encoding="utf-8")
-            errors, _, _ = validate_file(path, write_report=False)
+            errors, _, _ = validate_file(
+                path,
+                write_report=False,
+                check_similarity=False,
+            )
         return errors
 
     def test_chapter_metadata_must_match_canonical_label(self) -> None:
@@ -78,8 +89,117 @@ class ValidatorUnitTests(unittest.TestCase):
         )
         self.assertTrue(any("explanation chứa thẻ HTML" in error for error in errors))
 
+    def test_repeated_answer_cycles_are_detected(self) -> None:
+        self.assertEqual(find_repeated_answer_cycle([0, 1, 2, 3] * 3), (0, 4))
+        self.assertIsNone(find_repeated_answer_cycle([2, 0, 3, 1, 1, 3, 0, 2, 3, 1, 0, 3]))
+
+    def test_validator_rejects_repeated_answer_cycles(self) -> None:
+        def mutate(questions) -> None:
+            chapter = [question for question in questions if question["chapterNum"] == 1]
+            for index, question in enumerate(chapter):
+                question["answer"] = index % 4
+
+        errors = self.validate_mutated_bank(mutate)
+        self.assertTrue(any("đáp án lặp chu kỳ" in error for error in errors))
+
+    @staticmethod
+    def set_chapter_one_expansion_lengths(
+        questions: list[dict],
+        correct_length: int,
+        distractor_lengths: tuple[int, int, int],
+    ) -> None:
+        for question in questions:
+            if question["chapterNum"] != 1 or int(question["id"].split("Q")[1]) < 31:
+                continue
+            distractor_index = 0
+            for option_index in range(4):
+                if option_index == question["answer"]:
+                    length = correct_length
+                else:
+                    length = distractor_lengths[distractor_index]
+                    distractor_index += 1
+                label = f"Lua chon {question['id']} {option_index} "
+                question["options"][option_index] = label + "x" * (length - len(label))
+
+    def test_expansion_validator_rejects_long_correct_answer_bias(self) -> None:
+        errors = self.validate_mutated_bank(
+            lambda questions: self.set_chapter_one_expansion_lengths(
+                questions, 90, (50, 52, 54)
+            )
+        )
+        self.assertTrue(any("dài nhất duy nhất" in error for error in errors))
+        self.assertTrue(any("dài hơn nhiễu trung bình" in error for error in errors))
+
+    def test_expansion_validator_rejects_short_correct_answer_bias(self) -> None:
+        errors = self.validate_mutated_bank(
+            lambda questions: self.set_chapter_one_expansion_lengths(
+                questions, 40, (80, 82, 84)
+            )
+        )
+        self.assertTrue(any("ngắn nhất duy nhất" in error for error in errors))
+        self.assertTrue(any("ngắn hơn nhiễu trung bình" in error for error in errors))
+
+    def test_inline_script_serializer_neutralizes_html_parser_sequences(self) -> None:
+        data = [{"text": "<!--<script </script>\u2028\u2029"}]
+        payload = serialize_for_inline_script(data)
+        self.assertNotIn("<", payload)
+        self.assertIn("\\u003c", payload)
+        self.assertIn("\\u2028", payload)
+        self.assertIn("\\u2029", payload)
+        self.assertEqual(json.loads(payload), data)
+
 
 class ProductionBankTests(unittest.TestCase):
+    def test_expanded_bank_distribution(self) -> None:
+        questions = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(questions), 504)
+        self.assertEqual(
+            Counter(question["chapterNum"] for question in questions),
+            Counter({1: 64, 2: 89, 3: 99, 4: 84, 5: 84, 6: 84}),
+        )
+        self.assertEqual(
+            Counter(question["difficulty"] for question in questions),
+            Counter({"Nhận biết": 204, "Thông hiểu": 204, "Vận dụng": 96}),
+        )
+
+    def test_answer_order_and_expansion_length_do_not_leak_keys(self) -> None:
+        questions = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
+        starts = {1: 31, 2: 56, 3: 66, 4: 51, 5: 51, 6: 51}
+        for chapter_num, start in starts.items():
+            chapter = [q for q in questions if q["chapterNum"] == chapter_num]
+            self.assertIsNone(find_repeated_answer_cycle([q["answer"] for q in chapter]))
+            expansion = chapter[start - 1 :]
+            unique_longest = 0
+            longest_or_tied = 0
+            unique_shortest = 0
+            shortest_or_tied = 0
+            correct_total = 0
+            distractor_total = 0
+            for question in expansion:
+                lengths = [len(option.strip()) for option in question["options"]]
+                longest = max(lengths)
+                shortest = min(lengths)
+                answer = question["answer"]
+                correct_total += lengths[answer]
+                distractor_total += sum(
+                    length for option_index, length in enumerate(lengths) if option_index != answer
+                )
+                if lengths[answer] == longest:
+                    longest_or_tied += 1
+                    if lengths.count(longest) == 1:
+                        unique_longest += 1
+                if lengths[answer] == shortest:
+                    shortest_or_tied += 1
+                    if lengths.count(shortest) == 1:
+                        unique_shortest += 1
+            self.assertLessEqual(unique_longest, 9)
+            self.assertLessEqual(longest_or_tied, 12)
+            self.assertLessEqual(unique_shortest, 9)
+            self.assertLessEqual(shortest_or_tied, 12)
+            correct_average = correct_total / len(expansion)
+            distractor_average = distractor_total / (3 * len(expansion))
+            self.assertLessEqual(abs(correct_average - distractor_average), 4.0)
+
     def test_production_bank_is_valid(self) -> None:
         errors, warnings, _ = validate_file(BASE / "questions.json", write_report=False)
         self.assertEqual(errors, [])
@@ -117,6 +237,13 @@ class ProductionBankTests(unittest.TestCase):
         production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
         self.assertEqual(embedded, production)
 
+    def test_built_html_matches_current_template_and_bank(self) -> None:
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
+        expected = template.replace(PLACEHOLDER, serialize_for_inline_script(production))
+        actual = (BASE / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(actual, expected)
+
     def test_progress_storage_is_versioned(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
         self.assertIn("mln222.v2.marked", template)
@@ -152,6 +279,42 @@ class ProductionBankTests(unittest.TestCase):
     def test_composer_rejects_non_object_chapter_items(self) -> None:
         composer = (BASE / "compose_questions.py").read_text(encoding="utf-8")
         self.assertIn("if not isinstance(item, dict):", composer)
+
+    def test_compose_and_build_commands_succeed_end_to_end(self) -> None:
+        environment = os.environ.copy()
+        environment["PYTHONIOENCODING"] = "utf-8"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for filename in (
+                "compose_questions.py",
+                "validate_questions.py",
+                "build_html.py",
+                "template.html",
+            ):
+                shutil.copy2(BASE / filename, root / filename)
+            shutil.copytree(BASE / "content" / "chapters", root / "content" / "chapters")
+
+            for script in ("compose_questions.py", "build_html.py"):
+                result = subprocess.run(
+                    [sys.executable, str(root / script)],
+                    cwd=root,
+                    env=environment,
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    timeout=120,
+                    check=False,
+                )
+                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+            self.assertEqual(
+                (root / "questions.json").read_bytes(),
+                (BASE / "questions.json").read_bytes(),
+            )
+            self.assertEqual(
+                (root / "index.html").read_bytes(),
+                (BASE / "index.html").read_bytes(),
+            )
 
     def test_inactive_options_and_dynamic_search_are_accessible(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")

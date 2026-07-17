@@ -13,7 +13,7 @@ BASE = Path(__file__).resolve().parent
 CHAPTER_DIR = BASE / "content" / "chapters"
 OUTPUT = BASE / "questions.json"
 NEXT_OUTPUT = BASE / ".questions.next.json"
-EXPECTED_COUNTS = (30, 55, 65, 50, 50, 50)
+EXPECTED_COUNTS = (64, 89, 99, 84, 84, 84)
 
 
 def main() -> int:

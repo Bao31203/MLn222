@@ -1,6 +1,14 @@
 # MLN222 Quiz
 
-Ứng dụng trắc nghiệm MLN222 dạng HTML tĩnh, hiện đóng gói 300 câu hỏi đã biên soạn theo 6 chương.
+Ứng dụng trắc nghiệm MLN222 dạng HTML tĩnh, hiện đóng gói 504 câu hỏi đã biên soạn theo 6 chương.
+
+## Trạng thái kiểm định
+
+- Đợt mở rộng bổ sung 204 câu mới, chia đều 34 câu cho mỗi chương, nâng tổng ngân hàng từ 300 lên 504 câu.
+- Số câu theo chương: `64/89/99/84/84/84`.
+- Validator: 0 lỗi, 0 cảnh báo; bộ kiểm thử pipeline: PASS 28/28.
+- Kiểm thử trình duyệt đã render và kiểm tra 504/504 câu trên mobile, không ghi nhận lỗi JavaScript hoặc tràn ngang.
+- Chi tiết: [báo cáo mở rộng](plans/260717-expand-theory-bank/reports/expansion-validation.md) và [báo cáo kiểm thử đầu cuối](plans/260717-expand-theory-bank/reports/end-to-end-testing.md).
 
 ## Mở ứng dụng
 
@@ -16,7 +24,7 @@ Start-Process .\index.html
 
 - `content/chapters/chapter-01.json` đến `chapter-06.json`: dữ liệu biên soạn theo từng chương.
 - `content/AUTHORING.md`: schema và tiêu chuẩn biên soạn câu hỏi.
-- `questions.json`: ngân hàng 300 câu được hợp nhất từ các file chương.
+- `questions.json`: ngân hàng 504 câu được hợp nhất từ các file chương.
 - `template.html`: mẫu ứng dụng; `index.html`: bản HTML độc lập đã đóng gói.
 - `parse_report.txt`: báo cáo kiểm định gần nhất.
 - `compose_questions.py`, `validate_questions.py`, `build_html.py`, `test_pipeline.py`: pipeline hợp nhất, kiểm định, đóng gói và kiểm thử.
@@ -43,7 +51,7 @@ python test_pipeline.py
 
 - `compose_questions.py` kiểm tra đủ 6 file chương, thêm số thứ tự `num`, hợp nhất và kiểm định trước khi thay `questions.json`.
 - `validate_questions.py` kiểm định `questions.json` theo mặc định và ghi kết quả vào `parse_report.txt`; có thể truyền một đường dẫn JSON khác làm đối số.
-- `build_html.py` kiểm định dữ liệu rồi chèn `questions.json` vào `template.html` để tạo `index.html` độc lập.
+- `build_html.py` kiểm định dữ liệu, mã hóa an toàn JSON nhúng rồi chèn vào `template.html` để tạo `index.html` độc lập.
 - `test_pipeline.py` chạy kiểm thử hồi quy cho validator, tính đồng nhất giữa file chương và ngân hàng production, cùng bản HTML đã đóng gói.
 
 `parse_questions.py` là trình trích xuất cũ phục vụ khảo sát nguồn; đầu ra `questions.generated-draft.json` không được website production sử dụng.

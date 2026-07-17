@@ -9,11 +9,11 @@
     "stem": "Theo giáo trình, mô tả nào đúng về kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",
     "options": [
       "Nền kinh tế chỉ tuân theo tín hiệu thị trường, tách khỏi mục tiêu xã hội và không có sự điều tiết của Nhà nước",
-      "Nền kinh tế vận hành theo quy luật thị trường, hướng tới các giá trị xã hội chủ nghĩa và có Nhà nước điều tiết dưới sự lãnh đạo của Đảng",
       "Nền kinh tế phân bổ mọi nguồn lực bằng mệnh lệnh hành chính, thay thế quy luật thị trường và quan hệ hàng hóa",
+      "Nền kinh tế vận hành theo quy luật thị trường, hướng tới các giá trị xã hội chủ nghĩa và có Nhà nước điều tiết dưới sự lãnh đạo của Đảng",
       "Nền kinh tế chỉ thừa nhận sở hữu công cộng, không có cạnh tranh và không cho các thành phần kinh tế khác cùng phát triển"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Mô hình này vừa vận hành theo các quy luật của thị trường, vừa hướng tới hệ giá trị xã hội chủ nghĩa, dưới sự điều tiết của Nhà nước do Đảng Cộng sản Việt Nam lãnh đạo.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -83,11 +83,11 @@
     "stem": "Cách hiểu nào phù hợp với yêu cầu nghiên cứu kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",
     "options": [
       "Chỉ xem xét các thuộc tính phổ biến của thị trường và bỏ qua hoàn cảnh Việt Nam",
-      "Chỉ nhấn mạnh đặc điểm riêng của Việt Nam và phủ nhận quy luật chung của thị trường",
       "Xem xét đầy đủ đặc trưng chung của kinh tế thị trường đồng thời nhận diện những đặc trưng riêng do điều kiện Việt Nam quy định",
+      "Chỉ nhấn mạnh đặc điểm riêng của Việt Nam và phủ nhận quy luật chung của thị trường",
       "Luân phiên áp dụng đặc trưng chung và đặc trưng riêng vì hai nhóm đặc trưng được cho là không thể cùng tồn tại trong một mô hình cụ thể"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Giáo trình yêu cầu tránh đối lập trừu tượng mô hình Việt Nam với kinh tế thị trường thế giới; mô hình Việt Nam bao hàm cái chung và có một số đặc trưng riêng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -106,10 +106,10 @@
     "options": [
       "Mô hình này bảo đảm thị trường không bao giờ xuất hiện khuyết tật",
       "Mọi loại thị trường ở Việt Nam đã phát triển đầy đủ và đồng bộ",
-      "Mô hình này phù hợp với xu hướng phát triển khách quan của Việt Nam trong bối cảnh thế giới hiện nay",
-      "Mô hình này cho phép Việt Nam tách khỏi kinh tế quốc tế và không cần xét điều kiện khách quan trong nước"
+      "Mô hình này cho phép Việt Nam tách khỏi kinh tế quốc tế và không cần xét điều kiện khách quan trong nước",
+      "Mô hình này phù hợp với xu hướng phát triển khách quan của Việt Nam trong bối cảnh thế giới hiện nay"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Lý do đầu tiên là sự phù hợp với xu hướng phát triển khách quan; sự tồn tại của các điều kiện kinh tế hàng hóa làm cho kinh tế thị trường hình thành một cách tất yếu.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -130,12 +130,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao kinh tế thị trường còn tồn tại lâu dài trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam?",
     "options": [
-      "Phân công lao động xã hội và các hình thức sở hữu khác nhau vẫn tồn tại, nên sản xuất và phân phối sản phẩm vẫn phải thông qua thị trường",
-      "Cơ chế hành chính đã thay thế hoàn toàn trao đổi hàng hóa giữa các chủ thể sản xuất",
       "Hội nhập quốc tế là điều kiện duy nhất làm xuất hiện mọi quan hệ thị trường trong nước",
+      "Cơ chế hành chính đã thay thế hoàn toàn trao đổi hàng hóa giữa các chủ thể sản xuất",
+      "Phân công lao động xã hội và các hình thức sở hữu khác nhau vẫn tồn tại, nên sản xuất và phân phối sản phẩm vẫn phải thông qua thị trường",
       "Nhu cầu vật chất của người dân tự nó đủ tạo ra thị trường và duy trì thị trường lâu dài, không cần phân công lao động hay sự tách biệt về sở hữu"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Sản xuất hàng hóa và thị trường tồn tại do các điều kiện kinh tế - xã hội khách quan, nổi bật là phân công lao động xã hội và sự khác nhau về quan hệ sở hữu tư liệu sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -179,11 +179,11 @@
     "stem": "Một ngành sản xuất tăng nhanh năng suất nhờ cạnh tranh, nhưng đồng thời phát sinh ô nhiễm và chênh lệch thu nhập lớn. Cách xử lý nào phù hợp với lập luận của giáo trình?",
     "options": [
       "Bãi bỏ cơ chế thị trường và chuyển toàn bộ ngành sang cấp phát hành chính",
-      "Tiếp tục phát huy động lực thị trường, đồng thời Nhà nước điều tiết kịp thời để khắc phục khuyết tật và bảo đảm định hướng xã hội",
       "Để thị trường tự xử lý ô nhiễm, chênh lệch thu nhập vì mọi điều tiết của Nhà nước đều bị coi là trái quy luật thị trường",
+      "Tiếp tục phát huy động lực thị trường, đồng thời Nhà nước điều tiết kịp thời để khắc phục khuyết tật và bảo đảm định hướng xã hội",
       "Cấm áp dụng công nghệ mới để đưa năng suất và thu nhập của các chủ thể về mức cũ"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Giáo trình chủ trương sử dụng ưu thế của thị trường để phát triển lực lượng sản xuất, đồng thời cần Nhà nước can thiệp trước các thất bại và khuyết tật của thị trường.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -200,12 +200,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Nội dung nào thuộc đặc trưng về mục tiêu của kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?",
     "options": [
-      "Phát triển lực lượng sản xuất, xây dựng cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội và nâng cao đời sống nhân dân",
+      "Trao toàn bộ quyền quản lý nền kinh tế cho các hiệp hội doanh nghiệp",
       "Áp dụng chế độ pháp lý riêng cho từng hình thức sở hữu để các thành phần vận hành theo quy tắc khác nhau",
       "Phân phối kết quả sản xuất duy nhất theo phần vốn mà mỗi chủ thể đóng góp",
-      "Trao toàn bộ quyền quản lý nền kinh tế cho các hiệp hội doanh nghiệp"
+      "Phát triển lực lượng sản xuất, xây dựng cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội và nâng cao đời sống nhân dân"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Đặc trưng về mục tiêu gắn phát triển lực lượng sản xuất và cơ sở vật chất - kỹ thuật với nâng cao đời sống, hướng tới dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -227,11 +227,11 @@
     "stem": "Cách phân biệt nào đúng giữa nội dung kinh tế và nội dung pháp lý của sở hữu?",
     "options": [
       "Nội dung kinh tế và nội dung pháp lý đều chỉ là các quy định hình thức về đăng ký tài sản",
-      "Nội dung kinh tế quy định quyền và nghĩa vụ, còn nội dung pháp lý chỉ phản ánh lợi ích được hưởng",
       "Nội dung kinh tế biểu hiện ở lợi ích từ đối tượng sở hữu, còn nội dung pháp lý quy định quyền hạn, nghĩa vụ và sự thừa nhận của pháp luật",
+      "Nội dung kinh tế quy định quyền và nghĩa vụ, còn nội dung pháp lý chỉ phản ánh lợi ích được hưởng",
       "Nội dung kinh tế không liên quan đến sản xuất, còn nội dung pháp lý tự tạo ra lợi ích dù không có đối tượng sở hữu hoặc hoạt động tạo ra của cải"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Hai nội dung thống nhất với nhau: lợi ích kinh tế cần phương thức pháp lý để được thực hiện chính đáng, còn quy định pháp lý thiếu lợi ích kinh tế chỉ còn giá trị hình thức.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -248,12 +248,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Nhận định nào phản ánh đúng quan hệ giữa các thành phần kinh tế trong mô hình Việt Nam?",
     "options": [
-      "Kinh tế nhà nước là thành phần hợp pháp duy nhất, còn kinh tế tư nhân chỉ tồn tại tạm thời",
       "Kinh tế nhà nước giữ vai trò chủ đạo, kinh tế tư nhân là một động lực quan trọng; các chủ thể bình đẳng, hợp tác và cạnh tranh theo pháp luật",
+      "Kinh tế nhà nước là thành phần hợp pháp duy nhất, còn kinh tế tư nhân chỉ tồn tại tạm thời",
       "Kinh tế tư nhân giữ vai trò chủ đạo, còn kinh tế nhà nước chỉ thực hiện các hoạt động phúc lợi",
       "Kinh tế nhà nước và kinh tế tập thể tồn tại tách khỏi toàn bộ nền kinh tế, không tham gia hợp tác hoặc cạnh tranh với các thành phần khác theo pháp luật"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nhiều hình thức sở hữu và thành phần kinh tế cùng tồn tại; vai trò chủ đạo của kinh tế nhà nước không đồng nghĩa với độc quyền hay bất bình đẳng pháp lý.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -272,10 +272,10 @@
     "options": [
       "Nhà nước trung lập về mục tiêu xã hội và chỉ bảo vệ giao dịch của doanh nghiệp",
       "Nhà nước quản lý bằng mệnh lệnh trực tiếp, ấn định hoạt động từng chủ thể và không tôn trọng tín hiệu thị trường",
-      "Nhà nước trao toàn bộ quyền điều tiết vĩ mô và hoạch định chính sách cho các tổ chức độc quyền tư nhân",
-      "Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân, dưới sự lãnh đạo của Đảng và chịu sự giám sát của nhân dân"
+      "Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân, dưới sự lãnh đạo của Đảng và chịu sự giám sát của nhân dân",
+      "Nhà nước trao toàn bộ quyền điều tiết vĩ mô và hoạch định chính sách cho các tổ chức độc quyền tư nhân"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Đây là đặc trưng riêng của quan hệ quản lý; Nhà nước vẫn sử dụng pháp luật, chiến lược, chính sách và công cụ kinh tế trên cơ sở tôn trọng nguyên tắc thị trường.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -322,12 +322,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một địa phương đề nghị tập trung toàn bộ nguồn lực cho tăng trưởng và chỉ thực hiện công bằng xã hội sau khi kinh tế đạt trình độ cao. Đánh giá nào phù hợp với giáo trình?",
     "options": [
-      "Cần điều chỉnh vì công bằng phải gắn với từng chính sách và giai đoạn, nhưng không có nghĩa chia đều bất chấp hiệu quả",
+      "Nên dành mọi nguồn lực cho phúc lợi xã hội dù vượt quá khả năng của nền kinh tế",
       "Nên giữ đề nghị vì công bằng xã hội chỉ là kết quả tự động sau khi tăng trưởng hoàn tất và không cần được đặt ra trong các chính sách hiện tại",
       "Nên thay mọi tiêu chí năng suất và đóng góp bằng phân phối bình quân ngay lập tức để mọi chủ thể nhận phần của cải bằng nhau",
-      "Nên dành mọi nguồn lực cho phúc lợi xã hội dù vượt quá khả năng của nền kinh tế"
+      "Cần điều chỉnh vì công bằng phải gắn với từng chính sách và giai đoạn, nhưng không có nghĩa chia đều bất chấp hiệu quả"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Giáo trình bác bỏ cả việc hy sinh công bằng để chạy theo tăng trưởng lẫn cách cào bằng hoặc dồn nguồn lực xã hội vượt khả năng kinh tế.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -349,11 +349,11 @@
     "stem": "Theo giáo trình, thể chế là gì?",
     "options": [
       "Chỉ là hệ thống luật kinh tế điều chỉnh sản xuất, kinh doanh, không bao gồm bộ máy hoặc cơ chế vận hành",
-      "Những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành điều chỉnh hoạt động của con người trong một chế độ xã hội",
       "Các tập quán tự phát trong xã hội, không cần bộ máy quản lý hoặc cơ chế tổ chức thực hiện",
+      "Những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành điều chỉnh hoạt động của con người trong một chế độ xã hội",
       "Kế hoạch riêng của từng doanh nghiệp nhằm tổ chức kinh doanh và tối đa hóa lợi nhuận"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Khái niệm thể chế có phạm vi rộng hơn thể chế kinh tế, bao gồm quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành của một chế độ xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -374,12 +374,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Điểm nào xác định đúng phạm vi của thể chế kinh tế?",
     "options": [
-      "Chỉ điều chỉnh quan hệ chính trị giữa công dân và cơ quan công quyền trong một chế độ xã hội",
+      "Hệ thống quy tắc, luật pháp, bộ máy và cơ chế điều chỉnh chủ thể, hoạt động sản xuất kinh doanh và quan hệ kinh tế",
       "Chỉ quy định tiêu chuẩn kỹ thuật và điều kiện lưu thông của hàng hóa, không điều chỉnh chủ thể hoặc các quan hệ kinh tế",
       "Chỉ bao gồm thỏa thuận tự nguyện giữa các hiệp hội ngành nghề, không có quy tắc chính thức hoặc bộ máy quản lý của Nhà nước",
-      "Hệ thống quy tắc, luật pháp, bộ máy và cơ chế điều chỉnh chủ thể, hoạt động sản xuất kinh doanh và quan hệ kinh tế"
+      "Chỉ điều chỉnh quan hệ chính trị giữa công dân và cơ quan công quyền trong một chế độ xã hội"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Thể chế kinh tế được phân biệt bởi đối tượng điều chỉnh là chủ thể, hành vi và quan hệ kinh tế, chứ không chỉ là một nhóm quy định chuyên biệt.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -449,11 +449,11 @@
     "stem": "Lý do thứ ba phải tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa được giáo trình xác định như thế nào?",
     "options": [
       "Hệ thống thể chế đã đồng bộ nhưng số lượng văn bản quá nhiều, làm thị trường không còn khả năng tự điều tiết",
-      "Hệ thống thể chế còn kém hiệu lực, hiệu quả; các yếu tố và loại thị trường còn thiếu hoặc mới ở trình độ sơ khai",
+      "Nền kinh tế không có chủ thể kinh doanh, không có quan hệ sở hữu và không phát sinh hoạt động trao đổi",
       "Các yếu tố thị trường vận hành quá mức, còn các loại thị trường phát triển vượt xa trình độ của nền kinh tế",
-      "Nền kinh tế không có chủ thể kinh doanh, không có quan hệ sở hữu và không phát sinh hoạt động trao đổi"
+      "Hệ thống thể chế còn kém hiệu lực, hiệu quả; các yếu tố và loại thị trường còn thiếu hoặc mới ở trình độ sơ khai"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Lý do thứ ba tập trung vào chất lượng và khả năng thực thi thể chế, đồng thời chỉ ra các yếu tố và loại thị trường vẫn thiếu hoặc còn sơ khai.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -541,11 +541,11 @@
     "stem": "Nhiều quy định về điều kiện kinh doanh đang chồng chéo, khiến doanh nghiệp phải xin nhiều giấy phép cho cùng một hoạt động. Giải pháp nào đúng hướng hoàn thiện thể chế?",
     "options": [
       "Bổ sung giấy phép riêng cho mỗi hình thức sở hữu và giữ các điều kiện chồng chéo để dễ phân loại doanh nghiệp",
-      "Hoàn thiện pháp luật về đầu tư, kinh doanh và cạnh tranh, đồng thời xóa rào cản và xử lý dứt điểm quy định chồng chéo",
       "Thay quy định pháp luật bằng quyết định tùy từng trường hợp của cơ quan quản lý",
+      "Hoàn thiện pháp luật về đầu tư, kinh doanh và cạnh tranh, đồng thời xóa rào cản và xử lý dứt điểm quy định chồng chéo",
       "Miễn toàn bộ điều kiện kinh doanh cho một số doanh nghiệp được lựa chọn trước"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Giáo trình yêu cầu bảo đảm quyền tự do kinh doanh và cạnh tranh lành mạnh bằng cách xóa rào cản, đồng thời xử lý chồng chéo trong các điều kiện kinh doanh.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -562,12 +562,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Cặp nhiệm vụ nào thuộc nội dung hoàn thiện thể chế phát triển đồng bộ các yếu tố và loại thị trường?",
     "options": [
-      "Hoàn thiện thể chế cho hàng hóa, giá cả, cạnh tranh, cung cầu và phát triển thông suốt các thị trường hàng hóa, vốn, công nghệ, sức lao động",
       "Chỉ phát triển thị trường hàng tiêu dùng, còn tạm dừng thị trường vốn, công nghệ và sức lao động cho đến khi thị trường hàng hóa hoàn chỉnh",
+      "Hoàn thiện thể chế cho hàng hóa, giá cả, cạnh tranh, cung cầu và phát triển thông suốt các thị trường hàng hóa, vốn, công nghệ, sức lao động",
       "Ấn định mọi mức giá bằng quyết định hành chính và loại bỏ cạnh tranh giữa các chủ thể",
       "Hợp nhất các loại thị trường thành một hệ thống cấp phát nguồn lực ngoài cơ chế cung cầu"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Hoàn thiện đồng bộ đòi hỏi cả các yếu tố cấu thành thị trường lẫn các loại thị trường cơ bản được vận hành theo nguyên tắc thị trường và hỗ trợ lẫn nhau.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -632,12 +632,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Theo giáo trình, lợi ích được hiểu như thế nào?",
     "options": [
-      "Mọi mong muốn tự phát của cá nhân, không cần được nhận thức hoặc đặt trong quan hệ xã hội và điều kiện sản xuất cụ thể",
-      "Chỉ là phần thu nhập bằng tiền mà một người nhận được sau hoạt động kinh tế",
       "Sự thỏa mãn nhu cầu được nhận thức và đặt trong quan hệ xã hội ứng với một trình độ phát triển nhất định của nền sản xuất",
+      "Chỉ là phần thu nhập bằng tiền mà một người nhận được sau hoạt động kinh tế",
+      "Mọi mong muốn tự phát của cá nhân, không cần được nhận thức hoặc đặt trong quan hệ xã hội và điều kiện sản xuất cụ thể",
       "Sự từ bỏ nhu cầu cá nhân để thực hiện vô điều kiện mọi yêu cầu của cộng đồng"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Lợi ích không chỉ là cảm giác thỏa mãn riêng lẻ; nó phải được nhận thức và tồn tại trong những quan hệ xã hội, điều kiện sản xuất lịch sử nhất định.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -658,12 +658,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Lợi ích kinh tế là loại lợi ích nào?",
     "options": [
-      "Lợi ích vật chất thu được khi con người thực hiện các hoạt động kinh tế",
       "Lợi ích tinh thần chỉ hình thành từ hoạt động văn hóa, nghệ thuật và không liên quan đến nhu cầu vật chất",
+      "Lợi ích vật chất thu được khi con người thực hiện các hoạt động kinh tế",
       "Lợi ích chính trị phát sinh từ việc tham gia quản lý nhà nước",
       "Lợi ích pháp lý có được khi một chủ thể tuân thủ thủ tục hành chính"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Giáo trình xác định trực tiếp lợi ích kinh tế là lợi ích vật chất gắn với việc thực hiện hoạt động kinh tế của con người.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -685,11 +685,11 @@
     "stem": "Phân biệt nào đúng giữa bản chất và biểu hiện của lợi ích kinh tế?",
     "options": [
       "Bản chất là số tiền cụ thể từng chủ thể nhận được; biểu hiện là toàn bộ quan hệ sản xuất, không phụ thuộc vị trí hoặc vai trò của chủ thể",
-      "Bản chất chỉ là nhu cầu sinh học của từng cá nhân; biểu hiện giống nhau đối với mọi chủ thể dù họ giữ vị trí kinh tế khác nhau",
+      "Bản chất phản ánh mục đích, động cơ trong quan hệ giữa các chủ thể; biểu hiện là lợi nhuận của chủ doanh nghiệp, thu nhập của người lao động",
       "Bản chất là quy định pháp lý về quyền sở hữu; biểu hiện chỉ là nghĩa vụ nộp thuế của chủ thể đối với ngân sách nhà nước",
-      "Bản chất phản ánh mục đích, động cơ trong quan hệ giữa các chủ thể; biểu hiện là lợi nhuận của chủ doanh nghiệp, thu nhập của người lao động"
+      "Bản chất chỉ là nhu cầu sinh học của từng cá nhân; biểu hiện giống nhau đối với mọi chủ thể dù họ giữ vị trí kinh tế khác nhau"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Bản chất nói đến nội dung quan hệ xã hội thúc đẩy các chủ thể, còn biểu hiện cụ thể thay đổi theo vị trí và vai trò của từng chủ thể kinh tế.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -710,12 +710,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Vai trò trực tiếp của lợi ích kinh tế đối với chủ thể và hoạt động kinh tế - xã hội là gì?",
     "options": [
-      "Xác lập quyền sở hữu pháp lý của chủ thể và thay thế mọi động cơ tinh thần trong đời sống xã hội",
       "Thúc đẩy trực tiếp các chủ thể hành động để thực hiện nhu cầu vật chất và nâng cao thu nhập chính đáng",
+      "Xác lập quyền sở hữu pháp lý của chủ thể và thay thế mọi động cơ tinh thần trong đời sống xã hội",
       "Tự động xóa bỏ mâu thuẫn giữa các chủ thể và tạo ra phân phối công bằng mà không cần điều tiết xã hội",
       "Chỉ làm tăng nhu cầu tiêu dùng cá nhân, không tạo ảnh hưởng đến lao động, sản xuất hoặc phát triển kinh tế"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nhu cầu vật chất và thu nhập khiến các chủ thể hành động, nên lợi ích kinh tế là động lực trực tiếp của hoạt động kinh tế - xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -736,12 +736,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao việc theo đuổi lợi ích kinh tế chính đáng có thể thúc đẩy phát triển lực lượng sản xuất?",
     "options": [
-      "Người lao động nâng tay nghề, doanh nghiệp dùng nguồn lực hiệu quả và cải tiến sản phẩm để tăng thu nhập, qua đó phát triển sản xuất",
       "Mọi cách tăng lợi nhuận đều được coi là chính đáng, nên chủ thể không cần tuân thủ pháp luật hoặc quan tâm đến lợi ích của người khác",
+      "Người lao động nâng tay nghề, doanh nghiệp dùng nguồn lực hiệu quả và cải tiến sản phẩm để tăng thu nhập, qua đó phát triển sản xuất",
       "Thu nhập của các chủ thể hoàn toàn độc lập với số lượng và chất lượng sản phẩm xã hội",
       "Mỗi chủ thể có thể thực hiện lợi ích của mình mà không cần tham gia bất kỳ quan hệ kinh tế nào"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Động cơ thu nhập thúc đẩy lao động, đổi mới và nâng hiệu quả, nhưng chỉ tạo tác động tích cực khi lợi ích được theo đuổi hợp pháp và trong liên hệ với các chủ thể khác.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -758,12 +758,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Nội dung nào phản ánh đúng khái niệm quan hệ lợi ích kinh tế?",
     "options": [
-      "Quan hệ kỹ thuật giữa người lao động, máy móc và công cụ trong một quy trình sản xuất, không nhằm xác lập lợi ích giữa các chủ thể xã hội",
-      "Quan hệ trao đổi thông tin không nhằm xác lập bất kỳ lợi ích vật chất nào giữa các chủ thể",
       "Tương tác giữa con người, cộng đồng, tổ chức, bộ phận kinh tế và quốc gia nhằm xác lập lợi ích trong điều kiện lịch sử nhất định",
+      "Quan hệ trao đổi thông tin không nhằm xác lập bất kỳ lợi ích vật chất nào giữa các chủ thể",
+      "Quan hệ kỹ thuật giữa người lao động, máy móc và công cụ trong một quy trình sản xuất, không nhằm xác lập lợi ích giữa các chủ thể xã hội",
       "Quan hệ phát sinh riêng giữa các doanh nghiệp cùng ngành khi họ thỏa thuận một mức giá bán"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Khái niệm có phạm vi chủ thể rộng và đặt việc xác lập lợi ích trong điều kiện lịch sử cụ thể của lực lượng sản xuất và kiến trúc thượng tầng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -784,12 +784,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Cách phân loại nào đúng về các biểu hiện của quan hệ lợi ích kinh tế?",
     "options": [
-      "Người lao động với doanh nghiệp là quan hệ ngang, còn các doanh nghiệp với nhau luôn là quan hệ dọc vì một doanh nghiệp phải quản lý doanh nghiệp kia",
       "Cá nhân với tổ chức có thể theo chiều dọc; các chủ thể khác theo chiều ngang; hội nhập mở rộng tới quan hệ quốc gia với thế giới",
+      "Người lao động với doanh nghiệp là quan hệ ngang, còn các doanh nghiệp với nhau luôn là quan hệ dọc vì một doanh nghiệp phải quản lý doanh nghiệp kia",
       "Mọi quan hệ lợi ích kinh tế đều là quan hệ dọc vì luôn có một chủ thể quản lý chủ thể khác",
       "Quan hệ giữa quốc gia với phần còn lại của thế giới không thuộc quan hệ lợi ích kinh tế"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Quan hệ lợi ích có thể diễn ra trong nội bộ tổ chức theo chiều dọc, giữa các chủ thể theo chiều ngang và vượt phạm vi quốc gia trong điều kiện hội nhập.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -807,11 +807,11 @@
     "stem": "Doanh nghiệp kinh doanh hiệu quả nên bảo đảm việc làm và tăng thu nhập; người lao động vì thế làm việc tích cực hơn, tiếp tục nâng hiệu quả doanh nghiệp. Trường hợp này cho thấy điều gì?",
     "options": [
       "Lợi ích giữa hai bên luôn là quan hệ phân chia tổng thu nhập cố định nên chỉ có mâu thuẫn",
-      "Lợi ích người lao động không liên quan đến kết quả hoạt động của doanh nghiệp",
+      "Lợi ích có thể thống nhất vì người lao động là bộ phận của doanh nghiệp và việc thực hiện lợi ích của bên này hỗ trợ lợi ích bên kia",
       "Chỉ lợi ích doanh nghiệp được thực hiện vì tiền lương là khoản thiệt hại, còn kết quả lao động không ảnh hưởng kinh doanh",
-      "Lợi ích có thể thống nhất vì người lao động là bộ phận của doanh nghiệp và việc thực hiện lợi ích của bên này hỗ trợ lợi ích bên kia"
+      "Lợi ích người lao động không liên quan đến kết quả hoạt động của doanh nghiệp"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Một chủ thể có thể là bộ phận của chủ thể khác; khi mục tiêu tương hợp, kết quả tốt của doanh nghiệp và động lực của người lao động củng cố lẫn nhau.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -854,12 +854,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao hành vi làm hàng giả hoặc trốn thuế làm phát sinh mâu thuẫn giữa lợi ích của chủ thể kinh doanh và lợi ích xã hội?",
     "options": [
-      "Chủ thể dùng phương thức thực hiện lợi ích gây tổn hại lợi ích người tiêu dùng và xã hội, khiến các lợi ích trở nên đối lập",
       "Mọi khoản lợi nhuận tăng lên đều chứng minh lợi ích doanh nghiệp và xã hội thống nhất",
+      "Chủ thể dùng phương thức thực hiện lợi ích gây tổn hại lợi ích người tiêu dùng và xã hội, khiến các lợi ích trở nên đối lập",
       "Các hành vi đó không liên quan đến lợi ích vì chỉ là vi phạm thủ tục kinh doanh",
       "Mâu thuẫn chỉ xuất hiện khi lực lượng sản xuất tăng, không phụ thuộc cách hành động hoặc tổn hại chủ thể gây ra cho xã hội"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Các lợi ích mâu thuẫn khi phương thức thực hiện lợi ích của một chủ thể đối lập và làm tổn hại lợi ích của chủ thể khác hoặc của xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -880,12 +880,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Vì sao lợi ích cá nhân được xem là cơ sở, nền tảng của các lợi ích khác?",
     "options": [
-      "Vì lợi ích cá nhân luôn cao hơn lợi ích tập thể và xã hội, kể cả khi gây tổn hại cho chủ thể khác",
       "Vì nhu cầu cơ bản trước hết thuộc về cá nhân và cá nhân là bộ phận cấu thành tập thể, giai cấp, xã hội",
+      "Vì lợi ích cá nhân luôn cao hơn lợi ích tập thể và xã hội, kể cả khi gây tổn hại cho chủ thể khác",
       "Vì lợi ích tập thể không thể tồn tại trong nền kinh tế thị trường",
       "Vì pháp luật chỉ bảo vệ lợi ích cá nhân mà không bảo vệ lợi ích chung"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nhu cầu sống còn quyết định hoạt động của từng cá nhân, còn các cộng đồng lớn hơn được cấu thành từ cá nhân; vì vậy lợi ích cá nhân chính đáng phải được tôn trọng và bảo vệ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -903,11 +903,11 @@
     "stem": "Hai nhân tố đầu tiên ảnh hưởng đến quan hệ lợi ích kinh tế được giáo trình trình bày là gì?",
     "options": [
       "Mức giá thị trường và quy mô của từng doanh nghiệp tham gia quan hệ kinh tế",
-      "Chính sách phân phối thu nhập của Nhà nước và mức độ hội nhập kinh tế quốc tế",
+      "Trình độ phát triển của lực lượng sản xuất và địa vị của chủ thể trong hệ thống quan hệ sản xuất",
       "Hình thức hợp đồng lao động và chiến lược quảng cáo sản phẩm của doanh nghiệp",
-      "Trình độ phát triển của lực lượng sản xuất và địa vị của chủ thể trong hệ thống quan hệ sản xuất"
+      "Chính sách phân phối thu nhập của Nhà nước và mức độ hội nhập kinh tế quốc tế"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Lực lượng sản xuất quyết định khả năng tạo hàng hóa, dịch vụ; địa vị trong quan hệ sản xuất quyết định vị trí và vai trò của chủ thể khi thực hiện lợi ích.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -928,12 +928,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Nhiều người cùng tìm việc khiến họ cạnh tranh, tiền lương chịu sức ép giảm; sau đó họ liên kết trong một tổ chức hợp pháp để bảo vệ yêu sách chính đáng. Tình huống phản ánh điều gì?",
     "options": [
-      "Người lao động vừa cạnh tranh khi cùng bán sức lao động, vừa có thể đoàn kết theo pháp luật để bảo vệ lợi ích",
-      "Người lao động chỉ cạnh tranh với người sử dụng lao động, không phát sinh quan hệ lợi ích với nhau",
       "Người lao động chỉ thống nhất với nhau; số người bán sức lao động không thể tạo sức ép lên tiền lương hoặc việc làm",
+      "Người lao động chỉ cạnh tranh với người sử dụng lao động, không phát sinh quan hệ lợi ích với nhau",
+      "Người lao động vừa cạnh tranh khi cùng bán sức lao động, vừa có thể đoàn kết theo pháp luật để bảo vệ lợi ích",
       "Người lao động có thể loại bỏ mọi cạnh tranh bằng cách liên kết ngoài khuôn khổ pháp luật"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Khi nhiều người cùng bán sức lao động, họ cạnh tranh về việc làm và tiền lương. Đồng thời, người lao động có thể đoàn kết, thành lập tổ chức và phối hợp theo pháp luật để bảo vệ lợi ích chính đáng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -952,10 +952,10 @@
     "options": [
       "Vì chính sách tự động làm thay đổi quyền sở hữu mọi tư liệu sản xuất trong xã hội",
       "Vì chính sách làm hội nhập quốc tế chấm dứt và loại bỏ cạnh tranh hàng hóa nước ngoài",
-      "Vì thu nhập thay đổi kéo theo phương thức và mức độ thỏa mãn nhu cầu vật chất của các chủ thể thay đổi",
-      "Vì thu nhập không liên quan đến mức thỏa mãn nhu cầu vật chất nhưng lại quyết định trực tiếp trình độ công nghệ của toàn bộ nền kinh tế"
+      "Vì thu nhập không liên quan đến mức thỏa mãn nhu cầu vật chất nhưng lại quyết định trực tiếp trình độ công nghệ của toàn bộ nền kinh tế",
+      "Vì thu nhập thay đổi kéo theo phương thức và mức độ thỏa mãn nhu cầu vật chất của các chủ thể thay đổi"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Chính sách phân phối tác động đến lợi ích thông qua việc làm thay đổi thu nhập và tương quan thu nhập, từ đó thay đổi khả năng thỏa mãn nhu cầu vật chất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -974,10 +974,10 @@
     "options": [
       "Hội nhập chỉ làm tăng lợi ích nên các tác động bất lợi không thuộc quan hệ lợi ích kinh tế",
       "Tình huống chỉ phản ánh địa vị sở hữu của từng chủ thể trong nước, không liên quan đến cạnh tranh, đầu tư hoặc những tác động từ môi trường kinh tế bên ngoài",
-      "Hội nhập chỉ làm giảm lợi ích của mọi chủ thể trong nước vì cạnh tranh luôn gây thiệt hại",
-      "Hội nhập kinh tế quốc tế tác động mạnh và nhiều chiều đến lợi ích của các chủ thể, tạo cơ hội đồng thời phát sinh sức ép và rủi ro"
+      "Hội nhập kinh tế quốc tế tác động mạnh và nhiều chiều đến lợi ích của các chủ thể, tạo cơ hội đồng thời phát sinh sức ép và rủi ro",
+      "Hội nhập chỉ làm giảm lợi ích của mọi chủ thể trong nước vì cạnh tranh luôn gây thiệt hại"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Giáo trình không nhìn hội nhập theo một chiều: lợi ích từ thương mại, đầu tư có thể tăng, trong khi cạnh tranh, tài nguyên và môi trường tạo tác động bất lợi cho chủ thể khác.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -994,12 +994,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Hai phương thức cơ bản để thực hiện lợi ích kinh tế trong các quan hệ lợi ích chủ yếu là gì?",
     "options": [
-      "Theo mệnh lệnh của doanh nghiệp lớn chi phối thị trường và theo thỏa thuận riêng không chịu sự điều chỉnh giữa các cá nhân",
       "Theo nguyên tắc thị trường và theo chính sách của Nhà nước cùng vai trò của các tổ chức xã hội",
+      "Theo mệnh lệnh của doanh nghiệp lớn chi phối thị trường và theo thỏa thuận riêng không chịu sự điều chỉnh giữa các cá nhân",
       "Theo phân phối bình quân và theo cơ chế tự cấp, tự túc của từng cộng đồng",
       "Theo quyền lực hành chính đơn thuần và theo sự hỗ trợ hoàn toàn từ bên ngoài"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nguyên tắc thị trường là phương thức phổ biến, nhưng cần chính sách Nhà nước và tổ chức xã hội để khắc phục hạn chế xã hội và thúc đẩy bình đẳng, tiến bộ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1044,10 +1044,10 @@
     "options": [
       "Lợi nhuận chỉ có thể tăng khi mọi khoản tiền lương đều bị cắt giảm tương ứng",
       "Người lao động có việc làm, nhưng năng suất và kết quả của họ không ảnh hưởng đến lợi nhuận doanh nghiệp",
-      "Hoạt động có lợi nhuận giúp duy trì việc làm, tiền lương; lao động tích cực lại góp phần làm lợi nhuận tăng",
-      "Hai bên chỉ có lợi ích chung khi Nhà nước trực tiếp quyết định từng công việc trong doanh nghiệp"
+      "Hai bên chỉ có lợi ích chung khi Nhà nước trực tiếp quyết định từng công việc trong doanh nghiệp",
+      "Hoạt động có lợi nhuận giúp duy trì việc làm, tiền lương; lao động tích cực lại góp phần làm lợi nhuận tăng"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Trong điều kiện hoạt động bình thường, việc làm và tiền lương phụ thuộc khả năng tiếp tục kinh doanh, còn năng suất và trách nhiệm của người lao động góp phần tăng kết quả của doanh nghiệp.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1065,11 +1065,11 @@
     "stem": "Quan hệ lợi ích giữa những người sử dụng lao động trong cơ chế thị trường có đặc điểm nào?",
     "options": [
       "Họ chỉ là đối thủ cạnh tranh nên không thể liên kết hoặc hỗ trợ lẫn nhau",
-      "Họ vừa là đối tác vừa là đối thủ, có thể liên kết và cạnh tranh với nhau trong nhiều quan hệ kinh tế",
+      "Quan hệ của họ chỉ diễn ra với người lao động, không liên quan đến người cho vay, cho thuê đất, Nhà nước hoặc thị trường",
       "Họ chỉ là đối tác cùng ngành nên không có cạnh tranh trong hoặc giữa các ngành",
-      "Quan hệ của họ chỉ diễn ra với người lao động, không liên quan đến người cho vay, cho thuê đất, Nhà nước hoặc thị trường"
+      "Họ vừa là đối tác vừa là đối thủ, có thể liên kết và cạnh tranh với nhau trong nhiều quan hệ kinh tế"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Những người sử dụng lao động vừa hợp tác vì lợi ích chung, vừa cạnh tranh trong và giữa ngành; hai mặt này cùng tồn tại trong quan hệ của họ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1087,11 +1087,11 @@
     "stem": "Nông dân, doanh nghiệp, nhà khoa học và Nhà nước ở các lĩnh vực khác nhau liên kết để nâng hiệu quả chuỗi nông sản. Liên kết này nên được nhận diện và ứng xử thế nào?",
     "options": [
       "Đó là lợi ích nhóm vì mọi thành viên đều hoạt động trong cùng một ngành nghề",
-      "Đó mặc nhiên là liên kết tiêu cực cần ngăn chặn dù phù hợp lợi ích quốc gia và không gây tổn hại lợi ích khác",
+      "Đó là nhóm lợi ích; nếu phù hợp lợi ích quốc gia và không làm tổn hại lợi ích khác thì cần được tôn trọng, bảo vệ, tạo điều kiện",
       "Đó chỉ là lợi ích cá nhân vì các chủ thể thuộc lĩnh vực khác nhau không thể hình thành mục tiêu chung",
-      "Đó là nhóm lợi ích; nếu phù hợp lợi ích quốc gia và không làm tổn hại lợi ích khác thì cần được tôn trọng, bảo vệ, tạo điều kiện"
+      "Đó mặc nhiên là liên kết tiêu cực cần ngăn chặn dù phù hợp lợi ích quốc gia và không gây tổn hại lợi ích khác"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Giáo trình gọi liên kết giữa các chủ thể thuộc những ngành, lĩnh vực khác nhau là nhóm lợi ích và đánh giá nó theo quan hệ với lợi ích quốc gia cùng các lợi ích khác.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1109,11 +1109,11 @@
     "stem": "Cách hiểu nào đúng về hài hòa các lợi ích kinh tế và sự cần thiết Nhà nước tham gia?",
     "options": [
       "Hài hòa là xóa mọi khác biệt lợi ích, nên Nhà nước phải ấn định một mức thu nhập như nhau",
-      "Hài hòa là ưu tiên lợi ích cá nhân, còn lợi ích xã hội sẽ tự động thực hiện qua thị trường mà không cần điều tiết",
       "Hài hòa là hạn chế mâu thuẫn, khuyến khích thống nhất; thị trường không tự bảo đảm nên cần Nhà nước can thiệp bằng công cụ phù hợp",
+      "Hài hòa là ưu tiên lợi ích cá nhân, còn lợi ích xã hội sẽ tự động thực hiện qua thị trường mà không cần điều tiết",
       "Hài hòa là ngăn các chủ thể theo đuổi lợi ích kinh tế để không phát sinh va chạm"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Hài hòa không phải đồng nhất lợi ích; đó là xử lý quan hệ vừa thống nhất vừa mâu thuẫn để tạo động lực, điều mà cơ chế thị trường một mình không bảo đảm.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1130,12 +1130,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Nhà đầu tư hợp pháp gặp quy định thiếu minh bạch và hạ tầng vận tải yếu, làm chi phí kinh doanh tăng cao. Nhóm giải pháp nào phù hợp nhất với vai trò tạo môi trường của Nhà nước?",
     "options": [
-      "Giữ ổn định chính trị, hoàn thiện môi trường pháp luật bảo vệ lợi ích chính đáng và đầu tư kết cấu hạ tầng phục vụ hoạt động kinh tế",
-      "Để từng doanh nghiệp tự xây toàn bộ hạ tầng và tự thỏa thuận việc tuân thủ pháp luật",
       "Chỉ tái phân phối thu nhập sau khi doanh nghiệp thua lỗ, không cần cải thiện pháp luật, hạ tầng hoặc môi trường hoạt động",
+      "Để từng doanh nghiệp tự xây toàn bộ hạ tầng và tự thỏa thuận việc tuân thủ pháp luật",
+      "Giữ ổn định chính trị, hoàn thiện môi trường pháp luật bảo vệ lợi ích chính đáng và đầu tư kết cấu hạ tầng phục vụ hoạt động kinh tế",
       "Chờ mâu thuẫn bùng phát rồi mới xem xét lại các điều kiện pháp lý, hạ tầng và môi trường kinh doanh"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Tình huống thuộc vai trò tạo lập môi trường vĩ mô thuận lợi: ổn định chính trị, pháp luật thông thoáng và kết cấu hạ tầng là các điều kiện Nhà nước phải xây dựng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1156,12 +1156,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Phân biệt nào đúng giữa điều hòa lợi ích và kiểm soát quan hệ lợi ích có ảnh hưởng tiêu cực?",
     "options": [
-      "Điều hòa chủ yếu xử lý thu nhập bất hợp pháp; kiểm soát chủ yếu xây dựng kết cấu hạ tầng",
       "Điều hòa dùng chính sách phân phối để hạn chế chênh lệch quá đáng; kiểm soát đòi hỏi Nhà nước chủ động bảo đảm phân phối công bằng",
+      "Điều hòa chủ yếu xử lý thu nhập bất hợp pháp; kiểm soát chủ yếu xây dựng kết cấu hạ tầng",
       "Điều hòa là chia đều mọi thu nhập; kiểm soát là cấm mọi hoạt động làm giàu của người dân",
       "Điều hòa để thị trường tự xử lý mọi chênh lệch thu nhập; kiểm soát chỉ dựa vào tuyên truyền, không cần thanh tra, xử lý vi phạm hoặc thực thi pháp luật"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Điều hòa thừa nhận chênh lệch thu nhập khách quan nhưng ngăn phân hóa thái quá; kiểm soát quan hệ tiêu cực bắt đầu từ phân phối công bằng, hợp lý chứ không phải cào bằng hay cấm làm giàu hợp pháp.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1179,11 +1179,11 @@
     "stem": "Tranh chấp tiền lương kéo dài đã dẫn đến đình công tại một doanh nghiệp. Cách giải quyết nào phù hợp với nguyên tắc của giáo trình?",
     "options": [
       "Để một bên tự quyết định kết quả vì mâu thuẫn lợi ích không cần sự tham gia của bên còn lại",
-      "Trì hoãn xử lý cho đến khi xung đột tự chấm dứt để tránh can thiệp vào quan hệ thị trường",
+      "Tổ chức hòa giải với sự tham gia của các bên và tổ chức liên quan, có nhân nhượng, tuân thủ pháp luật và đặt lợi ích đất nước lên trên hết",
       "Chỉ dùng biện pháp cưỡng chế hành chính để chấm dứt đình công, không cần hòa giải, sự tham gia của các bên hoặc xem xét các lợi ích hợp pháp liên quan",
-      "Tổ chức hòa giải với sự tham gia của các bên và tổ chức liên quan, có nhân nhượng, tuân thủ pháp luật và đặt lợi ích đất nước lên trên hết"
+      "Trì hoãn xử lý cho đến khi xung đột tự chấm dứt để tránh can thiệp vào quan hệ thị trường"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Mâu thuẫn cần được phát hiện và xử lý kịp thời; khi đã thành xung đột, cần hòa giải với sự tham gia của các bên, các tổ chức xã hội và Nhà nước trên nguyên tắc lợi ích chung.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1193,6 +1193,770 @@
         "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt",
         "number": 34
       }
+    }
+  },
+  {
+    "id": "C05-Q051",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Vai trò chủ đạo của kinh tế nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Biểu hiện nào thể hiện vai trò chủ đạo của kinh tế nhà nước trong nền kinh tế quốc dân?",
+    "options": [
+      "Chỉ hỗ trợ hoạt động công ích, không tham gia định hướng tăng trưởng hoặc giải quyết vấn đề xã hội",
+      "Dùng địa vị pháp lý để thay thế toàn bộ hoạt động của các thành phần kinh tế ngoài nhà nước",
+      "Tách khỏi toàn bộ nền kinh tế và chỉ bảo toàn phần tài sản thuộc sở hữu nhà nước",
+      "Dùng thực lực làm đòn bẩy tăng trưởng và lực lượng vật chất để Nhà nước điều tiết nền kinh tế"
+    ],
+    "answer": 3,
+    "explanation": "Kinh tế nhà nước giữ vai trò chủ đạo bằng thực lực: làm đòn bẩy tăng trưởng, mở đường, hướng dẫn và hỗ trợ các thành phần khác, đồng thời tạo lực lượng vật chất để Nhà nước điều tiết nền kinh tế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 163,
+      "text": "Kinh tế nhà nước dùng thực lực làm đòn bẩy tăng trưởng, giải quyết vấn đề xã hội, mở đường và hỗ trợ các thành phần khác, đồng thời là lực lượng vật chất để Nhà nước điều tiết kinh tế."
+    }
+  },
+  {
+    "id": "C05-Q052",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Nguyện vọng của nhân dân và tính tất yếu của mô hình",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong lập luận về tính tất yếu của mô hình, luận điểm nào xuất phát trực tiếp từ nguyện vọng của nhân dân Việt Nam?",
+    "options": [
+      "Khả năng thay thế mọi quy luật thị trường bằng cơ chế kế hoạch hóa tập trung",
+      "Khả năng tách nền kinh tế Việt Nam khỏi phân công và trao đổi kinh tế quốc tế",
+      "Sự bảo đảm rằng kinh tế thị trường không còn bất kỳ thất bại hoặc khuyết tật nào",
+      "Nguyện vọng xây dựng xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
+    ],
+    "answer": 3,
+    "explanation": "Lý do thứ ba xuất phát từ khát vọng của nhân dân Việt Nam về một xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh; các phương án còn lại đều phủ nhận điều kiện hoặc giới hạn thực tế của thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 158,
+      "text": "Giáo trình nêu lý do thứ ba là mô hình phù hợp với nguyện vọng dân giàu, nước mạnh, dân chủ, công bằng, văn minh của người dân Việt Nam.",
+      "slide": {
+        "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt",
+        "number": 5
+      }
+    }
+  },
+  {
+    "id": "C05-Q053",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Tác động phát triển của kinh tế thị trường",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chuỗi tác động nào giải thích việc phát triển kinh tế thị trường góp phần khắc phục tính tự cấp, tự túc của nền kinh tế?",
+    "options": [
+      "Đẩy mạnh phân công lao động, phát triển ngành nghề và giao lưu trong, ngoài nước",
+      "Duy trì sản xuất khép kín, ưu tiên trao đổi hiện vật và giảm quan hệ kinh tế đối ngoại",
+      "Thu hẹp phân công lao động, giảm số ngành nghề và hạn chế giao lưu giữa các vùng",
+      "Cố định cơ cấu sản xuất, hạn chế công nghệ mới và phân bổ nguồn lực bằng cấp phát"
+    ],
+    "answer": 0,
+    "explanation": "Thị trường phá vỡ trạng thái tự cấp, tự túc bằng cách thúc đẩy chuyên môn hóa, mở thêm ngành nghề và mở rộng trao đổi giữa các vùng cũng như với nước ngoài.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 159,
+      "text": "Phát triển kinh tế thị trường phá vỡ tính tự cấp, tự túc, đẩy mạnh phân công lao động, phát triển ngành nghề và mở rộng giao lưu kinh tế trong nước, ngoài nước."
+    }
+  },
+  {
+    "id": "C05-Q054",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Khái niệm sở hữu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Định nghĩa sở hữu nhấn mạnh quan hệ xã hội nào trong quá trình sản xuất và tái sản xuất?",
+    "options": [
+      "Quan hệ kỹ thuật giữa người lao động với công cụ trong quá trình tạo ra sản phẩm",
+      "Quan hệ giữa người với người dựa trên chiếm hữu nguồn lực và kết quả lao động",
+      "Quan hệ hành chính giữa người đăng ký tài sản với cơ quan cấp giấy chứng nhận",
+      "Quan hệ trao đổi giữa người bán với người mua khi hàng hóa được đưa ra thị trường"
+    ],
+    "answer": 1,
+    "explanation": "Sở hữu là một quan hệ xã hội giữa người với người, được xác lập trên cơ sở chiếm hữu nguồn lực sản xuất và kết quả lao động trong điều kiện lịch sử nhất định.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 160,
+      "text": "Giáo trình định nghĩa sở hữu là quan hệ giữa người với người trong sản xuất và tái sản xuất xã hội trên cơ sở chiếm hữu nguồn lực và kết quả lao động tương ứng."
+    }
+  },
+  {
+    "id": "C05-Q055",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Các yếu tố hàm chứa trong sở hữu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khi đề cập tới sở hữu, giáo trình hàm ý ba yếu tố nào?",
+    "options": [
+      "Chủ thể sở hữu, đối tượng sở hữu và lợi ích từ đối tượng sở hữu",
+      "Người sản xuất, người tiêu dùng và mức giá cân bằng của hàng hóa",
+      "Nhà quản lý, người trung gian và cơ quan giải quyết tranh chấp",
+      "Lượng cung, lượng cầu và mức độ cạnh tranh trên thị trường"
+    ],
+    "answer": 0,
+    "explanation": "Một quan hệ sở hữu bao hàm ai sở hữu, cái gì được sở hữu và lợi ích nào chủ thể muốn thực hiện từ đối tượng đó.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 161,
+      "text": "Giáo trình nêu sở hữu hàm ý chủ thể sở hữu, đối tượng sở hữu và lợi ích từ đối tượng sở hữu."
+    }
+  },
+  {
+    "id": "C05-Q056",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Sở hữu và trình độ lực lượng sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào phản ánh đúng quan hệ giữa sở hữu và trình độ lực lượng sản xuất?",
+    "options": [
+      "Lực lượng sản xuất quy định trực tiếp trình độ phát triển của sở hữu trong mỗi xã hội",
+      "Sở hữu hình thành độc lập với sản xuất nên không thay đổi khi lực lượng sản xuất phát triển",
+      "Quy định pháp lý về sở hữu tự tạo ra trình độ công nghệ mà không cần quá trình sản xuất và tái sản xuất",
+      "Khi lực lượng sản xuất phát triển thì quan hệ sở hữu mất đi vì mọi nguồn lực trở thành sản phẩm tự nhiên"
+    ],
+    "answer": 0,
+    "explanation": "Sở hữu hiện thực nảy sinh từ sản xuất và tái sản xuất; vì vậy trình độ lực lượng sản xuất quy định trực tiếp trình độ phát triển của sở hữu.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 161,
+      "text": "Cơ sở sâu xa của sở hữu hiện thực là sản xuất, tái sản xuất; sở hữu chịu sự quy định trực tiếp của trình độ lực lượng sản xuất."
+    }
+  },
+  {
+    "id": "C05-Q057",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Đa dạng thành phần kinh tế và huy động nguồn lực",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao phải vừa phát triển các thành phần dựa trên công hữu, vừa khuyến khích các thành phần dựa trên tư hữu?",
+    "options": [
+      "Để giao cho mọi thành phần cùng một chức năng và xóa khác biệt về hình thức sở hữu",
+      "Để tách khu vực công hữu khỏi khu vực tư hữu và hạn chế liên kết giữa các chủ thể",
+      "Để thay cạnh tranh theo pháp luật bằng cơ chế phân bổ hành chính cho từng thành phần",
+      "Để khai thác nguồn lực, nâng hiệu quả và phát huy tiềm năng của mọi thành phần"
+    ],
+    "answer": 3,
+    "explanation": "Sự cùng tồn tại, hợp tác và cạnh tranh bình đẳng của nhiều thành phần giúp huy động nguồn lực và tiềm năng xã hội vào phát triển đất nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 163,
+      "text": "Phát triển và liên kết các thành phần kinh tế giúp khai thác mọi nguồn lực, nâng cao hiệu quả và phát huy tiềm năng cho sự phát triển chung."
+    }
+  },
+  {
+    "id": "C05-Q058",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Phạm vi của sở hữu nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Mệnh đề “phần sở hữu nhà nước không chỉ có trong kinh tế nhà nước” cho phép rút ra kết luận nào?",
+    "options": [
+      "Kinh tế nhà nước không sử dụng bất kỳ tài sản nào thuộc sở hữu nhà nước",
+      "Sở hữu nhà nước có thể được sử dụng trong nhiều thành phần kinh tế khác nhau",
+      "Mọi tài sản của các thành phần kinh tế khác đều thuộc sở hữu nhà nước",
+      "Sở hữu nhà nước chỉ được sử dụng trong phạm vi doanh nghiệp nhà nước"
+    ],
+    "answer": 1,
+    "explanation": "Phạm vi sử dụng phần sở hữu nhà nước rộng hơn riêng khu vực kinh tế nhà nước; nó có thể tham gia vào nhiều thành phần kinh tế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 163,
+      "text": "Giáo trình khẳng định phần sở hữu nhà nước không chỉ có trong kinh tế nhà nước mà có thể được sử dụng ở nhiều thành phần kinh tế khác."
+    }
+  },
+  {
+    "id": "C05-Q059",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Phạm vi đầu tư của doanh nghiệp nhà nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Bốn dự án đều có khả năng sinh lời. Theo định hướng về phạm vi đầu tư của doanh nghiệp nhà nước, dự án nào phù hợp nhất để ưu tiên?",
+    "options": [
+      "Khu nghỉ dưỡng phổ thông tại vùng biển nơi nguồn cung tư nhân đang mở rộng",
+      "Trung tâm bán lẻ tại đô thị lớn nơi nhiều doanh nghiệp tư nhân đang cạnh tranh",
+      "Lưới điện tại địa bàn chiến lược mà các thành phần kinh tế khác không đầu tư",
+      "Nền tảng quảng cáo trực tuyến nơi doanh nghiệp tư nhân đã đáp ứng nhu cầu"
+    ],
+    "answer": 2,
+    "explanation": "Doanh nghiệp nhà nước cần tập trung vào lĩnh vực then chốt, thiết yếu, địa bàn chiến lược, quốc phòng, an ninh hoặc lĩnh vực mà thành phần khác không đầu tư; dự án lưới điện đáp ứng các tiêu chí đó.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 173,
+      "text": "Doanh nghiệp nhà nước tập trung vào lĩnh vực then chốt, thiết yếu, địa bàn chiến lược, quốc phòng, an ninh và lĩnh vực mà các thành phần khác không đầu tư."
+    }
+  },
+  {
+    "id": "C05-Q060",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Phương thức lãnh đạo kinh tế của Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đảng lãnh đạo nền kinh tế thị trường định hướng xã hội chủ nghĩa chủ yếu thông qua phương thức nào?",
+    "options": [
+      "Trực tiếp ấn định sản lượng và giá bán cho từng doanh nghiệp trên thị trường",
+      "Đề ra cương lĩnh, đường lối và các chủ trương, quyết sách lớn từng thời kỳ",
+      "Thay cơ quan nhà nước ban hành mọi giấy phép và giải quyết từng tranh chấp kinh tế",
+      "Ủy quyền cho các doanh nghiệp lớn tự xác lập mục tiêu phát triển của nền kinh tế"
+    ],
+    "answer": 1,
+    "explanation": "Đảng thực hiện vai trò lãnh đạo bằng cương lĩnh, đường lối và các quyết sách lớn; quản lý bằng pháp luật và công cụ điều hành thuộc chức năng của Nhà nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 164,
+      "text": "Đảng lãnh đạo thông qua cương lĩnh, đường lối phát triển kinh tế - xã hội và các chủ trương, quyết sách lớn trong từng thời kỳ."
+    }
+  },
+  {
+    "id": "C05-Q061",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Phương thức quản lý kinh tế của Nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách quản lý nào vừa thể hiện vai trò của Nhà nước, vừa tôn trọng các nguyên tắc của thị trường?",
+    "options": [
+      "Giao chỉ tiêu đầu vào, đầu ra bắt buộc và quyết định thay mọi lựa chọn kinh doanh của chủ thể",
+      "Rút khỏi điều tiết vĩ mô và để các tổ chức độc quyền tự đặt ra quy tắc cho toàn thị trường",
+      "Chỉ dùng mệnh lệnh hành chính ngắn hạn, không xây dựng thể chế hoặc môi trường cạnh tranh",
+      "Dùng pháp luật, chiến lược, chính sách, công cụ kinh tế và tôn trọng nguyên tắc thị trường"
+    ],
+    "answer": 3,
+    "explanation": "Nhà nước quản lý bằng hệ thống pháp luật, định hướng và công cụ kinh tế nhưng phải dựa trên, không thay thế, các nguyên tắc thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 164,
+      "text": "Nhà nước quản lý qua pháp luật, chiến lược, kế hoạch, quy hoạch, chính sách và công cụ kinh tế trên cơ sở tôn trọng nguyên tắc thị trường."
+    }
+  },
+  {
+    "id": "C05-Q062",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Điều tiết vĩ mô và hỗ trợ xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nền kinh tế đồng thời gặp bất ổn tài chính, thiên tai lớn và nhiều hộ thu nhập thấp mất nguồn sống. Gói ứng phó nào phù hợp nhất với vai trò quản lý của Nhà nước?",
+    "options": [
+      "Ổn định các cân đối vĩ mô, xử lý khủng hoảng và thiên tai, đồng thời hỗ trợ đúng nhóm thu nhập thấp",
+      "Chỉ cứu trợ các tổ chức tài chính và để người gặp thiên tai tự khắc phục bằng nguồn lực cá nhân",
+      "Để các cú sốc tự điều chỉnh hoàn toàn vì mọi hỗ trợ xã hội đều làm mất cơ chế thị trường",
+      "Ấn định hoạt động của từng doanh nghiệp nhưng không xử lý mất cân đối vĩ mô hoặc hỗ trợ dân cư"
+    ],
+    "answer": 0,
+    "explanation": "Vai trò của Nhà nước bao gồm bảo đảm cân đối vĩ mô, ứng phó khủng hoảng và thảm họa, đồng thời hỗ trợ nhóm thu nhập thấp hoặc gặp rủi ro.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 165,
+      "text": "Nhà nước bảo đảm các cân đối vĩ mô, khắc phục khủng hoảng và thảm họa, hỗ trợ thị trường khi cần cùng các nhóm thu nhập thấp, gặp rủi ro."
+    }
+  },
+  {
+    "id": "C05-Q063",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Quan hệ sở hữu và quan hệ phân phối",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan hệ nào chi phối và quyết định quan hệ phân phối trong nền kinh tế?",
+    "options": [
+      "Quan hệ lựa chọn phương tiện thanh toán",
+      "Quan hệ tiêu dùng hàng hóa cá nhân",
+      "Quan hệ quảng bá sản phẩm trên thị trường",
+      "Quan hệ sở hữu về tư liệu sản xuất"
+    ],
+    "answer": 3,
+    "explanation": "Quan hệ sở hữu về tư liệu sản xuất quyết định địa vị và cách các chủ thể tham gia phân phối, nên sự đa dạng sở hữu dẫn tới nhiều hình thức phân phối.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 165,
+      "text": "Giáo trình khẳng định quan hệ phân phối bị chi phối và quyết định bởi quan hệ sở hữu về tư liệu sản xuất."
+    }
+  },
+  {
+    "id": "C05-Q064",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Các hình thức phân phối phản ánh định hướng xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cặp hình thức phân phối nào được giáo trình xác định là phản ánh định hướng xã hội chủ nghĩa của nền kinh tế thị trường?",
+    "options": [
+      "Phân phối theo địa vị hành chính và phân phối bình quân hiện vật",
+      "Phân phối theo lao động, hiệu quả kinh tế và phân phối theo phúc lợi",
+      "Phân phối theo quyền lực thị trường và phân phối theo vị thế độc quyền",
+      "Phân phối theo lượng tiêu dùng và phân phối theo mức giá hàng hóa"
+    ],
+    "answer": 1,
+    "explanation": "Trong các hình thức cùng tồn tại, phân phối theo lao động và hiệu quả kinh tế, cùng phân phối theo phúc lợi, trực tiếp phản ánh định hướng xã hội chủ nghĩa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 166,
+      "text": "Giáo trình xác định phân phối theo lao động và hiệu quả kinh tế, phân phối theo phúc lợi là các hình thức phản ánh định hướng xã hội chủ nghĩa.",
+      "slide": {
+        "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt",
+        "number": 14
+      }
+    }
+  },
+  {
+    "id": "C05-Q065",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Vai trò kép của tiến bộ và công bằng xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Tiến bộ và công bằng xã hội giữ vị trí nào trong phát triển kinh tế thị trường định hướng xã hội chủ nghĩa?",
+    "options": [
+      "Chỉ là kết quả tự động xuất hiện sau khi nền kinh tế đã đạt trình độ phát triển cao",
+      "Vừa là điều kiện của phát triển bền vững, vừa là mục tiêu thể hiện bản chất của chế độ mới",
+      "Chỉ là công cụ tạm thời để giảm phản ứng xã hội khi cơ chế thị trường gặp khủng hoảng",
+      "Là lĩnh vực tách biệt với tăng trưởng nên không cần đặt ra trong chính sách kinh tế"
+    ],
+    "answer": 1,
+    "explanation": "Tiến bộ và công bằng vừa giúp nền kinh tế phát triển bền vững, vừa là mục tiêu phải từng bước hiện thực hóa trong suốt thời kỳ quá độ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 166,
+      "text": "Tiến bộ, công bằng xã hội vừa là điều kiện bảo đảm phát triển bền vững, vừa là mục tiêu thể hiện bản chất của chế độ xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "C05-Q066",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Công bằng về cơ hội tiếp cận dịch vụ cơ bản",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương chỉ trợ cấp tiền sau khi chênh lệch thu nhập đã tăng cao. Giải pháp bổ sung nào phù hợp với cách thực hiện công bằng xã hội trong giáo trình?",
+    "options": [
+      "Chia đều mọi nguồn lực cho từng người, không xét nhu cầu, hiệu quả hoặc khả năng tự cải thiện đời sống",
+      "Dừng đầu tư xã hội cho đến khi thu nhập bình quân đạt mức cao rồi mới mở rộng dịch vụ cơ bản",
+      "Chỉ tăng trợ cấp thường xuyên và loại bỏ trách nhiệm huy động nguồn lực của cộng đồng, người dân",
+      "Tạo cơ hội tiếp cận giáo dục, y tế, việc làm và kết hợp nguồn lực Nhà nước, cộng đồng, người dân"
+    ],
+    "answer": 3,
+    "explanation": "Công bằng không chỉ là điều tiết thu nhập sau cùng mà còn là tạo điều kiện để mọi người tiếp cận dịch vụ cơ bản và tự cải thiện đời sống, với nguồn lực của nhiều chủ thể.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 167,
+      "text": "Công bằng đòi hỏi cơ hội tiếp cận giáo dục, y tế, việc làm và kết hợp sức mạnh của Nhà nước, cộng đồng, mỗi người dân trong phát triển kinh tế - xã hội."
+    }
+  },
+  {
+    "id": "C05-Q067",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Tính chưa đồng bộ của thể chế",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Các quy tắc và cơ chế đã hình thành nhưng chưa ăn khớp để thị trường vận hành thông suốt. Hạn chế này được khái quát bằng cụm nào?",
+    "options": [
+      "Thể chế còn kém hiệu lực, hiệu quả và thiếu các yếu tố, loại thị trường",
+      "Hệ thống thể chế chính thức còn chưa đầy đủ về số lượng và phạm vi",
+      "Thể chế kinh tế thị trường định hướng xã hội chủ nghĩa còn chưa đồng bộ",
+      "Các loại thị trường đã hoàn thiện nên cần chuyển sang cơ chế phi thị trường"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình sắp xếp tính chưa đồng bộ là lý do thứ nhất; chưa đầy đủ và kém hiệu lực, hiệu quả là hai lý do tiếp theo.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 169,
+      "text": "Lý do thứ nhất được nêu là thể chế kinh tế thị trường định hướng xã hội chủ nghĩa còn chưa đồng bộ.",
+      "slide": {
+        "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt",
+        "number": 18
+      }
+    }
+  },
+  {
+    "id": "C05-Q068",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Hạn chế của các yếu tố và loại thị trường",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hiện tượng nào trực tiếp minh họa hạn chế trong sự hình thành và vận hành các yếu tố, loại thị trường?",
+    "options": [
+      "Giá hàng thiết yếu chưa theo cơ chế thị trường, một số loại thị trường còn phát triển chậm",
+      "Một số quy định pháp luật còn chồng chéo, mâu thuẫn, thiếu ổn định và nhất quán",
+      "Cơ chế kiểm soát quyền lực, phân công và phân cấp trong bộ máy còn nhiều bất cập",
+      "Bất bình đẳng xã hội có xu hướng tăng và kết quả giảm nghèo còn thiếu tính bền vững"
+    ],
+    "answer": 0,
+    "explanation": "Giá chưa được xác lập thực sự theo cơ chế thị trường và các thị trường chậm hình thành là biểu hiện trực tiếp của sự thiếu đồng bộ ở chính các yếu tố, loại thị trường.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 171,
+      "text": "Hộp 5.2 nêu một số loại thị trường chậm hình thành, vận hành vướng mắc, kém hiệu quả và giá một số hàng hóa thiết yếu chưa thật sự theo cơ chế thị trường."
+    }
+  },
+  {
+    "id": "C05-Q069",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Quản lý và sử dụng tài sản công",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khi hoàn thiện pháp luật về tài sản công, giáo trình yêu cầu phân biệt rõ hai loại tài sản nào?",
+    "options": [
+      "Tài sản do trung ương quản lý và tài sản do địa phương quản lý",
+      "Tài sản lưu động trong kỳ và tài sản cố định dài hạn",
+      "Tài sản kinh doanh và tài sản thực hiện chính sách xã hội",
+      "Tài sản được sản xuất trong nước và tài sản được nhập khẩu"
+    ],
+    "answer": 2,
+    "explanation": "Việc tách rõ tài sản dùng cho kinh doanh với tài sản phục vụ chính sách xã hội giúp xác định đúng mục tiêu và cơ chế quản lý, sử dụng tài sản công.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 172,
+      "text": "Giáo trình yêu cầu hoàn thiện pháp luật về tài sản công và phân biệt rõ tài sản đưa vào kinh doanh với tài sản thực hiện chính sách xã hội."
+    }
+  },
+  {
+    "id": "C05-Q070",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Bảo vệ sở hữu trí tuệ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một doanh nghiệp ngừng đầu tư sáng tạo vì sáng chế thường bị sao chép và cơ chế xác lập quyền thiếu tin cậy. Giải pháp thể chế nào phù hợp nhất?",
+    "options": [
+      "Bãi bỏ việc xác lập quyền để mọi chủ thể tự do sử dụng sáng chế của nhau",
+      "Chỉ giữ bí mật hành chính về sáng chế và không công khai thủ tục bảo hộ",
+      "Hoàn thiện thể chế sở hữu trí tuệ minh bạch, đáng tin cậy và bảo vệ quyền hữu hiệu",
+      "Chỉ bảo vệ sáng chế của doanh nghiệp nhà nước, còn chủ thể khác tự thỏa thuận"
+    ],
+    "answer": 2,
+    "explanation": "Sở hữu trí tuệ cần được bảo vệ bằng thể chế minh bạch và đáng tin cậy để quyền được thực thi và động lực sáng tạo được duy trì.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 172,
+      "text": "Hoàn thiện thể chế sở hữu trí tuệ phải khuyến khích sáng tạo, bảo đảm minh bạch, độ tin cậy và bảo vệ quyền sở hữu trí tuệ."
+    }
+  },
+  {
+    "id": "C05-Q071",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Pháp luật hợp đồng và đăng ký tài sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cặp nhiệm vụ nào thuộc nội dung hoàn thiện thể chế về sở hữu?",
+    "options": [
+      "Để tranh chấp tự giải quyết ngoài pháp luật và xóa hệ thống đăng ký công khai",
+      "Tách pháp luật hợp đồng theo hình thức sở hữu và tạm dừng đăng ký bất động sản",
+      "Thay hợp đồng bằng giấy phép hành chính và chỉ đăng ký tài sản là máy móc",
+      "Hoàn thiện pháp luật hợp đồng, giải quyết tranh chấp và đăng ký tài sản"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình yêu cầu pháp luật hợp đồng và giải quyết tranh chấp phải thống nhất, đồng bộ, đồng thời phát triển hệ thống đăng ký tài sản, nhất là bất động sản.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 172,
+      "text": "Nhiệm vụ gồm hoàn thiện pháp luật hợp đồng, giải quyết tranh chấp dân sự theo hướng thống nhất, đồng bộ và phát triển đăng ký tài sản, nhất là bất động sản."
+    }
+  },
+  {
+    "id": "C05-Q072",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Thể chế kinh tế tập thể và liên kết nông nghiệp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nội dung nào phù hợp với hoàn thiện thể chế về kinh tế tập thể trong nông nghiệp?",
+    "options": [
+      "Chuyển bắt buộc mọi hộ nông dân thành doanh nghiệp nhà nước để thống nhất quản lý",
+      "Tăng hợp tác, liên kết và hỗ trợ nông dân từ sản xuất, bảo quản đến chế biến, tiêu thụ",
+      "Tách nông dân khỏi doanh nghiệp và hạn chế các thỏa thuận liên kết trong chuỗi nông sản",
+      "Chỉ hỗ trợ khâu sản xuất, còn bảo quản, chế biến và tiêu thụ để từng hộ tự giải quyết"
+    ],
+    "answer": 1,
+    "explanation": "Thể chế kinh tế tập thể cần thúc đẩy hợp tác và liên kết theo chuỗi để hỗ trợ nông dân ở nhiều khâu, không áp đặt chuyển đổi hình thức sở hữu.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 173,
+      "text": "Giáo trình yêu cầu thể chế hóa kinh tế tập thể, tăng hợp tác, liên kết và hỗ trợ nông dân trong sản xuất, bảo quản, chế biến, tiêu thụ nông sản."
+    }
+  },
+  {
+    "id": "C05-Q073",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Lựa chọn dự án đầu tư trực tiếp nước ngoài",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cơ quan xúc tiến đầu tư đang chọn một dự án FDI để ưu tiên. Dự án nào phù hợp nhất với định hướng hoàn thiện thể chế thu hút FDI?",
+    "options": [
+      "Dự án dùng công nghệ cũ, nhập hầu hết đầu vào và không thiết lập liên kết với doanh nghiệp trong nước",
+      "Dự án chỉ lắp ráp, không chuyển giao công nghệ và không có hoạt động nghiên cứu tại Việt Nam",
+      "Dự án chuyển giao công nghệ tiên tiến, nghiên cứu tại Việt Nam và liên kết doanh nghiệp nội địa",
+      "Dự án khai thác nhiều tài nguyên, phát thải cao và không có cam kết nâng năng lực cho đối tác trong nước"
+    ],
+    "answer": 2,
+    "explanation": "Dự án đúng định hướng phải mang công nghệ và quản trị tiên tiến, có nghiên cứu tại Việt Nam và tạo liên kết giúp doanh nghiệp trong nước tham gia chuỗi giá trị toàn cầu.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 174,
+      "text": "Thu hút FDI cần chủ động chọn dự án có chuyển giao công nghệ, quản trị hiện đại, nghiên cứu tại Việt Nam và liên kết doanh nghiệp trong nước với chuỗi giá trị toàn cầu."
+    }
+  },
+  {
+    "id": "C05-Q074",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Vai trò của chủ thể trong xác lập lợi ích kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao khi phân tích lợi ích kinh tế phải xác định chủ thể là chủ sở hữu, nhà quản lý, lao động làm thuê hay người trung gian?",
+    "options": [
+      "Vì mọi vai trò đều nhận lợi ích giống nhau nên chỉ cần xác định tên gọi của chủ thể",
+      "Vì mỗi vai trò gắn với lợi ích, quyền hạn, trách nhiệm và phương thức thực hiện khác nhau",
+      "Vì xác định vị trí sẽ loại bỏ sự phụ thuộc của chủ thể vào các quan hệ kinh tế khác",
+      "Vì vai trò chỉ làm thay đổi vị trí làm việc, không liên quan đến quyền hạn hoặc trách nhiệm"
+    ],
+    "answer": 1,
+    "explanation": "Lợi ích không tồn tại tách khỏi quan hệ cụ thể; vai trò của chủ thể quyết định lợi ích tương ứng, quyền, trách nhiệm và cách lợi ích được thực hiện.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 178,
+      "text": "Phân tích lợi ích phải xác định chủ thể là chủ sở hữu, nhà quản lý, lao động làm thuê hay trung gian, cùng người thụ hưởng, quyền hạn, trách nhiệm và phương thức thực hiện."
+    }
+  },
+  {
+    "id": "C05-Q075",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Vai trò quyết định của lợi ích vật chất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Xuyên suốt quá trình tồn tại của con người và đời sống xã hội, loại lợi ích nào đóng vai trò quyết định thúc đẩy hoạt động?",
+    "options": [
+      "Lợi ích vật chất",
+      "Lợi ích tinh thần",
+      "Lợi ích chính trị",
+      "Lợi ích văn hóa"
+    ],
+    "answer": 0,
+    "explanation": "Trong từng bối cảnh lợi ích vật chất hoặc tinh thần có thể nổi bật khác nhau, nhưng xét xuyên suốt đời sống xã hội, lợi ích vật chất giữ vai trò quyết định.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 177,
+      "text": "Giáo trình khẳng định xuyên suốt quá trình tồn tại của con người và đời sống xã hội, lợi ích vật chất đóng vai trò quyết định thúc đẩy hoạt động."
+    }
+  },
+  {
+    "id": "C05-Q076",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Lợi ích kinh tế và các lợi ích khác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khi được thực hiện, lợi ích kinh tế tạo điều kiện vật chất cho sự hình thành và thực hiện nhóm lợi ích nào?",
+    "options": [
+      "Lợi ích tiêu dùng, lợi ích tiết kiệm và lợi ích đầu tư",
+      "Lợi ích tiền lương, lợi ích lợi nhuận và lợi ích địa tô",
+      "Lợi ích chính trị, lợi ích xã hội và lợi ích văn hóa",
+      "Lợi ích cá nhân, lợi ích nhóm và lợi ích xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Lợi ích kinh tế được thực hiện tạo nền tảng vật chất để các chủ thể hình thành và thực hiện lợi ích chính trị, xã hội, văn hóa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 180,
+      "text": "Lợi ích kinh tế được thực hiện tạo điều kiện vật chất cho sự hình thành và thực hiện lợi ích chính trị, xã hội, văn hóa của các chủ thể.",
+      "slide": {
+        "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt",
+        "number": 24
+      }
+    }
+  },
+  {
+    "id": "C05-Q077",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Điều kiện phát huy vai trò của lợi ích kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào phản ánh đúng điều kiện để lợi ích kinh tế phát huy vai trò động lực?",
+    "options": [
+      "Mọi cách theo đuổi lợi ích đều tạo động lực tích cực, dù gây tổn hại cho chủ thể khác",
+      "Lợi ích cá nhân chính đáng phải bị gạt bỏ để tránh mọi khác biệt giữa các chủ thể",
+      "Các lợi ích cần đồng thuận và phải được theo đuổi một cách chính đáng, hợp lý, hợp pháp",
+      "Chỉ cần thu nhập tăng cho một chủ thể, không cần xét quan hệ với lợi ích kinh tế khác"
+    ],
+    "answer": 2,
+    "explanation": "Lợi ích chỉ tạo động lực phát triển khi các lợi ích có sự đồng thuận và cách theo đuổi là chính đáng, hợp lý, hợp pháp; chiều ngược lại tạo trở ngại.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 181,
+      "text": "Vai trò của lợi ích kinh tế đòi hỏi sự đồng thuận, thống nhất; theo đuổi lợi ích không chính đáng, không hợp lý, không hợp pháp cản trở phát triển."
+    }
+  },
+  {
+    "id": "C05-Q078",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Lực lượng sản xuất và sự thống nhất lợi ích",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao trình độ lực lượng sản xuất cao hơn tạo thêm điều kiện để các lợi ích kinh tế thống nhất?",
+    "options": [
+      "Vì hàng hóa, dịch vụ dồi dào và tốt hơn, làm khả năng đáp ứng lợi ích của các chủ thể tăng",
+      "Vì quan hệ sở hữu tự biến mất, nên các chủ thể không còn địa vị khác nhau trong sản xuất",
+      "Vì chính sách phân phối không còn cần thiết và mọi xung đột lợi ích tự động bị xóa bỏ",
+      "Vì số lượng hàng hóa giảm, khiến mọi chủ thể phải hạ nhu cầu vật chất xuống cùng một mức"
+    ],
+    "answer": 0,
+    "explanation": "Lực lượng sản xuất cao tạo ra nhiều hàng hóa, dịch vụ với chất lượng tốt hơn, nhờ đó nhu cầu vật chất của nhiều chủ thể được đáp ứng tốt hơn và lợi ích dễ thống nhất hơn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 184,
+      "text": "Lực lượng sản xuất càng cao thì hàng hóa, dịch vụ và khả năng đáp ứng lợi ích càng tốt, tạo điều kiện để quan hệ lợi ích thống nhất."
+    }
+  },
+  {
+    "id": "C05-Q079",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Phát triển khu vực kinh tế tư nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhiệm vụ nào trực tiếp thúc đẩy khu vực kinh tế tư nhân theo giáo trình?",
+    "options": [
+      "Giới hạn khu vực tư nhân ở quy mô hộ nhỏ, không cho hình thành tập đoàn hoặc tiếp cận công nghệ hiện đại",
+      "Tạo thuận lợi cho kinh tế tư nhân, phát triển tập đoàn mạnh và hỗ trợ doanh nghiệp nhỏ và vừa",
+      "Duy trì chế độ pháp lý kinh doanh riêng, hạn chế quyền cạnh tranh của doanh nghiệp thuộc sở hữu tư nhân",
+      "Chỉ hỗ trợ doanh nghiệp tư nhân khai thác tài nguyên, không khuyến khích nâng công nghệ và năng lực quản trị"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình yêu cầu tạo thuận lợi để kinh tế tư nhân trở thành một động lực quan trọng, thúc đẩy các tập đoàn tư nhân mạnh và hỗ trợ doanh nghiệp nhỏ, vừa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 174,
+      "text": "Cần tạo thuận lợi để kinh tế tư nhân trở thành một động lực quan trọng, thúc đẩy tập đoàn tư nhân mạnh và hỗ trợ doanh nghiệp nhỏ và vừa."
+    }
+  },
+  {
+    "id": "C05-Q080",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Mâu thuẫn tiền lương và lợi nhuận",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào giải thích đúng mâu thuẫn tiền lương - lợi nhuận và giới hạn của việc giảm lương?",
+    "options": [
+      "Kết quả kinh doanh xác định khiến hai phần có thể đối lập; lương tối thiểu bảo đảm tái sản xuất sức lao động",
+      "Tiền lương và lợi nhuận hoàn toàn độc lập, nên thay đổi một khoản không ảnh hưởng khoản còn lại",
+      "Người lao động không tham gia tạo kết quả kinh doanh, nên doanh nghiệp có thể giảm lương xuống bằng không",
+      "Mọi mức lương đều do người lao động đơn phương quyết định, còn lợi nhuận không liên quan đến chi phí lao động"
+    ],
+    "answer": 0,
+    "explanation": "Ở một thời điểm, kết quả kinh doanh là xác định nên tăng phần của bên này có thể giảm phần của bên kia; tuy nhiên tiền lương phải bảo đảm giới hạn tối thiểu để tái sản xuất sức lao động.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 187,
+      "text": "Tiền lương và lợi nhuận có thể mâu thuẫn khi kết quả kinh doanh xác định; tiền lương tối thiểu là mức thấp nhất phải trả vì tiền lương bảo đảm tái sản xuất sức lao động."
+    }
+  },
+  {
+    "id": "C05-Q081",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Biện pháp chống thu nhập bất hợp pháp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm biện pháp nào được giáo trình nhấn mạnh để chống thu nhập từ buôn lậu, hàng giả, lừa đảo và tham nhũng?",
+    "options": [
+      "Giảm giám sát công quyền và để các chủ thể tự thỏa thuận cách hợp thức hóa thu nhập",
+      "Chỉ tuyên truyền tự giác, không kiểm soát thu nhập hoặc xử lý hành vi vi phạm pháp luật",
+      "Công nhận mọi khoản thu nếu người nhận tự nguyện nộp một phần vào ngân sách nhà nước",
+      "Bộ máy liêm chính, kiểm soát thu nhập, bình đẳng trước pháp luật và minh bạch"
+    ],
+    "answer": 3,
+    "explanation": "Chống thu nhập bất hợp pháp cần bộ máy có hiệu lực và liêm chính, kiểm soát thu nhập, thực thi bình đẳng trước pháp luật, đồng thời công khai và giám sát quyền lực.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 196,
+      "text": "Giáo trình yêu cầu bộ máy nhà nước liêm chính, kiểm soát thu nhập, bình đẳng trước pháp luật, công khai, minh bạch và giám sát cơ quan công quyền để chống thu nhập bất hợp pháp."
+    }
+  },
+  {
+    "id": "C05-Q082",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Vai trò định hướng của lợi ích xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ nào đúng giữa lợi ích xã hội và lợi ích cá nhân?",
+    "options": [
+      "Lợi ích cá nhân luôn cao hơn lợi ích xã hội vì xã hội chỉ là tổng số các giao dịch riêng lẻ",
+      "Lợi ích xã hội tồn tại độc lập với cá nhân nên không tác động đến môi trường thực hiện lợi ích riêng",
+      "Lợi ích chung làm mất mọi lợi ích cá nhân nên thống nhất hành động chỉ có khi cá nhân từ bỏ nhu cầu",
+      "Lợi ích xã hội định hướng lợi ích cá nhân, còn lợi ích chung là cơ sở thống nhất mục tiêu và hành động"
+    ],
+    "answer": 3,
+    "explanation": "Sự tồn tại của cộng đồng tạo điều kiện cho cá nhân, nên lợi ích xã hội định hướng cách thực hiện lợi ích riêng; lợi ích chung liên kết mục tiêu và hành động của các chủ thể.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 190,
+      "text": "Lợi ích xã hội định hướng lợi ích cá nhân; không có lợi ích chung thì không thể có sự thống nhất về mục đích và hành động."
+    }
+  },
+  {
+    "id": "C05-Q083",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Nhận diện lợi ích nhóm tiêu cực",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một số công chức bí mật tác động quy trình mua sắm công để doanh nghiệp thân hữu trúng thầu, làm ngân sách chịu giá cao. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Đây là nhóm lợi ích tích cực vì mọi hình thức liên kết công - tư đều tạo thêm động lực phát triển",
+      "Đây chỉ là cạnh tranh thị trường thông thường vì công chức không thể làm thay đổi lợi ích xã hội",
+      "Đây là lợi ích nhóm tiêu cực do quyền lực công bị lạm dụng; cần phát hiện và ngăn chặn thường xuyên",
+      "Đây là lợi ích cá nhân chính đáng nên được bảo vệ nếu những người tham gia không công khai liên kết"
+    ],
+    "answer": 2,
+    "explanation": "Sự tham gia của người có quyền lực công để phục vụ lợi ích riêng có nguy cơ trực tiếp làm hại lợi ích xã hội; dạng liên kết này thường ẩn giấu nên phải kiểm soát quyết liệt, thường xuyên.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 191,
+      "text": "Lợi ích nhóm có công chức hoặc cơ quan công quyền dễ gây hại do lạm dụng quyền lực; dạng tiêu cực thường không lộ diện nên phải chống quyết liệt, thường xuyên."
+    }
+  },
+  {
+    "id": "C05-Q084",
+    "chapter": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+    "chapterNum": 5,
+    "topic": "Hai quan niệm về công bằng trong phân phối",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai quan niệm chính về công bằng trong phân phối được giáo trình nêu là gì?",
+    "options": [
+      "Công bằng theo sở hữu và công bằng theo trao đổi",
+      "Công bằng theo lao động và công bằng theo phúc lợi",
+      "Công bằng theo cơ hội và công bằng theo kết quả",
+      "Công bằng theo mức độ và công bằng theo chức năng"
+    ],
+    "answer": 3,
+    "explanation": "Công bằng theo mức độ căn cứ vào thu nhập mỗi chủ thể nhận được, còn công bằng theo chức năng căn cứ vào đóng góp tạo thu nhập; hai cách nhìn cần được kết hợp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 194,
+      "text": "Giáo trình nêu công bằng theo mức độ dựa vào thu nhập nhận được và công bằng theo chức năng dựa vào mức đóng góp; mỗi quan niệm có ưu, nhược điểm nên cần kết hợp."
     }
   }
 ]

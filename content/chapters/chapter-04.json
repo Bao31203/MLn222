@@ -35,11 +35,11 @@
     "stem": "Độc quyền nhà nước trong chủ nghĩa tư bản hình thành nhằm mục đích cơ bản nào?",
     "options": [
       "Thay lợi ích của tư bản độc quyền bằng lợi ích chung và chấm dứt nền sản xuất tư bản chủ nghĩa",
-      "Xóa bỏ các tổ chức độc quyền tư nhân để chuyển toàn bộ tư liệu sản xuất cho người lao động",
+      "Phục vụ lợi ích của các tổ chức độc quyền tư nhân và tiếp tục duy trì, phát triển chủ nghĩa tư bản",
       "Tách sức mạnh kinh tế của Nhà nước khỏi các tổ chức độc quyền và khỏi quá trình tái sản xuất",
-      "Phục vụ lợi ích của các tổ chức độc quyền tư nhân và tiếp tục duy trì, phát triển chủ nghĩa tư bản"
+      "Xóa bỏ các tổ chức độc quyền tư nhân để chuyển toàn bộ tư liệu sản xuất cho người lao động"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Bản chất của độc quyền nhà nước trong chủ nghĩa tư bản là kết hợp sức mạnh nhà nước với độc quyền tư nhân để phục vụ lợi ích độc quyền và duy trì chế độ tư bản chủ nghĩa.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -60,12 +60,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Sự phát triển của lực lượng sản xuất thúc đẩy độc quyền hình thành trước hết qua quá trình nào?",
     "options": [
-      "Tiến bộ kỹ thuật đòi hỏi vốn lớn, thúc đẩy tích tụ, tập trung sản xuất và hình thành doanh nghiệp quy mô lớn",
+      "Tiến bộ kỹ thuật thay thế quan hệ tín dụng, khiến doanh nghiệp không còn nhu cầu liên kết",
       "Tiến bộ kỹ thuật làm nhu cầu vốn giảm, khiến doanh nghiệp lớn tự tách thành nhiều đơn vị độc lập",
       "Tiến bộ kỹ thuật xóa bỏ lợi thế quy mô, làm thị trường chỉ còn các cơ sở sản xuất nhỏ",
-      "Tiến bộ kỹ thuật thay thế quan hệ tín dụng, khiến doanh nghiệp không còn nhu cầu liên kết"
+      "Tiến bộ kỹ thuật đòi hỏi vốn lớn, thúc đẩy tích tụ, tập trung sản xuất và hình thành doanh nghiệp quy mô lớn"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Khoa học - kỹ thuật mới làm xuất hiện ngành cần quy mô vốn lớn và tăng khả năng tích lũy, qua đó thúc đẩy tích tụ, tập trung sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -88,10 +88,10 @@
     "options": [
       "Làm mọi doanh nghiệp có quy mô ngang nhau nên không bên nào có thể chi phối thị trường",
       "Buộc doanh nghiệp lớn chia nhỏ vốn để tránh phải đổi mới kỹ thuật và phương thức quản lý",
-      "Làm doanh nghiệp vừa và nhỏ phá sản, còn doanh nghiệp lớn tăng tích tụ, tập trung và liên kết với nhau",
-      "Làm hệ thống tín dụng ngừng hoạt động nên doanh nghiệp chỉ có thể dùng vốn tự có"
+      "Làm hệ thống tín dụng ngừng hoạt động nên doanh nghiệp chỉ có thể dùng vốn tự có",
+      "Làm doanh nghiệp vừa và nhỏ phá sản, còn doanh nghiệp lớn tăng tích tụ, tập trung và liên kết với nhau"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Cạnh tranh đào thải doanh nghiệp yếu và làm các doanh nghiệp lớn còn lại phải tăng tích tụ, tập trung hoặc liên kết để tiếp tục phát triển.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -112,12 +112,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Sự phát triển của hệ thống tín dụng thúc đẩy quá trình hình thành độc quyền bằng cách nào?",
     "options": [
-      "Trở thành đòn bẩy tập trung sản xuất, thúc đẩy hình thành và phát triển các công ty cổ phần",
       "Phân tán nguồn vốn giữa các doanh nghiệp nhỏ, ngăn quá trình tích tụ và tập trung sản xuất",
+      "Trở thành đòn bẩy tập trung sản xuất, thúc đẩy hình thành và phát triển các công ty cổ phần",
       "Hạn chế doanh nghiệp huy động vốn bên ngoài, buộc công ty cổ phần chuyển thành hộ kinh doanh",
       "Làm các doanh nghiệp độc lập hoàn toàn về tài chính và không còn nhu cầu liên kết với nhau"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Hệ thống tín dụng là đòn bẩy mạnh thúc đẩy tập trung sản xuất, đặc biệt thông qua sự hình thành và phát triển của công ty cổ phần.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -138,12 +138,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Cặp mức giá nào cấu thành giá cả độc quyền mà tổ chức độc quyền thường áp đặt?",
     "options": [
-      "Giá bán thấp và giá mua cao",
       "Giá bán cao và giá mua thấp",
+      "Giá bán thấp và giá mua cao",
       "Giá bán bằng giá trị và giá mua bằng chi phí",
       "Giá bán cố định và giá mua tự do"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Tổ chức độc quyền dùng vị thế chi phối để áp đặt giá độc quyền cao khi bán và giá độc quyền thấp khi mua.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -161,11 +161,11 @@
     "stem": "Nguồn gốc thực chất của lợi nhuận độc quyền cao được giáo trình xác định là gì?",
     "options": [
       "Chênh lệch tỷ giá và lãi suất do ngân hàng trung ương điều chỉnh trên thị trường tiền tệ",
-      "Trợ cấp ngân sách và hợp đồng mua sắm công mà nhà nước dành riêng cho mọi doanh nghiệp",
+      "Lao động trong và ngoài xí nghiệp độc quyền cùng phần giá trị bị chuyển dịch qua cạnh tranh",
       "Khoản tiết kiệm chi phí nhờ kỹ thuật mới, hoàn toàn không liên quan đến lao động và cạnh tranh",
-      "Lao động trong và ngoài xí nghiệp độc quyền cùng phần giá trị bị chuyển dịch qua cạnh tranh"
+      "Trợ cấp ngân sách và hợp đồng mua sắm công mà nhà nước dành riêng cho mọi doanh nghiệp"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Lợi nhuận độc quyền cao vẫn bắt nguồn từ lao động của công nhân, đồng thời bao gồm phần giá trị thặng dư và lao động thặng dư bị chiếm đoạt qua vị thế độc quyền.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -183,11 +183,11 @@
     "stem": "Đâu là nội dung cốt lõi của khái niệm độc quyền nhà nước?",
     "options": [
       "Nhà nước rút khỏi mọi lĩnh vực then chốt để doanh nghiệp tư nhân tự điều tiết nền kinh tế",
-      "Nhà nước chia đều quyền định giá cho mọi doanh nghiệp nhằm loại bỏ khác biệt về quy mô",
       "Nhà nước nắm vị thế độc quyền ở lĩnh vực then chốt để tạo sức mạnh vật chất cho ổn định chế độ",
+      "Nhà nước chia đều quyền định giá cho mọi doanh nghiệp nhằm loại bỏ khác biệt về quy mô",
       "Nhà nước chỉ giám sát cạnh tranh mà không sở hữu hay chi phối bất kỳ nguồn lực kinh tế nào"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Độc quyền nhà nước là kiểu độc quyền trong đó nhà nước giữ vị thế ở các lĩnh vực then chốt nhằm tạo sức mạnh vật chất cho sự ổn định chính trị - xã hội.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -208,12 +208,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Sự phát triển của phân công lao động xã hội làm nảy sinh độc quyền nhà nước vì lý do nào?",
     "options": [
-      "Các tổ chức độc quyền tư nhân muốn đầu tư toàn bộ vốn vào những ngành thu hồi vốn chậm",
       "Xuất hiện ngành quan trọng cần vốn lớn, thu hồi chậm, ít lợi nhuận mà tư nhân không thể hoặc không muốn đầu tư",
+      "Các tổ chức độc quyền tư nhân muốn đầu tư toàn bộ vốn vào những ngành thu hồi vốn chậm",
       "Các chính sách xã hội đã xóa bỏ hoàn toàn phân hóa giàu - nghèo và mâu thuẫn giai cấp",
       "Quan hệ kinh tế quốc tế phát triển làm vai trò điều tiết của nhà nước trở nên không cần thiết"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Nhiều ngành hạ tầng và dịch vụ cơ bản có vai trò lớn nhưng vốn đầu tư cao, hoàn vốn chậm và lợi nhuận thấp, nên nhà nước phải đứng ra đảm nhận.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -234,12 +234,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Tác động nào sau đây là một khả năng tích cực do độc quyền tạo ra?",
     "options": [
-      "Tập trung nguồn lực tài chính cho nghiên cứu, triển khai khoa học - kỹ thuật",
       "Tạo cung cầu giả tạo bằng cách hạn chế khối lượng hàng hóa trên thị trường",
+      "Tập trung nguồn lực tài chính cho nghiên cứu, triển khai khoa học - kỹ thuật",
       "Trì hoãn sáng chế khi đổi mới có thể làm vị thế độc quyền bị lung lay",
       "Làm nhóm lợi ích cục bộ chi phối chính sách và tăng phân hóa giàu - nghèo"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Quy mô tích tụ và tập trung cao cho phép tổ chức độc quyền huy động nguồn lực lớn cho nghiên cứu và triển khai khoa học - kỹ thuật.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -260,12 +260,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Hành vi nào của tổ chức độc quyền trực tiếp gây thiệt hại cho người tiêu dùng và xã hội?",
     "options": [
-      "Đầu tư vào ngành mũi nhọn để mở rộng quy mô sản xuất hiện đại",
-      "Ứng dụng công nghệ mới để giảm chi phí và tăng năng suất lao động",
       "Áp đặt giá bán cao, hạn chế sản lượng và tạo cung cầu hàng hóa giả tạo",
+      "Ứng dụng công nghệ mới để giảm chi phí và tăng năng suất lao động",
+      "Đầu tư vào ngành mũi nhọn để mở rộng quy mô sản xuất hiện đại",
       "Tập trung nguồn lực tài chính cho hoạt động nghiên cứu và triển khai"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Giá bán cao, lượng cung bị hạn chế và cung cầu giả tạo tạo ra trao đổi không ngang giá, làm người tiêu dùng và xã hội chịu thiệt.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -286,12 +286,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Biểu hiện mới về cơ chế quan hệ nhân sự trong độc quyền nhà nước dưới chủ nghĩa tư bản là gì?",
     "options": [
-      "Một thế lực tư bản độc quyền được phép độc tôn và loại bỏ mọi lực lượng tư bản đối lập khỏi bộ máy nhà nước",
+      "Thể chế đa nguyên và cơ chế thỏa hiệp giữa các thế lực độc quyền phát triển, hạn chế một thế lực độc tôn",
       "Quan hệ nhân sự giữa giới độc quyền và Nhà nước chấm dứt vì hai bên không còn tác động đến nhau",
       "Mọi đại diện doanh nghiệp bị loại khỏi đời sống chính trị nên quyền lực nhà nước không còn sự thỏa hiệp",
-      "Thể chế đa nguyên và cơ chế thỏa hiệp giữa các thế lực độc quyền phát triển, hạn chế một thế lực độc tôn"
+      "Một thế lực tư bản độc quyền được phép độc tôn và loại bỏ mọi lực lượng tư bản đối lập khỏi bộ máy nhà nước"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Tại các nước tư bản phát triển, cơ chế thỏa hiệp và phân chia quyền lực giữa các thế lực độc quyền trở nên phổ biến, không để một thế lực dễ dàng độc tôn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -312,12 +312,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Đâu là biểu hiện của cạnh tranh trong nội bộ một tổ chức độc quyền?",
     "options": [
-      "Các thành viên tranh giành cổ phần khống chế để có vị trí chi phối và phân chia lợi ích thuận lợi hơn",
-      "Tổ chức độc quyền kiểm soát nguồn nguyên liệu để loại doanh nghiệp ngoài độc quyền khỏi thị trường",
       "Hai tổ chức độc quyền khác ngành tranh giành cùng một nguồn lực đầu vào quan trọng",
+      "Tổ chức độc quyền kiểm soát nguồn nguyên liệu để loại doanh nghiệp ngoài độc quyền khỏi thị trường",
+      "Các thành viên tranh giành cổ phần khống chế để có vị trí chi phối và phân chia lợi ích thuận lợi hơn",
       "Các chính phủ ký hiệp định để phân định khu vực ảnh hưởng giữa những quốc gia"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Trong cùng tổ chức độc quyền, các thành viên vẫn có thể cạnh tranh để nắm cổ phần khống chế, địa vị chi phối và phần lợi ích lớn hơn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -340,10 +340,10 @@
     "options": [
       "Trust",
       "Syndicate",
-      "Cartel",
-      "Consortium"
+      "Consortium",
+      "Cartel"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Cartel dựa trên hiệp nghị giữa các xí nghiệp vẫn độc lập cả về sản xuất và lưu thông, nên đây là liên minh kém vững chắc nhất trong bốn hình thức cơ bản.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -365,11 +365,11 @@
     "stem": "Trong hình thức tổ chức độc quyền nào, các xí nghiệp còn độc lập về sản xuất nhưng mọi việc mua bán do ban quản trị chung đảm nhiệm?",
     "options": [
       "Dạng cartel",
-      "Dạng syndicate",
       "Dạng trust",
+      "Dạng syndicate",
       "Dạng consortium"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Syndicate thống nhất khâu lưu thông qua ban quản trị chung, trong khi các thành viên vẫn giữ độc lập về sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -417,11 +417,11 @@
     "stem": "Mô tả nào phù hợp nhất với consortium?",
     "options": [
       "Hiệp nghị cùng ngành về giá, sản lượng và thị trường, trong khi từng thành viên vẫn tự sản xuất và lưu thông",
-      "Liên minh lưu thông, trong đó thành viên tự sản xuất nhưng ban chung phụ trách mua nguyên liệu và bán hàng",
       "Liên minh quy mô lớn gồm nhiều xí nghiệp và tổ chức độc quyền ở các ngành liên quan, chịu chi phối tài chính chung",
+      "Liên minh lưu thông, trong đó thành viên tự sản xuất nhưng ban chung phụ trách mua nguyên liệu và bán hàng",
       "Liên minh cùng ngành, trong đó ban quản trị chung thống nhất sản xuất, tiêu thụ và chia lợi nhuận theo cổ phần"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Consortium có trình độ và quy mô lớn, liên kết dọc nhiều đơn vị thuộc các ngành có quan hệ kinh tế, kỹ thuật và chịu sự chi phối tài chính chung.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -490,12 +490,12 @@
     "kind": "nhan_biet_khai_niem",
     "stem": "Chuyển biến nào được giáo trình xác định là một vai trò tích cực của chủ nghĩa tư bản?",
     "options": [
-      "Duy trì nền sản xuất nhỏ phân tán để hạn chế sự phụ thuộc giữa các đơn vị kinh tế",
       "Chuyển nền sản xuất nhỏ thành nền sản xuất tập trung, quy mô lớn và hiện đại",
+      "Duy trì nền sản xuất nhỏ phân tán để hạn chế sự phụ thuộc giữa các đơn vị kinh tế",
       "Thu hẹp sản xuất hàng hóa để giảm tác động của các quy luật kinh tế thị trường",
       "Tách rời các ngành và quốc gia để giảm mức độ xã hội hóa của quá trình sản xuất"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Chủ nghĩa tư bản thúc đẩy kinh tế hàng hóa phát triển, chuyển sản xuất nhỏ thành sản xuất tập trung quy mô lớn, hiện đại và năng suất cao.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -518,10 +518,10 @@
     "options": [
       "Vì pháp luật luôn cấm tổ chức độc quyền tiến hành mọi hoạt động nghiên cứu khoa học",
       "Vì sản xuất quy mô lớn làm tổ chức độc quyền không thể sử dụng công nghệ hiện đại",
-      "Vì người tiêu dùng trực tiếp quyết định toàn bộ chương trình nghiên cứu của tổ chức độc quyền",
-      "Vì việc nghiên cứu còn phụ thuộc mục đích kinh tế và có thể bị trì hoãn khi vị thế độc quyền bị đe dọa"
+      "Vì việc nghiên cứu còn phụ thuộc mục đích kinh tế và có thể bị trì hoãn khi vị thế độc quyền bị đe dọa",
+      "Vì người tiêu dùng trực tiếp quyết định toàn bộ chương trình nghiên cứu của tổ chức độc quyền"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Nguồn lực chỉ tạo ra khả năng. Vì lợi ích độc quyền, sáng chế có thể không được triển khai nếu làm suy yếu vị thế đang có, nên độc quyền cũng có thể kìm hãm tiến bộ kỹ thuật.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -539,11 +539,11 @@
     "stem": "Nhận định “độc quyền không thủ tiêu cạnh tranh” được thể hiện đầy đủ nhất qua hệ quả nào?",
     "options": [
       "Chỉ doanh nghiệp vừa và nhỏ tiếp tục cạnh tranh, còn tổ chức độc quyền đứng ngoài thị trường",
-      "Xuất hiện cạnh tranh giữa độc quyền với bên ngoài, giữa các độc quyền và ngay trong từng tổ chức độc quyền",
+      "Mọi hình thức cạnh tranh đều quy về tranh giành cổ phần trong cùng một tổ chức độc quyền",
       "Cạnh tranh được thay hoàn toàn bằng thỏa thuận hành chính giữa các cơ quan quản lý nhà nước",
-      "Mọi hình thức cạnh tranh đều quy về tranh giành cổ phần trong cùng một tổ chức độc quyền"
+      "Xuất hiện cạnh tranh giữa độc quyền với bên ngoài, giữa các độc quyền và ngay trong từng tổ chức độc quyền"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trạng thái độc quyền bổ sung ba quan hệ cạnh tranh đặc thù: với doanh nghiệp ngoài độc quyền, giữa các độc quyền và trong nội bộ độc quyền.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -564,12 +564,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao những thập kỷ gần đây phần lớn dòng đầu tư lại vận động qua lại giữa các nước tư bản phát triển?",
     "options": [
-      "Ngành có hàm lượng khoa học - kỹ thuật và vốn cao tại đó sinh lợi lớn, còn đầu tư vào nước đang phát triển rủi ro hơn",
-      "Các nước tư bản phát triển đồng loạt cấm bằng pháp luật mọi dòng vốn đầu tư đi sang các nước đang phát triển",
       "Hạ tầng ở các nước đang phát triển đã hiện đại hơn nên các nước này không còn tiếp nhận vốn nước ngoài",
+      "Các nước tư bản phát triển đồng loạt cấm bằng pháp luật mọi dòng vốn đầu tư đi sang các nước đang phát triển",
+      "Ngành có hàm lượng khoa học - kỹ thuật và vốn cao tại đó sinh lợi lớn, còn đầu tư vào nước đang phát triển rủi ro hơn",
       "Lợi nhuận ở mọi quốc gia đã ngang nhau nên nhà đầu tư chỉ lựa chọn thị trường gần về địa lý"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Các nước phát triển tập trung ngành cần nhiều vốn và tri thức nên vẫn sinh lợi cao; trong khi hạ tầng lạc hậu và bất ổn ở một số nước đang phát triển làm rủi ro tăng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -591,11 +591,11 @@
     "stem": "Sự thay đổi lớn về chủ thể xuất khẩu tư bản hiện nay được thể hiện như thế nào?",
     "options": [
       "Chỉ chính phủ các nước tư bản phát triển còn xuất khẩu tư bản, còn doanh nghiệp không tham gia đầu tư quốc tế",
-      "Công ty xuyên quốc gia giảm vai trò trong đầu tư trực tiếp, còn các nước đang phát triển chỉ tiếp nhận vốn",
       "Công ty xuyên quốc gia giữ vai trò ngày càng lớn, nhất là trong FDI, đồng thời xuất hiện chủ thể từ các nước đang phát triển",
+      "Công ty xuyên quốc gia giảm vai trò trong đầu tư trực tiếp, còn các nước đang phát triển chỉ tiếp nhận vốn",
       "Chỉ doanh nghiệp vừa và nhỏ ở nước kém phát triển xuất khẩu tư bản, còn tập đoàn lớn rút khỏi thị trường quốc tế"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Vai trò của các công ty xuyên quốc gia trong xuất khẩu tư bản, đặc biệt trong FDI, ngày càng tăng; đồng thời đã xuất hiện nhiều chủ thể xuất khẩu tư bản từ các nước đang phát triển.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -617,11 +617,11 @@
     "stem": "Vì sao hợp đồng giữa Nhà nước và tổ chức độc quyền tư nhân có thể giúp tổ chức độc quyền ổn định lợi nhuận trong thời kỳ khủng hoảng thừa?",
     "options": [
       "Nhà nước yêu cầu các tổ chức độc quyền tiêu hủy hàng hóa nhưng vẫn thanh toán toàn bộ chi phí sản xuất",
-      "Nhà nước bao mua qua đơn đặt hàng, giúp tiêu thụ hàng hóa, bảo đảm lợi nhuận và khắc phục một phần khó khăn tái sản xuất",
+      "Hợp đồng chuyển quyền sở hữu tư nhân cho người lao động nên tổ chức độc quyền không còn theo đuổi lợi nhuận",
       "Hợp đồng cấm tổ chức độc quyền bán hàng trên thị trường và buộc họ chuyển toàn bộ sản phẩm cho doanh nghiệp nhỏ",
-      "Hợp đồng chuyển quyền sở hữu tư nhân cho người lao động nên tổ chức độc quyền không còn theo đuổi lợi nhuận"
+      "Nhà nước bao mua qua đơn đặt hàng, giúp tiêu thụ hàng hóa, bảo đảm lợi nhuận và khắc phục một phần khó khăn tái sản xuất"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Đơn đặt hàng của Nhà nước tạo đầu ra cho hàng hóa của tổ chức độc quyền, giúp quá trình tái sản xuất diễn ra và mang lại khối lượng lợi nhuận lớn, ổn định.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -639,11 +639,11 @@
     "stem": "Vì sao “chế độ tham dự” cho phép tài phiệt khống chế lượng tư bản lớn hơn nhiều so với vốn trực tiếp bỏ ra?",
     "options": [
       "Mỗi công ty con phải nộp toàn bộ doanh thu cho ngân hàng trung ương theo quy định pháp luật",
-      "Nhà nước bảo lãnh vô điều kiện mọi khoản đầu tư của công ty mẹ và công ty con trong tập đoàn",
+      "Cổ phần khống chế ở công ty mẹ tạo chuỗi kiểm soát công ty con rồi công ty cháu theo kiểu móc xích",
       "Các cổ đông nhỏ tự động mất quyền sở hữu khi công ty mẹ phát hành thêm cổ phiếu ra thị trường",
-      "Cổ phần khống chế ở công ty mẹ tạo chuỗi kiểm soát công ty con rồi công ty cháu theo kiểu móc xích"
+      "Nhà nước bảo lãnh vô điều kiện mọi khoản đầu tư của công ty mẹ và công ty con trong tập đoàn"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Một lượng vốn đủ nắm cổ phần khống chế công ty mẹ có thể truyền quyền chi phối xuống nhiều tầng công ty con và công ty cháu.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -662,10 +662,10 @@
     "options": [
       "Đầu tư trực tiếp chỉ đến nước phát triển, còn đầu tư gián tiếp chỉ đến nước đang và kém phát triển",
       "Đầu tư trực tiếp chỉ dùng vốn tư nhân, còn đầu tư gián tiếp chỉ dùng ngân sách và tín dụng nhà nước",
-      "Đầu tư trực tiếp gắn với cơ sở và quyền quản lý kinh doanh, còn đầu tư gián tiếp không trực tiếp tham gia quản lý",
-      "Đầu tư trực tiếp luôn sở hữu toàn bộ dự án, còn đầu tư gián tiếp luôn nắm quá nửa cổ phần doanh nghiệp"
+      "Đầu tư trực tiếp luôn sở hữu toàn bộ dự án, còn đầu tư gián tiếp luôn nắm quá nửa cổ phần doanh nghiệp",
+      "Đầu tư trực tiếp gắn với cơ sở và quyền quản lý kinh doanh, còn đầu tư gián tiếp không trực tiếp tham gia quản lý"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Điểm phân biệt là quyền tham gia quản lý: đầu tư trực tiếp tổ chức hoặc mua cơ sở để trực tiếp kinh doanh; đầu tư gián tiếp qua cho vay, chứng khoán hoặc trung gian tài chính.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -682,12 +682,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao xuất khẩu tư bản tăng về quy mô và phạm vi dẫn tới sự phân chia thế giới về kinh tế giữa các tập đoàn độc quyền?",
     "options": [
-      "Các tập đoàn phải cạnh tranh rồi thỏa hiệp về thị trường, nguồn lực và lĩnh vực đầu tư để củng cố vị trí độc quyền",
-      "Các tập đoàn từ bỏ thị trường ngoài nước để chỉ tập trung khai thác nhu cầu tại chính quốc",
       "Các tập đoàn chấm dứt cạnh tranh quốc tế vì mọi nước nhập khẩu tư bản có mức lợi nhuận như nhau",
+      "Các tập đoàn từ bỏ thị trường ngoài nước để chỉ tập trung khai thác nhu cầu tại chính quốc",
+      "Các tập đoàn phải cạnh tranh rồi thỏa hiệp về thị trường, nguồn lực và lĩnh vực đầu tư để củng cố vị trí độc quyền",
       "Các tập đoàn chuyển quyền phân phối toàn bộ vốn quốc tế cho doanh nghiệp vừa và nhỏ ở nước tiếp nhận"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Tư bản vươn ra ngoài làm các độc quyền lớn va chạm trên thị trường quốc tế; cạnh tranh thúc đẩy họ ký kết, phân chia phạm vi hoạt động và lập liên minh quốc tế.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -710,10 +710,10 @@
     "options": [
       "Chỉ liên quan đến thống nhất mua bán của các xí nghiệp cùng ngành và không có vai trò của chính phủ",
       "Chỉ thể hiện qua đầu tư gián tiếp bằng chứng khoán và hoàn toàn không gắn với quyền lực nhà nước",
-      "Lôi kéo chính phủ vào phân định thuộc địa, khu vực và các hình thức lệ thuộc để bảo vệ lợi ích độc quyền",
-      "Chỉ diễn ra trong nội bộ tập đoàn qua tranh giành cổ phần, không liên quan tới khu vực ảnh hưởng"
+      "Chỉ diễn ra trong nội bộ tập đoàn qua tranh giành cổ phần, không liên quan tới khu vực ảnh hưởng",
+      "Lôi kéo chính phủ vào phân định thuộc địa, khu vực và các hình thức lệ thuộc để bảo vệ lợi ích độc quyền"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Phân chia kinh tế chủ yếu xoay quanh thị trường và đầu tư giữa các độc quyền; phân chia lãnh thổ gắn với quyền lực nhà nước, thuộc địa và khu vực ảnh hưởng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -734,12 +734,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Vì sao những điều chỉnh về hình thức sở hữu trong chủ nghĩa tư bản hiện đại không xóa bỏ được mâu thuẫn cơ bản của nó?",
     "options": [
-      "Các điều chỉnh chỉ tạo ra sự thích ứng nhất định, còn mâu thuẫn giữa lực lượng sản xuất xã hội hóa và chiếm hữu tư nhân tư bản chủ nghĩa vẫn tồn tại",
       "Các điều chỉnh làm trình độ xã hội hóa của lực lượng sản xuất giảm xuống và khôi phục hoàn toàn nền sản xuất nhỏ",
+      "Các điều chỉnh chỉ tạo ra sự thích ứng nhất định, còn mâu thuẫn giữa lực lượng sản xuất xã hội hóa và chiếm hữu tư nhân tư bản chủ nghĩa vẫn tồn tại",
       "Sở hữu nhà nước đã tách khỏi sở hữu độc quyền tư nhân nên quan hệ sản xuất không còn liên hệ với lực lượng sản xuất",
       "Mâu thuẫn cơ bản chỉ bắt nguồn từ khác biệt giữa công nghiệp và nông nghiệp, không liên quan đến quan hệ sở hữu"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Các hình thức sở hữu có thể được điều chỉnh để thích ứng ở mức nhất định, nhưng nền tảng chiếm hữu tư nhân tư bản chủ nghĩa vẫn đối lập với tính xã hội hóa ngày càng cao của lực lượng sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -758,10 +758,10 @@
     "options": [
       "Họ tách hoàn toàn giới kinh doanh khỏi bộ máy nhà nước để bảo đảm chính sách không chịu tác động lợi ích",
       "Họ chỉ tổ chức hoạt động từ thiện nên không tham gia lựa chọn nhân sự hoặc đường lối kinh tế",
-      "Họ thay thế toàn bộ cơ quan lập pháp, hành pháp và tư pháp bằng ban quản trị của doanh nghiệp tư nhân",
-      "Họ cung cấp cơ sở xã hội, kinh phí, nhân sự và kênh tác động chính sách cho sự thâm nhập lẫn nhau"
+      "Họ cung cấp cơ sở xã hội, kinh phí, nhân sự và kênh tác động chính sách cho sự thâm nhập lẫn nhau",
+      "Họ thay thế toàn bộ cơ quan lập pháp, hành pháp và tư pháp bằng ban quản trị của doanh nghiệp tư nhân"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Các tổ chức này kết nối giới độc quyền với chính quyền qua tài trợ, lựa chọn nhân sự, xây dựng đường lối và trao đổi vị trí giữa doanh nghiệp với bộ máy nhà nước.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -782,12 +782,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Trong độc quyền nhà nước tư bản chủ nghĩa, vì sao sở hữu nhà nước được xem là sở hữu tập thể của giai cấp tư sản?",
     "options": [
-      "Vì mọi công dân trực tiếp quản lý và chia đều lợi nhuận của toàn bộ doanh nghiệp nhà nước",
       "Vì nó được tổ chức để hỗ trợ lợi ích tư bản độc quyền và duy trì sự tồn tại của chủ nghĩa tư bản",
+      "Vì mọi công dân trực tiếp quản lý và chia đều lợi nhuận của toàn bộ doanh nghiệp nhà nước",
       "Vì nó xóa bỏ hoàn toàn sự đan kết giữa sở hữu nhà nước với sở hữu độc quyền tư nhân",
       "Vì nó chỉ gồm tài sản hành chính, không bao gồm doanh nghiệp hay kết cấu hạ tầng kinh tế - xã hội"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Dù mang hình thức nhà nước, loại sở hữu này phục vụ việc mở rộng và ổn định hoạt động của tư bản độc quyền trong toàn bộ cơ chế tư bản chủ nghĩa.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -808,12 +808,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Nhà nước đảm nhận một ngành ít lãi rồi tạo điều kiện để tư bản độc quyền chuyển sang ngành sinh lợi cao hơn. Trường hợp này thể hiện chức năng nào của sở hữu nhà nước?",
     "options": [
-      "Tạo thuận lợi cho tư bản độc quyền di chuyển giữa các ngành và lựa chọn lĩnh vực kinh doanh hiệu quả hơn",
-      "Thu hẹp địa bàn sản xuất tư bản chủ nghĩa để ngăn các tổ chức độc quyền tiếp tục mở rộng",
       "Tách hoạt động của doanh nghiệp nhà nước khỏi mọi chương trình điều tiết kinh tế của chính phủ",
+      "Thu hẹp địa bàn sản xuất tư bản chủ nghĩa để ngăn các tổ chức độc quyền tiếp tục mở rộng",
+      "Tạo thuận lợi cho tư bản độc quyền di chuyển giữa các ngành và lựa chọn lĩnh vực kinh doanh hiệu quả hơn",
       "Chuyển toàn bộ quyền sở hữu tư nhân cho người lao động mà không qua bất kỳ hình thức mua lại nào"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Một chức năng của sở hữu nhà nước là giải phóng và tạo thuận lợi cho tư bản độc quyền rời ngành ít lãi để đầu tư vào ngành có hiệu quả cao hơn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -860,12 +860,12 @@
     "kind": "thong_hieu_phan_biet",
     "stem": "Cách phân biệt nào giữa concern và conglomerate phù hợp với giáo trình?",
     "options": [
-      "Concern chỉ gồm hãng không liên quan, còn conglomerate gồm xí nghiệp có quan hệ kinh tế - kỹ thuật chặt chẽ",
       "Concern gồm hàng trăm xí nghiệp thuộc nhiều ngành và nhiều nước, còn conglomerate ghép các hãng không liên quan trực tiếp",
+      "Concern chỉ gồm hãng không liên quan, còn conglomerate gồm xí nghiệp có quan hệ kinh tế - kỹ thuật chặt chẽ",
       "Concern chỉ thống nhất lưu thông trong một ngành, còn conglomerate thống nhất cả sản xuất và tiêu thụ cùng ngành",
       "Concern là hiệp nghị ngắn hạn về giá giữa các hãng cùng ngành, còn conglomerate là liên minh lâu dài giữa các chính phủ"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Concern là tổ chức độc quyền đa ngành gồm hàng trăm xí nghiệp phân bố ở nhiều nước; conglomerate kết hợp nhiều hãng vừa và nhỏ không liên quan trực tiếp về sản xuất hoặc dịch vụ sản xuất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -887,11 +887,11 @@
     "stem": "Vì sao sự phát triển của nhiều doanh nghiệp vừa và nhỏ ngày nay không đồng nghĩa với việc quyền kiểm soát của độc quyền lớn suy giảm?",
     "options": [
       "Vì doanh nghiệp vừa và nhỏ đều trở thành cơ quan hành chính trực thuộc chính phủ trung ương",
-      "Vì doanh nghiệp vừa và nhỏ không còn tham gia chuyên môn hóa, đổi mới kỹ thuật hoặc thị trường ngách",
+      "Vì nhiều doanh nghiệp nhỏ nằm trong hệ thống gia công và phụ thuộc concern, conglomerate qua quan hệ hợp tác",
       "Vì luật chống độc quyền cho phép concern sở hữu tuyệt đối mọi mặt hàng trong một ngành",
-      "Vì nhiều doanh nghiệp nhỏ nằm trong hệ thống gia công và phụ thuộc concern, conglomerate qua quan hệ hợp tác"
+      "Vì doanh nghiệp vừa và nhỏ không còn tham gia chuyên môn hóa, đổi mới kỹ thuật hoặc thị trường ngách"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Tiêu chuẩn hóa và chuyên môn hóa tạo mạng lưới gia công; qua hợp tác, độc quyền lớn vẫn kiểm soát sản xuất và tiến bộ công nghệ của nhiều đơn vị nhỏ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -909,11 +909,11 @@
     "stem": "“Chế độ ủy nhiệm” bổ sung cho “chế độ tham dự” bằng cách nào?",
     "options": [
       "Cổ đông nhỏ trực tiếp thay thế hội đồng quản trị và tự quyết định mọi hoạt động hằng ngày của công ty",
-      "Đại cổ đông được ủy nhiệm thay mặt nhiều cổ đông nhỏ quyết định phương hướng hoạt động của công ty",
+      "Người lao động ủy nhiệm cho nhà nước phân phối ngang bằng mọi khoản lợi nhuận của công ty",
       "Ngân hàng trung ương nhận ủy quyền sở hữu toàn bộ cổ phiếu của mọi doanh nghiệp tư nhân",
-      "Người lao động ủy nhiệm cho nhà nước phân phối ngang bằng mọi khoản lợi nhuận của công ty"
+      "Đại cổ đông được ủy nhiệm thay mặt nhiều cổ đông nhỏ quyết định phương hướng hoạt động của công ty"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Khi cổ phiếu mệnh giá nhỏ được phân tán rộng, đại cổ đông có thể nhận ủy nhiệm của số đông cổ đông nhỏ và tiếp tục duy trì quyền chi phối.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -930,12 +930,12 @@
     "kind": "trinh_tu_quan_he",
     "stem": "Hai xu hướng nào cùng tồn tại trong biểu hiện mới của sự phân chia thị trường thế giới?",
     "options": [
-      "Quốc tế hóa, toàn cầu hóa kinh tế đồng thời với khu vực hóa và hình thành các liên minh kinh tế khu vực",
-      "Đóng cửa hoàn toàn thị trường quốc gia đồng thời với chấm dứt mọi liên minh thuế quan và mậu dịch",
       "Xóa bỏ công ty xuyên quốc gia đồng thời với trao toàn bộ thị trường thế giới cho doanh nghiệp nhỏ",
+      "Đóng cửa hoàn toàn thị trường quốc gia đồng thời với chấm dứt mọi liên minh thuế quan và mậu dịch",
+      "Quốc tế hóa, toàn cầu hóa kinh tế đồng thời với khu vực hóa và hình thành các liên minh kinh tế khu vực",
       "Ngừng lưu chuyển tư bản quốc tế đồng thời với chỉ duy trì trao đổi hàng hóa trong từng địa phương"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Toàn cầu hóa mở rộng phạm vi hoạt động của tư bản xuyên quốc gia, trong khi khu vực hóa tạo ra các liên minh kinh tế và mậu dịch theo vùng.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -957,11 +957,11 @@
     "stem": "Việc nhà nước dùng ngân sách mua cổ phần hoặc cứu tập đoàn lớn khỏi phá sản trong khủng hoảng phản ánh điều gì?",
     "options": [
       "Nhà nước đã chấm dứt vai trò ổn định kinh tế vĩ mô và trao toàn bộ quyền điều tiết cho thị trường",
-      "Sở hữu nhà nước chỉ còn giới hạn ở trụ sở và tài sản phục vụ bộ máy hành chính công",
+      "Sở hữu và ngân sách nhà nước được dùng để ổn định kinh tế đồng thời gắn kết với hoạt động của độc quyền tư nhân",
       "Tập đoàn độc quyền không còn nhận được bất kỳ hỗ trợ nào từ thuế, tín dụng hoặc mua sắm công",
-      "Sở hữu và ngân sách nhà nước được dùng để ổn định kinh tế đồng thời gắn kết với hoạt động của độc quyền tư nhân"
+      "Sở hữu nhà nước chỉ còn giới hạn ở trụ sở và tài sản phục vụ bộ máy hành chính công"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Mua cổ phần và giải cứu trong khủng hoảng cho thấy nhà nước dùng tiềm lực sở hữu, ngân sách để ổn định vĩ mô và nâng đỡ các tập đoàn lớn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1052,12 +1052,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Hai cường quốc tư bản phát triển không đều, cùng đòi phân chia lại thị trường và lãnh thổ đã được xác lập, từ đó đẩy quan hệ giữa họ tới xung đột quân sự. Tình huống này thể hiện giới hạn nào của chủ nghĩa tư bản?",
     "options": [
-      "Vai trò thúc đẩy xã hội hóa sản xuất và gắn các quá trình kinh tế thành một hệ thống thống nhất",
       "Giới hạn tiếp tục gây chiến tranh và xung đột do cạnh tranh phân chia lại thị trường, lãnh thổ thế giới",
+      "Vai trò thúc đẩy xã hội hóa sản xuất và gắn các quá trình kinh tế thành một hệ thống thống nhất",
       "Giới hạn làm sâu sắc phân hóa giàu - nghèo trong từng nước và giữa các quốc gia trên thế giới",
       "Giới hạn đặt mục đích sản xuất chủ yếu vào lợi ích của thiểu số tư sản, nhất là tư bản độc quyền"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Phát triển không đều cùng cuộc đấu tranh phân chia lại thị trường và lãnh thổ là cơ sở kinh tế dẫn tới chiến tranh, xung đột giữa các cường quốc tư bản.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1079,11 +1079,11 @@
     "stem": "Một công ty đầu tư dự án xây dựng - kinh doanh - chuyển giao ở nước ngoài, đồng thời ràng buộc dự án với hợp đồng cung cấp thiết bị và dịch vụ kỹ thuật. Tình huống này thể hiện biểu hiện mới nào của xuất khẩu tư bản?",
     "options": [
       "Xuất khẩu tư bản quay lại duy nhất hình thức cho vay quốc tế để thu lợi tức và không gắn với dự án",
-      "Xuất khẩu tư bản tách hoàn toàn khỏi hợp đồng xuất khẩu hàng hóa, thiết bị và dịch vụ kỹ thuật",
+      "Hình thức xuất khẩu tư bản đa dạng và ngày càng đan xen với xuất khẩu hàng hóa, dịch vụ, chất xám",
       "Chủ thể xuất khẩu tư bản không còn gồm công ty xuyên quốc gia mà chỉ còn cơ quan nhà nước",
-      "Hình thức xuất khẩu tư bản đa dạng và ngày càng đan xen với xuất khẩu hàng hóa, dịch vụ, chất xám"
+      "Xuất khẩu tư bản tách hoàn toàn khỏi hợp đồng xuất khẩu hàng hóa, thiết bị và dịch vụ kỹ thuật"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Mô hình xây dựng - kinh doanh - chuyển giao cùng hợp đồng thiết bị, dịch vụ cho thấy hình thức đầu tư mới và sự kết hợp ngày càng chặt giữa xuất khẩu tư bản với hàng hóa, dịch vụ.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1104,12 +1104,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một ngành hạ tầng mới cần vốn rất lớn, thời gian thu hồi dài và tỷ suất lợi nhuận thấp nên các tập đoàn tư nhân đều né tránh; nhà nước phải đầu tư để các ngành khác hoạt động. Tình huống này phản ánh nguyên nhân nào của độc quyền nhà nước?",
     "options": [
-      "Sự kết hợp nhân sự giữa hội chủ xí nghiệp với bộ máy chính quyền để tác động quá trình hoạch định chính sách",
       "Phân công lao động xã hội tạo ngành quan trọng mà độc quyền tư nhân không thể hoặc không muốn đầu tư",
+      "Sự kết hợp nhân sự giữa hội chủ xí nghiệp với bộ máy chính quyền để tác động quá trình hoạch định chính sách",
       "Các tập đoàn quốc tế cạnh tranh rồi thỏa hiệp để phân chia thị trường tiêu thụ và đầu tư trên thế giới",
       "Tư bản tài chính chuyển từ chế độ tham dự trực tiếp sang chế độ ủy nhiệm thông qua các cổ đông nhỏ"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Đây đúng với nguyên nhân do phân công lao động tạo ra ngành thiết yếu nhưng vốn lớn, hoàn vốn chậm và ít lợi nhuận, buộc nhà nước đứng ra đảm nhận.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1130,12 +1130,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một nhóm tư bản độc quyền thu giá trị thặng dư ngày càng lớn, trong khi thu nhập của người lao động giảm tương đối so với thu nhập của giới sở hữu. Hệ quả nào phù hợp nhất với phân tích của giáo trình?",
     "options": [
-      "Sự phân hóa giàu - nghèo ngày càng sâu sắc giữa giai cấp tư sản và người lao động",
       "Thành quả tăng năng suất được tự động phân phối ngang bằng giữa mọi thành viên xã hội",
+      "Sự phân hóa giàu - nghèo ngày càng sâu sắc giữa giai cấp tư sản và người lao động",
       "Mâu thuẫn giai cấp được xóa bỏ vì mức độ tích tụ và tập trung tư bản ngày càng cao",
       "Đường lối nhà nước chắc chắn độc lập với nhóm lợi ích khi độc quyền tư nhân mở rộng"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Tích lũy và giá trị thặng dư tập trung vào các tập đoàn độc quyền làm thu nhập của giới tư sản tăng, còn thu nhập người lao động giảm tương đối, nên chênh lệch giàu - nghèo sâu sắc hơn.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1156,12 +1156,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Theo phần trình bày về các hình thức độc quyền mới, một tổ chức đa ngành gồm hàng trăm xí nghiệp thuộc nhiều ngành và phân bố tại nhiều quốc gia là hình thức nào?",
     "options": [
-      "Dạng cartel",
-      "Dạng consortium",
       "Dạng concern",
+      "Dạng consortium",
+      "Dạng cartel",
       "Dạng conglomerate"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Tính đa ngành, quy mô hàng trăm xí nghiệp và sự phân bố ở nhiều nước là những dấu hiệu được giáo trình dùng để mô tả concern.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1182,12 +1182,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Hàng chục hãng vừa và nhỏ không liên quan trực tiếp về sản xuất được ghép thành một tập đoàn, mục tiêu chính là thu lợi từ kinh doanh chứng khoán. Tập đoàn này gần nhất với hình thức nào?",
     "options": [
-      "Mô hình trust đa ngành",
+      "Mô hình conglomerate đa ngành",
       "Mô hình consortium đa ngành",
       "Mô hình concern đa ngành",
-      "Mô hình conglomerate đa ngành"
+      "Mô hình trust đa ngành"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Sự kết hợp các hãng không liên quan trực tiếp và mục tiêu lợi nhuận chứng khoán là hai dấu hiệu điển hình của conglomerate.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1208,12 +1208,12 @@
     "kind": "van_dung_tinh_huong",
     "stem": "Một sản phẩm được tạo ra qua chuyên môn hóa sâu giữa nhiều đơn vị, nhiều ngành và nhiều quốc gia; các khâu phụ thuộc lẫn nhau thành một hệ thống thống nhất. Vai trò lịch sử nào của chủ nghĩa tư bản được thể hiện rõ nhất?",
     "options": [
-      "Thực hiện xã hội hóa sản xuất cả về chiều rộng và chiều sâu",
+      "Thúc đẩy tranh giành lãnh thổ và xung đột giữa các cường quốc",
       "Duy trì chiếm hữu tư nhân như một giới hạn không thể tự khắc phục",
       "Gây phân hóa giàu - nghèo giữa các tầng lớp và các quốc gia",
-      "Thúc đẩy tranh giành lãnh thổ và xung đột giữa các cường quốc"
+      "Thực hiện xã hội hóa sản xuất cả về chiều rộng và chiều sâu"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Chuyên môn hóa, hợp tác và liên hệ xuyên ngành, xuyên quốc gia biến các quá trình phân tán thành một hệ thống sản xuất xã hội thống nhất.",
     "source": {
       "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
@@ -1249,6 +1249,818 @@
         "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
         "number": 50
       }
+    }
+  },
+  {
+    "id": "C04-Q051",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Con đường hình thành độc quyền",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong nền kinh tế thị trường, độc quyền có thể được hình thành theo hai con đường nào?",
+    "options": [
+      "Từ vận động tự nhiên của thị trường hoặc từ ý chí tạo lập của nhà nước",
+      "Từ quyết định của người tiêu dùng hoặc từ thỏa ước chung của người lao động",
+      "Từ biến động ngẫu nhiên của giá cả hoặc từ việc xóa bỏ sở hữu doanh nghiệp",
+      "Từ phân phối bình quân nguồn lực hoặc từ việc đình chỉ mọi quan hệ tín dụng"
+    ],
+    "answer": 0,
+    "explanation": "Độc quyền có thể nảy sinh tự nhiên từ vận động của cạnh tranh, tích tụ và tập trung, đồng thời cũng có thể được nhà nước chủ động tạo lập.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 113,
+      "text": "Trong nền kinh tế thị trường, độc quyền có thể hình thành tự nhiên hoặc do ý chí của nhà nước tạo ra."
+    }
+  },
+  {
+    "id": "C04-Q052",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Tính phổ biến của độc quyền nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mức độ tồn tại của độc quyền nhà nước trong các nền kinh tế thị trường được giáo trình khái quát như thế nào?",
+    "options": [
+      "Chỉ xuất hiện ở các nền kinh tế đang khủng hoảng và mất đi khi tăng trưởng phục hồi",
+      "Mang tính phổ biến, nhưng phạm vi và mức độ tùy thuộc trình độ phát triển của mỗi quốc gia",
+      "Chỉ có ở các nước kém phát triển vì khu vực tư nhân chưa đủ khả năng tổ chức sản xuất",
+      "Có phạm vi và mức độ hoàn toàn giống nhau trong mọi nền kinh tế thị trường hiện đại"
+    ],
+    "answer": 1,
+    "explanation": "Các quốc gia đều nắm giữ những vị thế độc quyền nhất định để duy trì sức mạnh, nhưng biểu hiện cụ thể khác nhau theo trình độ phát triển.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 116,
+      "text": "Độc quyền nhà nước mang tính phổ biến trong kinh tế thị trường và có thể xuất hiện ở các mức độ khác nhau tùy trình độ phát triển."
+    }
+  },
+  {
+    "id": "C04-Q053",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Mâu thuẫn xã hội và độc quyền nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo nguyên nhân hình thành độc quyền nhà nước được giáo trình nêu, khi độc quyền tư nhân làm sâu sắc phân hóa và mâu thuẫn giai cấp, nhà nước tư sản phải dùng nhóm chính sách nào?",
+    "options": [
+      "Giảm trợ cấp thất nghiệp, thu hẹp điều tiết thu nhập và giao phúc lợi cho thị trường",
+      "Tăng bảo hộ giá độc quyền, giảm thuế lợi nhuận và hạn chế thương lượng tiền lương",
+      "Tư nhân hóa dịch vụ công, giảm bảo hiểm xã hội và trao phân phối thu nhập cho độc quyền",
+      "Trợ cấp thất nghiệp, điều tiết thu nhập và phát triển phúc lợi để xoa dịu mâu thuẫn"
+    ],
+    "answer": 3,
+    "explanation": "Các chính sách trợ cấp thất nghiệp, điều tiết thu nhập và phúc lợi xã hội được sử dụng để xoa dịu mâu thuẫn, duy trì ổn định chính trị và trật tự xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 117,
+      "text": "Sự thống trị của độc quyền tư nhân làm sâu sắc mâu thuẫn xã hội, đòi hỏi nhà nước dùng trợ cấp, điều tiết thu nhập và phúc lợi để duy trì ổn định.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "C04-Q054",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Quốc tế hóa và độc quyền nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Việc các liên minh độc quyền quốc tế gặp hàng rào quốc gia và xung đột lợi ích trên thị trường thế giới đặt ra yêu cầu nào?",
+    "options": [
+      "Nhà nước tham gia điều tiết các quan hệ chính trị và kinh tế quốc tế",
+      "Ngân hàng chấm dứt cấp tín dụng cho các liên minh đang đầu tư ra nước ngoài",
+      "Các quốc gia xóa bỏ ngay mọi hàng rào và để tư bản quốc tế tự phân chia",
+      "Doanh nghiệp thu hẹp hoạt động về thị trường trong nước và từ bỏ bành trướng"
+    ],
+    "answer": 0,
+    "explanation": "Quốc tế hóa làm lợi ích độc quyền va chạm với hàng rào và lợi ích quốc gia, nên việc điều tiết quan hệ chính trị, kinh tế quốc tế không thể thiếu vai trò nhà nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 118,
+      "text": "Hàng rào quốc gia và xung đột lợi ích trên thị trường thế giới đòi hỏi nhà nước điều tiết các quan hệ chính trị và kinh tế quốc tế.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "C04-Q055",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Sự biến đổi vai trò kinh tế của nhà nước tư sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ngoài thuế và luật pháp, vai trò kinh tế của nhà nước tư sản hiện đại còn được thể hiện rõ nhất ở hoạt động nào?",
+    "options": [
+      "Tách khu vực kinh tế nhà nước khỏi các chính sách tác động đến nền kinh tế và đời sống xã hội",
+      "Chỉ quản lý khâu sản xuất, còn phân phối, trao đổi và tiêu dùng hoàn toàn nằm ngoài điều tiết",
+      "Chỉ ban hành quy tắc cạnh tranh, không tổ chức hay quản lý bất kỳ đơn vị kinh tế nhà nước nào",
+      "Tổ chức khu vực kinh tế nhà nước và dùng đòn bẩy kinh tế điều tiết mọi khâu tái sản xuất"
+    ],
+    "answer": 3,
+    "explanation": "Nhà nước tư sản hiện đại vừa tổ chức, quản lý khu vực kinh tế nhà nước vừa dùng các đòn bẩy kinh tế tác động tới sản xuất, phân phối, trao đổi và tiêu dùng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 119,
+      "text": "Vai trò nhà nước tư sản mở rộng từ thuế, luật pháp sang tổ chức khu vực nhà nước và điều tiết tất cả các khâu của quá trình tái sản xuất."
+    }
+  },
+  {
+    "id": "C04-Q056",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Độc quyền và năng lực cạnh tranh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ưu thế nào giúp tổ chức độc quyền có thể làm tăng năng suất lao động và nâng cao năng lực cạnh tranh?",
+    "options": [
+      "Phân tán vốn vào nhiều cơ sở nhỏ để tránh áp dụng các phương pháp sản xuất tiên tiến",
+      "Duy trì thiết bị cũ để không phát sinh chi phí đầu tư và thay đổi quy trình sản xuất",
+      "Dùng ưu thế vốn ứng dụng công nghệ và phương pháp sản xuất mới nhằm giảm chi phí",
+      "Hạn chế chuyên môn hóa để mọi đơn vị tự thực hiện toàn bộ các khâu sản xuất"
+    ],
+    "answer": 2,
+    "explanation": "Ưu thế vốn cho phép tổ chức độc quyền ứng dụng kỹ thuật, công nghệ và phương pháp sản xuất tiên tiến, nhờ đó tăng năng suất, giảm chi phí và tăng sức cạnh tranh.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 120,
+      "text": "Độc quyền có ưu thế về vốn để ứng dụng kỹ thuật và phương pháp sản xuất hiện đại, làm tăng năng suất, giảm chi phí và nâng cao năng lực cạnh tranh.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 12
+      }
+    }
+  },
+  {
+    "id": "C04-Q057",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Cạnh tranh giữa các tổ chức độc quyền",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cạnh tranh giữa các tổ chức độc quyền với nhau có thể diễn ra theo hai dạng nào?",
+    "options": [
+      "Giữa các thành viên trong cùng tổ chức; và giữa các cổ đông nhỏ tranh quyền quản lý",
+      "Giữa các tổ chức cùng ngành; và giữa các tổ chức khác ngành có liên quan về đầu vào",
+      "Giữa tổ chức độc quyền với doanh nghiệp ngoài độc quyền; và giữa các hộ tiêu dùng",
+      "Giữa các chính phủ phân chia lãnh thổ; và giữa các ngân hàng điều hành tiền tệ"
+    ],
+    "answer": 1,
+    "explanation": "Trong cùng ngành, cạnh tranh có thể kết thúc bằng thỏa hiệp hoặc một bên phá sản. Giữa các ngành, cạnh tranh diễn ra khi các tổ chức độc quyền có quan hệ với nhau về nguồn lực đầu vào.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 122,
+      "text": "Cạnh tranh giữa các tổ chức độc quyền gồm cạnh tranh trong cùng ngành và cạnh tranh giữa các tổ chức khác ngành có liên quan về nguồn lực đầu vào.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 14
+      }
+    }
+  },
+  {
+    "id": "C04-Q058",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Cạnh tranh với doanh nghiệp ngoài độc quyền",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Để chi phối hoặc thôn tính doanh nghiệp ngoài độc quyền, tổ chức độc quyền thường sử dụng nhóm biện pháp nào?",
+    "options": [
+      "Tranh giành cổ phần khống chế để nắm vị trí lãnh đạo trong chính tổ chức",
+      "Thỏa hiệp về thị trường và lĩnh vực hoạt động với tổ chức độc quyền cùng ngành",
+      "Độc chiếm nguyên liệu, phương tiện vận tải và nguồn tín dụng của thị trường",
+      "Mua cổ phần ngân hàng lớn để tác động hoạt động tín dụng của ngân hàng"
+    ],
+    "answer": 2,
+    "explanation": "Kiểm soát nguyên liệu, vận tải và tín dụng là các cách làm suy yếu, loại bỏ hoặc thôn tính doanh nghiệp ngoài độc quyền.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 122,
+      "text": "Tổ chức độc quyền chi phối doanh nghiệp ngoài độc quyền bằng cách độc quyền đầu vào, vận tải, tín dụng và các nguồn lực thiết yếu.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 14
+      }
+    }
+  },
+  {
+    "id": "C04-Q059",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Trình tự các hình thức độc quyền",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trình tự lịch sử của các hình thức tổ chức độc quyền cơ bản từ thấp đến cao là gì?",
+    "options": [
+      "Cartel, syndicate, trust, consortium",
+      "Syndicate, cartel, consortium, trust",
+      "Trust, consortium, cartel, syndicate",
+      "Consortium, trust, syndicate, cartel"
+    ],
+    "answer": 0,
+    "explanation": "Mức độ thống nhất tăng dần từ thỏa thuận của cartel, thống nhất lưu thông ở syndicate, thống nhất sản xuất và tiêu thụ ở trust đến consortium quy mô lớn, đa ngành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 124,
+      "text": "Các hình thức tổ chức độc quyền cơ bản phát triển từ thấp đến cao gồm cartel, syndicate, trust và consortium.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 16
+      }
+    }
+  },
+  {
+    "id": "C04-Q060",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Sự hình thành độc quyền ngân hàng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quá trình nào trực tiếp dẫn đến sự ra đời của các tổ chức độc quyền trong ngân hàng?",
+    "options": [
+      "Các ngân hàng lớn tự chia nhỏ thành nhiều đơn vị để giảm khả năng chi phối tín dụng",
+      "Tín dụng ngân hàng bị thay thế hoàn toàn bằng vốn tự có của những người sản xuất nhỏ",
+      "Doanh nghiệp công nghiệp ngừng vay vốn nên mọi ngân hàng chuyển sang hoạt động thanh toán",
+      "Cạnh tranh làm ngân hàng vừa và nhỏ phá sản, bị thôn tính hoặc sáp nhập vào ngân hàng lớn"
+    ],
+    "answer": 3,
+    "explanation": "Tích tụ và tập trung trong ngân hàng diễn ra qua cạnh tranh, phá sản, thôn tính và sáp nhập, từ đó hình thành các ngân hàng lớn giữ vị thế độc quyền.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 125,
+      "text": "Cạnh tranh làm ngân hàng vừa và nhỏ phá sản, bị thôn tính hoặc sáp nhập, thúc đẩy các tổ chức độc quyền ngân hàng ra đời.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 21
+      }
+    }
+  },
+  {
+    "id": "C04-Q061",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Khái niệm tài phiệt",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khái niệm tài phiệt trong chủ nghĩa tư bản độc quyền dùng để chỉ lực lượng nào?",
+    "options": [
+      "Toàn bộ cổ đông nhỏ cùng trực tiếp điều hành các công ty cổ phần và ngân hàng",
+      "Các chủ doanh nghiệp vừa và nhỏ chỉ hoạt động trong những thị trường địa phương",
+      "Đội ngũ công chức nhà nước không sở hữu và không liên hệ với các tập đoàn tài chính",
+      "Một nhóm nhỏ nhà tư bản kếch xù chi phối đời sống kinh tế và chính trị của xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Sự phát triển của tư bản tài chính hình thành một nhóm nhỏ nhà tư bản rất lớn có khả năng chi phối cả kinh tế lẫn chính trị, được gọi là tài phiệt hay đầu sỏ tài chính.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 126,
+      "text": "Tài phiệt là nhóm nhỏ những nhà tư bản kếch xù chi phối toàn bộ đời sống kinh tế và chính trị của xã hội."
+    }
+  },
+  {
+    "id": "C04-Q062",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Thủ đoạn thống trị của tài phiệt",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ngoài chế độ tham dự, tài phiệt còn sử dụng nhóm thủ đoạn nào để thu lợi nhuận độc quyền cao?",
+    "options": [
+      "Giải thể công ty mẹ, phân tán cổ phiếu và rút khỏi các sở giao dịch chứng khoán",
+      "Chuyển vốn sang dự trữ bắt buộc, ngừng mua bán trái phiếu và cổ phần doanh nghiệp",
+      "Lập công ty mới, kinh doanh công trái, đầu cơ chứng khoán và ruộng đất",
+      "Từ bỏ đầu cơ tài sản, chỉ cho các doanh nghiệp công nghiệp vay vốn ngắn hạn"
+    ],
+    "answer": 2,
+    "explanation": "Tài phiệt kết hợp chế độ tham dự với việc lập công ty mới, phát hành trái khoán, kinh doanh công trái và đầu cơ chứng khoán, ruộng đất để mở rộng lợi ích.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 127,
+      "text": "Ngoài chế độ tham dự, tài phiệt lập công ty mới, phát hành trái khoán, kinh doanh công trái và đầu cơ chứng khoán, ruộng đất."
+    }
+  },
+  {
+    "id": "C04-Q063",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Hình thức hình thành sở hữu nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm phương thức nào được giáo trình nêu là các con đường hình thành sở hữu nhà nước trong chủ nghĩa tư bản?",
+    "options": [
+      "Chỉ trưng thu không bồi hoàn mọi doanh nghiệp nhỏ và cấm phát hành cổ phiếu tư nhân",
+      "Xây doanh nghiệp bằng ngân sách, mua lại doanh nghiệp tư nhân hoặc mua cổ phần của họ",
+      "Chuyển toàn bộ tài sản công cho tư nhân và rút khỏi các ngành kết cấu hạ tầng",
+      "Chỉ nhận viện trợ nước ngoài rồi chia đều thành cổ phần cho mọi công dân"
+    ],
+    "answer": 1,
+    "explanation": "Sở hữu nhà nước có thể được tạo bằng vốn ngân sách, quốc hữu hóa thông qua mua lại, mua cổ phần doanh nghiệp tư nhân và mở rộng doanh nghiệp nhà nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 132,
+      "text": "Sở hữu nhà nước hình thành qua xây dựng doanh nghiệp bằng ngân sách, mua lại doanh nghiệp tư nhân, mua cổ phần và mở rộng doanh nghiệp nhà nước."
+    }
+  },
+  {
+    "id": "C04-Q064",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Chính sách thực dân mới",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sau khi hệ thống thuộc địa kiểu cũ tan rã, nội dung chủ yếu của chính sách thực dân mới là gì?",
+    "options": [
+      "Tiếp tục trực tiếp chiếm đóng mọi nước đang phát triển bằng bộ máy cai trị thuộc địa",
+      "Từ bỏ mọi ảnh hưởng bên ngoài và chỉ cạnh tranh trong phạm vi thị trường chính quốc",
+      "Dùng viện trợ kinh tế, kỹ thuật và quân sự để duy trì sự lệ thuộc của nước đang phát triển",
+      "Trao quyền kiểm soát tư bản tài chính cho các nước tiếp nhận để xóa bỏ quan hệ phụ thuộc"
+    ],
+    "answer": 2,
+    "explanation": "Khi thuộc địa kiểu cũ sụp đổ, các cường quốc chuyển sang dùng viện trợ kinh tế, kỹ thuật và quân sự để duy trì những quan hệ lệ thuộc mới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 130,
+      "text": "Chủ nghĩa thực dân mới chủ yếu dùng viện trợ kinh tế, kỹ thuật và quân sự để duy trì sự lệ thuộc của các nước đang phát triển.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 25
+      }
+    }
+  },
+  {
+    "id": "C04-Q065",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Tập trung sản xuất và khuynh hướng thỏa hiệp",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao mức tập trung sản xuất cao vừa làm cạnh tranh gay gắt vừa tạo khuynh hướng thỏa hiệp giữa các doanh nghiệp lớn?",
+    "options": [
+      "Doanh nghiệp lớn có cùng kỹ thuật nên pháp luật tự động buộc họ hợp nhất thành một đơn vị",
+      "Doanh nghiệp lớn không còn tranh giành thị trường nên thỏa hiệp chỉ nhằm giảm chi phí quản lý",
+      "Số doanh nghiệp lớn tăng vô hạn nên từng doanh nghiệp không đủ khả năng nhận biết đối thủ",
+      "Số doanh nghiệp lớn ít nên dễ thỏa thuận, còn quy mô và kỹ thuật cao khiến họ khó đánh bại nhau"
+    ],
+    "answer": 3,
+    "explanation": "Khi chỉ còn ít doanh nghiệp lớn, việc thỏa thuận trở nên khả thi; đồng thời sức mạnh và kỹ thuật của họ tương đối lớn làm cuộc cạnh tranh khó phân thắng bại, thúc đẩy thỏa hiệp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 123,
+      "text": "Số doanh nghiệp lớn ít giúp họ dễ thỏa thuận, còn quy mô và kỹ thuật cao làm cạnh tranh khó đánh bại nhau nên nảy sinh khuynh hướng thỏa hiệp."
+    }
+  },
+  {
+    "id": "C04-Q066",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Liên kết ngang và liên kết dọc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Sự chuyển từ liên kết ngang sang liên kết dọc của các tổ chức độc quyền được hiểu đúng như thế nào?",
+    "options": [
+      "Từ liên kết ngân hàng sang tách hoàn toàn hoạt động tín dụng khỏi sản xuất công nghiệp",
+      "Từ liên kết quốc tế sang chỉ duy trì các doanh nghiệp hoạt động trong một địa phương",
+      "Từ thống nhất lưu thông sang trả lại toàn bộ quyền mua bán cho từng xí nghiệp thành viên",
+      "Từ liên kết doanh nghiệp cùng ngành sang liên kết các ngành theo dây chuyền kinh tế - kỹ thuật"
+    ],
+    "answer": 3,
+    "explanation": "Liên kết ngang tập hợp doanh nghiệp trong cùng ngành; liên kết dọc mở rộng theo chuỗi sang các ngành có quan hệ kinh tế và kỹ thuật với nhau.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 124,
+      "text": "Tổ chức độc quyền ban đầu liên kết các doanh nghiệp cùng ngành, sau đó phát triển theo liên kết dọc và mở rộng ra nhiều ngành theo quan hệ dây chuyền."
+    }
+  },
+  {
+    "id": "C04-Q067",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Biến đổi vai trò của ngân hàng độc quyền",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao ngân hàng độc quyền từ vai trò trung gian thanh toán, tín dụng có thể trở thành quyền lực chi phối hoạt động kinh tế?",
+    "options": [
+      "Vì tập trung quyền phát hành tiền của nhà nước nên chi phối công nghiệp mà không cần quan hệ tín dụng",
+      "Vì nắm phần lớn tiền tệ xã hội và giữ vị thế chủ cho vay đối với các doanh nghiệp lớn",
+      "Vì doanh nghiệp công nghiệp tự chuyển quyền quản lý cho ngân hàng để giảm chi phí lưu thông",
+      "Vì trực tiếp ấn định giá bán của các tổ chức độc quyền thông qua hiệp nghị phân chia thị trường"
+    ],
+    "answer": 1,
+    "explanation": "Tập trung ngân hàng làm các ngân hàng lớn nắm phần lớn tiền tệ xã hội. Từ địa vị chủ cho vay, họ có thể giám sát, đầu tư và can thiệp vào hoạt động của các độc quyền công nghiệp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 126,
+      "text": "Nắm phần lớn tiền tệ xã hội và dựa trên địa vị chủ cho vay, độc quyền ngân hàng can thiệp, khống chế hoạt động công nghiệp.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 21
+      }
+    }
+  },
+  {
+    "id": "C04-Q068",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Sự xâm nhập giữa ngân hàng và công nghiệp",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mối quan hệ nào giải thích sự ra đời của tư bản tài chính chứ không chỉ dừng ở độc quyền ngân hàng?",
+    "options": [
+      "Ngân hàng chỉ làm trung gian thanh toán, còn doanh nghiệp công nghiệp chỉ sử dụng vốn tự có",
+      "Ngân hàng chuyển toàn bộ quyền tín dụng cho nhà nước, còn công nghiệp ngừng phát hành cổ phiếu",
+      "Ngân hàng đầu tư vào công nghiệp, còn độc quyền công nghiệp mua cổ phần để chi phối ngân hàng",
+      "Ngân hàng nhỏ phục vụ hộ sản xuất, còn ngân hàng lớn rút khỏi quan hệ với doanh nghiệp công nghiệp"
+    ],
+    "answer": 2,
+    "explanation": "Sự xâm nhập diễn ra hai chiều: độc quyền ngân hàng đầu tư và giám sát công nghiệp, còn độc quyền công nghiệp mua cổ phần để tác động ngân hàng; quá trình đó hình thành tư bản tài chính.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 126,
+      "text": "Độc quyền ngân hàng xâm nhập công nghiệp và độc quyền công nghiệp mua cổ phần ngân hàng, làm nảy sinh tư bản tài chính.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 21
+      }
+    }
+  },
+  {
+    "id": "C04-Q069",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Quyền lực chính trị của tài phiệt",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao tài phiệt có thể chi phối chính sách đối nội và đối ngoại của nhà nước tư sản?",
+    "options": [
+      "Vì mọi cổ đông nhỏ tự nguyện chuyển quyền công dân cho người quản lý ngân hàng lớn",
+      "Vì địa vị thống trị kinh tế của tư bản tài chính tạo cơ sở để tài phiệt chi phối bộ máy nhà nước",
+      "Vì nhà nước giao quyền lập pháp trực tiếp cho từng doanh nghiệp thuộc hệ thống công ty mẹ",
+      "Vì hoạt động đầu cơ chứng khoán làm các cơ quan nhà nước không còn bất kỳ chức năng kinh tế nào"
+    ],
+    "answer": 1,
+    "explanation": "Quyền lực chính trị của tài phiệt bắt nguồn từ sự thống trị kinh tế; nhờ chi phối lượng tư bản lớn, họ tác động bộ máy và chính sách nhà nước để phục vụ lợi ích của mình.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 127,
+      "text": "Do thống trị về kinh tế, hệ thống tài phiệt chi phối hoạt động cơ quan nhà nước và các chính sách đối nội, đối ngoại."
+    }
+  },
+  {
+    "id": "C04-Q070",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Ý nghĩa của năm đặc điểm kinh tế của độc quyền",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo giáo trình, mối liên hệ chặt chẽ giữa năm đặc điểm kinh tế cơ bản của độc quyền dưới chủ nghĩa tư bản cùng nói lên điều gì?",
+    "options": [
+      "Phản ánh sự tan rã của độc quyền và sự trở lại hoàn toàn của cạnh tranh tự do",
+      "Phản ánh năm quá trình tách biệt, không cùng phục vụ lợi ích của tư bản độc quyền",
+      "Phản ánh bản chất thống trị và cách thực hiện lợi ích của các tập đoàn độc quyền",
+      "Phản ánh việc các quốc gia đã chấm dứt phân chia thị trường và lãnh thổ thế giới"
+    ],
+    "answer": 2,
+    "explanation": "Năm đặc điểm không tồn tại rời rạc mà liên hệ chặt chẽ, cùng biểu hiện bản chất thống trị của tư bản độc quyền và phương thức các tập đoàn độc quyền thực hiện lợi ích.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 130,
+      "text": "Năm đặc điểm kinh tế cơ bản của độc quyền có quan hệ chặt chẽ, nói lên bản chất thống trị của tư bản độc quyền và phương thức thực hiện lợi ích của các tập đoàn độc quyền."
+    }
+  },
+  {
+    "id": "C04-Q071",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Sự đan kết giữa hai loại sở hữu",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nói sở hữu nhà nước và sở hữu độc quyền tư nhân “đan kết” với nhau có nghĩa là gì?",
+    "options": [
+      "Hai loại sở hữu đan kết trong tuần hoàn của tổng tư bản xã hội thay vì loại trừ nhau",
+      "Sở hữu nhà nước thay thế ngay toàn bộ sở hữu tư nhân nên không còn quan hệ giữa hai khu vực",
+      "Sở hữu tư nhân chỉ tồn tại trong tiêu dùng, còn mọi tư liệu sản xuất đều thuộc nhà nước",
+      "Hai loại sở hữu hoạt động tách biệt vì pháp luật cấm nhà nước mua cổ phần doanh nghiệp tư nhân"
+    ],
+    "answer": 0,
+    "explanation": "Sự đan kết thể hiện ở việc vốn và hoạt động của hai khu vực liên hệ trong tuần hoàn tổng tư bản xã hội, qua đó sở hữu nhà nước hỗ trợ cơ chế độc quyền tư nhân thay vì xóa bỏ nó.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 132,
+      "text": "Sở hữu nhà nước và sở hữu độc quyền tư nhân tăng cường quan hệ, đan kết với nhau trong tuần hoàn của tổng tư bản xã hội."
+    }
+  },
+  {
+    "id": "C04-Q072",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Hệ thống điều tiết kinh tế của nhà nước tư sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao hệ thống điều tiết kinh tế của nhà nước tư sản không thể đồng nhất với một chính sách kinh tế đơn lẻ?",
+    "options": [
+      "Vì hệ thống này chỉ gồm các doanh nghiệp nhà nước, không bao gồm bộ máy quản lý hoặc công cụ chính sách",
+      "Vì mọi công cụ điều tiết đều có tác dụng giống nhau nên nhà nước không cần phối hợp chúng trong một chỉnh thể",
+      "Vì hệ thống này chỉ xử lý các giao dịch quốc tế, còn sản xuất và phân phối trong nước do độc quyền tự quản",
+      "Vì đây là tổng thể thiết chế, bộ máy, chính sách và công cụ tác động đến toàn bộ nền kinh tế và tái sản xuất"
+    ],
+    "answer": 3,
+    "explanation": "Hệ thống điều tiết bao gồm cả thiết chế, bộ máy quản lý, chính sách và nhiều công cụ phối hợp để tác động đến nền kinh tế quốc dân và toàn bộ quá trình tái sản xuất.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 133,
+      "text": "Hệ thống điều tiết là tổng thể thiết chế, thể chế, bộ máy, chính sách và công cụ có khả năng điều tiết toàn bộ nền kinh tế và quá trình tái sản xuất.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 32
+      }
+    }
+  },
+  {
+    "id": "C04-Q073",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Giải pháp điều tiết dài hạn và ngắn hạn",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách phân biệt nào đúng giữa giải pháp điều tiết chiến lược dài hạn và giải pháp ngắn hạn của nhà nước tư sản?",
+    "options": [
+      "Dài hạn chỉ điều chỉnh lãi suất hằng tháng, còn ngắn hạn xây dựng kết cấu hạ tầng trong nhiều thập kỷ",
+      "Dài hạn chỉ xử phạt hành chính, còn ngắn hạn lập chương trình tổng thể về khoa học và môi trường",
+      "Dài hạn chỉ áp dụng cho doanh nghiệp nhỏ, còn ngắn hạn chỉ áp dụng cho tập đoàn độc quyền lớn",
+      "Dài hạn định hướng bằng chương trình tổng thể, còn ngắn hạn xử lý kịp thời các biến động trước mắt"
+    ],
+    "answer": 3,
+    "explanation": "Giải pháp dài hạn đặt định hướng qua chương trình, kế hoạch tổng thể về kinh tế, khoa học, môi trường và xã hội; giải pháp ngắn hạn phản ứng với các vấn đề kinh tế trước mắt.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 134,
+      "text": "Nhà nước điều tiết bằng giải pháp chiến lược dài hạn như chương trình, kế hoạch tổng thể và bằng cả các giải pháp ngắn hạn.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 35
+      }
+    }
+  },
+  {
+    "id": "C04-Q074",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Thế mạnh của doanh nghiệp vừa và nhỏ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao doanh nghiệp vừa và nhỏ vẫn có vai trò quan trọng bên cạnh các tổ chức độc quyền lớn?",
+    "options": [
+      "Vì họ luôn có tiềm lực tài chính lớn hơn và kiểm soát nhiều quốc gia hơn các công ty xuyên quốc gia",
+      "Vì họ không chịu tác động của biến động thị trường và không cần thay đổi kỹ thuật sản xuất",
+      "Vì họ linh hoạt trước thị trường, dám vào ngành mới và dễ đổi mới hoặc kết hợp kỹ thuật",
+      "Vì họ chỉ hoạt động trong ngành cũ, ít rủi ro và không tham gia hệ thống chuyên môn hóa"
+    ],
+    "answer": 2,
+    "explanation": "Quy mô vừa và nhỏ tạo khả năng phản ứng nhanh với thị trường, chấp nhận ngành mới mạo hiểm, đổi mới thiết bị với chi phí bổ sung thấp và kết hợp nhiều loại kỹ thuật.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 136,
+      "text": "Doanh nghiệp vừa và nhỏ nhạy với thay đổi, linh hoạt trước thị trường, mạnh dạn vào ngành mới và dễ đổi mới, kết hợp kỹ thuật."
+    }
+  },
+  {
+    "id": "C04-Q075",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Nguyên nhân hình thành concern",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao cạnh tranh gay gắt và luật chống độc quyền thúc đẩy sự hình thành concern đa ngành?",
+    "options": [
+      "Đa dạng hóa giúp tránh rủi ro chuyên môn hóa hẹp và đối phó quy định cấm độc quyền toàn bộ một mặt hàng",
+      "Đa dạng hóa làm mọi xí nghiệp mất quan hệ tài chính nên không doanh nghiệp nào còn khả năng chi phối",
+      "Luật chống độc quyền bắt buộc mỗi doanh nghiệp phải thống nhất sản xuất và tiêu thụ trong một ngành duy nhất",
+      "Cạnh tranh làm kinh doanh chuyên môn hóa hẹp an toàn hơn nên doanh nghiệp không cần mở rộng sang ngành khác"
+    ],
+    "answer": 0,
+    "explanation": "Concern đa ngành phân tán rủi ro do chuyên môn hóa hẹp và giúp các tập đoàn thích ứng với luật cấm độc quyền tuyệt đối một mặt hàng trong một ngành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 135,
+      "text": "Concern đa ngành hình thành vì chuyên môn hóa hẹp dễ phá sản trong cạnh tranh và để đối phó luật chống độc quyền một mặt hàng."
+    }
+  },
+  {
+    "id": "C04-Q076",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Tính dễ tổn thương của conglomerate",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao nhiều conglomerate dễ phá sản nhanh hoặc chuyển thành concern?",
+    "options": [
+      "Vì các hãng thành viên có quan hệ sản xuất quá chặt nên không thể thay đổi danh mục kinh doanh",
+      "Vì họ không tham gia lĩnh vực tài chính và chỉ dựa vào một dây chuyền sản xuất chuyên môn hóa hẹp",
+      "Vì họ chỉ thống nhất mua bán nguyên liệu, còn mọi hoạt động tài chính đều bị pháp luật cấm",
+      "Vì họ ghép các hãng ít liên quan và chủ yếu tìm lợi nhuận chứng khoán nên dễ tổn thương trước biến động"
+    ],
+    "answer": 3,
+    "explanation": "Conglomerate thường kết hợp các hãng không liên quan trực tiếp và hướng mạnh vào lợi nhuận chứng khoán, nên cấu trúc dễ bất ổn khi thị trường biến động và có thể chuyển thành concern.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 135,
+      "text": "Conglomerate ghép các hãng không liên quan trực tiếp, chủ yếu thu lợi từ chứng khoán nên phần lớn dễ phá sản hoặc chuyển thành concern.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 37
+      }
+    }
+  },
+  {
+    "id": "C04-Q077",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Phạm vi liên kết mới của tư bản tài chính",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao phạm vi liên kết của tư bản tài chính hiện đại mở rộng thành các tổ hợp công - nông - thương - tín - dịch vụ?",
+    "options": [
+      "Khoa học - công nghệ làm nhiều ngành mới, nhất là dịch vụ và bảo hiểm, tăng tỷ trọng và đan xen sâu hơn",
+      "Ngân hàng và công nghiệp chấm dứt xâm nhập lẫn nhau khi các ngành kinh tế mới bắt đầu xuất hiện",
+      "Các ngành dịch vụ và bảo hiểm mất vai trò nên tư bản tài chính phải quay lại một ngành công nghiệp duy nhất",
+      "Tín dụng bị loại khỏi sản xuất nên các tập đoàn chỉ có thể liên kết bằng quan hệ mua bán hàng hóa"
+    ],
+    "answer": 0,
+    "explanation": "Khoa học - công nghệ hiện đại làm xuất hiện nhiều ngành mới và tăng vai trò của dịch vụ, bảo hiểm; tư bản tài chính vì thế mở rộng sự liên kết, xâm nhập sang các tổ hợp ngành đa dạng hơn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 137,
+      "text": "Khoa học - công nghệ làm xuất hiện nhiều ngành mới, nhất là dịch vụ và bảo hiểm, khiến phạm vi liên kết của tư bản tài chính mở rộng thành các tổ hợp đa dạng.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 39
+      }
+    }
+  },
+  {
+    "id": "C04-Q078",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Nguồn gốc thành tựu phúc lợi xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao không thể chỉ xem phúc lợi cao và chi tiêu bảo vệ môi trường ở một số nước tư bản là sự nhân đạo hóa của chủ nghĩa tư bản?",
+    "options": [
+      "Vì các khoản chi đó hoàn toàn do doanh nghiệp nhỏ tự nguyện đóng góp, không liên quan đến ngân sách nhà nước",
+      "Vì người lao động không tham gia đấu tranh xã hội và cũng không hưởng bất kỳ kết quả phúc lợi nào",
+      "Vì đó còn là thành quả đấu tranh lâu dài của nhân dân tiến bộ và sự chuẩn bị vật chất của chủ nghĩa xã hội",
+      "Vì mọi chính sách xã hội chỉ nhằm giảm năng suất nên không tạo ra thành quả vật chất cho xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình nhấn mạnh các thành tựu đó không phải sự thức tỉnh tự phát của giai cấp tư sản mà là kết quả đấu tranh bền bỉ của nhân dân tiến bộ, đồng thời tạo tiền đề vật chất mới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 143,
+      "text": "Phúc lợi và thành tựu xã hội là kết quả đấu tranh lâu dài của nhân dân tiến bộ và là sự chuẩn bị vật chất cho chủ nghĩa xã hội, không phải sự thức tỉnh của giai cấp tư sản."
+    }
+  },
+  {
+    "id": "C04-Q079",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Đầu tư nhà nước và phân bổ rủi ro",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nhà nước tài trợ nghiên cứu cơ bản và kết cấu hạ tầng rất tốn kém, gánh rủi ro ban đầu; các tập đoàn tư nhân sau đó tập trung vào khâu có lợi nhuận hấp dẫn. Tình huống phản ánh điều gì?",
+    "options": [
+      "Đầu tư nhà nước đã thay thế hoàn toàn sở hữu tư nhân trong mọi ngành có lợi nhuận cao",
+      "Sở hữu nhà nước đã rút khỏi nghiên cứu cơ bản để nhường toàn bộ rủi ro cho doanh nghiệp tư nhân",
+      "Tập đoàn tư nhân tự chi trả mọi kết cấu hạ tầng nên không còn nhận lợi ích từ nguồn lực công",
+      "Đầu tư nhà nước gánh chi phí, rủi ro lớn và tạo điều kiện cho tư bản tư nhân chọn lĩnh vực sinh lợi"
+    ],
+    "answer": 3,
+    "explanation": "Đây là biểu hiện mới của vai trò đầu tư nhà nước: ngân sách chịu các chi phí và rủi ro lớn trong nghiên cứu, hạ tầng, còn doanh nghiệp tư nhân có điều kiện tập trung vào lĩnh vực lợi nhuận cao.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 142,
+      "text": "Nhà nước đầu tư vào nghiên cứu cơ bản và hạ tầng, gánh rủi ro lớn, trong khi công ty tư nhân tập trung vào lĩnh vực có lợi nhuận hấp dẫn."
+    }
+  },
+  {
+    "id": "C04-Q080",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Biểu hiện mới về quản lý ngân sách nhà nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Quốc hội quyết định chi ngân sách, cơ quan hành pháp bị ràng buộc bởi luật ngân sách, còn dự trữ quốc gia chỉ được dùng trong tình huống đặc biệt. Đây là biểu hiện mới nào?",
+    "options": [
+      "Giới hành pháp toàn quyền sử dụng ngân sách và dự trữ mà không chịu giám sát pháp lý",
+      "Ngân sách nhà nước đã bị xóa bỏ vì mọi hoạt động ổn định vĩ mô chuyển cho ngân hàng tư nhân",
+      "Quyền chi tiêu công được kiểm soát bằng cơ chế lập pháp và giới hạn pháp luật chặt chẽ hơn",
+      "Dự trữ quốc gia trở thành nguồn vốn thường xuyên để mọi tập đoàn tự do vay không hoàn trả"
+    ],
+    "answer": 2,
+    "explanation": "Tình huống thể hiện ngân sách thuộc quyền quyết định của cơ quan lập pháp, hành pháp bị luật ngân sách giới hạn và dự trữ chỉ dùng trong hoàn cảnh đặc biệt.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 141,
+      "text": "Chi ngân sách thuộc quyền lập pháp, hành pháp bị luật ngân sách quản lý chặt và dự trữ quốc gia chỉ dùng trong tình huống đặc biệt.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 47
+      }
+    }
+  },
+  {
+    "id": "C04-Q081",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Độc quyền ở nước đang phát triển",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Tại một nước đang phát triển, công nghệ hiện đại theo một công ty xuyên quốc gia đi vào ngành mới; chỉ một doanh nghiệp lớn đã đủ sức chi phối sản xuất và tiêu thụ toàn ngành. Nhận định nào phù hợp?",
+    "options": [
+      "Độc quyền chỉ có thể xuất hiện sau khi mọi doanh nghiệp vừa và nhỏ trong cả nền kinh tế biến mất",
+      "Độc quyền có thể xuất hiện khi công ty xuyên quốc gia đưa công nghệ hiện đại vào ngành mới",
+      "Đây là sự trở lại của cartel cổ điển vì nhiều xí nghiệp cùng ngành đã ký hiệp nghị về giá",
+      "Đây chỉ là cạnh tranh tự do vì một doanh nghiệp lớn không bao giờ có thể chi phối một ngành mới"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình chỉ ra độc quyền đã xuất hiện ở nước đang phát triển do sự thâm nhập của công ty xuyên quốc gia và ứng dụng kỹ thuật hiện đại, khiến một doanh nghiệp lớn có thể chi phối ngành mới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 136,
+      "text": "Công ty xuyên quốc gia và kỹ thuật hiện đại có thể làm một doanh nghiệp lớn đủ sức chi phối ngành mới ở nước đang phát triển."
+    }
+  },
+  {
+    "id": "C04-Q082",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Ngân hàng xuyên quốc gia và tư bản tài chính",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tập đoàn tài chính lập ngân hàng đa quốc gia để điều tiết các concern và conglomerate thâm nhập nhiều nền kinh tế; quanh mạng lưới đó hình thành một trung tâm tài chính lớn. Tình huống thể hiện điều gì?",
+    "options": [
+      "Độc quyền ngân hàng thu hẹp về phạm vi quốc gia và tách khỏi quá trình quốc tế hóa kinh tế",
+      "Công ty xuyên quốc gia không còn cần dịch vụ tài chính khi đầu tư sang các quốc gia khác",
+      "Tư bản tài chính thích ứng với quốc tế hóa bằng ngân hàng xuyên quốc gia và trung tâm tài chính",
+      "Các trung tâm tài chính thế giới hình thành độc lập với hoạt động của những tập đoàn tài chính quốc tế"
+    ],
+    "answer": 2,
+    "explanation": "Ngân hàng đa quốc gia và xuyên quốc gia là công cụ để tập đoàn tài chính điều tiết các tổ hợp độc quyền xâm nhập nền kinh tế khác; hoạt động đó góp phần tạo các trung tâm tài chính thế giới.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 138,
+      "text": "Tập đoàn tài chính lập ngân hàng đa quốc gia, xuyên quốc gia để điều tiết các concern và conglomerate; hoạt động của họ tạo ra các trung tâm tài chính thế giới."
+    }
+  },
+  {
+    "id": "C04-Q083",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Chiến lược biên giới mềm",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nước vẫn độc lập về hình thức và không bị chiếm đóng, nhưng các ràng buộc vốn và công nghệ dần chuyển thành lệ thuộc kinh tế rồi chính trị vào một cường quốc. Đây là chiến lược nào?",
+    "options": [
+      "Chiến lược biên giới mềm nhằm mở rộng biên giới kinh tế vượt ra ngoài biên giới địa lý",
+      "Chiến lược đóng cửa biên giới kinh tế để cắt mọi quan hệ vốn và công nghệ quốc tế",
+      "Chiến lược phân tán sở hữu để các nước yếu tự chủ hoàn toàn về tài chính và ngoại giao",
+      "Chiến lược chiếm thuộc địa kiểu cũ bằng bộ máy cai trị trực tiếp trên lãnh thổ"
+    ],
+    "answer": 0,
+    "explanation": "Biên giới mềm không nhất thiết chiếm đóng lãnh thổ mà dùng sự lệ thuộc về vốn, công nghệ và kinh tế để mở rộng phạm vi chi phối, rồi tác động đến chính trị.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 140,
+      "text": "Chiến lược biên giới mềm mở rộng biên giới kinh tế, ràng buộc nước kém phát triển từ lệ thuộc vốn, công nghệ đến lệ thuộc chính trị.",
+      "slide": {
+        "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt",
+        "number": 45
+      }
+    }
+  },
+  {
+    "id": "C04-Q084",
+    "chapter": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+    "chapterNum": 4,
+    "topic": "Hai xu thế tăng trưởng và trì trệ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nền kinh tế có vài ngành công nghệ tăng trưởng rất nhanh, nhưng ở ngành do tập đoàn độc quyền thống trị, sáng chế đe dọa vị thế hiện tại bị trì hoãn nên sản xuất chậm đổi mới. Nhận định nào phù hợp nhất?",
+    "options": [
+      "Xu thế tăng trưởng nhanh có thể cùng tồn tại với xu thế trì trệ do sự thống trị của độc quyền",
+      "Sự trì hoãn sáng chế chứng minh toàn bộ nền kinh tế tư bản đã ngừng phát triển tuyệt đối",
+      "Hai hiện tượng chỉ là dao động ngắn hạn và không liên quan đến mục đích bảo vệ vị thế độc quyền",
+      "Tăng trưởng nhanh chứng minh độc quyền không thể kìm hãm tiến bộ kỹ thuật ở bất kỳ ngành nào"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình phân biệt xu thế phát triển nhanh của một số bộ phận với xu thế trì trệ do độc quyền tạo các nhân tố cản trở kỹ thuật và sản xuất; hai xu thế có thể đồng thời tồn tại.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 146,
+      "text": "Kinh tế tư bản có thể tăng trưởng nhanh, đồng thời sự thống trị độc quyền tạo nhân tố ngăn cản tiến bộ kỹ thuật và gây xu thế trì trệ."
     }
   }
 ]
