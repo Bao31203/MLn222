@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "C06-Q001",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm cách mạng công nghiệp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, cách mạng công nghiệp là gì?",
+    "options": [
+      "Bước nhảy vọt về chất của tư liệu lao động dựa trên phát minh kỹ thuật - công nghệ, làm đổi phân công lao động và nâng năng suất",
+      "Quá trình mở rộng quy mô nhà máy bằng cách tăng số lao động thủ công mà không làm thay đổi công cụ hay cách tổ chức sản xuất",
+      "Sự điều chỉnh quan hệ sở hữu và phân phối diễn ra độc lập với những thay đổi của kỹ thuật, công nghệ và tư liệu lao động",
+      "Quá trình tăng tỷ trọng công nghiệp trong GDP nhưng không làm thay đổi năng suất lao động hay phân công lao động xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Cách mạng công nghiệp được nhận diện bởi bước nhảy vọt về chất của tư liệu lao động từ các phát minh kỹ thuật - công nghệ, kéo theo biến đổi phân công lao động và năng suất.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 202,
+      "text": "Cách mạng công nghiệp là bước phát triển nhảy vọt về chất của tư liệu lao động trên cơ sở phát minh đột phá, làm thay đổi phân công lao động xã hội và nâng cao năng suất lao động.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 3
+      }
+    }
+  },
+  {
+    "id": "C06-Q002",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp lần thứ nhất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung cơ bản của Cách mạng công nghiệp lần thứ nhất là gì?",
+    "options": [
+      "Dùng điện và động cơ điện để tổ chức các dây chuyền sản xuất chuyên môn hóa cao",
+      "Chuyển từ lao động thủ công sang lao động bằng máy móc, cơ giới hóa bằng năng lượng nước và hơi nước",
+      "Dùng công nghệ thông tin và máy tính để tự động hóa toàn bộ quá trình sản xuất",
+      "Liên kết thế giới thực với thế giới ảo để tổ chức sản xuất thông minh và hiệu quả"
+    ],
+    "answer": 1,
+    "explanation": "Cuộc cách mạng lần thứ nhất đánh dấu cơ giới hóa: máy móc thay lao động thủ công và sử dụng năng lượng nước, hơi nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 202,
+      "text": "Nội dung cơ bản của Cách mạng công nghiệp lần thứ nhất là chuyển lao động thủ công thành lao động sử dụng máy móc và thực hiện cơ giới hóa bằng năng lượng nước, hơi nước.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 5
+      }
+    }
+  },
+  {
+    "id": "C06-Q003",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp lần thứ hai",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc điểm công nghệ chủ yếu của Cách mạng công nghiệp lần thứ hai là gì?",
+    "options": [
+      "Sử dụng năng lượng nước và hơi nước để cơ giới hóa lao động thủ công trong các xưởng sản xuất",
+      "Sử dụng chất bán dẫn, máy tính cá nhân và internet để tự động hóa các quá trình sản xuất",
+      "Sử dụng điện và động cơ điện để chuyển từ sản xuất cơ khí sang điện - cơ khí và tự động hóa cục bộ",
+      "Sử dụng internet kết nối vạn vật để liên kết công nghệ số với thế giới vật lý và sinh học"
+    ],
+    "answer": 2,
+    "explanation": "Cách mạng công nghiệp lần thứ hai gắn với điện, động cơ điện, dây chuyền chuyên môn hóa và bước chuyển từ cơ khí sang điện - cơ khí.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 204,
+      "text": "Cách mạng công nghiệp lần thứ hai sử dụng năng lượng điện và động cơ điện, chuyển nền sản xuất cơ khí sang điện - cơ khí và tự động hóa cục bộ.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 6
+      }
+    }
+  },
+  {
+    "id": "C06-Q004",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp lần thứ ba",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng cơ bản của Cách mạng công nghiệp lần thứ ba là gì?",
+    "options": [
+      "Cơ giới hóa sản xuất nhờ năng lượng nước và hơi nước",
+      "Điện khí hóa và tổ chức sản xuất hàng loạt theo dây chuyền",
+      "Hợp nhất các công nghệ số, vật lý và sinh học trên nền tảng IoT",
+      "Xuất hiện công nghệ thông tin, hạ tầng điện tử và tự động hóa sản xuất"
+    ],
+    "answer": 3,
+    "explanation": "Cuộc cách mạng lần thứ ba được đặc trưng bởi công nghệ thông tin và tự động hóa, dựa trên điện tử, máy tính và số hóa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 204,
+      "text": "Đặc trưng cơ bản của Cách mạng công nghiệp lần thứ ba là sự xuất hiện của công nghệ thông tin và tự động hóa sản xuất, được xúc tác bởi điện tử, máy tính và số hóa.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 7
+      }
+    }
+  },
+  {
+    "id": "C06-Q005",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp lần thứ tư",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách mạng công nghiệp lần thứ tư được hình thành trên cơ sở chủ yếu nào?",
+    "options": [
+      "Cuộc cách mạng số, IoT và các công nghệ đột phá như trí tuệ nhân tạo, dữ liệu lớn, in 3D",
+      "Máy hơi nước, máy dệt và đầu máy xe lửa được phổ biến trong quá trình cơ giới hóa sản xuất",
+      "Điện, động cơ điện và động cơ đốt trong được dùng để phát triển dây chuyền sản xuất hàng loạt",
+      "Máy tính cá nhân được phổ biến để tự động hóa sản xuất nhưng chưa hình thành kết nối internet vạn vật"
+    ],
+    "answer": 0,
+    "explanation": "Nền tảng của cuộc cách mạng lần thứ tư là cách mạng số và IoT, cùng các công nghệ có tính đột phá như AI, dữ liệu lớn và in 3D.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 205,
+      "text": "Cách mạng công nghiệp lần thứ tư hình thành trên cơ sở cách mạng số, gắn với IoT và biểu hiện ở các công nghệ đột phá như trí tuệ nhân tạo, big data, in 3D.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 8
+      }
+    }
+  },
+  {
+    "id": "C06-Q006",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Vai trò của cách mạng công nghiệp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào là một vai trò của cách mạng công nghiệp đối với phát triển được giáo trình xác định?",
+    "options": [
+      "Làm cho phân công lao động xã hội không còn cần thiết trong nền sản xuất hiện đại",
+      "Thúc đẩy đổi mới phương thức quản trị phát triển của nhà nước và doanh nghiệp",
+      "Giữ nguyên cơ cấu và vai trò của các nhân tố trong lực lượng sản xuất xã hội",
+      "Tách hoạt động sản xuất trong nước khỏi trao đổi khoa học và công nghệ quốc tế"
+    ],
+    "answer": 1,
+    "explanation": "Bên cạnh phát triển lực lượng sản xuất và hoàn thiện quan hệ sản xuất, cách mạng công nghiệp còn thúc đẩy đổi mới phương thức quản trị phát triển.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 212,
+      "text": "Vai trò thứ ba của cách mạng công nghiệp là thúc đẩy đổi mới phương thức quản trị phát triển, trong đó công nghệ số làm thay đổi quản trị nhà nước và doanh nghiệp.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 9
+      }
+    }
+  },
+  {
+    "id": "C06-Q007",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm công nghiệp hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khái niệm công nghiệp hóa nhấn mạnh sự chuyển đổi nào của nền sản xuất xã hội?",
+    "options": [
+      "Từ lao động bằng máy móc trở lại lao động thủ công để tăng số người có việc làm",
+      "Từ sản xuất trong nước sang nhập khẩu toàn bộ máy móc và hàng hóa từ nước ngoài",
+      "Từ lao động thủ công sang lao động bằng máy móc nhằm tạo năng suất lao động xã hội cao",
+      "Từ cơ cấu nông nghiệp sang cơ cấu công nghiệp mà không cần đổi mới công cụ lao động"
+    ],
+    "answer": 2,
+    "explanation": "Dấu hiệu cốt lõi của công nghiệp hóa là thay nền sản xuất dựa vào lao động thủ công bằng nền sản xuất chủ yếu dùng máy móc nhằm đạt năng suất cao hơn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 217,
+      "text": "Công nghiệp hóa là quá trình chuyển nền sản xuất xã hội từ dựa chủ yếu trên lao động thủ công sang dựa chủ yếu trên lao động bằng máy móc để tạo năng suất lao động xã hội cao.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 10
+      }
+    }
+  },
+  {
+    "id": "C06-Q008",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Mô hình công nghiệp hóa cổ điển",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quá trình công nghiệp hóa ở các nước tư bản cổ điển thường diễn ra trong khoảng thời gian nào?",
+    "options": [
+      "Khoảng 10 - 20 năm",
+      "Khoảng 20 - 30 năm",
+      "Khoảng 40 - 50 năm",
+      "Khoảng 60 - 80 năm"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình nêu quá trình công nghiệp hóa cổ điển kéo dài tương đối lâu, trung bình từ 60 đến 80 năm.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 218,
+      "text": "Công nghiệp hóa của các nước tư bản cổ điển diễn ra trong thời gian tương đối dài, trung bình 60 - 80 năm.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 11
+      }
+    }
+  },
+  {
+    "id": "C06-Q009",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Mô hình công nghiệp hóa kiểu Liên Xô",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mô hình công nghiệp hóa kiểu Liên Xô ưu tiên phát triển ngành nào?",
+    "options": [
+      "Công nghiệp nặng, trực tiếp là cơ khí và chế tạo máy",
+      "Công nghiệp nhẹ, trực tiếp là dệt và hàng tiêu dùng",
+      "Dịch vụ tài chính, trực tiếp là ngân hàng và bảo hiểm",
+      "Nông nghiệp xuất khẩu, trực tiếp là cây trồng nguyên liệu"
+    ],
+    "answer": 0,
+    "explanation": "Mô hình Liên Xô tập trung nguồn lực cho công nghiệp nặng, đặc biệt là cơ khí và chế tạo máy.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 218,
+      "text": "Con đường công nghiệp hóa kiểu Liên Xô ưu tiên phát triển công nghiệp nặng, trực tiếp là ngành cơ khí, chế tạo máy.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 11
+      }
+    }
+  },
+  {
+    "id": "C06-Q010",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Mô hình công nghiệp hóa Nhật Bản và NICs",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bản chất chiến lược công nghiệp hóa của Nhật Bản và các nước công nghiệp mới (NICs) là gì?",
+    "options": [
+      "Kéo dài công nghiệp hóa, tích lũy chủ yếu trong nước và khởi đầu từ công nghiệp nhẹ trong nền kinh tế tương đối khép kín",
+      "Rút ngắn công nghiệp hóa, đẩy mạnh xuất khẩu và thay thế nhập khẩu, kết hợp nguồn lực trong nước với nguồn lực bên ngoài",
+      "Ưu tiên công nghiệp nặng bằng kế hoạch hóa tập trung, huy động và phân bổ tập trung các nguồn lực xã hội",
+      "Thu hẹp sản xuất trong nước, dựa chủ yếu vào nhập khẩu sản phẩm công nghiệp hoàn chỉnh từ các nước đi trước"
+    ],
+    "answer": 1,
+    "explanation": "Nhật Bản và NICs theo chiến lược rút ngắn, hướng tới xuất khẩu, phát triển hàng thay thế nhập khẩu và tận dụng đồng thời lợi thế trong nước lẫn nguồn lực bên ngoài.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 219,
+      "text": "Chiến lược của Nhật Bản và NICs là công nghiệp hóa rút ngắn, đẩy mạnh xuất khẩu, sản xuất thay thế nhập khẩu, phát huy nguồn lực trong nước và thu hút nguồn lực bên ngoài.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 11
+      }
+    }
+  },
+  {
+    "id": "C06-Q011",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm công nghiệp hóa, hiện đại hóa ở Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Công nghiệp hóa, hiện đại hóa chuyển các hoạt động từ sử dụng chủ yếu lao động thủ công sang sử dụng phổ biến công nghệ và phương pháp hiện đại. Phạm vi chuyển đổi căn bản, toàn diện gồm những gì?",
+    "options": [
+      "Chỉ sản xuất công nghiệp và xây dựng cơ sở hạ tầng",
+      "Chỉ quản lý nhà nước và cung ứng dịch vụ công",
+      "Sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội",
+      "Chỉ ngoại thương, đầu tư và hợp tác kinh tế quốc tế"
+    ],
+    "answer": 2,
+    "explanation": "Khái niệm không giới hạn ở công nghiệp mà bao quát sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội, dựa trên công nghiệp và tiến bộ khoa học - công nghệ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 220,
+      "text": "Công nghiệp hóa, hiện đại hóa chuyển đổi căn bản, toàn diện sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội sang sử dụng phổ biến công nghệ, phương tiện, phương pháp tiên tiến, hiện đại."
+    }
+  },
+  {
+    "id": "C06-Q012",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Tính tất yếu của công nghiệp hóa, hiện đại hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Lý do khách quan thứ nhất khiến Việt Nam phải thực hiện công nghiệp hóa, hiện đại hóa là gì?",
+    "options": [
+      "Mọi quốc gia đều phải áp dụng cùng một mô hình và cùng một trình tự công nghiệp hóa",
+      "Công nghiệp hóa làm cho cơ chế thị trường và phân công lao động xã hội tự mất đi",
+      "Chỉ công nghiệp hóa mới cho phép một quốc gia ngừng sử dụng mọi nguồn lực bên ngoài",
+      "Công nghiệp hóa là quy luật phổ biến của phát triển lực lượng sản xuất mà mọi quốc gia đều trải qua"
+    ],
+    "answer": 3,
+    "explanation": "Tính phổ biến nằm ở yêu cầu phát triển lực lượng sản xuất, không có nghĩa mọi nước phải sao chép cùng một mô hình hay đóng cửa với bên ngoài.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 221,
+      "text": "Công nghiệp hóa là quy luật phổ biến của sự phát triển lực lượng sản xuất xã hội mà mọi quốc gia đều trải qua, dù phát triển sớm hay đi sau.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 12
+      }
+    }
+  },
+  {
+    "id": "C06-Q013",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Đặc điểm công nghiệp hóa, hiện đại hóa ở Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào là một đặc điểm chủ yếu của công nghiệp hóa, hiện đại hóa ở Việt Nam?",
+    "options": [
+      "Gắn công nghiệp hóa, hiện đại hóa với phát triển kinh tế tri thức",
+      "Tách công nghiệp hóa, hiện đại hóa khỏi kinh tế thị trường định hướng xã hội chủ nghĩa",
+      "Thực hiện công nghiệp hóa, hiện đại hóa ngoài bối cảnh toàn cầu hóa và hội nhập quốc tế",
+      "Chỉ theo đuổi tăng trưởng sản lượng, không gắn với mục tiêu xã hội chủ nghĩa"
+    ],
+    "answer": 0,
+    "explanation": "Một trong bốn đặc điểm được nêu là công nghiệp hóa, hiện đại hóa phải gắn với phát triển kinh tế tri thức.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 223,
+      "text": "Công nghiệp hóa, hiện đại hóa ở Việt Nam gắn với phát triển kinh tế tri thức, diễn ra trong kinh tế thị trường định hướng xã hội chủ nghĩa và bối cảnh hội nhập.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 13
+      }
+    }
+  },
+  {
+    "id": "C06-Q014",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Điều kiện thực hiện công nghiệp hóa, hiện đại hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm nào gồm các điều kiện chủ yếu cần tạo lập để thực hiện công nghiệp hóa, hiện đại hóa ở Việt Nam?",
+    "options": [
+      "Sản lượng khai khoáng, số lượng lao động thủ công và mức bảo hộ tuyệt đối thị trường trong nước",
+      "Tư duy phát triển, thể chế và nguồn lực; môi trường quốc tế thuận lợi; trình độ văn minh và ý thức của người dân",
+      "Mức đô thị hóa, số doanh nghiệp nhà nước và tỷ trọng công nghiệp nặng trong mọi giai đoạn",
+      "Thuế quan cao, hạn chế chuyển giao công nghệ và tách nền kinh tế khỏi phân công lao động quốc tế"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình xác định các điều kiện về tư duy, thể chế, nguồn lực, môi trường quốc tế và trình độ văn minh xã hội; các nhiệm vụ phải được thực hiện đồng thời với việc tạo lập điều kiện.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 223,
+      "text": "Điều kiện chủ yếu gồm tư duy phát triển, thể chế và nguồn lực, môi trường quốc tế thuận lợi, trình độ văn minh xã hội và ý thức xây dựng xã hội văn minh của người dân.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 14
+      }
+    }
+  },
+  {
+    "id": "C06-Q015",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm kinh tế tri thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo định nghĩa được giáo trình dẫn lại, nền kinh tế tri thức là nền kinh tế trong đó yếu tố nào giữ vai trò quyết định nhất đối với phát triển kinh tế?",
+    "options": [
+      "Sự gia tăng lao động cơ bắp trong mọi sản phẩm và ngành kinh tế",
+      "Sự khai thác ngày càng nhiều tài nguyên thiên nhiên không tái tạo",
+      "Sự sản sinh, phổ cập và sử dụng tri thức để phát triển kinh tế, tạo của cải",
+      "Sự mở rộng số lượng doanh nghiệp mà không cần đổi mới công nghệ"
+    ],
+    "answer": 2,
+    "explanation": "Trong kinh tế tri thức, việc tạo ra, phổ biến và sử dụng tri thức là yếu tố quyết định đối với phát triển, tạo của cải và chất lượng sống.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 225,
+      "text": "Kinh tế tri thức là nền kinh tế trong đó sự sản sinh, phổ cập và sử dụng tri thức giữ vai trò quyết định nhất đối với phát triển kinh tế, tạo của cải và nâng cao chất lượng cuộc sống."
+    }
+  },
+  {
+    "id": "C06-Q016",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm cơ cấu kinh tế",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, cơ cấu kinh tế là gì?",
+    "options": [
+      "Chỉ là tỷ trọng giữa công nghiệp, nông nghiệp và dịch vụ trong GDP",
+      "Là cách phân chia các đơn vị sản xuất theo địa giới hành chính",
+      "Là mạng lưới quan hệ giữa doanh nghiệp trong nước và doanh nghiệp nước ngoài",
+      "Là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế"
+    ],
+    "answer": 3,
+    "explanation": "Cơ cấu kinh tế là tổng thể cơ cấu ngành, vùng và thành phần kinh tế, không chỉ riêng tỷ trọng ba khu vực ngành.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 227,
+      "text": "Cơ cấu kinh tế là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế; là tổng thể của ba loại cơ cấu này."
+    }
+  },
+  {
+    "id": "C06-Q017",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm hội nhập kinh tế quốc tế",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nhập kinh tế quốc tế của một quốc gia được hiểu là quá trình nào?",
+    "options": [
+      "Gắn kết nền kinh tế quốc gia với kinh tế thế giới trên cơ sở chia sẻ lợi ích và tuân thủ các chuẩn mực quốc tế chung",
+      "Thay thế toàn bộ chính sách kinh tế trong nước bằng quyết định của các tổ chức kinh tế quốc tế",
+      "Chỉ tăng xuất khẩu hàng hóa mà không tham gia bất kỳ quan hệ hay cam kết kinh tế quốc tế nào",
+      "Đóng cửa thị trường trong nước để tích lũy đủ nguồn lực trước khi thiết lập quan hệ với bên ngoài"
+    ],
+    "answer": 0,
+    "explanation": "Hai thành tố không thể thiếu là gắn kết với kinh tế thế giới trên cơ sở chia sẻ lợi ích và tuân thủ chuẩn mực quốc tế chung.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 233,
+      "text": "Hội nhập kinh tế quốc tế là quá trình một quốc gia gắn kết nền kinh tế của mình với kinh tế thế giới dựa trên chia sẻ lợi ích và tuân thủ chuẩn mực quốc tế chung.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 16
+      }
+    }
+  },
+  {
+    "id": "C06-Q018",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Tính tất yếu của hội nhập kinh tế quốc tế",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong bối cảnh toàn cầu hóa kinh tế, vì sao hội nhập kinh tế quốc tế trở thành tất yếu khách quan?",
+    "options": [
+      "Vì mỗi quốc gia ngày càng tự bảo đảm đầy đủ mọi điều kiện sản xuất mà không cần quan hệ bên ngoài",
+      "Vì các nền kinh tế ngày càng gắn vào phân công lao động quốc tế và các yếu tố sản xuất lưu thông trên phạm vi toàn cầu",
+      "Vì toàn cầu hóa làm giảm liên hệ sản xuất, trao đổi và sự phụ thuộc lẫn nhau giữa các quốc gia",
+      "Vì hội nhập cho phép một quốc gia thay thế hoàn toàn năng lực sản xuất trong nước bằng nhập khẩu"
+    ],
+    "answer": 1,
+    "explanation": "Toàn cầu hóa làm tăng phân công lao động, liên hệ sản xuất - trao đổi và sự lưu chuyển toàn cầu của các yếu tố sản xuất, nên các nền kinh tế không thể tách rời.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 234,
+      "text": "Toàn cầu hóa lôi cuốn các nước vào phân công lao động quốc tế, làm các nền kinh tế thành bộ phận hữu cơ của kinh tế toàn cầu và khiến các yếu tố sản xuất lưu thông toàn cầu.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 18
+      }
+    }
+  },
+  {
+    "id": "C06-Q019",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Mức độ hội nhập kinh tế quốc tế",
+    "difficulty": "Nhận biết",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trong các mức độ hội nhập kinh tế quốc tế được giáo trình nêu, mức độ nào thấp nhất?",
+    "options": [
+      "Liên minh thuế quan (CU) giữa các thành viên",
+      "Khu vực mậu dịch tự do (FTA) giữa các thành viên",
+      "Thỏa thuận thương mại ưu đãi (PTA) giữa các thành viên",
+      "Thị trường chung hay thị trường duy nhất giữa các thành viên"
+    ],
+    "answer": 2,
+    "explanation": "Tiến trình được xếp từ thấp đến cao bắt đầu bằng PTA, sau đó đến FTA, CU, thị trường chung và liên minh kinh tế - tiền tệ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 236,
+      "text": "Tiến trình hội nhập được chia thành các mức độ từ thấp đến cao, bắt đầu bằng Thỏa thuận thương mại ưu đãi, sau đó là Khu vực mậu dịch tự do."
+    }
+  },
+  {
+    "id": "C06-Q020",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Khái niệm nền kinh tế độc lập, tự chủ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nền kinh tế độc lập, tự chủ được giáo trình xác định như thế nào?",
+    "options": [
+      "Nền kinh tế không duy trì quan hệ thương mại, đầu tư hay tài chính với bất kỳ quốc gia và tổ chức quốc tế nào",
+      "Nền kinh tế tự sản xuất mọi hàng hóa, không tiếp nhận vốn, tri thức hay công nghệ từ bất kỳ nguồn lực bên ngoài nào",
+      "Nền kinh tế chỉ tham gia hợp tác khi trình độ phát triển đã ngang bằng các nền kinh tế tiên tiến trên thế giới",
+      "Nền kinh tế không bị chủ thể bên ngoài dùng điều kiện kinh tế để áp đặt đường lối, làm tổn hại chủ quyền và lợi ích dân tộc"
+    ],
+    "answer": 3,
+    "explanation": "Độc lập, tự chủ là không bị lệ thuộc và áp đặt về đường lối, chính sách phát triển; khái niệm này không đồng nghĩa với đóng cửa hoặc tự cung tự cấp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 250,
+      "text": "Nền kinh tế độc lập, tự chủ không bị lệ thuộc về đường lối, chính sách và không bị dùng điều kiện kinh tế, tài chính, thương mại, viện trợ để áp đặt, làm tổn hại chủ quyền và lợi ích dân tộc.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 29
+      }
+    }
+  },
+  {
+    "id": "C06-Q021",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Phân biệt bốn cuộc cách mạng công nghiệp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phương án nào ghép đúng bốn cuộc cách mạng công nghiệp với đặc trưng cốt lõi theo thứ tự từ lần thứ nhất đến lần thứ tư?",
+    "options": [
+      "Nước và hơi nước để cơ khí hóa; điện để sản xuất hàng loạt; công nghệ thông tin để tự động hóa; liên kết thực - ảo để làm việc thông minh",
+      "Điện để sản xuất hàng loạt; nước và hơi nước để cơ khí hóa; liên kết thực - ảo; công nghệ thông tin để tự động hóa",
+      "Nước và hơi nước để cơ khí hóa; công nghệ thông tin để tự động hóa; điện để sản xuất hàng loạt; liên kết thực - ảo",
+      "Công nghệ thông tin để tự động hóa; điện để sản xuất hàng loạt; nước và hơi nước để cơ khí hóa; liên kết thực - ảo"
+    ],
+    "answer": 0,
+    "explanation": "Trình tự đúng là cơ khí hóa bằng nước - hơi nước, điện khí hóa và sản xuất hàng loạt, tự động hóa bằng CNTT, rồi liên kết thế giới thực - ảo.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 205,
+      "text": "Hộp 6.1 lần lượt tóm tắt bốn cuộc cách mạng bằng cơ khí hóa với nước và hơi nước, sản xuất hàng loạt với điện, tự động hóa với CNTT và liên kết thực - ảo.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 4
+      }
+    }
+  },
+  {
+    "id": "C06-Q022",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp và lực lượng sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Cách mạng công nghiệp lần thứ tư có thể làm suy giảm lợi thế truyền thống về nhân công rẻ và tài nguyên của một nước đang phát triển?",
+    "options": [
+      "Vì công nghệ mới làm cho mọi quốc gia có trữ lượng tài nguyên và số lao động hoàn toàn giống nhau",
+      "Vì của cải ngày càng phụ thuộc nhiều vào khoa học, kỹ thuật và đổi mới hơn là chỉ vào lao động rẻ hay tài nguyên",
+      "Vì tự động hóa làm cho tri thức và công nghệ không còn tham gia vào quá trình tạo ra của cải",
+      "Vì cuộc cách mạng này buộc mọi ngành phải ngừng sử dụng lao động và nguyên liệu trong nước"
+    ],
+    "answer": 1,
+    "explanation": "Khi khoa học và công nghệ trở thành sức mạnh sản xuất trực tiếp, ưu thế chỉ dựa vào lao động rẻ hoặc tài nguyên không còn đủ để bảo đảm năng lực cạnh tranh.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 207,
+      "text": "Đột phá của Cách mạng công nghiệp lần thứ tư làm mất dần lợi thế sản xuất truyền thống của các nước đang phát triển như nhân công rẻ, dồi dào hoặc nhiều tài nguyên."
+    }
+  },
+  {
+    "id": "C06-Q023",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp và quan hệ sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc tư bản phải liên kết dưới hình thức công ty cổ phần khi sở hữu tư nhân riêng lẻ không còn đáp ứng quy mô sản xuất thể hiện tác động nào của cách mạng công nghiệp?",
+    "options": [
+      "Làm thay đổi đối tượng lao động bằng cách mở rộng khai thác tài nguyên thiên nhiên",
+      "Làm thay đổi nhu cầu tiêu dùng bằng cách tăng số lượng sản phẩm trên thị trường",
+      "Thúc đẩy điều chỉnh quan hệ sở hữu để quan hệ sản xuất thích ứng với lực lượng sản xuất",
+      "Thúc đẩy chuyển giao quyền quản trị nhà nước cho các tổ chức kinh tế quốc tế"
+    ],
+    "answer": 2,
+    "explanation": "Công ty cổ phần mở rộng chủ thể sở hữu tư bản, là ví dụ về sự điều chỉnh quan hệ sở hữu trước yêu cầu của lực lượng sản xuất phát triển.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 210,
+      "text": "Khi sở hữu tư nhân không đáp ứng nhu cầu sản xuất và cải tiến kỹ thuật, tư bản liên kết thành công ty cổ phần, mở rộng chủ thể sở hữu tư bản."
+    }
+  },
+  {
+    "id": "C06-Q024",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Cách mạng công nghiệp và quản trị phát triển",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc nhà nước dùng hạ tầng số để người dân tham gia rộng hơn vào hoạch định chính sách và tối ưu hóa giám sát xã hội minh họa rõ nhất vai trò nào của cách mạng công nghiệp?",
+    "options": [
+      "Thay đổi đối tượng lao động của ngành khai khoáng",
+      "Mở rộng tích tụ tư bản trong ngành chế tạo máy",
+      "Chuyển dịch cơ cấu tiêu dùng từ hàng hóa sang dịch vụ",
+      "Đổi mới phương thức quản trị và điều hành phát triển"
+    ],
+    "answer": 3,
+    "explanation": "Hạ tầng số, chính phủ điện tử và sự tham gia rộng hơn của người dân là biểu hiện trực tiếp của đổi mới quản trị nhà nước.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 213,
+      "text": "Cách mạng công nghiệp lần thứ tư làm quản trị nhà nước dựa trên hạ tầng số, mở rộng sự tham gia hoạch định chính sách và tối ưu hóa giám sát, điều hành xã hội.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 9
+      }
+    }
+  },
+  {
+    "id": "C06-Q025",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "So sánh các mô hình công nghiệp hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng mô hình công nghiệp hóa cổ điển với mô hình kiểu Liên Xô?",
+    "options": [
+      "Mô hình cổ điển kéo dài 60 - 80 năm; mô hình Liên Xô tập trung nguồn lực để ưu tiên công nghiệp nặng trong thời gian ngắn",
+      "Mô hình cổ điển ưu tiên công nghiệp nặng bằng mệnh lệnh; mô hình Liên Xô bắt đầu từ dệt và tích lũy theo thị trường",
+      "Cả hai mô hình đều dựa vào xuất khẩu, chuyển giao công nghệ và vốn nước ngoài để rút ngắn còn 20 - 30 năm",
+      "Cả hai mô hình đều bắt đầu bằng công nghiệp nhẹ và không sử dụng vai trò phân bổ nguồn lực của nhà nước"
+    ],
+    "answer": 0,
+    "explanation": "Cổ điển là quá trình dài; kiểu Liên Xô tập trung nguồn lực xã hội qua kế hoạch hóa để xây dựng nhanh công nghiệp nặng và cơ sở vật chất - kỹ thuật.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 218,
+      "text": "Công nghiệp hóa cổ điển kéo dài 60 - 80 năm, còn mô hình Liên Xô huy động nguồn lực lớn qua kế hoạch hóa tập trung để ưu tiên công nghiệp nặng và đạt mục tiêu trong thời gian ngắn.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 11
+      }
+    }
+  },
+  {
+    "id": "C06-Q026",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Con đường phát triển công nghệ của Nhật Bản và NICs",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Con đường phát triển khoa học - công nghệ mà Nhật Bản và NICs sử dụng để công nghiệp hóa có ưu điểm cốt lõi nào?",
+    "options": [
+      "Chỉ tự nghiên cứu tuần tự từ thấp đến cao nên hoàn toàn tránh được thời gian dài và tổn thất thử nghiệm",
+      "Kết hợp công nghệ truyền thống và hiện đại, tự nghiên cứu với nhận chuyển giao để vừa bền vững vừa đi tắt",
+      "Chỉ nhận chuyển giao công nghệ nên loại bỏ được nhu cầu vốn, ngoại tệ và sự phụ thuộc bên ngoài",
+      "Chỉ nhập sản phẩm hoàn chỉnh nên đồng thời hình thành được năng lực nghiên cứu và tự chủ công nghệ trong nước"
+    ],
+    "answer": 1,
+    "explanation": "Con đường thứ ba kết hợp nhiều tầng công nghệ và cả tự nghiên cứu lẫn chuyển giao, nhờ đó dung hòa yêu cầu bền vững với yêu cầu rút ngắn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 220,
+      "text": "Nhật Bản và NICs kết hợp công nghệ truyền thống, hiện đại, tự nghiên cứu và nhận chuyển giao; đây là con đường vừa lâu dài, vững chắc vừa cho phép đi tắt, bám đuổi."
+    }
+  },
+  {
+    "id": "C06-Q027",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Tính tất yếu riêng của công nghiệp hóa ở Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào thể hiện lý do riêng của một nước có nền kinh tế kém phát triển quá độ lên chủ nghĩa xã hội như Việt Nam phải công nghiệp hóa, hiện đại hóa?",
+    "options": [
+      "Phải lặp nguyên vẹn mô hình cổ điển để xây dựng cơ sở vật chất - kỹ thuật theo đúng trình tự của nước Anh",
+      "Phải loại bỏ nguồn lực quốc tế để tự xây dựng toàn bộ cơ sở vật chất - kỹ thuật bằng nguồn lực trong nước",
+      "Phải xây dựng từ đầu cơ sở vật chất - kỹ thuật cho chủ nghĩa xã hội thông qua công nghiệp hóa, hiện đại hóa",
+      "Phải hoàn thiện trước toàn bộ quan hệ sản xuất rồi mới bắt đầu phát triển lực lượng sản xuất hiện đại"
+    ],
+    "answer": 2,
+    "explanation": "Do xuất phát điểm kém phát triển, Việt Nam phải tạo dựng cơ sở vật chất - kỹ thuật hiện đại thông qua công nghiệp hóa, đồng thời củng cố quan hệ sản xuất xã hội chủ nghĩa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 222,
+      "text": "Nước có kinh tế kém phát triển quá độ lên chủ nghĩa xã hội phải xây dựng cơ sở vật chất - kỹ thuật từ đầu thông qua công nghiệp hóa, hiện đại hóa, phát triển lực lượng sản xuất và hoàn thiện quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "C06-Q028",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Bối cảnh công nghiệp hóa, hiện đại hóa ở Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một chính sách vừa sử dụng cơ chế thị trường định hướng xã hội chủ nghĩa, vừa chủ động thu hút tri thức và nguồn lực quốc tế phản ánh đúng đặc điểm nào của công nghiệp hóa, hiện đại hóa ở Việt Nam?",
+    "options": [
+      "Công nghiệp hóa tách khỏi thể chế kinh tế và chỉ dựa trên mệnh lệnh hành chính",
+      "Công nghiệp hóa chỉ hướng vào thị trường trong nước và hạn chế phân công lao động quốc tế",
+      "Công nghiệp hóa phải hoàn tất trước khi phát triển kinh tế tri thức và mở cửa nền kinh tế",
+      "Công nghiệp hóa diễn ra trong kinh tế thị trường định hướng xã hội chủ nghĩa và chủ động hội nhập quốc tế"
+    ],
+    "answer": 3,
+    "explanation": "Chính sách nêu đồng thời hai đặc điểm: thực hiện trong kinh tế thị trường định hướng xã hội chủ nghĩa và trong bối cảnh toàn cầu hóa, hội nhập chủ động.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 223,
+      "text": "Công nghiệp hóa, hiện đại hóa ở Việt Nam diễn ra trong điều kiện kinh tế thị trường định hướng xã hội chủ nghĩa và bối cảnh toàn cầu hóa, chủ động hội nhập kinh tế quốc tế.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 13
+      }
+    }
+  },
+  {
+    "id": "C06-Q029",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Ứng dụng khoa học - công nghệ trong công nghiệp hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nguyên tắc nào phù hợp với yêu cầu ứng dụng khoa học - công nghệ trong công nghiệp hóa, hiện đại hóa ở Việt Nam?",
+    "options": [
+      "Lựa chọn công nghệ theo khả năng, trình độ và điều kiện từng giai đoạn; không nóng vội nhưng cũng không trì hoãn",
+      "Áp dụng ngay mọi công nghệ mới vào tất cả ngành và vùng, không cần xét khả năng hấp thụ hay hiệu quả",
+      "Chờ đến khi tự nghiên cứu được toàn bộ công nghệ hiện đại rồi mới cơ giới hóa các ngành còn lạc hậu",
+      "Chỉ duy trì công nghệ truyền thống để tránh mọi rủi ro do đổi mới và chuyển giao công nghệ"
+    ],
+    "answer": 0,
+    "explanation": "Ứng dụng phải chủ động nhưng có lựa chọn theo điều kiện thực tế; cả chủ quan nóng vội lẫn trì hoãn, cản trở đều không phù hợp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 225,
+      "text": "Ứng dụng khoa học - công nghệ phải phù hợp khả năng, trình độ và điều kiện từng giai đoạn, không chủ quan nóng vội cũng không trì hoãn, cản trở."
+    }
+  },
+  {
+    "id": "C06-Q030",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Ngành kinh tế dựa vào tri thức",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một ngành nông nghiệp truyền thống ứng dụng công nghệ sinh học, dữ liệu và tự động hóa ở trình độ cao được xem xét thế nào trong kinh tế tri thức?",
+    "options": [
+      "Không thể thuộc kinh tế tri thức vì chỉ các ngành hoàn toàn mới mới dựa vào tri thức",
+      "Có thể trở thành ngành dựa vào tri thức vì ngành truyền thống cũng có thể ứng dụng khoa học - công nghệ cao",
+      "Chỉ thuộc kinh tế tri thức khi ngừng tạo ra sản phẩm vật chất và chuyển hoàn toàn sang dịch vụ",
+      "Chỉ thuộc kinh tế tri thức khi không còn sử dụng bất kỳ lao động hay tư liệu sản xuất nào"
+    ],
+    "answer": 1,
+    "explanation": "Kinh tế tri thức không chỉ gồm ngành công nghệ mới; nông nghiệp, công nghiệp và dịch vụ truyền thống đều có thể trở thành ngành dựa vào tri thức nhờ công nghệ cao.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 226,
+      "text": "Ngành dựa vào tri thức có thể là ngành công nghệ cao mới hoặc ngành truyền thống như nông nghiệp, công nghiệp, dịch vụ được ứng dụng khoa học - công nghệ cao."
+    }
+  },
+  {
+    "id": "C06-Q031",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Yêu cầu của cơ cấu kinh tế hiện đại",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phương án nào thể hiện đầy đủ nhất yêu cầu đối với một cơ cấu kinh tế hợp lý, hiện đại và hiệu quả?",
+    "options": [
+      "Chỉ khai thác tối đa nguồn lực trong nước và hạn chế nguồn lực bên ngoài để tránh cạnh tranh",
+      "Chỉ tăng tỷ trọng công nghiệp, không cần xét khả năng ứng dụng công nghệ hay xu thế hội nhập",
+      "Phát huy nguồn lực trong và ngoài nước, cho phép ứng dụng công nghệ mới và phù hợp xu thế hội nhập",
+      "Phân bổ đồng đều mọi nguồn lực cho mọi ngành, vùng mà không dựa trên thế mạnh hay phân công lao động"
+    ],
+    "answer": 2,
+    "explanation": "Ba yêu cầu gắn nhau: phát huy nguồn lực trong và ngoài nước, tiếp nhận công nghệ hiện đại và phù hợp xu thế phát triển cùng hội nhập quốc tế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 228,
+      "text": "Cơ cấu hợp lý phải phát huy nguồn lực trong nước, thu hút nguồn lực ngoài nước, cho phép ứng dụng công nghệ hiện đại và phù hợp xu thế toàn cầu hóa, hội nhập."
+    }
+  },
+  {
+    "id": "C06-Q032",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Hoàn thiện quan hệ sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Trong công nghiệp hóa, hiện đại hóa, hoàn thiện quan hệ sản xuất phù hợp với lực lượng sản xuất bao gồm những quan hệ chủ yếu nào?",
+    "options": [
+      "Quan hệ giữa công nghiệp, nông nghiệp và dịch vụ trong cơ cấu GDP",
+      "Quan hệ giữa thị trường trong nước, thị trường khu vực và thị trường toàn cầu",
+      "Quan hệ giữa công nghệ truyền thống, công nghệ hiện đại và công nghệ nhập khẩu",
+      "Quan hệ sở hữu, quan hệ phân phối, quan hệ quản lý và phân bổ nguồn lực"
+    ],
+    "answer": 3,
+    "explanation": "Hoàn thiện quan hệ sản xuất tập trung vào sở hữu, phân phối, quản lý và cách phân bổ nguồn lực để tạo động lực và giải phóng sức sáng tạo.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 229,
+      "text": "Cần thường xuyên hoàn thiện quan hệ sở hữu, phân phối, quản lý và phân bổ nguồn lực theo hướng tạo động lực phát triển, giải phóng sức sáng tạo."
+    }
+  },
+  {
+    "id": "C06-Q033",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Thể chế đổi mới sáng tạo trong bối cảnh 4.0",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giải pháp nào trực tiếp thuộc nội dung hoàn thiện thể chế, xây dựng nền kinh tế dựa trên nền tảng đổi mới sáng tạo?",
+    "options": [
+      "Xây dựng hệ thống đổi mới sáng tạo quốc gia, cải thiện khung pháp lý và liên kết trường, viện với mạng lưới tri thức",
+      "Chỉ mở rộng khai thác tài nguyên để bù đắp khoảng cách công nghệ với các nước phát triển",
+      "Thay toàn bộ hoạt động nghiên cứu trong nước bằng nhập khẩu sản phẩm công nghệ hoàn chỉnh",
+      "Duy trì cơ chế quản lý cũ và tách doanh nghiệp khỏi các trung tâm nghiên cứu để giảm chi phí phối hợp"
+    ],
+    "answer": 0,
+    "explanation": "Nền tảng đổi mới sáng tạo đòi hỏi đồng thời hệ thống quốc gia, khung pháp lý, vốn con người và liên kết giữa doanh nghiệp, trường, viện cùng mạng lưới tri thức toàn cầu.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 229,
+      "text": "Thích ứng 4.0 cần xây dựng hệ thống đổi mới sáng tạo quốc gia, cải thiện khung pháp lý, tăng vốn con người và phát huy liên kết trường, viện, trung tâm nghiên cứu với mạng lưới tri thức toàn cầu."
+    }
+  },
+  {
+    "id": "C06-Q034",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Doanh nghiệp thích ứng Cách mạng công nghiệp lần thứ tư",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Tổ hợp hành động nào phù hợp nhất để doanh nghiệp thích ứng với Cách mạng công nghiệp lần thứ tư?",
+    "options": [
+      "Giữ nguyên mô hình kinh doanh, tăng lao động phổ thông và giảm kết nối dữ liệu để tiết kiệm chi phí",
+      "Tự động hóa sản xuất, tin học hóa quản lý, phát triển kỹ năng, chuỗi cung ứng thông minh và an ninh mạng",
+      "Chỉ mua thêm máy móc cơ khí, không thay đổi kỹ năng, quản lý hay chuỗi cung ứng",
+      "Ngừng kết nối với đối tác bên ngoài và loại bỏ phần mềm khỏi quy trình quản trị, bán hàng"
+    ],
+    "answer": 1,
+    "explanation": "Thích ứng 4.0 là thay đổi đồng bộ công nghệ sản xuất, quản lý, kỹ năng, chuỗi cung ứng và an ninh mạng, không chỉ mua thiết bị đơn lẻ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 230,
+      "text": "Doanh nghiệp cần tối ưu mô hình kinh doanh, tự động hóa dây chuyền, tin học hóa quản lý, phát triển kỹ năng mới, chuỗi cung ứng thông minh và an ninh mạng."
+    }
+  },
+  {
+    "id": "C06-Q035",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Nguồn nhân lực trong bối cảnh 4.0",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao phát triển nguồn nhân lực, đặc biệt nguồn nhân lực chất lượng cao, là nội dung đặc biệt quan trọng khi thích ứng với Cách mạng công nghiệp lần thứ tư?",
+    "options": [
+      "Vì nguồn nhân lực đông sẽ tự động bù đắp mọi hạn chế về thể chế, hạ tầng và công nghệ",
+      "Vì công nghệ mới loại bỏ nhu cầu học tập, nghiên cứu và phối hợp giữa cơ sở đào tạo với doanh nghiệp",
+      "Vì con người quyết định khả năng thích ứng, nên phải đổi mới giáo dục, nghiên cứu và chính sách sử dụng nhân tài",
+      "Vì chỉ nguồn nhân lực trong cơ quan nhà nước mới tham gia vào quá trình công nghiệp hóa, hiện đại hóa"
+    ],
+    "answer": 2,
+    "explanation": "Công nghệ không tự tạo ra năng lực thích ứng; con người là chủ thể quyết định, nên chất lượng giáo dục, nghiên cứu và liên kết đào tạo - doanh nghiệp phải được nâng cao.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 232,
+      "text": "Trong thích ứng với Cách mạng công nghiệp lần thứ tư, con người giữ vai trò quyết định; vì vậy phải đổi mới giáo dục, quy hoạch đào tạo, tăng đầu tư và gắn nghiên cứu, đào tạo với doanh nghiệp."
+    }
+  },
+  {
+    "id": "C06-Q036",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Chuẩn bị điều kiện hội nhập kinh tế quốc tế",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định “hội nhập không phải bằng mọi giá” hàm ý yêu cầu nào đối với Việt Nam?",
+    "options": [
+      "Tham gia mọi cam kết ngay lập tức để đạt mức hội nhập cao nhất, không cần đánh giá năng lực trong nước",
+      "Trì hoãn hội nhập cho đến khi nền kinh tế trong nước không còn bất kỳ hạn chế hay rủi ro nào",
+      "Chỉ chuẩn bị đàm phán đối ngoại, còn tư duy, thể chế, nhân lực và năng lực sản xuất trong nước không cần thay đổi",
+      "Cân nhắc lộ trình và cách thức tối ưu, đồng thời chuẩn bị điều kiện nội bộ nền kinh tế và quan hệ quốc tế phù hợp"
+    ],
+    "answer": 3,
+    "explanation": "Tính tất yếu của hội nhập không loại bỏ yêu cầu lựa chọn; hiệu quả phụ thuộc vào lộ trình và sự sẵn sàng về tư duy, thể chế, nhân lực, năng lực sản xuất cùng quan hệ đối ngoại.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 236,
+      "text": "Hội nhập không phải bằng mọi giá mà phải cân nhắc lộ trình, cách thức tối ưu và chuẩn bị điều kiện nội bộ cũng như quan hệ quốc tế thích hợp.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 20
+      }
+    }
+  },
+  {
+    "id": "C06-Q037",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Tác động tích cực của hội nhập đối với doanh nghiệp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hội nhập kinh tế quốc tế có thể nâng cao năng lực cạnh tranh của doanh nghiệp trong nước qua cơ chế nào?",
+    "options": [
+      "Mở cơ hội tiếp cận thị trường, tín dụng, đối tác, công nghệ sản xuất và phương thức quản trị quốc tế",
+      "Loại bỏ hoàn toàn cạnh tranh từ doanh nghiệp nước ngoài trên thị trường trong nước",
+      "Bảo đảm mọi doanh nghiệp đều có lợi như nhau mà không cần đổi mới công nghệ hay quản trị",
+      "Thay thế năng lực sản xuất của doanh nghiệp bằng việc nhập khẩu toàn bộ hàng hóa hoàn chỉnh"
+    ],
+    "answer": 0,
+    "explanation": "Lợi ích đến từ khả năng tiếp cận nguồn lực và tri thức mới để doanh nghiệp tự đổi mới, chứ hội nhập không xóa cạnh tranh hay tự động bảo đảm thành công.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 238,
+      "text": "Hội nhập giúp doanh nghiệp tiếp cận thị trường quốc tế, tín dụng, đối tác, công nghệ sản xuất và phương thức quản trị để nâng cao năng lực cạnh tranh.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 21
+      }
+    }
+  },
+  {
+    "id": "C06-Q038",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Hội nhập và chất lượng nguồn nhân lực",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hội nhập kinh tế quốc tế góp phần nâng cao chất lượng nguồn nhân lực chủ yếu bằng cách nào?",
+    "options": [
+      "Giảm hợp tác đào tạo để nguồn nhân lực chỉ học từ kinh nghiệm sản xuất trong nước",
+      "Mở rộng hợp tác đào tạo, nghiên cứu và tiếp thu công nghệ qua đầu tư, chuyển giao",
+      "Thay lực lượng lao động trong nước bằng lao động nước ngoài ở tất cả ngành kinh tế",
+      "Chỉ tăng số văn bằng mà không gắn đào tạo với năng lực hấp thụ khoa học - công nghệ"
+    ],
+    "answer": 1,
+    "explanation": "Hợp tác giáo dục - nghiên cứu và tiếp nhận công nghệ làm tăng trình độ nhân lực, tiềm lực khoa học và năng lực hấp thụ công nghệ hiện đại.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 239,
+      "text": "Hội nhập nâng cao nguồn nhân lực và tiềm lực khoa học - công nghệ nhờ hợp tác giáo dục, đào tạo, nghiên cứu và tiếp thu công nghệ qua đầu tư trực tiếp, chuyển giao."
+    }
+  },
+  {
+    "id": "C06-Q039",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Tác động tiêu cực đến cơ cấu kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc một nước đang phát triển tập trung kéo dài vào ngành dùng nhiều tài nguyên, nhiều lao động nhưng giá trị gia tăng thấp phản ánh nguy cơ nào của hội nhập?",
+    "options": [
+      "Cơ cấu kinh tế tự động chuyển sang ngành công nghệ cao và giành vị trí thuận lợi hơn trong chuỗi giá trị toàn cầu",
+      "Lợi ích và rủi ro của hội nhập được phân phối đồng đều giữa mọi ngành, mọi vùng và mọi nhóm xã hội",
+      "Cơ cấu chuyển dịch bất lợi, nền kinh tế ở khâu giá trị thấp và phải chịu cạn kiệt tài nguyên, ô nhiễm môi trường",
+      "Nền kinh tế giảm dần phụ thuộc thị trường bên ngoài nhờ kéo dài chuyên môn hóa trong một số ít ngành"
+    ],
+    "answer": 2,
+    "explanation": "Chuyên môn hóa thụ động vào ngành tài nguyên và lao động giá trị thấp có thể khóa nền kinh tế ở khâu bất lợi, đồng thời gây cạn kiệt tài nguyên và ô nhiễm.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 240,
+      "text": "Hội nhập có thể gây chuyển dịch cơ cấu tự nhiên bất lợi sang ngành dùng nhiều tài nguyên, lao động nhưng giá trị thấp, làm nước đang phát triển thua thiệt trong chuỗi giá trị và tổn hại môi trường.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 22
+      }
+    }
+  },
+  {
+    "id": "C06-Q040",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Nhận thức về thời cơ và thách thức của hội nhập",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận thức nào tạo cơ sở đúng để xây dựng đối sách hội nhập kinh tế quốc tế phù hợp?",
+    "options": [
+      "Hội nhập chỉ tạo thuận lợi, nên cần tối đa hóa tốc độ và không cần chuẩn bị đối sách với rủi ro phát sinh",
+      "Hội nhập chỉ gây sức ép cạnh tranh, nên cần trì hoãn cho đến khi nền kinh tế không còn bất kỳ hạn chế nào",
+      "Hội nhập là lựa chọn có thể né tránh, nên đứng ngoài dòng chảy quốc tế là cách bảo đảm phát triển bền vững",
+      "Hội nhập là xu thế khách quan và tác động đa chiều; cần coi mặt tích cực là cơ bản nhưng nhận diện đầy đủ mặt trái"
+    ],
+    "answer": 3,
+    "explanation": "Nhận thức đúng không tuyệt đối hóa cơ hội hoặc rủi ro: hội nhập là xu thế khách quan, mặt tích cực là cơ bản nhưng các tác động tiêu cực vẫn phải được nhận diện để có đối sách.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 242,
+      "text": "Cần nhận thức hội nhập là xu thế khách quan, thấy rõ tác động đa chiều, coi mặt thuận lợi là cơ bản nhưng đồng thời nhận diện các sức ép cạnh tranh và rủi ro kinh tế, chính trị, an ninh, văn hóa.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 24
+      }
+    }
+  },
+  {
+    "id": "C06-Q041",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Nhận diện mô hình công nghiệp hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một quốc gia bắt đầu công nghiệp hóa bằng ngành dệt cần ít vốn, thu lợi nhanh; sự phát triển của dệt kéo theo vùng nguyên liệu rồi tạo nhu cầu cho cơ khí chế tạo máy. Quốc gia này đang đi theo mô hình nào?",
+    "options": [
+      "Mô hình công nghiệp hóa cổ điển của các nước tư bản",
+      "Mô hình công nghiệp hóa tập trung theo kiểu Liên Xô",
+      "Mô hình công nghiệp hóa rút ngắn của Nhật Bản và NICs",
+      "Mô hình công nghiệp hóa chỉ dựa vào chuyển giao công nghệ"
+    ],
+    "answer": 0,
+    "explanation": "Trình tự từ công nghiệp nhẹ, trực tiếp là dệt, rồi tạo tiền đề cho công nghiệp nặng là đặc trưng của con đường công nghiệp hóa cổ điển ở Anh.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 217,
+      "text": "Công nghiệp hóa cổ điển ở Anh bắt đầu từ dệt vì cần ít vốn, lợi nhuận nhanh; dệt thúc đẩy vùng nguyên liệu và tạo tiền đề cho cơ khí chế tạo máy."
+    }
+  },
+  {
+    "id": "C06-Q042",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Ứng dụng Cách mạng công nghiệp lần thứ tư trong doanh nghiệp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhà máy đồng thời tự động hóa dây chuyền, số hóa quản lý, đào tạo kỹ năng mới, kết nối chuỗi cung ứng thông minh và đầu tư an ninh mạng. Hướng xử lý này phù hợp nhất với yêu cầu nào?",
+    "options": [
+      "Duy trì mô hình sản xuất cơ khí cũ để tránh thay đổi tổ chức",
+      "Nắm bắt, ứng dụng thành tựu 4.0 để tối ưu mô hình kinh doanh và nâng sức cạnh tranh",
+      "Chuyển toàn bộ nguồn lực sang công nghiệp nặng theo cơ chế kế hoạch hóa tập trung",
+      "Tách hoạt động sản xuất khỏi dữ liệu và các mạng liên kết bên ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Các hành động phối hợp đúng với yêu cầu tối ưu mô hình kinh doanh của doanh nghiệp trong bối cảnh 4.0, từ sản xuất và quản lý đến kỹ năng, chuỗi cung ứng và an ninh.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 230,
+      "text": "Thích ứng 4.0 đòi hỏi doanh nghiệp tăng tự động hóa, tin học hóa quản lý, phát triển kỹ năng, chuỗi cung ứng thông minh và an ninh mạng để nâng sức cạnh tranh."
+    }
+  },
+  {
+    "id": "C06-Q043",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Thực hiện cam kết hội nhập",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một quốc gia thành viên thực hiện nghiêm túc các cam kết về thuế quan, dịch vụ và đầu tư trong những liên kết đã tham gia. Theo giáo trình, kết quả trực tiếp phù hợp nhất là gì?",
+    "options": [
+      "Loại bỏ hoàn toàn sức ép cạnh tranh đối với mọi doanh nghiệp trong nước",
+      "Không còn cần hoàn thiện thể chế và pháp luật kinh tế trong nước",
+      "Nâng cao uy tín, tạo sự tin cậy của cộng đồng quốc tế và nâng tầm hội nhập",
+      "Có thể rút khỏi các cơ chế liên kết chung mà vẫn giữ nguyên mọi lợi ích thành viên"
+    ],
+    "answer": 2,
+    "explanation": "Thực hiện đầy đủ cam kết tạo độ tin cậy và tôn trọng, qua đó nâng cao uy tín, vai trò và tầm mức tham gia của quốc gia trong các liên kết.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 247,
+      "text": "Tham gia tích cực và thực hiện nghiêm túc cam kết giúp nâng cao uy tín, vai trò của Việt Nam, tạo sự tin cậy, tôn trọng và nâng tầm hội nhập quốc tế.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 26
+      }
+    }
+  },
+  {
+    "id": "C06-Q044",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Chiến lược và lộ trình hội nhập",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi chuẩn bị một hiệp định mới, cơ quan hoạch định xác định rõ thời gian, mức độ, bước đi từng giai đoạn, ngành ưu tiên và cơ chế điều chỉnh theo biến động trong và ngoài nước. Cách làm này thực hiện phương hướng nào?",
+    "options": [
+      "Chỉ nâng cao nhận thức chung về mặt tích cực của hội nhập",
+      "Chỉ thực hiện các cam kết đã ký mà không xây dựng định hướng mới",
+      "Chỉ hoàn thiện pháp luật trong nước mà không đánh giá tiến trình bên ngoài",
+      "Xây dựng chiến lược và lộ trình hội nhập hợp lý, linh hoạt, phù hợp năng lực thực tế"
+    ],
+    "answer": 3,
+    "explanation": "Thời gian, mức độ, bước đi, lĩnh vực ưu tiên và khả năng điều chỉnh là các thành tố cụ thể của một lộ trình hội nhập hợp lý nhằm tránh cú sốc không cần thiết.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 245,
+      "text": "Lộ trình hội nhập phải xác định thời gian, mức độ, bước đi từng giai đoạn, bám sát tiến triển bên trong và bên ngoài, đồng thời xác định ngành, lĩnh vực ưu tiên.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 25
+      }
+    }
+  },
+  {
+    "id": "C06-Q045",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Hoàn thiện thể chế và pháp luật hội nhập",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Doanh nghiệp gặp thủ tục thiếu minh bạch, môi trường cạnh tranh chưa bình đẳng và quy định đầu tư, thương mại không đồng bộ với cam kết quốc tế. Giải pháp phù hợp nhất là gì?",
+    "options": [
+      "Hoàn thiện cơ chế thị trường, cải cách quản lý hành chính minh bạch và rà soát pháp luật liên quan để phù hợp chuẩn mực quốc tế",
+      "Tăng can thiệp trực tiếp vào mọi quyết định kinh doanh và duy trì các quy định không đồng bộ để bảo vệ thị trường",
+      "Chỉ trợ cấp một số doanh nghiệp, không thay đổi môi trường cạnh tranh hay hệ thống pháp luật",
+      "Hoãn hoàn thiện luật pháp cho đến khi kết thúc toàn bộ quá trình hội nhập kinh tế quốc tế"
+    ],
+    "answer": 0,
+    "explanation": "Tình huống đồng thời đặt ra vấn đề thể chế thị trường, quản lý nhà nước và pháp luật; vì vậy phải xử lý đồng bộ cả cạnh tranh, minh bạch thủ tục và tương thích pháp lý.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 248,
+      "text": "Nâng hiệu quả hội nhập cần hoàn thiện cơ chế thị trường, đổi mới quản lý nhà nước theo hướng minh bạch và rà soát pháp luật đầu tư, thương mại, doanh nghiệp, thuế, tài chính phù hợp luật pháp quốc tế.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 27
+      }
+    }
+  },
+  {
+    "id": "C06-Q046",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Nâng cao năng lực cạnh tranh quốc tế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một ngành xuất khẩu mất thị phần do công nghệ lạc hậu, nhân lực yếu, chi phí hạ tầng cao và doanh nghiệp thiếu kỹ năng quản trị quốc tế. Gói giải pháp nào sát nhất với giáo trình?",
+    "options": [
+      "Doanh nghiệp giữ công nghệ cũ; Nhà nước bù lỗ và bảo hộ thay cho cải thiện năng suất",
+      "Doanh nghiệp đổi mới công nghệ, quản trị; Nhà nước hỗ trợ nhân lực, hạ tầng và kiến thức pháp lý quốc tế",
+      "Doanh nghiệp chỉ giảm lương; Nhà nước cắt đào tạo và không đầu tư hạ tầng để giảm chi phí",
+      "Doanh nghiệp rút khỏi xuất khẩu; Nhà nước hạn chế thu hút vốn, công nghệ và kinh nghiệm quốc tế"
+    ],
+    "answer": 1,
+    "explanation": "Năng lực cạnh tranh cần nỗ lực từ doanh nghiệp về đầu tư, công nghệ, quản trị và hỗ trợ kiến tạo của Nhà nước về nhân lực, hạ tầng, kỹ năng và luật quốc tế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 249,
+      "text": "Doanh nghiệp phải đầu tư, cải tiến công nghệ và học cách kinh doanh mới; Nhà nước hỗ trợ nhân lực chất lượng cao, kỹ năng hội nhập, luật quốc tế và hạ tầng để giảm chi phí, tăng năng suất.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 28
+      }
+    }
+  },
+  {
+    "id": "C06-Q047",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Rủi ro phụ thuộc thị trường bên ngoài",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nền kinh tế tập trung phần lớn xuất khẩu vào một thị trường. Khi thị trường đó biến động, sản xuất và việc làm trong nước suy giảm mạnh. Tình huống này thể hiện rõ nhất tác động tiêu cực nào của hội nhập?",
+    "options": [
+      "Phân phối lợi ích và rủi ro không công bằng giữa các nhóm xã hội trong nước",
+      "Bản sắc văn hóa dân tộc bị xói mòn trước ảnh hưởng của văn hóa nước ngoài",
+      "Gia tăng phụ thuộc vào thị trường ngoài và dễ tổn thương trước biến động quốc tế",
+      "Gia tăng khủng bố, buôn lậu, tội phạm xuyên quốc gia và nhập cư bất hợp pháp"
+    ],
+    "answer": 2,
+    "explanation": "Nguyên nhân trực tiếp của cú sốc là mức độ tập trung và lệ thuộc vào một thị trường bên ngoài, khiến nền kinh tế trong nước dễ bị tổn thương khi thị trường đó biến động.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 240,
+      "text": "Hội nhập có thể làm nền kinh tế phụ thuộc hơn vào thị trường bên ngoài và dễ tổn thương trước biến động chính trị, kinh tế, thị trường quốc tế.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 22
+      }
+    }
+  },
+  {
+    "id": "C06-Q048",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Quan hệ giữa độc lập, tự chủ và hội nhập quốc tế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề xuất cho rằng muốn giữ độc lập, tự chủ thì Việt Nam nên đóng cửa nền kinh tế và hạn chế tối đa quan hệ quốc tế. Đánh giá nào phù hợp với giáo trình?",
+    "options": [
+      "Đúng, vì mọi quan hệ kinh tế quốc tế đều tất yếu làm mất chủ quyền quốc gia",
+      "Đúng, vì tự cung tự cấp là tiêu chí duy nhất của nền kinh tế độc lập, tự chủ",
+      "Sai, vì hội nhập phải thay thế hoàn toàn mục tiêu độc lập, tự chủ trong phát triển",
+      "Sai, vì tự chủ không phải biệt lập; phải phát huy nội lực đồng thời chủ động, tích cực hội nhập"
+    ],
+    "answer": 3,
+    "explanation": "Đóng cửa trái xu thế khách quan và có thể làm suy yếu tự chủ. Quan hệ đúng là dùng nội lực làm nền tảng, đồng thời hội nhập hiệu quả để bổ sung nguồn lực và vị thế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 253,
+      "text": "Độc lập, tự chủ không có nghĩa biệt lập, đóng cửa; giữ vững độc lập, tự chủ phải đi đôi với chủ động, tích cực hội nhập quốc tế và hai mặt tạo tiền đề cho nhau."
+    }
+  },
+  {
+    "id": "C06-Q049",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Biện pháp xây dựng nền kinh tế độc lập, tự chủ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Việt Nam đồng thời đa dạng hóa thị trường, nguồn vốn, đối tác và tăng đầu tư nghiên cứu để từng bước làm chủ công nghệ. Tổ hợp biện pháp này trực tiếp nhằm mục tiêu nào?",
+    "options": [
+      "Giảm phụ thuộc vào một thị trường, một đối tác và nâng dần năng lực tự chủ công nghệ của nền kinh tế",
+      "Rút khỏi phân công lao động quốc tế để chuyển nền kinh tế sang trạng thái tự cung tự cấp",
+      "Mở cửa không điều kiện và thay thế năng lực nghiên cứu trong nước bằng công nghệ nhập khẩu",
+      "Trì hoãn công nghiệp hóa cho đến khi không còn bất kỳ biến động nào từ thị trường thế giới"
+    ],
+    "answer": 0,
+    "explanation": "Đa dạng hóa làm giảm rủi ro tập trung, còn đầu tư nghiên cứu và triển khai tạo khả năng tiến tới tự chủ công nghệ; cả hai cùng củng cố nền kinh tế độc lập, tự chủ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 251,
+      "text": "Xây dựng nền kinh tế độc lập, tự chủ cần đa dạng hóa thị trường, vốn và đối tác để tránh phụ thuộc, đồng thời đầu tư nghiên cứu, triển khai nhằm tự chủ dần về công nghệ.",
+      "slide": {
+        "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt",
+        "number": 30
+      }
+    }
+  },
+  {
+    "id": "C06-Q050",
+    "chapter": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+    "chapterNum": 6,
+    "topic": "Công nghiệp hóa, hiện đại hóa nông nghiệp, nông thôn",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương kết hợp công nghệ sinh học, cơ giới hóa, điện khí hóa, thủy lợi hóa, số hóa với công nghiệp chế biến, dịch vụ và hạ tầng nông thôn. Chương trình này thực hiện trực tiếp nội dung nào?",
+    "options": [
+      "Chỉ chuyển dịch tỷ trọng ngành trong GDP mà không đổi mới công nghệ hay lực lượng sản xuất ở nông thôn",
+      "Đẩy mạnh công nghiệp hóa, hiện đại hóa nông nghiệp, nông thôn trong bối cảnh Cách mạng công nghiệp lần thứ tư",
+      "Chỉ mở rộng các hình thức hội nhập kinh tế quốc tế mà không hiện đại hóa sản xuất và hạ tầng của địa phương",
+      "Chỉ hoàn thiện quan hệ phân phối ở nông thôn mà không ứng dụng khoa học - công nghệ vào sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Chương trình tích hợp đúng các thành tố giáo trình nêu cho hiện đại hóa nông nghiệp, nông thôn: công nghệ sinh học, cơ giới, điện, thủy lợi, số hóa, chế biến, dịch vụ và hạ tầng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 232,
+      "text": "Công nghiệp hóa, hiện đại hóa nông nghiệp, nông thôn cần ứng dụng công nghệ sinh học, cơ giới hóa, điện khí hóa, thủy lợi hóa, số hóa, phát triển chế biến, dịch vụ và hạ tầng đồng bộ."
+    }
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "C01-Q001",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Sự ra đời của thuật ngữ kinh tế chính trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tác phẩm nào của Antoine de Montchrétien đã đưa thuật ngữ khoa học “kinh tế chính trị” xuất hiện ở châu Âu vào năm 1615?",
+    "options": [
+      "Chuyên luận về kinh tế chính trị",
+      "Bàn về bản chất và nguyên nhân của cải của các quốc gia",
+      "Những nguyên lý của kinh tế chính trị học và thuế khóa",
+      "Góp phần phê phán khoa kinh tế chính trị"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình ghi nhận thuật ngữ khoa học “kinh tế chính trị” xuất hiện năm 1615 trong tác phẩm Chuyên luận về kinh tế chính trị của Antoine de Montchrétien.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 9,
+      "text": "Năm 1615, Antoine de Montchrétien dùng thuật ngữ kinh tế chính trị trong tác phẩm Chuyên luận về kinh tế chính trị.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 8
+      }
+    }
+  },
+  {
+    "id": "C01-Q002",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa trọng thương",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trường phái nào tập trung nghiên cứu lĩnh vực lưu thông trong bối cảnh tư bản thương nghiệp giữ vai trò thống trị nền kinh tế Tây Âu?",
+    "options": [
+      "Chủ nghĩa trọng nông",
+      "Chủ nghĩa trọng thương",
+      "Kinh tế chính trị cổ điển Anh",
+      "Kinh tế chính trị Mác - Lênin"
+    ],
+    "answer": 1,
+    "explanation": "Chủ nghĩa trọng thương tập trung vào lưu thông vì trong giai đoạn hình thành của trường phái này, tư bản thương nghiệp giữ vai trò thống trị.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 10,
+      "text": "Chủ nghĩa trọng thương lấy lưu thông làm trọng tâm nghiên cứu khi tư bản thương nghiệp giữ vai trò thống trị.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 4
+      }
+    }
+  },
+  {
+    "id": "C01-Q003",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Đóng góp và hạn chế của chủ nghĩa trọng thương",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào đánh giá đúng cả đóng góp lẫn hạn chế của chủ nghĩa trọng thương theo giáo trình?",
+    "options": [
+      "Đúng khi coi mọi ngành đều tạo sản phẩm ròng, nhưng sai khi tách sản xuất khỏi lưu thông",
+      "Đúng khi phát hiện lao động tạo ra giá trị, nhưng sai khi đồng nhất giá trị với của cải",
+      "Đúng khi nhận ra mục đích tìm kiếm lợi nhuận, nhưng sai khi quy nguồn gốc lợi nhuận vào mua rẻ, bán đắt",
+      "Đúng khi xác định nông nghiệp là lĩnh vực sản xuất, nhưng sai khi xem nhẹ vai trò của địa chủ"
+    ],
+    "answer": 2,
+    "explanation": "Chủ nghĩa trọng thương nhận ra mục đích của nhà tư bản là lợi nhuận, nhưng giải thích thiếu khoa học rằng lợi nhuận bắt nguồn từ thương nghiệp qua mua rẻ, bán đắt.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 10,
+      "text": "Chủ nghĩa trọng thương thấy đúng mục đích lợi nhuận nhưng giải thích sai nguồn gốc lợi nhuận từ mua rẻ, bán đắt.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 4
+      }
+    }
+  },
+  {
+    "id": "C01-Q004",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa trọng nông",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo hạn chế lịch sử của chủ nghĩa trọng nông, lĩnh vực nào được xem là lĩnh vực duy nhất có hoạt động sản xuất?",
+    "options": [
+      "Thương nghiệp",
+      "Thủ công nghiệp",
+      "Dịch vụ vận tải",
+      "Nông nghiệp"
+    ],
+    "answer": 3,
+    "explanation": "Chủ nghĩa trọng nông cho rằng chỉ nông nghiệp mới là sản xuất và dùng đặc trưng của nông nghiệp để lý giải các vấn đề kinh tế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 11,
+      "text": "Hạn chế của chủ nghĩa trọng nông là quan niệm chỉ nông nghiệp mới là sản xuất.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 6
+      }
+    }
+  },
+  {
+    "id": "C01-Q005",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Bước tiến của chủ nghĩa trọng nông",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao chủ nghĩa trọng nông được xem là một bước tiến lý luận so với chủ nghĩa trọng thương?",
+    "options": [
+      "Chuyển trọng tâm từ lưu thông sang sản xuất và luận giải thêm nhiều phạm trù kinh tế",
+      "Chứng minh mọi ngành đều tạo sản phẩm ròng và xóa bỏ giới hạn của cách nhìn nông nghiệp",
+      "Tiếp tục lấy lưu thông làm trung tâm nhưng bổ sung mục tiêu cân bằng ngoại thương",
+      "Thay việc nghiên cứu quan hệ kinh tế bằng việc nghiên cứu kỹ thuật canh tác nông nghiệp"
+    ],
+    "answer": 0,
+    "explanation": "Bước tiến của chủ nghĩa trọng nông là chuyển nghiên cứu vào sản xuất và có đóng góp về giá trị, sản phẩm ròng, tư bản, tiền lương, lợi nhuận và tái sản xuất.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 11,
+      "text": "Chủ nghĩa trọng nông chuyển nghiên cứu sang sản xuất và phát triển lý luận về nhiều phạm trù kinh tế.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 6
+      }
+    }
+  },
+  {
+    "id": "C01-Q006",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Kinh tế chính trị cổ điển Anh",
+    "difficulty": "Nhận biết",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trình tự nào phản ánh đúng quá trình phát triển của kinh tế chính trị cổ điển Anh được nêu trong giáo trình?",
+    "options": [
+      "Adam Smith → William Petty → David Ricardo",
+      "William Petty → Adam Smith → David Ricardo",
+      "David Ricardo → Adam Smith → William Petty",
+      "William Petty → David Ricardo → Adam Smith"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình xác định kinh tế chính trị cổ điển Anh mở đầu với William Petty, tiếp đến Adam Smith và kết thúc ở David Ricardo.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 11,
+      "text": "Dòng cổ điển Anh bắt đầu từ William Petty, phát triển qua Adam Smith và kết thúc ở David Ricardo."
+    }
+  },
+  {
+    "id": "C01-Q007",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Đóng góp của kinh tế chính trị cổ điển Anh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào thể hiện bước phát triển vượt bậc của kinh tế chính trị cổ điển Anh so với chủ nghĩa trọng nông?",
+    "options": [
+      "Lợi nhuận chỉ nảy sinh do trao đổi không ngang giá trong lưu thông",
+      "Nông nghiệp là ngành duy nhất tạo ra sản phẩm ròng cho xã hội",
+      "Giá trị do hao phí lao động tạo ra và giá trị khác với của cải",
+      "Của cải quốc gia được quyết định bởi lượng tiền tích lũy từ ngoại thương"
+    ],
+    "answer": 2,
+    "explanation": "Kinh tế chính trị cổ điển Anh đi tới kết luận giá trị do hao phí lao động tạo ra và phân biệt giá trị với của cải.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 11,
+      "text": "Kinh tế chính trị cổ điển Anh kết luận giá trị do hao phí lao động tạo ra và giá trị khác với của cải."
+    }
+  },
+  {
+    "id": "C01-Q008",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Tiền đề trực tiếp của kinh tế chính trị C. Mác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "C. Mác trực tiếp kế thừa những thành quả lý luận khoa học của nhà kinh tế nào để phát triển lý luận về phương thức sản xuất tư bản chủ nghĩa?",
+    "options": [
+      "Antoine de Montchrétien",
+      "François Quesnay",
+      "Adam Smith",
+      "David Ricardo"
+    ],
+    "answer": 3,
+    "explanation": "C. Mác kế thừa trực tiếp những giá trị khoa học trong lý luận của David Ricardo trên cơ sở kế thừa có phê phán kinh tế chính trị cổ điển.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 12,
+      "text": "C. Mác trực tiếp kế thừa thành quả khoa học của David Ricardo để phát triển lý luận kinh tế chính trị của mình."
+    }
+  },
+  {
+    "id": "C01-Q009",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Bộ Tư bản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Lý luận kinh tế chính trị của C. Mác và Ph. Ăngghen được thể hiện tập trung, cô đọng nhất trong công trình nào?",
+    "options": [
+      "Bộ Tư bản của C. Mác",
+      "Bảng kinh tế của François Quesnay",
+      "Của cải của các quốc gia của Adam Smith",
+      "Những nguyên lý của kinh tế chính trị học và thuế khóa của David Ricardo"
+    ],
+    "answer": 0,
+    "explanation": "Bộ Tư bản trình bày chỉnh thể các phạm trù, quy luật kinh tế và quan hệ xã hội của nền kinh tế thị trường tư bản chủ nghĩa.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 13,
+      "text": "Lý luận kinh tế chính trị của C. Mác và Ph. Ăngghen tập trung, cô đọng nhất trong bộ Tư bản.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 13
+      }
+    }
+  },
+  {
+    "id": "C01-Q010",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Bước nhảy vọt lý luận của C. Mác",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao phát hiện tính hai mặt của lao động sản xuất hàng hóa được xem là bước nhảy vọt của C. Mác so với David Ricardo?",
+    "options": [
+      "Phát hiện này cho phép đồng nhất giá trị hàng hóa với toàn bộ của cải vật chất",
+      "Phát hiện này tạo tiền đề để luận giải khoa học học thuyết giá trị thặng dư",
+      "Phát hiện này chứng minh giá trị thặng dư chỉ nảy sinh từ trao đổi không ngang giá",
+      "Phát hiện này loại bỏ nhu cầu phân tích quan hệ xã hội giữa các giai cấp"
+    ],
+    "answer": 1,
+    "explanation": "Việc phát hiện tính hai mặt của lao động sản xuất hàng hóa tạo tiền đề để C. Mác giải thích khoa học lý luận giá trị thặng dư.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 13,
+      "text": "Phát hiện tính hai mặt của lao động sản xuất hàng hóa là tiền đề cho lý luận khoa học về giá trị thặng dư."
+    }
+  },
+  {
+    "id": "C01-Q011",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Đóng góp của V.I. Lênin",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhóm nội dung nào phản ánh đúng những đóng góp nổi bật của V.I. Lênin vào kinh tế chính trị Mác?",
+    "options": [
+      "Hành vi của người tiêu dùng, quyết định của người sản xuất và các đại lượng lớn của nền kinh tế",
+      "Giá trị do lao động tạo ra, sự khác nhau giữa giá trị với của cải và các quy luật tái sản xuất",
+      "Đặc điểm kinh tế của độc quyền, độc quyền nhà nước và thời kỳ quá độ lên chủ nghĩa xã hội",
+      "Nguồn gốc thương nghiệp của lợi nhuận, cân bằng ngoại thương và tích lũy của cải tiền tệ"
+    ],
+    "answer": 2,
+    "explanation": "V.I. Lênin nổi bật với nghiên cứu về độc quyền, độc quyền nhà nước trong chủ nghĩa tư bản và các vấn đề kinh tế chính trị của thời kỳ quá độ lên chủ nghĩa xã hội.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 14,
+      "text": "V.I. Lênin phát triển lý luận về độc quyền, độc quyền nhà nước và kinh tế chính trị của thời kỳ quá độ lên chủ nghĩa xã hội.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 15
+      }
+    }
+  },
+  {
+    "id": "C01-Q012",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Vận dụng lịch sử phát triển lý luận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề tài vận dụng phương pháp luận của C. Mác để phân tích độc quyền nhà nước cuối thế kỷ XIX - đầu thế kỷ XX và các vấn đề kinh tế của thời kỳ quá độ lên chủ nghĩa xã hội. Đề tài này tiếp nối trực tiếp hướng đóng góp nổi bật của ai?",
+    "options": [
+      "C. Mác",
+      "Adam Smith",
+      "David Ricardo",
+      "V.I. Lênin"
+    ],
+    "answer": 3,
+    "explanation": "Hai nội dung của đề tài trùng với những hướng V.I. Lênin đã bổ sung và phát triển trên cơ sở phương pháp luận của C. Mác.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 14,
+      "text": "Đóng góp của V.I. Lênin gồm nghiên cứu độc quyền, độc quyền nhà nước và thời kỳ quá độ lên chủ nghĩa xã hội.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 15
+      }
+    }
+  },
+  {
+    "id": "C01-Q013",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Đối tượng nghiên cứu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào xác định đầy đủ nhất đối tượng nghiên cứu của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Quan hệ xã hội của sản xuất và trao đổi trong liên hệ với lực lượng sản xuất và kiến trúc thượng tầng",
+      "Kỹ thuật tổ chức sản xuất và công nghệ chế tạo trong liên hệ với thiết bị và nguyên vật liệu",
+      "Hành vi lựa chọn cá nhân trên thị trường trong liên hệ với sở thích và giới hạn ngân sách",
+      "Biến động chỉ tiêu tài chính quốc gia trong liên hệ với kế toán và thống kê kinh tế"
+    ],
+    "answer": 0,
+    "explanation": "Đối tượng của môn học là các quan hệ xã hội của sản xuất và trao đổi, được đặt trong liên hệ biện chứng với lực lượng sản xuất và kiến trúc thượng tầng tương ứng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 19,
+      "text": "Đối tượng nghiên cứu là quan hệ xã hội của sản xuất và trao đổi trong liên hệ biện chứng với lực lượng sản xuất và kiến trúc thượng tầng."
+    }
+  },
+  {
+    "id": "C01-Q014",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Kinh tế chính trị theo nghĩa hẹp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo nghĩa hẹp, kinh tế chính trị nghiên cứu nội dung nào?",
+    "options": [
+      "Những quy luật chung của mọi hoạt động vật chất trong toàn bộ lịch sử loài người",
+      "Quan hệ sản xuất và trao đổi trong một phương thức sản xuất nhất định",
+      "Các thao tác kỹ thuật để tạo sản phẩm trong một ngành sản xuất cụ thể",
+      "Các quyết định tiêu dùng riêng lẻ tách khỏi phương thức sản xuất tương ứng"
+    ],
+    "answer": 1,
+    "explanation": "Cách hiểu theo nghĩa hẹp giới hạn việc nghiên cứu ở quan hệ sản xuất và trao đổi của một phương thức sản xuất nhất định.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 17,
+      "text": "Theo nghĩa hẹp, kinh tế chính trị nghiên cứu quan hệ sản xuất và trao đổi trong một phương thức sản xuất nhất định.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 18
+      }
+    }
+  },
+  {
+    "id": "C01-Q015",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Mặt xã hội của sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một nhóm nghiên cứu chỉ mô tả máy móc, quy trình và sản lượng của nhà máy mà không phân tích quan hệ giữa người với người. Vì sao cách tiếp cận này chưa thuộc trọng tâm của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Vì môn học chỉ nghiên cứu các quan hệ xã hội phát sinh trong riêng lĩnh vực nông nghiệp",
+      "Vì môn học chỉ chấp nhận dữ liệu về quan hệ xã hội và loại bỏ mọi số liệu về sản lượng",
+      "Vì môn học nghiên cứu quan hệ xã hội của sản xuất và trao đổi, không lấy biểu hiện kỹ thuật làm đối tượng",
+      "Vì môn học chỉ nghiên cứu các quan hệ xã hội trong lưu thông và loại bỏ quan hệ trong sản xuất"
+    ],
+    "answer": 2,
+    "explanation": "Kinh tế chính trị tập trung vào hệ thống quan hệ xã hội giữa người với người trong sản xuất và trao đổi, chứ không lấy biểu hiện kỹ thuật tự thân làm đối tượng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 18,
+      "text": "Kinh tế chính trị nghiên cứu hệ thống quan hệ xã hội của sản xuất và trao đổi, không nghiên cứu biểu hiện kỹ thuật của chúng."
+    }
+  },
+  {
+    "id": "C01-Q016",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Mối liên hệ của đối tượng nghiên cứu",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Thiết kế nghiên cứu nào thể hiện đúng cách đặt đối tượng của kinh tế chính trị Mác - Lênin trong mối liên hệ biện chứng?",
+    "options": [
+      "Chỉ phân tích cấu tạo, năng suất máy móc và coi đó là toàn bộ nội dung của quan hệ sản xuất",
+      "Chỉ phân tích văn bản pháp luật, cơ quan quản lý và coi đó là toàn bộ nội dung của quan hệ kinh tế",
+      "Phân tích quan hệ sở hữu, quản lý, phân phối nhưng tách chúng khỏi công nghệ và thể chế tương ứng",
+      "Phân tích quan hệ sở hữu, quản lý, phân phối gắn với trình độ công nghệ và thể chế tương ứng"
+    ],
+    "answer": 3,
+    "explanation": "Môn học nghiên cứu các quan hệ xã hội của sản xuất và trao đổi trong liên hệ với trình độ lực lượng sản xuất và kiến trúc thượng tầng tương ứng, không đồng nhất đối tượng với hai yếu tố đó.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 19,
+      "text": "Các quan hệ sở hữu, quản lý và phân phối thuộc đối tượng nghiên cứu khi được đặt trong liên hệ biện chứng với lực lượng sản xuất và kiến trúc thượng tầng tương ứng."
+    }
+  },
+  {
+    "id": "C01-Q017",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Vận dụng xác định đối tượng nghiên cứu",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi khảo sát một nhà máy đang tự động hóa, câu hỏi nào phù hợp nhất với đối tượng nghiên cứu của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Tự động hóa làm thay đổi quan hệ sở hữu, quản lý và phân phối giữa các chủ thể như thế nào?",
+      "Loại cảm biến nào giúp cánh tay máy đạt độ chính xác và tốc độ vận hành cao nhất?",
+      "Cách bố trí dây chuyền nào giảm tiêu hao điện và thời gian vận hành thiết bị nhiều nhất?",
+      "Loại hợp kim nào tăng tuổi thọ và độ ổn định cơ học của bộ phận truyền động tốt nhất?"
+    ],
+    "answer": 0,
+    "explanation": "Câu hỏi đúng tập trung vào các quan hệ xã hội của sản xuất khi lực lượng sản xuất thay đổi; ba câu còn lại chỉ khảo sát kỹ thuật sản xuất.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 19,
+      "text": "Đối tượng bao gồm các quan hệ sở hữu, quản lý và phân phối trong liên hệ với trình độ lực lượng sản xuất."
+    }
+  },
+  {
+    "id": "C01-Q018",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Mục đích nghiên cứu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục đích nghiên cứu ở cấp độ cao nhất của kinh tế chính trị Mác - Lênin là gì?",
+    "options": [
+      "Ghi chép mọi biến động kinh tế quan sát được mà không khái quát quy luật",
+      "Phát hiện các quy luật chi phối quan hệ giữa người với người trong sản xuất và trao đổi",
+      "Xây dựng một chính sách kinh tế bất biến cho mọi quốc gia và mọi thời đại",
+      "Tối đa hóa lợi nhuận riêng của từng doanh nghiệp trong mọi điều kiện thị trường"
+    ],
+    "answer": 1,
+    "explanation": "Mục đích cao nhất là phát hiện các quy luật chi phối quan hệ giữa người với người trong sản xuất và trao đổi để các chủ thể có thể vận dụng chúng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 20,
+      "text": "Mục đích cao nhất là phát hiện quy luật chi phối quan hệ giữa người với người trong sản xuất và trao đổi.",
+      "slide": {
+        "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt",
+        "number": 19
+      }
+    }
+  },
+  {
+    "id": "C01-Q019",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Quy luật kinh tế và chính sách kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm phân biệt cơ bản giữa quy luật kinh tế và chính sách kinh tế là gì?",
+    "options": [
+      "Quy luật và chính sách đều tồn tại khách quan, độc lập với ý chí nên con người không thể thay đổi chúng",
+      "Quy luật là sản phẩm chủ quan có thể thay thế, còn chính sách tồn tại khách quan và không thể thay đổi",
+      "Quy luật tồn tại khách quan, còn chính sách là sản phẩm chủ quan có thể phù hợp hoặc không phù hợp với quy luật",
+      "Quy luật và chính sách đều là sản phẩm chủ quan nên có thể được ban hành hoặc thủ tiêu bằng quyết định"
+    ],
+    "answer": 2,
+    "explanation": "Quy luật kinh tế tồn tại khách quan; chính sách kinh tế do con người ban hành trên cơ sở vận dụng quy luật nên có thể phù hợp hoặc không phù hợp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 21,
+      "text": "Quy luật kinh tế khách quan, còn chính sách kinh tế là sản phẩm chủ quan được hình thành trên cơ sở vận dụng quy luật."
+    }
+  },
+  {
+    "id": "C01-Q020",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Cơ chế tác động của quy luật kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quy luật kinh tế tác động đến hành vi con người trong xã hội theo cơ chế nào?",
+    "options": [
+      "Trực tiếp làm thay đổi công cụ sản xuất, từ đó quyết định toàn bộ hành vi của các chủ thể",
+      "Tự động thay thế chính sách đã ban hành, từ đó điều chỉnh các hoạt động của con người",
+      "Loại bỏ động cơ lợi ích khỏi quyết định kinh tế, từ đó làm hành vi trở nên khách quan",
+      "Tác động vào động cơ và quan hệ lợi ích của con người, từ đó điều chỉnh hành vi của các chủ thể"
+    ],
+    "answer": 3,
+    "explanation": "Quy luật kinh tế phát huy tác động thông qua hoạt động của con người, cụ thể là tác động vào động cơ và quan hệ lợi ích để điều chỉnh hành vi.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 21,
+      "text": "Quy luật kinh tế tác động vào động cơ và quan hệ lợi ích của con người, qua đó điều chỉnh hành vi."
+    }
+  },
+  {
+    "id": "C01-Q021",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Vận dụng quy luật kinh tế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chính sách kinh tế cho kết quả trái với mục tiêu vì không phù hợp với quy luật kinh tế khách quan. Theo giáo trình, chủ thể ban hành nên xử lý thế nào?",
+    "options": [
+      "Nhận thức lại quy luật và thay thế chính sách bằng một chính sách phù hợp hơn",
+      "Dùng mệnh lệnh hành chính để tạm đình chỉ sự tác động của quy luật kinh tế",
+      "Giữ nguyên chính sách và quy định lại quy luật theo mục tiêu chủ quan đã đặt ra",
+      "Loại bỏ mọi quan hệ lợi ích để chính sách không còn chịu tác động của quy luật"
+    ],
+    "answer": 0,
+    "explanation": "Con người không thể thay đổi quy luật khách quan; khi chính sách không phù hợp, cần thay đổi hành vi và có thể ban hành chính sách khác để thay thế.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 21,
+      "text": "Khi vận dụng sai, con người phải đổi hành vi; chính sách không phù hợp có thể được thay bằng chính sách khác."
+    }
+  },
+  {
+    "id": "C01-Q022",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Phương pháp trừu tượng hóa khoa học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp nào được giáo trình xác định là phương pháp chủ yếu của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Phương pháp thống kê và so sánh",
+      "Phương pháp trừu tượng hóa khoa học",
+      "Phương pháp quy nạp và diễn dịch",
+      "Phương pháp khảo sát và mô hình hóa"
+    ],
+    "answer": 1,
+    "explanation": "Trong số nhiều phương pháp được sử dụng, trừu tượng hóa khoa học là phương pháp chủ yếu vì đối tượng nghiên cứu phức tạp và không thể khảo sát bằng phòng thí nghiệm như khoa học tự nhiên.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 23,
+      "text": "Trừu tượng hóa khoa học được sử dụng như phương pháp chủ yếu của kinh tế chính trị Mác - Lênin."
+    }
+  },
+  {
+    "id": "C01-Q023",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Phép biện chứng duy vật",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách xem xét nào phù hợp với việc vận dụng phép biện chứng duy vật trong nghiên cứu kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Cô lập từng hiện tượng kinh tế, xem chúng đứng yên và giữ nguyên hình thức trong mọi thời kỳ",
+      "Quy mọi biến đổi kinh tế về mong muốn chủ quan và động cơ riêng của một cá nhân cụ thể",
+      "Xem các hiện tượng kinh tế luôn hình thành, phát triển, chuyển hóa và liên hệ trong điều kiện lịch sử cụ thể",
+      "Tìm một hình thức quan hệ kinh tế bất biến, tách khỏi điều kiện lịch sử của mọi phương thức sản xuất"
+    ],
+    "answer": 2,
+    "explanation": "Phép biện chứng duy vật đòi hỏi xem hiện tượng và quá trình kinh tế trong sự hình thành, phát triển, chuyển hóa, tác động lẫn nhau và trong điều kiện lịch sử nhất định.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 22,
+      "text": "Phép biện chứng duy vật xem các hiện tượng kinh tế trong vận động, chuyển hóa, liên hệ và điều kiện lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "C01-Q024",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Nội dung của trừu tượng hóa khoa học",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Thao tác nào mô tả đúng phương pháp trừu tượng hóa khoa học?",
+    "options": [
+      "Gạt bỏ dấu hiệu ổn định, trực tiếp và giữ lại những biểu hiện ngẫu nhiên, tạm thời của đối tượng",
+      "Giữ lại yếu tố tạm thời, gián tiếp và loại bỏ những dấu hiệu điển hình, bền vững của đối tượng",
+      "Tập hợp mọi biểu hiện bề mặt và xem các yếu tố đều phản ánh bản chất của đối tượng như nhau",
+      "Gạt bỏ yếu tố ngẫu nhiên, tạm thời, gián tiếp để tách ra dấu hiệu điển hình, bền vững, trực tiếp"
+    ],
+    "answer": 3,
+    "explanation": "Trừu tượng hóa khoa học loại khỏi nghiên cứu những yếu tố ngẫu nhiên, tạm thời, gián tiếp để nhận ra các dấu hiệu điển hình, ổn định và trực tiếp của đối tượng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 23,
+      "text": "Trừu tượng hóa gạt bỏ yếu tố ngẫu nhiên, tạm thời, gián tiếp và tách ra dấu hiệu điển hình, bền vững, trực tiếp."
+    }
+  },
+  {
+    "id": "C01-Q025",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Giới hạn của trừu tượng hóa khoa học",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi nghiên cứu quan hệ lợi ích giữa người lao động và người sử dụng sức lao động, cách trừu tượng hóa nào giữ đúng bản chất đối tượng?",
+    "options": [
+      "Gạt bỏ tình cảm cá nhân nhưng giữ lại lợi ích kinh tế mà mỗi chủ thể nhận được",
+      "Gạt bỏ lợi ích kinh tế nhưng giữ lại tình cảm cá nhân giữa hai chủ thể",
+      "Gạt bỏ cả lợi ích kinh tế lẫn tình cảm cá nhân để quan hệ trở nên đơn giản",
+      "Giữ lại mọi yếu tố tình cảm và lợi ích mà không xác định yếu tố nào là bản chất"
+    ],
+    "answer": 0,
+    "explanation": "Tình cảm cá nhân có thể là yếu tố ngẫu nhiên trong trường hợp này, còn lợi ích kinh tế là yếu tố phản ánh trực tiếp bản chất nên không thể bị loại bỏ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 24,
+      "text": "Có thể gạt bỏ tình cảm cá nhân nhưng không thể gạt bỏ lợi ích kinh tế trong nghiên cứu quan hệ lợi ích lao động."
+    }
+  },
+  {
+    "id": "C01-Q026",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Chức năng nhận thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Biểu hiện nào trực tiếp thuộc chức năng nhận thức của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Củng cố lý tưởng và niềm tin hướng tới một xã hội tốt đẹp hơn",
+      "Cung cấp tri thức lý luận về các quan hệ kinh tế và quy luật chi phối chúng",
+      "Làm nền tảng lý luận để hiểu sâu các phạm trù của khoa học kinh tế chuyên ngành",
+      "Hình thành kỹ năng vận dụng quy luật vào hoạt động lao động và quản trị quốc gia"
+    ],
+    "answer": 1,
+    "explanation": "Chức năng nhận thức thể hiện ở việc cung cấp hệ thống tri thức lý luận về quan hệ sản xuất, trao đổi và các quy luật vận động của chúng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 25,
+      "text": "Chức năng nhận thức cung cấp tri thức lý luận về quan hệ sản xuất, trao đổi và các quy luật chi phối chúng."
+    }
+  },
+  {
+    "id": "C01-Q027",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Chức năng tư tưởng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào thuộc chức năng tư tưởng của kinh tế chính trị Mác - Lênin?",
+    "options": [
+      "Khái quát các quy luật khách quan từ những hiện tượng kinh tế trên bề mặt xã hội",
+      "Rèn luyện năng lực điều chỉnh chính sách phù hợp với quy luật kinh tế khách quan",
+      "Bồi dưỡng sự quý trọng lao động, yêu tự do, hòa bình và niềm tin vào mục tiêu tiến bộ",
+      "Cung cấp nền tảng khái niệm để nghiên cứu sâu các môn kinh tế học chuyên ngành"
+    ],
+    "answer": 2,
+    "explanation": "Chức năng tư tưởng góp phần xây dựng nền tảng tư tưởng tiến bộ, sự quý trọng lao động, yêu tự do, hòa bình và niềm tin vào mục tiêu xã hội tốt đẹp.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 26,
+      "text": "Chức năng tư tưởng bồi dưỡng sự quý trọng lao động, yêu tự do, hòa bình và niềm tin vào mục tiêu tiến bộ."
+    }
+  },
+  {
+    "id": "C01-Q028",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Chức năng phương pháp luận",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao việc dùng lý luận kinh tế chính trị để giải thích cội nguồn, bản chất và các chức năng khách quan của tiền thể hiện chức năng phương pháp luận?",
+    "options": [
+      "Vì kinh tế chính trị thay thế hoàn toàn mọi lý thuyết tiền tệ của khoa học chuyên ngành",
+      "Vì kinh tế chính trị chứng minh tiền chỉ là quy ước do tâm lý chủ quan tạo ra",
+      "Vì kinh tế chính trị giới hạn nghiên cứu tiền ở số lượng phương tiện thanh toán đang lưu hành",
+      "Vì kinh tế chính trị cung cấp nền tảng lý luận để hiểu sâu bản chất của phạm trù chuyên ngành"
+    ],
+    "answer": 3,
+    "explanation": "Chức năng phương pháp luận cung cấp nền tảng lý luận để các khoa học chuyên ngành nhận diện sâu hơn bản chất và mối liên hệ của phạm trù như tiền tệ.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 27,
+      "text": "Lý luận kinh tế chính trị là nền tảng để hiểu cội nguồn, bản chất và chức năng khách quan của tiền tệ."
+    }
+  },
+  {
+    "id": "C01-Q029",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Vận dụng chức năng thực tiễn",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhà hoạch định sau khi nhận thức quy luật kinh tế đã điều chỉnh chính sách để hài hòa quan hệ lợi ích và thúc đẩy phát triển. Trường hợp này thể hiện trực tiếp chức năng nào?",
+    "options": [
+      "Chức năng thực tiễn",
+      "Chức năng nhận thức",
+      "Chức năng tư tưởng",
+      "Chức năng phương pháp luận"
+    ],
+    "answer": 0,
+    "explanation": "Việc biến tri thức về quy luật thành hành động điều chỉnh chính sách là biểu hiện trực tiếp của chức năng thực tiễn.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 26,
+      "text": "Chức năng thực tiễn thể hiện ở việc vận dụng quy luật qua hành vi hoặc chính sách để thúc đẩy phát triển và hài hòa lợi ích."
+    }
+  },
+  {
+    "id": "C01-Q030",
+    "chapter": "Chương 1 · Slot 1: Khái quát môn học",
+    "chapterNum": 1,
+    "topic": "Vận dụng chức năng tư tưởng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình giáo dục dùng tri thức kinh tế chính trị Mác - Lênin để bồi dưỡng thái độ quý trọng thành quả lao động, yêu tự do, hòa bình và hướng tới công bằng. Chương trình đang phát huy trực tiếp chức năng nào?",
+    "options": [
+      "Chức năng thực tiễn",
+      "Chức năng tư tưởng",
+      "Chức năng nhận thức",
+      "Chức năng phương pháp luận"
+    ],
+    "answer": 1,
+    "explanation": "Các định hướng về thái độ, niềm tin và lý tưởng tiến bộ là nội dung trực tiếp của chức năng tư tưởng.",
+    "source": {
+      "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+      "page": 26,
+      "text": "Chức năng tư tưởng góp phần hình thành sự quý trọng lao động, yêu tự do, hòa bình và hướng tới công bằng, văn minh."
+    }
+  }
+]

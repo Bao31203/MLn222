@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLN222 — Ôn tập Kinh tế chính trị Mác-Lênin</title>
+<style>
+  :root{
+    --bg:#11130f; --panel:#1a1d18; --panel2:#22271f; --border:#31372d;
+    --text:#f0efe8; --muted:#adb3a5; --accent:#d9b86c; --accent2:#566a2d;
+    --ok:#51c878; --okbg:#173723; --bad:#ff776d; --badbg:#3c1e1b; --warn:#f0c86a;
+    --radius:8px; --focus:#f4d58a; --control-border:#6d7768;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100dvh;font-family:"Aptos","Segoe UI Variable","Segoe UI",sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.55;letter-spacing:0;}
+  button,select,input{font:inherit;touch-action:manipulation}
+  button{letter-spacing:0}
+  .skip-link{position:fixed;left:12px;top:8px;z-index:10;transform:translateY(-140%);
+    background:var(--accent);color:#17150f;padding:8px 12px;border-radius:6px;font-weight:700;}
+  .skip-link:focus{transform:translateY(0)}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .wrap{max-width:880px;margin:0 auto;padding:20px 16px 80px;}
+  header{border-bottom:1px solid var(--border);margin-bottom:12px;padding-bottom:12px}
+  header h1{font-size:1.35rem;line-height:1.2;margin:0 0 4px;font-weight:750;}
+  header .sub{color:var(--muted);font-size:.88rem;}
+  /* Tabs */
+  .tabs{display:flex;gap:4px;background:var(--panel);padding:4px;border:1px solid var(--border);
+    border-radius:var(--radius);margin-bottom:12px;}
+  .tabs button{flex:1;min-height:44px;padding:9px 12px;border:1px solid transparent;border-radius:6px;
+    background:transparent;color:var(--muted);font-weight:650;cursor:pointer;font-size:.95rem;
+    transition:background-color .18s,color .18s,border-color .18s;}
+  .tabs button:hover{color:var(--text);background:var(--panel2)}
+  .tabs button.active{background:var(--accent2);border-color:#87995c;color:#fff;}
+  /* Controls */
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;}
+  select,input[type=text]{background:var(--panel);color:var(--text);border:1px solid var(--control-border);
+    border-radius:6px;min-height:44px;padding:9px 11px;font-size:1rem;}
+  input[type=text]{flex:1;min-width:160px;}
+  .toggle{min-height:44px;background:var(--panel);border:1px solid var(--control-border);color:var(--muted);
+    padding:8px 12px;border-radius:6px;font-size:.86rem;cursor:pointer;user-select:none;}
+  .toggle:hover{border-color:var(--accent);color:var(--text)}
+  .toggle.on{background:var(--accent2);color:#fff;border-color:#87995c;}
+  .btn{background:var(--panel2);border:1px solid var(--control-border);color:var(--text);
+    min-height:44px;padding:9px 14px;border-radius:6px;cursor:pointer;font-size:.9rem;font-weight:650;
+    transition:transform .12s,border-color .18s,background-color .18s;}
+  .btn:hover{border-color:var(--accent);}
+  .btn:active,.toggle:active,.tabs button:active{transform:translateY(1px)}
+  .btn.primary{background:var(--accent2);border-color:var(--accent2);color:#fff;}
+  .btn:disabled{opacity:.4;cursor:not-allowed;}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  /* Stat bar */
+  .statbar{display:flex;gap:14px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);
+    border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:9px 2px;margin-bottom:10px;}
+  .statbar b{color:var(--text);}
+  .progress{height:7px;background:var(--panel2);border-radius:999px;overflow:hidden;margin-bottom:14px;}
+  .progress>i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s;}
+  /* Card */
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;}
+  .qmeta{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;color:var(--muted);
+    font-size:.78rem;margin-bottom:8px;}
+  .meta-main{min-width:0}
+  .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+  .badge{display:inline-flex;align-items:center;min-height:24px;padding:2px 7px;border:1px solid var(--border);
+    border-radius:4px;color:var(--muted);background:var(--panel2);font-size:.74rem}
+  .badge.level{border-color:#5f6b37;color:#d8ddb9}
+  .star{flex:none;width:44px;height:44px;border:1px solid var(--control-border);border-radius:6px;background:var(--panel2);
+    color:var(--muted);cursor:pointer;font-size:1.2rem;line-height:1;}
+  .star.on{color:var(--warn);border-color:#74643a;}
+  .stem{font-size:1.08rem;font-weight:650;line-height:1.55;margin-bottom:14px;white-space:pre-wrap;
+    text-wrap:pretty;}
+  .opts{display:flex;flex-direction:column;gap:9px;}
+  .opt{display:flex;gap:10px;align-items:flex-start;text-align:left;width:100%;
+    background:var(--panel2);border:1.5px solid var(--control-border);color:var(--text);
+    min-height:48px;padding:12px 13px;border-radius:7px;cursor:pointer;font-size:.97rem;
+    line-height:1.5;transition:transform .12s,border-color .18s,background-color .18s;}
+  .opt:hover:not(.locked){border-color:var(--accent);}
+  .opt:active:not(.locked){transform:translateY(1px)}
+  .opt .lbl{font-weight:700;color:var(--muted);flex:none;}
+  .opt span:last-child{min-width:0;overflow-wrap:anywhere;}
+  .opt.correct{background:var(--okbg);border-color:var(--ok);}
+  .opt.correct .lbl{color:var(--ok);}
+  .opt.wrong{background:var(--badbg);border-color:var(--bad);}
+  .opt.wrong .lbl{color:var(--bad);}
+  .opt.locked{cursor:default;}
+  .opt:disabled{opacity:1;color:var(--text);}
+  .feedback{margin-top:14px;font-weight:650;font-size:.95rem;min-height:1.45em;}
+  .feedback.ok{color:var(--ok);} .feedback.bad{color:var(--bad);}
+  .review{margin-top:12px;border-top:1px solid var(--border);padding-top:12px}
+  .review-title{font-size:.8rem;color:var(--accent);font-weight:750;margin-bottom:3px}
+  .explanation{margin:0;color:var(--text);font-size:.94rem;line-height:1.6;text-wrap:pretty}
+  .source{margin-top:10px;color:var(--muted);font-size:.82rem;border-left:3px solid var(--border);padding-left:10px;}
+  .source b{color:var(--text);font-weight:700;}
+  .nav{display:flex;justify-content:space-between;gap:10px;margin-top:16px;}
+  /* Search results */
+  .result{border-bottom:1px solid var(--border);padding:16px 2px;margin-bottom:0;}
+  .result .stem{font-size:.98rem;}
+  .result .ans{color:var(--ok);font-weight:600;margin-top:6px;font-size:.92rem;}
+  .result .explain{color:var(--text);font-size:.88rem;margin-top:8px}
+  .result .meta{color:var(--muted);font-size:.76rem;margin-bottom:6px;}
+  .stem,.explanation,.source,.result .meta,.result .ans,.result .explain,#qtag{overflow-wrap:anywhere;}
+  .empty{color:var(--muted);text-align:center;padding:40px 10px;}
+  .hidden{display:none;}
+  mark{background:var(--warn);color:#17150f;padding:0 2px;border-radius:2px;}
+  footer{text-align:center;color:var(--muted);font-size:.75rem;margin-top:24px;}
+  @media(max-width:680px){
+    .wrap{padding:12px 10px 56px}.controls{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+    .controls select,.controls input[type=text]{width:100%;min-width:0}.controls input[type=text]{grid-column:1/-1}
+    .card{padding:14px}.stem{font-size:1rem}.qmeta{align-items:flex-start}.tabs button{padding-inline:6px}
+    .nav .btn{flex:1}.statbar{gap:8px 12px}.source{font-size:.8rem}
+  }
+  @media(max-width:430px){.controls{grid-template-columns:1fr}.controls input[type=text]{grid-column:auto}}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+<main class="wrap" id="main">
+  <header>
+    <h1>MLN222</h1>
+    <div class="sub">Ôn tập Kinh tế chính trị Mác-Lênin — <span id="total">0</span> câu hỏi</div>
+  </header>
+
+  <nav class="tabs" aria-label="Chế độ học">
+    <button data-mode="quiz" class="active" aria-pressed="true">Luyện thi</button>
+    <button data-mode="flash" aria-pressed="false">Flashcard</button>
+    <button data-mode="search" aria-pressed="false">Tìm kiếm</button>
+  </nav>
+
+  <!-- QUIZ / FLASHCARD shared controls -->
+  <div id="studyControls">
+    <div class="controls">
+      <label class="sr-only" for="chapter">Chương</label>
+      <select id="chapter" aria-label="Lọc theo chương"></select>
+      <label class="sr-only" for="difficulty">Mức độ</label>
+      <select id="difficulty" aria-label="Lọc theo mức độ"></select>
+      <button class="toggle" id="cShuffle" aria-pressed="false">Xáo trộn</button>
+      <button class="toggle" id="cMarked" aria-pressed="false">Đã đánh dấu</button>
+      <button class="toggle" id="cWrong" aria-pressed="false">Hay sai</button>
+      <button class="btn" id="resetBtn" title="Xóa tiến độ và thống kê">Reset</button>
+    </div>
+    <div class="statbar">
+      <span>Câu <b id="pos">0</b>/<b id="poolN">0</b></span>
+      <span id="scoreWrap">Điểm: <b id="score">0</b>/<b id="answered">0</b> (<b id="pct">0</b>%)</span>
+      <span>Đã làm toàn bộ: <b id="seenAll">0</b> · Đánh dấu: <b id="markN">0</b></span>
+    </div>
+    <div class="progress"><i id="bar"></i></div>
+
+    <div class="card" id="card">
+      <div class="qmeta">
+        <div class="meta-main">
+          <span id="qtag"></span>
+          <div class="badges"><span class="badge level" id="qlevel"></span><span class="badge" id="qtopic"></span></div>
+        </div>
+        <button class="star" id="star" title="Đánh dấu câu khó" aria-label="Đánh dấu câu khó" aria-pressed="false">☆</button>
+      </div>
+      <div class="stem" id="stem" tabindex="-1"></div>
+      <div class="opts" id="opts"></div>
+      <div class="feedback" id="feedback" role="status" aria-live="polite" tabindex="-1"></div>
+      <div class="review hidden" id="review">
+        <div class="review-title">Giải thích</div>
+        <p class="explanation" id="explanation"></p>
+        <div class="source" id="source"></div>
+      </div>
+      <div class="nav">
+        <button class="btn" id="prevBtn">← Câu trước</button>
+        <button class="btn primary" id="nextBtn">Câu sau →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEARCH -->
+  <div id="searchPanel" class="hidden">
+    <div class="controls">
+      <label class="sr-only" for="searchInput">Từ khóa tìm kiếm</label>
+      <input type="text" id="searchInput" placeholder="Tìm chủ đề, câu hỏi, đáp án hoặc nguồn" autocomplete="off" aria-describedby="searchStatus">
+    </div>
+    <div class="sr-only" id="searchStatus" role="status" aria-live="polite"></div>
+    <div id="searchResults"></div>
+  </div>
+
+  <footer>Nội dung được biên soạn từ tài liệu MLN222 · Tiến độ lưu trên trình duyệt này.</footer>
+</main>
+
+<script>
+/* ====== DATA (embedded) ====== */
+const QUESTIONS = /*__QUESTIONS__*/[];
+const LETTERS = ["A","B","C","D"];
+const KIND_LABELS = {
+  nhan_biet_khai_niem:"Khái niệm",
+  thong_hieu_phan_biet:"Phân biệt",
+  trinh_tu_quan_he:"Quan hệ",
+  van_dung_tinh_huong:"Tình huống",
+  van_dung_tinh_toan:"Tính toán",
+};
+
+/* ====== Persistent store (localStorage) ====== */
+const QUESTION_IDS = new Set(QUESTIONS.map(q=>q.id));
+function readStoredJson(key,fallback){
+  try{
+    const raw=window.localStorage.getItem(key);
+    return raw===null ? fallback : JSON.parse(raw);
+  }catch(_error){ return fallback; }
+}
+function loadMarked(){
+  const value=readStoredJson("mln222.v2.marked",[]);
+  return new Set(Array.isArray(value)?value.filter(id=>typeof id==="string"&&QUESTION_IDS.has(id)):[]);
+}
+function loadStats(){
+  const value=readStoredJson("mln222.v2.stats",{});
+  const clean={};
+  if(!value||typeof value!=="object"||Array.isArray(value)) return clean;
+  Object.entries(value).forEach(([id,stat])=>{
+    if(!QUESTION_IDS.has(id)||!stat||typeof stat!=="object"||Array.isArray(stat)) return;
+    const c=Number.isSafeInteger(stat.c)&&stat.c>=0?stat.c:0;
+    const w=Number.isSafeInteger(stat.w)&&stat.w>=0?stat.w:0;
+    clean[id]={c,w};
+  });
+  return clean;
+}
+const LS = {
+  marked:loadMarked(),
+  stats:loadStats(), // id -> {c,w}
+  save(){
+    try{
+      window.localStorage.setItem("mln222.v2.marked",JSON.stringify([...this.marked]));
+      window.localStorage.setItem("mln222.v2.stats",JSON.stringify(this.stats));
+    }catch(_error){ /* Continue with in-memory progress when storage is unavailable. */ }
+  },
+  clear(){
+    try{
+      window.localStorage.removeItem("mln222.v2.marked");
+      window.localStorage.removeItem("mln222.v2.stats");
+    }catch(_error){ /* In-memory state is still reset below. */ }
+  },
+  stat(id){ return this.stats[id] || (this.stats[id]={c:0,w:0}); },
+};
+
+/* ====== App state ====== */
+const state = {
+  mode:"quiz", chapter:"all", difficulty:"all",
+  shuffle:false, onlyMarked:false, onlyWrong:false,
+  pool:[], idx:0,
+  answered:{}, // poolPosition -> chosen index (session, for navigation)
+  sessSeen:0, sessCorrect:0, flashRevealed:-1,
+};
+
+/* ====== Helpers ====== */
+const $=s=>document.querySelector(s);
+const shuffleArr=a=>{for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+
+function buildChapterSelect(){
+  const sel=$("#chapter");
+  const chaps=[...new Set(QUESTIONS.map(q=>q.chapter))];
+  let html='<option value="all">Tất cả chương</option>';
+  chaps.forEach(c=>{
+    const n=QUESTIONS.filter(q=>q.chapter===c).length;
+    html+=`<option value="${escapeHtml(c)}">${escapeHtml(c)} (${n})</option>`;
+  });
+  sel.innerHTML=html;
+}
+
+function buildDifficultySelect(){
+  const sel=$("#difficulty");
+  const levels=[...new Set(QUESTIONS.map(q=>q.difficulty))];
+  sel.innerHTML='<option value="all">Tất cả mức độ</option>'+levels.map(level=>
+    `<option value="${escapeHtml(level)}">${escapeHtml(level)}</option>`
+  ).join("");
+}
+
+function buildPool(){
+  let pool=QUESTIONS.filter(q=>{
+    if(state.chapter!=="all" && q.chapter!==state.chapter) return false;
+    if(state.difficulty!=="all" && q.difficulty!==state.difficulty) return false;
+    if(state.onlyMarked && !LS.marked.has(q.id)) return false;
+    if(state.onlyWrong){ const s=LS.stats[q.id]; if(!s||s.w<=0) return false; }
+    return true;
+  });
+  if(state.shuffle) pool=shuffleArr(pool.slice());
+  state.pool=pool; state.idx=0; state.answered={};
+  state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
+}
+
+function renderSource(source){
+  const el=$("#source");
+  el.replaceChildren();
+  const label=document.createElement("b");
+  label.textContent="Nguồn:";
+  el.append(label,document.createTextNode(` ${source.file||""}${source.page?` · trang ${source.page}`:""}`));
+  el.append(document.createElement("br"),document.createTextNode(source.text||""));
+  if(source.slide){
+    const slideLabel=document.createElement("b");
+    slideLabel.textContent="Slide bổ trợ:";
+    el.append(document.createElement("br"),slideLabel,document.createTextNode(
+      ` ${source.slide.file||""}${source.slide.number?` · slide ${source.slide.number}`:""}`
+    ));
+  }
+}
+
+function focusQuestion(){
+  if(!$("#card").classList.contains("hidden")) $("#stem").focus({preventScroll:true});
+}
+
+/* ====== Render quiz/flashcard ====== */
+function render(){
+  const pool=state.pool;
+  $("#poolN").textContent=pool.length;
+  $("#markN").textContent=LS.marked.size;
+  $("#seenAll").textContent=Object.values(LS.stats).filter(s=>s.c+s.w>0).length;
+  $("#score").textContent=state.sessCorrect;
+  $("#answered").textContent=state.sessSeen;
+  $("#pct").textContent=state.sessSeen?Math.round(state.sessCorrect/state.sessSeen*100):0;
+
+  if(!pool.length){
+    $("#card").classList.add("hidden");
+    if(!$("#noPool")){
+      const d=document.createElement("div");d.id="noPool";d.className="empty";
+      d.textContent="Không có câu nào khớp bộ lọc.";
+      $("#studyControls").appendChild(d);
+    }
+    $("#pos").textContent=0;$("#bar").style.width="0%";
+    return;
+  }
+  if($("#noPool")) $("#noPool").remove();
+  $("#card").classList.remove("hidden");
+
+  const q=pool[state.idx];
+  $("#pos").textContent=state.idx+1;
+  $("#bar").style.width=((state.idx+1)/pool.length*100)+"%";
+  const s=LS.stats[q.id];
+  const stat=s?` · đúng ${s.c} · sai ${s.w}`:"";
+  $("#qtag").textContent=`${q.chapter} · Câu ${q.num}${stat}`;
+  $("#qlevel").textContent=q.difficulty;
+  $("#qtopic").textContent=`${q.topic} · ${KIND_LABELS[q.kind]||q.kind}`;
+  $("#star").textContent=LS.marked.has(q.id)?"★":"☆";
+  $("#star").classList.toggle("on",LS.marked.has(q.id));
+  $("#star").setAttribute("aria-pressed",String(LS.marked.has(q.id)));
+  $("#stem").textContent=q.stem;
+  $("#feedback").textContent="";$("#feedback").className="feedback";
+  $("#review").classList.add("hidden");
+  $("#explanation").textContent="";$("#source").innerHTML="";
+
+  const chosen=state.answered[state.idx]; // session choice
+  const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
+
+  const optsEl=$("#opts");optsEl.innerHTML="";
+  q.options.forEach((opt,i)=>{
+    const b=document.createElement("button");
+    b.className="opt";
+    b.type="button";
+    b.innerHTML=`<span class="lbl">${LETTERS[i]}.</span><span>${escapeHtml(opt)}</span>`;
+    b.setAttribute("aria-label",`${LETTERS[i]}. ${opt}`);
+    if(reveal){
+      b.classList.add("locked");
+      b.disabled=true;
+      if(i===q.answer) b.classList.add("correct");
+      else if(i===chosen) b.classList.add("wrong");
+    }else if(state.mode==="quiz"){
+      b.onclick=()=>choose(q,i);
+    }else{
+      b.classList.add("locked");
+      b.disabled=true;
+    }
+    optsEl.appendChild(b);
+  });
+
+  // feedback line
+  if(state.mode==="quiz" && chosen!==undefined){
+    const ok=chosen===q.answer;
+    $("#feedback").textContent=ok?"Đúng":`Chưa đúng · Đáp án: ${LETTERS[q.answer]}`;
+    $("#feedback").className="feedback "+(ok?"ok":"bad");
+  }else if(state.mode==="flash" && reveal){
+    $("#feedback").textContent=`Đáp án: ${LETTERS[q.answer]}. ${q.options[q.answer]}`;
+    $("#feedback").className="feedback ok";
+  }
+  if(reveal && q.source){
+    $("#review").classList.remove("hidden");
+    $("#explanation").textContent=q.explanation;
+    renderSource(q.source);
+  }
+  // flashcard reveal control via nextBtn label handled below
+  $("#prevBtn").disabled=state.idx===0;
+  $("#nextBtn").textContent = (state.mode==="flash" && !reveal) ? "Hiện đáp án"
+      : (state.idx===pool.length-1?"Làm lại từ đầu":"Câu sau →");
+}
+
+function choose(q,i){
+  if(state.answered[state.idx]!==undefined) return;
+  state.answered[state.idx]=i;
+  const ok=i===q.answer;
+  const st=LS.stat(q.id); ok?st.c++:st.w++; LS.save();
+  state.sessSeen++; if(ok) state.sessCorrect++;
+  render();
+  $("#feedback").focus({preventScroll:true});
+}
+
+function next(){
+  if(state.mode==="flash" && state.flashRevealed!==state.idx){
+    state.flashRevealed=state.idx; render(); return;
+  }
+  if(state.idx<state.pool.length-1){
+    state.idx++;state.flashRevealed=-1;render();focusQuestion();return;
+  }
+  state.idx=0;state.answered={};state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
+  if(state.shuffle) state.pool=shuffleArr(state.pool.slice());
+  render();focusQuestion();
+}
+function prev(){
+  if(state.idx>0){state.idx--;state.flashRevealed=-1;render();focusQuestion();}
+}
+
+function toggleStar(){
+  const q=state.pool[state.idx]; if(!q)return;
+  LS.marked.has(q.id)?LS.marked.delete(q.id):LS.marked.add(q.id);
+  LS.save();
+  if(state.onlyMarked) buildPool();
+  render();
+}
+
+/* ====== Search ====== */
+function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function normalizeText(s){
+  return String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\u0111/g,"d").replace(/\u0110/g,"D").toLowerCase();
+}
+function hl(text,kw){
+  const e=escapeHtml(text);
+  if(!kw) return e;
+  const re=new RegExp("("+kw.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
+  return e.replace(re,"<mark>$1</mark>");
+}
+function doSearch(){
+  const kw=$("#searchInput").value.trim();
+  const box=$("#searchResults");
+  const status=$("#searchStatus");
+  if(kw.length<2){
+    box.innerHTML='<div class="empty">Gõ ít nhất 2 ký tự để tìm.</div>';
+    status.textContent="Nhập ít nhất 2 ký tự để tìm kiếm.";
+    return;
+  }
+  const low=normalizeText(kw);
+  const res=QUESTIONS.filter(q=>{
+    const src=q.source?`${q.source.file} ${q.source.text} ${q.source.page||""}`:"";
+    const searchable=[q.stem,q.chapter,q.topic,q.difficulty,q.explanation,src,...q.options].map(normalizeText);
+    return searchable.some(value=>value.includes(low));
+  });
+  if(!res.length){
+    box.innerHTML='<div class="empty">Không tìm thấy câu nào.</div>';
+    status.textContent="Không có kết quả tìm kiếm.";
+    return;
+  }
+  status.textContent=`Tìm thấy ${res.length} kết quả.`;
+  box.innerHTML=res.slice(0,80).map(q=>`
+    <div class="result">
+      <div class="meta">${escapeHtml(q.chapter)} · Câu ${q.num} · ${escapeHtml(q.difficulty)} · ${escapeHtml(q.topic)}</div>
+      <div class="stem">${hl(q.stem,kw)}</div>
+      <div class="ans">${LETTERS[q.answer]}. ${hl(q.options[q.answer],kw)}</div>
+      <div class="explain">${hl(q.explanation,kw)}</div>
+      ${q.source?`<div class="meta">Nguồn: ${escapeHtml(q.source.file||"")} · trang ${q.source.page||""}</div>`:""}
+    </div>`).join("")+(res.length>80?`<div class="empty">… và ${res.length-80} kết quả khác. Gõ cụ thể hơn.</div>`:"");
+}
+
+/* ====== Mode switching ====== */
+function setMode(m){
+  state.mode=m; state.flashRevealed=-1;
+  document.querySelectorAll(".tabs button").forEach(b=>{
+    const active=b.dataset.mode===m;
+    b.classList.toggle("active",active);
+    b.setAttribute("aria-pressed",String(active));
+  });
+  const search=m==="search";
+  $("#studyControls").classList.toggle("hidden",search);
+  $("#searchPanel").classList.toggle("hidden",!search);
+  $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
+  if(search){doSearch();}else{buildPool();render();focusQuestion();}
+}
+
+/* ====== Wire up ====== */
+function init(){
+  $("#total").textContent=QUESTIONS.length;
+  buildChapterSelect();
+  buildDifficultySelect();
+  document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
+  $("#chapter").onchange=e=>{state.chapter=e.target.value;buildPool();render();};
+  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;buildPool();render();};
+  $("#cShuffle").onclick=e=>{state.shuffle=!state.shuffle;e.currentTarget.classList.toggle("on",state.shuffle);e.currentTarget.setAttribute("aria-pressed",String(state.shuffle));buildPool();render();};
+  $("#cMarked").onclick=e=>{state.onlyMarked=!state.onlyMarked;e.currentTarget.classList.toggle("on",state.onlyMarked);e.currentTarget.setAttribute("aria-pressed",String(state.onlyMarked));buildPool();render();};
+  $("#cWrong").onclick=e=>{state.onlyWrong=!state.onlyWrong;e.currentTarget.classList.toggle("on",state.onlyWrong);e.currentTarget.setAttribute("aria-pressed",String(state.onlyWrong));buildPool();render();};
+  $("#prevBtn").onclick=prev; $("#nextBtn").onclick=next; $("#star").onclick=toggleStar;
+  $("#resetBtn").onclick=()=>{
+    if(confirm("Xoá toàn bộ tiến độ, thống kê và câu đánh dấu?")){
+      LS.clear();
+      LS.marked=new Set();LS.stats={};state.sessSeen=0;state.sessCorrect=0;
+      buildPool();render();
+    }
+  };
+  $("#searchInput").oninput=doSearch;
+  document.onkeydown=e=>{
+    if(state.mode==="search" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
+    if(e.key==="ArrowRight"){e.preventDefault();next();}
+    else if(e.key==="ArrowLeft"){e.preventDefault();prev();}
+    else if(["1","2","3","4"].includes(e.key) && state.mode==="quiz"){
+      e.preventDefault();
+      const q=state.pool[state.idx]; if(q && state.answered[state.idx]===undefined) choose(q,+e.key-1);
+    }
+  };
+  buildPool(); render();
+}
+init();
+</script>
+</body>
+</html>
