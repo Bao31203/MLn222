@@ -1,14 +1,16 @@
 # MLN222 Quiz
 
-Ứng dụng trắc nghiệm MLN222 dạng HTML tĩnh, hiện đóng gói 504 câu hỏi đã biên soạn theo 6 chương.
+Ứng dụng học tập MLN222 dạng HTML tĩnh, đóng gói 504 câu hỏi theo 6 chương và một game chiến lược theo lượt trên bản đồ 34 tỉnh/thành.
 
 ## Trạng thái kiểm định
 
 - Đợt mở rộng bổ sung 204 câu mới, chia đều 34 câu cho mỗi chương, nâng tổng ngân hàng từ 300 lên 504 câu.
 - Số câu theo chương: `64/89/99/84/84/84`.
-- Validator: 0 lỗi, 0 cảnh báo; bộ kiểm thử pipeline: PASS 28/28.
-- Kiểm thử trình duyệt đã render và kiểm tra 504/504 câu trên mobile, không ghi nhận lỗi JavaScript hoặc tràn ngang.
-- Chi tiết: [báo cáo mở rộng](plans/260717-expand-theory-bank/reports/expansion-validation.md) và [báo cáo kiểm thử đầu cuối](plans/260717-expand-theory-bank/reports/end-to-end-testing.md).
+- Validator ngân hàng câu hỏi: 0 lỗi, 0 cảnh báo.
+- Engine game deterministic, không dùng mạng ở runtime; dữ liệu bản đồ, CSS và JavaScript đều được nhúng vào `index.html`.
+- Kiểm thử trình duyệt bao phủ desktop/mobile, save/resume giữa quiz, save hỏng và trình duyệt không cung cấp bộ nhớ.
+- Nội dung: [báo cáo mở rộng](plans/260717-expand-theory-bank/reports/expansion-validation.md) và [kiểm thử ngân hàng câu hỏi](plans/260717-expand-theory-bank/reports/end-to-end-testing.md).
+- Game: [báo cáo cân bằng](plans/260717-2056-conquest-learning-game/reports/balance-validation.md) và [kiểm thử đầu cuối](plans/260717-2056-conquest-learning-game/reports/end-to-end-testing.md).
 
 ## Mở ứng dụng
 
@@ -18,7 +20,29 @@ Mở trực tiếp `index.html` bằng trình duyệt, không cần chạy web s
 Start-Process .\index.html
 ```
 
-`index.html` đã chứa dữ liệu câu hỏi và cung cấp các chế độ Luyện thi, Flashcard và Tìm kiếm.
+`index.html` cung cấp bốn chế độ: Luyện thi, Flashcard, Tìm kiếm và Công thành. File chạy trực tiếp bằng `file://`; game không tải bản đồ hoặc tài nguyên từ mạng.
+
+## Giao diện và khả năng truy cập
+
+- App shell dùng chung hệ màu tối, typography, focus ring và bộ biểu tượng SVG nội tuyến có license; không cần font, CDN hay asset ngoài.
+- Luyện thi có bộ lọc gọn, thống kê phiên ổn định và review đáp án; Flashcard tách thao tác lật thẻ khỏi điểm số; Tìm kiếm highlight kết quả bằng DOM an toàn.
+- Công thành dùng bản đồ Việt Nam map-first với 34 tỉnh thao tác được bằng bàn phím, hai inset Hoàng Sa/Trường Sa, HUD tài nguyên và bốn panel Tỉnh/Ngoại giao/Mặt trận/Báo cáo. Bản đồ mở ở 110%, hỗ trợ nút zoom, con lăn, phím `+/-/0`, kéo và pinch trên màn hình cảm ứng.
+- Trên màn hình nhỏ, tài nguyên có thể thu gọn/mở rộng và bảng chiến dịch chuyển thành bottom sheet; trạng thái sheet chỉ thuộc UI, không đi vào campaign save.
+- Control tương tác có kích thước tối thiểu 44px, trạng thái đúng/sai/cảnh báo không chỉ dựa vào màu, quiz cuối lượt giữ focus trong modal và hỗ trợ `prefers-reduced-motion`.
+
+Bằng chứng thiết kế và kiểm thử nằm tại [báo cáo redesign UI](plans/260718-1223-modern-vietnamese-ui-redesign/reports/end-to-end-testing.md).
+
+## Chế độ Công thành
+
+- Chọn một trong 34 tỉnh/thành làm cứ điểm; 33 tỉnh còn lại do NPC kiểm soát.
+- Mỗi lượt quản lý lương thực, tiền, dân thường, quân đội, thương mại, ngoại giao, tuyển quân và mở khóa binh chủng.
+- Tiến công cần cảnh báo trước một lượt; giao chiến diễn ra qua nhiều hiệp, hỗ trợ chiến thuật và viện binh.
+- Kết thúc lượt phải hoàn thành đủ 10 câu hỏi. Điểm quiz quyết định tài nguyên, dân số hoặc hiệu ứng sản xuất của lượt sau.
+- Điều kiện thắng yêu cầu đồng thời đạt tỷ lệ kiểm soát toàn quốc và số vùng kiểm soát tối thiểu.
+
+Chiến dịch production lưu tại `mln222.campaign.v1`; trạng thái giao diện lưu tại `mln222.campaign.ui.v1`. Hai khóa này tách biệt với tiến độ học `mln222.v2.*`.
+
+Độ khó phụ thuộc tỉnh khởi đầu. Benchmark 45-60 lượt dùng Đà Nẵng làm tỉnh tham chiếu; chiến dịch thực tế không bị giới hạn cứng ở lượt 60.
 
 ## Các file chính
 
@@ -26,6 +50,9 @@ Start-Process .\index.html
 - `content/AUTHORING.md`: schema và tiêu chuẩn biên soạn câu hỏi.
 - `questions.json`: ngân hàng 504 câu được hợp nhất từ các file chương.
 - `template.html`: mẫu ứng dụng; `index.html`: bản HTML độc lập đã đóng gói.
+- `game/data`, `game/engine`, `game/quiz`, `game/storage`, `game/ui`: dữ liệu và mã nguồn game theo module.
+- `game/build-manifest.json`: thứ tự dữ liệu, SVG, CSS và JavaScript được builder nhúng.
+- `scripts/simulate-*.js`: mô phỏng kinh tế, chiến đấu và chiến dịch để kiểm tra invariant/cân bằng.
 - `parse_report.txt`: báo cáo kiểm định gần nhất.
 - `compose_questions.py`, `validate_questions.py`, `build_html.py`, `test_pipeline.py`: pipeline hợp nhất, kiểm định, đóng gói và kiểm thử.
 
@@ -45,13 +72,19 @@ Chạy từ thư mục gốc dự án:
 ```powershell
 python compose_questions.py
 python validate_questions.py
+node scripts/validate-game-data.js
 python build_html.py
-python test_pipeline.py
+python -m unittest -v test_pipeline.py
+node --test --test-concurrency=1 tests/game/*.test.cjs
+node scripts/simulate-economy.js --runs 100000 --assert
+node scripts/simulate-combat.js --runs 10000 --assert --config game/data/balance.json
+node scripts/simulate-campaign.js --runs 1000 --turns 60 --assert
 ```
 
 - `compose_questions.py` kiểm tra đủ 6 file chương, thêm số thứ tự `num`, hợp nhất và kiểm định trước khi thay `questions.json`.
 - `validate_questions.py` kiểm định `questions.json` theo mặc định và ghi kết quả vào `parse_report.txt`; có thể truyền một đường dẫn JSON khác làm đối số.
-- `build_html.py` kiểm định dữ liệu, mã hóa an toàn JSON nhúng rồi chèn vào `template.html` để tạo `index.html` độc lập.
-- `test_pipeline.py` chạy kiểm thử hồi quy cho validator, tính đồng nhất giữa file chương và ngân hàng production, cùng bản HTML đã đóng gói.
+- `build_html.py` kiểm định ngân hàng, manifest, SVG và tài sản game; sau đó thay atomically `index.html` bằng bản độc lập mới.
+- `test_pipeline.py` kiểm tra validator, tính đồng nhất dữ liệu, build cô lập và byte-equivalence của HTML production.
+- Bộ test Node kiểm tra engine, AI, save/resume, controller trình duyệt và hợp đồng tài sản build.
 
 `parse_questions.py` là trình trích xuất cũ phục vụ khảo sát nguồn; đầu ra `questions.generated-draft.json` không được website production sử dụng.

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "economy": {
+    "population": {
+      "peakOccupancy": 0.4,
+      "baseGrowthRate": 0.025,
+      "militaryPenalty": 1.25,
+      "minimumMilitaryFactor": 0.25,
+      "roundingMode": "floor"
+    },
+    "production": {
+      "foodPerCivilian": 0.08,
+      "coinPerCivilian": 0.035,
+      "mobilizationPenalty": 0.75,
+      "minimumProductivity": 0.35,
+      "roundingMode": "floor"
+    },
+    "upkeep": {
+      "unitUpkeep": {
+        "militia": { "food": 0.18, "coin": 0.05 },
+        "infantry": { "food": 0.22, "coin": 0.09 },
+        "archer": { "food": 0.2, "coin": 0.12 },
+        "cavalry": { "food": 0.32, "coin": 0.2 },
+        "engineer": { "food": 0.25, "coin": 0.18 }
+      },
+      "statusMultipliers": { "field": 1.5, "garrison": 1, "training": 0.5, "wounded": 0.65 },
+      "roundingMode": "ceil"
+    },
+    "shortage": {
+      "supplyPenaltyAtFullShortage": 24,
+      "moralePenaltyAtFullShortage": 18,
+      "supplyRecovery": 4,
+      "moraleRecovery": 3,
+      "readinessMinimum": 0,
+      "readinessMaximum": 100,
+      "desertionAfterTurns": 2,
+      "desertionRate": 0.05,
+      "penaltyRoundingMode": "ceil",
+      "readinessRoundingMode": "round"
+    },
+    "desertion": {
+      "statuses": ["field", "garrison"],
+      "minimumDeserters": 1,
+      "roundingMode": "floor"
+    },
+    "recruitment": {
+      "actionPhase": "action",
+      "maxBatchSize": 500,
+      "trainingTurns": 1,
+      "actionPointCost": 1,
+      "costRoundingMode": "ceil",
+      "unitCosts": {
+        "militia": { "food": 0.4, "coin": 0.12 },
+        "infantry": { "food": 0.55, "coin": 0.3 },
+        "archer": { "food": 0.5, "coin": 0.38 },
+        "cavalry": { "food": 0.75, "coin": 0.6 },
+        "engineer": { "food": 0.65, "coin": 0.55 }
+      },
+      "unlocks": {
+        "infantry": { "coinCost": 100, "actionPointCost": 1, "minTurn": 3, "minProvinces": 1, "prerequisites": ["militia"] },
+        "archer": { "coinCost": 180, "actionPointCost": 1, "minTurn": 5, "minProvinces": 2, "prerequisites": ["infantry"] },
+        "cavalry": { "coinCost": 320, "actionPointCost": 1, "minTurn": 8, "minProvinces": 3, "prerequisites": ["infantry"] },
+        "engineer": { "coinCost": 300, "actionPointCost": 1, "minTurn": 8, "minProvinces": 3, "prerequisites": ["infantry"] }
+      }
+    },
+    "turn": {
+      "startPhase": "start",
+      "actionPhase": "action",
+      "actionPointsPerTurn": 2
+    }
+  },
+  "combat": {
+    "stream": "combat",
+    "unitPower": { "militia": 1, "infantry": 1.2, "archer": 1.1, "cavalry": 1.45, "engineer": 1.3 },
+    "terrain": { "plains": 1, "urban": 1.04, "mountain": 1.1, "mixed": 1.05, "delta": 1.02, "coastal": 1.03, "highland": 1.08 },
+    "tactics": {
+      "siege": { "damage": 0.65, "exposure": 0.45, "power": 0.9, "minLoss": 0.02, "maxLoss": 0.06, "breachMin": 14, "breachMax": 20, "moraleRecovery": 0 },
+      "engage": { "damage": 1, "exposure": 1, "power": 1, "minLoss": 0.04, "maxLoss": 0.1, "breachMin": 4, "breachMax": 8, "moraleRecovery": 0 },
+      "assault": { "damage": 1.55, "exposure": 1.35, "power": 1.2, "minLoss": 0.07, "maxLoss": 0.15, "breachMin": 20, "breachMax": 30, "moraleRecovery": 0 },
+      "consolidate": { "damage": 0.25, "exposure": 0.35, "power": 0.7, "minLoss": 0.01, "maxLoss": 0.04, "breachMin": 0, "breachMax": 0, "moraleRecovery": 5 },
+      "retreat": { "damage": 0, "exposure": 0, "power": 0.6, "minLoss": 0, "maxLoss": 0, "breachMin": 0, "breachMax": 0, "moraleRecovery": 0 }
+    },
+    "power": { "minimumMoraleFactor": 0.25, "minimumSupplyFactor": 0.3, "fortificationDefenseBonus": 0.12 },
+    "attrition": { "baseRate": 0.065, "varianceMin": 0.92, "varianceMax": 1.08, "directLossCap": 0.15 },
+    "morale": { "start": 100, "baseLoss": 5.3, "lossRateFactor": 90, "strengthPressureFactor": 18, "strengthPressureCap": 25, "fatigueStartTurn": 3, "fatiguePerTurn": 4, "supplyPressureFactor": 0.08, "assaultShock": 6, "fortificationShield": 3, "routThreshold": 0 },
+    "supply": { "start": 100, "baseDrain": 4, "lateTurn": 8, "lateDrain": 6, "siegeDrain": 5 },
+    "fortification": { "assaultBreachThreshold": 60 },
+    "casualties": { "deadRate": 0.35, "woundedRate": 0.4, "routedRate": 0.25, "woundedRecoveryTurns": 2 },
+    "reinforcement": { "delayTurns": 1, "maxInitialRate": 0.25 },
+    "retreat": { "pursuitMinRate": 0.02, "pursuitMaxRate": 0.08, "defenderCapturedRate": 0.6 },
+    "phases": { "action": "action", "resolution": "resolution", "postPulse": "quiz" }
+  },
+  "quizRewards": {
+    "penalty": {
+      "low": { "stockRate": 0.1, "productionCapRate": 0.5, "productionEffectRate": 0.1, "duration": 1 },
+      "medium": { "stockRate": 0.05, "productionCapRate": 0.25, "productionEffectRate": 0, "duration": 1 }
+    },
+    "reward": { "smallProductionRate": 0.25, "mediumProductionRate": 0.5, "perfectProductionRate": 1, "migrationRate": 0.005, "productionEffectRate": 0.1, "effectDuration": 2, "unlockDiscountRate": 0.25 }
+  },
+  "diplomacy": {
+    "relationMinimum": -100,
+    "relationMaximum": 100,
+    "tradeRelationMinimum": -20,
+    "allianceRelationMinimum": 45,
+    "nonAggressionRelationMinimum": 10,
+    "maxTradeRoutes": 3,
+    "maxAlliances": 2,
+    "maxNonAggressionTreaties": 4,
+    "treatyDuration": 8,
+    "tradeCoinPerTurn": 18,
+    "tradeRelationGain": 2,
+    "betrayalPenalty": 55,
+    "betrayalLockTurns": 10
+  },
+  "occupation": {
+    "turns": 3,
+    "productionMultipliers": [0.5, 0.7, 0.85],
+    "growthMultipliers": [0, 0.5, 0.8],
+    "recruitmentBlocked": true
+  },
+  "campaign": {
+    "capacityByTier": { "small": 3000, "medium": 4200, "large": 5600 },
+    "initialCivilianRate": 0.55,
+    "initialMilitaryRate": 0.08,
+    "initialFieldRate": 0.65,
+    "actionPointsPerTurn": 2,
+    "baseTradeRoutes": 1,
+    "provincesPerTradeRoute": 4,
+    "autoRecruitCivilianRate": 0.04,
+    "autoRecruitResourceFraction": 0.3,
+    "autoRecruitBatchLimit": 200,
+    "militaryTargetRate": 0.12,
+    "minimumBattleForce": 120,
+    "minimumMoveForce": 40,
+    "attackForceRate": 0.7,
+    "defenseForceRate": 0.7,
+    "maximumActiveFronts": 4,
+    "noWarThroughTurn": 3,
+    "warningDelayTurns": 1,
+    "playerAttackBias": 5,
+    "eventLogLimit": 1200
+  },
+  "ai": {
+    "stream": "ai",
+    "randomVariation": 0.12,
+    "attackStrengthMinimum": 1.1,
+    "warningBaseUtility": 2.5,
+    "tradeBaseUtility": 16,
+    "treatyBaseUtility": 12,
+    "recruitBaseUtility": 18,
+    "reinforceBaseUtility": 26,
+    "unlockBaseUtility": 24,
+    "moveBaseUtility": 20,
+    "waitBaseUtility": 8
+  }
+}

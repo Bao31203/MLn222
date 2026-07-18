@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "units": [
+    {
+      "id": "militia",
+      "name": "Dân binh",
+      "role": "territorial-defense",
+      "trainingClass": "levy",
+      "unlock": { "kind": "starting" },
+      "balanceKey": "unit.militia",
+      "tags": ["infantry", "garrison"]
+    },
+    {
+      "id": "infantry",
+      "name": "Bộ binh",
+      "role": "line-combat",
+      "trainingClass": "trained",
+      "unlock": { "kind": "research", "key": "standing-army" },
+      "balanceKey": "unit.infantry",
+      "tags": ["infantry", "field-army"]
+    },
+    {
+      "id": "archer",
+      "name": "Xạ binh",
+      "role": "ranged-support",
+      "trainingClass": "trained",
+      "unlock": { "kind": "research", "key": "ranged-doctrine" },
+      "balanceKey": "unit.archer",
+      "tags": ["ranged", "support"]
+    },
+    {
+      "id": "cavalry",
+      "name": "Kỵ binh",
+      "role": "mobile-assault",
+      "trainingClass": "elite",
+      "unlock": { "kind": "research", "key": "mounted-warfare" },
+      "balanceKey": "unit.cavalry",
+      "tags": ["mobile", "field-army"]
+    },
+    {
+      "id": "engineer",
+      "name": "Công binh",
+      "role": "siege-support",
+      "trainingClass": "specialist",
+      "unlock": { "kind": "research", "key": "siege-engineering" },
+      "balanceKey": "unit.engineer",
+      "tags": ["siege", "support"]
+    }
+  ]
+}

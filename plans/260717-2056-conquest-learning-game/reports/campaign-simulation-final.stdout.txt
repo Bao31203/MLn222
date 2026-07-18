@@ -1,0 +1,65 @@
+{
+  "runs": 1000,
+  "turns": 60,
+  "seed": "campaign-held-out",
+  "seedPartition": "held-out",
+  "durationMs": 1494923.625,
+  "p95TurnMs": 41.3923,
+  "maximumTurnMs": 89.792,
+  "victories": 290,
+  "defeats": 2,
+  "unfinished": 708,
+  "medianVictoryTurn": 52,
+  "earlyWinRate": 0,
+  "standard": {
+    "campaigns": 334,
+    "victories": 280,
+    "winRate": 0.8383233532934131,
+    "medianVictoryTurn": 52,
+    "earlyWinRate": 0,
+    "referenceProvinceId": "da-nang"
+  },
+  "invalidActions": 0,
+  "invalidDecisionSamples": [],
+  "invariantFailures": 0,
+  "invariantFailureSamples": [],
+  "warnings": 23929,
+  "battles": 21897,
+  "warBeforeTurn4": 0,
+  "warningViolations": 0,
+  "medianConcentration": 0.4578313253012048,
+  "p95StallTurns": 16,
+  "playerActions": {
+    "RECRUIT": 48068,
+    "UNLOCK": 3995,
+    "WARN_ATTACK": 17770,
+    "PROPOSE_TREATY": 744,
+    "REINFORCE": 23220,
+    "MOVE": 6638,
+    "RESPOND_TREATY": 5521,
+    "TRADE": 647,
+    "WAIT": 1325
+  },
+  "playerCaptures": 15311,
+  "playerLosses": 2393,
+  "policies": {
+    "balanced": {
+      "campaigns": 333,
+      "victories": 10,
+      "medianVictoryTurn": 58,
+      "medianProvinces": 15
+    },
+    "expansionist": {
+      "campaigns": 334,
+      "victories": 280,
+      "medianVictoryTurn": 52,
+      "medianProvinces": 19
+    },
+    "steward": {
+      "campaigns": 333,
+      "victories": 0,
+      "medianVictoryTurn": null,
+      "medianProvinces": 8
+    }
+  }
+}

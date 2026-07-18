@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mapUrl": "https://fptlichsuviet.io.vn/map/index.html",
+    "retrievedOn": "2026-07-17",
+    "note": "Map and display facts reused from the owner-provided source. Gameplay values are normalized."
+  },
+  "regions": [
+    { "id": "bac-bo", "name": "Bắc Bộ" },
+    { "id": "bac-trung-bo", "name": "Bắc Trung Bộ" },
+    { "id": "nam-trung-bo", "name": "Nam Trung Bộ" },
+    { "id": "tay-nguyen", "name": "Tây Nguyên" },
+    { "id": "dong-nam-bo", "name": "Đông Nam Bộ" },
+    { "id": "tay-nam-bo", "name": "Tây Nam Bộ" }
+  ],
+  "terrains": [
+    { "id": "mountain", "name": "Miền núi" },
+    { "id": "highland", "name": "Cao nguyên" },
+    { "id": "delta", "name": "Đồng bằng" },
+    { "id": "coastal", "name": "Duyên hải" },
+    { "id": "urban", "name": "Đô thị" },
+    { "id": "mixed", "name": "Hỗn hợp" }
+  ],
+  "capacityTiers": {
+    "small": { "name": "Nhỏ", "baseCapacity": 920, "territoryWeight": 0.92 },
+    "medium": { "name": "Vừa", "baseCapacity": 1000, "territoryWeight": 1 },
+    "large": { "name": "Lớn", "baseCapacity": 1080, "territoryWeight": 1.08 }
+  },
+  "traitPackages": {
+    "agrarian": {
+      "name": "Vựa lương",
+      "advantage": "agriculture",
+      "weakness": "commerce",
+      "modifiers": { "agriculture": 1.08, "commerce": 0.92, "defense": 1, "capacity": 1 }
+    },
+    "commercial": {
+      "name": "Đầu mối giao thương",
+      "advantage": "commerce",
+      "weakness": "agriculture",
+      "modifiers": { "agriculture": 0.92, "commerce": 1.08, "defense": 1, "capacity": 1 }
+    },
+    "fortified": {
+      "name": "Địa thế phòng thủ",
+      "advantage": "defense",
+      "weakness": "commerce",
+      "modifiers": { "agriculture": 1, "commerce": 0.92, "defense": 1.08, "capacity": 1 }
+    },
+    "populous": {
+      "name": "Nguồn nhân lực",
+      "advantage": "capacity",
+      "weakness": "defense",
+      "modifiers": { "agriculture": 1, "commerce": 1, "defense": 0.92, "capacity": 1.08 }
+    }
+  },
+  "provinces": [
+    {
+      "id": "lai-chau",
+      "display": { "name": "Lai Châu", "shortName": "Lai Châu", "administrativeType": "province", "capital": "Lai Châu" },
+      "region": "bac-bo",
+      "svg": { "primary": "lai-chau", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "small",
+      "trait": "fortified",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "9.068 km²", "population": "khoảng 0,5 triệu" }
+    },
+    {
+      "id": "dien-bien",
+      "display": { "name": "Điện Biên", "shortName": "Điện Biên", "administrativeType": "province", "capital": "Điện Biên Phủ" },
+      "region": "bac-bo",
+      "svg": { "primary": "dien-bien", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "small",
+      "trait": "fortified",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "9.540 km²", "population": "khoảng 0,7 triệu" }
+    },
+    {
+      "id": "son-la",
+      "display": { "name": "Sơn La", "shortName": "Sơn La", "administrativeType": "province", "capital": "Sơn La" },
+      "region": "bac-bo",
+      "svg": { "primary": "son-la", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "medium",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "14.109 km²", "population": "khoảng 1,3 triệu" }
+    },
+    {
+      "id": "lao-cai",
+      "display": { "name": "Lào Cai", "shortName": "Lào Cai", "administrativeType": "province", "capital": "Lào Cai" },
+      "region": "bac-bo",
+      "svg": { "primary": "lao-cai", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "medium",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Lào Cai", "Yên Bái"], "area": "13.256,92 km²", "population": "1.778.785" }
+    },
+    {
+      "id": "tuyen-quang",
+      "display": { "name": "Tuyên Quang", "shortName": "Tuyên Quang", "administrativeType": "province", "capital": "Tuyên Quang" },
+      "region": "bac-bo",
+      "svg": { "primary": "tuyen-quang", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "medium",
+      "trait": "fortified",
+      "sourceStats": { "formerUnits": ["Hà Giang", "Tuyên Quang"], "area": "13.795,5 km²", "population": "1.865.270" }
+    },
+    {
+      "id": "cao-bang",
+      "display": { "name": "Cao Bằng", "shortName": "Cao Bằng", "administrativeType": "province", "capital": "Cao Bằng" },
+      "region": "bac-bo",
+      "svg": { "primary": "cao-bang", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "small",
+      "trait": "fortified",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "6.700 km²", "population": "khoảng 0,6 triệu" }
+    },
+    {
+      "id": "lang-son",
+      "display": { "name": "Lạng Sơn", "shortName": "Lạng Sơn", "administrativeType": "province", "capital": "Lạng Sơn" },
+      "region": "bac-bo",
+      "svg": { "primary": "lang-son", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "small",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "8.310 km²", "population": "khoảng 0,8 triệu" }
+    },
+    {
+      "id": "thai-nguyen",
+      "display": { "name": "Thái Nguyên", "shortName": "Thái Nguyên", "administrativeType": "province", "capital": "Thái Nguyên" },
+      "region": "bac-bo",
+      "svg": { "primary": "thai-nguyen", "islands": [] },
+      "terrain": "mountain",
+      "capacityTier": "medium",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Bắc Kạn", "Thái Nguyên"], "area": "8.375,21 km²", "population": "1.799.489" }
+    },
+    {
+      "id": "phu-tho",
+      "display": { "name": "Phú Thọ", "shortName": "Phú Thọ", "administrativeType": "province", "capital": "Việt Trì" },
+      "region": "bac-bo",
+      "svg": { "primary": "phu-tho", "islands": [] },
+      "terrain": "mixed",
+      "capacityTier": "large",
+      "trait": "populous",
+      "sourceStats": { "formerUnits": ["Vĩnh Phúc", "Hòa Bình", "Phú Thọ"], "area": "9.361,38 km²", "population": "4.022.638" }
+    },
+    {
+      "id": "bac-ninh",
+      "display": { "name": "Bắc Ninh", "shortName": "Bắc Ninh", "administrativeType": "province", "capital": "Bắc Ninh" },
+      "region": "bac-bo",
+      "svg": { "primary": "bac-ninh", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "populous",
+      "sourceStats": { "formerUnits": ["Bắc Giang", "Bắc Ninh"], "area": "4.718,6 km²", "population": "3.619.433" }
+    },
+    {
+      "id": "quang-ninh",
+      "display": { "name": "Quảng Ninh", "shortName": "Quảng Ninh", "administrativeType": "province", "capital": "Hạ Long" },
+      "region": "bac-bo",
+      "svg": { "primary": "quang-ninh", "islands": [] },
+      "terrain": "coastal",
+      "capacityTier": "medium",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "6.178 km²", "population": "khoảng 1,4 triệu" }
+    },
+    {
+      "id": "ha-noi",
+      "display": { "name": "Hà Nội", "shortName": "Hà Nội", "administrativeType": "municipality", "capital": "Hà Nội" },
+      "region": "bac-bo",
+      "svg": { "primary": "ha-noi", "islands": [] },
+      "terrain": "urban",
+      "capacityTier": "large",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "3.360 km²", "population": "khoảng 8,7 triệu" }
+    },
+    {
+      "id": "hung-yen",
+      "display": { "name": "Hưng Yên", "shortName": "Hưng Yên", "administrativeType": "province", "capital": "Hưng Yên" },
+      "region": "bac-bo",
+      "svg": { "primary": "hung-yen", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Thái Bình", "Hưng Yên"], "area": "2.514,81 km²", "population": "3.567.943" }
+    },
+    {
+      "id": "hai-phong",
+      "display": { "name": "Hải Phòng", "shortName": "Hải Phòng", "administrativeType": "municipality", "capital": "Hải Phòng" },
+      "region": "bac-bo",
+      "svg": { "primary": "hai-phong", "islands": ["cat-ba"] },
+      "terrain": "coastal",
+      "capacityTier": "large",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Hải Phòng", "Hải Dương"], "area": "3.194,72 km²", "population": "4.664.124" }
+    },
+    {
+      "id": "ninh-binh",
+      "display": { "name": "Ninh Bình", "shortName": "Ninh Bình", "administrativeType": "province", "capital": "Ninh Bình" },
+      "region": "bac-bo",
+      "svg": { "primary": "ninh-binh", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Hà Nam", "Nam Định", "Ninh Bình"], "area": "3.942,62 km²", "population": "4.412.264" }
+    },
+    {
+      "id": "thanh-hoa",
+      "display": { "name": "Thanh Hóa", "shortName": "Thanh Hóa", "administrativeType": "province", "capital": "Thanh Hóa" },
+      "region": "bac-trung-bo",
+      "svg": { "primary": "thanh-hoa", "islands": [] },
+      "terrain": "mixed",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "11.115 km²", "population": "khoảng 3,7 triệu" }
+    },
+    {
+      "id": "nghe-an",
+      "display": { "name": "Nghệ An", "shortName": "Nghệ An", "administrativeType": "province", "capital": "Vinh" },
+      "region": "bac-trung-bo",
+      "svg": { "primary": "nghe-an", "islands": [] },
+      "terrain": "mixed",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "16.493 km²", "population": "khoảng 3,5 triệu" }
+    },
+    {
+      "id": "ha-tinh",
+      "display": { "name": "Hà Tĩnh", "shortName": "Hà Tĩnh", "administrativeType": "province", "capital": "Hà Tĩnh" },
+      "region": "bac-trung-bo",
+      "svg": { "primary": "ha-tinh", "islands": [] },
+      "terrain": "coastal",
+      "capacityTier": "medium",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Không đổi"], "area": "5.990 km²", "population": "khoảng 1,3 triệu" }
+    },
+    {
+      "id": "quang-tri",
+      "display": { "name": "Quảng Trị", "shortName": "Quảng Trị", "administrativeType": "province", "capital": "Đông Hà" },
+      "region": "bac-trung-bo",
+      "svg": { "primary": "quang-tri", "islands": ["con-co"] },
+      "terrain": "mixed",
+      "capacityTier": "medium",
+      "trait": "fortified",
+      "sourceStats": { "formerUnits": ["Quảng Bình", "Quảng Trị"], "area": "12.700 km²", "population": "1.870.845" }
+    },
+    {
+      "id": "hue",
+      "display": { "name": "Huế", "shortName": "Huế", "administrativeType": "municipality", "capital": "Huế" },
+      "region": "bac-trung-bo",
+      "svg": { "primary": "thua-thien-hue", "islands": [] },
+      "terrain": "coastal",
+      "capacityTier": "medium",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Thừa Thiên Huế"], "area": "4.947 km²", "population": "khoảng 1,2 triệu" }
+    },
+    {
+      "id": "da-nang",
+      "display": { "name": "Đà Nẵng", "shortName": "Đà Nẵng", "administrativeType": "municipality", "capital": "Đà Nẵng" },
+      "region": "nam-trung-bo",
+      "svg": { "primary": "da-nang", "islands": ["quan-dao-hoang-sa"] },
+      "terrain": "coastal",
+      "capacityTier": "large",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Đà Nẵng", "Quảng Nam"], "area": "11.859,59 km²", "population": "3.065.628" }
+    },
+    {
+      "id": "quang-ngai",
+      "display": { "name": "Quảng Ngãi", "shortName": "Quảng Ngãi", "administrativeType": "province", "capital": "Quảng Ngãi" },
+      "region": "nam-trung-bo",
+      "svg": { "primary": "quang-ngai", "islands": ["dao-ly-son"] },
+      "terrain": "mixed",
+      "capacityTier": "medium",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Kon Tum", "Quảng Ngãi"], "area": "14.832,55 km²", "population": "2.161.755" }
+    },
+    {
+      "id": "gia-lai",
+      "display": { "name": "Gia Lai", "shortName": "Gia Lai", "administrativeType": "province", "capital": "Pleiku" },
+      "region": "tay-nguyen",
+      "svg": { "primary": "gia-lai", "islands": [] },
+      "terrain": "mixed",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Bình Định", "Gia Lai"], "area": "21.576,53 km²", "population": "3.583.693" }
+    },
+    {
+      "id": "dak-lak",
+      "display": { "name": "Đắk Lắk", "shortName": "Đắk Lắk", "administrativeType": "province", "capital": "Buôn Ma Thuột" },
+      "region": "tay-nguyen",
+      "svg": { "primary": "dak-lak", "islands": [] },
+      "terrain": "highland",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Phú Yên", "Đắk Lắk"], "area": "18.096,40 km²", "population": "3.346.853" }
+    },
+    {
+      "id": "khanh-hoa",
+      "display": { "name": "Khánh Hòa", "shortName": "Khánh Hòa", "administrativeType": "province", "capital": "Nha Trang" },
+      "region": "nam-trung-bo",
+      "svg": { "primary": "khanh-hoa", "islands": ["quan-dao-truong-sa"] },
+      "terrain": "coastal",
+      "capacityTier": "medium",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Ninh Thuận", "Khánh Hòa"], "area": "8.555,86 km²", "population": "2.243.554" }
+    },
+    {
+      "id": "lam-dong",
+      "display": { "name": "Lâm Đồng", "shortName": "Lâm Đồng", "administrativeType": "province", "capital": "Đà Lạt" },
+      "region": "tay-nguyen",
+      "svg": { "primary": "lam-dong", "islands": ["dao-phu-quy"] },
+      "terrain": "highland",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Đắk Nông", "Bình Thuận", "Lâm Đồng"], "area": "24.233,07 km²", "population": "3.872.999" }
+    },
+    {
+      "id": "dong-nai",
+      "display": { "name": "Đồng Nai", "shortName": "Đồng Nai", "administrativeType": "province", "capital": "Biên Hòa" },
+      "region": "dong-nam-bo",
+      "svg": { "primary": "dong-nai", "islands": [] },
+      "terrain": "mixed",
+      "capacityTier": "large",
+      "trait": "populous",
+      "sourceStats": { "formerUnits": ["Bình Phước", "Đồng Nai"], "area": "12.737,18 km²", "population": "4.491.408" }
+    },
+    {
+      "id": "tay-ninh",
+      "display": { "name": "Tây Ninh", "shortName": "Tây Ninh", "administrativeType": "province", "capital": "Tây Ninh" },
+      "region": "dong-nam-bo",
+      "svg": { "primary": "tay-ninh", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Long An", "Tây Ninh"], "area": "8.536,44 km²", "population": "3.254.170" }
+    },
+    {
+      "id": "ho-chi-minh",
+      "display": { "name": "TP. Hồ Chí Minh", "shortName": "TP.HCM", "administrativeType": "municipality", "capital": "TP. Hồ Chí Minh" },
+      "region": "dong-nam-bo",
+      "svg": { "primary": "ho-chi-minh", "islands": ["dao-con-son"] },
+      "terrain": "urban",
+      "capacityTier": "large",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["TP. Hồ Chí Minh", "Bình Dương", "Bà Rịa - Vũng Tàu"], "area": "6.772,59 km²", "population": "14.002.598" }
+    },
+    {
+      "id": "dong-thap",
+      "display": { "name": "Đồng Tháp", "shortName": "Đồng Tháp", "administrativeType": "province", "capital": "Cao Lãnh" },
+      "region": "tay-nam-bo",
+      "svg": { "primary": "dong-thap", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Tiền Giang", "Đồng Tháp"], "area": "5.938,64 km²", "population": "4.370.046" }
+    },
+    {
+      "id": "vinh-long",
+      "display": { "name": "Vĩnh Long", "shortName": "Vĩnh Long", "administrativeType": "province", "capital": "Vĩnh Long" },
+      "region": "tay-nam-bo",
+      "svg": { "primary": "vinh-long", "islands": [] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Bến Tre", "Trà Vinh", "Vĩnh Long"], "area": "6.296,20 km²", "population": "4.257.581" }
+    },
+    {
+      "id": "can-tho",
+      "display": { "name": "Cần Thơ", "shortName": "Cần Thơ", "administrativeType": "municipality", "capital": "Cần Thơ" },
+      "region": "tay-nam-bo",
+      "svg": { "primary": "can-tho", "islands": [] },
+      "terrain": "urban",
+      "capacityTier": "large",
+      "trait": "commercial",
+      "sourceStats": { "formerUnits": ["Cần Thơ", "Sóc Trăng", "Hậu Giang"], "area": "6.360,83 km²", "population": "4.199.824" }
+    },
+    {
+      "id": "an-giang",
+      "display": { "name": "An Giang", "shortName": "An Giang", "administrativeType": "province", "capital": "Long Xuyên" },
+      "region": "tay-nam-bo",
+      "svg": { "primary": "an-giang", "islands": ["dao-phu-quoc", "hon-son"] },
+      "terrain": "delta",
+      "capacityTier": "large",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Kiên Giang", "An Giang"], "area": "9.888,91 km²", "population": "4.952.238" }
+    },
+    {
+      "id": "ca-mau",
+      "display": { "name": "Cà Mau", "shortName": "Cà Mau", "administrativeType": "province", "capital": "Cà Mau" },
+      "region": "tay-nam-bo",
+      "svg": { "primary": "ca-mau", "islands": ["hon-khoai"] },
+      "terrain": "coastal",
+      "capacityTier": "medium",
+      "trait": "agrarian",
+      "sourceStats": { "formerUnits": ["Bạc Liêu", "Cà Mau"], "area": "7.942,39 km²", "population": "2.606.672" }
+    }
+  ]
+}

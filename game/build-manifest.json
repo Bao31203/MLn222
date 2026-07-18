@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "data": {
+    "provinces": "data/provinces.json",
+    "adjacency": "data/adjacency.json",
+    "balance": "data/balance.json",
+    "personalities": "data/npc-personalities.json",
+    "victoryRules": "data/victory-rules.json",
+    "units": "data/units.json"
+  },
+  "svg": "assets/vietnam-map.svg",
+  "styles": [
+    "styles/game.css"
+  ],
+  "scripts": [
+    "core/namespace.js",
+    "core/rng.js",
+    "core/contracts.js",
+    "core/invariants.js",
+    "core/runtime.js",
+    "engine/population.js",
+    "engine/economy.js",
+    "engine/recruitment.js",
+    "engine/turn-economy.js",
+    "engine/combat-tactics.js",
+    "engine/combat-casualties.js",
+    "engine/combat.js",
+    "quiz/question-deck.js",
+    "quiz/quiz-rewards.js",
+    "storage/save-validation.js",
+    "storage/save-codec.js",
+    "engine/diplomacy.js",
+    "engine/occupation.js",
+    "engine/npc-ai.js",
+    "engine/campaign.js",
+    "storage/campaign-save.js",
+    "ui/browser-storage.js",
+    "ui/ui-utils.js",
+    "ui/game-controller.js",
+    "ui/map-view.js",
+    "ui/resource-bar.js",
+    "ui/province-panel.js",
+    "ui/diplomacy-panel.js",
+    "ui/battle-panel.js",
+    "ui/game-quiz-view.js",
+    "ui/turn-report.js",
+    "ui/game-app.js"
+  ]
+}

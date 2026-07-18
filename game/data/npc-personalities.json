@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "personalities": {
+    "cautious": {
+      "economy": 1.15,
+      "trade": 1.05,
+      "treaty": 1.1,
+      "attack": 0.65,
+      "defense": 1.2,
+      "risk": 0.65
+    },
+    "trader": {
+      "economy": 1.05,
+      "trade": 1.4,
+      "treaty": 1.15,
+      "attack": 0.55,
+      "defense": 0.9,
+      "risk": 0.7
+    },
+    "expansionist": {
+      "economy": 0.85,
+      "trade": 0.7,
+      "treaty": 0.65,
+      "attack": 1.45,
+      "defense": 0.9,
+      "risk": 1.3
+    },
+    "defensive": {
+      "economy": 1,
+      "trade": 0.9,
+      "treaty": 1,
+      "attack": 0.5,
+      "defense": 1.45,
+      "risk": 0.55
+    }
+  }
+}

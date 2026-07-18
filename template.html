@@ -6,48 +6,83 @@
 <title>MLN222 — Ôn tập Kinh tế chính trị Mác-Lênin</title>
 <style>
   :root{
-    --bg:#11130f; --panel:#1a1d18; --panel2:#22271f; --border:#31372d;
-    --text:#f0efe8; --muted:#adb3a5; --accent:#d9b86c; --accent2:#566a2d;
-    --ok:#51c878; --okbg:#173723; --bad:#ff776d; --badbg:#3c1e1b; --warn:#f0c86a;
-    --radius:8px; --focus:#f4d58a; --control-border:#6d7768;
+    color-scheme:dark;
+    --canvas:#0d1211; --map-canvas:#0e1516;
+    --surface:#141a18; --surface-strong:#1b2320; --surface-raised:#222c28;
+    --line:#34403b; --line-strong:#5d6b65;
+    --ink:#f4f0e7; --ink-muted:#aeb8b1;
+    --brass:#d4aa57; --brass-soft:#f0ce84;
+    --jade:#4d9175; --jade-deep:#315c4c;
+    --cinnabar:#c65f4d; --river:#5f91a5;
+    --success:#59b478; --success-surface:#173629;
+    --danger:#dc7569; --danger-surface:#3b211d;
+    --focus:#f1c96d; --control-border:#66736d;
+    --radius:8px; --radius-control:6px;
+    --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px;
+    --motion-fast:140ms; --motion-base:190ms; --ease-out:cubic-bezier(.2,.8,.2,1);
+    --bg:var(--canvas); --panel:var(--surface); --panel2:var(--surface-strong);
+    --border:var(--line); --text:var(--ink); --muted:var(--ink-muted);
+    --accent:var(--brass); --accent2:var(--jade-deep);
+    --ok:var(--success); --okbg:var(--success-surface);
+    --bad:var(--danger); --badbg:var(--danger-surface); --warn:var(--brass-soft);
   }
   *{box-sizing:border-box}
   body{margin:0;min-height:100dvh;font-family:"Aptos","Segoe UI Variable","Segoe UI",sans-serif;
-    background:var(--bg);color:var(--text);line-height:1.55;letter-spacing:0;}
+    background:var(--bg);color:var(--text);line-height:1.55;letter-spacing:0;text-rendering:optimizeLegibility;}
   button,select,input{font:inherit;touch-action:manipulation}
   button{letter-spacing:0}
-  .skip-link{position:fixed;left:12px;top:8px;z-index:10;transform:translateY(-140%);
-    background:var(--accent);color:#17150f;padding:8px 12px;border-radius:6px;font-weight:700;}
+  ::selection{background:var(--jade-deep);color:var(--ink)}
+  .skip-link{position:fixed;left:12px;top:8px;z-index:10;min-height:44px;display:flex;align-items:center;transform:translateY(-140%);
+    background:var(--brass);color:#17150f;padding:8px 12px;border-radius:var(--radius-control);font-weight:700;}
   .skip-link:focus{transform:translateY(0)}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
     clip:rect(0,0,0,0);white-space:nowrap;border:0}
-  .wrap{max-width:880px;margin:0 auto;padding:20px 16px 80px;}
-  header{border-bottom:1px solid var(--border);margin-bottom:12px;padding-bottom:12px}
-  header h1{font-size:1.35rem;line-height:1.2;margin:0 0 4px;font-weight:750;}
-  header .sub{color:var(--muted);font-size:.88rem;}
+  .ui-icon-sprite{display:none}
+  .ui-icon{display:block;width:1.15rem;height:1.15rem;flex:none;fill:none;stroke:currentColor;
+    stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:16px 20px 80px;}
+  .app-header{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+    border-bottom:1px solid var(--border);margin-bottom:0;padding:0 0 14px}
+  .brand-lockup{display:flex;align-items:center;gap:12px;min-width:0}
+  .brand-mark{width:44px;height:44px;display:grid;place-items:center;flex:none;color:var(--brass-soft);
+    background:var(--surface-strong);border:1px solid var(--line-strong);border-radius:var(--radius-control);
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}
+  .brand-mark .ui-icon{width:22px;height:22px}
+  .brand-copy{min-width:0}
+  .app-header h1{font-family:"Aptos Display","Aptos","Segoe UI Variable",sans-serif;
+    font-size:1.3rem;line-height:1.15;margin:0 0 3px;font-weight:750;text-wrap:balance}
+  .app-header .sub{color:var(--muted);font-size:.84rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .header-count{display:grid;grid-template-columns:auto auto;align-items:baseline;gap:5px 7px;flex:none;
+    padding-left:16px;border-left:1px solid var(--line);font-variant-numeric:tabular-nums}
+  .header-count strong{font-family:"Aptos Display","Aptos",sans-serif;font-size:1.05rem;color:var(--brass-soft)}
+  .header-count span{font-size:.76rem;color:var(--muted)}
   /* Tabs */
-  .tabs{display:flex;gap:4px;background:var(--panel);padding:4px;border:1px solid var(--border);
-    border-radius:var(--radius);margin-bottom:12px;}
-  .tabs button{flex:1;min-height:44px;padding:9px 12px;border:1px solid transparent;border-radius:6px;
-    background:transparent;color:var(--muted);font-weight:650;cursor:pointer;font-size:.95rem;
-    transition:background-color .18s,color .18s,border-color .18s;}
-  .tabs button:hover{color:var(--text);background:var(--panel2)}
-  .tabs button.active{background:var(--accent2);border-color:#87995c;color:#fff;}
+  .tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;background:transparent;
+    border-bottom:1px solid var(--border);margin-bottom:16px;}
+  .tabs button{min-width:0;min-height:50px;display:flex;align-items:center;justify-content:center;gap:8px;
+    padding:9px 12px;border:0;border-bottom:3px solid transparent;border-radius:0;
+    background:transparent;color:var(--muted);font-weight:650;cursor:pointer;font-size:.92rem;
+    transition:background-color var(--motion-base) var(--ease-out),color var(--motion-base) var(--ease-out),
+      border-color var(--motion-base) var(--ease-out);}
+  .tabs button:hover{color:var(--text);background:var(--surface)}
+  .tabs button.active{background:#18221f;border-bottom-color:var(--brass);color:var(--text)}
+  .tabs button.active .ui-icon{color:var(--brass-soft)}
   /* Controls */
   .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;}
   select,input[type=text]{background:var(--panel);color:var(--text);border:1px solid var(--control-border);
-    border-radius:6px;min-height:44px;padding:9px 11px;font-size:1rem;}
+    border-radius:var(--radius-control);min-height:44px;padding:9px 11px;font-size:1rem;}
   input[type=text]{flex:1;min-width:160px;}
   .toggle{min-height:44px;background:var(--panel);border:1px solid var(--control-border);color:var(--muted);
-    padding:8px 12px;border-radius:6px;font-size:.86rem;cursor:pointer;user-select:none;}
+    padding:8px 12px;border-radius:var(--radius-control);font-size:.86rem;cursor:pointer;user-select:none;}
   .toggle:hover{border-color:var(--accent);color:var(--text)}
-  .toggle.on{background:var(--accent2);color:#fff;border-color:#87995c;}
+  .toggle.on{background:var(--accent2);color:var(--text);border-color:var(--jade);}
   .btn{background:var(--panel2);border:1px solid var(--control-border);color:var(--text);
-    min-height:44px;padding:9px 14px;border-radius:6px;cursor:pointer;font-size:.9rem;font-weight:650;
-    transition:transform .12s,border-color .18s,background-color .18s;}
+    min-height:44px;padding:9px 14px;border-radius:var(--radius-control);cursor:pointer;font-size:.9rem;font-weight:650;
+    transition:transform var(--motion-fast) var(--ease-out),border-color var(--motion-base) var(--ease-out),
+      background-color var(--motion-base) var(--ease-out);}
   .btn:hover{border-color:var(--accent);}
   .btn:active,.toggle:active,.tabs button:active{transform:translateY(1px)}
-  .btn.primary{background:var(--accent2);border-color:var(--accent2);color:#fff;}
+  .btn.primary{background:var(--accent2);border-color:var(--jade);color:var(--text);}
   .btn:disabled{opacity:.4;cursor:not-allowed;}
   :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
   /* Stat bar */
@@ -105,79 +140,426 @@
   mark{background:var(--warn);color:#17150f;padding:0 2px;border-radius:2px;}
   footer{text-align:center;color:var(--muted);font-size:.75rem;margin-top:24px;}
   @media(max-width:680px){
-    .wrap{padding:12px 10px 56px}.controls{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+    .wrap{padding:10px 10px 56px}.app-header{min-height:60px;padding-bottom:10px}.brand-lockup{gap:9px}
+    .brand-mark{width:40px;height:40px}.app-header h1{font-size:1.18rem}.app-header .sub{font-size:.78rem}
+    .header-count{padding-left:10px;display:block;text-align:right}.header-count strong,.header-count span{display:block}
+    .tabs{margin-bottom:12px}.tabs button{min-height:52px;gap:5px;padding-inline:4px;font-size:.78rem}
+    .tabs button .ui-icon{width:1.05rem;height:1.05rem}
+    .controls{display:grid;grid-template-columns:1fr 1fr;gap:7px}
     .controls select,.controls input[type=text]{width:100%;min-width:0}.controls input[type=text]{grid-column:1/-1}
     .card{padding:14px}.stem{font-size:1rem}.qmeta{align-items:flex-start}.tabs button{padding-inline:6px}
     .nav .btn{flex:1}.statbar{gap:8px 12px}.source{font-size:.8rem}
   }
-  @media(max-width:430px){.controls{grid-template-columns:1fr}.controls input[type=text]{grid-column:auto}}
+  @media(max-width:430px){
+    .header-count span{font-size:.68rem}.controls{grid-template-columns:1fr}.controls input[type=text]{grid-column:auto}
+  }
   @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+  /* Phase 02: study workspaces */
+  .study-workspace,.search-workspace{min-width:0}
+  .study-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:end;
+    padding:0 0 14px;border-bottom:1px solid var(--line)}
+  .study-filter-grid{display:grid;grid-template-columns:minmax(220px,1.8fr) minmax(170px,.8fr);gap:8px;min-width:0}
+  .filter-control{display:grid;gap:4px;min-width:0;color:var(--ink-muted);font-size:.72rem;font-weight:650}
+  .filter-control select{width:100%;min-width:0;background:var(--surface);color:var(--ink);border:1px solid var(--control-border);
+    border-radius:var(--radius-control);min-height:44px;padding:8px 11px}
+  .study-quick-actions{display:flex;gap:7px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+  .study-quick-actions .toggle,.study-quick-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+  .study-quick-actions .toggle.on .ui-icon{color:var(--brass-soft)}
+  .study-reset{color:var(--ink-muted)}
+  .session-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:12px;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .session-stat{min-width:0;padding:9px 12px;border-right:1px solid var(--line);font-variant-numeric:tabular-nums}
+  .session-stat:last-child{border-right:0}.session-stat>span{display:block;color:var(--ink-muted);font-size:.7rem;line-height:1.3}
+  .session-stat strong{display:block;margin-top:2px;color:var(--ink);font-size:.98rem;line-height:1.3;white-space:nowrap}
+  .session-stat small{color:var(--ink-muted);font-size:.72em}.session-stat em{color:var(--ink-muted);font-size:.72em;font-style:normal}
+  .study-workspace>.progress{margin:10px 0 14px;height:5px}
+  .question-frame{position:relative;padding:20px;background:var(--surface);border-color:var(--line-strong)}
+  .question-frame .qmeta{padding-bottom:12px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+  .question-frame .stem{max-width:900px;font-size:1.12rem;line-height:1.6;margin-bottom:18px}
+  .question-frame .opts{gap:8px}.question-frame .opt{min-height:52px;padding:12px 14px;background:var(--surface-strong)}
+  .question-frame .opt.correct{box-shadow:inset 4px 0 0 var(--success)}
+  .question-frame .opt.wrong{box-shadow:inset 4px 0 0 var(--danger)}
+  .question-frame .star{display:grid;place-items:center}.question-frame .star .ui-icon{width:20px;height:20px}
+  .question-frame .star.on{background:var(--surface-raised);color:var(--brass-soft)}
+  .feedback{min-height:0;margin:14px -20px 0;padding:12px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    background:var(--surface-strong)}
+  .feedback:empty{display:none}.feedback.ok{color:var(--success);border-left:4px solid var(--success)}
+  .feedback.bad{color:var(--danger);border-left:4px solid var(--danger)}
+  .review{margin:0 -20px;padding:16px 20px 0;border-top:0;background:var(--surface)}
+  .review-title{display:flex;align-items:center;gap:7px;color:var(--brass-soft);text-transform:none}
+  .question-nav{margin:18px -2px 0;align-items:center}.question-nav .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px}
+  .study-workspace[data-study-mode="flash"] .question-frame{border-top:3px solid var(--river)}
+  .study-workspace[data-study-mode="flash"] .opts{opacity:.8}
+  .study-workspace[data-study-mode="flash"] .feedback.ok{color:var(--brass-soft);border-left-color:var(--river)}
+  .search-toolbar{position:sticky;top:0;z-index:5;padding:12px 0 14px;background:var(--canvas);border-bottom:1px solid var(--line)}
+  .search-toolbar>label{display:block;margin-bottom:7px;color:var(--ink);font-weight:700}
+  .search-field{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:9px;background:var(--surface);
+    border:1px solid var(--control-border);border-radius:var(--radius-control);padding:0 12px}
+  .search-field:focus-within{border-color:var(--focus);box-shadow:0 0 0 1px var(--focus)}
+  .search-field .ui-icon{color:var(--ink-muted)}
+  .search-field input{width:100%;min-width:0;border:0;background:transparent;padding-inline:0;outline:0;box-shadow:none}
+  .search-status{min-height:20px;margin-top:7px;color:var(--ink-muted);font-size:.78rem}
+  .search-chapter-heading{margin:22px 0 0;padding:0 2px 8px;border-bottom:2px solid var(--line);font-size:.88rem;color:var(--brass-soft)}
+  .search-results{counter-reset:search-result}.result{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;padding:18px 2px}
+  .result .stem{margin:0;font-size:1rem;line-height:1.55}.result .ans{padding-left:12px;border-left:3px solid var(--success)}
+  .result .explain{color:var(--ink-muted);line-height:1.55}.result mark{background:var(--brass);color:#17150f}
+  .empty{border-block:1px solid var(--line);background:var(--surface);padding:36px 16px}
+  @media(max-width:860px){
+    .study-toolbar{grid-template-columns:1fr}.study-quick-actions{justify-content:stretch;display:grid;grid-template-columns:repeat(4,1fr)}
+    .study-quick-actions .toggle,.study-quick-actions .btn{padding-inline:8px}
+  }
+  @media(max-width:680px){
+    .study-filter-grid{grid-template-columns:1fr 1fr}.study-quick-actions{grid-template-columns:1fr 1fr}
+    .session-strip{grid-template-columns:1fr 1fr}.session-stat:nth-child(2){border-right:0}.session-stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+    .question-frame{padding:14px 14px calc(70px + env(safe-area-inset-bottom))}.question-frame .qmeta{padding-bottom:10px;margin-bottom:11px}
+    .question-frame .stem{font-size:1.02rem;line-height:1.55}.feedback{margin-inline:-14px;padding-inline:14px}.review{margin-inline:-14px;padding-inline:14px}
+    .question-nav{position:sticky;bottom:0;z-index:6;margin:18px -14px calc(-70px - env(safe-area-inset-bottom));
+      padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:rgba(20,26,24,.97);border-top:1px solid var(--line-strong)}
+    .question-nav .btn{min-width:0}.search-toolbar{top:0;padding-top:8px}
+  }
+  @media(max-width:390px){
+    .study-filter-grid{grid-template-columns:1fr}.study-quick-actions .toggle,.study-quick-actions .btn{font-size:.8rem}
+    .session-stat{padding-inline:9px}.question-nav .btn{padding-inline:9px}
+  }
+/*__GAME_STYLES__*/
 </style>
 </head>
 <body>
+<!--
+Selected Lucide icons: https://github.com/lucide-icons/lucide
+
+ISC License
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+The Lucide search icon is derived from Feather.
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg class="ui-icon-sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="ui-icon-landmark" viewBox="0 0 24 24">
+    <path d="M10 18v-7"></path><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"></path>
+    <path d="M14 18v-7"></path><path d="M18 18v-7"></path><path d="M3 22h18"></path><path d="M6 18v-7"></path>
+  </symbol>
+  <symbol id="ui-icon-book-open" viewBox="0 0 24 24">
+    <path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+  </symbol>
+  <symbol id="ui-icon-layers" viewBox="0 0 24 24">
+    <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+    <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+    <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+  </symbol>
+  <symbol id="ui-icon-search" viewBox="0 0 24 24">
+    <path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle>
+  </symbol>
+  <symbol id="ui-icon-castle" viewBox="0 0 24 24">
+    <path d="M10 5V3"></path><path d="M14 5V3"></path><path d="M15 21v-3a3 3 0 0 0-6 0v3"></path>
+    <path d="M18 3v8"></path><path d="M18 5H6"></path><path d="M22 11H2"></path>
+    <path d="M22 9v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9"></path><path d="M6 3v8"></path>
+  </symbol>
+  <symbol id="ui-icon-shuffle" viewBox="0 0 24 24">
+    <path d="m18 14 4 4-4 4"></path><path d="m18 2 4 4-4 4"></path>
+    <path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22"></path>
+    <path d="M2 6h1.972a4 4 0 0 1 3.6 2.2"></path><path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"></path>
+  </symbol>
+  <symbol id="ui-icon-bookmark" viewBox="0 0 24 24">
+    <path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"></path>
+  </symbol>
+  <symbol id="ui-icon-rotate-ccw" viewBox="0 0 24 24">
+    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path>
+  </symbol>
+  <symbol id="ui-icon-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></symbol>
+  <symbol id="ui-icon-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"></path></symbol>
+  <symbol id="ui-icon-chevron-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"></path></symbol>
+  <symbol id="ui-icon-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></symbol>
+  <symbol id="ui-icon-zoom-in" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+    <line x1="11" x2="11" y1="8" y2="14"></line><line x1="8" x2="14" y1="11" y2="11"></line>
+  </symbol>
+  <symbol id="ui-icon-zoom-out" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line><line x1="8" x2="14" y1="11" y2="11"></line>
+  </symbol>
+  <symbol id="ui-icon-maximize-2" viewBox="0 0 24 24">
+    <path d="M15 3h6v6"></path><path d="m21 3-7 7"></path><path d="m3 21 7-7"></path><path d="M9 21H3v-6"></path>
+  </symbol>
+  <symbol id="ui-icon-locate-fixed" viewBox="0 0 24 24">
+    <line x1="2" x2="5" y1="12" y2="12"></line><line x1="19" x2="22" y1="12" y2="12"></line>
+    <line x1="12" x2="12" y1="2" y2="5"></line><line x1="12" x2="12" y1="19" y2="22"></line>
+    <circle cx="12" cy="12" r="7"></circle><circle cx="12" cy="12" r="3"></circle>
+  </symbol>
+  <symbol id="ui-icon-wheat" viewBox="0 0 24 24">
+    <path d="M2 22 16 8"></path><path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path>
+    <path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path>
+    <path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path><path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"></path>
+  </symbol>
+  <symbol id="ui-icon-coins" viewBox="0 0 24 24">
+    <path d="M13.744 17.736a6 6 0 1 1-7.48-7.48"></path><path d="M15 6h1v4"></path><path d="m6.134 14.768.866-.5 2 3.464"></path><circle cx="16" cy="8" r="6"></circle>
+  </symbol>
+  <symbol id="ui-icon-users" viewBox="0 0 24 24">
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle>
+  </symbol>
+  <symbol id="ui-icon-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></symbol>
+  <symbol id="ui-icon-gauge" viewBox="0 0 24 24"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></symbol>
+  <symbol id="ui-icon-handshake" viewBox="0 0 24 24">
+    <path d="m11 17 2 2a1 1 0 1 0 3-3"></path><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path>
+    <path d="m21 3 1 11h-2"></path><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path><path d="M3 4h8"></path>
+  </symbol>
+  <symbol id="ui-icon-swords" viewBox="0 0 24 24">
+    <polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"></polyline><line x1="13" x2="19" y1="19" y2="13"></line><line x1="16" x2="20" y1="16" y2="20"></line><line x1="19" x2="21" y1="21" y2="19"></line>
+    <polyline points="14.5 6.5 18 3 21 3 21 6 17.5 9.5"></polyline><line x1="5" x2="9" y1="14" y2="18"></line><line x1="7" x2="4" y1="17" y2="20"></line><line x1="3" x2="5" y1="19" y2="21"></line>
+  </symbol>
+  <symbol id="ui-icon-scroll-text" viewBox="0 0 24 24">
+    <path d="M15 12h-5"></path><path d="M15 8h-5"></path><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path>
+  </symbol>
+  <symbol id="ui-icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></symbol>
+  <symbol id="ui-icon-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></symbol>
+  <symbol id="ui-icon-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></symbol>
+  <symbol id="ui-icon-clock-3" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6h4"></path></symbol>
+  <symbol id="ui-icon-lock-keyhole" viewBox="0 0 24 24"><circle cx="12" cy="16" r="1"></circle><rect x="3" y="10" width="18" height="12" rx="2"></rect><path d="M7 10V7a5 5 0 0 1 10 0v3"></path></symbol>
+  <symbol id="ui-icon-save" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path><path d="M7 3v4a1 1 0 0 0 1 1h7"></path></symbol>
+  <symbol id="ui-icon-plus" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M12 5v14"></path></symbol>
+  <symbol id="ui-icon-trash-2" viewBox="0 0 24 24"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></symbol>
+</svg>
 <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
 <main class="wrap" id="main">
-  <header>
-    <h1>MLN222</h1>
-    <div class="sub">Ôn tập Kinh tế chính trị Mác-Lênin — <span id="total">0</span> câu hỏi</div>
+  <header class="app-header">
+    <div class="brand-lockup">
+      <span class="brand-mark" aria-hidden="true">
+        <svg class="ui-icon" focusable="false"><use href="#ui-icon-landmark"></use></svg>
+      </span>
+      <div class="brand-copy">
+        <h1>MLN222</h1>
+        <div class="sub">Kinh tế chính trị Mác-Lênin</div>
+      </div>
+    </div>
+    <div class="header-count" aria-label="Ngân hàng câu hỏi">
+      <strong id="total">0</strong><span>câu hỏi</span>
+    </div>
   </header>
 
   <nav class="tabs" aria-label="Chế độ học">
-    <button data-mode="quiz" class="active" aria-pressed="true">Luyện thi</button>
-    <button data-mode="flash" aria-pressed="false">Flashcard</button>
-    <button data-mode="search" aria-pressed="false">Tìm kiếm</button>
+    <button data-mode="quiz" class="active" aria-pressed="true">
+      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-book-open"></use></svg><span>Luyện thi</span>
+    </button>
+    <button data-mode="flash" aria-pressed="false">
+      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-layers"></use></svg><span>Flashcard</span>
+    </button>
+    <button data-mode="search" aria-pressed="false">
+      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-search"></use></svg><span>Tìm kiếm</span>
+    </button>
+    <button data-mode="game" aria-pressed="false">
+      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-castle"></use></svg><span>Công thành</span>
+    </button>
   </nav>
 
   <!-- QUIZ / FLASHCARD shared controls -->
-  <div id="studyControls">
-    <div class="controls">
-      <label class="sr-only" for="chapter">Chương</label>
-      <select id="chapter" aria-label="Lọc theo chương"></select>
-      <label class="sr-only" for="difficulty">Mức độ</label>
-      <select id="difficulty" aria-label="Lọc theo mức độ"></select>
-      <button class="toggle" id="cShuffle" aria-pressed="false">Xáo trộn</button>
-      <button class="toggle" id="cMarked" aria-pressed="false">Đã đánh dấu</button>
-      <button class="toggle" id="cWrong" aria-pressed="false">Hay sai</button>
-      <button class="btn" id="resetBtn" title="Xóa tiến độ và thống kê">Reset</button>
-    </div>
-    <div class="statbar">
-      <span>Câu <b id="pos">0</b>/<b id="poolN">0</b></span>
-      <span id="scoreWrap">Điểm: <b id="score">0</b>/<b id="answered">0</b> (<b id="pct">0</b>%)</span>
-      <span>Đã làm toàn bộ: <b id="seenAll">0</b> · Đánh dấu: <b id="markN">0</b></span>
-    </div>
-    <div class="progress"><i id="bar"></i></div>
+  <div id="studyControls" class="study-workspace" data-study-mode="quiz">
+    <section class="study-toolbar" aria-label="Bộ lọc học tập">
+      <div class="study-filter-grid">
+        <label class="filter-control" for="chapter"><span>Chương</span><select id="chapter" aria-label="Lọc theo chương"></select></label>
+        <label class="filter-control" for="difficulty"><span>Mức độ</span><select id="difficulty" aria-label="Lọc theo mức độ"></select></label>
+      </div>
+      <div class="study-quick-actions" role="group" aria-label="Thao tác nhanh">
+        <button class="toggle" id="cShuffle" aria-pressed="false" title="Xáo trộn thứ tự câu hỏi">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-shuffle"></use></svg><span>Xáo trộn</span>
+        </button>
+        <button class="toggle" id="cMarked" aria-pressed="false" title="Chỉ hiện câu đã đánh dấu">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-bookmark"></use></svg><span>Đã đánh dấu</span>
+        </button>
+        <button class="toggle" id="cWrong" aria-pressed="false" title="Chỉ hiện câu từng trả lời sai">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-triangle-alert"></use></svg><span>Hay sai</span>
+        </button>
+        <button class="btn study-reset" id="resetBtn" title="Xóa tiến độ và thống kê">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-rotate-ccw"></use></svg><span>Đặt lại</span>
+        </button>
+      </div>
+    </section>
+    <section class="session-strip" aria-label="Tiến độ phiên học">
+      <div class="session-stat"><span>Tiến độ</span><strong><b id="pos">0</b><small>/</small><b id="poolN">0</b></strong></div>
+      <div class="session-stat" id="scoreWrap"><span>Điểm phiên</span><strong><b id="score">0</b><small>/</small><b id="answered">0</b> <em>(<b id="pct">0</b>%)</em></strong></div>
+      <div class="session-stat"><span>Đã luyện</span><strong><b id="seenAll">0</b><small>/504</small></strong></div>
+      <div class="session-stat"><span>Đánh dấu</span><strong id="markN">0</strong></div>
+    </section>
+    <div class="progress" aria-hidden="true"><i id="bar"></i></div>
 
-    <div class="card" id="card">
+    <article class="card question-frame" id="card" aria-labelledby="stem">
       <div class="qmeta">
         <div class="meta-main">
           <span id="qtag"></span>
           <div class="badges"><span class="badge level" id="qlevel"></span><span class="badge" id="qtopic"></span></div>
         </div>
-        <button class="star" id="star" title="Đánh dấu câu khó" aria-label="Đánh dấu câu khó" aria-pressed="false">☆</button>
+        <button class="star" id="star" title="Đánh dấu câu khó" aria-label="Đánh dấu câu khó" aria-pressed="false">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-bookmark"></use></svg>
+        </button>
       </div>
       <div class="stem" id="stem" tabindex="-1"></div>
       <div class="opts" id="opts"></div>
-      <div class="feedback" id="feedback" role="status" aria-live="polite" tabindex="-1"></div>
+      <div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></div>
       <div class="review hidden" id="review">
         <div class="review-title">Giải thích</div>
         <p class="explanation" id="explanation"></p>
         <div class="source" id="source"></div>
       </div>
-      <div class="nav">
-        <button class="btn" id="prevBtn">← Câu trước</button>
-        <button class="btn primary" id="nextBtn">Câu sau →</button>
+      <div class="nav question-nav" aria-label="Điều hướng câu hỏi">
+        <button class="btn" id="prevBtn"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-chevron-left"></use></svg><span>Câu trước</span></button>
+        <button class="btn primary" id="nextBtn"><span id="nextLabel">Câu sau</span><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-chevron-right"></use></svg></button>
       </div>
-    </div>
+    </article>
   </div>
 
   <!-- SEARCH -->
-  <div id="searchPanel" class="hidden">
-    <div class="controls">
-      <label class="sr-only" for="searchInput">Từ khóa tìm kiếm</label>
-      <input type="text" id="searchInput" placeholder="Tìm chủ đề, câu hỏi, đáp án hoặc nguồn" autocomplete="off" aria-describedby="searchStatus">
+  <div id="searchPanel" class="search-workspace hidden">
+    <section class="search-toolbar" aria-label="Tìm kiếm ngân hàng câu hỏi">
+      <label for="searchInput">Tìm trong ngân hàng 504 câu hỏi</label>
+      <div class="search-field">
+        <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-search"></use></svg>
+        <input type="text" id="searchInput" placeholder="Chủ đề, câu hỏi, đáp án hoặc nguồn" autocomplete="off" aria-describedby="searchStatus">
+      </div>
+      <div class="search-status" id="searchStatus" role="status" aria-live="polite">Nhập ít nhất 2 ký tự để bắt đầu.</div>
+    </section>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+
+  <div id="gameRoot" class="game-root hidden" aria-label="Chiến dịch Công thành">
+    <div id="gameLiveStatus" class="sr-only" role="status" aria-live="polite"></div>
+    <div class="game-commandbar" aria-label="Lệnh chiến dịch">
+      <div class="game-command-group">
+        <button class="game-btn" id="gameNewBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-plus"></use></svg><span>Chiến dịch mới</span></button>
+        <button class="game-btn" id="gameContinueBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-rotate-ccw"></use></svg><span>Tiếp tục</span></button>
+        <button class="game-btn" id="gameSaveBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-save"></use></svg><span>Lưu</span></button>
+      </div>
+      <div class="game-command-state" id="gameOrderStatus" role="status">Chưa có lệnh đã xếp</div>
     </div>
-    <div class="sr-only" id="searchStatus" role="status" aria-live="polite"></div>
-    <div id="searchResults"></div>
+    <div class="game-reward-banner hidden" id="gameRewardBanner" role="status" aria-live="polite"></div>
+
+    <div class="game-resourcebar hidden" id="gameResourceBar" aria-label="Tài nguyên chiến dịch">
+      <div class="game-resource-item" data-resource-priority="primary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-clock-3"></use></svg><span>Lượt</span><strong id="gameTurn">1</strong></div>
+      <div class="game-resource-item" data-resource-priority="primary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-wheat"></use></svg><span>Lương thực</span><strong id="gameFood">0</strong></div>
+      <div class="game-resource-item" data-resource-priority="primary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-coins"></use></svg><span>Tiền</span><strong id="gameCoin">0</strong></div>
+      <div class="game-resource-item" data-resource-priority="secondary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-users"></use></svg><span>Dân thường</span><strong id="gameCivilians">0</strong></div>
+      <div class="game-resource-item" data-resource-priority="secondary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-shield"></use></svg><span>Quân đội</span><strong id="gameMilitary">0</strong></div>
+      <div class="game-resource-item" data-resource-priority="secondary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-landmark"></use></svg><span>Giới hạn dân</span><strong id="gameCapacity">0</strong></div>
+      <div class="game-resource-item game-resource-ap" data-resource-priority="primary"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-gauge"></use></svg><span>Điểm lệnh</span><strong id="gameActionPoints">0/2</strong></div>
+      <button class="game-resource-toggle" id="gameResourceToggle" type="button" aria-expanded="false" aria-controls="gameResourceBar" title="Hiện toàn bộ tài nguyên" aria-label="Hiện toàn bộ tài nguyên">
+        <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-chevron-down"></use></svg>
+      </button>
+    </div>
+
+    <div class="game-layout">
+      <section class="game-map-stage" aria-label="Bản đồ Việt Nam">
+        <div class="game-map-toolbar" aria-label="Điều khiển bản đồ">
+          <button class="game-icon-btn" id="gameZoomOut" title="Thu nhỏ bản đồ" aria-label="Thu nhỏ bản đồ"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-zoom-out"></use></svg></button>
+          <button class="game-icon-btn game-fit-btn" id="gameZoomReset" title="Vừa khung bản đồ" aria-label="Vừa khung bản đồ"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-maximize-2"></use></svg><span id="gameZoomLevel">110%</span></button>
+          <button class="game-icon-btn" id="gameZoomIn" title="Phóng to bản đồ" aria-label="Phóng to bản đồ"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-zoom-in"></use></svg></button>
+          <button class="game-icon-btn" id="gameMapFocus" title="Tập trung tỉnh đang chọn" aria-label="Tập trung tỉnh đang chọn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-locate-fixed"></use></svg></button>
+          <span class="game-map-hint"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-landmark"></use></svg><span id="gameMapHint">Chọn một tỉnh trên bản đồ</span></span>
+        </div>
+        <div class="game-map-viewport" id="gameMapViewport">
+          <div class="game-map-canvas" id="gameMapCanvas"><!--__GAME_SVG__--></div>
+          <div class="game-map-insets" id="gameMapInsets" aria-label="Bản đồ đảo Hoàng Sa và Trường Sa"></div>
+          <div class="game-map-tooltip hidden" id="gameMapTooltip" role="status"></div>
+          <div class="game-map-legend" aria-label="Chú giải bản đồ">
+            <span><i class="legend-own"></i>Thế lực bạn</span><span><i class="legend-allied"></i>Đồng minh</span>
+            <span><i class="legend-warning"></i>Cảnh báo</span><span><i class="legend-battle"></i>Mặt trận</span>
+          </div>
+        </div>
+      </section>
+
+      <aside class="game-context" id="gameContext">
+        <section id="gameSetupPane" class="game-setup-pane">
+          <div class="game-section-heading">
+            <div>
+              <p class="game-eyebrow">Khởi đầu</p>
+              <h2>Chọn cứ điểm</h2>
+            </div>
+          </div>
+          <label for="gameStartProvince">Tỉnh khởi đầu</label>
+          <select id="gameStartProvince"></select>
+          <label for="gameSeed">Mã chiến dịch</label>
+          <input id="gameSeed" type="text" value="mln222-campaign" maxlength="64" autocomplete="off">
+          <div class="game-start-summary" id="gameStartSummary"></div>
+          <button class="game-btn game-primary" id="gameBeginBtn">Bắt đầu chiến dịch</button>
+        </section>
+
+        <section id="gameCampaignPane" class="hidden" aria-label="Bảng điều hành chiến dịch">
+          <button class="game-sheet-toggle" id="gameSheetToggle" type="button" aria-expanded="false" aria-controls="gameCampaignPane">
+            <span class="game-sheet-grip" aria-hidden="true"></span><span id="gameSheetTitle">Chi tiết tỉnh</span>
+            <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-chevron-up"></use></svg>
+          </button>
+          <div class="game-panel-tabs" aria-label="Bảng chiến dịch">
+            <button data-game-panel="province" class="active" aria-pressed="true"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-landmark"></use></svg><span>Tỉnh</span></button>
+            <button data-game-panel="diplomacy" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-handshake"></use></svg><span>Ngoại giao</span></button>
+            <button data-game-panel="battle" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-swords"></use></svg><span>Mặt trận</span><span class="game-tab-badge hidden" id="gameBattleBadge" aria-label="0 mặt trận">0</span></button>
+            <button data-game-panel="report" aria-pressed="false"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-scroll-text"></use></svg><span>Báo cáo</span><span class="game-tab-badge hidden" id="gameReportBadge" aria-label="0 sự kiện">0</span></button>
+          </div>
+          <div id="gameProvincePanel" class="game-panel"></div>
+          <div id="gameDiplomacyPanel" class="game-panel hidden"></div>
+          <div id="gameBattlePanel" class="game-panel hidden"></div>
+          <div id="gameReportPanel" class="game-panel hidden"></div>
+          <div class="game-turn-actions">
+            <label class="game-reward-choice" for="gameQuizChoice">Ưu tiên thưởng
+              <select id="gameQuizChoice">
+                <option value="food">Lương thực</option>
+                <option value="coin">Tiền tệ</option>
+                <option value="population">Dân số</option>
+                <option value="unlock">Mở khóa</option>
+              </select>
+            </label>
+            <button class="game-btn" id="gameClearOrdersBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-trash-2"></use></svg><span>Hủy lệnh</span></button>
+            <button class="game-btn game-primary" id="gameEndTurnBtn"><span>Kết thúc lượt</span><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-chevron-right"></use></svg></button>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <div class="game-quiz-overlay hidden" id="gameQuizOverlay" role="dialog" aria-modal="true" aria-labelledby="gameQuizTitle" aria-describedby="gameQuizMeta gameQuizFeedback" aria-hidden="true" tabindex="-1">
+      <div class="game-quiz-shell">
+        <div class="game-quiz-head">
+          <div>
+            <p class="game-eyebrow">Tổng kết lượt</p>
+            <h2 id="gameQuizTitle">Thử thách 10 câu</h2>
+          </div>
+          <strong id="gameQuizProgress">1/10</strong>
+        </div>
+        <div class="game-quiz-bar"><i id="gameQuizBar"></i></div>
+        <div class="game-quiz-meta" id="gameQuizMeta"></div>
+        <div class="game-quiz-question" id="gameQuizQuestion" tabindex="-1"></div>
+        <div class="game-quiz-options" id="gameQuizOptions"></div>
+        <div class="game-quiz-feedback" id="gameQuizFeedback" role="status" aria-live="polite"></div>
+        <div class="game-quiz-explanation hidden" id="gameQuizExplanation"></div>
+        <div class="game-quiz-result hidden" id="gameQuizResult"></div>
+        <button class="game-btn game-primary hidden" id="gameQuizNextBtn">Câu tiếp theo</button>
+      </div>
+    </div>
   </div>
 
   <footer>Nội dung được biên soạn từ tài liệu MLN222 · Tiến độ lưu trên trình duyệt này.</footer>
@@ -186,6 +568,7 @@
 <script>
 /* ====== DATA (embedded) ====== */
 const QUESTIONS = /*__QUESTIONS__*/[];
+globalThis.MLN222_QUESTIONS = QUESTIONS;
 const LETTERS = ["A","B","C","D"];
 const KIND_LABELS = {
   nhan_biet_khai_niem:"Khái niệm",
@@ -305,6 +688,7 @@ function focusQuestion(){
 /* ====== Render quiz/flashcard ====== */
 function render(){
   const pool=state.pool;
+  $("#studyControls").dataset.studyMode=state.mode;
   $("#poolN").textContent=pool.length;
   $("#markN").textContent=LS.marked.size;
   $("#seenAll").textContent=Object.values(LS.stats).filter(s=>s.c+s.w>0).length;
@@ -333,9 +717,10 @@ function render(){
   $("#qtag").textContent=`${q.chapter} · Câu ${q.num}${stat}`;
   $("#qlevel").textContent=q.difficulty;
   $("#qtopic").textContent=`${q.topic} · ${KIND_LABELS[q.kind]||q.kind}`;
-  $("#star").textContent=LS.marked.has(q.id)?"★":"☆";
   $("#star").classList.toggle("on",LS.marked.has(q.id));
   $("#star").setAttribute("aria-pressed",String(LS.marked.has(q.id)));
+  $("#star").title=LS.marked.has(q.id)?"Bỏ đánh dấu câu này":"Đánh dấu câu khó";
+  $("#star").setAttribute("aria-label",$("#star").title);
   $("#stem").textContent=q.stem;
   $("#feedback").textContent="";$("#feedback").className="feedback";
   $("#review").classList.add("hidden");
@@ -344,12 +729,14 @@ function render(){
   const chosen=state.answered[state.idx]; // session choice
   const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
 
-  const optsEl=$("#opts");optsEl.innerHTML="";
+  const optsEl=$("#opts");optsEl.replaceChildren();
   q.options.forEach((opt,i)=>{
     const b=document.createElement("button");
     b.className="opt";
     b.type="button";
-    b.innerHTML=`<span class="lbl">${LETTERS[i]}.</span><span>${escapeHtml(opt)}</span>`;
+    const label=document.createElement("span");label.className="lbl";label.textContent=`${LETTERS[i]}.`;
+    const answer=document.createElement("span");answer.textContent=opt;
+    b.append(label,answer);
     b.setAttribute("aria-label",`${LETTERS[i]}. ${opt}`);
     if(reveal){
       b.classList.add("locked");
@@ -368,7 +755,7 @@ function render(){
   // feedback line
   if(state.mode==="quiz" && chosen!==undefined){
     const ok=chosen===q.answer;
-    $("#feedback").textContent=ok?"Đúng":`Chưa đúng · Đáp án: ${LETTERS[q.answer]}`;
+    $("#feedback").textContent=ok?"Chính xác · Bạn đã chọn đúng đáp án.":`Chưa chính xác · Đáp án đúng: ${LETTERS[q.answer]}.`;
     $("#feedback").className="feedback "+(ok?"ok":"bad");
   }else if(state.mode==="flash" && reveal){
     $("#feedback").textContent=`Đáp án: ${LETTERS[q.answer]}. ${q.options[q.answer]}`;
@@ -381,8 +768,8 @@ function render(){
   }
   // flashcard reveal control via nextBtn label handled below
   $("#prevBtn").disabled=state.idx===0;
-  $("#nextBtn").textContent = (state.mode==="flash" && !reveal) ? "Hiện đáp án"
-      : (state.idx===pool.length-1?"Làm lại từ đầu":"Câu sau →");
+  $("#nextLabel").textContent = (state.mode==="flash" && !reveal) ? "Hiện đáp án"
+      : (state.idx===pool.length-1?"Làm lại từ đầu":"Câu sau");
 }
 
 function choose(q,i){
@@ -423,18 +810,25 @@ function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;",
 function normalizeText(s){
   return String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\u0111/g,"d").replace(/\u0110/g,"D").toLowerCase();
 }
-function hl(text,kw){
-  const e=escapeHtml(text);
-  if(!kw) return e;
+function appendHighlighted(parent,text,kw){
+  const value=String(text??"");
+  if(!kw){parent.append(document.createTextNode(value));return;}
   const re=new RegExp("("+kw.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
-  return e.replace(re,"<mark>$1</mark>");
+  value.split(re).forEach((part,index)=>{
+    if(!part)return;
+    if(index%2===1){const mark=document.createElement("mark");mark.textContent=part;parent.append(mark);}
+    else parent.append(document.createTextNode(part));
+  });
+}
+function renderSearchEmpty(box,message){
+  const empty=document.createElement("div");empty.className="empty";empty.textContent=message;box.replaceChildren(empty);
 }
 function doSearch(){
   const kw=$("#searchInput").value.trim();
   const box=$("#searchResults");
   const status=$("#searchStatus");
   if(kw.length<2){
-    box.innerHTML='<div class="empty">Gõ ít nhất 2 ký tự để tìm.</div>';
+    renderSearchEmpty(box,"Gõ ít nhất 2 ký tự để tìm.");
     status.textContent="Nhập ít nhất 2 ký tự để tìm kiếm.";
     return;
   }
@@ -445,19 +839,28 @@ function doSearch(){
     return searchable.some(value=>value.includes(low));
   });
   if(!res.length){
-    box.innerHTML='<div class="empty">Không tìm thấy câu nào.</div>';
+    renderSearchEmpty(box,"Không tìm thấy câu nào.");
     status.textContent="Không có kết quả tìm kiếm.";
     return;
   }
   status.textContent=`Tìm thấy ${res.length} kết quả.`;
-  box.innerHTML=res.slice(0,80).map(q=>`
-    <div class="result">
-      <div class="meta">${escapeHtml(q.chapter)} · Câu ${q.num} · ${escapeHtml(q.difficulty)} · ${escapeHtml(q.topic)}</div>
-      <div class="stem">${hl(q.stem,kw)}</div>
-      <div class="ans">${LETTERS[q.answer]}. ${hl(q.options[q.answer],kw)}</div>
-      <div class="explain">${hl(q.explanation,kw)}</div>
-      ${q.source?`<div class="meta">Nguồn: ${escapeHtml(q.source.file||"")} · trang ${q.source.page||""}</div>`:""}
-    </div>`).join("")+(res.length>80?`<div class="empty">… và ${res.length-80} kết quả khác. Gõ cụ thể hơn.</div>`:"");
+  const fragment=document.createDocumentFragment();
+  let previousChapter="";
+  res.slice(0,80).forEach(q=>{
+    if(q.chapter!==previousChapter){
+      const heading=document.createElement("h2");heading.className="search-chapter-heading";heading.textContent=q.chapter;fragment.append(heading);previousChapter=q.chapter;
+    }
+    const row=document.createElement("article");row.className="result";row.dataset.questionId=q.id;
+    const meta=document.createElement("div");meta.className="meta";meta.textContent=`Câu ${q.num} · ${q.difficulty} · ${q.topic}`;
+    const stem=document.createElement("div");stem.className="stem";appendHighlighted(stem,q.stem,kw);
+    const answer=document.createElement("div");answer.className="ans";answer.append(document.createTextNode(`${LETTERS[q.answer]}. `));appendHighlighted(answer,q.options[q.answer],kw);
+    const explanation=document.createElement("div");explanation.className="explain";appendHighlighted(explanation,q.explanation,kw);
+    row.append(meta,stem,answer,explanation);
+    if(q.source){const source=document.createElement("div");source.className="meta";source.textContent=`Nguồn: ${q.source.file||""}${q.source.page?` · trang ${q.source.page}`:""}`;row.append(source);}
+    fragment.append(row);
+  });
+  if(res.length>80){const more=document.createElement("div");more.className="empty";more.textContent=`Còn ${res.length-80} kết quả khác. Hãy nhập từ khóa cụ thể hơn.`;fragment.append(more);}
+  box.replaceChildren(fragment);
 }
 
 /* ====== Mode switching ====== */
@@ -469,10 +872,14 @@ function setMode(m){
     b.setAttribute("aria-pressed",String(active));
   });
   const search=m==="search";
-  $("#studyControls").classList.toggle("hidden",search);
+  const game=m==="game";
+  $("#studyControls").classList.toggle("hidden",search||game);
   $("#searchPanel").classList.toggle("hidden",!search);
+  $("#gameRoot").classList.toggle("hidden",!game);
+  document.body.classList.toggle("game-mode",game);
   $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
-  if(search){doSearch();}else{buildPool();render();focusQuestion();}
+  if(game){if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();}
+  else if(search){doSearch();}else{buildPool();render();focusQuestion();}
 }
 
 /* ====== Wire up ====== */
@@ -496,7 +903,7 @@ function init(){
   };
   $("#searchInput").oninput=doSearch;
   document.onkeydown=e=>{
-    if(state.mode==="search" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
+    if(state.mode==="search" || state.mode==="game" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
     if(e.key==="ArrowRight"){e.preventDefault();next();}
     else if(e.key==="ArrowLeft"){e.preventDefault();prev();}
     else if(["1","2","3","4"].includes(e.key) && state.mode==="quiz"){
@@ -507,6 +914,10 @@ function init(){
   buildPool(); render();
 }
 init();
+</script>
+<script>
+globalThis.MLN222_GAME_DATA = /*__GAME_DATA__*/{};
+/*__GAME_SCRIPTS__*/
 </script>
 </body>
 </html>

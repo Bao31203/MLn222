@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "territoryPoints": {
+    "small": 1,
+    "medium": 2,
+    "large": 3
+  },
+  "regionControlThreshold": 0.5,
+  "nationalControlThreshold": 0.6,
+  "minimumControlledRegions": 4,
+  "occupationTurns": 3,
+  "defeatProvinceCount": 0
+}

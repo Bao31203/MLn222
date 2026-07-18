@@ -1,0 +1,11 @@
+AssertionError [ERR_ASSERTION]: At least 60% of standard benchmark campaigns must reach victory.
+    at assertSimulationMetrics (C:\Users\pgb31\mln222-quiz\scripts\simulate-campaign.js:244:10)
+    at runSimulation (C:\Users\pgb31\mln222-quiz\scripts\simulate-campaign.js:233:23)
+    at Object.<anonymous> (C:\Users\pgb31\mln222-quiz\scripts\simulate-campaign.js:266:21)
+    at Module._compile (node:internal/modules/cjs/loader:1873:14)
+    at Object..js (node:internal/modules/cjs/loader:2013:10)
+    at Module.load (node:internal/modules/cjs/loader:1596:32)
+    at Module._load (node:internal/modules/cjs/loader:1398:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47

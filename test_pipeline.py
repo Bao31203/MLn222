@@ -13,7 +13,16 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
-from build_html import PLACEHOLDER, serialize_for_inline_script
+from build_html import (
+    GAME_DATA_PLACEHOLDER,
+    GAME_SCRIPTS_PLACEHOLDER,
+    GAME_STYLES_PLACEHOLDER,
+    GAME_SVG_PLACEHOLDER,
+    PLACEHOLDER,
+    load_game_assets,
+    render_html,
+    serialize_for_inline_script,
+)
 from validate_questions import (
     find_repeated_answer_cycle,
     has_truncation_ellipsis,
@@ -148,6 +157,57 @@ class ValidatorUnitTests(unittest.TestCase):
         self.assertIn("\\u2029", payload)
         self.assertEqual(json.loads(payload), data)
 
+    def test_render_requires_every_placeholder_exactly_once(self) -> None:
+        assets = load_game_assets(BASE)
+        questions = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        for placeholder in (
+            PLACEHOLDER,
+            GAME_DATA_PLACEHOLDER,
+            GAME_STYLES_PLACEHOLDER,
+            GAME_SCRIPTS_PLACEHOLDER,
+            GAME_SVG_PLACEHOLDER,
+        ):
+            with self.subTest(placeholder=placeholder):
+                with self.assertRaises(ValueError):
+                    render_html(template.replace(placeholder, "", 1), questions, assets)
+
+    def test_game_manifest_cannot_escape_game_directory(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(BASE / "game", root / "game")
+            manifest_path = root / "game" / "build-manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["scripts"][0] = "../outside.js"
+            (root / "outside.js").write_text("", encoding="utf-8")
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "escapes game"):
+                load_game_assets(root)
+
+    def test_game_svg_rejects_active_content(self) -> None:
+        payloads = (
+            '<svg xmlns="http://www.w3.org/2000/svg"><script/></svg>',
+            '<svg xmlns="http://www.w3.org/2000/svg"><style>@import url(https://example.com/map.css)</style></svg>',
+        )
+        for payload in payloads:
+            with self.subTest(payload=payload), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                shutil.copytree(BASE / "game", root / "game")
+                svg_path = root / "game" / "assets" / "vietnam-map.svg"
+                svg_path.write_text(payload, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "forbidden element"):
+                    load_game_assets(root)
+
+    def test_game_stylesheet_rejects_runtime_asset_references(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(BASE / "game", root / "game")
+            manifest = json.loads((root / "game" / "build-manifest.json").read_text(encoding="utf-8"))
+            style_path = root / "game" / manifest["styles"][0]
+            style_path.write_text('@import "https://example.com/game.css";', encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "unsafe inline sequence"):
+                load_game_assets(root)
+
 
 class ProductionBankTests(unittest.TestCase):
     def test_expanded_bank_distribution(self) -> None:
@@ -222,13 +282,22 @@ class ProductionBankTests(unittest.TestCase):
         template = (BASE / "template.html").read_text(encoding="utf-8")
         html = (BASE / "index.html").read_text(encoding="utf-8")
         self.assertEqual(template.count("/*__QUESTIONS__*/[]"), 1)
-        self.assertNotIn("/*__QUESTIONS__*/", html)
+        for placeholder in (
+            "/*__QUESTIONS__*/",
+            GAME_DATA_PLACEHOLDER,
+            GAME_SCRIPTS_PLACEHOLDER,
+            GAME_STYLES_PLACEHOLDER,
+            GAME_SVG_PLACEHOLDER,
+        ):
+            self.assertNotIn(placeholder, html)
         self.assertIn('const QUESTIONS = [{"id":"C01-Q001"', html)
+        self.assertIn('id="Layer_1"', html)
+        self.assertIn('registerModule("game-app"', html)
 
     def test_built_html_embeds_current_production_bank(self) -> None:
         html = (BASE / "index.html").read_text(encoding="utf-8")
         match = re.search(
-            r"const QUESTIONS = (\[.*?\]);\s*const LETTERS =",
+            r"const QUESTIONS = (\[.*?\]);\s*globalThis\.MLN222_QUESTIONS = QUESTIONS;",
             html,
             flags=re.DOTALL,
         )
@@ -240,9 +309,20 @@ class ProductionBankTests(unittest.TestCase):
     def test_built_html_matches_current_template_and_bank(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
         production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
-        expected = template.replace(PLACEHOLDER, serialize_for_inline_script(production))
+        expected = render_html(template, production, load_game_assets(BASE))
         actual = (BASE / "index.html").read_text(encoding="utf-8")
         self.assertEqual(actual, expected)
+
+    def test_game_build_manifest_is_complete_and_local(self) -> None:
+        assets = load_game_assets(BASE)
+        self.assertEqual(len(assets["data"]["provinces"]["provinces"]), 34)
+        self.assertGreaterEqual(len(assets["scripts"]), 25)
+        self.assertNotIn("<script", assets["svg"].lower())
+        scripts = "\n".join(assets["scripts"])
+        styles = "\n".join(assets["styles"])
+        self.assertNotRegex(scripts, r"\bfetch\s*\(|XMLHttpRequest|WebSocket\s*\(")
+        self.assertNotRegex(scripts, r"(?:src|href)\s*=\s*['\"]https?://")
+        self.assertNotRegex(styles, r"url\(\s*['\"]?https?://")
 
     def test_progress_storage_is_versioned(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
@@ -265,11 +345,65 @@ class ProductionBankTests(unittest.TestCase):
         self.assertNotIn('role="tablist"', template)
         self.assertIn('aria-pressed="true"', template)
 
+    def test_app_shell_uses_semantic_tokens_and_local_icon_sprite(self) -> None:
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        game_styles = (BASE / "game" / "styles" / "game.css").read_text(encoding="utf-8")
+        expected_icons = {
+            "landmark", "book-open", "layers", "search", "castle", "shuffle",
+            "bookmark", "rotate-ccw", "chevron-left", "chevron-right", "chevron-up",
+            "chevron-down", "zoom-in", "zoom-out", "maximize-2", "locate-fixed",
+            "wheat", "coins", "users", "shield", "gauge", "handshake", "swords",
+            "scroll-text", "info", "triangle-alert", "circle-check", "clock-3",
+            "lock-keyhole", "save", "plus", "trash-2",
+        }
+        symbols = set(re.findall(r'<symbol id="ui-icon-([a-z0-9-]+)"', template))
+        self.assertEqual(symbols, expected_icons)
+        self.assertEqual(template.count('class="app-header"'), 1)
+        self.assertIn('--canvas:#0d1211', template)
+        self.assertIn('--surface:#141a18', template)
+        self.assertIn('--game-surface:var(--surface)', game_styles)
+        self.assertIn('Copyright (c) 2026 Lucide Icons and Contributors', template)
+        self.assertIn('Copyright (c) 2013-present Cole Bemis', template)
+        icon_references = set(re.findall(r'href="#ui-icon-([a-z0-9-]+)"', template))
+        self.assertTrue(icon_references.issubset(expected_icons))
+        self.assertIn("circle-check", (BASE / "game" / "ui" / "ui-utils.js").read_text(encoding="utf-8"))
+        self.assertNotRegex(template, r'<use[^>]+href=["\']https?://')
+
     def test_source_rendering_does_not_interpolate_inner_html(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
         self.assertIn("function renderSource(source)", template)
         self.assertIn("el.replaceChildren()", template)
         self.assertNotIn('$("#source").innerHTML=`', template)
+        self.assertIn('optsEl.replaceChildren()', template)
+        self.assertIn('box.replaceChildren(fragment)', template)
+        self.assertNotIn('box.innerHTML=res.slice', template)
+
+    def test_redesigned_workspaces_keep_dom_mobile_and_map_contracts(self) -> None:
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        game_styles = (BASE / "game" / "styles" / "game.css").read_text(encoding="utf-8")
+        map_view = (BASE / "game" / "ui" / "map-view.js").read_text(encoding="utf-8")
+        game_app = (BASE / "game" / "ui" / "game-app.js").read_text(encoding="utf-8")
+        ids = re.findall(r'\bid="([A-Za-z][A-Za-z0-9_-]*)"', template)
+        self.assertEqual(len(ids), len(set(ids)))
+        for required_id in (
+            "nextLabel", "searchStatus", "gameResourceToggle", "gameMapFocus",
+            "gameMapInsets", "gameMapTooltip", "gameSheetToggle", "gameSheetTitle",
+            "gameBattleBadge", "gameReportBadge", "gameQuizResult", "gameRewardBanner",
+        ):
+            self.assertIn(f'id="{required_id}"', template)
+        self.assertIn('data-study-mode="quiz"', template)
+        self.assertIn('aria-controls="gameCampaignPane"', template)
+        self.assertIn('env(safe-area-inset-bottom)', game_styles)
+        self.assertIn('[data-sheet-state="expanded"]', game_styles)
+        self.assertIn('[data-resources-expanded="true"]', game_styles)
+        self.assertIn('MAIN_VIEWBOX', map_view)
+        self.assertIn('quan-dao-hoang-sa', map_view)
+        self.assertIn('quan-dao-truong-sa', map_view)
+        self.assertIn('clone.setAttribute("aria-hidden", "true")', map_view)
+        self.assertIn('var sheetState = "collapsed"', game_app)
+        self.assertIn('var resourcesExpanded = false', game_app)
+        self.assertNotIn('sheetState:', game_app)
+        self.assertNotIn('resourcesExpanded:', game_app)
 
     def test_legacy_parser_cannot_overwrite_production_bank(self) -> None:
         parser = (BASE / "parse_questions.py").read_text(encoding="utf-8")
@@ -293,6 +427,7 @@ class ProductionBankTests(unittest.TestCase):
             ):
                 shutil.copy2(BASE / filename, root / filename)
             shutil.copytree(BASE / "content" / "chapters", root / "content" / "chapters")
+            shutil.copytree(BASE / "game", root / "game")
 
             for script in ("compose_questions.py", "build_html.py"):
                 result = subprocess.run(
@@ -319,7 +454,7 @@ class ProductionBankTests(unittest.TestCase):
     def test_inactive_options_and_dynamic_search_are_accessible(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
         self.assertIn("b.disabled=true", template)
-        self.assertIn('id="searchStatus" role="status"', template)
+        self.assertRegex(template, r'id="searchStatus"[^>]+role="status"')
         self.assertIn('$("#feedback").focus({preventScroll:true})', template)
 
 

@@ -1,0 +1,64 @@
+{
+  "runs": 30,
+  "turns": 60,
+  "seed": "campaign-tuning-b",
+  "seedPartition": "custom",
+  "durationMs": 47666.8466,
+  "p95TurnMs": 52.2319,
+  "maximumTurnMs": 115.5158,
+  "victories": 3,
+  "defeats": 0,
+  "unfinished": 27,
+  "medianVictoryTurn": 45,
+  "earlyWinRate": 0,
+  "standard": {
+    "campaigns": 10,
+    "victories": 2,
+    "winRate": 0.2,
+    "medianVictoryTurn": 42.5,
+    "earlyWinRate": 0
+  },
+  "invalidActions": 0,
+  "invalidDecisionSamples": [],
+  "invariantFailures": 0,
+  "invariantFailureSamples": [],
+  "warnings": 670,
+  "battles": 631,
+  "warBeforeTurn4": 0,
+  "warningViolations": 0,
+  "medianConcentration": 0.46987951807228917,
+  "p95StallTurns": 17,
+  "playerActions": {
+    "RECRUIT": 1310,
+    "TRADE": 31,
+    "WAIT": 83,
+    "UNLOCK": 120,
+    "WARN_ATTACK": 508,
+    "PROPOSE_TREATY": 46,
+    "REINFORCE": 755,
+    "MOVE": 226,
+    "RESPOND_TREATY": 151
+  },
+  "playerCaptures": 469,
+  "playerLosses": 46,
+  "policies": {
+    "balanced": {
+      "campaigns": 10,
+      "victories": 1,
+      "medianVictoryTurn": 56,
+      "medianProvinces": 17
+    },
+    "expansionist": {
+      "campaigns": 10,
+      "victories": 2,
+      "medianVictoryTurn": 42.5,
+      "medianProvinces": 19
+    },
+    "steward": {
+      "campaigns": 10,
+      "victories": 0,
+      "medianVictoryTurn": null,
+      "medianProvinces": 10
+    }
+  }
+}
