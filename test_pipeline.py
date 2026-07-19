@@ -333,10 +333,27 @@ class ProductionBankTests(unittest.TestCase):
         template = (BASE / "template.html").read_text(encoding="utf-8")
         self.assertIn("mln222.v2.marked", template)
         self.assertIn("mln222.v2.stats", template)
+        self.assertIn('const STUDY_PROGRESS_KEY="mln222.v3.studyProgress"', template)
+        self.assertIn("function normalizeStudySession(value,mode)", template)
+        self.assertIn("function saveStudySession()", template)
+        self.assertIn("function restoreStudySession(mode)", template)
+        self.assertIn("window.addEventListener(\"pagehide\",saveStudySession)", template)
+        self.assertIn("window.localStorage.removeItem(STUDY_PROGRESS_KEY)", template)
         self.assertNotIn('localStorage.getItem("mln222.marked")', template)
         self.assertNotIn('localStorage.getItem("mln222.stats")', template)
         self.assertIn("function readStoredJson", template)
         self.assertNotIn("new Set(JSON.parse(localStorage", template)
+
+    def test_study_progress_is_saved_across_answers_navigation_and_modes(self) -> None:
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        choose_block = template[template.index("function choose(q,i){"):template.index("function next(){")]
+        next_block = template[template.index("function next(){"):template.index("function toggleStar(){")]
+        mode_block = template[template.index("function setMode(m){"):template.index("/* ====== Wire up ====== */")]
+        self.assertIn("state.answered[q.id]=i", choose_block)
+        self.assertIn("saveStudySession();", choose_block)
+        self.assertGreaterEqual(next_block.count("saveStudySession();"), 4)
+        self.assertIn("if(STUDY_MODES.has(state.mode)) saveStudySession();", mode_block)
+        self.assertIn("if(!restoreStudySession(m)) buildPool();", mode_block)
 
     def test_build_uses_validated_snapshot_and_atomic_replace(self) -> None:
         builder = (BASE / "build_html.py").read_text(encoding="utf-8")

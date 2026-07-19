@@ -1511,6 +1511,12 @@ const KIND_LABELS = {
 
 /* ====== Persistent store (localStorage) ====== */
 const QUESTION_IDS = new Set(QUESTIONS.map(q=>q.id));
+const QUESTION_BY_ID = new Map(QUESTIONS.map(q=>[q.id,q]));
+const CHAPTER_VALUES = new Set(QUESTIONS.map(q=>q.chapter));
+const DIFFICULTY_VALUES = new Set(QUESTIONS.map(q=>q.difficulty));
+const STUDY_PROGRESS_KEY="mln222.v3.studyProgress";
+const STUDY_PROGRESS_VERSION=1;
+const STUDY_MODES=new Set(["quiz","flash"]);
 function readStoredJson(key,fallback){
   try{
     const raw=window.localStorage.getItem(key);
@@ -1546,6 +1552,7 @@ const LS = {
     try{
       window.localStorage.removeItem("mln222.v2.marked");
       window.localStorage.removeItem("mln222.v2.stats");
+      window.localStorage.removeItem(STUDY_PROGRESS_KEY);
     }catch(_error){ /* In-memory state is still reset below. */ }
   },
   stat(id){ return this.stats[id] || (this.stats[id]={c:0,w:0}); },
@@ -1556,13 +1563,130 @@ const state = {
   mode:"quiz", chapter:"all", difficulty:"all",
   shuffle:false, onlyMarked:false, onlyWrong:false,
   pool:[], idx:0,
-  answered:{}, // poolPosition -> chosen index (session, for navigation)
+  answered:{}, // question id -> chosen index (session, for navigation)
   sessSeen:0, sessCorrect:0, flashRevealed:-1,
 };
 
 /* ====== Helpers ====== */
 const $=s=>document.querySelector(s);
 const shuffleArr=a=>{for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+
+function isPlainRecord(value){
+  return Boolean(value)&&typeof value==="object"&&!Array.isArray(value);
+}
+
+function questionsForFilters(filters){
+  return QUESTIONS.filter(q=>{
+    if(filters.chapter!=="all" && q.chapter!==filters.chapter) return false;
+    if(filters.difficulty!=="all" && q.difficulty!==filters.difficulty) return false;
+    if(filters.onlyMarked && !LS.marked.has(q.id)) return false;
+    if(filters.onlyWrong){ const s=LS.stats[q.id]; if(!s||s.w<=0) return false; }
+    return true;
+  });
+}
+
+function emptyStudyProgress(){
+  return {version:STUDY_PROGRESS_VERSION,sessions:{quiz:null,flash:null}};
+}
+
+function normalizeStudySession(value,mode){
+  if(!isPlainRecord(value)) return null;
+  const chapter=value.chapter;
+  const difficulty=value.difficulty;
+  if(chapter!=="all"&&!CHAPTER_VALUES.has(chapter)) return null;
+  if(difficulty!=="all"&&!DIFFICULTY_VALUES.has(difficulty)) return null;
+  if(
+    typeof value.shuffle!=="boolean" ||
+    typeof value.onlyMarked!=="boolean" ||
+    typeof value.onlyWrong!=="boolean"
+  ) return null;
+
+  const filters={
+    chapter,difficulty,shuffle:value.shuffle,
+    onlyMarked:value.onlyMarked,onlyWrong:value.onlyWrong,
+  };
+  const expected=questionsForFilters(filters).map(q=>q.id);
+  if(!Array.isArray(value.pool)||value.pool.some(id=>typeof id!=="string"||!QUESTION_IDS.has(id))) return null;
+  if(value.pool.length!==expected.length||new Set(value.pool).size!==value.pool.length) return null;
+  const savedIds=new Set(value.pool);
+  if(expected.some(id=>!savedIds.has(id))) return null;
+  if(!value.shuffle&&value.pool.some((id,index)=>id!==expected[index])) return null;
+
+  const poolLength=value.pool.length;
+  if(!Number.isSafeInteger(value.idx)||value.idx<0||(poolLength?value.idx>=poolLength:value.idx!==0)) return null;
+  if(!isPlainRecord(value.answered)) return null;
+  const answered={};
+  for(const [id,choice] of Object.entries(value.answered)){
+    const question=QUESTION_BY_ID.get(id);
+    if(!savedIds.has(id)||!question||!Number.isSafeInteger(choice)||choice<0||choice>=question.options.length) return null;
+    answered[id]=choice;
+  }
+  if(mode==="flash"&&Object.keys(answered).length) return null;
+  if(value.flashRevealed!==null&&typeof value.flashRevealed!=="string") return null;
+  const currentId=poolLength?value.pool[value.idx]:null;
+  const flashRevealed=mode==="flash"&&value.flashRevealed===currentId?currentId:null;
+  return {...filters,pool:value.pool.slice(),idx:value.idx,answered,flashRevealed};
+}
+
+function loadStudyProgress(){
+  const value=readStoredJson(STUDY_PROGRESS_KEY,null);
+  const progress=emptyStudyProgress();
+  if(!isPlainRecord(value)||value.version!==STUDY_PROGRESS_VERSION||!isPlainRecord(value.sessions)) return progress;
+  STUDY_MODES.forEach(mode=>{progress.sessions[mode]=normalizeStudySession(value.sessions[mode],mode);});
+  return progress;
+}
+
+let studyProgress=loadStudyProgress();
+
+function saveStudySession(){
+  if(!STUDY_MODES.has(state.mode)) return;
+  const current=state.pool[state.idx];
+  studyProgress.sessions[state.mode]={
+    chapter:state.chapter,
+    difficulty:state.difficulty,
+    shuffle:state.shuffle,
+    onlyMarked:state.onlyMarked,
+    onlyWrong:state.onlyWrong,
+    pool:state.pool.map(q=>q.id),
+    idx:state.idx,
+    answered:{...state.answered},
+    flashRevealed:state.mode==="flash"&&state.flashRevealed===state.idx&&current?current.id:null,
+  };
+  try{
+    window.localStorage.setItem(STUDY_PROGRESS_KEY,JSON.stringify(studyProgress));
+  }catch(_error){ /* Continue with the in-memory session when storage is unavailable. */ }
+}
+
+function restoreStudySession(mode){
+  const session=studyProgress.sessions[mode];
+  if(!session) return false;
+  state.chapter=session.chapter;
+  state.difficulty=session.difficulty;
+  state.shuffle=session.shuffle;
+  state.onlyMarked=session.onlyMarked;
+  state.onlyWrong=session.onlyWrong;
+  state.pool=session.pool.map(id=>QUESTION_BY_ID.get(id));
+  state.idx=session.idx;
+  state.answered={...session.answered};
+  state.sessSeen=Object.keys(state.answered).length;
+  state.sessCorrect=Object.entries(state.answered).reduce((total,[id,choice])=>{
+    const question=QUESTION_BY_ID.get(id);
+    return total+(question&&question.answer===choice?1:0);
+  },0);
+  state.flashRevealed=mode==="flash"&&session.flashRevealed===session.pool[session.idx]?session.idx:-1;
+  return true;
+}
+
+function syncStudyControls(){
+  $("#chapter").value=state.chapter;
+  $("#difficulty").value=state.difficulty;
+  [["#cShuffle",state.shuffle],["#cMarked",state.onlyMarked],["#cWrong",state.onlyWrong]].forEach(([selector,on])=>{
+    const control=$(selector);
+    control.classList.toggle("on",on);
+    control.setAttribute("aria-pressed",String(on));
+  });
+  updateStudyFilterSummary();
+}
 
 function buildChapterSelect(){
   const sel=$("#chapter");
@@ -1591,13 +1715,7 @@ function updateStudyFilterSummary(){
 }
 
 function buildPool(){
-  let pool=QUESTIONS.filter(q=>{
-    if(state.chapter!=="all" && q.chapter!==state.chapter) return false;
-    if(state.difficulty!=="all" && q.difficulty!==state.difficulty) return false;
-    if(state.onlyMarked && !LS.marked.has(q.id)) return false;
-    if(state.onlyWrong){ const s=LS.stats[q.id]; if(!s||s.w<=0) return false; }
-    return true;
-  });
+  let pool=questionsForFilters(state);
   if(state.shuffle) pool=shuffleArr(pool.slice());
   state.pool=pool; state.idx=0; state.answered={};
   state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
@@ -1664,7 +1782,7 @@ function render(){
   $("#review").classList.add("hidden");
   $("#explanation").textContent="";$("#source").replaceChildren();
 
-  const chosen=state.answered[state.idx]; // session choice
+  const chosen=state.answered[q.id]; // session choice
   const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
 
   const optsEl=$("#opts");optsEl.replaceChildren();
@@ -1711,28 +1829,30 @@ function render(){
 }
 
 function choose(q,i){
-  if(state.answered[state.idx]!==undefined) return;
-  state.answered[state.idx]=i;
+  if(state.answered[q.id]!==undefined) return;
+  state.answered[q.id]=i;
   const ok=i===q.answer;
   const st=LS.stat(q.id); ok?st.c++:st.w++; LS.save();
   state.sessSeen++; if(ok) state.sessCorrect++;
+  saveStudySession();
   render();
   $("#feedback").focus({preventScroll:true});
 }
 
 function next(){
   if(state.mode==="flash" && state.flashRevealed!==state.idx){
-    state.flashRevealed=state.idx; render(); return;
+    state.flashRevealed=state.idx; saveStudySession(); render(); return;
   }
   if(state.idx<state.pool.length-1){
-    state.idx++;state.flashRevealed=-1;render();focusQuestion();return;
+    state.idx++;state.flashRevealed=-1;saveStudySession();render();focusQuestion();return;
   }
   state.idx=0;state.answered={};state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
   if(state.shuffle) state.pool=shuffleArr(state.pool.slice());
+  saveStudySession();
   render();focusQuestion();
 }
 function prev(){
-  if(state.idx>0){state.idx--;state.flashRevealed=-1;render();focusQuestion();}
+  if(state.idx>0){state.idx--;state.flashRevealed=-1;saveStudySession();render();focusQuestion();}
 }
 
 function toggleStar(){
@@ -1740,6 +1860,7 @@ function toggleStar(){
   LS.marked.has(q.id)?LS.marked.delete(q.id):LS.marked.add(q.id);
   LS.save();
   if(state.onlyMarked) buildPool();
+  saveStudySession();
   render();
 }
 
@@ -1802,7 +1923,8 @@ function doSearch(){
 
 /* ====== Mode switching ====== */
 function setMode(m){
-  state.mode=m; state.flashRevealed=-1;
+  if(STUDY_MODES.has(state.mode)) saveStudySession();
+  state.mode=m;
   document.querySelectorAll(".tabs button").forEach(b=>{
     const active=b.dataset.mode===m;
     b.classList.toggle("active",active);
@@ -1819,7 +1941,12 @@ function setMode(m){
   document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:m}}));
   $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
   if(game){if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();}
-  else if(search){doSearch();}else{buildPool();render();focusQuestion();}
+  else if(search){doSearch();}else{
+    if(!restoreStudySession(m)) buildPool();
+    syncStudyControls();
+    saveStudySession();
+    render();focusQuestion();
+  }
 }
 
 /* ====== Wire up ====== */
@@ -1828,8 +1955,8 @@ function init(){
   buildChapterSelect();
   buildDifficultySelect();
   document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
-  $("#chapter").onchange=e=>{state.chapter=e.target.value;updateStudyFilterSummary();buildPool();render();};
-  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;updateStudyFilterSummary();buildPool();render();};
+  $("#chapter").onchange=e=>{state.chapter=e.target.value;updateStudyFilterSummary();buildPool();saveStudySession();render();};
+  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;updateStudyFilterSummary();buildPool();saveStudySession();render();};
   $("#studyFilterToggle").onclick=e=>{
     const toolbar=e.currentTarget.closest(".study-toolbar");
     const expanded=toolbar.dataset.filtersExpanded!=="true";
@@ -1838,15 +1965,16 @@ function init(){
     e.currentTarget.title=expanded?"Đóng bộ lọc":"Mở bộ lọc";
     e.currentTarget.setAttribute("aria-label",e.currentTarget.title);
   };
-  $("#cShuffle").onclick=e=>{state.shuffle=!state.shuffle;e.currentTarget.classList.toggle("on",state.shuffle);e.currentTarget.setAttribute("aria-pressed",String(state.shuffle));buildPool();render();};
-  $("#cMarked").onclick=e=>{state.onlyMarked=!state.onlyMarked;e.currentTarget.classList.toggle("on",state.onlyMarked);e.currentTarget.setAttribute("aria-pressed",String(state.onlyMarked));buildPool();render();};
-  $("#cWrong").onclick=e=>{state.onlyWrong=!state.onlyWrong;e.currentTarget.classList.toggle("on",state.onlyWrong);e.currentTarget.setAttribute("aria-pressed",String(state.onlyWrong));buildPool();render();};
+  $("#cShuffle").onclick=e=>{state.shuffle=!state.shuffle;e.currentTarget.classList.toggle("on",state.shuffle);e.currentTarget.setAttribute("aria-pressed",String(state.shuffle));buildPool();saveStudySession();render();};
+  $("#cMarked").onclick=e=>{state.onlyMarked=!state.onlyMarked;e.currentTarget.classList.toggle("on",state.onlyMarked);e.currentTarget.setAttribute("aria-pressed",String(state.onlyMarked));buildPool();saveStudySession();render();};
+  $("#cWrong").onclick=e=>{state.onlyWrong=!state.onlyWrong;e.currentTarget.classList.toggle("on",state.onlyWrong);e.currentTarget.setAttribute("aria-pressed",String(state.onlyWrong));buildPool();saveStudySession();render();};
   $("#prevBtn").onclick=prev; $("#nextBtn").onclick=next; $("#star").onclick=toggleStar;
   $("#resetBtn").onclick=()=>{
     if(confirm("Xoá toàn bộ tiến độ, thống kê và câu đánh dấu?")){
       LS.clear();
-      LS.marked=new Set();LS.stats={};state.sessSeen=0;state.sessCorrect=0;
-      buildPool();render();
+      LS.marked=new Set();LS.stats={};studyProgress=emptyStudyProgress();
+      state.sessSeen=0;state.sessCorrect=0;
+      buildPool();saveStudySession();render();
     }
   };
   $("#searchInput").oninput=doSearch;
@@ -1856,14 +1984,18 @@ function init(){
     else if(e.key==="ArrowLeft"){e.preventDefault();prev();}
     else if(["1","2","3","4"].includes(e.key) && state.mode==="quiz"){
       e.preventDefault();
-      const q=state.pool[state.idx]; if(q && state.answered[state.idx]===undefined) choose(q,+e.key-1);
+      const q=state.pool[state.idx]; if(q && state.answered[q.id]===undefined) choose(q,+e.key-1);
     }
   };
-  updateStudyFilterSummary();
   document.body.dataset.mode="quiz";
   document.body.dataset.experience="study";
-  buildPool(); render();
+  if(!restoreStudySession("quiz")) buildPool();
+  syncStudyControls();
+  saveStudySession();
+  render();
 }
+window.addEventListener("pagehide",saveStudySession);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden")saveStudySession();});
 init();
 </script>
 <script>
