@@ -7,7 +7,7 @@
 <style>
   :root{
     color-scheme:dark;
-    --canvas:#0d1211; --map-canvas:#0e1516;
+    --canvas:#0d1211; --map-canvas:#0e1516; --map-texture:url("__GAME_MAP_TEXTURE__");
     --surface:#141a18; --surface-strong:#1b2320; --surface-raised:#222c28;
     --line:#34403b; --line-strong:#5d6b65;
     --ink:#f4f0e7; --ink-muted:#aeb8b1;
@@ -222,6 +222,122 @@
     .study-filter-grid{grid-template-columns:1fr}.study-quick-actions .toggle,.study-quick-actions .btn{font-size:.8rem}
     .session-stat{padding-inline:9px}.question-nav .btn{padding-inline:9px}
   }
+
+  /* Hybrid application shell: light study workspace, dark tactical workspace. */
+  :root{
+    color-scheme:light;
+    --canvas:#eef2ef; --map-canvas:#0d1514;
+    --surface:#ffffff; --surface-strong:#f4f7f5; --surface-raised:#e7ede9;
+    --line:#d2dad5; --line-strong:#9baaa1;
+    --ink:#17211b; --ink-muted:#5a6960;
+    --brass:#986516; --brass-soft:#b97a18;
+    --jade:#2f7d62; --jade-deep:#285f4e;
+    --cinnabar:#b8483b; --river:#3e7389;
+    --success:#267a4b; --success-surface:#e5f3ea;
+    --danger:#b33f36; --danger-surface:#fae9e6;
+    --focus:#b36a00; --control-border:#89988f;
+    --app-nav-height:0px;
+    --shadow-soft:0 12px 28px rgba(20,37,28,.08);
+  }
+  body.game-mode{
+    color-scheme:dark;
+    --canvas:#0c1211; --surface:#131a18; --surface-strong:#19231f; --surface-raised:#222e29;
+    --line:#33413b; --line-strong:#5d6c65;
+    --ink:#f4f0e7; --ink-muted:#aeb8b1;
+    --brass:#d4aa57; --brass-soft:#f0ce84;
+    --jade:#4d9175; --jade-deep:#315c4c;
+    --cinnabar:#c65f4d; --river:#5f91a5;
+    --success:#59b478; --success-surface:#173629;
+    --danger:#dc7569; --danger-surface:#3b211d;
+    --focus:#f1c96d; --control-border:#66736d;
+    --shadow-soft:0 16px 36px rgba(0,0,0,.28);
+  }
+  body{background:var(--canvas);transition:background-color var(--motion-base) var(--ease-out),color var(--motion-base) var(--ease-out)}
+  ::selection{background:var(--jade);color:#fff}
+  .wrap{max-width:none;min-height:100dvh;margin:0;padding:0 30px 48px 116px}
+  .app-header{max-width:1120px;min-height:72px;margin:0 auto 20px;padding:0;border-bottom:1px solid var(--line)}
+  .brand-mark{color:var(--brass-soft);background:var(--surface);box-shadow:0 6px 16px rgba(20,37,28,.07)}
+  .app-header h1{color:var(--ink)}
+  .header-count strong{color:var(--brass-soft)}
+  .tabs{position:fixed;z-index:80;inset:16px auto 16px 16px;width:82px;margin:0;padding:8px 7px;
+    display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow-soft)}
+  .tabs::before{content:"MLN";display:grid;place-items:center;min-height:44px;margin:0 3px 7px;color:var(--brass-soft);
+    border-bottom:1px solid var(--line);font:800 .76rem/1 "Aptos Display","Aptos",sans-serif;letter-spacing:0}
+  .tabs button{position:relative;min-height:68px;padding:8px 4px;flex-direction:column;gap:5px;border:0;border-left:3px solid transparent;
+    border-radius:var(--radius-control);font-size:.69rem;line-height:1.15;font-weight:700}
+  .tabs button .ui-icon{width:20px;height:20px}
+  .tabs button:hover{background:var(--surface-strong)}
+  .tabs button.active{background:var(--surface-raised);border-left-color:var(--brass);color:var(--ink)}
+  .tabs button.active .ui-icon{color:var(--brass-soft)}
+  #studyControls,#searchPanel,footer{width:min(100%,1120px);margin-inline:auto}
+  footer{padding-top:14px;border-top:1px solid var(--line)}
+  .study-toolbar{display:block;padding:0 0 14px;border-bottom:1px solid var(--line)}
+  .study-toolbar-head{display:none}
+  .study-toolbar-body{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:end}
+  .filter-control{color:var(--ink-muted)}
+  .filter-control select,select,input[type=text]{background:var(--surface);color:var(--ink)}
+  .toggle,.btn{background:var(--surface);color:var(--ink)}
+  .toggle.on,.btn.primary{background:var(--jade-deep);border-color:var(--jade);color:#fff}
+  .session-strip{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-control);overflow:hidden;box-shadow:0 5px 18px rgba(20,37,28,.045)}
+  .study-workspace>.progress{height:6px;background:#dbe3de}
+  .question-frame{background:var(--surface);border-color:var(--line);box-shadow:var(--shadow-soft)}
+  .question-frame .opt{background:var(--surface-strong);border-color:#a8b4ad}
+  .question-frame .opt:hover:not(.locked){background:#edf4ef;border-color:var(--jade)}
+  .question-frame .star.on{background:#fff5dc;color:var(--brass-soft)}
+  .badge.level{border-color:#9aa15d;color:#59611e;background:#f4f5df}
+  .feedback{background:var(--surface-strong)}
+  .search-toolbar{top:0;background:rgba(238,242,239,.96);backdrop-filter:blur(12px)}
+  .search-chapter-heading{color:var(--brass)}
+  mark{background:#f6d58f;color:#30220d}
+  body.game-mode .wrap{padding-right:14px;padding-bottom:14px}
+  body.game-mode .app-header{max-width:none;min-height:58px;margin-bottom:10px}
+  body.game-mode .app-header .sub{color:var(--ink-muted)}
+  body.game-mode .brand-mark{background:var(--surface-strong);box-shadow:none}
+  body.game-mode .tabs{background:#111816}
+  body.game-mode .tabs button.active{background:#202d28;color:var(--ink)}
+  body.game-mode footer{display:none}
+
+  @media(max-width:900px){
+    :root{--app-nav-height:calc(66px + env(safe-area-inset-bottom))}
+    .wrap{padding:0 14px calc(var(--app-nav-height) + 22px)}
+    .app-header{min-height:64px;margin-bottom:12px}
+    .tabs{inset:auto 0 0 0;width:auto;min-height:var(--app-nav-height);padding:5px 6px env(safe-area-inset-bottom);
+      display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;border-width:1px 0 0;border-radius:0;
+      box-shadow:0 -10px 28px rgba(20,37,28,.12)}
+    .tabs::before{display:none}
+    .tabs button{min-height:60px;padding:6px 3px;gap:3px;border:0;border-top:3px solid transparent;border-radius:4px;font-size:.67rem}
+    .tabs button.active{border-top-color:var(--brass);border-left-color:transparent}
+    body.game-mode .wrap{padding:0 0 calc(var(--app-nav-height) + 4px)}
+    body.game-mode .app-header{margin:0 12px 8px}
+  }
+  @media(max-width:680px){
+    .app-header{padding:0}.brand-mark{width:38px;height:38px}.app-header h1{font-size:1.12rem}
+    .header-count{padding-left:9px}.header-count strong{font-size:.98rem}
+    .study-toolbar{padding-bottom:10px}
+    .study-toolbar-head{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:48px}
+    .study-toolbar-summary{min-width:0;display:grid;gap:1px}
+    .study-toolbar-summary strong{font-size:.83rem;color:var(--ink)}
+    .study-toolbar-summary span{font-size:.72rem;color:var(--ink-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .study-filter-toggle{width:44px;height:44px;display:grid;place-items:center;flex:none;padding:0;border:1px solid var(--control-border);
+      border-radius:var(--radius-control);background:var(--surface);color:var(--ink);cursor:pointer}
+    .study-filter-toggle .ui-icon{transition:transform var(--motion-base) var(--ease-out)}
+    .study-toolbar[data-filters-expanded="true"] .study-filter-toggle .ui-icon{transform:rotate(180deg)}
+    .study-toolbar-body{display:none;padding-top:10px;border-top:1px solid var(--line)}
+    .study-toolbar[data-filters-expanded="true"] .study-toolbar-body{display:grid;grid-template-columns:1fr;gap:9px}
+    .study-filter-grid{grid-template-columns:1fr 1fr}
+    .study-quick-actions{display:grid;grid-template-columns:1fr 1fr;justify-content:stretch}
+    .session-strip{margin-top:10px}
+    .question-frame{padding:15px 14px calc(68px + env(safe-area-inset-bottom));box-shadow:none}
+    .question-nav{bottom:var(--app-nav-height);background:rgba(255,255,255,.97);box-shadow:0 -7px 20px rgba(20,37,28,.08)}
+    .search-toolbar{padding-top:6px}
+    body.game-mode .question-nav{background:rgba(19,26,24,.97)}
+  }
+  @media(max-width:390px){
+    .wrap{padding-inline:10px}.app-header .sub{max-width:180px}
+    .study-filter-grid{grid-template-columns:1fr}
+    .session-stat strong{font-size:.9rem}
+  }
 /*__GAME_STYLES__*/
 </style>
 </head>
@@ -348,6 +464,9 @@ SOFTWARE.
   <symbol id="ui-icon-save" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path><path d="M7 3v4a1 1 0 0 0 1 1h7"></path></symbol>
   <symbol id="ui-icon-plus" viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M12 5v14"></path></symbol>
   <symbol id="ui-icon-trash-2" viewBox="0 0 24 24"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></symbol>
+  <symbol id="ui-icon-sliders-horizontal" viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></symbol>
+  <symbol id="ui-icon-x" viewBox="0 0 24 24"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></symbol>
+  <symbol id="ui-icon-list-checks" viewBox="0 0 24 24"><path d="m3 7 2 2 4-4"></path><path d="M11 6h10"></path><path d="m3 17 2 2 4-4"></path><path d="M11 18h10"></path></symbol>
 </svg>
 <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
 <main class="wrap" id="main">
@@ -383,24 +502,35 @@ SOFTWARE.
 
   <!-- QUIZ / FLASHCARD shared controls -->
   <div id="studyControls" class="study-workspace" data-study-mode="quiz">
-    <section class="study-toolbar" aria-label="Bộ lọc học tập">
-      <div class="study-filter-grid">
-        <label class="filter-control" for="chapter"><span>Chương</span><select id="chapter" aria-label="Lọc theo chương"></select></label>
-        <label class="filter-control" for="difficulty"><span>Mức độ</span><select id="difficulty" aria-label="Lọc theo mức độ"></select></label>
+    <section class="study-toolbar" aria-label="Bộ lọc học tập" data-filters-expanded="false">
+      <div class="study-toolbar-head">
+        <div class="study-toolbar-summary">
+          <strong>Bộ câu hỏi</strong>
+          <span id="studyFilterSummary">Tất cả chương · Tất cả mức độ</span>
+        </div>
+        <button class="study-filter-toggle" id="studyFilterToggle" type="button" aria-expanded="false" aria-controls="studyFilterBody" title="Mở bộ lọc" aria-label="Mở bộ lọc">
+          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-sliders-horizontal"></use></svg>
+        </button>
       </div>
-      <div class="study-quick-actions" role="group" aria-label="Thao tác nhanh">
-        <button class="toggle" id="cShuffle" aria-pressed="false" title="Xáo trộn thứ tự câu hỏi">
-          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-shuffle"></use></svg><span>Xáo trộn</span>
-        </button>
-        <button class="toggle" id="cMarked" aria-pressed="false" title="Chỉ hiện câu đã đánh dấu">
-          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-bookmark"></use></svg><span>Đã đánh dấu</span>
-        </button>
-        <button class="toggle" id="cWrong" aria-pressed="false" title="Chỉ hiện câu từng trả lời sai">
-          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-triangle-alert"></use></svg><span>Hay sai</span>
-        </button>
-        <button class="btn study-reset" id="resetBtn" title="Xóa tiến độ và thống kê">
-          <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-rotate-ccw"></use></svg><span>Đặt lại</span>
-        </button>
+      <div class="study-toolbar-body" id="studyFilterBody">
+        <div class="study-filter-grid">
+          <label class="filter-control" for="chapter"><span>Chương</span><select id="chapter" aria-label="Lọc theo chương"></select></label>
+          <label class="filter-control" for="difficulty"><span>Mức độ</span><select id="difficulty" aria-label="Lọc theo mức độ"></select></label>
+        </div>
+        <div class="study-quick-actions" role="group" aria-label="Thao tác nhanh">
+          <button class="toggle" id="cShuffle" aria-pressed="false" title="Xáo trộn thứ tự câu hỏi">
+            <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-shuffle"></use></svg><span>Xáo trộn</span>
+          </button>
+          <button class="toggle" id="cMarked" aria-pressed="false" title="Chỉ hiện câu đã đánh dấu">
+            <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-bookmark"></use></svg><span>Đã đánh dấu</span>
+          </button>
+          <button class="toggle" id="cWrong" aria-pressed="false" title="Chỉ hiện câu từng trả lời sai">
+            <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-triangle-alert"></use></svg><span>Hay sai</span>
+          </button>
+          <button class="btn study-reset" id="resetBtn" title="Xóa tiến độ và thống kê">
+            <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-rotate-ccw"></use></svg><span>Đặt lại</span>
+          </button>
+        </div>
       </div>
     </section>
     <section class="session-strip" aria-label="Tiến độ phiên học">
@@ -457,7 +587,10 @@ SOFTWARE.
         <button class="game-btn" id="gameContinueBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-rotate-ccw"></use></svg><span>Tiếp tục</span></button>
         <button class="game-btn" id="gameSaveBtn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-save"></use></svg><span>Lưu</span></button>
       </div>
-      <div class="game-command-state" id="gameOrderStatus" role="status">Chưa có lệnh đã xếp</div>
+      <div class="game-order-cluster">
+        <div class="game-command-state" id="gameOrderStatus" role="status">Chưa có lệnh đã xếp</div>
+        <div class="game-order-tray hidden" id="gameOrderTray" role="list" aria-label="0 lệnh đang chờ"></div>
+      </div>
     </div>
     <div class="game-reward-banner hidden" id="gameRewardBanner" role="status" aria-live="polite"></div>
 
@@ -482,11 +615,31 @@ SOFTWARE.
           <button class="game-icon-btn" id="gameZoomIn" title="Phóng to bản đồ" aria-label="Phóng to bản đồ"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-zoom-in"></use></svg></button>
           <button class="game-icon-btn" id="gameMapFocus" title="Tập trung tỉnh đang chọn" aria-label="Tập trung tỉnh đang chọn"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-locate-fixed"></use></svg></button>
           <span class="game-map-hint"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-landmark"></use></svg><span id="gameMapHint">Chọn một tỉnh trên bản đồ</span></span>
+          <button class="game-icon-btn game-target-action hidden" id="gameTargetActionBtn" type="button" title="Mở hành động với tỉnh đang chọn" aria-label="Chọn tỉnh của thế lực khác để mở hành động">
+            <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-swords"></use></svg><span>Hành động</span>
+          </button>
         </div>
         <div class="game-map-viewport" id="gameMapViewport">
           <div class="game-map-canvas" id="gameMapCanvas"><!--__GAME_SVG__--></div>
-          <div class="game-map-insets" id="gameMapInsets" aria-label="Bản đồ đảo Hoàng Sa và Trường Sa"></div>
           <div class="game-map-tooltip hidden" id="gameMapTooltip" role="status"></div>
+          <div class="game-context-menu hidden" id="gameContextMenu" role="menu" aria-label="Hành động theo ngữ cảnh" aria-hidden="true">
+            <div class="game-context-wheel">
+              <button type="button" role="menuitem" data-context-group="info"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-info"></use></svg><span>Thông tin</span><small class="game-context-count hidden"></small></button>
+              <button type="button" role="menuitem" data-context-group="diplomacy"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-handshake"></use></svg><span>Ngoại giao</span><small class="game-context-count hidden"></small></button>
+              <button type="button" role="menuitem" data-context-group="trade"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-coins"></use></svg><span>Thương mại</span><small class="game-context-count hidden"></small></button>
+              <button type="button" role="menuitem" data-context-group="military"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-swords"></use></svg><span>Quân sự</span><small class="game-context-count hidden"></small></button>
+              <div class="game-context-target" aria-hidden="true"><strong id="gameContextTargetName"></strong><span id="gameContextTargetOwner"></span></div>
+            </div>
+          </div>
+          <section class="game-context-action-sheet hidden" id="gameContextActionSheet" role="dialog" aria-modal="false" aria-labelledby="gameContextSheetTitle" aria-hidden="true">
+            <header class="game-context-action-head">
+              <button class="game-icon-btn" id="gameContextBack" type="button" title="Quay lại vòng lệnh" aria-label="Quay lại vòng lệnh"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-chevron-left"></use></svg></button>
+              <div><h3 id="gameContextSheetTitle">Hành động</h3><p id="gameContextSheetMeta"></p></div>
+              <button class="game-icon-btn" id="gameContextClose" type="button" title="Đóng bảng hành động" aria-label="Đóng bảng hành động"><svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-x"></use></svg></button>
+            </header>
+            <div class="game-context-action-list" id="gameContextActionList"></div>
+            <button class="game-btn game-primary game-context-confirm" id="gameContextConfirm" type="button" disabled>Chọn một phương án</button>
+          </section>
           <div class="game-map-legend" aria-label="Chú giải bản đồ">
             <span><i class="legend-own"></i>Thế lực bạn</span><span><i class="legend-allied"></i>Đồng minh</span>
             <span><i class="legend-warning"></i>Cảnh báo</span><span><i class="legend-battle"></i>Mặt trận</span>
@@ -636,20 +789,27 @@ const shuffleArr=a=>{for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))
 function buildChapterSelect(){
   const sel=$("#chapter");
   const chaps=[...new Set(QUESTIONS.map(q=>q.chapter))];
-  let html='<option value="all">Tất cả chương</option>';
+  const options=[new Option("Tất cả chương","all")];
   chaps.forEach(c=>{
     const n=QUESTIONS.filter(q=>q.chapter===c).length;
-    html+=`<option value="${escapeHtml(c)}">${escapeHtml(c)} (${n})</option>`;
+    options.push(new Option(`${c} (${n})`,c));
   });
-  sel.innerHTML=html;
+  sel.replaceChildren(...options);
 }
 
 function buildDifficultySelect(){
   const sel=$("#difficulty");
   const levels=[...new Set(QUESTIONS.map(q=>q.difficulty))];
-  sel.innerHTML='<option value="all">Tất cả mức độ</option>'+levels.map(level=>
-    `<option value="${escapeHtml(level)}">${escapeHtml(level)}</option>`
-  ).join("");
+  sel.replaceChildren(new Option("Tất cả mức độ","all"),...levels.map(level=>new Option(level,level)));
+}
+
+function updateStudyFilterSummary(){
+  const chapter=$("#chapter");
+  const difficulty=$("#difficulty");
+  if(!chapter||!difficulty)return;
+  const chapterLabel=chapter.selectedOptions[0]?.textContent?.replace(/ \(\d+\)$/u,"")||"Tất cả chương";
+  const difficultyLabel=difficulty.selectedOptions[0]?.textContent||"Tất cả mức độ";
+  $("#studyFilterSummary").textContent=`${chapterLabel} · ${difficultyLabel}`;
 }
 
 function buildPool(){
@@ -724,7 +884,7 @@ function render(){
   $("#stem").textContent=q.stem;
   $("#feedback").textContent="";$("#feedback").className="feedback";
   $("#review").classList.add("hidden");
-  $("#explanation").textContent="";$("#source").innerHTML="";
+  $("#explanation").textContent="";$("#source").replaceChildren();
 
   const chosen=state.answered[state.idx]; // session choice
   const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
@@ -806,7 +966,6 @@ function toggleStar(){
 }
 
 /* ====== Search ====== */
-function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function normalizeText(s){
   return String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\u0111/g,"d").replace(/\u0110/g,"D").toLowerCase();
 }
@@ -877,6 +1036,9 @@ function setMode(m){
   $("#searchPanel").classList.toggle("hidden",!search);
   $("#gameRoot").classList.toggle("hidden",!game);
   document.body.classList.toggle("game-mode",game);
+  document.body.dataset.mode=m;
+  document.body.dataset.experience=game?"game":"study";
+  document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:m}}));
   $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
   if(game){if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();}
   else if(search){doSearch();}else{buildPool();render();focusQuestion();}
@@ -888,8 +1050,16 @@ function init(){
   buildChapterSelect();
   buildDifficultySelect();
   document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
-  $("#chapter").onchange=e=>{state.chapter=e.target.value;buildPool();render();};
-  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;buildPool();render();};
+  $("#chapter").onchange=e=>{state.chapter=e.target.value;updateStudyFilterSummary();buildPool();render();};
+  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;updateStudyFilterSummary();buildPool();render();};
+  $("#studyFilterToggle").onclick=e=>{
+    const toolbar=e.currentTarget.closest(".study-toolbar");
+    const expanded=toolbar.dataset.filtersExpanded!=="true";
+    toolbar.dataset.filtersExpanded=String(expanded);
+    e.currentTarget.setAttribute("aria-expanded",String(expanded));
+    e.currentTarget.title=expanded?"Đóng bộ lọc":"Mở bộ lọc";
+    e.currentTarget.setAttribute("aria-label",e.currentTarget.title);
+  };
   $("#cShuffle").onclick=e=>{state.shuffle=!state.shuffle;e.currentTarget.classList.toggle("on",state.shuffle);e.currentTarget.setAttribute("aria-pressed",String(state.shuffle));buildPool();render();};
   $("#cMarked").onclick=e=>{state.onlyMarked=!state.onlyMarked;e.currentTarget.classList.toggle("on",state.onlyMarked);e.currentTarget.setAttribute("aria-pressed",String(state.onlyMarked));buildPool();render();};
   $("#cWrong").onclick=e=>{state.onlyWrong=!state.onlyWrong;e.currentTarget.classList.toggle("on",state.onlyWrong);e.currentTarget.setAttribute("aria-pressed",String(state.onlyWrong));buildPool();render();};
@@ -911,6 +1081,9 @@ function init(){
       const q=state.pool[state.idx]; if(q && state.answered[state.idx]===undefined) choose(q,+e.key-1);
     }
   };
+  updateStudyFilterSummary();
+  document.body.dataset.mode="quiz";
+  document.body.dataset.experience="study";
   buildPool(); render();
 }
 init();

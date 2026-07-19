@@ -2,6 +2,7 @@
 """Build the validated question bank and game assets into one standalone HTML file."""
 from __future__ import annotations
 
+import base64
 import json
 import tempfile
 import xml.etree.ElementTree as ET
@@ -22,6 +23,7 @@ GAME_DATA_PLACEHOLDER = "/*__GAME_DATA__*/{}"
 GAME_STYLES_PLACEHOLDER = "/*__GAME_STYLES__*/"
 GAME_SCRIPTS_PLACEHOLDER = "/*__GAME_SCRIPTS__*/"
 GAME_SVG_PLACEHOLDER = "<!--__GAME_SVG__-->"
+GAME_MAP_TEXTURE_PLACEHOLDER = "__GAME_MAP_TEXTURE__"
 
 FORBIDDEN_SVG_TAGS = {
     "script", "style", "foreignobject", "iframe", "object", "embed", "audio", "video"
@@ -29,6 +31,9 @@ FORBIDDEN_SVG_TAGS = {
 GAME_DATA_KEYS = {
     "provinces", "adjacency", "balance", "personalities", "victoryRules", "units"
 }
+GAME_IMAGE_KEYS = {"mapTexture"}
+IMAGE_MIME_TYPES = {".webp": "image/webp"}
+MAX_EMBEDDED_IMAGE_BYTES = 1_000_000
 
 
 def serialize_for_inline_script(data: object) -> str:
@@ -79,18 +84,45 @@ def _validate_svg(source: str) -> str:
     return source
 
 
+def _image_data_uri(path: Path) -> str:
+    mime_type = IMAGE_MIME_TYPES.get(path.suffix.lower())
+    if mime_type is None:
+        raise ValueError(f"Game image type is unsupported: {path.suffix}")
+    payload = path.read_bytes()
+    if not payload or len(payload) > MAX_EMBEDDED_IMAGE_BYTES:
+        raise ValueError(f"Game image has an invalid embedded size: {path.name}")
+    if mime_type == "image/webp" and not (
+        payload.startswith(b"RIFF") and payload[8:12] == b"WEBP"
+    ):
+        raise ValueError(f"Game image does not match its WebP extension: {path.name}")
+    encoded = base64.b64encode(payload).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
 def load_game_assets(root: Path = BASE) -> dict[str, object]:
     manifest_path = root / "game" / "build-manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if set(manifest) != {"schemaVersion", "data", "svg", "styles", "scripts"}:
+    if set(manifest) != {"schemaVersion", "data", "images", "svg", "styles", "scripts"}:
         raise ValueError("Game build manifest has unknown or missing fields.")
-    if manifest["schemaVersion"] != 1 or not isinstance(manifest["data"], dict):
+    if (
+        manifest["schemaVersion"] != 1
+        or not isinstance(manifest["data"], dict)
+        or not isinstance(manifest["images"], dict)
+    ):
         raise ValueError("Game build manifest schema is unsupported.")
     if set(manifest["data"]) != GAME_DATA_KEYS:
         raise ValueError("Game build manifest data keys are unknown or incomplete.")
+    if set(manifest["images"]) != GAME_IMAGE_KEYS:
+        raise ValueError("Game build manifest image keys are unknown or incomplete.")
     if not isinstance(manifest["styles"], list) or not isinstance(manifest["scripts"], list):
         raise ValueError("Game build manifest style and script sections must be arrays.")
-    all_paths = list(manifest["data"].values()) + [manifest["svg"]] + manifest["styles"] + manifest["scripts"]
+    all_paths = (
+        list(manifest["data"].values())
+        + list(manifest["images"].values())
+        + [manifest["svg"]]
+        + manifest["styles"]
+        + manifest["scripts"]
+    )
     if any(not isinstance(relative, str) for relative in all_paths) or len(set(all_paths)) != len(all_paths):
         raise ValueError("Game build manifest paths must be unique strings.")
 
@@ -99,6 +131,10 @@ def load_game_assets(root: Path = BASE) -> dict[str, object]:
         if not isinstance(name, str) or not name:
             raise ValueError("Game data manifest keys must be non-empty strings.")
         data[name] = json.loads(_game_path(root, relative).read_text(encoding="utf-8"))
+
+    images: dict[str, str] = {}
+    for name, relative in manifest["images"].items():
+        images[name] = _image_data_uri(_game_path(root, relative))
 
     svg = _validate_svg(_game_path(root, manifest["svg"]).read_text(encoding="utf-8"))
     styles: list[str] = []
@@ -114,7 +150,7 @@ def load_game_assets(root: Path = BASE) -> dict[str, object]:
         if "</script" in source.lower():
             raise ValueError(f"Game script contains a closing script sequence: {relative}")
         scripts.append(source)
-    return {"data": data, "svg": svg, "styles": styles, "scripts": scripts}
+    return {"data": data, "images": images, "svg": svg, "styles": styles, "scripts": scripts}
 
 
 def render_html(template: str, questions: object, game_assets: dict[str, object]) -> str:
@@ -124,6 +160,7 @@ def render_html(template: str, questions: object, game_assets: dict[str, object]
         GAME_STYLES_PLACEHOLDER: "\n".join(game_assets["styles"]),
         GAME_SCRIPTS_PLACEHOLDER: "\n;\n".join(game_assets["scripts"]),
         GAME_SVG_PLACEHOLDER: str(game_assets["svg"]),
+        GAME_MAP_TEXTURE_PLACEHOLDER: str(game_assets["images"]["mapTexture"]),
     }
     rendered = template
     for placeholder, payload in replacements.items():

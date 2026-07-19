@@ -278,6 +278,18 @@
       return emit();
     }
 
+    function removePendingAction(index) {
+      if (!Number.isSafeInteger(index) || index < 0 || index >= pendingActions.length) throw new RangeError("Lệnh chờ cần bỏ không hợp lệ.");
+      var candidate = pendingActions.filter(function (_action, actionIndex) { return actionIndex !== index; });
+      validatePending(candidate);
+      var removed = pendingActions[index];
+      pendingActions = candidate;
+      message = "Đã bỏ lệnh " + removed.type + ".";
+      errorMessage = null;
+      save();
+      return emit();
+    }
+
     function setTactic(battleId, tacticId) {
       var battle = state && state.battles ? state.battles[battleId] : null;
       if (!battle || battle.status !== "active") throw new RangeError("Mặt trận không còn hoạt động.");
@@ -382,6 +394,7 @@
       save: function () { var ok = save(); emit(); return ok; },
       legalActions: legalActions,
       stageAction: stageAction,
+      removePendingAction: removePendingAction,
       clearOrders: clearOrders,
       setTactic: setTactic,
       selectProvince: selectProvince,

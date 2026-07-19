@@ -46,15 +46,12 @@ test("all island groups inherit one playable province owner", () => {
   assert.equal(owners.get("dao-phu-quoc"), "an-giang");
 });
 
-test("map presentation crops the mainland and mirrors remote islands without focus targets", () => {
+test("map presentation keeps the source viewBox and renders islands in geographic position", () => {
   const source = fs.readFileSync(path.resolve(__dirname, "..", "..", "game", "ui", "map-view.js"), "utf8");
-  assert.match(source, /MAIN_VIEWBOX = Object\.freeze\(\{ x: 0, y: 0, width: 2380, height: 4901\.01 \}\)/);
-  assert.match(source, /assetId: "quan-dao-hoang-sa"/);
-  assert.match(source, /assetId: "quan-dao-truong-sa"/);
-  assert.match(source, /stripCloneIds\(clone\)/);
-  assert.match(source, /clone\.setAttribute\("aria-hidden", "true"\)/);
+  assert.match(source, /MAIN_VIEWBOX = Object\.freeze\(\{ x: 0, y: 0, width: 3129\.7, height: 4901\.01 \}\)/);
+  assert.match(source, /islandsInline: true/);
+  assert.doesNotMatch(source, /INSET_SPECS|cloneNode\(true\)|gameMapInsets/);
   assert.match(source, /group\.setAttribute\("tabindex", "0"\)/);
-  assert.doesNotMatch(source, /clone\.setAttribute\("tabindex", "0"\)/);
 });
 
 test("adjacency graph contains only playable province nodes", () => {

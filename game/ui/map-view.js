@@ -8,17 +8,21 @@
   "use strict";
 
   var SVG_NS = "http://www.w3.org/2000/svg";
-  var MAIN_VIEWBOX = Object.freeze({ x: 0, y: 0, width: 2380, height: 4901.01 });
-  var INSET_SPECS = Object.freeze([
-    Object.freeze({ assetId: "quan-dao-hoang-sa", label: "Hoàng Sa", fallback: Object.freeze({ x: 2486, y: 1933, width: 428, height: 311 }) }),
-    Object.freeze({ assetId: "quan-dao-truong-sa", label: "Trường Sa", fallback: Object.freeze({ x: 2335, y: 4521, width: 492, height: 238 }) }),
-  ]);
+  var MAIN_VIEWBOX = Object.freeze({ x: 0, y: 0, width: 3129.7, height: 4901.01 });
   var MIN_SCALE = 1;
   var DEFAULT_SCALE = 1.1;
   var MAX_SCALE = 3;
   var BUTTON_ZOOM_STEP = 0.2;
   var WHEEL_ZOOM_STEP = 0.12;
-  var OWNER_COLORS = Object.freeze(["#8b6f47", "#786c91", "#9a625b", "#587d86", "#817a4c", "#6f7f59", "#8a5f78", "#536d9a"]);
+  var OWNER_COLORS = Object.freeze(["#9b6959", "#6e7798", "#8a7b4f", "#4f7d78", "#80668b", "#58765e", "#a06f42", "#527792"]);
+  var REGION_COLORS = Object.freeze({
+    "bac-bo": "#66807a",
+    "bac-trung-bo": "#7f7657",
+    "nam-trung-bo": "#5f7890",
+    "tay-nguyen": "#647957",
+    "dong-nam-bo": "#8d675e",
+    "tay-nam-bo": "#756b89",
+  });
 
   function colorFor(ownerId) {
     var hash = 0;
@@ -26,39 +30,11 @@
     return OWNER_COLORS[hash % OWNER_COLORS.length];
   }
 
-  function paddedBox(group, fallback) {
-    try {
-      var measured = group.getBBox();
-      if (measured.width > 0 && measured.height > 0) {
-        var padding = Math.max(measured.width, measured.height) * 0.12;
-        return { x: measured.x - padding, y: measured.y - padding, width: measured.width + padding * 2, height: measured.height + padding * 2 };
-      }
-    } catch (_caught) { /* Deterministic presentation fallback below. */ }
-    var fallbackPadding = Math.max(fallback.width, fallback.height) * 0.12;
-    return {
-      x: fallback.x - fallbackPadding,
-      y: fallback.y - fallbackPadding,
-      width: fallback.width + fallbackPadding * 2,
-      height: fallback.height + fallbackPadding * 2,
-    };
-  }
-
-  function stripCloneIds(node) {
-    if (node.nodeType !== 1) return;
-    node.removeAttribute("id");
-    node.removeAttribute("role");
-    node.removeAttribute("tabindex");
-    node.removeAttribute("aria-label");
-    node.removeAttribute("aria-pressed");
-    Array.from(node.children).forEach(stripCloneIds);
-  }
-
   function create(options) {
     var data = options.data;
     var controller = options.controller;
     var viewport = document.getElementById("gameMapViewport");
     var canvas = document.getElementById("gameMapCanvas");
-    var insetHost = document.getElementById("gameMapInsets");
     var tooltip = document.getElementById("gameMapTooltip");
     var zoomLevel = document.getElementById("gameZoomLevel");
     var zoomOutButton = document.getElementById("gameZoomOut");
@@ -80,9 +56,10 @@
 
     var groupsByProvince = Object.create(null);
     var primaryGroups = Object.create(null);
-    var groupsByAsset = Object.create(null);
+    var provinceDefinitions = Object.create(null);
     var latestSnapshot = null;
     var suppressClick = false;
+    data.provinces.provinces.forEach(function (province) { provinceDefinitions[province.id] = province; });
 
     function registerGroup(group, provinceId) {
       if (!groupsByProvince[provinceId]) groupsByProvince[provinceId] = [];
@@ -129,11 +106,24 @@
       tooltip.classList.add("hidden");
     }
 
+    function dispatchMapEvent(name, detail) {
+      viewport.dispatchEvent(new CustomEvent(name, { bubbles: true, detail: detail || {} }));
+    }
+
+    function requestContext(provinceId, clientX, clientY, source) {
+      hideTooltip();
+      dispatchMapEvent("mln222:map-context", {
+        provinceId: provinceId,
+        clientX: clientX,
+        clientY: clientY,
+        source: source,
+      });
+    }
+
     Array.from(svg.querySelectorAll(".province[data-p]")).forEach(function (group) {
       var assetId = group.getAttribute("data-p");
       var provinceId = assetOwners[assetId];
       if (!provinceId) return;
-      groupsByAsset[assetId] = group;
       registerGroup(group, provinceId);
       group.dataset.provinceId = provinceId;
       var isPrimary = primaryAssets[assetId] === true;
@@ -151,7 +141,17 @@
       group.addEventListener("click", function () {
         if (!suppressClick) controller.selectProvince(provinceId);
       });
+      group.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+        requestContext(provinceId, event.clientX, event.clientY, "pointer");
+      });
       group.addEventListener("keydown", function (event) {
+        if (isPrimary && (event.key === "ContextMenu" || (event.key === "F10" && event.shiftKey))) {
+          event.preventDefault();
+          var rect = group.getBoundingClientRect();
+          requestContext(provinceId, rect.left + rect.width / 2, rect.top + rect.height / 2, "keyboard");
+          return;
+        }
         if (isPrimary && (event.key === "Enter" || event.key === " ")) {
           event.preventDefault();
           controller.selectProvince(provinceId);
@@ -169,33 +169,76 @@
       }
     });
 
-    INSET_SPECS.forEach(function (spec) {
-      var source = groupsByAsset[spec.assetId];
-      if (!source) return;
-      var provinceId = assetOwners[spec.assetId];
-      var wrapper = utils.element("div", "game-map-inset");
-      wrapper.appendChild(utils.element("span", "", spec.label));
-      var nested = document.createElementNS(SVG_NS, "svg");
-      var box = paddedBox(source, spec.fallback);
-      source.classList.add("game-map-inset-source");
-      nested.setAttribute("viewBox", [box.x, box.y, box.width, box.height].join(" "));
-      nested.setAttribute("preserveAspectRatio", "xMidYMid meet");
-      nested.setAttribute("aria-hidden", "true");
-      var clone = source.cloneNode(true);
-      stripCloneIds(clone);
-      clone.classList.remove("game-map-inset-source");
-      clone.classList.add("game-map-inset-province");
-      clone.setAttribute("aria-hidden", "true");
-      nested.appendChild(clone);
-      wrapper.appendChild(nested);
-      insetHost.appendChild(wrapper);
-      registerGroup(clone, provinceId);
-    });
+    var orderLayer = document.createElementNS(SVG_NS, "g");
+    orderLayer.setAttribute("class", "game-map-order-layer");
+    orderLayer.setAttribute("aria-hidden", "true");
+    svg.appendChild(orderLayer);
+
+    function provinceCenter(provinceId) {
+      var group = primaryGroups[provinceId];
+      if (!group) return null;
+      var bounds = group.getBBox();
+      return { x: bounds.x + bounds.width / 2, y: bounds.y + bounds.height / 2 };
+    }
+
+    function routeFor(action, state) {
+      if (!action || !action.payload) return null;
+      var payload = action.payload;
+      if (action.type === "MOVE") return { source: payload.sourceProvinceId, target: payload.targetProvinceId, kind: "move" };
+      if (action.type === "TRADE") return { source: payload.sourceProvinceId, target: payload.targetProvinceId, kind: "trade" };
+      if (action.type === "WARN_ATTACK") return { source: payload.sourceProvinceId, target: payload.targetProvinceId, kind: "military" };
+      if (action.type === "REINFORCE" && state && state.battles && state.battles[payload.battleId]) {
+        var battle = state.battles[payload.battleId];
+        return { source: battle.sourceProvinceId, target: battle.targetProvinceId, kind: "military" };
+      }
+      return null;
+    }
+
+    function renderOrderRoutes(snapshot) {
+      orderLayer.replaceChildren();
+      (snapshot.pendingActions || []).forEach(function (action, index) {
+        var route = routeFor(action, snapshot.state);
+        if (!route) return;
+        var source = provinceCenter(route.source);
+        var target = provinceCenter(route.target);
+        if (!source || !target) return;
+        var dx = target.x - source.x;
+        var dy = target.y - source.y;
+        var length = Math.max(1, Math.hypot(dx, dy));
+        var bend = Math.min(170, Math.max(65, length * 0.12)) * (index % 2 === 0 ? 1 : -1);
+        var controlX = (source.x + target.x) / 2 - dy / length * bend;
+        var controlY = (source.y + target.y) / 2 + dx / length * bend;
+        var group = document.createElementNS(SVG_NS, "g");
+        group.setAttribute("class", "game-map-order is-" + route.kind);
+        group.dataset.orderIndex = String(index);
+        var path = document.createElementNS(SVG_NS, "path");
+        path.setAttribute("d", "M " + source.x + " " + source.y + " Q " + controlX + " " + controlY + " " + target.x + " " + target.y);
+        var start = document.createElementNS(SVG_NS, "circle");
+        start.setAttribute("cx", String(source.x));
+        start.setAttribute("cy", String(source.y));
+        start.setAttribute("r", "13");
+        start.setAttribute("class", "game-map-order-start");
+        var end = document.createElementNS(SVG_NS, "circle");
+        end.setAttribute("cx", String(target.x));
+        end.setAttribute("cy", String(target.y));
+        end.setAttribute("r", "22");
+        end.setAttribute("class", "game-map-order-end");
+        group.append(path, start, end);
+        orderLayer.appendChild(group);
+      });
+    }
 
     var view = { x: 0, y: 0, scale: DEFAULT_SCALE };
     var drag = null;
     var activePointers = new Map();
     var pinch = null;
+    var longPress = null;
+
+    function cancelLongPress(pointerId) {
+      if (!longPress || (pointerId !== undefined && longPress.id !== pointerId)) return;
+      clearTimeout(longPress.timer);
+      longPress = null;
+    }
 
     function boundedScale(scale) {
       return Math.max(MIN_SCALE, Math.min(MAX_SCALE, Math.round(scale * 100) / 100));
@@ -222,6 +265,7 @@
       var previousScale = view.scale;
       var nextScale = boundedScale(scale);
       if (nextScale === previousScale) return;
+      dispatchMapEvent("mln222:map-transform-start");
       var rect = viewport.getBoundingClientRect();
       var anchorX = Number.isFinite(clientX) ? clientX - rect.left - rect.width / 2 : 0;
       var anchorY = Number.isFinite(clientY) ? clientY - rect.top - rect.height / 2 : 0;
@@ -237,11 +281,13 @@
     }
 
     function resetView() {
+      dispatchMapEvent("mln222:map-transform-start");
       view = { x: 0, y: 0, scale: MIN_SCALE };
       applyTransform();
     }
 
     function focusSelected() {
+      dispatchMapEvent("mln222:map-transform-start");
       var provinceId = latestSnapshot && latestSnapshot.selectedProvinceId;
       var group = provinceId ? primaryGroups[provinceId] : null;
       if (!group) { resetView(); return; }
@@ -272,6 +318,7 @@
     });
 
     function beginPinch() {
+      cancelLongPress();
       var points = Array.from(activePointers.values()).slice(0, 2);
       if (points.length < 2) return;
       var dx = points[1].x - points[0].x;
@@ -293,6 +340,7 @@
       drag = null;
       viewport.classList.add("dragging");
       hideTooltip();
+      dispatchMapEvent("mln222:map-transform-start");
     }
 
     viewport.addEventListener("pointerdown", function (event) {
@@ -303,9 +351,29 @@
         return;
       }
       drag = { id: event.pointerId, startX: event.clientX, startY: event.clientY, originX: view.x, originY: view.y, moved: false };
+      if (event.pointerType === "touch" && event.target instanceof Element) {
+        var provinceGroup = event.target.closest(".province[data-province-id]");
+        if (provinceGroup) {
+          longPress = {
+            id: event.pointerId,
+            startX: event.clientX,
+            startY: event.clientY,
+            fired: false,
+            timer: setTimeout(function () {
+              if (!longPress || longPress.id !== event.pointerId || !activePointers.has(event.pointerId)) return;
+              longPress.fired = true;
+              suppressClick = true;
+              drag = null;
+              viewport.classList.remove("dragging");
+              requestContext(provinceGroup.dataset.provinceId, event.clientX, event.clientY, "touch");
+            }, 520),
+          };
+        }
+      }
     });
     viewport.addEventListener("pointermove", function (event) {
       if (activePointers.has(event.pointerId)) activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+      if (longPress && longPress.id === event.pointerId && Math.abs(event.clientX - longPress.startX) + Math.abs(event.clientY - longPress.startY) > 10) cancelLongPress(event.pointerId);
       if (pinch && activePointers.size >= 2) {
         var points = Array.from(activePointers.values()).slice(0, 2);
         var dx = points[1].x - points[0].x;
@@ -326,9 +394,11 @@
       var dy = event.clientY - drag.startY;
       if (Math.abs(dx) + Math.abs(dy) > 7 && !drag.moved) {
         drag.moved = true;
+        cancelLongPress(event.pointerId);
         viewport.setPointerCapture(event.pointerId);
         viewport.classList.add("dragging");
         hideTooltip();
+        dispatchMapEvent("mln222:map-transform-start");
       }
       if (!drag.moved) return;
       view.x = drag.originX + dx;
@@ -343,9 +413,15 @@
       setTimeout(function () { suppressClick = false; }, 0);
     }
     function finishPointer(event) {
+      var longPressFired = Boolean(longPress && longPress.id === event.pointerId && longPress.fired);
+      cancelLongPress(event.pointerId);
       activePointers.delete(event.pointerId);
       if (!pinch) {
         endDrag(event);
+        if (longPressFired) {
+          suppressClick = true;
+          setTimeout(function () { suppressClick = false; }, 0);
+        }
         return;
       }
       suppressClick = true;
@@ -387,19 +463,22 @@
         var relation = state && ownerId !== "player" ? state.factions.player.relations[ownerId] : null;
         var label = utils.provinceName(data, provinceId) + " · " + provinceStateText(provinceId);
         groupsByProvince[provinceId].forEach(function (group) {
+          group.dataset.ownerId = ownerId;
           group.classList.toggle("is-player", ownerId === "player");
           group.classList.toggle("is-allied", !!relation && relation.status === "alliance");
           group.classList.toggle("is-selected", snapshot.selectedProvinceId === provinceId);
           group.classList.toggle("has-warning", warningProvinces.has(provinceId));
           group.classList.toggle("has-battle", battleProvinces.has(provinceId));
           group.classList.toggle("is-occupied", !!provinceState && provinceState.occupation !== null);
-          group.style.setProperty("--province-fill", ownerId === "player" ? "var(--jade)" : relation && relation.status === "alliance" ? "var(--river)" : colorFor(ownerId));
+          var setupColor = REGION_COLORS[(provinceDefinitions[provinceId] || {}).region] || "#68766f";
+          group.style.setProperty("--province-fill", ownerId === "player" ? "var(--jade)" : relation && relation.status === "alliance" ? "var(--river)" : state ? colorFor(ownerId) : setupColor);
           if (primaryAssets[group.getAttribute("data-p")] === true) {
             group.setAttribute("aria-pressed", String(snapshot.selectedProvinceId === provinceId));
             group.setAttribute("aria-label", label);
           }
         });
       });
+      renderOrderRoutes(snapshot);
       document.getElementById("gameMapHint").textContent = utils.provinceName(data, snapshot.selectedProvinceId);
     }
 
@@ -413,7 +492,7 @@
       resetView: resetView,
       focusSelected: focusSelected,
       activate: function () { applyTransform(); },
-      presentationBounds: function () { return { main: MAIN_VIEWBOX, insets: INSET_SPECS }; },
+      presentationBounds: function () { return { main: MAIN_VIEWBOX, islandsInline: true }; },
     };
   }
 

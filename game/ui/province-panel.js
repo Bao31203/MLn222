@@ -1,10 +1,10 @@
 (function (root, factory) {
   "use strict";
   var game = root.MLN222Game;
-  if (!game || !game.hasModule("ui-utils")) throw new Error("Load UI utilities before province-panel.js.");
-  var api = game.registerModule("province-panel", factory(game["ui-utils"]));
+  if (!game || !game.hasModule("ui-utils") || !game.hasModule("context-action-model")) throw new Error("Load UI action utilities before province-panel.js.");
+  var api = game.registerModule("province-panel", factory(game["ui-utils"], game["context-action-model"]));
   if (typeof module === "object" && module.exports) module.exports = api;
-})(typeof globalThis !== "undefined" ? globalThis : this, function (utils) {
+})(typeof globalThis !== "undefined" ? globalThis : this, function (utils, actionModel) {
   "use strict";
 
   var TERRAIN_LABELS = Object.freeze({
@@ -119,54 +119,6 @@
     return action.payload.sourceProvinceId === provinceId || action.payload.targetProvinceId === provinceId;
   }
 
-  function discountedUnlockCost(state, data, unitId) {
-    var recruitment = data.balance && data.balance.economy && data.balance.economy.recruitment;
-    var spec = recruitment && recruitment.unlocks ? recruitment.unlocks[unitId] : null;
-    if (!spec) return null;
-    var factor = (state.effects || []).filter(function (effect) {
-      return effect.type === "quiz-unlock-discount" && effect.factionId === "player";
-    }).reduce(function (result, effect) { return result * effect.multiplier; }, 1);
-    return Math.ceil(spec.coinCost * factor);
-  }
-
-  function describeAction(action, provinceId, state, data) {
-    var payload = action.payload;
-    var unit = payload.unitId ? unitName(data, payload.unitId) : "";
-    if (action.type === "RECRUIT") {
-      var recruitment = data.balance && data.balance.economy && data.balance.economy.recruitment;
-      var unitCost = recruitment && recruitment.unitCosts ? recruitment.unitCosts[payload.unitId] : null;
-      var costText = unitCost
-        ? Math.ceil(payload.count * unitCost.food) + " lương thực · " + Math.ceil(payload.count * unitCost.coin) + " tiền"
-        : "1 điểm lệnh";
-      return {
-        label: "Tuyển " + utils.formatInteger(payload.count) + " " + unit,
-        detail: costText + " · hoàn tất sau 1 lượt",
-      };
-    }
-    if (action.type === "UNLOCK") {
-      var coinCost = discountedUnlockCost(state, data, payload.unitId);
-      return {
-        label: "Mở khóa " + unit,
-        detail: coinCost === null ? "Dùng 1 điểm lệnh" : utils.formatInteger(coinCost) + " tiền · dùng 1 điểm lệnh",
-      };
-    }
-    if (action.type === "MOVE") {
-      var sourceName = utils.provinceName(data, payload.sourceProvinceId);
-      var targetName = utils.provinceName(data, payload.targetProvinceId);
-      return {
-        label: payload.sourceProvinceId === provinceId
-          ? "Điều " + utils.formatInteger(payload.count) + " " + unit + " đến " + targetName
-          : "Nhận " + utils.formatInteger(payload.count) + " " + unit + " từ " + sourceName,
-        detail: sourceName + " → " + targetName,
-      };
-    }
-    var ratio = Number.isFinite(payload.strengthRatio) ? " · tương quan " + payload.strengthRatio.toFixed(2) + "×" : "";
-    return {
-      label: "Cảnh báo tiến công " + utils.provinceName(data, payload.targetProvinceId),
-      detail: "Xuất quân từ " + utils.provinceName(data, payload.sourceProvinceId) + ratio,
-    };
-  }
-
   function create(options) {
     if (!options || !options.data || !options.controller || typeof options.controller.legalActions !== "function" || typeof options.controller.stageAction !== "function") {
       throw new TypeError("Province panel options are invalid.");
@@ -225,7 +177,7 @@
       var list = utils.element("div", "game-action-list");
       actions.forEach(function (action) {
         var copy = { type: action.type, payload: utils.clone(action.payload) };
-        var description = describeAction(copy, snapshot.selectedProvinceId, state, data);
+        var description = actionModel.describeAction(data, state, copy);
         var pending = pendingKeys.has(utils.actionKey(copy));
         var button = utils.element("button", "game-action-btn", description.label);
         button.type = "button";

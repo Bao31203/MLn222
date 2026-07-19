@@ -8,6 +8,9 @@
     "victoryRules": "data/victory-rules.json",
     "units": "data/units.json"
   },
+  "images": {
+    "mapTexture": "assets/dong-son-drum.webp"
+  },
   "svg": "assets/vietnam-map.svg",
   "styles": [
     "styles/game.css"
@@ -36,7 +39,10 @@
     "storage/campaign-save.js",
     "ui/browser-storage.js",
     "ui/ui-utils.js",
+    "ui/context-action-model.js",
     "ui/game-controller.js",
+    "ui/context-command-menu.js",
+    "ui/order-tray.js",
     "ui/map-view.js",
     "ui/resource-bar.js",
     "ui/province-panel.js",

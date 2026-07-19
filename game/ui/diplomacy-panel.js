@@ -1,10 +1,10 @@
 (function (root, factory) {
   "use strict";
   var game = root.MLN222Game;
-  if (!game || !game.hasModule("ui-utils")) throw new Error("Load UI utilities before diplomacy-panel.js.");
-  var api = game.registerModule("diplomacy-panel", factory(game["ui-utils"]));
+  if (!game || !game.hasModule("ui-utils") || !game.hasModule("context-action-model")) throw new Error("Load UI action utilities before diplomacy-panel.js.");
+  var api = game.registerModule("diplomacy-panel", factory(game["ui-utils"], game["context-action-model"]));
   if (typeof module === "object" && module.exports) module.exports = api;
-})(typeof globalThis !== "undefined" ? globalThis : this, function (utils) {
+})(typeof globalThis !== "undefined" ? globalThis : this, function (utils, actionModel) {
   "use strict";
 
   var DIPLOMACY_ACTION_TYPES = Object.freeze(["TRADE", "TREATY", "PROPOSE_TREATY", "RESPOND_TREATY"]);
@@ -131,9 +131,9 @@
     panel.append(group);
   }
 
-  function renderTreaties(panel, player, data) {
+  function renderTreaties(panel, player, data, targetFactionId) {
     var treatyIds = Object.keys(player.relations || {}).filter(function (factionId) {
-      return player.relations[factionId].status !== "neutral";
+      return player.relations[factionId].status !== "neutral" && (!targetFactionId || factionId === targetFactionId);
     }).sort(function (leftId, rightId) {
       var statusDifference = STATUS_PRIORITY[player.relations[leftId].status] - STATUS_PRIORITY[player.relations[rightId].status];
       if (statusDifference !== 0) return statusDifference;
@@ -158,8 +158,10 @@
     panel.append(group);
   }
 
-  function renderRelations(panel, state, player, data) {
-    var factionIds = Object.keys(player.relations || {}).sort(function (leftId, rightId) {
+  function renderRelations(panel, state, player, data, targetFactionId) {
+    var factionIds = Object.keys(player.relations || {}).filter(function (factionId) {
+      return !targetFactionId || factionId === targetFactionId;
+    }).sort(function (leftId, rightId) {
       var left = player.relations[leftId];
       var right = player.relations[rightId];
       var priorityDifference = STATUS_PRIORITY[left.status] - STATUS_PRIORITY[right.status];
@@ -183,27 +185,11 @@
     panel.append(group);
   }
 
-  function actionDescription(action, proposals, data) {
-    var payload = action.payload;
-    var diplomacy = data.balance && data.balance.diplomacy ? data.balance.diplomacy : {};
-    if (action.type === "TRADE") {
-      return {
-        label: "Mở tuyến thương mại với " + factionName(data, payload.partnerId),
-        detail: utils.provinceName(data, payload.sourceProvinceId) + " ↔ " + utils.provinceName(data, payload.targetProvinceId) + " · +" + utils.formatInteger(diplomacy.tradeCoinPerTurn) + " tiền/lượt",
-      };
-    }
-    if (action.type === "TREATY" || action.type === "PROPOSE_TREATY") {
-      var verb = action.type === "TREATY" ? "Thiết lập " : "Đề nghị ";
-      return {
-        label: verb + treatyLabel(payload.treatyType) + " với " + factionName(data, payload.partnerId),
-        detail: "Thời hạn " + utils.formatInteger(diplomacy.treatyDuration) + " lượt · dùng 1 điểm lệnh",
-      };
-    }
-    var proposal = proposals.find(function (entry) { return entry.id === payload.proposalId; });
-    return {
-      label: (payload.accepted ? "Chấp nhận " : "Từ chối ") + (proposal ? treatyLabel(proposal.type) : "đề nghị hiệp ước"),
-      detail: (proposal ? factionName(data, proposal.fromFactionId) : payload.proposalId) + " · dùng 1 điểm lệnh",
-    };
+  function actionPartner(action, proposals) {
+    if (!action || !action.payload) return null;
+    if (action.payload.partnerId) return action.payload.partnerId;
+    var proposal = proposals.find(function (entry) { return entry.id === action.payload.proposalId; });
+    return proposal ? proposalPartner(proposal) : null;
   }
 
   function create(options) {
@@ -234,11 +220,11 @@
       }
     }
 
-    function renderActions(snapshot, proposals) {
+    function renderActions(snapshot, proposals, targetFactionId) {
       var actions;
       try {
         actions = controller.legalActions().filter(function (action) {
-          return DIPLOMACY_ACTION_TYPES.indexOf(action.type) !== -1;
+          return DIPLOMACY_ACTION_TYPES.indexOf(action.type) !== -1 && (!targetFactionId || actionPartner(action, proposals) === targetFactionId);
         });
       } catch (caught) {
         actions = [];
@@ -262,7 +248,7 @@
       var list = utils.element("div", "game-action-list");
       actions.forEach(function (action) {
         var copy = { type: action.type, payload: utils.clone(action.payload) };
-        var description = actionDescription(copy, proposals, data);
+        var description = actionModel.describeAction(data, snapshot.state, copy);
         var pending = pendingKeys.has(utils.actionKey(copy));
         var button = utils.element("button", "game-action-btn", description.label);
         button.type = "button";
@@ -288,6 +274,14 @@
 
       var proposals = uniqueProposals(player);
       var warnings = playerWarnings(state);
+      var selectedProvince = state.provinces[snapshot.selectedProvinceId];
+      var targetFactionId = selectedProvince && selectedProvince.ownerId !== "player" ? selectedProvince.ownerId : null;
+      if (targetFactionId) {
+        proposals = proposals.filter(function (proposal) { return proposalPartner(proposal) === targetFactionId; });
+        warnings = warnings.filter(function (warning) {
+          return (warning.attackerId === "player" ? warning.defenderId : warning.attackerId) === targetFactionId;
+        });
+      }
       var treaties = Object.keys(player.relations || {}).filter(function (factionId) {
         var status = player.relations[factionId].status;
         return status === "alliance" || status === "non-aggression";
@@ -295,8 +289,16 @@
       var limit = routeLimit(state, data);
       var header = utils.element("div", "game-panel-header");
       var title = document.createElement("div");
-      title.append(utils.element("p", "game-eyebrow", "Đối ngoại"), utils.element("h2", "", "Ngoại giao"));
-      header.append(title, utils.element("div", "game-owner-label", utils.formatInteger(Object.keys(player.relations || {}).length) + " thế lực"));
+      title.append(
+        utils.element("p", "game-eyebrow", targetFactionId ? "Đối ngoại mục tiêu" : "Đối ngoại"),
+        utils.element("h2", "", targetFactionId ? factionName(data, targetFactionId) : "Ngoại giao")
+      );
+      var targetRelation = targetFactionId ? player.relations[targetFactionId] : null;
+      header.append(title, utils.element(
+        "div",
+        "game-owner-label",
+        targetRelation ? relationLabel(targetRelation.status) + " · " + (targetRelation.score > 0 ? "+" : "") + targetRelation.score : utils.formatInteger(Object.keys(player.relations || {}).length) + " thế lực"
+      ));
       panel.append(header);
       panel.append(utils.element(
         "div",
@@ -308,10 +310,10 @@
 
       renderWarnings(panel, warnings, data);
       renderProposals(panel, proposals, data);
-      renderActions(snapshot, proposals);
-      renderRoutes(panel, player.tradeRoutes || [], data);
-      renderTreaties(panel, player, data);
-      renderRelations(panel, state, player, data);
+      renderActions(snapshot, proposals, targetFactionId);
+      renderRoutes(panel, (player.tradeRoutes || []).filter(function (route) { return !targetFactionId || routePartner(route) === targetFactionId; }), data);
+      renderTreaties(panel, player, data, targetFactionId);
+      renderRelations(panel, state, player, data, targetFactionId);
     }
 
     return { render: render, update: render };

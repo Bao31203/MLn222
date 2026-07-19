@@ -15,6 +15,7 @@ from pathlib import Path
 
 from build_html import (
     GAME_DATA_PLACEHOLDER,
+    GAME_MAP_TEXTURE_PLACEHOLDER,
     GAME_SCRIPTS_PLACEHOLDER,
     GAME_STYLES_PLACEHOLDER,
     GAME_SVG_PLACEHOLDER,
@@ -167,6 +168,7 @@ class ValidatorUnitTests(unittest.TestCase):
             GAME_STYLES_PLACEHOLDER,
             GAME_SCRIPTS_PLACEHOLDER,
             GAME_SVG_PLACEHOLDER,
+            GAME_MAP_TEXTURE_PLACEHOLDER,
         ):
             with self.subTest(placeholder=placeholder):
                 with self.assertRaises(ValueError):
@@ -288,11 +290,13 @@ class ProductionBankTests(unittest.TestCase):
             GAME_SCRIPTS_PLACEHOLDER,
             GAME_STYLES_PLACEHOLDER,
             GAME_SVG_PLACEHOLDER,
+            GAME_MAP_TEXTURE_PLACEHOLDER,
         ):
             self.assertNotIn(placeholder, html)
         self.assertIn('const QUESTIONS = [{"id":"C01-Q001"', html)
         self.assertIn('id="Layer_1"', html)
         self.assertIn('registerModule("game-app"', html)
+        self.assertIn('data:image/webp;base64,', html)
 
     def test_built_html_embeds_current_production_bank(self) -> None:
         html = (BASE / "index.html").read_text(encoding="utf-8")
@@ -317,6 +321,7 @@ class ProductionBankTests(unittest.TestCase):
         assets = load_game_assets(BASE)
         self.assertEqual(len(assets["data"]["provinces"]["provinces"]), 34)
         self.assertGreaterEqual(len(assets["scripts"]), 25)
+        self.assertTrue(assets["images"]["mapTexture"].startswith("data:image/webp;base64,"))
         self.assertNotIn("<script", assets["svg"].lower())
         scripts = "\n".join(assets["scripts"])
         styles = "\n".join(assets["styles"])
@@ -354,7 +359,8 @@ class ProductionBankTests(unittest.TestCase):
             "chevron-down", "zoom-in", "zoom-out", "maximize-2", "locate-fixed",
             "wheat", "coins", "users", "shield", "gauge", "handshake", "swords",
             "scroll-text", "info", "triangle-alert", "circle-check", "clock-3",
-            "lock-keyhole", "save", "plus", "trash-2",
+            "lock-keyhole", "save", "plus", "trash-2", "sliders-horizontal",
+            "x", "list-checks",
         }
         symbols = set(re.findall(r'<symbol id="ui-icon-([a-z0-9-]+)"', template))
         self.assertEqual(symbols, expected_icons)
@@ -387,19 +393,23 @@ class ProductionBankTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
         for required_id in (
             "nextLabel", "searchStatus", "gameResourceToggle", "gameMapFocus",
-            "gameMapInsets", "gameMapTooltip", "gameSheetToggle", "gameSheetTitle",
+            "gameMapTooltip", "gameSheetToggle", "gameSheetTitle",
             "gameBattleBadge", "gameReportBadge", "gameQuizResult", "gameRewardBanner",
+            "gameTargetActionBtn", "gameContextMenu", "gameContextActionSheet", "gameOrderTray",
         ):
             self.assertIn(f'id="{required_id}"', template)
         self.assertIn('data-study-mode="quiz"', template)
+        self.assertIn('data-filters-expanded="false"', template)
+        self.assertIn('document.body.dataset.experience=game?"game":"study"', template)
         self.assertIn('aria-controls="gameCampaignPane"', template)
         self.assertIn('env(safe-area-inset-bottom)', game_styles)
         self.assertIn('[data-sheet-state="expanded"]', game_styles)
         self.assertIn('[data-resources-expanded="true"]', game_styles)
-        self.assertIn('MAIN_VIEWBOX', map_view)
-        self.assertIn('quan-dao-hoang-sa', map_view)
-        self.assertIn('quan-dao-truong-sa', map_view)
-        self.assertIn('clone.setAttribute("aria-hidden", "true")', map_view)
+        self.assertIn('width: 3129.7, height: 4901.01', map_view)
+        self.assertIn('islandsInline: true', map_view)
+        self.assertNotIn('gameMapInsets', map_view)
+        self.assertIn('province[data-p="quan-dao-hoang-sa"]', game_styles)
+        self.assertIn('background:var(--map-texture)', game_styles)
         self.assertIn('var sheetState = "collapsed"', game_app)
         self.assertIn('var resourcesExpanded = false', game_app)
         self.assertNotIn('sheetState:', game_app)

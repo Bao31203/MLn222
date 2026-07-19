@@ -38,7 +38,7 @@ Ngày kiểm thử: 2026-07-18
 
 - Corrupt campaign JSON: app không crash, setup còn dùng được và hiện `Bản lưu bị hỏng và không thể đọc.`
 - `localStorage.setItem` ném `QuotaExceededError`: chiến dịch vẫn chơi được và hiện `Không thể lưu chiến dịch trên trình duyệt này.`
-- Offline mode: 504 câu, 32 symbol, 34 target và 2 inset tải từ một file; 0 request HTTP(S).
+- Offline mode: 504 câu, 32 symbol, 34 target, đảo nội tuyến và nền trống đồng WebP `data:` URI tải từ một file; 0 request HTTP(S).
 - Console và page error rỗng trên các session desktop, mobile, corrupt-storage và offline.
 
 ## Ảnh kiểm chứng

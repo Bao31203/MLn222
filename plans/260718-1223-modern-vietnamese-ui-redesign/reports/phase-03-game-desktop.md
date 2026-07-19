@@ -6,7 +6,7 @@ Artifact: `index.html` mở trực tiếp bằng `file://`
 ## Kết quả bản đồ
 
 - Giữ đủ 44 nhóm SVG; đúng 34 tỉnh gốc có `role="button"` và `tabindex="0"`.
-- Hoàng Sa và Trường Sa được clone vào hai inset chỉ để trình bày; inset có 0 target/focus node và đồng bộ class owner, selected, warning, battle.
+- Sau vòng cải thiện bản đồ, Hoàng Sa và Trường Sa giữ vị trí địa lý trong toàn bộ `viewBox` nguồn; không còn clone/inset, nên 44 nhóm SVG chỉ có 34 target/focus node của tỉnh chính.
 - ViewBox mainland cố định, không phụ thuộc timing đo DOM; bản đồ có toolbar zoom 100-250%, Fit và Focus tỉnh đang chọn.
 - Enter trên tỉnh đang focus chọn đúng tỉnh; tooltip dùng text node và nhãn target chứa tên chủ sở hữu/trạng thái.
 - Ở 1440x900, map viewport là 1000x567px, panel là 399x617px; ở 1024x768 là 614x435px và 369x485px.

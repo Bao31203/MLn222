@@ -24,13 +24,15 @@ Start-Process .\index.html
 
 ## Giao diện và khả năng truy cập
 
-- App shell dùng chung hệ màu tối, typography, focus ring và bộ biểu tượng SVG nội tuyến có license; không cần font, CDN hay asset ngoài.
+- App shell tách hai không gian: giao diện học sáng, dễ đọc và workspace Công thành tối kiểu bản đồ chiến thuật; desktop dùng thanh điều hướng trái, mobile dùng thanh điều hướng đáy.
 - Luyện thi có bộ lọc gọn, thống kê phiên ổn định và review đáp án; Flashcard tách thao tác lật thẻ khỏi điểm số; Tìm kiếm highlight kết quả bằng DOM an toàn.
-- Công thành dùng bản đồ Việt Nam map-first với 34 tỉnh thao tác được bằng bàn phím, hai inset Hoàng Sa/Trường Sa, HUD tài nguyên và bốn panel Tỉnh/Ngoại giao/Mặt trận/Báo cáo. Bản đồ mở ở 110%, hỗ trợ nút zoom, con lăn, phím `+/-/0`, kéo và pinch trên màn hình cảm ứng.
+- Công thành dùng bản đồ Việt Nam map-first với 34 tỉnh thao tác được bằng bàn phím; đất liền và các đảo giữ nguyên vị trí địa lý trong toàn bộ `viewBox`, dùng đường biên đồng mảnh và nền trống đồng nhúng offline. Bản đồ mở ở 110%, hỗ trợ nút zoom, con lăn, phím `+/-/0`, kéo và pinch trên màn hình cảm ứng.
+- Nhấp chuột phải vào tỉnh của thế lực khác mở vòng lệnh Thông tin/Ngoại giao/Thương mại/Quân sự. Bàn phím dùng `Context Menu` hoặc `Shift+F10`; màn hình cảm ứng có nút `Hành động` và long press.
+- Lệnh đã chọn xuất hiện trong khay lệnh và trên tuyến bản đồ; từng lệnh có thể hủy riêng trước khi kết thúc lượt. Mọi lựa chọn khả dụng lấy trực tiếp từ `controller.legalActions()` rồi được xếp bằng `controller.stageAction()`.
 - Trên màn hình nhỏ, tài nguyên có thể thu gọn/mở rộng và bảng chiến dịch chuyển thành bottom sheet; trạng thái sheet chỉ thuộc UI, không đi vào campaign save.
 - Control tương tác có kích thước tối thiểu 44px, trạng thái đúng/sai/cảnh báo không chỉ dựa vào màu, quiz cuối lượt giữ focus trong modal và hỗ trợ `prefers-reduced-motion`.
 
-Bằng chứng thiết kế và kiểm thử nằm tại [báo cáo redesign UI](plans/260718-1223-modern-vietnamese-ui-redesign/reports/end-to-end-testing.md).
+Bằng chứng thiết kế và kiểm thử nằm tại [báo cáo đại tu UI và vòng lệnh](plans/260719-1752-hybrid-ui-command-wheel/reports/end-to-end-testing.md).
 
 ## Chế độ Công thành
 
@@ -64,6 +66,8 @@ Nguồn nằm tại `F:\MLN222`:
 - Bài giảng bổ trợ: các file `*.pptx.txt` tương ứng với từng slot.
 
 PDF là nguồn chuẩn để xác định đáp án. Khi PDF và slide khác nhau, ưu tiên PDF; slide chỉ dùng để xác định trọng tâm và ví dụ bổ trợ.
+
+Hình học bản đồ 34 tỉnh/thành và họa tiết trống đồng lấy từ website do chủ dự án cung cấp: `https://fptlichsuviet.io.vn/map/index.html`. Builder nén và nhúng các tài nguyên cần thiết vào `index.html`; ứng dụng không phụ thuộc website nguồn ở runtime.
 
 ## Compose, validate, build và test
 

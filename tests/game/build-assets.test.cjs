@@ -18,9 +18,9 @@ function manifest() {
 
 test("build manifest has stable local assets in dependency order", () => {
   const value = manifest();
-  assert.deepEqual(Object.keys(value).sort(), ["data", "schemaVersion", "scripts", "styles", "svg"]);
+  assert.deepEqual(Object.keys(value).sort(), ["data", "images", "schemaVersion", "scripts", "styles", "svg"]);
   assert.equal(value.schemaVersion, 1);
-  const paths = Object.values(value.data).concat(value.svg, value.styles, value.scripts);
+  const paths = Object.values(value.data).concat(Object.values(value.images), value.svg, value.styles, value.scripts);
   assert.equal(new Set(paths).size, paths.length);
   for (const relative of paths) {
     const resolved = path.resolve(GAME, relative);
@@ -30,6 +30,9 @@ test("build manifest has stable local assets in dependency order", () => {
   const order = value.scripts;
   assert.ok(order.indexOf("core/namespace.js") < order.indexOf("core/contracts.js"));
   assert.ok(order.indexOf("engine/campaign.js") < order.indexOf("ui/game-controller.js"));
+  assert.ok(order.indexOf("ui/context-action-model.js") < order.indexOf("ui/context-command-menu.js"));
+  assert.ok(order.indexOf("ui/context-command-menu.js") < order.indexOf("ui/order-tray.js"));
+  assert.ok(order.indexOf("ui/context-command-menu.js") < order.indexOf("ui/game-app.js"));
   assert.ok(order.indexOf("ui/game-controller.js") < order.indexOf("ui/game-app.js"));
   assert.equal(order.at(-1), "ui/game-app.js");
 });
@@ -46,6 +49,9 @@ test("runtime sources are inline-safe and make no network requests", () => {
   assert.doesNotMatch(styles, /@import|url\(/i);
   assert.doesNotMatch(svg, /<style\b|@import|<\?xml-stylesheet/i);
   assert.doesNotMatch(svg, /(?:href|src)\s*=\s*["']https?:\/\//i);
+  const texture = fs.readFileSync(path.join(GAME, value.images.mapTexture));
+  assert.equal(texture.subarray(0, 4).toString("ascii"), "RIFF");
+  assert.equal(texture.subarray(8, 12).toString("ascii"), "WEBP");
 });
 
 test("map and province data expose exactly 34 playable keyboard targets", () => {
@@ -82,6 +88,7 @@ test("shared app shell icons are local, unique, and covered by a license notice"
     "zoom-in", "zoom-out", "maximize-2", "locate-fixed", "wheat", "coins", "users",
     "shield", "gauge", "handshake", "swords", "scroll-text", "info", "triangle-alert",
     "circle-check", "clock-3", "lock-keyhole", "save", "plus", "trash-2",
+    "sliders-horizontal", "x", "list-checks",
   ];
   const symbols = Array.from(template.matchAll(/<symbol id="(ui-icon-[a-z0-9-]+)"/g), (match) => match[1]);
   assert.equal(new Set(symbols).size, symbols.length);
@@ -110,19 +117,25 @@ test("redesigned UI remains offline, deterministic, and presentation-only", () =
   const gameStyles = read("styles/game.css");
   const ids = Array.from(template.matchAll(/\bid=["']([A-Za-z][A-Za-z0-9_-]*)["']/g), (match) => match[1]);
   assert.equal(ids.length, new Set(ids).size);
-  ["gameResourceToggle", "gameMapFocus", "gameMapInsets", "gameMapTooltip", "gameSheetToggle", "gameQuizResult", "gameRewardBanner"].forEach((id) => {
+  ["gameResourceToggle", "gameMapFocus", "gameMapTooltip", "gameSheetToggle", "gameQuizResult", "gameRewardBanner",
+    "gameTargetActionBtn", "gameContextMenu", "gameContextActionSheet", "gameOrderTray"].forEach((id) => {
     assert.match(template, new RegExp(`id=["']${id}["']`));
   });
-  assert.match(mapView, /MAIN_VIEWBOX/);
-  assert.match(mapView, /quan-dao-hoang-sa/);
-  assert.match(mapView, /quan-dao-truong-sa/);
-  assert.match(mapView, /stripCloneIds\(clone\)/);
-  assert.match(mapView, /clone\.setAttribute\("aria-hidden", "true"\)/);
+  assert.match(mapView, /width: 3129\.7, height: 4901\.01/);
+  assert.match(mapView, /islandsInline: true/);
+  assert.doesNotMatch(mapView, /INSET_SPECS|cloneNode\(true\)|gameMapInsets/);
+  assert.match(gameStyles, /province\[data-p="quan-dao-hoang-sa"\]/);
+  assert.match(gameStyles, /background:var\(--map-texture\)/);
+  assert.doesNotMatch(gameStyles, /province path[^}]+vector-effect:non-scaling-stroke/);
+  assert.match(template, /--map-texture:url\("__GAME_MAP_TEXTURE__"\)/);
   assert.match(mapView, /DEFAULT_SCALE = 1\.1/);
   assert.match(mapView, /MAX_SCALE = 3/);
   assert.match(mapView, /function zoomTo\(scale, clientX, clientY\)/);
   assert.match(mapView, /function beginPinch\(\)/);
   assert.match(mapView, /activePointers\.size >= 2/);
+  assert.match(mapView, /event\.key === "ContextMenu"/);
+  assert.match(mapView, /event\.key === "F10" && event\.shiftKey/);
+  assert.match(mapView, /source: "touch"|"touch"\);/);
   assert.match(mapView, /event\.key === "\+"/);
   assert.match(gameApp, /var sheetState = "collapsed"/);
   assert.match(gameApp, /var resourcesExpanded = false/);
@@ -131,12 +144,19 @@ test("redesigned UI remains offline, deterministic, and presentation-only", () =
   assert.match(gameStyles, /data-sheet-state="expanded"/);
   assert.match(gameStyles, /data-sheet-state="collapsed"[^}]+position:sticky/);
   assert.match(gameStyles, /data-resources-expanded="true"/);
+  assert.match(gameStyles, /height:calc\(100dvh - var\(--app-nav-height\)\);display:flex;flex-direction:column/);
   assert.match(gameStyles, /\.game-btn\.hidden[^}]+display:none/);
   assert.match(gameStyles, /game-reward-banner:not\(\.hidden\)~\.game-layout[^}]+100dvh - 321px/);
   assert.match(quizView, /if \(quiz\.completed\) showResult\(quiz, choice\)/);
   assert.match(battlePanel, /setAttribute\("role", "progressbar"\)/);
   assert.match(battlePanel, /setAttribute\("aria-valuenow", String\(bounded\)\)/);
   assert.match(gameApp, /classList\.toggle\("is-warning", reward\.warning\)/);
+  const contextMenu = read("ui/context-command-menu.js");
+  const controller = read("ui/game-controller.js");
+  assert.match(contextMenu, /controller\.legalActions\(\)/);
+  assert.match(contextMenu, /controller\.stageAction\(utils\.clone\(selectedItem\.action\)\)/);
+  assert.doesNotMatch(contextMenu, /queryLegalActions/);
+  assert.match(controller, /function removePendingAction\(index\)/);
   assert.match(turnReport, /QUIZ_REWARD_APPLIED[^\n]+payload\.score > 5[^\n]+"success"[^\n]+"warning"/);
   assert.match(turnReport, /PROVINCE_CAPTURED[\s\S]+newOwnerId === PLAYER_ID[\s\S]+previousOwnerId === PLAYER_ID/);
   assert.match(turnReport, /BATTLE_ENDED[^\n]+winnerFactionId === PLAYER_ID[^\n]+"success"[^\n]+"danger"/);

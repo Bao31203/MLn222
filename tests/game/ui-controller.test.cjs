@@ -81,6 +81,28 @@ test("browser controller stages and resumes actions without bypassing the turn q
   assert.equal(completed.state.quiz.completedTurns[0].score, 10);
 });
 
+test("browser controller removes one pending action and persists the revalidated remainder", () => {
+  const { controller, storage } = createController();
+  controller.startCampaign("lai-chau", "controller-remove-order");
+  const recruit = controller.legalActions().find((action) => action.type === "RECRUIT");
+  assert.ok(recruit);
+  controller.stageAction(recruit);
+  const trade = controller.legalActions().find((action) => action.type === "TRADE");
+  assert.ok(trade);
+  controller.stageAction(trade);
+  const beforeInvalidRemoval = controller.snapshot();
+  assert.throws(() => controller.removePendingAction(7), /không hợp lệ/);
+  assert.deepEqual(controller.snapshot().pendingActions, beforeInvalidRemoval.pendingActions);
+
+  const updated = controller.removePendingAction(0);
+  assert.deepEqual(updated.pendingActions, [trade]);
+  const sidecar = JSON.parse(storage.getItem(game["browser-storage"].UI_KEY));
+  assert.deepEqual(sidecar.pendingActions, [trade]);
+
+  const resumed = createController(storage).controller;
+  assert.deepEqual(resumed.resume().pendingActions, [trade]);
+});
+
 test("browser controller discards untrusted UI sidecar fields on resume", () => {
   const { controller, storage } = createController();
   controller.startCampaign("ha-noi", "controller-sidecar-validation");

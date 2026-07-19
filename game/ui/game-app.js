@@ -2,7 +2,7 @@
   "use strict";
   var game = root.MLN222Game;
   var required = [
-    "contracts", "browser-storage", "game-controller", "map-view", "resource-bar",
+    "contracts", "browser-storage", "game-controller", "context-action-model", "context-command-menu", "order-tray", "map-view", "resource-bar",
     "province-panel", "diplomacy-panel", "battle-panel", "game-quiz-view",
     "turn-report", "ui-utils"
   ];
@@ -189,6 +189,8 @@
     var viewOptions = { data: data, controller: controller, onError: reportError };
     var views = [
       game["map-view"].create(viewOptions),
+      game["context-command-menu"].create(viewOptions),
+      game["order-tray"].create(viewOptions),
       game["resource-bar"].create(viewOptions),
       game["province-panel"].create(viewOptions),
       game["diplomacy-panel"].create(viewOptions),
@@ -212,6 +214,10 @@
       resourcesExpanded = !resourcesExpanded;
       applyPresentationState();
     });
+    gameRoot.addEventListener("mln222:open-campaign-sheet", function () {
+      sheetState = "expanded";
+      applyPresentationState();
+    });
     startSelect.addEventListener("change", function () { controller.selectProvince(startSelect.value); });
     quizChoice.addEventListener("change", function () { safeRun(function () { controller.setQuizChoice(quizChoice.value); }); });
     document.getElementById("gameBeginBtn").addEventListener("click", function () {
@@ -229,6 +235,7 @@
     controller.subscribe(function (snapshot) {
       var hasState = snapshot.state !== null;
       gameRoot.classList.toggle("has-campaign", hasState);
+      gameRoot.classList.toggle("has-pending-orders", snapshot.pendingActions.length > 0);
       setupPane.classList.toggle("hidden", hasState);
       campaignPane.classList.toggle("hidden", !hasState);
       document.getElementById("gameContinueBtn").disabled = !snapshot.canResume;
