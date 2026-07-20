@@ -1,6 +1,6 @@
-# MLN222 Quiz
+# MLN122 Quiz
 
-Ứng dụng học tập MLN222 dạng HTML tĩnh, đóng gói 504 câu hỏi theo 6 chương và một game chiến lược theo lượt trên bản đồ 34 tỉnh/thành.
+Ứng dụng học tập MLN122 dạng HTML tĩnh, đóng gói 504 câu hỏi theo 6 chương và một game chiến lược theo lượt trên bản đồ 34 tỉnh/thành.
 
 ## Trạng thái kiểm định
 

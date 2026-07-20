@@ -317,6 +317,19 @@ class ProductionBankTests(unittest.TestCase):
         actual = (BASE / "index.html").read_text(encoding="utf-8")
         self.assertEqual(actual, expected)
 
+    def test_public_brand_is_mln122(self) -> None:
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        html = (BASE / "index.html").read_text(encoding="utf-8")
+        controller = (BASE / "game" / "ui" / "game-controller.js").read_text(encoding="utf-8")
+        for source in (template, html):
+            self.assertIn("<title>MLN122 — Ôn tập Kinh tế chính trị Mác-Lênin</title>", source)
+            self.assertIn("<h1>MLN122</h1>", source)
+            self.assertIn("tài liệu MLN122", source)
+            self.assertIn('value="mln122-campaign"', source)
+            self.assertNotIn("<h1>MLN222</h1>", source)
+        self.assertIn('"mln122-campaign"', controller)
+        self.assertNotIn('"mln222-campaign"', controller)
+
     def test_game_build_manifest_is_complete_and_local(self) -> None:
         assets = load_game_assets(BASE)
         self.assertEqual(len(assets["data"]["provinces"]["provinces"]), 34)

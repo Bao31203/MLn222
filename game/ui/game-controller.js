@@ -118,7 +118,7 @@
 
     function startCampaign(provinceId, seed) {
       if (!hasProvince(provinceId)) throw new RangeError("Tỉnh khởi đầu không hợp lệ.");
-      var normalizedSeed = typeof seed === "string" && seed.trim() ? seed.trim().slice(0, 64) : "mln222-campaign";
+      var normalizedSeed = typeof seed === "string" && seed.trim() ? seed.trim().slice(0, 64) : "mln122-campaign";
       var created = game.campaign.createCampaign({ campaignId: "campaign-" + normalizedSeed, seed: normalizedSeed, playerProvinceId: provinceId }, deps);
       initializeQuiz(created);
       var prepared = prepareIfNeeded(created);
