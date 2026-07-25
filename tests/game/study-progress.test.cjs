@@ -102,6 +102,74 @@ test("study quiz and flashcard sessions survive a full storage reload independen
   assert.deepEqual({ ...api.state.answered }, {});
 });
 
+test("study quiz restores the in-progress session after visiting the wrong-answer filter", () => {
+  const storage = createStorage();
+  let api = boot(storage);
+
+  api.LS.stats = { "C01-Q001": { c: 0, w: 1 } };
+  api.LS.save();
+  setSession(api, {
+    mode: "quiz",
+    pool: api.questions.slice(),
+    idx: 2,
+    answered: { "C01-Q001": 1, "C01-Q002": 1 },
+    sessSeen: 2,
+    sessCorrect: 1,
+  });
+  api.saveStudySession();
+
+  setSession(api, {
+    mode: "quiz",
+    onlyWrong: true,
+    pool: [api.questions[0]],
+    idx: 0,
+  });
+  api.saveStudySession();
+
+  api = boot(storage);
+  api.state.mode = "quiz";
+  assert.equal(api.restoreStudySession("quiz", {
+    chapter: "all",
+    difficulty: "all",
+    shuffle: false,
+    onlyMarked: false,
+    onlyWrong: false,
+  }), true);
+  assert.equal(api.state.idx, 2);
+  assert.equal(api.state.sessSeen, 2);
+  assert.equal(api.state.sessCorrect, 1);
+  assert.deepEqual({ ...api.state.answered }, { "C01-Q001": 1, "C01-Q002": 1 });
+});
+
+test("legacy single-session progress migrates without losing the current question", () => {
+  const storage = createStorage({
+    "mln222.v3.studyProgress": JSON.stringify({
+      version: 1,
+      sessions: {
+        quiz: {
+          chapter: "all",
+          difficulty: "all",
+          shuffle: false,
+          onlyMarked: false,
+          onlyWrong: false,
+          pool: ["C01-Q001", "C01-Q002", "C02-Q001"],
+          idx: 1,
+          answered: { "C01-Q001": 0 },
+          flashRevealed: null,
+        },
+        flash: null,
+      },
+    }),
+  });
+  const api = boot(storage);
+
+  api.state.mode = "quiz";
+  assert.equal(api.restoreStudySession("quiz"), true);
+  assert.equal(api.state.idx, 1);
+  assert.equal(api.state.sessSeen, 1);
+  assert.equal(api.state.sessCorrect, 1);
+});
+
 test("invalid study progress is ignored and reset removes every study storage key", () => {
   const storage = createStorage({
     "mln222.v2.marked": "[]",
@@ -126,7 +194,7 @@ test("invalid study progress is ignored and reset removes every study storage ke
   });
   const api = boot(storage);
 
-  assert.equal(api.progress.sessions.quiz, null);
+  assert.deepEqual(Object.keys(api.progress.sessions.quiz), []);
   assert.equal(api.restoreStudySession("quiz"), false);
   api.LS.clear();
   assert.equal(storage.getItem("mln222.v2.marked"), null);

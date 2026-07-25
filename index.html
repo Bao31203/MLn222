@@ -1515,7 +1515,8 @@ const QUESTION_BY_ID = new Map(QUESTIONS.map(q=>[q.id,q]));
 const CHAPTER_VALUES = new Set(QUESTIONS.map(q=>q.chapter));
 const DIFFICULTY_VALUES = new Set(QUESTIONS.map(q=>q.difficulty));
 const STUDY_PROGRESS_KEY="mln222.v3.studyProgress";
-const STUDY_PROGRESS_VERSION=1;
+const STUDY_PROGRESS_VERSION=2;
+const LEGACY_STUDY_PROGRESS_VERSION=1;
 const STUDY_MODES=new Set(["quiz","flash"]);
 function readStoredJson(key,fallback){
   try{
@@ -1586,7 +1587,21 @@ function questionsForFilters(filters){
 }
 
 function emptyStudyProgress(){
-  return {version:STUDY_PROGRESS_VERSION,sessions:{quiz:null,flash:null}};
+  return {
+    version:STUDY_PROGRESS_VERSION,
+    active:{quiz:null,flash:null},
+    sessions:{quiz:{},flash:{}},
+  };
+}
+
+function studySessionKey(value){
+  return JSON.stringify([
+    value.chapter,
+    value.difficulty,
+    value.shuffle,
+    value.onlyMarked,
+    value.onlyWrong,
+  ]);
 }
 
 function normalizeStudySession(value,mode){
@@ -1631,8 +1646,29 @@ function normalizeStudySession(value,mode){
 function loadStudyProgress(){
   const value=readStoredJson(STUDY_PROGRESS_KEY,null);
   const progress=emptyStudyProgress();
-  if(!isPlainRecord(value)||value.version!==STUDY_PROGRESS_VERSION||!isPlainRecord(value.sessions)) return progress;
-  STUDY_MODES.forEach(mode=>{progress.sessions[mode]=normalizeStudySession(value.sessions[mode],mode);});
+  if(!isPlainRecord(value)||!isPlainRecord(value.sessions)) return progress;
+  if(value.version===LEGACY_STUDY_PROGRESS_VERSION){
+    STUDY_MODES.forEach(mode=>{
+      const session=normalizeStudySession(value.sessions[mode],mode);
+      if(!session) return;
+      const key=studySessionKey(session);
+      progress.sessions[mode][key]=session;
+      progress.active[mode]=key;
+    });
+    return progress;
+  }
+  if(value.version!==STUDY_PROGRESS_VERSION||!isPlainRecord(value.active)) return progress;
+  STUDY_MODES.forEach(mode=>{
+    const storedSessions=value.sessions[mode];
+    if(!isPlainRecord(storedSessions)) return;
+    Object.values(storedSessions).forEach(stored=>{
+      const session=normalizeStudySession(stored,mode);
+      if(!session) return;
+      progress.sessions[mode][studySessionKey(session)]=session;
+    });
+    const activeKey=value.active[mode];
+    if(typeof activeKey==="string"&&progress.sessions[mode][activeKey]) progress.active[mode]=activeKey;
+  });
   return progress;
 }
 
@@ -1641,7 +1677,7 @@ let studyProgress=loadStudyProgress();
 function saveStudySession(){
   if(!STUDY_MODES.has(state.mode)) return;
   const current=state.pool[state.idx];
-  studyProgress.sessions[state.mode]={
+  const session={
     chapter:state.chapter,
     difficulty:state.difficulty,
     shuffle:state.shuffle,
@@ -1652,14 +1688,26 @@ function saveStudySession(){
     answered:{...state.answered},
     flashRevealed:state.mode==="flash"&&state.flashRevealed===state.idx&&current?current.id:null,
   };
+  const key=studySessionKey(session);
+  studyProgress.sessions[state.mode][key]=session;
+  studyProgress.active[state.mode]=key;
   try{
     window.localStorage.setItem(STUDY_PROGRESS_KEY,JSON.stringify(studyProgress));
   }catch(_error){ /* Continue with the in-memory session when storage is unavailable. */ }
 }
 
-function restoreStudySession(mode){
-  const session=studyProgress.sessions[mode];
-  if(!session) return false;
+function restoreStudySession(mode,filters=null){
+  if(!STUDY_MODES.has(mode)) return false;
+  const key=filters?studySessionKey(filters):studyProgress.active[mode];
+  if(typeof key!=="string") return false;
+  const session=normalizeStudySession(studyProgress.sessions[mode][key],mode);
+  if(!session){
+    delete studyProgress.sessions[mode][key];
+    if(studyProgress.active[mode]===key) studyProgress.active[mode]=null;
+    return false;
+  }
+  studyProgress.sessions[mode][key]=session;
+  studyProgress.active[mode]=key;
   state.chapter=session.chapter;
   state.difficulty=session.difficulty;
   state.shuffle=session.shuffle;
@@ -1719,6 +1767,26 @@ function buildPool(){
   if(state.shuffle) pool=shuffleArr(pool.slice());
   state.pool=pool; state.idx=0; state.answered={};
   state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
+}
+
+function currentStudyFilters(){
+  return {
+    chapter:state.chapter,
+    difficulty:state.difficulty,
+    shuffle:state.shuffle,
+    onlyMarked:state.onlyMarked,
+    onlyWrong:state.onlyWrong,
+  };
+}
+
+function switchStudyFilters(update){
+  saveStudySession();
+  update();
+  if(!restoreStudySession(state.mode,currentStudyFilters())) buildPool();
+  syncStudyControls();
+  saveStudySession();
+  render();
+  focusQuestion();
 }
 
 function renderSource(source){
@@ -1955,8 +2023,8 @@ function init(){
   buildChapterSelect();
   buildDifficultySelect();
   document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
-  $("#chapter").onchange=e=>{state.chapter=e.target.value;updateStudyFilterSummary();buildPool();saveStudySession();render();};
-  $("#difficulty").onchange=e=>{state.difficulty=e.target.value;updateStudyFilterSummary();buildPool();saveStudySession();render();};
+  $("#chapter").onchange=e=>switchStudyFilters(()=>{state.chapter=e.target.value;});
+  $("#difficulty").onchange=e=>switchStudyFilters(()=>{state.difficulty=e.target.value;});
   $("#studyFilterToggle").onclick=e=>{
     const toolbar=e.currentTarget.closest(".study-toolbar");
     const expanded=toolbar.dataset.filtersExpanded!=="true";
@@ -1965,9 +2033,9 @@ function init(){
     e.currentTarget.title=expanded?"Đóng bộ lọc":"Mở bộ lọc";
     e.currentTarget.setAttribute("aria-label",e.currentTarget.title);
   };
-  $("#cShuffle").onclick=e=>{state.shuffle=!state.shuffle;e.currentTarget.classList.toggle("on",state.shuffle);e.currentTarget.setAttribute("aria-pressed",String(state.shuffle));buildPool();saveStudySession();render();};
-  $("#cMarked").onclick=e=>{state.onlyMarked=!state.onlyMarked;e.currentTarget.classList.toggle("on",state.onlyMarked);e.currentTarget.setAttribute("aria-pressed",String(state.onlyMarked));buildPool();saveStudySession();render();};
-  $("#cWrong").onclick=e=>{state.onlyWrong=!state.onlyWrong;e.currentTarget.classList.toggle("on",state.onlyWrong);e.currentTarget.setAttribute("aria-pressed",String(state.onlyWrong));buildPool();saveStudySession();render();};
+  $("#cShuffle").onclick=()=>switchStudyFilters(()=>{state.shuffle=!state.shuffle;});
+  $("#cMarked").onclick=()=>switchStudyFilters(()=>{state.onlyMarked=!state.onlyMarked;});
+  $("#cWrong").onclick=()=>switchStudyFilters(()=>{state.onlyWrong=!state.onlyWrong;});
   $("#prevBtn").onclick=prev; $("#nextBtn").onclick=next; $("#star").onclick=toggleStar;
   $("#resetBtn").onclick=()=>{
     if(confirm("Xoá toàn bộ tiến độ, thống kê và câu đánh dấu?")){

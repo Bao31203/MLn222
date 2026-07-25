@@ -347,9 +347,12 @@ class ProductionBankTests(unittest.TestCase):
         self.assertIn("mln222.v2.marked", template)
         self.assertIn("mln222.v2.stats", template)
         self.assertIn('const STUDY_PROGRESS_KEY="mln222.v3.studyProgress"', template)
+        self.assertIn("const STUDY_PROGRESS_VERSION=2", template)
+        self.assertIn("const LEGACY_STUDY_PROGRESS_VERSION=1", template)
+        self.assertIn("function studySessionKey(value)", template)
         self.assertIn("function normalizeStudySession(value,mode)", template)
         self.assertIn("function saveStudySession()", template)
-        self.assertIn("function restoreStudySession(mode)", template)
+        self.assertIn("function restoreStudySession(mode,filters=null)", template)
         self.assertIn("window.addEventListener(\"pagehide\",saveStudySession)", template)
         self.assertIn("window.localStorage.removeItem(STUDY_PROGRESS_KEY)", template)
         self.assertNotIn('localStorage.getItem("mln222.marked")', template)
@@ -362,11 +365,14 @@ class ProductionBankTests(unittest.TestCase):
         choose_block = template[template.index("function choose(q,i){"):template.index("function next(){")]
         next_block = template[template.index("function next(){"):template.index("function toggleStar(){")]
         mode_block = template[template.index("function setMode(m){"):template.index("/* ====== Wire up ====== */")]
+        filter_block = template[template.index("function switchStudyFilters(update){"):template.index("function renderSource(source){")]
         self.assertIn("state.answered[q.id]=i", choose_block)
         self.assertIn("saveStudySession();", choose_block)
         self.assertGreaterEqual(next_block.count("saveStudySession();"), 4)
         self.assertIn("if(STUDY_MODES.has(state.mode)) saveStudySession();", mode_block)
         self.assertIn("if(!restoreStudySession(m)) buildPool();", mode_block)
+        self.assertIn("saveStudySession();", filter_block)
+        self.assertIn("restoreStudySession(state.mode,currentStudyFilters())", filter_block)
 
     def test_build_uses_validated_snapshot_and_atomic_replace(self) -> None:
         builder = (BASE / "build_html.py").read_text(encoding="utf-8")
