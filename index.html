@@ -160,6 +160,12 @@
   .study-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:end;
     padding:0 0 14px;border-bottom:1px solid var(--line)}
   .study-filter-grid{display:grid;grid-template-columns:minmax(220px,1.8fr) minmax(170px,.8fr);gap:8px;min-width:0}
+  .question-count-control{grid-column:1/-1;order:3;display:grid;grid-template-columns:minmax(0,1fr) 96px;gap:12px;align-items:center;padding-top:4px}
+  .question-count-head{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--ink-muted);font-size:.72rem;font-weight:650}
+  .question-count-head strong{color:var(--ink);font-size:.84rem;font-weight:750}
+  .question-count-range{width:100%;accent-color:var(--jade);cursor:pointer}
+  .question-count-input{width:100%;min-height:42px;text-align:center;font-variant-numeric:tabular-nums}
+  .question-count-input::-webkit-inner-spin-button,.question-count-input::-webkit-outer-spin-button{opacity:1}
   .filter-control{display:grid;gap:4px;min-width:0;color:var(--ink-muted);font-size:.72rem;font-weight:650}
   .filter-control select{width:100%;min-width:0;background:var(--surface);color:var(--ink);border:1px solid var(--control-border);
     border-radius:var(--radius-control);min-height:44px;padding:8px 11px}
@@ -192,6 +198,21 @@
   .study-workspace[data-study-mode="flash"] .question-frame{border-top:3px solid var(--river)}
   .study-workspace[data-study-mode="flash"] .opts{opacity:.8}
   .study-workspace[data-study-mode="flash"] .feedback.ok{color:var(--brass-soft);border-left-color:var(--river)}
+  .flashcard-content{display:grid;gap:14px}
+  .flashcard-content.hidden{display:none}
+  .flashcard{position:relative;min-height:360px;perspective:1100px;cursor:pointer;outline:0}
+  .flashcard-inner{position:relative;width:100%;min-height:360px;transform-style:preserve-3d;transition:transform 360ms var(--ease-out)}
+  .flashcard.is-revealed .flashcard-inner{transform:rotateY(180deg)}
+  .flashcard-face{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;backface-visibility:hidden;border:1px solid var(--line-strong);border-radius:var(--radius);padding:32px clamp(20px,6vw,72px);background:var(--surface-strong);box-shadow:var(--shadow-soft)}
+  .flashcard-face.back{transform:rotateY(180deg);justify-content:flex-start;overflow:auto}
+  .flashcard-kicker{color:var(--river);font-size:.78rem;font-weight:750;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px}
+  .flashcard-prompt{font-size:clamp(1.18rem,2.2vw,1.55rem);line-height:1.55;font-weight:700;white-space:pre-wrap;overflow-wrap:anywhere}
+  .flashcard-answer{font-size:1.12rem;line-height:1.55;color:var(--success);font-weight:750;overflow-wrap:anywhere}
+  .flashcard-answer-label,.flashcard-explanation-label{color:var(--brass-soft);font-size:.76rem;font-weight:750;margin:18px 0 6px}
+  .flashcard-explanation{margin:0;color:var(--ink);font-size:.94rem;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+  .flashcard-source{margin-top:14px;color:var(--ink-muted);font-size:.82rem;border-left:3px solid var(--line);padding-left:10px;line-height:1.5}
+  .flashcard-hint{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:var(--ink-muted);font-size:.78rem}
+  .flashcard:focus-visible .flashcard-face{outline:3px solid var(--focus);outline-offset:3px}
   .search-toolbar{position:sticky;top:0;z-index:5;padding:12px 0 14px;background:var(--canvas);border-bottom:1px solid var(--line)}
   .search-toolbar>label{display:block;margin-bottom:7px;color:var(--ink);font-weight:700}
   .search-field{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:9px;background:var(--surface);
@@ -211,6 +232,7 @@
   }
   @media(max-width:680px){
     .study-filter-grid{grid-template-columns:1fr 1fr}.study-quick-actions{grid-template-columns:1fr 1fr}
+    .question-count-control{grid-template-columns:minmax(0,1fr) 86px}
     .session-strip{grid-template-columns:1fr 1fr}.session-stat:nth-child(2){border-right:0}.session-stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
     .question-frame{padding:14px 14px calc(70px + env(safe-area-inset-bottom))}.question-frame .qmeta{padding-bottom:10px;margin-bottom:11px}
     .question-frame .stem{font-size:1.02rem;line-height:1.55}.feedback{margin-inline:-14px;padding-inline:14px}.review{margin-inline:-14px;padding-inline:14px}
@@ -220,6 +242,7 @@
   }
   @media(max-width:390px){
     .study-filter-grid{grid-template-columns:1fr}.study-quick-actions .toggle,.study-quick-actions .btn{font-size:.8rem}
+    .question-count-control{grid-template-columns:1fr 78px}
     .session-stat{padding-inline:9px}.question-nav .btn{padding-inline:9px}
   }
 
@@ -973,6 +996,14 @@ SOFTWARE.
       </div>
       <div class="study-toolbar-body" id="studyFilterBody">
         <div class="study-filter-grid">
+          <div class="question-count-control">
+            <label for="questionCountRange">
+              <span class="question-count-head"><strong>C&#226;u b&#7855;t &#273;&#7847;u</strong><span id="questionCountHint">T&#7915; 1 &#273;&#7871;n 504</span></span>
+              <input id="questionCountRange" class="question-count-range" type="range" min="1" max="504" value="1" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i b&#7855;t &#273;&#7847;u">
+            </label>
+            <label class="sr-only" for="questionCountInput">C&#226;u h&#7887;i b&#7855;t &#273;&#7847;u</label>
+            <input id="questionCountInput" class="question-count-input" type="number" min="1" max="504" value="1" inputmode="numeric" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i b&#7885; b&#7855;t &#273;&#7847;u">
+          </div>
           <label class="filter-control" for="chapter"><span>Chương</span><select id="chapter" aria-label="Lọc theo chương"></select></label>
           <label class="filter-control" for="difficulty"><span>Mức độ</span><select id="difficulty" aria-label="Lọc theo mức độ"></select></label>
         </div>
@@ -1010,6 +1041,7 @@ SOFTWARE.
           <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-bookmark"></use></svg>
         </button>
       </div>
+      <div id="quizCardContent">
       <div class="stem" id="stem" tabindex="-1"></div>
       <div class="opts" id="opts"></div>
       <div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></div>
@@ -1017,6 +1049,26 @@ SOFTWARE.
         <div class="review-title">Giải thích</div>
         <p class="explanation" id="explanation"></p>
         <div class="source" id="source"></div>
+      </div>
+      </div>
+      <div id="flashCardContent" class="flashcard-content hidden">
+        <div id="flashCard" class="flashcard" role="button" tabindex="0" aria-label="Lật thẻ để xem đáp án">
+          <div class="flashcard-inner">
+            <div class="flashcard-face front">
+              <div class="flashcard-kicker">Câu hỏi</div>
+              <div class="flashcard-prompt" id="flashPrompt"></div>
+              <div class="flashcard-hint">Nhấp hoặc nhấn Enter để lật thẻ</div>
+            </div>
+            <div class="flashcard-face back">
+              <div class="flashcard-kicker">Đáp án</div>
+              <div class="flashcard-answer" id="flashAnswer"></div>
+              <div class="flashcard-answer-label">Giải thích</div>
+              <p class="flashcard-explanation" id="flashExplanation"></p>
+              <div class="flashcard-source" id="flashSource"></div>
+              <div class="flashcard-hint">Nhấp để lật thẻ lại mặt câu hỏi</div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="nav question-nav" aria-label="Điều hướng câu hỏi">
         <button class="btn" id="prevBtn"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-chevron-left"></use></svg><span>Câu trước</span></button>
@@ -1562,6 +1614,7 @@ const LS = {
 /* ====== App state ====== */
 const state = {
   mode:"quiz", chapter:"all", difficulty:"all",
+  questionStart:1,
   shuffle:false, onlyMarked:false, onlyWrong:false,
   pool:[], idx:0,
   answered:{}, // question id -> chosen index (session, for navigation)
@@ -1598,6 +1651,7 @@ function studySessionKey(value){
   return JSON.stringify([
     value.chapter,
     value.difficulty,
+    Number.isSafeInteger(value.questionStart)&&value.questionStart>0?value.questionStart:1,
     value.shuffle,
     value.onlyMarked,
     value.onlyWrong,
@@ -1616,16 +1670,19 @@ function normalizeStudySession(value,mode){
     typeof value.onlyWrong!=="boolean"
   ) return null;
 
+  const legacyCountMode=!Number.isSafeInteger(value.questionStart)&&Number.isSafeInteger(value.questionLimit)&&value.questionLimit>0;
+  const questionStart=Number.isSafeInteger(value.questionStart)&&value.questionStart>0?value.questionStart:1;
   const filters={
-    chapter,difficulty,shuffle:value.shuffle,
+    chapter,difficulty,questionStart,shuffle:value.shuffle,
     onlyMarked:value.onlyMarked,onlyWrong:value.onlyWrong,
   };
-  const expected=questionsForFilters(filters).map(q=>q.id);
+  const available=questionsForFilters(filters);
+  const expected=(legacyCountMode?available.slice(0,value.questionLimit):available.slice(filters.questionStart-1)).map(q=>q.id);
   if(!Array.isArray(value.pool)||value.pool.some(id=>typeof id!=="string"||!QUESTION_IDS.has(id))) return null;
   if(value.pool.length!==expected.length||new Set(value.pool).size!==value.pool.length) return null;
   const savedIds=new Set(value.pool);
-  if(expected.some(id=>!savedIds.has(id))) return null;
   if(!value.shuffle&&value.pool.some((id,index)=>id!==expected[index])) return null;
+  if(value.shuffle&&value.pool.some(id=>!available.some(q=>q.id===id))) return null;
 
   const poolLength=value.pool.length;
   if(!Number.isSafeInteger(value.idx)||value.idx<0||(poolLength?value.idx>=poolLength:value.idx!==0)) return null;
@@ -1680,6 +1737,7 @@ function saveStudySession(){
   const session={
     chapter:state.chapter,
     difficulty:state.difficulty,
+    questionStart:state.questionStart,
     shuffle:state.shuffle,
     onlyMarked:state.onlyMarked,
     onlyWrong:state.onlyWrong,
@@ -1710,6 +1768,7 @@ function restoreStudySession(mode,filters=null){
   studyProgress.active[mode]=key;
   state.chapter=session.chapter;
   state.difficulty=session.difficulty;
+  state.questionStart=session.questionStart;
   state.shuffle=session.shuffle;
   state.onlyMarked=session.onlyMarked;
   state.onlyWrong=session.onlyWrong;
@@ -1728,6 +1787,14 @@ function restoreStudySession(mode,filters=null){
 function syncStudyControls(){
   $("#chapter").value=state.chapter;
   $("#difficulty").value=state.difficulty;
+  const available=questionsForFilters(state);
+  const max=Math.max(1,available.length);
+  const range=$("#questionCountRange");
+  const input=$("#questionCountInput");
+  range.max=String(max); input.max=String(max);
+  const value=Math.min(Math.max(1,state.questionStart),max);
+  range.value=String(value); input.value=String(value);
+  $("#questionCountHint").textContent=`Từ 1 đến ${max}`;
   [["#cShuffle",state.shuffle],["#cMarked",state.onlyMarked],["#cWrong",state.onlyWrong]].forEach(([selector,on])=>{
     const control=$(selector);
     control.classList.toggle("on",on);
@@ -1765,6 +1832,7 @@ function updateStudyFilterSummary(){
 function buildPool(){
   let pool=questionsForFilters(state);
   if(state.shuffle) pool=shuffleArr(pool.slice());
+  pool=pool.slice(Math.min(Math.max(1,state.questionStart),Math.max(1,pool.length))-1);
   state.pool=pool; state.idx=0; state.answered={};
   state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
 }
@@ -1773,6 +1841,7 @@ function currentStudyFilters(){
   return {
     chapter:state.chapter,
     difficulty:state.difficulty,
+    questionStart:state.questionStart,
     shuffle:state.shuffle,
     onlyMarked:state.onlyMarked,
     onlyWrong:state.onlyWrong,
@@ -1789,8 +1858,7 @@ function switchStudyFilters(update){
   focusQuestion();
 }
 
-function renderSource(source){
-  const el=$("#source");
+function renderSourceInto(el,source){
   el.replaceChildren();
   const label=document.createElement("b");
   label.textContent="Nguồn:";
@@ -1804,6 +1872,7 @@ function renderSource(source){
     ));
   }
 }
+function renderSource(source){renderSourceInto($("#source"),source);}
 
 function focusQuestion(){
   if(!$("#card").classList.contains("hidden")) $("#stem").focus({preventScroll:true});
@@ -1841,6 +1910,9 @@ function render(){
   $("#qtag").textContent=`${q.chapter} · Câu ${q.num}${stat}`;
   $("#qlevel").textContent=q.difficulty;
   $("#qtopic").textContent=`${q.topic} · ${KIND_LABELS[q.kind]||q.kind}`;
+  const isFlash=state.mode==="flash";
+  $("#quizCardContent").classList.toggle("hidden",isFlash);
+  $("#flashCardContent").classList.toggle("hidden",!isFlash);
   $("#star").classList.toggle("on",LS.marked.has(q.id));
   $("#star").setAttribute("aria-pressed",String(LS.marked.has(q.id)));
   $("#star").title=LS.marked.has(q.id)?"Bỏ đánh dấu câu này":"Đánh dấu câu khó";
@@ -1852,6 +1924,15 @@ function render(){
 
   const chosen=state.answered[q.id]; // session choice
   const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
+  if(isFlash){
+    $("#flashCard").classList.toggle("is-revealed",reveal);
+    $("#flashCard").setAttribute("aria-label",reveal?"Lật thẻ để xem lại câu hỏi":"Lật thẻ để xem đáp án");
+    $("#flashPrompt").textContent=q.stem;
+    $("#flashAnswer").textContent=`${LETTERS[q.answer]}. ${q.options[q.answer]}`;
+    $("#flashExplanation").textContent=q.explanation||"";
+    $("#flashSource").replaceChildren();
+    if(q.source) renderSourceInto($("#flashSource"),q.source);
+  }
 
   const optsEl=$("#opts");optsEl.replaceChildren();
   q.options.forEach((opt,i)=>{
@@ -1918,6 +1999,11 @@ function next(){
   if(state.shuffle) state.pool=shuffleArr(state.pool.slice());
   saveStudySession();
   render();focusQuestion();
+}
+function toggleFlashcard(){
+  if(state.mode!=="flash"||!state.pool.length)return;
+  state.flashRevealed=state.flashRevealed===state.idx?-1:state.idx;
+  saveStudySession(); render();
 }
 function prev(){
   if(state.idx>0){state.idx--;state.flashRevealed=-1;saveStudySession();render();focusQuestion();}
@@ -2036,6 +2122,17 @@ function init(){
   $("#cShuffle").onclick=()=>switchStudyFilters(()=>{state.shuffle=!state.shuffle;});
   $("#cMarked").onclick=()=>switchStudyFilters(()=>{state.onlyMarked=!state.onlyMarked;});
   $("#cWrong").onclick=()=>switchStudyFilters(()=>{state.onlyWrong=!state.onlyWrong;});
+  const updateQuestionStart=value=>{
+    const max=Number($("#questionCountInput").max)||QUESTIONS.length;
+    const nextValue=Math.min(Math.max(1,Number(value)||1),max);
+    switchStudyFilters(()=>{state.questionStart=nextValue;});
+  };
+  $("#questionCountRange").oninput=e=>updateQuestionStart(e.target.value);
+  $("#questionCountInput").onchange=e=>updateQuestionStart(e.target.value);
+  $("#flashCard").onclick=toggleFlashcard;
+  $("#flashCard").onkeydown=e=>{
+    if(e.key==="Enter"||e.key===" "){e.preventDefault();toggleFlashcard();}
+  };
   $("#prevBtn").onclick=prev; $("#nextBtn").onclick=next; $("#star").onclick=toggleStar;
   $("#resetBtn").onclick=()=>{
     if(confirm("Xoá toàn bộ tiến độ, thống kê và câu đánh dấu?")){
