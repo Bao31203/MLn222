@@ -14,18 +14,19 @@
 
 ## Mở ứng dụng
 
-Mở trực tiếp `index.html` bằng trình duyệt, không cần chạy web server. Trên PowerShell tại thư mục dự án:
+Để dùng đủ cả video bài giảng, chạy website qua HTTP tại thư mục dự án:
 
 ```powershell
-Start-Process .\index.html
+python -m http.server 8000
 ```
 
-`index.html` cung cấp bốn chế độ: Luyện thi, Flashcard, Tìm kiếm và Công thành. File chạy trực tiếp bằng `file://`; game không tải bản đồ hoặc tài nguyên từ mạng.
+Sau đó mở `http://localhost:8000/`. `index.html` cung cấp năm chế độ: Luyện thi, Flashcard, Bài giảng, Tìm kiếm và Công thành. Bốn chức năng ôn tập/game vẫn có thể chạy trực tiếp bằng `file://` và không tải tài nguyên từ mạng; riêng Bài giảng cần HTTP(S) cùng kết nối Internet để YouTube chấp nhận phát 6 video không công khai.
 
 ## Giao diện và khả năng truy cập
 
 - App shell tách hai không gian: giao diện học sáng, dễ đọc và workspace Công thành tối kiểu bản đồ chiến thuật; desktop dùng thanh điều hướng trái, mobile dùng thanh điều hướng đáy.
 - Luyện thi có bộ lọc gọn, thống kê phiên ổn định và review đáp án; Flashcard tách thao tác lật thẻ khỏi điểm số; Tìm kiếm highlight kết quả bằng DOM an toàn.
+- Bài giảng cung cấp playlist 6 video theo đúng 6 chương, trình phát 16:9 dùng chế độ tăng cường quyền riêng tư của YouTube và nút chuyển nhanh sang bộ câu hỏi của chương đang xem.
 - Công thành dùng bản đồ Việt Nam map-first với 34 tỉnh thao tác được bằng bàn phím; đất liền và các đảo giữ nguyên vị trí địa lý trong toàn bộ `viewBox`, dùng đường biên đồng mảnh và nền trống đồng nhúng offline. Bản đồ mở ở 110%, hỗ trợ nút zoom, con lăn, phím `+/-/0`, kéo và pinch trên màn hình cảm ứng.
 - Nhấp chuột phải vào tỉnh của thế lực khác mở vòng lệnh Thông tin/Ngoại giao/Thương mại/Quân sự. Bàn phím dùng `Context Menu` hoặc `Shift+F10`; màn hình cảm ứng có nút `Hành động` và long press.
 - Lệnh đã chọn xuất hiện trong khay lệnh và trên tuyến bản đồ; từng lệnh có thể hủy riêng trước khi kết thúc lượt. Mọi lựa chọn khả dụng lấy trực tiếp từ `controller.legalActions()` rồi được xếp bằng `controller.stageAction()`.
@@ -49,6 +50,7 @@ Chiến dịch production lưu tại `mln222.campaign.v1`; trạng thái giao di
 ## Các file chính
 
 - `content/chapters/chapter-01.json` đến `chapter-06.json`: dữ liệu biên soạn theo từng chương.
+- `content/lectures.json`: manifest 6 video YouTube, thời lượng và liên kết tới bộ câu hỏi tương ứng.
 - `content/AUTHORING.md`: schema và tiêu chuẩn biên soạn câu hỏi.
 - `questions.json`: ngân hàng 504 câu được hợp nhất từ các file chương.
 - `template.html`: mẫu ứng dụng; `index.html`: bản HTML độc lập đã đóng gói.

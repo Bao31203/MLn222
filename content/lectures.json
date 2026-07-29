@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "provider": "youtube",
+  "playlistId": "PLAN8e5g76wQs",
+  "lectures": [
+    {
+      "id": "chapter-01",
+      "chapterNum": 1,
+      "title": "Đối tượng, phương pháp nghiên cứu và chức năng của Kinh tế chính trị Mác – Lênin",
+      "durationSeconds": 1184,
+      "videoId": "IN62DsH0neI",
+      "chapterValue": "Chương 1 · Slot 1: Khái quát môn học",
+      "summary": "Khái quát sự hình thành, đối tượng, phương pháp nghiên cứu và chức năng của môn Kinh tế chính trị Mác – Lênin."
+    },
+    {
+      "id": "chapter-02",
+      "chapterNum": 2,
+      "title": "Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường",
+      "durationSeconds": 2110,
+      "videoId": "eSNZjv3diE0",
+      "chapterValue": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+      "summary": "Phân tích hàng hóa, tiền tệ, thị trường và vai trò của các chủ thể trong nền kinh tế thị trường."
+    },
+    {
+      "id": "chapter-03",
+      "chapterNum": 3,
+      "title": "Giá trị thặng dư trong nền kinh tế thị trường",
+      "durationSeconds": 2300,
+      "videoId": "TrG62r4VHsc",
+      "chapterValue": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+      "summary": "Làm rõ nguồn gốc, bản chất và các hình thức biểu hiện của giá trị thặng dư cùng quá trình tích lũy tư bản."
+    },
+    {
+      "id": "chapter-04",
+      "chapterNum": 4,
+      "title": "Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+      "durationSeconds": 2078,
+      "videoId": "BhjrFABpLdI",
+      "chapterValue": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+      "summary": "Trình bày quan hệ cạnh tranh, độc quyền và những đặc điểm kinh tế chủ yếu của chủ nghĩa tư bản độc quyền."
+    },
+    {
+      "id": "chapter-05",
+      "chapterNum": 5,
+      "title": "Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam",
+      "durationSeconds": 2423,
+      "videoId": "rNZSe5YgryI",
+      "chapterValue": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+      "summary": "Phân tích đặc trưng của kinh tế thị trường định hướng xã hội chủ nghĩa và hệ thống quan hệ lợi ích kinh tế ở Việt Nam."
+    },
+    {
+      "id": "chapter-06",
+      "chapterNum": 6,
+      "title": "Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam",
+      "durationSeconds": 3125,
+      "videoId": "HzMbw07P2RQ",
+      "chapterValue": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+      "summary": "Hệ thống hóa nội dung về công nghiệp hóa, hiện đại hóa và chủ động hội nhập kinh tế quốc tế của Việt Nam."
+    }
+  ]
+}

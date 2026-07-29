@@ -88,7 +88,7 @@ test("shared app shell icons are local, unique, and covered by a license notice"
     "zoom-in", "zoom-out", "maximize-2", "locate-fixed", "wheat", "coins", "users",
     "shield", "gauge", "handshake", "swords", "scroll-text", "info", "triangle-alert",
     "circle-check", "clock-3", "lock-keyhole", "save", "plus", "trash-2",
-    "sliders-horizontal", "x", "list-checks",
+    "sliders-horizontal", "x", "list-checks", "circle-play",
   ];
   const symbols = Array.from(template.matchAll(/<symbol id="(ui-icon-[a-z0-9-]+)"/g), (match) => match[1]);
   assert.equal(new Set(symbols).size, symbols.length);

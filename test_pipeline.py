@@ -19,8 +19,10 @@ from build_html import (
     GAME_SCRIPTS_PLACEHOLDER,
     GAME_STYLES_PLACEHOLDER,
     GAME_SVG_PLACEHOLDER,
+    LECTURES_PLACEHOLDER,
     PLACEHOLDER,
     load_game_assets,
+    load_lectures,
     render_html,
     serialize_for_inline_script,
 )
@@ -160,10 +162,12 @@ class ValidatorUnitTests(unittest.TestCase):
 
     def test_render_requires_every_placeholder_exactly_once(self) -> None:
         assets = load_game_assets(BASE)
+        lectures = load_lectures(BASE)
         questions = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
         template = (BASE / "template.html").read_text(encoding="utf-8")
         for placeholder in (
             PLACEHOLDER,
+            LECTURES_PLACEHOLDER,
             GAME_DATA_PLACEHOLDER,
             GAME_STYLES_PLACEHOLDER,
             GAME_SCRIPTS_PLACEHOLDER,
@@ -172,7 +176,63 @@ class ValidatorUnitTests(unittest.TestCase):
         ):
             with self.subTest(placeholder=placeholder):
                 with self.assertRaises(ValueError):
-                    render_html(template.replace(placeholder, "", 1), questions, assets)
+                    render_html(
+                        template.replace(placeholder, "", 1),
+                        questions,
+                        assets,
+                        lectures,
+                    )
+
+    def test_lecture_manifest_has_six_ordered_youtube_videos(self) -> None:
+        manifest = load_lectures(BASE)
+        self.assertEqual(manifest["provider"], "youtube")
+        self.assertEqual(manifest["playlistId"], "PLAN8e5g76wQs")
+        self.assertEqual(
+            [lecture["videoId"] for lecture in manifest["lectures"]],
+            [
+                "IN62DsH0neI",
+                "eSNZjv3diE0",
+                "TrG62r4VHsc",
+                "BhjrFABpLdI",
+                "rNZSe5YgryI",
+                "HzMbw07P2RQ",
+            ],
+        )
+        self.assertEqual(
+            [lecture["chapterNum"] for lecture in manifest["lectures"]],
+            list(range(1, 7)),
+        )
+        serialized = json.dumps(manifest)
+        self.assertNotRegex(serialized, r"https?://|[A-Za-z]:\\")
+
+    def test_lecture_manifest_rejects_duplicate_video_ids(self) -> None:
+        manifest = load_lectures(BASE)
+        manifest["lectures"][1]["videoId"] = manifest["lectures"][0]["videoId"]
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            content = root / "content"
+            content.mkdir()
+            (content / "lectures.json").write_text(
+                json.dumps(manifest, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "must be unique"):
+                load_lectures(root)
+
+    def test_lecture_manifest_rejects_boolean_integer_fields(self) -> None:
+        for field in ("chapterNum", "durationSeconds"):
+            with self.subTest(field=field), tempfile.TemporaryDirectory() as directory:
+                manifest = load_lectures(BASE)
+                manifest["lectures"][0][field] = True
+                root = Path(directory)
+                content = root / "content"
+                content.mkdir()
+                (content / "lectures.json").write_text(
+                    json.dumps(manifest, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+                with self.assertRaisesRegex(ValueError, "invalid metadata"):
+                    load_lectures(root)
 
     def test_game_manifest_cannot_escape_game_directory(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -286,6 +346,7 @@ class ProductionBankTests(unittest.TestCase):
         self.assertEqual(template.count("/*__QUESTIONS__*/[]"), 1)
         for placeholder in (
             "/*__QUESTIONS__*/",
+            "/*__LECTURES__*/",
             GAME_DATA_PLACEHOLDER,
             GAME_SCRIPTS_PLACEHOLDER,
             GAME_STYLES_PLACEHOLDER,
@@ -294,6 +355,7 @@ class ProductionBankTests(unittest.TestCase):
         ):
             self.assertNotIn(placeholder, html)
         self.assertIn('const QUESTIONS = [{"id":"C01-Q001"', html)
+        self.assertIn('const LECTURE_CATALOG = {"schemaVersion":1,"provider":"youtube"', html)
         self.assertIn('id="Layer_1"', html)
         self.assertIn('registerModule("game-app"', html)
         self.assertIn('data:image/webp;base64,', html)
@@ -313,9 +375,24 @@ class ProductionBankTests(unittest.TestCase):
     def test_built_html_matches_current_template_and_bank(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
         production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
-        expected = render_html(template, production, load_game_assets(BASE))
+        expected = render_html(
+            template,
+            production,
+            load_game_assets(BASE),
+            load_lectures(BASE),
+        )
         actual = (BASE / "index.html").read_text(encoding="utf-8")
         self.assertEqual(actual, expected)
+
+    def test_built_html_embeds_current_lecture_manifest(self) -> None:
+        html = (BASE / "index.html").read_text(encoding="utf-8")
+        match = re.search(
+            r"const LECTURE_CATALOG = (\{.*?\});\s*globalThis\.MLN222_LECTURES",
+            html,
+            flags=re.DOTALL,
+        )
+        self.assertIsNotNone(match)
+        self.assertEqual(json.loads(match.group(1)), load_lectures(BASE))
 
     def test_public_brand_is_mln122(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
@@ -402,6 +479,7 @@ class ProductionBankTests(unittest.TestCase):
             "scroll-text", "info", "triangle-alert", "circle-check", "clock-3",
             "lock-keyhole", "save", "plus", "trash-2", "sliders-horizontal",
             "x", "list-checks",
+            "circle-play",
         }
         symbols = set(re.findall(r'<symbol id="ui-icon-([a-z0-9-]+)"', template))
         self.assertEqual(symbols, expected_icons)
@@ -437,11 +515,22 @@ class ProductionBankTests(unittest.TestCase):
             "gameMapTooltip", "gameSheetToggle", "gameSheetTitle",
             "gameBattleBadge", "gameReportBadge", "gameQuizResult", "gameRewardBanner",
             "gameTargetActionBtn", "gameContextMenu", "gameContextActionSheet", "gameOrderTray",
+            "lecturePanel", "lecturePlayerShell", "lectureList", "lectureQuizBtn",
         ):
             self.assertIn(f'id="{required_id}"', template)
         self.assertIn('data-study-mode="quiz"', template)
         self.assertIn('data-filters-expanded="false"', template)
         self.assertIn('document.body.dataset.experience=game?"game":"study"', template)
+        self.assertIn('data-mode="lecture"', template)
+        self.assertIn('grid-template-columns:repeat(5,minmax(0,1fr))', template)
+        self.assertIn("https://www.youtube-nocookie.com/embed/", template)
+        self.assertIn('referrerPolicy="strict-origin-when-cross-origin"', template)
+        self.assertIn('previousMode==="lecture"&&m!=="lecture"', template)
+        self.assertIn('"Không thể tải bài giảng"', template)
+        self.assertIn('button.textContent="Thử lại"', template)
+        self.assertIn("navigator.onLine===false", template)
+        self.assertIn('shell.dataset.state="loading"', template)
+        self.assertNotIn("autoplay:\"1\"", template)
         self.assertIn('aria-controls="gameCampaignPane"', template)
         self.assertIn('env(safe-area-inset-bottom)', game_styles)
         self.assertIn('[data-sheet-state="expanded"]', game_styles)
@@ -478,6 +567,7 @@ class ProductionBankTests(unittest.TestCase):
             ):
                 shutil.copy2(BASE / filename, root / filename)
             shutil.copytree(BASE / "content" / "chapters", root / "content" / "chapters")
+            shutil.copy2(BASE / "content" / "lectures.json", root / "content" / "lectures.json")
             shutil.copytree(BASE / "game", root / "game")
 
             for script in ("compose_questions.py", "build_html.py"):

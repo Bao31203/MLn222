@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import base64
 import json
+import re
 import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -15,10 +16,9 @@ BASE = Path(__file__).resolve().parent
 BANK = BASE / "questions.json"
 TEMPLATE = BASE / "template.html"
 OUTPUT = BASE / "index.html"
-GAME_ROOT = BASE / "game"
-MANIFEST = GAME_ROOT / "build-manifest.json"
 
 PLACEHOLDER = "/*__QUESTIONS__*/[]"
+LECTURES_PLACEHOLDER = "/*__LECTURES__*/{}"
 GAME_DATA_PLACEHOLDER = "/*__GAME_DATA__*/{}"
 GAME_STYLES_PLACEHOLDER = "/*__GAME_STYLES__*/"
 GAME_SCRIPTS_PLACEHOLDER = "/*__GAME_SCRIPTS__*/"
@@ -34,6 +34,12 @@ GAME_DATA_KEYS = {
 GAME_IMAGE_KEYS = {"mapTexture"}
 IMAGE_MIME_TYPES = {".webp": "image/webp"}
 MAX_EMBEDDED_IMAGE_BYTES = 1_000_000
+LECTURE_MANIFEST_KEYS = {"schemaVersion", "provider", "playlistId", "lectures"}
+LECTURE_KEYS = {
+    "id", "chapterNum", "title", "durationSeconds", "videoId", "chapterValue", "summary"
+}
+YOUTUBE_VIDEO_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
+YOUTUBE_PLAYLIST_ID = re.compile(r"^[A-Za-z0-9_-]{12,64}$")
 
 
 def serialize_for_inline_script(data: object) -> str:
@@ -44,6 +50,52 @@ def serialize_for_inline_script(data: object) -> str:
         .replace("\u2028", "\\u2028")
         .replace("\u2029", "\\u2029")
     )
+
+
+def load_lectures(root: Path = BASE) -> dict[str, object]:
+    """Load and validate the public YouTube lecture manifest."""
+    path = root / "content" / "lectures.json"
+    manifest = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(manifest, dict) or set(manifest) != LECTURE_MANIFEST_KEYS:
+        raise ValueError("Lecture manifest has unknown or missing fields.")
+    if (
+        manifest["schemaVersion"] != 1
+        or manifest["provider"] != "youtube"
+        or not isinstance(manifest["playlistId"], str)
+        or not YOUTUBE_PLAYLIST_ID.fullmatch(manifest["playlistId"])
+        or not isinstance(manifest["lectures"], list)
+        or len(manifest["lectures"]) != 6
+    ):
+        raise ValueError("Lecture manifest schema is unsupported or incomplete.")
+
+    video_ids: set[str] = set()
+    chapter_values: set[str] = set()
+    for expected_chapter, lecture in enumerate(manifest["lectures"], start=1):
+        if not isinstance(lecture, dict) or set(lecture) != LECTURE_KEYS:
+            raise ValueError(f"Lecture {expected_chapter} has unknown or missing fields.")
+        if (
+            lecture["id"] != f"chapter-{expected_chapter:02d}"
+            or type(lecture["chapterNum"]) is not int
+            or lecture["chapterNum"] != expected_chapter
+            or not isinstance(lecture["title"], str)
+            or not lecture["title"].strip()
+            or len(lecture["title"]) > 180
+            or type(lecture["durationSeconds"]) is not int
+            or not 1 <= lecture["durationSeconds"] <= 14_400
+            or not isinstance(lecture["videoId"], str)
+            or not YOUTUBE_VIDEO_ID.fullmatch(lecture["videoId"])
+            or not isinstance(lecture["chapterValue"], str)
+            or not lecture["chapterValue"].strip()
+            or not isinstance(lecture["summary"], str)
+            or not lecture["summary"].strip()
+            or len(lecture["summary"]) > 300
+        ):
+            raise ValueError(f"Lecture {expected_chapter} contains invalid metadata.")
+        if lecture["videoId"] in video_ids or lecture["chapterValue"] in chapter_values:
+            raise ValueError("Lecture video IDs and chapter values must be unique.")
+        video_ids.add(lecture["videoId"])
+        chapter_values.add(lecture["chapterValue"])
+    return manifest
 
 
 def _game_path(root: Path, relative: str) -> Path:
@@ -153,9 +205,15 @@ def load_game_assets(root: Path = BASE) -> dict[str, object]:
     return {"data": data, "images": images, "svg": svg, "styles": styles, "scripts": scripts}
 
 
-def render_html(template: str, questions: object, game_assets: dict[str, object]) -> str:
+def render_html(
+    template: str,
+    questions: object,
+    game_assets: dict[str, object],
+    lectures: object,
+) -> str:
     replacements = {
         PLACEHOLDER: serialize_for_inline_script(questions),
+        LECTURES_PLACEHOLDER: serialize_for_inline_script(lectures),
         GAME_DATA_PLACEHOLDER: serialize_for_inline_script(game_assets["data"]),
         GAME_STYLES_PLACEHOLDER: "\n".join(game_assets["styles"]),
         GAME_SCRIPTS_PLACEHOLDER: "\n;\n".join(game_assets["scripts"]),
@@ -197,7 +255,7 @@ def main() -> int:
             return 1
 
         questions = json.loads(bank_snapshot.decode("utf-8"))
-        html = render_html(template, questions, load_game_assets(BASE))
+        html = render_html(template, questions, load_game_assets(BASE), load_lectures(BASE))
         with tempfile.NamedTemporaryFile(
             mode="w", encoding="utf-8", newline="", dir=BASE,
             prefix=".index.build-", suffix=".html", delete=False

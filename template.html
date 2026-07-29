@@ -226,6 +226,62 @@
   .result .stem{margin:0;font-size:1rem;line-height:1.55}.result .ans{padding-left:12px;border-left:3px solid var(--success)}
   .result .explain{color:var(--ink-muted);line-height:1.55}.result mark{background:var(--brass);color:#17150f}
   .empty{border-block:1px solid var(--line);background:var(--surface);padding:36px 16px}
+  /* Lecture workspace */
+  .lecture-workspace{min-width:0}
+  .lecture-hero{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:18px}
+  .lecture-eyebrow{margin:0 0 4px;color:var(--brass);font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+  .lecture-hero h2{margin:0;color:var(--ink);font-family:"Aptos Display","Aptos",sans-serif;font-size:clamp(1.45rem,2.8vw,2rem);line-height:1.2;text-wrap:balance}
+  .lecture-hero-copy{max-width:680px;margin:7px 0 0;color:var(--ink-muted);font-size:.9rem}
+  .lecture-playlist-link{min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;
+    padding:8px 13px;border:1px solid var(--control-border);border-radius:var(--radius-control);
+    background:var(--surface);color:var(--ink);font-size:.84rem;font-weight:700;text-decoration:none}
+  .lecture-playlist-link:hover{border-color:var(--brass);color:var(--brass)}
+  .lecture-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,340px);gap:18px;align-items:start}
+  .lecture-stage{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface);box-shadow:var(--shadow-soft)}
+  .lecture-player-shell{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#0b100e}
+  .lecture-player-shell iframe{display:block;width:100%;height:100%;border:0}
+  .lecture-player-placeholder{position:absolute;z-index:2;inset:0;display:grid;place-items:center;padding:24px;text-align:center;
+    color:#e8eee9;background:radial-gradient(circle at 50% 30%,#263a32 0,#111a16 46%,#090d0b 100%)}
+  .lecture-player-placeholder>div{display:grid;justify-items:center;gap:9px;max-width:380px}
+  .lecture-player-placeholder .ui-icon{width:42px;height:42px;color:var(--brass-soft)}
+  .lecture-player-placeholder strong{font-size:1.02rem}.lecture-player-placeholder span{color:#b7c2bb;font-size:.82rem}
+  .lecture-player-placeholder[data-kind="loading"]{background:rgba(9,13,11,.86)}
+  .lecture-player-placeholder[data-kind="error"] .ui-icon{color:#f0ce84}
+  .lecture-retry{min-height:44px;margin-top:5px;padding:8px 15px;border:1px solid #d4aa57;border-radius:var(--radius-control);
+    background:#fff6df;color:#5d3c0b;font:inherit;font-weight:800;cursor:pointer}
+  .lecture-retry:hover{background:#ffe9b3}
+  .lecture-details{padding:18px}
+  .lecture-current-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;color:var(--ink-muted);font-size:.75rem;font-weight:700}
+  .lecture-chapter-chip{display:inline-flex;align-items:center;min-height:25px;padding:2px 8px;border:1px solid #c8a151;
+    border-radius:999px;background:#fff6df;color:#754b0c}
+  .lecture-details h3{margin:0;color:var(--ink);font-family:"Aptos Display","Aptos",sans-serif;font-size:clamp(1.12rem,2.1vw,1.42rem);line-height:1.35;text-wrap:balance}
+  .lecture-summary{margin:9px 0 0;color:var(--ink-muted);font-size:.9rem;line-height:1.6}
+  .lecture-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:15px;padding-top:14px;border-top:1px solid var(--line)}
+  .lecture-actions .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px}
+  .lecture-video-link{color:var(--jade-deep);font-size:.82rem;font-weight:700;text-decoration:none}
+  .lecture-video-link:hover{text-decoration:underline}
+  .lecture-catalog{overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow-soft)}
+  .lecture-catalog-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 15px;border-bottom:1px solid var(--line)}
+  .lecture-catalog-head h3{margin:0;color:var(--ink);font-size:.92rem}.lecture-catalog-head span{color:var(--ink-muted);font-size:.72rem}
+  .lecture-list{display:grid;max-height:680px;overflow:auto}
+  .lecture-item{width:100%;display:grid;grid-template-columns:76px minmax(0,1fr);gap:11px;align-items:center;min-height:84px;
+    padding:10px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);text-align:left;cursor:pointer}
+  .lecture-item:last-child{border-bottom:0}
+  .lecture-item:hover{background:var(--surface-strong)}
+  .lecture-item.active{background:#edf4ef;box-shadow:inset 4px 0 0 var(--jade)}
+  .lecture-thumb{position:relative;display:block;width:76px;aspect-ratio:16/9;overflow:hidden;border-radius:5px;background:#15211c}
+  .lecture-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+  .lecture-thumb-number{position:absolute;left:4px;top:4px;display:grid;place-items:center;min-width:23px;height:23px;padding:0 5px;
+    border-radius:4px;background:rgba(8,13,11,.88);color:#fff;font-size:.68rem;font-weight:800}
+  .lecture-item-copy{min-width:0}.lecture-item-title{display:-webkit-box;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+    color:var(--ink);font-size:.8rem;font-weight:750;line-height:1.35}
+  .lecture-item-meta{display:flex;align-items:center;gap:7px;margin-top:5px;color:var(--ink-muted);font-size:.7rem}
+  .lecture-item.active .lecture-item-title{color:var(--jade-deep)}
+  @media(max-width:980px){
+    .lecture-layout{grid-template-columns:1fr}
+    .lecture-list{max-height:none}
+  }
   @media(max-width:860px){
     .study-toolbar{grid-template-columns:1fr}.study-quick-actions{justify-content:stretch;display:grid;grid-template-columns:repeat(4,1fr)}
     .study-quick-actions .toggle,.study-quick-actions .btn{padding-inline:8px}
@@ -239,6 +295,8 @@
     .question-nav{position:sticky;bottom:0;z-index:6;margin:18px -14px calc(-70px - env(safe-area-inset-bottom));
       padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:rgba(20,26,24,.97);border-top:1px solid var(--line-strong)}
     .question-nav .btn{min-width:0}.search-toolbar{top:0;padding-top:8px}
+    .lecture-hero{display:block;margin-bottom:14px}.lecture-playlist-link{margin-top:12px}
+    .lecture-details{padding:14px}.lecture-actions{align-items:stretch}.lecture-actions .btn{flex:1}
   }
   @media(max-width:390px){
     .study-filter-grid{grid-template-columns:1fr}.study-quick-actions .toggle,.study-quick-actions .btn{font-size:.8rem}
@@ -283,7 +341,7 @@
   .app-header h1{color:var(--ink)}
   .header-count strong{color:var(--brass-soft)}
   .tabs{position:fixed;z-index:80;inset:16px auto 16px 16px;width:82px;margin:0;padding:8px 7px;
-    display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--line);
+    display:flex;flex-direction:column;gap:5px;overflow-y:auto;background:var(--surface);border:1px solid var(--line);
     border-radius:var(--radius);box-shadow:var(--shadow-soft)}
   .tabs::before{content:"MLN";display:grid;place-items:center;min-height:44px;margin:0 3px 7px;color:var(--brass-soft);
     border-bottom:1px solid var(--line);font:800 .76rem/1 "Aptos Display","Aptos",sans-serif;letter-spacing:0}
@@ -293,7 +351,7 @@
   .tabs button:hover{background:var(--surface-strong)}
   .tabs button.active{background:var(--surface-raised);border-left-color:var(--brass);color:var(--ink)}
   .tabs button.active .ui-icon{color:var(--brass-soft)}
-  #studyControls,#searchPanel,footer{width:min(100%,1120px);margin-inline:auto}
+  #studyControls,#searchPanel,#lecturePanel,footer{width:min(100%,1120px);margin-inline:auto}
   footer{padding-top:14px;border-top:1px solid var(--line)}
   .study-toolbar{display:block;padding:0 0 14px;border-bottom:1px solid var(--line)}
   .study-toolbar-head{display:none}
@@ -326,7 +384,7 @@
     .wrap{padding:0 14px calc(var(--app-nav-height) + 22px)}
     .app-header{min-height:64px;margin-bottom:12px}
     .tabs{inset:auto 0 0 0;width:auto;min-height:var(--app-nav-height);padding:5px 6px env(safe-area-inset-bottom);
-      display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;border-width:1px 0 0;border-radius:0;
+      display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;overflow:visible;border-width:1px 0 0;border-radius:0;
       box-shadow:0 -10px 28px rgba(20,37,28,.12)}
     .tabs::before{display:none}
     .tabs button{min-height:60px;padding:6px 3px;gap:3px;border:0;border-top:3px solid transparent;border-radius:4px;font-size:.67rem}
@@ -490,6 +548,7 @@ SOFTWARE.
   <symbol id="ui-icon-sliders-horizontal" viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"></line><line x1="10" x2="3" y1="4" y2="4"></line><line x1="21" x2="12" y1="12" y2="12"></line><line x1="8" x2="3" y1="12" y2="12"></line><line x1="21" x2="16" y1="20" y2="20"></line><line x1="12" x2="3" y1="20" y2="20"></line><line x1="14" x2="14" y1="2" y2="6"></line><line x1="8" x2="8" y1="10" y2="14"></line><line x1="16" x2="16" y1="18" y2="22"></line></symbol>
   <symbol id="ui-icon-x" viewBox="0 0 24 24"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></symbol>
   <symbol id="ui-icon-list-checks" viewBox="0 0 24 24"><path d="m3 7 2 2 4-4"></path><path d="M11 6h10"></path><path d="m3 17 2 2 4-4"></path><path d="M11 18h10"></path></symbol>
+  <symbol id="ui-icon-circle-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></symbol>
 </svg>
 <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
 <main class="wrap" id="main">
@@ -514,6 +573,9 @@ SOFTWARE.
     </button>
     <button data-mode="flash" aria-pressed="false">
       <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-layers"></use></svg><span>Flashcard</span>
+    </button>
+    <button data-mode="lecture" aria-pressed="false">
+      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-circle-play"></use></svg><span>Bài giảng</span>
     </button>
     <button data-mode="search" aria-pressed="false">
       <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-search"></use></svg><span>Tìm kiếm</span>
@@ -630,6 +692,50 @@ SOFTWARE.
     </section>
     <div id="searchResults" class="search-results"></div>
   </div>
+
+  <!-- VIDEO LECTURES -->
+  <section id="lecturePanel" class="lecture-workspace hidden" aria-labelledby="lectureHeading">
+    <header class="lecture-hero">
+      <div>
+        <p class="lecture-eyebrow">Học theo giáo trình</p>
+        <h2 id="lectureHeading">Video bài giảng theo 6 chương</h2>
+        <p class="lecture-hero-copy">6 bài giảng · 3 giờ 40 phút. Xem nội dung cốt lõi rồi chuyển thẳng sang luyện câu hỏi của từng chương.</p>
+      </div>
+      <a class="lecture-playlist-link" id="lecturePlaylistLink" href="#" target="_blank" rel="noopener noreferrer">
+        <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-list-checks"></use></svg>
+        <span>Mở playlist</span>
+      </a>
+    </header>
+    <div class="lecture-layout">
+      <article class="lecture-stage" aria-labelledby="lectureCurrentTitle">
+        <div class="lecture-player-shell" id="lecturePlayerShell"></div>
+        <div class="lecture-details" aria-live="polite">
+          <div class="lecture-current-meta">
+            <span class="lecture-chapter-chip" id="lectureCurrentChapter">Chương 1</span>
+            <span id="lectureCurrentDuration">19:44</span>
+            <span>·</span>
+            <span>Video 16:9</span>
+          </div>
+          <h3 id="lectureCurrentTitle"></h3>
+          <p class="lecture-summary" id="lectureCurrentSummary"></p>
+          <div class="lecture-actions">
+            <button class="btn primary" id="lectureQuizBtn" type="button">
+              <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-book-open"></use></svg>
+              <span>Luyện chương này</span>
+            </button>
+            <a class="lecture-video-link" id="lectureVideoLink" href="#" target="_blank" rel="noopener noreferrer">Xem trên YouTube</a>
+          </div>
+        </div>
+      </article>
+      <aside class="lecture-catalog" aria-labelledby="lectureCatalogHeading">
+        <div class="lecture-catalog-head">
+          <h3 id="lectureCatalogHeading">Danh sách bài giảng</h3>
+          <span>6 chương</span>
+        </div>
+        <div class="lecture-list" id="lectureList"></div>
+      </aside>
+    </div>
+  </section>
 
   <div id="gameRoot" class="game-root hidden" aria-label="Chiến dịch Công thành">
     <div id="gameLiveStatus" class="sr-only" role="status" aria-live="polite"></div>
@@ -774,6 +880,9 @@ SOFTWARE.
 /* ====== DATA (embedded) ====== */
 const QUESTIONS = /*__QUESTIONS__*/[];
 globalThis.MLN222_QUESTIONS = QUESTIONS;
+const LECTURE_CATALOG = /*__LECTURES__*/{};
+globalThis.MLN222_LECTURES = LECTURE_CATALOG;
+const LECTURE_ITEMS=Array.isArray(LECTURE_CATALOG.lectures)?LECTURE_CATALOG.lectures:[];
 const LETTERS = ["A","B","C","D"];
 const KIND_LABELS = {
   nhan_biet_khai_niem:"Khái niệm",
@@ -1297,9 +1406,199 @@ function doSearch(){
   box.replaceChildren(fragment);
 }
 
+/* ====== Video lectures ====== */
+let activeLectureIndex=0;
+let loadedLectureVideoId=null;
+let lectureLoadTimer=null;
+
+function formatLectureDuration(seconds){
+  const minutes=Math.floor(seconds/60);
+  return `${minutes}:${String(seconds%60).padStart(2,"0")}`;
+}
+
+function clearLectureLoadTimer(){
+  if(lectureLoadTimer!==null){
+    clearTimeout(lectureLoadTimer);
+    lectureLoadTimer=null;
+  }
+}
+
+function createLectureStatus(kind,titleText,hintText,retry=false){
+  const placeholder=document.createElement("div");
+  placeholder.className="lecture-player-placeholder";
+  placeholder.dataset.kind=kind;
+  placeholder.setAttribute("role","status");
+  placeholder.setAttribute("aria-live","polite");
+  const content=document.createElement("div");
+  const icon=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  icon.setAttribute("class","ui-icon");
+  icon.setAttribute("aria-hidden","true");
+  const use=document.createElementNS("http://www.w3.org/2000/svg","use");
+  use.setAttribute("href","#ui-icon-circle-play");
+  icon.append(use);
+  const title=document.createElement("strong");
+  title.textContent=titleText;
+  const hint=document.createElement("span");
+  hint.textContent=hintText;
+  content.append(icon,title,hint);
+  if(retry){
+    const button=document.createElement("button");
+    button.type="button";
+    button.className="lecture-retry";
+    button.textContent="Thử lại";
+    button.onclick=()=>{
+      loadedLectureVideoId=null;
+      loadLecturePlayer();
+    };
+    content.append(button);
+  }
+  placeholder.append(content);
+  return placeholder;
+}
+
+function renderLecturePlaceholder(){
+  clearLectureLoadTimer();
+  const shell=$("#lecturePlayerShell");
+  shell.dataset.state="idle";
+  shell.replaceChildren(createLectureStatus(
+    "idle",
+    "Sẵn sàng phát bài giảng",
+    "Video chỉ được tải khi bạn mở mục Bài giảng.",
+  ));
+}
+
+function renderLectureError(){
+  clearLectureLoadTimer();
+  const shell=$("#lecturePlayerShell");
+  shell.dataset.state="error";
+  shell.replaceChildren(createLectureStatus(
+    "error",
+    "Không thể tải bài giảng",
+    "Hãy kiểm tra kết nối, thử lại hoặc mở video trực tiếp trên YouTube.",
+    true,
+  ));
+}
+
+function lectureEmbedUrl(lecture){
+  const params=new URLSearchParams({
+    hl:"vi",
+    playsinline:"1",
+    rel:"0",
+    cc_lang_pref:"vi",
+  });
+  return `https://www.youtube-nocookie.com/embed/${lecture.videoId}?${params}`;
+}
+
+function loadLecturePlayer(){
+  const lecture=LECTURE_ITEMS[activeLectureIndex];
+  if(!lecture||loadedLectureVideoId===lecture.videoId)return;
+  clearLectureLoadTimer();
+  if(navigator.onLine===false){
+    renderLectureError();
+    return;
+  }
+  const shell=$("#lecturePlayerShell");
+  const frame=document.createElement("iframe");
+  frame.src=lectureEmbedUrl(lecture);
+  frame.title=`Bài giảng Chương ${lecture.chapterNum}: ${lecture.title}`;
+  frame.loading="lazy";
+  frame.referrerPolicy="strict-origin-when-cross-origin";
+  frame.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+  frame.allowFullscreen=true;
+  loadedLectureVideoId=lecture.videoId;
+  shell.dataset.state="loading";
+  const loading=createLectureStatus(
+    "loading",
+    "Đang tải bài giảng…",
+    "Trình phát YouTube sẽ xuất hiện sau ít giây.",
+  );
+  frame.addEventListener("load",()=>{
+    if(!frame.isConnected||loadedLectureVideoId!==lecture.videoId)return;
+    clearLectureLoadTimer();
+    shell.dataset.state="ready";
+    loading.remove();
+  },{once:true});
+  frame.addEventListener("error",()=>{
+    if(loadedLectureVideoId===lecture.videoId)renderLectureError();
+  },{once:true});
+  shell.replaceChildren(frame,loading);
+  lectureLoadTimer=setTimeout(()=>{
+    if(shell.dataset.state==="loading"&&loadedLectureVideoId===lecture.videoId){
+      loadedLectureVideoId=null;
+      renderLectureError();
+    }
+  },15_000);
+}
+
+function stopLecturePlayback(){
+  loadedLectureVideoId=null;
+  renderLecturePlaceholder();
+}
+
+function selectLecture(index,loadPlayer=state.mode==="lecture"){
+  const lecture=LECTURE_ITEMS[index];
+  if(!lecture)return;
+  activeLectureIndex=index;
+  $("#lectureCurrentChapter").textContent=`Chương ${lecture.chapterNum}`;
+  $("#lectureCurrentDuration").textContent=formatLectureDuration(lecture.durationSeconds);
+  $("#lectureCurrentTitle").textContent=lecture.title;
+  $("#lectureCurrentSummary").textContent=lecture.summary;
+  $("#lectureVideoLink").href=`https://youtu.be/${lecture.videoId}`;
+  document.querySelectorAll(".lecture-item").forEach((button,itemIndex)=>{
+    const active=itemIndex===index;
+    button.classList.toggle("active",active);
+    button.setAttribute("aria-pressed",String(active));
+    const meta=button.querySelector(".lecture-item-meta");
+    if(meta)meta.textContent=active
+      ? `Đang xem · ${formatLectureDuration(LECTURE_ITEMS[itemIndex].durationSeconds)}`
+      : `Chương ${LECTURE_ITEMS[itemIndex].chapterNum} · ${formatLectureDuration(LECTURE_ITEMS[itemIndex].durationSeconds)}`;
+    if(active)button.setAttribute("aria-current","true");else button.removeAttribute("aria-current");
+  });
+  if(loadPlayer)loadLecturePlayer();
+}
+
+function renderLectureCatalog(){
+  const fragment=document.createDocumentFragment();
+  LECTURE_ITEMS.forEach((lecture,index)=>{
+    const button=document.createElement("button");
+    button.type="button";
+    button.className="lecture-item";
+    button.setAttribute("aria-pressed","false");
+    button.onclick=()=>selectLecture(index,true);
+
+    const thumb=document.createElement("span");
+    thumb.className="lecture-thumb";
+    const image=document.createElement("img");
+    image.src=`https://i.ytimg.com/vi/${lecture.videoId}/mqdefault.jpg`;
+    image.alt="";
+    image.loading="lazy";
+    image.referrerPolicy="no-referrer";
+    const number=document.createElement("span");
+    number.className="lecture-thumb-number";
+    number.textContent=String(lecture.chapterNum).padStart(2,"0");
+    thumb.append(image,number);
+
+    const copy=document.createElement("span");
+    copy.className="lecture-item-copy";
+    const title=document.createElement("span");
+    title.className="lecture-item-title";
+    title.textContent=lecture.title;
+    const meta=document.createElement("span");
+    meta.className="lecture-item-meta";
+    meta.textContent=`Chương ${lecture.chapterNum} · ${formatLectureDuration(lecture.durationSeconds)}`;
+    copy.append(title,meta);
+    button.append(thumb,copy);
+    fragment.append(button);
+  });
+  $("#lectureList").replaceChildren(fragment);
+  selectLecture(activeLectureIndex,false);
+}
+
 /* ====== Mode switching ====== */
 function setMode(m){
+  const previousMode=state.mode;
   if(STUDY_MODES.has(state.mode)) saveStudySession();
+  if(previousMode==="lecture"&&m!=="lecture")stopLecturePlayback();
   state.mode=m;
   document.querySelectorAll(".tabs button").forEach(b=>{
     const active=b.dataset.mode===m;
@@ -1308,8 +1607,10 @@ function setMode(m){
   });
   const search=m==="search";
   const game=m==="game";
-  $("#studyControls").classList.toggle("hidden",search||game);
+  const lecture=m==="lecture";
+  $("#studyControls").classList.toggle("hidden",search||game||lecture);
   $("#searchPanel").classList.toggle("hidden",!search);
+  $("#lecturePanel").classList.toggle("hidden",!lecture);
   $("#gameRoot").classList.toggle("hidden",!game);
   document.body.classList.toggle("game-mode",game);
   document.body.dataset.mode=m;
@@ -1318,6 +1619,7 @@ function setMode(m){
   $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
   if(game){if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();}
   else if(search){doSearch();}else{
+    if(lecture){selectLecture(activeLectureIndex,true);return;}
     if(!restoreStudySession(m)) buildPool();
     syncStudyControls();
     saveStudySession();
@@ -1330,6 +1632,9 @@ function init(){
   $("#total").textContent=QUESTIONS.length;
   buildChapterSelect();
   buildDifficultySelect();
+  renderLecturePlaceholder();
+  renderLectureCatalog();
+  $("#lecturePlaylistLink").href=`https://www.youtube.com/playlist?list=${LECTURE_CATALOG.playlistId}`;
   document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
   $("#chapter").onchange=e=>switchStudyFilters(()=>{state.chapter=e.target.value;});
   $("#difficulty").onchange=e=>switchStudyFilters(()=>{state.difficulty=e.target.value;});
@@ -1365,8 +1670,19 @@ function init(){
     }
   };
   $("#searchInput").oninput=doSearch;
+  $("#lectureQuizBtn").onclick=()=>{
+    const lecture=LECTURE_ITEMS[activeLectureIndex];
+    setMode("quiz");
+    switchStudyFilters(()=>{
+      state.chapter=lecture.chapterValue;
+      state.difficulty="all";
+      state.questionStart=1;
+      state.onlyMarked=false;
+      state.onlyWrong=false;
+    });
+  };
   document.onkeydown=e=>{
-    if(state.mode==="search" || state.mode==="game" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
+    if(state.mode==="search" || state.mode==="game" || state.mode==="lecture" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
     if(e.key==="ArrowRight"){e.preventDefault();next();}
     else if(e.key==="ArrowLeft"){e.preventDefault();prev();}
     else if(["1","2","3","4"].includes(e.key) && state.mode==="quiz"){
