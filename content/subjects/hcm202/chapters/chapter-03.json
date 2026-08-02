@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "HCM202-C03-Q001",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập, tự do là quyền thiêng liêng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo tư tưởng Hồ Chí Minh, độc lập, tự do có địa vị như thế nào đối với các dân tộc?",
+    "options": [
+      "Là quyền chỉ được thừa nhận sau khi các nước lớn đồng ý",
+      "Là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "Là mục tiêu tạm thời trước khi xác lập quyền bình đẳng pháp lý",
+      "Là quyền riêng của những dân tộc đã có nhà nước hiện đại"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh khẳng định độc lập, tự do là quyền vốn có, thiêng liêng và không thế lực nào được xâm phạm; quyền ấy thuộc về mọi dân tộc chứ không do bên ngoài ban phát.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.a Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "text": "Giáo trình xác định độc lập và tự do là quyền thiêng liêng, bất khả xâm phạm của mọi dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q002",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập, tự do là quyền thiêng liêng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Ý nghĩa nổi bật của Yêu sách của nhân dân An Nam năm 1919 đối với sự hình thành tư tưởng Hồ Chí Minh về quyền dân tộc là gì?",
+    "options": [
+      "Đã buộc các nước thắng trận trao ngay nền độc lập hoàn toàn cho Việt Nam",
+      "Đã xác lập đầy đủ mô hình nhà nước xã hội chủ nghĩa ở Việt Nam",
+      "Đã đặt nhiệm vụ cải cách ruộng đất cao hơn nhiệm vụ giải phóng dân tộc",
+      "Bước đầu nêu yêu cầu bình đẳng pháp lý và các quyền tự do, dân chủ"
+    ],
+    "answer": 3,
+    "explanation": "Bản yêu sách không được Hội nghị Vécxây chấp nhận, nhưng đã công khai nêu quyền bình đẳng pháp lý và các quyền tự do, dân chủ của người Đông Dương, đánh dấu bước hình thành nhận thức về quyền của dân tộc thuộc địa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.a Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "text": "Yêu sách năm 1919 nêu quyền bình đẳng pháp lý và các quyền tự do, dân chủ của người dân Đông Dương."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q003",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập, tự do là quyền thiêng liêng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong Tuyên ngôn Độc lập năm 1945, Hồ Chí Minh đã phát triển quyền con người thành quyền nào?",
+    "options": [
+      "Quyền sống, sung sướng và tự do của mọi dân tộc",
+      "Quyền ưu tiên phát triển của những dân tộc đông dân",
+      "Quyền can thiệp của quốc gia mạnh vào quốc gia yếu",
+      "Quyền độc lập chỉ dành cho các dân tộc thắng trận"
+    ],
+    "answer": 0,
+    "explanation": "Từ các quyền tự nhiên của con người, Hồ Chí Minh suy rộng thành quyền dân tộc: mọi dân tộc đều bình đẳng và đều có quyền sống, quyền sung sướng, quyền tự do.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.a Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "text": "Hồ Chí Minh phát triển quyền con người thành quyền sống, sung sướng và tự do của mọi dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q004",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập, tự do là quyền thiêng liêng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một dân tộc bị lệ thuộc được đề nghị chờ sự ban phát quyền tự quyết từ thế lực cai trị. Cách phản biện nào phù hợp nhất với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Quyền tự quyết cần được thế lực bảo trợ xác lập trước khi dân tộc thực hiện",
+      "Độc lập, tự do là quyền vốn có của dân tộc, không phải ân huệ do thế lực cai trị ban cho",
+      "Dân tộc nên ưu tiên quyền văn hóa rồi mới từng bước yêu cầu quyền chính trị",
+      "Quyền dân tộc được xác lập tương ứng với trình độ phát triển kinh tế"
+    ],
+    "answer": 1,
+    "explanation": "Tình huống đối lập quyền vốn có với sự ban phát. Theo Hồ Chí Minh, độc lập, tự do là quyền thiêng liêng của mọi dân tộc nên không thể bị biến thành ân huệ có điều kiện.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.a Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "text": "Quyền độc lập, tự do thuộc về dân tộc và không do một thế lực bên ngoài ban phát."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q005",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập, tự do là quyền thiêng liêng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Điểm nhất quán giữa Chính cương vắn tắt năm 1930 và Tuyên ngôn Độc lập năm 1945 là gì?",
+    "options": [
+      "Khẳng định mục tiêu độc lập hoàn toàn và quyết tâm bảo vệ quyền độc lập, tự do",
+      "Đặt quyền tự do cá nhân tách khỏi quyền độc lập của dân tộc",
+      "Coi nền độc lập danh nghĩa là đủ để hoàn thành cách mạng",
+      "Chỉ đòi quyền bình đẳng kinh tế trong khuôn khổ thuộc địa"
+    ],
+    "answer": 0,
+    "explanation": "Chính cương vắn tắt xác định làm cho nước Nam hoàn toàn độc lập; Tuyên ngôn Độc lập khẳng định quyền độc lập, tự do và quyết tâm giữ vững quyền ấy. Hai văn kiện cùng thể hiện lập trường độc lập triệt để.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.a Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
+      "text": "Các văn kiện năm 1930 và 1945 đều nhất quán khẳng định nền độc lập hoàn toàn của Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q006",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với tự do, hạnh phúc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, tiêu chuẩn nào làm cho nền độc lập có ý nghĩa thiết thực đối với nhân dân?",
+    "options": [
+      "Nhà nước được quốc tế thừa nhận, còn đời sống nhân dân tiếp tục thiếu thốn",
+      "Chính quyền giữ nguyên các quan hệ xã hội cũ để bảo đảm ổn định",
+      "Nhân dân được hưởng tự do, hạnh phúc và những điều kiện sống thiết yếu",
+      "Quốc gia ưu tiên mở rộng ảnh hưởng đối ngoại hơn phúc lợi trong nước"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh không tách độc lập quốc gia khỏi đời sống nhân dân. Độc lập chỉ có ý nghĩa đầy đủ khi dân được tự do, hạnh phúc, có cơm ăn, áo mặc và được học hành.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.b Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân",
+      "text": "Giáo trình coi tự do và hạnh phúc của nhân dân là nội dung thiết yếu của nền độc lập."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q007",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với tự do, hạnh phúc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Hồ Chí Minh cho rằng nước độc lập mà dân không hưởng hạnh phúc, tự do thì độc lập chưa có ý nghĩa đầy đủ?",
+    "options": [
+      "Vì quyền cá nhân cần được đặt cao hơn lợi ích chung của dân tộc",
+      "Vì hạnh phúc của dân là điều kiện chủ yếu để được quốc tế công nhận",
+      "Vì nhân dân vừa giành độc lập, vừa là người thụ hưởng thành quả",
+      "Vì ý nghĩa độc lập được đánh giá trước hết bằng mức sống của mỗi người"
+    ],
+    "answer": 2,
+    "explanation": "Độc lập được giành bằng sức dân và nhằm giải phóng con người. Bởi vậy, quyền làm chủ cùng đời sống tự do, hạnh phúc của nhân dân là nội dung thực chất, không phải phần phụ của độc lập.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.b Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân",
+      "text": "Nền độc lập phải phục vụ chính nhân dân, chủ thể của sự nghiệp đấu tranh giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q008",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với tự do, hạnh phúc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ngay sau Cách mạng Tháng Tám năm 1945, Hồ Chí Minh yêu cầu thực hiện nhóm nhiệm vụ cấp thiết nào cho nhân dân?",
+    "options": [
+      "Mọi người có ăn, có mặc, có chỗ ở và có điều kiện học hành",
+      "Mọi người có việc làm ổn định, có trợ cấp và được miễn nghĩa vụ thuế",
+      "Mọi người có quyền kinh doanh, sở hữu đất và được cấp vốn sản xuất",
+      "Mọi người có hộ khẩu, việc công, trợ cấp và cơ hội ra nước ngoài"
+    ],
+    "answer": 0,
+    "explanation": "Trong hoàn cảnh nhân dân đói rét và mù chữ, Hồ Chí Minh đặt ra bốn việc trực tiếp: làm cho dân có ăn, có mặc, có chỗ ở và có học hành.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.b Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân",
+      "text": "Bốn yêu cầu cấp thiết sau Cách mạng Tháng Tám là ăn, mặc, chỗ ở và học hành cho dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q009",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với tự do, hạnh phúc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chính quyền mới chỉ chú trọng nghi lễ chủ quyền nhưng bỏ mặc nạn đói, mù chữ và quyền tự do của dân. Theo tư tưởng Hồ Chí Minh, hạn chế căn bản của cách làm này là gì?",
+    "options": [
+      "Chưa ưu tiên quảng bá hình ảnh quốc gia ra bên ngoài",
+      "Chưa tách hạnh phúc cá nhân khỏi lợi ích cộng đồng",
+      "Chưa coi độc lập là vấn đề thuần túy về ngoại giao",
+      "Chưa đem lại tự do, hạnh phúc và ấm no cho dân"
+    ],
+    "answer": 3,
+    "explanation": "Nghi lễ chủ quyền không thay thế nội dung vì dân. Tư tưởng Hồ Chí Minh đòi hỏi nền độc lập phải được hiện thực hóa bằng tự do, hạnh phúc và việc giải quyết những nhu cầu thiết yếu của nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.b Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân",
+      "text": "Độc lập chỉ có ý nghĩa thiết thực khi đời sống và quyền tự do của nhân dân được bảo đảm."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q010",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với tự do, hạnh phúc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "“Ham muốn tột bậc” của Hồ Chí Minh thể hiện sự thống nhất nào?",
+    "options": [
+      "Giữa mở rộng lãnh thổ và nâng cao vị thế của bộ máy nhà nước",
+      "Giữa phát triển thương mại và giảm trách nhiệm xã hội của công dân",
+      "Giữa quyền lực của nhà nước và lợi ích của một nhóm tiên phong",
+      "Giữa độc lập hoàn toàn của đất nước với tự do, ấm no và học hành của mọi người"
+    ],
+    "answer": 3,
+    "explanation": "Mong muốn của Hồ Chí Minh gắn mục tiêu quốc gia với mục tiêu con người: nước hoàn toàn độc lập, dân hoàn toàn tự do, ai cũng có cơm ăn, áo mặc và được học hành.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.b Độc lập dân tộc phải gắn liền với tự do, hạnh phúc của nhân dân",
+      "text": "Mục tiêu độc lập của đất nước thống nhất với tự do, ấm no và học hành của nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q011",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nền độc lập thật sự, hoàn toàn, triệt để",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Dấu hiệu nào được giáo trình dùng để nhận diện một nền độc lập thật sự?",
+    "options": [
+      "Có chính phủ bản xứ nhưng các quyết sách chiến lược vẫn do bên ngoài định đoạt",
+      "Có danh xưng quốc gia nhưng không có quyền tổ chức lực lượng bảo vệ",
+      "Có quyền tự quyết về ngoại giao, có quân đội và nền tài chính riêng",
+      "Có biểu tượng chủ quyền trong khi cơ chế cai trị thuộc địa vẫn vận hành"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh nêu rõ rằng thiếu quyền tự quyết về ngoại giao, quân đội riêng hoặc nền tài chính riêng thì độc lập chỉ là hình thức, chưa thật sự và triệt để.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.c Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để",
+      "text": "Độc lập thực chất đòi hỏi quốc gia tự quyết trên các lĩnh vực chủ yếu như ngoại giao, quốc phòng và tài chính."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q012",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nền độc lập thật sự, hoàn toàn, triệt để",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác nhau căn bản giữa độc lập thật sự và “độc lập” giả hiệu là gì?",
+    "options": [
+      "Độc lập thật sự chỉ cần thay tên bộ máy, còn độc lập giả hiệu thay đổi cơ cấu kinh tế",
+      "Độc lập thật sự có quyền tự quyết; giả hiệu vẫn bị thực dân chi phối",
+      "Độc lập thật sự giới hạn quyền của nhân dân, còn độc lập giả hiệu mở rộng quyền làm chủ",
+      "Độc lập thật sự phụ thuộc vào nước ngoài, còn độc lập giả hiệu dựa vào sức dân"
+    ],
+    "answer": 1,
+    "explanation": "Các chính phủ bù nhìn và khẩu hiệu độc lập do thực dân dựng lên chỉ che đậy sự lệ thuộc. Độc lập thật sự phải trao cho dân tộc quyền tự quyết đầy đủ trên các lĩnh vực cơ bản.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.c Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để",
+      "text": "Giáo trình đối lập quyền tự quyết thực chất với hình thức độc lập giả hiệu do thực dân tạo dựng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q013",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nền độc lập thật sự, hoàn toàn, triệt để",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cụm từ “hoàn toàn và triệt để” nhấn mạnh yêu cầu nào của nền độc lập dân tộc?",
+    "options": [
+      "Có quyền tự chủ về văn hóa, giáo dục nhưng lệ thuộc về chính trị và kinh tế",
+      "Có đủ nghi lễ, biểu tượng quốc gia nhưng thiếu quyền quyết định đối nội, đối ngoại",
+      "Phải có chủ quyền thực chất trên tất cả các lĩnh vực cơ bản",
+      "Phải trì hoãn quyền tự quyết cho đến khi kinh tế phát triển cao"
+    ],
+    "answer": 2,
+    "explanation": "Độc lập hoàn toàn và triệt để không dừng ở danh nghĩa mà bao hàm chủ quyền thực tế trong chính trị, ngoại giao, quốc phòng, tài chính và các lĩnh vực thiết yếu khác.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.c Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để",
+      "text": "Nền độc lập phải được thực hiện thực chất và đầy đủ trên tất cả các lĩnh vực cơ bản của quốc gia."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q014",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nền độc lập thật sự, hoàn toàn, triệt để",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một quốc gia có quốc kỳ và chính phủ riêng nhưng chính sách đối ngoại, quân đội và tài chính đều do một cường quốc kiểm soát. Theo tư tưởng Hồ Chí Minh, đánh giá nào phù hợp nhất?",
+    "options": [
+      "Quốc gia đó chưa có nền độc lập thật sự, hoàn toàn và triệt để",
+      "Quốc gia đó đã độc lập đầy đủ vì có đủ biểu tượng nhà nước",
+      "Quốc gia đó chỉ thiếu điều kiện để thực hiện quyền văn hóa",
+      "Quốc gia đó đã hoàn thành giải phóng dân tộc và giải phóng con người"
+    ],
+    "answer": 0,
+    "explanation": "Các biểu tượng không đủ chứng minh chủ quyền. Khi những quyền tự quyết cốt yếu vẫn bị bên ngoài chi phối, nền độc lập còn mang tính danh nghĩa chứ chưa thật sự và triệt để.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.c Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để",
+      "text": "Quyền tự quyết về ngoại giao, quốc phòng và tài chính là những biểu hiện của độc lập thực chất."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q015",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với thống nhất, toàn vẹn lãnh thổ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, độc lập dân tộc phải gắn liền với yêu cầu nào về lãnh thổ quốc gia?",
+    "options": [
+      "Chấp nhận chia cắt lâu dài để đổi lấy sự công nhận bên ngoài",
+      "Thống nhất đất nước và bảo đảm toàn vẹn lãnh thổ",
+      "Trao quyền quyết định lãnh thổ cho các thế lực quốc tế",
+      "Chỉ bảo vệ những khu vực có giá trị kinh tế cao"
+    ],
+    "answer": 1,
+    "explanation": "Trong tư tưởng Hồ Chí Minh, độc lập không thể tách khỏi sự thống nhất của quốc gia và sự toàn vẹn lãnh thổ; chia cắt dân tộc làm cho nền độc lập chưa trọn vẹn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.d Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ",
+      "text": "Độc lập dân tộc bao hàm thống nhất quốc gia và bảo vệ toàn vẹn lãnh thổ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q016",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với thống nhất, toàn vẹn lãnh thổ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Các sự kiện đất nước bị chia ba kỳ, âm mưu “Nam Kỳ tự trị” và việc tạm thời chia cắt hai miền sau năm 1954 cùng làm rõ luận điểm nào?",
+    "options": [
+      "Độc lập chỉ liên quan đến việc thay đổi chính quyền trung ương",
+      "Thống nhất có thể tách rời chủ quyền và quyền dân tộc",
+      "Độc lập phải gắn với thống nhất Tổ quốc và toàn vẹn lãnh thổ",
+      "Chia cắt lãnh thổ là điều kiện cần để bảo vệ nền độc lập"
+    ],
+    "answer": 2,
+    "explanation": "Những hình thức chia cắt khác nhau đều xâm hại sự toàn vẹn của quốc gia. Vì vậy, Hồ Chí Minh nhất quán đặt thống nhất Tổ quốc trong nội dung của nền độc lập dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.d Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ",
+      "text": "Thực tiễn chia cắt đất nước cho thấy độc lập chỉ trọn vẹn khi Tổ quốc thống nhất và lãnh thổ toàn vẹn."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q017",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với thống nhất, toàn vẹn lãnh thổ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề án công nhận chủ quyền danh nghĩa nhưng hợp thức hóa việc chia cắt lâu dài một dân tộc thành hai quốc gia đối lập. Đề án ấy trái trực tiếp với nội dung nào trong tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Độc lập phải gắn với quyền tự do tín ngưỡng",
+      "Độc lập phải gắn với chế độ công hữu tư liệu sản xuất",
+      "Độc lập phải gắn với quyền lao động của từng công dân",
+      "Độc lập phải gắn với thống nhất quốc gia và toàn vẹn lãnh thổ"
+    ],
+    "answer": 3,
+    "explanation": "Đề án duy trì chia cắt nên xung đột với quan điểm về một quốc gia thống nhất. Chủ quyền danh nghĩa không thể thay thế yêu cầu thống nhất và toàn vẹn lãnh thổ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.d Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ",
+      "text": "Tư tưởng Hồ Chí Minh kiên định một nước Việt Nam thống nhất, có chủ quyền và toàn vẹn lãnh thổ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q018",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập gắn với thống nhất, toàn vẹn lãnh thổ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Luận điểm “Nước Việt Nam là một, dân tộc Việt Nam là một” nhấn mạnh điều gì?",
+    "options": [
+      "Sự thống nhất quốc gia và dân tộc là nội dung không thể tách rời của độc lập",
+      "Sự khác biệt vùng miền phải bị xóa bỏ bằng biện pháp hành chính",
+      "Mỗi miền có thể tự xác lập một chủ quyền quốc gia riêng biệt",
+      "Toàn vẹn lãnh thổ chỉ là mục tiêu sau khi kinh tế phát triển"
+    ],
+    "answer": 0,
+    "explanation": "Luận điểm khẳng định tính thống nhất bền vững của quốc gia và cộng đồng dân tộc Việt Nam, qua đó bác bỏ mọi âm mưu biến chia cắt tạm thời thành sự phân ly lâu dài.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.1.d Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ",
+      "text": "Một nước, một dân tộc thể hiện sự thống nhất quốc gia gắn chặt với nền độc lập."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q019",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Con đường cách mạng vô sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh xác định cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường nào?",
+    "options": [
+      "Con đường cải lương thuộc địa",
+      "Con đường cầu viện đế quốc",
+      "Con đường cách mạng tư sản",
+      "Con đường cách mạng vô sản"
+    ],
+    "answer": 3,
+    "explanation": "Sau khi khảo nghiệm các con đường cứu nước và tiếp cận Luận cương của Lênin, Hồ Chí Minh khẳng định con đường cách mạng vô sản là con đường giải phóng dân tộc triệt để.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.a Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản",
+      "text": "Hồ Chí Minh lựa chọn con đường cách mạng vô sản để cứu nước và giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q020",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Con đường cách mạng vô sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Hồ Chí Minh không lựa chọn con đường cách mạng tư sản kiểu Mỹ và Pháp cho Việt Nam?",
+    "options": [
+      "Vì thiết chế dân chủ tư sản không phù hợp với truyền thống chính trị phương Đông",
+      "Vì các cuộc cách mạng ấy diễn ra chủ yếu trong những xã hội nông nghiệp lạc hậu",
+      "Vì các cuộc cách mạng ấy không có sự tham gia của quần chúng",
+      "Vì chúng chưa giải phóng triệt để người lao động và vẫn duy trì áp bức thuộc địa"
+    ],
+    "answer": 3,
+    "explanation": "Hồ Chí Minh nhận xét cách mạng tư sản chưa “đến nơi”: trong nước người lao động vẫn bị áp bức và bên ngoài các nước tư bản vẫn thống trị thuộc địa. Vì thế, đó không phải con đường giải phóng triệt để cho Việt Nam.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.a Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản",
+      "text": "Hồ Chí Minh không chọn mô hình cách mạng tư sản vì nó chưa giải phóng triệt để lao động và các dân tộc thuộc địa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q021",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Con đường cách mạng vô sản",
+    "difficulty": "Nhận biết",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Ở Việt Nam và các nước thuộc địa, Hồ Chí Minh xác định trình tự giải phóng chủ yếu nào?",
+    "options": [
+      "Giải phóng giai cấp → giải phóng cá nhân → giải phóng dân tộc → giải phóng xã hội",
+      "Giải phóng dân tộc → giải phóng xã hội → giải phóng giai cấp → giải phóng con người",
+      "Giải phóng con người → giải phóng giai cấp → giải phóng xã hội → giải phóng dân tộc",
+      "Giải phóng xã hội → giải phóng dân tộc → giải phóng con người → giải phóng giai cấp"
+    ],
+    "answer": 1,
+    "explanation": "Trong điều kiện thuộc địa, Hồ Chí Minh đặt giải phóng dân tộc lên trước, từ đó mở đường cho giải phóng xã hội, giải phóng giai cấp và cuối cùng là giải phóng con người.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.a Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản",
+      "text": "Ở thuộc địa, giải phóng dân tộc đi trước và mở đường cho các cấp độ giải phóng tiếp theo."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q022",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Con đường cách mạng vô sản",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào ở thuộc địa muốn đồng thời giải quyết mọi mâu thuẫn giai cấp, nhưng xem nhẹ nhiệm vụ chống đế quốc đang trực tiếp thống trị dân tộc. Theo tư tưởng Hồ Chí Minh, nên điều chỉnh thế nào?",
+    "options": [
+      "Đặt giải phóng dân tộc lên trước, đồng thời giữ định hướng tiến tới giải phóng xã hội và con người",
+      "Ưu tiên cải thiện đời sống giai cấp trước khi đặt nhiệm vụ giành độc lập dân tộc",
+      "Giữ nhiệm vụ chống đế quốc và chống phong kiến ngang nhau trong giai đoạn thuộc địa",
+      "Tổ chức lực lượng nhưng chờ thắng lợi ở chính quốc tạo điều kiện quyết định"
+    ],
+    "answer": 0,
+    "explanation": "Trong xã hội thuộc địa, mâu thuẫn dân tộc là trực tiếp và nhiệm vụ giải phóng dân tộc phải được ưu tiên. Sự ưu tiên này không tách khỏi định hướng cách mạng vô sản và các mục tiêu giải phóng tiếp theo.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.a Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản",
+      "text": "Hồ Chí Minh ưu tiên giải phóng dân tộc trong điều kiện thuộc địa nhưng vẫn giữ định hướng xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q023",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Vai trò lãnh đạo của Đảng Cộng sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong điều kiện Việt Nam, lực lượng nào phải lãnh đạo cách mạng giải phóng dân tộc để đi đến thắng lợi?",
+    "options": [
+      "Một tổ chức cải lương không có cương lĩnh cách mạng",
+      "Đảng Cộng sản được xây dựng trên nền tảng chủ nghĩa Mác – Lênin",
+      "Một liên minh tạm thời do giai cấp địa chủ lãnh đạo",
+      "Một chính phủ thuộc địa được cải tổ từ bên trên"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh khẳng định cách mạng trước hết phải có một đảng cách mạng vững mạnh. Trong điều kiện Việt Nam, đó là Đảng Cộng sản lãnh đạo theo mục tiêu và con đường cách mạng vô sản.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.b Cách mạng giải phóng dân tộc muốn thắng lợi phải do Đảng Cộng sản lãnh đạo",
+      "text": "Đảng Cộng sản là nhân tố lãnh đạo bảo đảm phương hướng và tổ chức cho cách mạng giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q024",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Vai trò lãnh đạo của Đảng Cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm phát triển trong quan niệm của Hồ Chí Minh về Đảng Cộng sản Việt Nam là gì?",
+    "options": [
+      "Đảng chỉ đại diện cho một nhóm nghề nghiệp trong giai cấp công nhân",
+      "Đảng tách lợi ích giai cấp công nhân khỏi lợi ích nhân dân lao động",
+      "Đảng đặt lợi ích riêng của tổ chức cao hơn lợi ích của Tổ quốc",
+      "Đảng của giai cấp công nhân, nhân dân lao động và dân tộc"
+    ],
+    "answer": 3,
+    "explanation": "Hồ Chí Minh gắn bản chất giai cấp công nhân với cơ sở xã hội rộng lớn và lợi ích dân tộc. Quan niệm này phù hợp nhiệm vụ giải phóng dân tộc ở một nước thuộc địa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.b Cách mạng giải phóng dân tộc muốn thắng lợi phải do Đảng Cộng sản lãnh đạo",
+      "text": "Đảng Cộng sản Việt Nam là đội tiên phong của giai cấp công nhân, nhân dân lao động và của dân tộc Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q025",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Vai trò lãnh đạo của Đảng Cộng sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo hình ảnh được giáo trình dẫn, vai trò của một Đảng vững mạnh đối với cách mạng được so sánh như thế nào?",
+    "options": [
+      "Đảng như nguồn nước nuôi dưỡng các dòng sông của phong trào",
+      "Đảng như nền móng bảo đảm độ vững chắc của ngôi nhà cách mạng",
+      "Đảng như người cầm lái; người cầm lái có vững thì thuyền mới chạy",
+      "Đảng như chiếc gương phản ánh diễn biến của phong trào quần chúng"
+    ],
+    "answer": 2,
+    "explanation": "Hình ảnh người cầm lái và con thuyền diễn đạt vai trò định hướng, tổ chức của Đảng: Đảng có vững thì cách mạng mới có thể đi đúng hướng và thành công.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Giáo trình so sánh Đảng với người cầm lái; người cầm lái có vững thì thuyền mới chạy."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q026",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Vai trò lãnh đạo của Đảng Cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao quan niệm Đảng Cộng sản Việt Nam là Đảng của dân tộc không phủ nhận bản chất giai cấp công nhân của Đảng?",
+    "options": [
+      "Vì Đảng rời nền tảng Mác – Lênin để dung hòa các khuynh hướng chính trị khác nhau",
+      "Vì Đảng đại diện chủ yếu cho các tầng lớp ngoài giai cấp công nhân",
+      "Vì lợi ích giai cấp công nhân thống nhất với lợi ích dân tộc",
+      "Vì bản chất giai cấp không còn ý nghĩa trong cách mạng thuộc địa"
+    ],
+    "answer": 2,
+    "explanation": "Trong điều kiện Việt Nam, mục tiêu của giai cấp công nhân thống nhất với lợi ích của nhân dân lao động và toàn dân tộc. Vì vậy, tính dân tộc rộng rãi bổ sung chứ không xóa bỏ bản chất giai cấp công nhân của Đảng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.b Cách mạng giải phóng dân tộc muốn thắng lợi phải do Đảng Cộng sản lãnh đạo",
+      "text": "Bản chất giai cấp công nhân của Đảng thống nhất với việc phụng sự nhân dân lao động và dân tộc Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q027",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Lực lượng đại đoàn kết toàn dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, lực lượng của cách mạng giải phóng dân tộc được tổ chức như thế nào?",
+    "options": [
+      "Tập hợp đội ngũ đảng viên làm lực lượng chủ yếu của phong trào",
+      "Đại đoàn kết toàn dân, lấy liên minh công – nông làm nền tảng",
+      "Tập hợp công nhân đô thị làm lực lượng nền tảng của phong trào",
+      "Dựa vào hỗ trợ của cách mạng chính quốc làm lực lượng chủ yếu"
+    ],
+    "answer": 1,
+    "explanation": "Cách mạng là việc chung của dân chúng nên phải tập hợp toàn dân. Trong lực lượng rộng lớn ấy, công nhân và nông dân là lực lượng nòng cốt, nền tảng bền vững.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.c Cách mạng giải phóng dân tộc phải dựa trên lực lượng đại đoàn kết toàn dân tộc, lấy liên minh công – nông làm nền tảng",
+      "text": "Lực lượng giải phóng dân tộc là toàn dân, trong đó liên minh công nhân và nông dân giữ vai trò nền tảng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q028",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Lực lượng đại đoàn kết toàn dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Sách lược vắn tắt năm 1930 thể hiện nghệ thuật tập hợp lực lượng cách mạng như thế nào?",
+    "options": [
+      "Chỉ tập hợp công nhân và loại toàn bộ các giai cấp, tầng lớp khác",
+      "Đặt phú nông và địa chủ vào vị trí lãnh đạo liên minh công – nông",
+      "Thu phục công nông, lôi kéo hoặc trung lập các lực lượng khác",
+      "Xóa bỏ khác biệt lợi ích bằng mệnh lệnh trước khi tổ chức đấu tranh"
+    ],
+    "answer": 2,
+    "explanation": "Sách lược vừa xác định công – nông là nền tảng, vừa mở rộng mặt trận bằng cách tập hợp tiểu tư sản, trí thức, trung nông và tranh thủ hoặc trung lập những lực lượng chưa lộ rõ phản cách mạng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.c Cách mạng giải phóng dân tộc phải dựa trên lực lượng đại đoàn kết toàn dân tộc, lấy liên minh công – nông làm nền tảng",
+      "text": "Sách lược năm 1930 kết hợp nền tảng công – nông với việc tranh thủ rộng rãi các lực lượng yêu nước."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q029",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Lực lượng đại đoàn kết toàn dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức yêu nước muốn loại trí thức, người có tôn giáo và tiểu thương khỏi phong trào dù họ cùng hướng tới độc lập. Điều chỉnh nào phù hợp với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Ưu tiên công nhân, nông dân và tạm gác các lực lượng yêu nước khác",
+      "Mở rộng đoàn kết mọi lực lượng yêu nước, đồng thời giữ liên minh công – nông làm nền tảng",
+      "Chọn tầng lớp trí thức làm nền tảng vì có khả năng truyền bá tư tưởng rộng",
+      "Đợi thống nhất đầy đủ các lợi ích xã hội rồi mới tổ chức mặt trận yêu nước"
+    ],
+    "answer": 1,
+    "explanation": "Khác biệt về tầng lớp hoặc tôn giáo không phải lý do loại người yêu nước khỏi lực lượng chung. Đại đoàn kết cần rộng rãi nhưng vẫn có nền tảng công – nông để bảo đảm phương hướng cách mạng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.c Cách mạng giải phóng dân tộc phải dựa trên lực lượng đại đoàn kết toàn dân tộc, lấy liên minh công – nông làm nền tảng",
+      "text": "Đại đoàn kết quy tụ các lực lượng yêu nước trên nền tảng liên minh công nhân và nông dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q030",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Lực lượng đại đoàn kết toàn dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan hệ đúng giữa “toàn dân” và “liên minh công – nông” trong lực lượng cách mạng giải phóng dân tộc là gì?",
+    "options": [
+      "Toàn dân và công – nông là hai phạm vi tương đương, không bên nào giữ vai trò nền tảng",
+      "Toàn dân là nền tảng, còn công – nông là lực lượng hỗ trợ chủ yếu của phong trào",
+      "Công – nông xác định toàn bộ phạm vi, các lực lượng yêu nước khác chỉ tham gia từng lúc",
+      "Toàn dân tạo phạm vi đoàn kết rộng lớn, còn liên minh công – nông giữ vai trò nền tảng"
+    ],
+    "answer": 3,
+    "explanation": "Hồ Chí Minh đồng thời nhấn mạnh độ rộng và độ vững của lực lượng: cách mạng là sự nghiệp toàn dân, trong đó công nhân và nông dân là hai lực lượng đông đảo, cách mạng và bền bỉ nhất.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.c Cách mạng giải phóng dân tộc phải dựa trên lực lượng đại đoàn kết toàn dân tộc, lấy liên minh công – nông làm nền tảng",
+      "text": "Toàn dân là phạm vi lực lượng; liên minh công – nông là nền tảng của khối đoàn kết cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q031",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chủ động, sáng tạo của cách mạng thuộc địa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Luận điểm sáng tạo của Hồ Chí Minh về quan hệ giữa cách mạng thuộc địa và cách mạng vô sản ở chính quốc là gì?",
+    "options": [
+      "Cách mạng thuộc địa nên bắt đầu sau khi cách mạng ở chính quốc giành thắng lợi",
+      "Cách mạng thuộc địa phát triển độc lập, không có quan hệ hỗ trợ với cách mạng chính quốc",
+      "Cách mạng thuộc địa có thể chủ động thắng trước chính quốc",
+      "Cách mạng chính quốc phải do lực lượng thuộc địa trực tiếp lãnh đạo"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh xác định hai cuộc cách mạng có quan hệ bình đẳng, tác động qua lại chứ không lệ thuộc một chiều. Thuộc địa có thể chủ động phát huy sức mình và thắng lợi trước.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.d Cách mạng giải phóng dân tộc cần chủ động, sáng tạo, có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+      "text": "Cách mạng thuộc địa không lệ thuộc một chiều và có khả năng thắng lợi trước cách mạng vô sản ở chính quốc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q032",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chủ động, sáng tạo của cách mạng thuộc địa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cơ sở nào giúp Hồ Chí Minh khẳng định khả năng chủ động thắng lợi của cách mạng thuộc địa?",
+    "options": [
+      "Vị trí sống còn của thuộc địa và sức đấu tranh của dân tộc bị áp bức",
+      "Các nước thuộc địa đều có lực lượng sản xuất phát triển hơn chính quốc",
+      "Chủ nghĩa đế quốc không có lợi ích kinh tế hoặc chính trị tại thuộc địa",
+      "Phong trào thuộc địa không cần liên hệ với bất kỳ lực lượng quốc tế nào"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh thấy thuộc địa là nguồn sống quan trọng của chủ nghĩa đế quốc, đồng thời nhận ra tiềm lực cách mạng khổng lồ của nhân dân thuộc địa. Hai cơ sở ấy bác bỏ tâm lý thụ động chờ đợi chính quốc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.d Cách mạng giải phóng dân tộc cần chủ động, sáng tạo, có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+      "text": "Vai trò chiến lược của thuộc địa và sức đấu tranh của nhân dân bị áp bức tạo cơ sở cho tính chủ động cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q033",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chủ động, sáng tạo của cách mạng thuộc địa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào thuộc địa có lực lượng quần chúng rộng lớn nhưng quyết định ngồi chờ cách mạng ở chính quốc thành công rồi mới hành động. Theo luận điểm Hồ Chí Minh, lựa chọn phù hợp hơn là gì?",
+    "options": [
+      "Hạn chế quan hệ với phong trào cách mạng thế giới để giữ bí mật",
+      "Chủ động dựa vào sức mình và phối hợp với cách mạng thế giới",
+      "Để một tổ chức ở chính quốc quyết định chiến lược và thời điểm hành động",
+      "Thay nhiệm vụ giải phóng dân tộc bằng yêu cầu cải cách hành chính"
+    ],
+    "answer": 1,
+    "explanation": "Quan hệ quốc tế không đồng nghĩa phụ thuộc. Phong trào thuộc địa phải phát huy nội lực, chủ động và sáng tạo, đồng thời liên hệ với lực lượng cách mạng thế giới trên cơ sở tác động qua lại.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.d Cách mạng giải phóng dân tộc cần chủ động, sáng tạo, có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+      "text": "Hồ Chí Minh yêu cầu nhân dân thuộc địa tự nỗ lực giải phóng mình thay vì thụ động chờ đợi chính quốc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q034",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Bạo lực cách mạng trong giải phóng dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo tư tưởng Hồ Chí Minh, bạo lực cách mạng của quần chúng trong cách mạng giải phóng dân tộc gồm những lực lượng và hình thức chủ yếu nào?",
+    "options": [
+      "Lực lượng chính trị và quân sự, với đấu tranh chính trị kết hợp đấu tranh vũ trang",
+      "Lực lượng kinh tế và ngoại giao, với đàm phán thay thế mọi hình thức đấu tranh",
+      "Lực lượng hành chính và tư pháp, với cải cách luật pháp trong bộ máy thuộc địa",
+      "Lực lượng tôn giáo và nghề nghiệp, với vận động văn hóa tách khỏi chính trị"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình xác định bạo lực cách mạng là sức mạnh có tổ chức của quần chúng, gồm lực lượng chính trị và quân sự, được thực hiện bằng đấu tranh chính trị và đấu tranh vũ trang.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.e Cách mạng giải phóng dân tộc phải được tiến hành bằng phương pháp bạo lực cách mạng",
+      "text": "Bạo lực cách mạng kết hợp lực lượng chính trị với quân sự và đấu tranh chính trị với đấu tranh vũ trang."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q035",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Bạo lực cách mạng trong giải phóng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao bạo lực cách mạng được coi là tất yếu trong bối cảnh cách mạng giải phóng dân tộc mà giáo trình phân tích?",
+    "options": [
+      "Vì mâu thuẫn dân tộc trong xã hội thuộc địa đã phát triển đến mức đối kháng",
+      "Vì đấu tranh chính trị của quần chúng không đủ sức gây áp lực đối với chính quyền thực dân",
+      "Vì mục tiêu cách mạng là kéo dài chiến tranh thay vì giành độc lập",
+      "Vì thực dân dùng bạo lực xâm lược, đàn áp và tước quyền của nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Luận điểm được đặt trong bối cảnh lịch sử cụ thể: thực dân dùng bạo lực để thống trị và đàn áp. Vì vậy, quần chúng phải dùng sức mạnh cách mạng để chống bạo lực phản cách mạng, giành và bảo vệ chính quyền.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.e Cách mạng giải phóng dân tộc phải được tiến hành bằng phương pháp bạo lực cách mạng",
+      "text": "Bạo lực cách mạng là sự đáp lại bạo lực xâm lược và đàn áp của chế độ thực dân trong hoàn cảnh lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q036",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Bạo lực cách mạng trong giải phóng dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, việc lựa chọn và kết hợp các hình thức đấu tranh phải dựa vào căn cứ nào?",
+    "options": [
+      "Tình hình lịch sử cụ thể của cách mạng",
+      "Một công thức cố định áp dụng giống nhau ở mọi nơi",
+      "Mong muốn chủ quan của một nhóm lãnh đạo",
+      "Kinh nghiệm của nước khác được sao chép nguyên vẹn"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh không tuyệt đối hóa một hình thức. Đấu tranh chính trị và vũ trang phải được sử dụng, kết hợp đúng và khéo tùy theo tình hình cụ thể.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.e Cách mạng giải phóng dân tộc phải được tiến hành bằng phương pháp bạo lực cách mạng",
+      "text": "Hình thức đấu tranh phải được lựa chọn và kết hợp phù hợp với hoàn cảnh lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q037",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Bạo lực cách mạng trong giải phóng dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi trình bày luận điểm về bạo lực cách mạng trong một bài học lịch sử, cách diễn giải nào đúng và an toàn nhất?",
+    "options": [
+      "Đặt trong bối cảnh chống bạo lực thực dân và chọn hình thức theo hoàn cảnh cụ thể",
+      "Biến luận điểm lịch sử thành chỉ dẫn dùng bạo lực cho mọi bất đồng hiện nay",
+      "Tách đấu tranh vũ trang khỏi lực lượng chính trị và mục tiêu giải phóng dân tộc",
+      "Khẳng định hoàn cảnh lịch sử không ảnh hưởng đến việc lựa chọn phương pháp đấu tranh"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình phân tích bạo lực cách mạng trong cuộc đấu tranh chống xâm lược và đàn áp thực dân. Cần giữ đúng bối cảnh, chủ thể quần chúng, mục tiêu giải phóng và nguyên tắc lựa chọn hình thức theo hoàn cảnh.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > I.2.e Cách mạng giải phóng dân tộc phải được tiến hành bằng phương pháp bạo lực cách mạng",
+      "text": "Luận điểm về bạo lực cách mạng thuộc bối cảnh giải phóng dân tộc và gắn với phương pháp phù hợp từng tình hình."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q038",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh thường trình bày quan niệm về chủ nghĩa xã hội bằng cách nào?",
+    "options": [
+      "Đưa ra một định nghĩa trừu tượng và coi đó là khuôn mẫu cố định",
+      "Tiếp cận nhiều góc độ, các đặc trưng đều hướng tới con người",
+      "Mô tả chế độ sở hữu và tách nó khỏi các lĩnh vực xã hội khác",
+      "Đồng nhất chủ nghĩa xã hội với một mô hình cụ thể của nước ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh diễn đạt dung dị và tiếp cận chủ nghĩa xã hội qua chính trị, kinh tế, văn hóa, đạo đức, động lực và nguồn lực. Các cách tiếp cận đều quy tụ vào cuộc sống ấm no, tự do, hạnh phúc của nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Hồ Chí Minh tiếp cận chủ nghĩa xã hội từ nhiều lĩnh vực nhưng thống nhất ở mục tiêu phục vụ nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q039",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo cách trình bày trong giáo trình, điểm khác nhau giữa giai đoạn xã hội chủ nghĩa và giai đoạn cộng sản chủ nghĩa là gì?",
+    "options": [
+      "Xã hội chủ nghĩa có công hữu, còn cộng sản chủ nghĩa khôi phục tư hữu tuyệt đối",
+      "Xã hội chủ nghĩa không phát triển lực lượng sản xuất, còn cộng sản chủ nghĩa mới bắt đầu sản xuất",
+      "Xã hội chủ nghĩa còn áp bức giai cấp, còn cộng sản chủ nghĩa thay bằng áp bức dân tộc",
+      "Xã hội chủ nghĩa còn một số dấu vết xã hội cũ, còn cộng sản chủ nghĩa không còn những dấu vết ấy"
+    ],
+    "answer": 3,
+    "explanation": "Hai giai đoạn cùng dựa trên lực lượng sản xuất phát triển, tư liệu sản xuất chung và không còn giai cấp áp bức bóc lột. Điểm khác là giai đoạn xã hội chủ nghĩa vẫn còn một số dấu vết của xã hội cũ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Chủ nghĩa xã hội là giai đoạn đầu, còn mang một số dấu vết của xã hội cũ so với giai đoạn cộng sản chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q040",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan niệm khái quát nào phù hợp với tư tưởng Hồ Chí Minh về chủ nghĩa xã hội?",
+    "options": [
+      "Một xã hội do thiểu số sở hữu tư liệu sản xuất và phân phối đặc quyền",
+      "Giai đoạn đầu của chủ nghĩa cộng sản, do nhân dân lao động làm chủ và không còn áp bức, bóc lột",
+      "Một xã hội đổi mới chính trị nhưng giữ nguyên chế độ người bóc lột người",
+      "Một mô hình đặt tăng sản lượng lên trước tự do và hạnh phúc của con người"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình khái quát chủ nghĩa xã hội là giai đoạn đầu của chủ nghĩa cộng sản, nơi nhân dân lao động làm chủ, không còn áp bức bóc lột và con người hướng tới ấm no, tự do, hạnh phúc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Chủ nghĩa xã hội là xã hội do nhân dân lao động làm chủ, không còn áp bức bóc lột và hướng tới hạnh phúc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q041",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm đánh giá chủ nghĩa xã hội chỉ bằng việc thay đổi hình thức sở hữu, không xét quyền làm chủ, công bằng hay đời sống con người. Theo tư tưởng Hồ Chí Minh, cần bổ sung cách nhìn nào?",
+    "options": [
+      "Đánh giá cả quyền làm chủ, công bằng và đời sống con người",
+      "Bổ sung số lượng cơ quan hành chính như thước đo trung tâm",
+      "Gạt các lợi ích cá nhân chính đáng ra khỏi hệ tiêu chí đánh giá",
+      "Đồng nhất chủ nghĩa xã hội với tốc độ tăng trưởng trong một năm"
+    ],
+    "answer": 0,
+    "explanation": "Quan niệm Hồ Chí Minh mang tính toàn diện. Chế độ sở hữu là một nội dung quan trọng nhưng phải gắn với nhân dân làm chủ, phát triển văn hóa–đạo đức, công bằng xã hội và đời sống ấm no, hạnh phúc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Quan niệm về chủ nghĩa xã hội bao quát nhiều lĩnh vực và quy tụ ở việc giải phóng, nâng cao đời sống con người."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q042",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan hệ giữa lợi ích cá nhân và lợi ích tập thể trong chủ nghĩa xã hội được Hồ Chí Minh nhìn nhận như thế nào?",
+    "options": [
+      "Lợi ích cá nhân được giải quyết sau khi lợi ích tập thể đã đạt mức đầy đủ",
+      "Lợi ích tập thể là tổng lợi ích riêng nên mọi mong muốn đều được chấp nhận",
+      "Lợi ích cá nhân chính đáng được bảo đảm trong lợi ích tập thể",
+      "Lợi ích tập thể điều chỉnh theo ưu tiên của từng cá nhân trong mỗi thời điểm"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh không phủ nhận lợi ích cá nhân đúng đắn. Người đặt nó trong sự thống nhất với lợi ích tập thể: lợi ích chung được bảo đảm tạo điều kiện đáp ứng lợi ích riêng chính đáng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Lợi ích cá nhân chính đáng gắn với và được bảo đảm trong lợi ích chung của tập thể."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q043",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Quan niệm về chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo cách nói mộc mạc của Hồ Chí Minh, chủ nghĩa xã hội trước hết nhằm mục tiêu nào?",
+    "options": [
+      "Làm cho một bộ phận nhỏ tích lũy của cải nhanh nhất",
+      "Tăng quyền lực hành chính mà chưa cần cải thiện đời sống",
+      "Giúp nhân dân lao động thoát bần cùng, có việc làm, ấm no và hạnh phúc",
+      "Tách phát triển kinh tế khỏi tiến bộ và công bằng xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh diễn đạt mục tiêu trực tiếp của chủ nghĩa xã hội bằng đời sống của nhân dân lao động: thoát nghèo khổ, có công ăn việc làm, được ấm no và sống hạnh phúc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.a Quan niệm của Hồ Chí Minh về chủ nghĩa xã hội",
+      "text": "Mục tiêu trước hết của chủ nghĩa xã hội là giải phóng nhân dân lao động khỏi bần cùng và tạo đời sống hạnh phúc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q044",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính tất yếu của con đường xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ sở khách quan trước hết của quá trình xã hội tiến lên chủ nghĩa xã hội được Hồ Chí Minh nhấn mạnh là gì?",
+    "options": [
+      "Sự phát triển của phương thức và lực lượng sản xuất",
+      "Ý muốn chủ quan của một vài cá nhân kiệt xuất",
+      "Sự lặp lại nguyên vẹn mọi chế độ xã hội trong lịch sử",
+      "Việc tách tư tưởng xã hội khỏi điều kiện vật chất"
+    ],
+    "answer": 0,
+    "explanation": "Vận dụng học thuyết hình thái kinh tế–xã hội, Hồ Chí Minh chỉ ra rằng cách sản xuất và sức sản xuất luôn phát triển, kéo theo sự biến đổi của tư tưởng và chế độ xã hội.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.b Tiến lên chủ nghĩa xã hội là một tất yếu khách quan",
+      "text": "Sự vận động của phương thức sản xuất và lực lượng sản xuất là cơ sở khách quan của tiến bộ xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q045",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính tất yếu của con đường xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan niệm của Hồ Chí Minh về con đường tiến lên chủ nghĩa xã hội ở các dân tộc thể hiện sự kết hợp nào?",
+    "options": [
+      "Coi quy luật chung là định hướng, còn hoàn cảnh riêng quyết định cả mục tiêu",
+      "Giữ một lộ trình chung cho mọi nước nhưng cho phép khác nhau về thời gian",
+      "Để thời gian và phương thức phát triển phụ thuộc chủ yếu vào lựa chọn chủ quan",
+      "Thống nhất quy luật chung với cách đi riêng của từng nước"
+    ],
+    "answer": 3,
+    "explanation": "Tiến lên chủ nghĩa xã hội là xu hướng khách quan, nhưng quy luật chung biểu hiện qua điều kiện lịch sử cụ thể. Vì thế, mỗi quốc gia có thể có thời gian và phương thức quá độ khác nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.b Tiến lên chủ nghĩa xã hội là một tất yếu khách quan",
+      "text": "Quy luật phát triển chung được thực hiện bằng những con đường cụ thể khác nhau tùy hoàn cảnh từng dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q046",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính tất yếu của con đường xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, Việt Nam thuộc kiểu con đường nào khi tiến lên chủ nghĩa xã hội?",
+    "options": [
+      "Phải hoàn thành đầy đủ chế độ tư bản chủ nghĩa rồi mới tổ chức lực lượng cách mạng",
+      "Trở lại chế độ phong kiến để tích lũy điều kiện vật chất",
+      "Tách khỏi sự lãnh đạo của Đảng và giai cấp công nhân",
+      "Qua dân chủ mới lên chủ nghĩa xã hội, không qua phát triển tư bản chủ nghĩa"
+    ],
+    "answer": 3,
+    "explanation": "Trong điều kiện Việt Nam, nhân dân đánh đổ đế quốc và phong kiến dưới sự lãnh đạo của Đảng, xây dựng chế độ dân chủ mới rồi tiến lên chủ nghĩa xã hội, bỏ qua giai đoạn phát triển tư bản chủ nghĩa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.b Tiến lên chủ nghĩa xã hội là một tất yếu khách quan",
+      "text": "Việt Nam đi qua chế độ dân chủ mới để tiến lên chủ nghĩa xã hội mà không trải qua giai đoạn phát triển tư bản chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q047",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính tất yếu của con đường xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm cho rằng Việt Nam phải sao chép nguyên vẹn lộ trình của một nước đã công nghiệp hóa trước đó thì mới có thể xây dựng chủ nghĩa xã hội. Nhận xét nào phù hợp với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Đúng, vì tuân thủ quy luật chung đòi hỏi thống nhất lộ trình giữa các nước",
+      "Đúng, vì mô hình đi trước cung cấp các bước chính cần giữ lại khi vận dụng",
+      "Không đúng; phải vận dụng quy luật chung phù hợp hoàn cảnh Việt Nam",
+      "Không đúng; hoàn cảnh Việt Nam quyết định cách đi mà không cần xét quy luật chung"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh chống sao chép máy móc. Tính tất yếu của mục tiêu xã hội chủ nghĩa không đồng nghĩa với một mô hình duy nhất; cách đi phải căn cứ lịch sử, kinh tế và xã hội cụ thể của đất nước.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.b Tiến lên chủ nghĩa xã hội là một tất yếu khách quan",
+      "text": "Mỗi dân tộc thực hiện quy luật phát triển xã hội bằng con đường phù hợp với hoàn cảnh cụ thể của mình."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q048",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính tất yếu của con đường xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mệnh đề nào diễn đạt đúng quan hệ giữa tính tất yếu và tính đặc thù trong con đường đi lên chủ nghĩa xã hội?",
+    "options": [
+      "Tính tất yếu khiến các nước phải theo cùng một lịch biểu phát triển",
+      "Mục tiêu chịu quy luật khách quan, còn thời gian và phương thức phải phù hợp điều kiện cụ thể",
+      "Tính đặc thù cho phép thay đổi mục tiêu và quy luật chung theo điều kiện quốc gia",
+      "Thời gian quá độ do ý chí quyết định, không liên quan điều kiện vật chất"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh đồng thời thấy cái chung và cái riêng: tiến lên chủ nghĩa xã hội tuân theo quy luật khách quan, nhưng cách thức và thời gian ở mỗi quốc gia phụ thuộc bối cảnh lịch sử cụ thể.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.b Tiến lên chủ nghĩa xã hội là một tất yếu khách quan",
+      "text": "Tính tất yếu của mục tiêu thống nhất với sự đa dạng về phương thức và thời gian quá độ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q049",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng chính trị cơ bản của xã hội xã hội chủ nghĩa theo Hồ Chí Minh là gì?",
+    "options": [
+      "Một nhóm chuyên gia nắm quyền lực và quyết định thay cho nhân dân",
+      "Bộ máy hành chính đứng cao hơn quyền làm chủ của nhân dân",
+      "Các tổ chức xã hội hoạt động tách rời mục tiêu chung của chế độ",
+      "Nhân dân làm chủ dưới sự lãnh đạo của Đảng Cộng sản"
+    ],
+    "answer": 3,
+    "explanation": "Về chính trị, địa vị cao nhất thuộc về nhân dân; mọi quyền lực và công việc xây dựng, bảo vệ chế độ thuộc về dân, dưới sự lãnh đạo của Đảng và trên nền tảng liên minh công – nông.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Đặc trưng chính trị là nhân dân làm chủ dưới sự lãnh đạo của Đảng Cộng sản."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q050",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc trưng kinh tế của xã hội xã hội chủ nghĩa kết hợp hai yếu tố cốt lõi nào?",
+    "options": [
+      "Lực lượng sản xuất thủ công và sở hữu của một thiểu số",
+      "Lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu",
+      "Tăng trưởng tự phát và phân phối dựa trên đặc quyền",
+      "Kinh tế khép kín và phủ nhận tiến bộ khoa học kỹ thuật"
+    ],
+    "answer": 1,
+    "explanation": "Chủ nghĩa xã hội phải có nền kinh tế phát triển cao hơn, dựa trên công cụ và kỹ thuật hiện đại; quan hệ sản xuất tương ứng là công hữu đối với các tư liệu sản xuất chủ yếu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Đặc trưng kinh tế thống nhất lực lượng sản xuất hiện đại với công hữu tư liệu sản xuất chủ yếu."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q051",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng về văn hóa, đạo đức và quan hệ xã hội của xã hội xã hội chủ nghĩa là gì?",
+    "options": [
+      "Duy trì phân biệt đối xử để thúc đẩy cạnh tranh giữa các cộng đồng",
+      "Nâng cao học vấn nhưng vẫn duy trì các quan hệ xã hội áp bức",
+      "Có trình độ văn hóa, đạo đức cao và bảo đảm quan hệ xã hội công bằng, hợp lý",
+      "Đặt lợi ích của thiểu số lên trên quyền bình đẳng của cộng đồng"
+    ],
+    "answer": 2,
+    "explanation": "Hồ Chí Minh gắn chủ nghĩa xã hội với việc xóa bỏ người bóc lột người, tôn trọng con người, thực hiện công bằng, bình đẳng và đoàn kết giữa các dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Xã hội xã hội chủ nghĩa có văn hóa, đạo đức phát triển và các quan hệ công bằng, hợp lý."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q052",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nguyên tắc phân phối nào thể hiện tính công bằng, hợp lý trong quan hệ xã hội chủ nghĩa theo giáo trình?",
+    "options": [
+      "Phân phối bình quân, tách mức hưởng khỏi đóng góp và khả năng lao động",
+      "Người có chức vụ được ưu tiên hưởng thành quả lao động của người khác",
+      "Phúc lợi xã hội được phân bổ theo khả năng lao động hiện tại của từng người",
+      "Theo lao động, có bảo đảm cho người chưa hoặc không còn sức lao động"
+    ],
+    "answer": 3,
+    "explanation": "Phân phối gắn với lao động nhưng không bỏ quên trách nhiệm xã hội. Ngoại lệ dành cho người chưa có hoặc không còn khả năng lao động thể hiện tính nhân văn của chế độ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Công bằng gắn hưởng thụ với lao động và đồng thời bảo đảm những người chưa hoặc không còn khả năng lao động."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q053",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một xã hội có công nghệ hiện đại nhưng còn bóc lột, phân biệt đối xử và không bảo đảm quyền làm chủ của dân. Theo hệ đặc trưng trong giáo trình, đánh giá nào đúng?",
+    "options": [
+      "Đã đạt chủ nghĩa xã hội vì trình độ kỹ thuật quyết định bản chất chế độ",
+      "Chưa đạt, vì thiếu quyền làm chủ, công bằng và quan hệ xã hội mới",
+      "Đã đạt đầy đủ vì quyền làm chủ không liên quan đến bản chất chế độ",
+      "Chưa đạt vì xã hội vẫn tồn tại khác biệt về năng lực và mức đóng góp"
+    ],
+    "answer": 1,
+    "explanation": "Lực lượng sản xuất hiện đại chỉ là một mặt. Xã hội xã hội chủ nghĩa còn đòi hỏi nhân dân làm chủ, không có áp bức bóc lột, văn hóa–đạo đức phát triển và quan hệ công bằng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Các đặc trưng chính trị, kinh tế, văn hóa–đạo đức và chủ thể xây dựng tạo thành một chỉnh thể."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q054",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của xã hội xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan hệ giữa nhân dân và Đảng trong đặc trưng về chủ thể xây dựng chủ nghĩa xã hội được hiểu như thế nào?",
+    "options": [
+      "Đảng giữ vai trò quyết định và trực tiếp thay nhân dân thực hiện công trình xây dựng",
+      "Nhân dân là lực lượng quyết định, còn sự lãnh đạo cần cho giai đoạn đầu của quá trình",
+      "Nhân dân là lực lượng quyết định, dưới sự lãnh đạo của Đảng cách mạng",
+      "Nhân dân tham gia kinh tế, xã hội, còn các quyết sách lớn do bộ máy quyết định"
+    ],
+    "answer": 2,
+    "explanation": "Chủ nghĩa xã hội là công trình tập thể của nhân dân. Sức dân được định hướng và tổ chức bởi Đảng biết vận dụng sáng tạo chủ nghĩa Mác – Lênin, toàn tâm toàn ý phục vụ nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.1.c Một số đặc trưng cơ bản của xã hội xã hội chủ nghĩa",
+      "text": "Nhân dân là chủ thể quyết định xây dựng chủ nghĩa xã hội dưới sự lãnh đạo của Đảng Cộng sản."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q055",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục tiêu chính trị hàng đầu khi xây dựng chủ nghĩa xã hội ở Việt Nam theo Hồ Chí Minh là gì?",
+    "options": [
+      "Xây dựng chế độ dân chủ, trong đó nhân dân là chủ và làm chủ",
+      "Thu hẹp quyền tham gia của nhân dân để tăng tốc quản lý",
+      "Trao mọi quyền quyết định cho một tầng lớp có tài sản",
+      "Tách quyền lợi của dân khỏi trách nhiệm bảo vệ đất nước"
+    ],
+    "answer": 0,
+    "explanation": "Mục tiêu chính trị là chế độ dân chủ. “Dân là chủ” xác định địa vị, quyền lợi và quyền hạn; “dân làm chủ” nhấn mạnh trách nhiệm cùng sự tham gia thực tế của nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Mục tiêu chính trị là xây dựng chế độ dân chủ để nhân dân thực sự là chủ và thực hành quyền làm chủ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q056",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cặp khái niệm “dân là chủ” và “dân làm chủ” bổ sung cho nhau như thế nào?",
+    "options": [
+      "Một vế xác định địa vị, vế kia nhấn mạnh thực hành quyền của dân",
+      "Một vế nói về quyền của nhà nước; vế kia tách quyền khỏi nghĩa vụ công dân",
+      "Một vế thuộc lĩnh vực kinh tế; vế kia thuộc phạm vi đời sống gia đình",
+      "Một vế dành cho cán bộ; vế kia giới hạn ở người lao động"
+    ],
+    "answer": 0,
+    "explanation": "“Dân là chủ” khẳng định vị thế tối cao của nhân dân; “dân làm chủ” biến vị thế đó thành sự tham gia, trách nhiệm và năng lực thực tế trong xây dựng, bảo vệ đất nước.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Quyền làm chủ bao gồm cả địa vị chủ thể và việc nhân dân thực hành quyền, trách nhiệm của mình."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q057",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục tiêu kinh tế của chủ nghĩa xã hội ở Việt Nam được Hồ Chí Minh khái quát như thế nào?",
+    "options": [
+      "Nền kinh tế dựa vào lao động thủ công, với sở hữu tư nhân giữ vai trò chi phối",
+      "Nền kinh tế phát triển nông nghiệp trước, công nghiệp và khoa học ở giai đoạn sau",
+      "Có công, nông nghiệp hiện đại, kỹ thuật tiên tiến và sở hữu xã hội chủ nghĩa",
+      "Nền kinh tế tăng trưởng tách khỏi quyền dân chủ và đời sống nhân dân"
+    ],
+    "answer": 2,
+    "explanation": "Mục tiêu kinh tế kết hợp trình độ sản xuất hiện đại với quan hệ sở hữu tiến bộ. Hồ Chí Minh nhấn mạnh công nghiệp, nông nghiệp hiện đại, khoa học kỹ thuật tiên tiến cùng sở hữu toàn dân và tập thể.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Mục tiêu kinh tế là nền kinh tế phát triển cao, hiện đại và dựa trên các hình thức sở hữu xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q058",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao mục tiêu kinh tế phải gắn chặt với mục tiêu chính trị trong xây dựng chủ nghĩa xã hội?",
+    "options": [
+      "Vì phát triển kinh tế phải hoàn thành trước khi bắt đầu thực hiện quyền dân chủ",
+      "Vì dân chủ phát sinh như hệ quả của tăng trưởng mà không cần tổ chức thực hiện",
+      "Vì mục tiêu chính trị chủ yếu tạo ổn định quản lý để mở rộng hoạt động kinh tế",
+      "Vì kinh tế phát triển tạo cơ sở thực hiện quyền dân chủ của nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Kinh tế không phải mục tiêu tự thân. Sự phát triển của nền kinh tế xã hội chủ nghĩa tạo cơ sở vật chất để quyền làm chủ và đời sống của nhân dân được thực hiện ngày càng đầy đủ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Mục tiêu kinh tế gắn với mục tiêu chính trị vì phát triển kinh tế tạo cơ sở thực hiện quyền dân chủ của nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q059",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một kế hoạch phát triển chỉ đặt chỉ tiêu sản lượng, đồng thời xem nhẹ dân chủ, văn hóa, công bằng và quyền con người. Theo hệ mục tiêu của Hồ Chí Minh, nên điều chỉnh thế nào?",
+    "options": [
+      "Gắn kinh tế với dân chủ, văn hóa, công bằng và con người",
+      "Giữ trọng tâm sản lượng, xử lý mục tiêu xã hội khi nền kinh tế đạt trình độ cao",
+      "Chuyển trọng tâm sang văn hóa, công bằng và tạm gác mục tiêu phát triển kinh tế",
+      "Bổ sung giáo dục, văn hóa nhưng để dân chủ và quyền con người ngoài kế hoạch"
+    ],
+    "answer": 0,
+    "explanation": "Mục tiêu chủ nghĩa xã hội là một chỉnh thể chính trị, kinh tế, văn hóa và xã hội. Kinh tế cần đi trước nhưng phải phục vụ dân chủ, công bằng, văn minh và sự phát triển toàn diện của con người.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Các mục tiêu chính trị, kinh tế, văn hóa và quan hệ xã hội phải gắn bó trong quá trình xây dựng chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q060",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Mục tiêu xây dựng chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nội dung nào thể hiện đúng mục tiêu văn hóa trong xây dựng chủ nghĩa xã hội ở Việt Nam?",
+    "options": [
+      "Khước từ toàn bộ di sản dân tộc để tiếp nhận mô hình văn hóa bên ngoài",
+      "Xây dựng nền văn hóa dân tộc, khoa học, đại chúng và tiếp thu tinh hoa văn hóa nhân loại",
+      "Giữ nguyên ảnh hưởng nô dịch nhưng thay đổi hình thức tuyên truyền",
+      "Tách văn hóa khỏi mục tiêu chính trị, kinh tế và đời sống nhân dân"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh chủ trương phát triển truyền thống tốt đẹp của dân tộc, loại bỏ ảnh hưởng nô dịch và hấp thụ cái mới tiến bộ của thế giới để tạo nền văn hóa dân tộc, khoa học, đại chúng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.a Mục tiêu chủ nghĩa xã hội ở Việt Nam",
+      "text": "Mục tiêu văn hóa kết hợp tính dân tộc, khoa học, đại chúng với việc tiếp thu tinh hoa nhân loại."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q061",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hệ thống động lực xây dựng chủ nghĩa xã hội, yếu tố nào giữ vai trò quyết định theo Hồ Chí Minh?",
+    "options": [
+      "Nguồn vốn bên ngoài tách khỏi năng lực trong nước",
+      "Mệnh lệnh hành chính thay cho sự tự giác của quần chúng",
+      "Kinh nghiệm nước ngoài được áp dụng nguyên vẹn",
+      "Nội lực dân tộc, trước hết là sức mạnh của nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Động lực có cả vật chất–tinh thần, nội lực–ngoại lực, nhưng yếu tố quyết định là nội lực dân tộc và nhân dân. Vì vậy phải chăm lo lợi ích, dân chủ và đoàn kết toàn dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Nội lực dân tộc và sức mạnh nhân dân giữ vai trò quyết định trong hệ thống động lực xây dựng chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q062",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Lợi ích của dân, dân chủ của dân và đoàn kết toàn dân quan hệ với nhau như thế nào trong hệ thống động lực?",
+    "options": [
+      "Gắn bó hữu cơ, làm cơ sở và tiền đề cho nhau để phát huy sức mạnh nhân dân",
+      "Lợi ích của dân là nền tảng, còn dân chủ và đoàn kết chỉ là kết quả theo sau",
+      "Đoàn kết là điều kiện có thể tạm thay quyền tham gia và lợi ích trước mắt của dân",
+      "Ưu tiên đoàn kết trước, giải quyết lợi ích và dân chủ ở giai đoạn sau"
+    ],
+    "answer": 0,
+    "explanation": "Ba yếu tố không tách rời: lợi ích tạo mục tiêu thiết thực, dân chủ phát huy quyền và trách nhiệm, đoàn kết tập hợp sức mạnh. Chúng hỗ trợ nhau và cùng quy tụ ở nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Lợi ích, dân chủ và đoàn kết toàn dân liên hệ hữu cơ, tạo thành các động lực hàng đầu của chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q063",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình phát triển mang lại một số lợi ích vật chất nhưng người dân không được biết, bàn, tham gia hoặc giám sát. Theo tư tưởng Hồ Chí Minh về động lực, cần bổ sung trước hết điều gì?",
+    "options": [
+      "Giảm vai trò của nhân dân để quyết định được ban hành nhanh hơn",
+      "Thay lợi ích cộng đồng bằng phần thưởng cho một nhóm nhỏ",
+      "Mở rộng dân chủ để nhân dân thực hành quyền làm chủ và tham gia công việc chung",
+      "Tách chương trình khỏi các tổ chức đại diện cho nhân dân"
+    ],
+    "answer": 2,
+    "explanation": "Lợi ích và dân chủ không thể tách nhau. Khi dân không được tham gia, chương trình chưa khơi dậy quyền hành, trách nhiệm và sức sáng tạo của nhân dân – nguồn động lực quyết định.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Dân chủ giúp quyền hành, lực lượng và trách nhiệm xây dựng xã hội thực sự thuộc về nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q064",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hoạt động của các tổ chức, sự lãnh đạo của tổ chức nào giữ vai trò quyết định đối với việc phát huy động lực xây dựng chủ nghĩa xã hội?",
+    "options": [
+      "Mặt trận Tổ quốc Việt Nam",
+      "Đảng Cộng sản Việt Nam",
+      "Hội Nông dân Việt Nam",
+      "Công đoàn Việt Nam"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh ví Đảng như người cầm lái. Dưới sự lãnh đạo của Đảng, Nhà nước và các tổ chức chính trị–xã hội tổ chức sức dân, biến mục tiêu và đường lối thành hiện thực.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Sự lãnh đạo của Đảng giữ vai trò quyết định trong hoạt động của hệ thống tổ chức xây dựng chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q065",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhóm nào là những lực cản bên trong cần chống để các động lực xây dựng chủ nghĩa xã hội phát huy tác dụng?",
+    "options": [
+      "Lợi ích chính đáng, quyền dân chủ và tinh thần đoàn kết",
+      "Ý thức làm chủ, tinh thần tập thể và lao động sáng tạo",
+      "Chủ nghĩa cá nhân, quan liêu, mệnh lệnh, tham ô, lãng phí và bảo thủ",
+      "Năng lực chuyên môn, trách nhiệm và sáng kiến của con người"
+    ],
+    "answer": 2,
+    "explanation": "Các lực cản nảy sinh từ chủ nghĩa cá nhân và những biểu hiện như quan liêu, tham ô, lãng phí, bảo thủ. Chúng làm suy yếu tổ chức, lợi ích chung và sức sáng tạo của nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Muốn phát huy động lực phải chống chủ nghĩa cá nhân và những biểu hiện quan liêu, tham ô, lãng phí, bảo thủ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q066",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Động lực xây dựng chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương muốn khơi dậy sức dân cho chương trình xây dựng mới. Phương án nào vận dụng đầy đủ nhất hệ động lực của Hồ Chí Minh?",
+    "options": [
+      "Tăng phần thưởng vật chất, giữ quy trình quyết định nội bộ và huy động dân ở khâu thực hiện",
+      "Phát động khẩu hiệu đoàn kết nhưng để các lợi ích thiết thực của dân giải quyết sau",
+      "Chuyển phần lớn trách nhiệm cho nguồn lực bên ngoài và giảm vai trò cộng đồng",
+      "Bảo đảm lợi ích, mở rộng dân chủ, củng cố đoàn kết và phát huy vai trò tổ chức cùng con người"
+    ],
+    "answer": 3,
+    "explanation": "Hệ động lực là một chỉnh thể. Lợi ích thiết thực, quyền làm chủ, đoàn kết, sự lãnh đạo và tổ chức hiệu quả sẽ khơi dậy hoạt động sáng tạo của từng con người và cộng đồng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.2.b Động lực của chủ nghĩa xã hội ở Việt Nam",
+      "text": "Phát huy sức dân đòi hỏi kết hợp lợi ích, dân chủ, đoàn kết, tổ chức và phẩm chất của con người."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q067",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chất, đặc điểm, nhiệm vụ thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh xác định tính chất của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam như thế nào?",
+    "options": [
+      "Là thời kỳ cải biến sâu sắc, phức tạp, lâu dài, khó khăn và gian khổ",
+      "Là bước chuyển ngắn, tự phát, chưa đặt nhiệm vụ cải tạo xã hội cũ",
+      "Là giai đoạn tập trung vào kinh tế, ít tác động đến con người và quan hệ xã hội",
+      "Là quá trình có thể hoàn thành ngay bằng mệnh lệnh hành chính"
+    ],
+    "answer": 0,
+    "explanation": "Thời kỳ quá độ phải biến đổi sâu sắc xã hội cũ thành xã hội mới trong điều kiện đất nước nông nghiệp lạc hậu. Vì vậy, quá trình này lâu dài, phức tạp và không thể hoàn thành một sớm một chiều.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.a Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ",
+      "text": "Thời kỳ quá độ là quá trình cải biến sâu sắc, lâu dài, phức tạp, khó khăn và gian khổ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q068",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chất, đặc điểm, nhiệm vụ thời kỳ quá độ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc điểm lớn nhất quy định nhiệm vụ của Việt Nam trong thời kỳ quá độ là gì?",
+    "options": [
+      "Từ nông nghiệp lạc hậu lên chủ nghĩa xã hội sau khi hoàn thành phát triển tư bản chủ nghĩa",
+      "Từ nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội, không qua phát triển tư bản chủ nghĩa",
+      "Từ nông nghiệp lạc hậu lên chủ nghĩa xã hội bằng cách chủ yếu cải tạo quan hệ sở hữu",
+      "Từ nông nghiệp lạc hậu lên chủ nghĩa xã hội bằng bước chuyển nhanh, ít khó khăn"
+    ],
+    "answer": 1,
+    "explanation": "Xuất phát điểm nông nghiệp lạc hậu và việc không trải qua giai đoạn phát triển tư bản chủ nghĩa khiến Việt Nam phải đồng thời cải tạo cái cũ và xây dựng cơ sở vật chất, văn hóa, xã hội mới.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.a Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ",
+      "text": "Đặc điểm lớn nhất là xuất phát từ nông nghiệp lạc hậu và tiến lên chủ nghĩa xã hội không qua giai đoạn phát triển tư bản chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q069",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chất, đặc điểm, nhiệm vụ thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong nhiệm vụ kinh tế của thời kỳ quá độ, Hồ Chí Minh coi nội dung nào là chủ chốt và lâu dài?",
+    "options": [
+      "Xây dựng nền kinh tế mới và cơ sở vật chất–kỹ thuật hiện đại cho chủ nghĩa xã hội",
+      "Cải tạo quan hệ sản xuất cũ trước khi triển khai nhiệm vụ xây dựng nền kinh tế mới",
+      "Ưu tiên cải tạo sở hữu, còn phát triển lực lượng sản xuất giữ vai trò hỗ trợ",
+      "Cân đối tích lũy và tiêu dùng trước khi xây dựng nền tảng vật chất hiện đại"
+    ],
+    "answer": 0,
+    "explanation": "Giữa cải tạo và xây dựng, Hồ Chí Minh nhấn mạnh xây dựng là nhiệm vụ chủ chốt, lâu dài. Đó là quá trình tạo nền kinh tế mới và cơ sở vật chất–kỹ thuật của chủ nghĩa xã hội.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.a Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ",
+      "text": "Nhiệm vụ kinh tế chủ chốt, lâu dài là xây dựng nền kinh tế mới và cơ sở vật chất kỹ thuật hiện đại."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q070",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Tính chất, đặc điểm, nhiệm vụ thời kỳ quá độ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một kế hoạch tuyên bố có thể xóa ngay mọi thói quen cũ và hoàn thành xã hội mới trong thời gian rất ngắn, dù nền kinh tế còn lạc hậu. Theo Hồ Chí Minh, cần sửa nhận thức nào?",
+    "options": [
+      "Ưu tiên cải tạo tư tưởng ở tốc độ cao hơn xây dựng kinh tế",
+      "Có thể bỏ qua quyền làm chủ của dân để rút ngắn thời gian",
+      "Nhận rõ quá độ lâu dài, làm dần dần và lấy xây dựng làm chính",
+      "Nên giữ nguyên các yếu tố cũ cho đến khi có đủ viện trợ bên ngoài"
+    ],
+    "answer": 2,
+    "explanation": "Xuất phát điểm thấp và tàn dư xã hội cũ khiến quá độ không thể nóng vội. Cần cải tạo đồng thời với xây dựng, từng bước tạo nền tảng kinh tế, chính trị, văn hóa và xã hội mới.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.a Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ",
+      "text": "Thời kỳ quá độ phải tiến hành dần dần, kết hợp cải tạo với xây dựng lâu dài trên mọi lĩnh vực."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q071",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên tắc tư tưởng đầu tiên trong xây dựng chủ nghĩa xã hội thời kỳ quá độ là gì?",
+    "options": [
+      "Sao chép nguyên vẹn mọi biện pháp của một nước khác",
+      "Vận dụng chủ nghĩa Mác – Lênin phù hợp hoàn cảnh Việt Nam",
+      "Tách lý luận khỏi thực tiễn để giữ nguyên công thức",
+      "Dùng kinh nghiệm chủ quan thay cho lập trường và phương pháp khoa học"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh yêu cầu học lập trường, quan điểm, phương pháp Mác – Lênin và cụ thể hóa sáng tạo theo từng lúc, từng nơi; trung thành với nền tảng không đồng nghĩa giáo điều.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.b Một số nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+      "text": "Xây dựng chủ nghĩa xã hội dựa trên chủ nghĩa Mác – Lênin và vận dụng sáng tạo vào hoàn cảnh cụ thể."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q072",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan điểm đúng về học tập kinh nghiệm của các nước trong xây dựng chủ nghĩa xã hội là gì?",
+    "options": [
+      "Không học kinh nghiệm vì điều kiện phát triển giữa các nước khác nhau",
+      "Lựa chọn kinh nghiệm theo sự tương đồng về phong tục và địa lý với Việt Nam",
+      "Áp đặt nguyên vẹn mô hình thành công của nước khác vào Việt Nam",
+      "Học kinh nghiệm quốc tế và vận dụng sáng tạo vào Việt Nam"
+    ],
+    "answer": 3,
+    "explanation": "Hồ Chí Minh coi trọng đoàn kết và kinh nghiệm quốc tế nhưng bác bỏ sao chép máy móc. Khác biệt về lịch sử, địa lý, phong tục đòi hỏi Việt Nam tìm cách đi phù hợp.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.b Một số nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+      "text": "Kinh nghiệm quốc tế phải được học tập có chọn lọc và vận dụng sáng tạo vào điều kiện Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q073",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên tắc “xây đi đôi với chống” trong thời kỳ quá độ đòi hỏi điều gì?",
+    "options": [
+      "Vừa xây yếu tố mới, vừa chống lực cản và chủ nghĩa cá nhân",
+      "Tập trung chống cái cũ trước, tạo yếu tố mới ở giai đoạn sau",
+      "Xây dựng kinh tế nhưng xem nhẹ các lực cản chính trị và đạo đức",
+      "Đợi các lực cản tự mất đi rồi mới bắt đầu xây dựng"
+    ],
+    "answer": 0,
+    "explanation": "Thành quả mới chỉ bền vững khi đồng thời loại bỏ những lực cản bên ngoài và bên trong. “Chống” nhằm bảo vệ, thúc đẩy công việc “xây”, còn xây dựng vẫn là định hướng tích cực.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.b Một số nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+      "text": "Xây dựng các yếu tố mới phải gắn với chống phá hoại, tàn dư lạc hậu và chủ nghĩa cá nhân."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q074",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cơ quan định nhập nguyên mẫu chính sách của nước khác vì chính sách đó từng thành công, dù điều kiện lịch sử và xã hội Việt Nam khác biệt. Cách xử lý phù hợp nhất là gì?",
+    "options": [
+      "Ưu tiên kinh nghiệm từ các nước có điều kiện gần với Việt Nam",
+      "Học kinh nghiệm rồi vận dụng sáng tạo theo điều kiện Việt Nam",
+      "Giữ các bước chính của chính sách và điều chỉnh tiến độ cho bối cảnh Việt Nam",
+      "Đổi tên và hình thức tổ chức, còn giữ cơ chế thực hiện của mô hình gốc"
+    ],
+    "answer": 1,
+    "explanation": "Học tập quốc tế phải đi cùng độc lập, tự chủ và hiểu điều kiện cụ thể. Vận dụng sáng tạo giúp giữ giá trị của kinh nghiệm mà tránh giáo điều, sao chép máy móc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > II.3.b Một số nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ",
+      "text": "Kinh nghiệm nước ngoài chỉ phát huy giá trị khi được chuyển hóa phù hợp với hoàn cảnh cụ thể của Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q075",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập dân tộc là tiền đề của chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong mối quan hệ với chủ nghĩa xã hội, độc lập dân tộc giữ vai trò gì?",
+    "options": [
+      "Là kết quả xuất hiện sau khi hoàn thành chủ nghĩa cộng sản",
+      "Là mục tiêu cuối cùng, dừng tiến trình cách mạng sau khi giành độc lập",
+      "Là yếu tố có thể bù đắp bằng tốc độ phát triển kinh tế",
+      "Là mục tiêu trước hết và là tiền đề để tiến lên chủ nghĩa xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Giải phóng dân tộc tạo chính quyền, lực lượng và điều kiện để thực hiện mục tiêu xã hội chủ nghĩa. Hồ Chí Minh vì thế coi độc lập là mục tiêu đầu tiên nhưng không phải đích cuối cùng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.1 Độc lập dân tộc là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội",
+      "text": "Độc lập dân tộc là mục tiêu trước hết và là tiền đề cho cách mạng xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q076",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập dân tộc là tiền đề của chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao mục tiêu độc lập dân tộc trong tư tưởng Hồ Chí Minh đã chứa đựng định hướng tiến lên chủ nghĩa xã hội?",
+    "options": [
+      "Vì độc lập được hiểu là quyền của bộ máy nhà nước, chưa bao hàm đời sống nhân dân",
+      "Vì độc lập được coi là đích cuối cùng, không cần tiếp tục cải biến xã hội sau giải phóng",
+      "Vì độc lập bao hàm dân chủ, thống nhất, chủ quyền cùng tự do, ấm no và hạnh phúc của dân",
+      "Vì độc lập được đồng nhất với việc hoàn thành ngay giai đoạn cộng sản chủ nghĩa"
+    ],
+    "answer": 2,
+    "explanation": "Nội dung độc lập của Hồ Chí Minh không chỉ là chủ quyền quốc gia mà còn hướng tới quyền làm chủ và hạnh phúc của nhân dân. Những yêu cầu ấy mở đường và định hướng cho mục tiêu xã hội chủ nghĩa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.1 Độc lập dân tộc là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội",
+      "text": "Nội dung dân chủ và hạnh phúc của nhân dân trong độc lập dân tộc đã hướng tới mục tiêu xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q077",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập dân tộc là tiền đề của chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách mạng dân tộc dân chủ nhân dân có quan hệ thế nào với cách mạng xã hội chủ nghĩa?",
+    "options": [
+      "Càng sâu sắc thì càng làm giảm nguồn lực dành cho giai đoạn cách mạng tiếp theo",
+      "Càng sâu sắc, triệt để thì càng tạo nhiều tiền đề và sức mạnh cho cách mạng xã hội chủ nghĩa",
+      "Chỉ có ý nghĩa giành chính quyền, không tạo bất kỳ điều kiện xã hội mới nào",
+      "Phải dừng lại sau độc lập để tránh tác động đến những quan hệ của xã hội cũ"
+    ],
+    "answer": 1,
+    "explanation": "Giải phóng dân tộc triệt để tạo chính quyền, lực lượng, niềm tin và những điều kiện xã hội cần thiết. Bởi vậy, nó cung cấp tiền đề và nguồn sức mạnh cho bước phát triển xã hội chủ nghĩa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.1 Độc lập dân tộc là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội",
+      "text": "Cách mạng dân tộc dân chủ càng triệt để càng tạo điều kiện thuận lợi cho cách mạng xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q078",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Độc lập dân tộc là tiền đề của chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hạn chế của quan niệm coi độc lập dân tộc là mục tiêu cuối cùng, không cần tiếp tục xây dựng xã hội mới là gì?",
+    "options": [
+      "Tách độc lập khỏi định hướng xã hội chủ nghĩa và chưa giải quyết triệt để tự do, hạnh phúc của nhân dân",
+      "Đặt quá nhiều yêu cầu về chủ quyền, thống nhất và toàn vẹn lãnh thổ của quốc gia",
+      "Nhấn mạnh quá mức việc giải phóng dân tộc trước khi giải phóng giai cấp và con người",
+      "Coi cách mạng giải phóng dân tộc là một bộ phận của tiến trình cách mạng vô sản"
+    ],
+    "answer": 0,
+    "explanation": "Độc lập là điều kiện đầu tiên nhưng chưa phải điểm kết thúc. Nếu không phát triển lên chủ nghĩa xã hội, mục tiêu giải phóng xã hội, giai cấp và con người chưa được thực hiện triệt để.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.1 Độc lập dân tộc là cơ sở, tiền đề để tiến lên chủ nghĩa xã hội",
+      "text": "Độc lập dân tộc là tiền đề cho cuộc cách mạng tiếp theo chứ không phải mục tiêu cuối cùng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q079",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Chủ nghĩa xã hội bảo đảm độc lập dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điều kiện chính trị quan trọng nhất để chủ nghĩa xã hội bảo đảm nền độc lập dân tộc là gì?",
+    "options": [
+      "Quyền lực tập trung vào một thiểu số không chịu sự kiểm tra của xã hội",
+      "Các quyền dân chủ được tuyên bố nhưng không được thể chế hóa bằng pháp luật",
+      "Chế độ dân chủ do nhân dân làm chủ, dưới sự lãnh đạo của Đảng và được thể chế hóa",
+      "Nhân dân chỉ tham gia bảo vệ đất nước mà không tham gia xây dựng chính quyền"
+    ],
+    "answer": 2,
+    "explanation": "Quyền làm chủ được thể chế hóa tạo nền tảng ý thức và sức mạnh xã hội để bảo vệ chủ quyền. Nhân dân thực sự làm chủ sẽ chủ động chống mọi âm mưu xâm hại độc lập.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.2 Chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc",
+      "text": "Chế độ dân chủ của nhân dân là điều kiện chính trị quan trọng để bảo vệ nền độc lập dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q080",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Chủ nghĩa xã hội bảo đảm độc lập dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao xây dựng chủ nghĩa xã hội tạo nền tảng vững chắc để bảo vệ độc lập dân tộc?",
+    "options": [
+      "Vì thay đổi chế độ sở hữu khiến nguy cơ đối với chủ quyền giảm tương ứng với mức phát triển kinh tế",
+      "Vì phát triển kinh tế cho phép tách quyền lợi nhân dân khỏi nhiệm vụ bảo vệ đất nước",
+      "Vì quan hệ quốc tế có thể đảm nhiệm phần nội lực còn thiếu về chính trị, kinh tế và văn hóa",
+      "Vì dân chủ, kinh tế, công bằng và văn hóa phát triển tạo nên sức mạnh toàn diện của đất nước"
+    ],
+    "answer": 3,
+    "explanation": "Độc lập bền vững cần sức mạnh tổng hợp. Chủ nghĩa xã hội củng cố quyền làm chủ, cơ sở kinh tế, công bằng xã hội, đời sống vật chất và tinh thần, từ đó tăng khả năng bảo vệ chủ quyền.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.2 Chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc",
+      "text": "Sự phát triển toàn diện của chế độ xã hội chủ nghĩa tạo sức mạnh vật chất và tinh thần để giữ vững độc lập."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q081",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Chủ nghĩa xã hội bảo đảm độc lập dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung xã hội nào của chủ nghĩa xã hội góp phần làm cho độc lập dân tộc có cơ sở bền vững?",
+    "options": [
+      "Xóa bỏ áp bức bóc lột, thực hiện công bằng và bảo đảm đời sống vật chất, tinh thần của nhân dân",
+      "Duy trì bất bình đẳng để tạo động lực bảo vệ chủ quyền cho một bộ phận xã hội",
+      "Tách phúc lợi của người yếu thế khỏi mục tiêu phát triển chung của quốc gia",
+      "Hạn chế điều kiện phát triển của con người để ưu tiên bộ máy quản lý"
+    ],
+    "answer": 0,
+    "explanation": "Một xã hội công bằng, không áp bức bóc lột và chăm lo đời sống tạo sự gắn bó của nhân dân với chế độ. Đây là nguồn sức mạnh xã hội để bảo vệ độc lập lâu dài.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.2 Chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc",
+      "text": "Công bằng xã hội và đời sống nhân dân được bảo đảm tạo nền tảng xã hội vững chắc cho độc lập."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q082",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Chủ nghĩa xã hội bảo đảm độc lập dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nước đã giành chủ quyền nhưng dân chủ yếu, kinh tế lạc hậu, bất công kéo dài và đời sống nhân dân không được bảo đảm. Theo Hồ Chí Minh, hướng củng cố độc lập bền vững là gì?",
+    "options": [
+      "Tăng cường nghi lễ về chủ quyền trong khi các điều kiện bên trong được xử lý dần ở giai đoạn sau",
+      "Dựa chủ yếu vào bảo trợ bên ngoài để bù đắp năng lực xây dựng nội lực của đất nước",
+      "Tạm gác quyền làm chủ và phúc lợi của dân để duy trì nguyên trạng xã hội",
+      "Xây dựng chủ nghĩa xã hội, phát triển đồng bộ dân chủ, kinh tế, văn hóa và công bằng"
+    ],
+    "answer": 3,
+    "explanation": "Chủ quyền pháp lý cần được nâng đỡ bởi nội lực thực tế. Xây dựng chủ nghĩa xã hội tạo chế độ dân chủ, kinh tế phát triển và sự đồng thuận xã hội, qua đó làm nền độc lập vững chắc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.2 Chủ nghĩa xã hội là điều kiện để bảo đảm nền độc lập dân tộc vững chắc",
+      "text": "Xây dựng chủ nghĩa xã hội trên các lĩnh vực tạo nội lực toàn diện để bảo vệ nền độc lập."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q083",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điều kiện đầu tiên để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội là gì?",
+    "options": [
+      "Đặt liên minh công – nông – trí ngoài khối đại đoàn kết toàn dân",
+      "Tách cách mạng Việt Nam khỏi phong trào hòa bình và tiến bộ thế giới",
+      "Bảo đảm vai trò lãnh đạo của Đảng Cộng sản trong suốt tiến trình cách mạng",
+      "Thay đường lối độc lập bằng sự chỉ đạo trực tiếp của lực lượng bên ngoài"
+    ],
+    "answer": 2,
+    "explanation": "Đảng bảo đảm cách mạng đi theo con đường vô sản và giữ định hướng xã hội chủ nghĩa. Nếu mất vai trò lãnh đạo, cả mục tiêu độc lập lẫn chủ nghĩa xã hội đều bị đe dọa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Vai trò lãnh đạo xuyên suốt của Đảng Cộng sản là điều kiện bảo đảm phương hướng cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q084",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Ba điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội có quan hệ như thế nào?",
+    "options": [
+      "Ba điều kiện đều cần nhưng có thể thay thế nhau tùy từng giai đoạn",
+      "Đảng lãnh đạo, đoàn kết dân tộc tạo nội lực, đoàn kết quốc tế thêm sức mạnh",
+      "Mỗi điều kiện phụ trách một lĩnh vực riêng rồi tổng hợp kết quả",
+      "Thực hiện lần lượt: Đảng lãnh đạo, đoàn kết dân tộc rồi đoàn kết quốc tế"
+    ],
+    "answer": 1,
+    "explanation": "Ba điều kiện tạo thành hệ thống: Đảng định hướng và tổ chức, đại đoàn kết quy tụ sức dân, đoàn kết quốc tế kết hợp sức mạnh dân tộc với sức mạnh thời đại.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Vai trò của Đảng, đại đoàn kết dân tộc và đoàn kết quốc tế phải được bảo đảm đồng thời, gắn bó chặt chẽ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q085",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nền tảng của khối đại đoàn kết dân tộc trong điều kiện bảo đảm độc lập gắn với chủ nghĩa xã hội là gì?",
+    "options": [
+      "Liên minh giữa các nhóm có đặc quyền kinh tế và quyền lực hành chính",
+      "Liên minh giữa những lực lượng tách khỏi lợi ích của quần chúng lao động",
+      "Liên minh tạm thời không cần sự lãnh đạo hoặc mục tiêu chính trị chung",
+      "Liên minh công nhân, nông dân và trí thức dưới sự lãnh đạo của Đảng"
+    ],
+    "answer": 3,
+    "explanation": "Đại đoàn kết toàn dân phải có nền tảng vững chắc là liên minh công – nông – trí. Sự lãnh đạo của Đảng giúp liên minh và toàn khối hướng vào mục tiêu độc lập, chủ nghĩa xã hội.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Khối đại đoàn kết dân tộc dựa trên nền tảng liên minh công nhân, nông dân và trí thức."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q086",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đoàn kết với cách mạng thế giới góp phần bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội bằng cách nào?",
+    "options": [
+      "Để lực lượng quốc tế quyết định phương hướng thay cho nội lực dân tộc",
+      "Đặt cách mạng trong nước vào sự lệ thuộc đối với mô hình bên ngoài",
+      "Phối hợp sức mạnh vì hòa bình, độc lập, dân chủ và chủ nghĩa xã hội",
+      "Giới hạn quan hệ quốc tế ở việc tiếp nhận vật chất mà không có nghĩa vụ chung"
+    ],
+    "answer": 2,
+    "explanation": "Đoàn kết quốc tế vừa giúp tăng sức mạnh cho cách mạng Việt Nam, vừa thể hiện trách nhiệm đối với mục tiêu tiến bộ chung. Điều đó không phủ nhận độc lập, tự chủ của dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Đoàn kết quốc tế kết hợp sức mạnh cách mạng Việt Nam với lực lượng hòa bình, dân chủ và xã hội chủ nghĩa thế giới."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q087",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức bị suy yếu vai trò lãnh đạo, xã hội chia rẽ và đất nước tự cô lập với lực lượng tiến bộ quốc tế. Chẩn đoán nào đúng theo ba điều kiện của Hồ Chí Minh?",
+    "options": [
+      "Nguồn hỗ trợ vật chất từ bên ngoài suy giảm, còn hai điều kiện trong nước vẫn ổn định",
+      "Cả vai trò lãnh đạo, đại đoàn kết dân tộc và đoàn kết quốc tế đều đang bị suy giảm",
+      "Mở rộng đối ngoại sẽ kéo theo sự phục hồi vai trò lãnh đạo và khối đại đoàn kết",
+      "Tình trạng này không liên quan đến việc giữ độc lập và định hướng xã hội chủ nghĩa"
+    ],
+    "answer": 1,
+    "explanation": "Tình huống đồng thời chạm vào cả ba điều kiện. Muốn bảo đảm mục tiêu kép cần củng cố Đảng, hàn gắn và phát huy đại đoàn kết, đồng thời mở rộng đoàn kết quốc tế trên cơ sở độc lập.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Ba điều kiện bảo đảm phải cùng được củng cố, không thể dùng một điều kiện để thay thế hai điều kiện còn lại."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q088",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Điều kiện bảo đảm độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao vai trò lãnh đạo của Đảng cần được bảo đảm trong cả cách mạng giải phóng dân tộc và cách mạng xã hội chủ nghĩa?",
+    "options": [
+      "Vì Đảng tổ chức giành độc lập và định hướng xây dựng chủ nghĩa xã hội",
+      "Vì sau khi giành độc lập, nhân dân không còn vai trò trong việc xây dựng chế độ mới",
+      "Vì Đảng có thể thay thế toàn bộ Nhà nước, Mặt trận và các tổ chức của quần chúng",
+      "Vì vai trò lãnh đạo cho phép bỏ qua việc củng cố đoàn kết và quan hệ quốc tế"
+    ],
+    "answer": 0,
+    "explanation": "Sự lãnh đạo của Đảng nối liền hai giai đoạn cách mạng trong cùng một phương hướng. Đảng tổ chức sức dân giành độc lập và tiếp tục dẫn dắt công cuộc xây dựng xã hội mới.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > III.3 Điều kiện để bảo đảm độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+      "text": "Vai trò lãnh đạo xuyên suốt của Đảng bảo đảm sự liên tục giữa giải phóng dân tộc và xây dựng chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q089",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Kiên định mục tiêu và con đường cách mạng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hướng vận dụng đầu tiên của tư tưởng Hồ Chí Minh về độc lập dân tộc gắn với chủ nghĩa xã hội hiện nay là gì?",
+    "options": [
+      "Tách độc lập dân tộc khỏi mục tiêu phát triển xã hội chủ nghĩa",
+      "Kiên định mục tiêu và con đường cách mạng mà Hồ Chí Minh đã xác định",
+      "Thay định hướng lâu dài bằng những lựa chọn ngắn hạn tùy thời điểm",
+      "Coi mục tiêu cách mạng đã hoàn thành nên không cần tiếp tục vận dụng"
+    ],
+    "answer": 1,
+    "explanation": "Theo giáo trình năm 2021, độc lập dân tộc và chủ nghĩa xã hội vẫn là ngọn cờ định hướng. Kiên định mục tiêu phải đi cùng vận dụng sáng tạo trong hoàn cảnh mới.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.1 Kiên định mục tiêu và con đường cách mạng mà Hồ Chí Minh đã xác định",
+      "text": "Vận dụng hiện nay trước hết là giữ vững mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q090",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Kiên định mục tiêu và con đường cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, kiên định mục tiêu và đổi mới sáng tạo có quan hệ như thế nào?",
+    "options": [
+      "Kiên định nghĩa là giữ nguyên các biện pháp đã chọn từ đầu dù điều kiện thực tế biến đổi",
+      "Đổi mới nghĩa là điều chỉnh cả mục tiêu độc lập dân tộc và chủ nghĩa xã hội",
+      "Giữ vững mục tiêu chiến lược, đồng thời đổi mới cách làm theo thực tiễn và quy luật",
+      "Hai yêu cầu xung đột nên phải ưu tiên một yêu cầu trong từng giai đoạn"
+    ],
+    "answer": 2,
+    "explanation": "Kiên định thuộc về mục tiêu và phương hướng; đổi mới thuộc về nhận thức, biện pháp và cách tổ chức thực hiện. Sự thống nhất ấy tránh cả dao động mục tiêu lẫn giáo điều phương pháp.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.1 Kiên định mục tiêu và con đường cách mạng mà Hồ Chí Minh đã xác định",
+      "text": "Cương lĩnh kết hợp tính kiên định mục tiêu với đổi mới, khoa học và sáng tạo trong thực tiễn."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q091",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Kiên định mục tiêu và con đường cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, bài học đầu tiên trong Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội, được bổ sung và phát triển tại Đại hội XI, là gì?",
+    "options": [
+      "Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội",
+      "Đặt tăng trưởng kinh tế tách khỏi mục tiêu chính trị và xã hội",
+      "Dùng một mô hình cố định thay cho việc giải quyết các quan hệ thực tiễn",
+      "Xem nhẹ quyền làm chủ của nhân dân trong thời kỳ quá độ"
+    ],
+    "answer": 0,
+    "explanation": "Từ thực tiễn cách mạng, Cương lĩnh khẳng định bài học nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội, tiếp nối phương hướng Hồ Chí Minh đã lựa chọn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.1 Kiên định mục tiêu và con đường cách mạng mà Hồ Chí Minh đã xác định",
+      "text": "Giáo trình năm 2021 dẫn Cương lĩnh được Đại hội XI bổ sung, phát triển và nêu bài học hàng đầu là nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q092",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Phát huy dân chủ xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, phát huy dân chủ xã hội chủ nghĩa trước hết nhằm bảo đảm nguyên tắc nào?",
+    "options": [
+      "Quyền lực nhà nước thuộc về cơ quan hành chính, còn nhân dân thực hiện quyền qua các kỳ bầu cử",
+      "Quyền lực nhà nước thuộc về nhân dân; dân tham gia các quyết định liên quan đến mình",
+      "Quyền làm chủ tập trung trong lĩnh vực kinh tế của địa phương",
+      "Dân chủ được thực hiện bằng việc thông báo quyết định sau khi ban hành"
+    ],
+    "answer": 1,
+    "explanation": "Bản chất của dân chủ xã hội chủ nghĩa là quyền lực thuộc về nhân dân. Dân chủ phải đi vào mọi lĩnh vực và mọi khâu liên quan đến lợi ích, cuộc sống của dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.2 Phát huy sức mạnh dân chủ xã hội chủ nghĩa",
+      "text": "Dân chủ xã hội chủ nghĩa bảo đảm quyền lực nhà nước thuộc về nhân dân và được thực hành thực chất."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q093",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Phát huy dân chủ xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, cách làm nào thể hiện dân chủ thực chất hơn dân chủ hình thức?",
+    "options": [
+      "Lấy ý kiến nhân dân sau khi quyết định đã triển khai, rồi tổng hợp cho kỳ kế hoạch tiếp theo",
+      "Công bố khẩu hiệu về dân chủ nhưng hạn chế quyền kiểm tra của nhân dân",
+      "Mời một nhóm đại diện tham gia khi vấn đề đã hết tác động trực tiếp đến dân",
+      "Để dân biết, bàn, làm và kiểm tra các khâu liên quan đến lợi ích của mình"
+    ],
+    "answer": 3,
+    "explanation": "Dân chủ thực chất không dừng ở thông báo hay khẩu hiệu. Nhân dân phải có khả năng tham gia từ tiếp cận thông tin, thảo luận, thực hiện đến kiểm tra quyết định.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.2 Phát huy sức mạnh dân chủ xã hội chủ nghĩa",
+      "text": "Dân chủ được thực hiện qua phương châm dân biết, dân bàn, dân làm và dân kiểm tra."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q094",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Phát huy dân chủ xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, một nhóm viện dẫn dân chủ để xâm phạm quyền người khác và gây mất trật tự, trong khi cơ quan quản lý muốn hạn chế mọi phản biện. Cách xử lý nào phù hợp?",
+    "options": [
+      "Bảo vệ quyền dân chủ, tăng pháp chế và trách nhiệm công dân, đồng thời xử lý hành vi lợi dụng dân chủ",
+      "Ưu tiên tự do biểu đạt, chỉ xử lý vi phạm sau khi có hậu quả để tránh hạn chế dân chủ",
+      "Tạm thu hẹp cơ chế tham gia trong khi củng cố trật tự và khuôn khổ pháp luật",
+      "Đặt trọng tâm vào giáo dục đạo đức, lùi hoàn thiện pháp luật sang giai đoạn sau"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình yêu cầu dân chủ đi đôi với pháp chế, trách nhiệm và đạo đức xã hội. Phải chống cả dân chủ hình thức lẫn việc lợi dụng dân chủ, nhưng không được lấy đó làm lý do thu hẹp quyền chính đáng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.2 Phát huy sức mạnh dân chủ xã hội chủ nghĩa",
+      "text": "Phát huy dân chủ phải gắn với pháp chế, quyền con người, trách nhiệm công dân và xử lý hành vi lợi dụng dân chủ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q095",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Củng cố và phát huy hệ thống chính trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, hệ thống chính trị Việt Nam có đặc điểm nào?",
+    "options": [
+      "Đa nguyên về mục tiêu và không có sự phối hợp giữa các tổ chức",
+      "Các cơ quan hoạt động tách biệt, không cùng chịu trách nhiệm trước nhân dân",
+      "Mỗi tổ chức theo một hệ tư tưởng và một hướng phát triển khác nhau",
+      "Nhất nguyên, thống nhất dưới sự lãnh đạo của Đảng và thống nhất về mục tiêu chính trị"
+    ],
+    "answer": 3,
+    "explanation": "Các tổ chức có vị trí, chức năng và phương thức khác nhau nhưng cùng nằm trong một hệ thống thống nhất về chính trị, tổ chức, tư tưởng và mục tiêu dưới sự lãnh đạo của Đảng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.3 Củng cố, kiện toàn, phát huy sức mạnh và hiệu quả hoạt động của toàn bộ hệ thống chính trị",
+      "text": "Hệ thống chính trị Việt Nam có tính nhất nguyên và thống nhất dưới sự lãnh đạo của Đảng."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q096",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Củng cố và phát huy hệ thống chính trị",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, nhân dân thực hiện quyền làm chủ thông qua những kênh nào?",
+    "options": [
+      "Thông qua cơ quan nhà nước và dân chủ đại diện là chính, hạn chế hình thức trực tiếp",
+      "Thông qua các tổ chức chính trị – xã hội, còn Nhà nước chỉ thi hành quyết định đã có",
+      "Thông qua Nhà nước, toàn bộ hệ thống chính trị cùng các hình thức dân chủ trực tiếp và đại diện",
+      "Thông qua tham vấn ngoài thiết chế trước khi pháp luật tạo các cơ chế chính thức"
+    ],
+    "answer": 2,
+    "explanation": "Quyền làm chủ được thực hiện bằng nhiều cơ chế bổ sung nhau: Nhà nước, các tổ chức của hệ thống chính trị, dân chủ trực tiếp và dân chủ đại diện.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.3 Củng cố, kiện toàn, phát huy sức mạnh và hiệu quả hoạt động của toàn bộ hệ thống chính trị",
+      "text": "Nhân dân làm chủ qua Nhà nước, hệ thống chính trị và cả hình thức dân chủ trực tiếp lẫn đại diện."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q097",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Củng cố và phát huy hệ thống chính trị",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, các tổ chức khác nhau về chức năng trong hệ thống chính trị thống nhất với nhau ở điểm nào?",
+    "options": [
+      "Mỗi tổ chức theo đuổi lợi ích riêng và phối hợp theo từng vụ việc, không đặt dưới một mục tiêu chính trị chung",
+      "Các tổ chức gắn bó để phát huy sức mạnh chung, xây dựng, bảo vệ Tổ quốc và thực hiện dân chủ",
+      "Chức năng khác nhau làm cho mục tiêu chính trị chung không còn cần thiết",
+      "Sự thống nhất đòi hỏi các tổ chức áp dụng cùng phương thức hoạt động"
+    ],
+    "answer": 1,
+    "explanation": "Thống nhất không có nghĩa đồng nhất chức năng. Mỗi tổ chức thực hiện nhiệm vụ riêng nhưng phối hợp trong mục tiêu chung là xây dựng, bảo vệ đất nước và bảo đảm quyền làm chủ của dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.3 Củng cố, kiện toàn, phát huy sức mạnh và hiệu quả hoạt động của toàn bộ hệ thống chính trị",
+      "text": "Khác biệt về chức năng và phương thức hoạt động được liên kết trong mục tiêu chung của hệ thống chính trị."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q098",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đấu tranh chống suy thoái, tự diễn biến, tự chuyển hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hướng vận dụng thứ tư được giáo trình nêu trong giai đoạn hiện nay là gì?",
+    "options": [
+      "Giảm công tác xây dựng Đảng để tập trung vào tăng trưởng ngắn hạn",
+      "Chỉ xử lý sai phạm kinh tế, không xem xét tư tưởng, đạo đức và lối sống",
+      "Coi biểu hiện suy thoái là vấn đề cá nhân, không ảnh hưởng đến chế độ",
+      "Chống suy thoái tư tưởng, đạo đức, lối sống và tự diễn biến, tự chuyển hóa"
+    ],
+    "answer": 3,
+    "explanation": "Theo giáo trình năm 2021, ngăn chặn suy thoái và các biểu hiện tự diễn biến, tự chuyển hóa là nhiệm vụ trực tiếp để xây dựng Đảng, bảo vệ chế độ và mục tiêu cách mạng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.4 Đấu tranh chống những biểu hiện suy thoái về tư tưởng chính trị, đạo đức, lối sống và tự diễn biến, tự chuyển hóa trong nội bộ",
+      "text": "Vận dụng hiện nay gồm ngăn chặn suy thoái và các biểu hiện tự diễn biến, tự chuyển hóa trong nội bộ."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q099",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đấu tranh chống suy thoái, tự diễn biến, tự chuyển hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, vì sao xây dựng, chỉnh đốn Đảng được coi là nhiệm vụ then chốt?",
+    "options": [
+      "Vì Đảng trong sạch, vững mạnh mới đủ sức lãnh đạo và thực hiện mục tiêu cách mạng",
+      "Vì xây dựng Đảng quyết định trực tiếp tiến độ của các nhiệm vụ kinh tế, văn hóa và xã hội",
+      "Vì chỉnh đốn Đảng tập trung vào thủ tục tổ chức, tách khỏi niềm tin của nhân dân",
+      "Vì sau khi có chính quyền, vai trò lãnh đạo không còn phụ thuộc phẩm chất của cán bộ, đảng viên"
+    ],
+    "answer": 0,
+    "explanation": "Suy thoái trong Đảng đe dọa trực tiếp vai trò lãnh đạo và sự tồn tại của chế độ. Xây dựng, chỉnh đốn Đảng bảo đảm tổ chức lãnh đạo đủ năng lực và đạo đức để thực hiện mục tiêu độc lập, xã hội chủ nghĩa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.4 Đấu tranh chống những biểu hiện suy thoái về tư tưởng chính trị, đạo đức, lối sống và tự diễn biến, tự chuyển hóa trong nội bộ",
+      "text": "Xây dựng, chỉnh đốn Đảng là nhiệm vụ then chốt để bảo vệ vai trò lãnh đạo và con đường xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C03-Q100",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Đấu tranh chống suy thoái, tự diễn biến, tự chuyển hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, một tổ chức né tránh trách nhiệm, nói không đi đôi với làm, để lợi ích cá nhân lấn át lợi ích chung và làm giảm niềm tin của dân. Hướng xử lý nào phù hợp nhất?",
+    "options": [
+      "Tăng tuyên truyền thành tích, còn công tác xây dựng tổ chức được xử lý ở giai đoạn sau",
+      "Xem đây là biểu hiện riêng lẻ và duy trì cơ chế kiểm tra hiện hành",
+      "Chỉnh đốn tổ chức, thực hiện nghị quyết và ngăn suy thoái bằng hành động",
+      "Thu hẹp giám sát của nhân dân để tránh làm lộ những hạn chế nội bộ"
+    ],
+    "answer": 2,
+    "explanation": "Những dấu hiệu trong tình huống phù hợp nhóm biểu hiện suy thoái mà giáo trình cảnh báo. Cần biến yêu cầu xây dựng Đảng thành kiểm tra, chỉnh đốn và hành động thực chất, không chỉ dừng ở lời nói.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 3 > IV.4 Đấu tranh chống những biểu hiện suy thoái về tư tưởng chính trị, đạo đức, lối sống và tự diễn biến, tự chuyển hóa trong nội bộ",
+      "text": "Ngăn chặn suy thoái đòi hỏi thực hiện có kết quả các nghị quyết xây dựng Đảng bằng hành động cụ thể."
+    }
+  }
+]

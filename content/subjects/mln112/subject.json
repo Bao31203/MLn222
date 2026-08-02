@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "mln112",
+  "code": "MLN112",
+  "legacyAliases": [
+    "mln122",
+    "mln222"
+  ],
+  "title": "Kinh tế chính trị Mác – Lênin",
+  "description": "Ngân hàng ôn tập sáu chương, bài giảng video và trò chơi Công thành của học phần Kinh tế chính trị Mác – Lênin.",
+  "status": "ready",
+  "studyReady": true,
+  "copyReviewRequired": false,
+  "features": {
+    "quiz": true,
+    "flashcards": true,
+    "search": true,
+    "lectures": true,
+    "game": true
+  },
+  "questionTarget": 504,
+  "chapters": [
+    {
+      "id": "mln112-c01",
+      "number": 1,
+      "title": "Chương 1 · Slot 1: Khái quát môn học",
+      "questionTarget": 64
+    },
+    {
+      "id": "mln112-c02",
+      "number": 2,
+      "title": "Chương 2 · Slot 2: Hàng hóa, thị trường và các chủ thể tham gia thị trường",
+      "questionTarget": 89
+    },
+    {
+      "id": "mln112-c03",
+      "number": 3,
+      "title": "Chương 3 · Slot 3+4: Giá trị thặng dư và tích lũy tư bản",
+      "questionTarget": 99
+    },
+    {
+      "id": "mln112-c04",
+      "number": 4,
+      "title": "Chương 4 · Slot 5+6: Cạnh tranh và độc quyền trong nền kinh tế thị trường",
+      "questionTarget": 84
+    },
+    {
+      "id": "mln112-c05",
+      "number": 5,
+      "title": "Chương 5 · Slot 7+8: Kinh tế thị trường định hướng XHCN và quan hệ lợi ích",
+      "questionTarget": 84
+    },
+    {
+      "id": "mln112-c06",
+      "number": 6,
+      "title": "Chương 6 · Slot 9+10: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế",
+      "questionTarget": 84
+    }
+  ],
+  "questionFiles": [
+    {
+      "chapterNum": 1,
+      "path": "chapters/chapter-01.json"
+    },
+    {
+      "chapterNum": 2,
+      "path": "chapters/chapter-02.json"
+    },
+    {
+      "chapterNum": 3,
+      "path": "chapters/chapter-03.json"
+    },
+    {
+      "chapterNum": 4,
+      "path": "chapters/chapter-04.json"
+    },
+    {
+      "chapterNum": 5,
+      "path": "chapters/chapter-05.json"
+    },
+    {
+      "chapterNum": 6,
+      "path": "chapters/chapter-06.json"
+    }
+  ],
+  "lectureManifest": "lectures.json",
+  "validation": {
+    "questionIdPattern": "^C\\d{2}-Q\\d{3}$",
+    "courseIdPolicy": "forbidden",
+    "allowedKinds": [
+      "nhan_biet_khai_niem",
+      "thong_hieu_phan_biet",
+      "trinh_tu_quan_he",
+      "van_dung_tinh_huong",
+      "van_dung_tinh_toan"
+    ],
+    "difficultyTargets": {
+      "Nhận biết": 204,
+      "Thông hiểu": 204,
+      "Vận dụng": 96
+    },
+    "answerPositionTargets": [
+      127,
+      126,
+      126,
+      125
+    ],
+    "chapterTargets": [
+      {
+        "chapterNum": 1,
+        "difficultyTargets": {
+          "Nhận biết": 26,
+          "Thông hiểu": 26,
+          "Vận dụng": 12
+        },
+        "answerPositionTargets": [16, 16, 16, 16]
+      },
+      {
+        "chapterNum": 2,
+        "difficultyTargets": {
+          "Nhận biết": 36,
+          "Thông hiểu": 36,
+          "Vận dụng": 17
+        },
+        "answerPositionTargets": [23, 22, 22, 22]
+      },
+      {
+        "chapterNum": 3,
+        "difficultyTargets": {
+          "Nhận biết": 40,
+          "Thông hiểu": 40,
+          "Vận dụng": 19
+        },
+        "answerPositionTargets": [25, 25, 25, 24]
+      },
+      {
+        "chapterNum": 4,
+        "difficultyTargets": {
+          "Nhận biết": 34,
+          "Thông hiểu": 34,
+          "Vận dụng": 16
+        },
+        "answerPositionTargets": [21, 21, 21, 21]
+      },
+      {
+        "chapterNum": 5,
+        "difficultyTargets": {
+          "Nhận biết": 34,
+          "Thông hiểu": 34,
+          "Vận dụng": 16
+        },
+        "answerPositionTargets": [21, 21, 21, 21]
+      },
+      {
+        "chapterNum": 6,
+        "difficultyTargets": {
+          "Nhận biết": 34,
+          "Thông hiểu": 34,
+          "Vận dụng": 16
+        },
+        "answerPositionTargets": [21, 21, 21, 21]
+      }
+    ],
+    "sourcePolicy": {
+      "schema": "legacy-pdf-page",
+      "allowedSources": [
+        {
+          "file": "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+          "label": "Giáo trình Kinh tế chính trị Mác – Lênin"
+        }
+      ],
+      "allowedSlideFiles": [
+        {
+          "chapterNum": 1,
+          "file": "MLN122. Slot 1. Khái quát môn học.pptx.txt"
+        },
+        {
+          "chapterNum": 2,
+          "file": "MLN122. Slot 2. Hàng hoá và Thị trường.pptx.txt"
+        },
+        {
+          "chapterNum": 3,
+          "file": "MLN122. Slot 3+4. Giá trị thặng dư-Tích luỹ tư bản.pptx.txt"
+        },
+        {
+          "chapterNum": 4,
+          "file": "MLN122. Slot 5+6. Cạnh tranh và độc quyền trong nền KTTT.pptx.txt"
+        },
+        {
+          "chapterNum": 5,
+          "file": "MLN122. Slot 7+8. Kinh tế thị trường định hướng XHCN và các quan hệ lợi ích KT.pptx.txt"
+        },
+        {
+          "chapterNum": 6,
+          "file": "MLN122. Slot 9+10. Công nghiệp hoá-Hiện đại hoá và hội nhập kinh tế QT.pptx.txt"
+        }
+      ],
+      "chapterPageRanges": [
+        {"chapterNum": 1, "first": 8, "last": 28},
+        {"chapterNum": 2, "first": 29, "last": 74},
+        {"chapterNum": 3, "first": 75, "last": 111},
+        {"chapterNum": 4, "first": 112, "last": 151},
+        {"chapterNum": 5, "first": 152, "last": 200},
+        {"chapterNum": 6, "first": 201, "last": 259}
+      ]
+    },
+    "reviewSignoffPath": null
+  }
+}

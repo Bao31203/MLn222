@@ -23,9 +23,13 @@
     if (!contracts.isPlainObject(question.source)) return "";
     var source = question.source;
     var parts = [];
-    if (typeof source.file === "string" && source.file) parts.push(source.file);
-    if (Number.isSafeInteger(source.page)) parts.push("trang " + source.page);
-    if (contracts.isPlainObject(source.slide) && Number.isSafeInteger(source.slide.number)) parts.push("slide " + source.slide.number);
+    if (typeof source.label === "string" && source.label) parts.push(source.label);
+    if (typeof source.section === "string" && source.section) parts.push(source.section);
+    if (parts.length === 0) {
+      if (typeof source.file === "string" && source.file) parts.push(source.file);
+      if (Number.isSafeInteger(source.page)) parts.push("trang " + source.page);
+      if (contracts.isPlainObject(source.slide) && Number.isSafeInteger(source.slide.number)) parts.push("slide " + source.slide.number);
+    }
     return parts.join(" · ");
   }
 

@@ -1,0 +1,3682 @@
+[
+  {
+    "id": "MLN111-C03-Q001",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Sản xuất vật chất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo chủ nghĩa duy vật lịch sử, sản xuất vật chất là quá trình nào?",
+    "options": [
+      "Con người duy trì nòi giống bằng các hoạt động sinh học tự nhiên",
+      "Con người dùng công cụ lao động cải biến tự nhiên để tạo ra của cải xã hội",
+      "Con người tổ chức các thiết chế chính trị để quản lý cộng đồng",
+      "Con người xây dựng các học thuyết nhằm giải thích đời sống tinh thần"
+    ],
+    "answer": 1,
+    "explanation": "Sản xuất vật chất là hoạt động con người sử dụng công cụ lao động tác động vào tự nhiên, biến đổi các dạng vật chất để tạo ra của cải đáp ứng nhu cầu tồn tại và phát triển.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I. Học thuyết hình thái kinh tế - xã hội > 1. Sản xuất vật chất",
+      "text": "Nguồn xác định sản xuất vật chất là quá trình dùng công cụ tác động vào tự nhiên để tạo ra của cải xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q002",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Sản xuất xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sản xuất xã hội gồm ba phương diện không tách rời nào?",
+    "options": [
+      "Kinh tế, chính trị và văn hóa",
+      "Sản xuất công nghiệp, nông nghiệp và dịch vụ",
+      "Sản xuất vật chất, sản xuất tinh thần và sản xuất ra bản thân con người",
+      "Sản xuất, phân phối và tiêu dùng sản phẩm"
+    ],
+    "answer": 2,
+    "explanation": "Sản xuất và tái sản xuất đời sống hiện thực gồm sản xuất vật chất, sản xuất tinh thần và sản xuất ra bản thân con người. Ba phương diện gắn bó nhưng có vị trí, vai trò khác nhau.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I. Học thuyết hình thái kinh tế - xã hội > 1. Sản xuất vật chất",
+      "text": "Nguồn nêu ba phương diện của sản xuất xã hội là vật chất, tinh thần và sản xuất ra bản thân con người."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q003",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phương thức sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương thức sản xuất là sự thống nhất của hai mặt nào?",
+    "options": [
+      "Sản xuất vật chất và sản xuất tinh thần",
+      "Cơ sở hạ tầng và kiến trúc thượng tầng",
+      "Lực lượng sản xuất và quan hệ sản xuất",
+      "Tồn tại xã hội và ý thức xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Phương thức sản xuất là cách thức con người tiến hành sản xuất vật chất trong một giai đoạn lịch sử, được cấu thành bởi lực lượng sản xuất ở một trình độ nhất định và quan hệ sản xuất tương ứng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X. Hình thái kinh tế - xã hội > II.1. Phương thức sản xuất",
+      "text": "Giáo trình trình bày phương thức sản xuất là sự thống nhất giữa lực lượng sản xuất và quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q004",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò của sản xuất vật chất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao sản xuất vật chất được xem là cơ sở của sự tồn tại và phát triển xã hội?",
+    "options": [
+      "Vì nó tạo tư liệu sinh hoạt và nền tảng hình thành các quan hệ xã hội",
+      "Vì nó trực tiếp quyết định mọi ý nghĩ riêng lẻ của từng cá nhân",
+      "Vì nó chỉ tạo ra công cụ cho một nhóm người lao động",
+      "Vì nó thay thế hoàn toàn các hoạt động tinh thần của con người"
+    ],
+    "answer": 0,
+    "explanation": "Sản xuất vật chất trước hết tạo ra tư liệu sinh hoạt duy trì con người, đồng thời hình thành các quan hệ kinh tế - vật chất làm cơ sở cho những quan hệ xã hội khác. Nó không thay thế đời sống tinh thần hay quyết định máy móc từng suy nghĩ cá nhân.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X. Hình thái kinh tế - xã hội > I.3. Sản xuất vật chất",
+      "text": "Sản xuất vật chất tạo điều kiện vật chất cho đời sống và là cơ sở hình thành các quan hệ xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q005",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của sản xuất vật chất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt trực tiếp sản xuất vật chất với sản xuất tinh thần?",
+    "options": [
+      "Sản xuất vật chất cải biến các dạng vật chất tự nhiên để tạo ra của cải",
+      "Sản xuất vật chất không chịu ảnh hưởng của quan hệ giữa người với người",
+      "Sản xuất vật chất chỉ diễn ra khi không có sự tham gia của ý thức",
+      "Sản xuất vật chất tạo ra mọi quan niệm và học thuyết của xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Đặc trưng trực tiếp của sản xuất vật chất là con người dùng công cụ cải biến tự nhiên để tạo ra của cải. Hoạt động này vẫn có mục đích, có ý thức và luôn diễn ra trong những quan hệ xã hội nhất định.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I. Học thuyết hình thái kinh tế - xã hội > 1. Sản xuất vật chất",
+      "text": "Nguồn xác định sản xuất vật chất là hoạt động dùng công cụ cải biến tự nhiên để tạo ra của cải xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q006",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phương thức sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào thể hiện đúng tính lịch sử của phương thức sản xuất?",
+    "options": [
+      "Phương thức sản xuất tồn tại độc lập với hoạt động của con người",
+      "Mọi xã hội đều sử dụng một cách thức sản xuất không thay đổi",
+      "Phương thức sản xuất chỉ thay đổi khi tư tưởng xã hội tự thay đổi",
+      "Mỗi giai đoạn lịch sử có sự thống nhất cụ thể giữa lực lượng sản xuất và quan hệ sản xuất"
+    ],
+    "answer": 3,
+    "explanation": "Phương thức sản xuất là cách thức sản xuất vật chất ở những giai đoạn lịch sử nhất định. Vì trình độ lực lượng sản xuất và quan hệ sản xuất biến đổi nên phương thức sản xuất cũng có tính lịch sử.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a. Phương thức sản xuất",
+      "text": "Nguồn gắn phương thức sản xuất với một giai đoạn lịch sử và sự thống nhất cụ thể của hai mặt sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q007",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò của sản xuất vật chất",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cộng đồng muốn cải thiện bền vững giáo dục, y tế và đời sống văn hóa nhưng tư liệu sinh hoạt vẫn thiếu nghiêm trọng. Theo quan điểm duy vật lịch sử, việc ưu tiên nào tạo nền tảng trực tiếp nhất?",
+    "options": [
+      "Phát triển sản xuất vật chất để tạo tư liệu sinh hoạt và điều kiện kinh tế",
+      "Tạm ngừng mọi hoạt động sản xuất để tập trung xây dựng ý thức",
+      "Chỉ thay đổi các biểu tượng văn hóa của cộng đồng",
+      "Chỉ tăng số lượng các diễn đàn tranh luận lý luận"
+    ],
+    "answer": 0,
+    "explanation": "Giáo dục, y tế và văn hóa rất quan trọng, nhưng sản xuất vật chất cung cấp tư liệu sinh hoạt và cơ sở kinh tế cho các hoạt động đó. Ưu tiên phát triển sản xuất không có nghĩa là xem nhẹ đời sống tinh thần.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > I.3. Sản xuất vật chất - cơ sở của sự tồn tại và phát triển xã hội",
+      "text": "Muốn nhận thức và cải tạo xã hội phải xuất phát từ đời sống sản xuất và nền tảng kinh tế - vật chất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q008",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phương thức sản xuất",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Hai xã hội cùng sản xuất một loại sản phẩm nhưng một xã hội dùng lao động thủ công trong quan hệ phường hội, xã hội kia dùng dây chuyền tự động trong quan hệ doanh nghiệp. Khái niệm nào phản ánh đầy đủ nhất sự khác nhau đó?",
+    "options": [
+      "Phương thức sản xuất",
+      "Ý thức xã hội thông thường",
+      "Hình thức nhà nước",
+      "Điều kiện địa lý"
+    ],
+    "answer": 0,
+    "explanation": "Tình huống khác nhau đồng thời về trình độ lực lượng sản xuất và quan hệ tổ chức sản xuất. Sự thống nhất của hai mặt này trong từng giai đoạn được gọi là phương thức sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a. Phương thức sản xuất",
+      "text": "Phương thức sản xuất bao quát cả lực lượng sản xuất ở trình độ nhất định và quan hệ sản xuất tương ứng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q009",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Lực lượng sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Lực lượng sản xuất được hình thành từ sự kết hợp cơ bản nào?",
+    "options": [
+      "Quan hệ sở hữu với quan hệ phân phối",
+      "Tâm lý xã hội với hệ tư tưởng",
+      "Người lao động với tư liệu sản xuất",
+      "Cơ sở hạ tầng với kiến trúc thượng tầng"
+    ],
+    "answer": 2,
+    "explanation": "Lực lượng sản xuất là sự kết hợp giữa người lao động và tư liệu sản xuất, tạo thành sức sản xuất và năng lực cải biến giới tự nhiên của xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > II.1.b. Lực lượng sản xuất",
+      "text": "Giáo trình xác định hai thành tố cơ bản của lực lượng sản xuất là người lao động và tư liệu sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q010",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tư liệu sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tư liệu sản xuất bao gồm những bộ phận nào?",
+    "options": [
+      "Người lao động và kinh nghiệm lao động",
+      "Quan hệ sở hữu và quan hệ quản lý",
+      "Tư liệu lao động và đối tượng lao động",
+      "Công cụ lao động và người lao động"
+    ],
+    "answer": 2,
+    "explanation": "Tư liệu sản xuất là điều kiện vật chất của sản xuất, gồm tư liệu lao động và đối tượng lao động. Người lao động không phải là một bộ phận của tư liệu sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a. Phương thức sản xuất > Cấu trúc lực lượng sản xuất",
+      "text": "Nguồn chia tư liệu sản xuất thành tư liệu lao động và đối tượng lao động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q011",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Công cụ lao động",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong lực lượng sản xuất, yếu tố nào là phương tiện vật chất con người trực tiếp dùng để tác động vào đối tượng lao động?",
+    "options": [
+      "Quan hệ sở hữu",
+      "Quan hệ phân phối",
+      "Công cụ lao động",
+      "Đối tượng lao động"
+    ],
+    "answer": 2,
+    "explanation": "Công cụ lao động là bộ phận của tư liệu lao động được con người trực tiếp dùng để tác động vào đối tượng lao động và tạo ra sản phẩm.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a > Cấu trúc lực lượng sản xuất > Công cụ lao động",
+      "text": "Công cụ lao động được định nghĩa là phương tiện vật chất trực tiếp tác động vào đối tượng lao động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q012",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan hệ sản xuất là tổng hợp những quan hệ nào?",
+    "options": [
+      "Quan hệ giữa con người với môi trường tự nhiên",
+      "Quan hệ kinh tế - vật chất giữa người với người trong sản xuất",
+      "Quan hệ sinh học giữa các thế hệ người",
+      "Quan hệ tinh thần giữa cá nhân với cộng đồng"
+    ],
+    "answer": 1,
+    "explanation": "Quan hệ sản xuất phản ánh quan hệ kinh tế - vật chất giữa người với người trong quá trình sản xuất, không phải quan hệ giữa người với tự nhiên.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a. Phương thức sản xuất > Quan hệ sản xuất",
+      "text": "Nguồn định nghĩa quan hệ sản xuất là tổng hợp các quan hệ kinh tế - vật chất giữa người với người trong sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q013",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cấu trúc quan hệ sản xuất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba mặt cơ bản của quan hệ sản xuất là gì?",
+    "options": [
+      "Lực lượng cách mạng, động lực cách mạng và lãnh đạo cách mạng",
+      "Sản xuất vật chất, sản xuất tinh thần và tái sản xuất con người",
+      "Chính trị, pháp quyền và đạo đức",
+      "Sở hữu tư liệu sản xuất, tổ chức - quản lý sản xuất và phân phối sản phẩm"
+    ],
+    "answer": 3,
+    "explanation": "Quan hệ sản xuất gồm quan hệ sở hữu về tư liệu sản xuất, quan hệ tổ chức - quản lý sản xuất và quan hệ phân phối sản phẩm lao động.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > II.1.c. Quan hệ sản xuất",
+      "text": "Giáo trình trình bày ba mặt cấu thành quan hệ sản xuất: sở hữu, tổ chức - quản lý và phân phối."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q014",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ sở hữu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hệ thống quan hệ sản xuất, quan hệ nào quy định địa vị kinh tế - xã hội của các tập đoàn người?",
+    "options": [
+      "Quan hệ trao đổi văn hóa",
+      "Quan hệ tiêu dùng cá nhân",
+      "Quan hệ sở hữu về tư liệu sản xuất",
+      "Quan hệ phân công lao động"
+    ],
+    "answer": 2,
+    "explanation": "Quan hệ sở hữu về tư liệu sản xuất quy định địa vị kinh tế - xã hội của các tập đoàn người và từ đó quy định quan hệ quản lý, phân phối.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a > Quan hệ sản xuất > Quan hệ sở hữu",
+      "text": "Nguồn xác định quan hệ sở hữu quy định địa vị kinh tế - xã hội và chi phối các mặt còn lại của quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q015",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò các yếu tố lực lượng sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng vai trò của người lao động và công cụ lao động trong lực lượng sản xuất?",
+    "options": [
+      "Công cụ lao động là chủ thể sáng tạo, người lao động chỉ là phương tiện",
+      "Người lao động thuộc quan hệ sản xuất; công cụ lao động thuộc kiến trúc thượng tầng",
+      "Người lao động là nhân tố hàng đầu; công cụ lao động là yếu tố động, cách mạng",
+      "Hai yếu tố có vai trò giống hệt nhau trong mọi điều kiện"
+    ],
+    "answer": 2,
+    "explanation": "Người lao động là chủ thể sáng tạo và sử dụng công cụ nên giữ vai trò hàng đầu. Công cụ lao động quyết định trực tiếp năng suất và là yếu tố động, cách mạng trong lực lượng sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.a > Cấu trúc lực lượng sản xuất",
+      "text": "Nguồn đồng thời nêu người lao động là nhân tố hàng đầu và công cụ lao động là yếu tố động, cách mạng nhất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q016",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "LLSX quyết định QHSX",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao lực lượng sản xuất giữ vai trò quyết định đối với quan hệ sản xuất?",
+    "options": [
+      "Vì lực lượng sản xuất luôn ổn định hơn quan hệ sản xuất",
+      "Vì quan hệ sản xuất không có bất kỳ tác động nào đến sản xuất",
+      "Vì mọi quan hệ sản xuất đều do pháp luật tùy ý tạo ra",
+      "Vì lực lượng sản xuất là nội dung động, còn quan hệ sản xuất là hình thức xã hội tương ứng"
+    ],
+    "answer": 3,
+    "explanation": "Sự vận động của phương thức sản xuất bắt đầu từ biến đổi của lực lượng sản xuất. Với tư cách nội dung vật chất, lực lượng sản xuất đòi hỏi một hình thức xã hội là quan hệ sản xuất phù hợp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > II.2. Quy luật QHSX phù hợp với trình độ LLSX",
+      "text": "Lực lượng sản xuất là nội dung động của phương thức sản xuất và quyết định sự biến đổi của quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q017",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "QHSX tác động trở lại LLSX",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan hệ sản xuất tác động trở lại lực lượng sản xuất chủ yếu thông qua yếu tố nào?",
+    "options": [
+      "Quy mô dân số, mật độ cư trú, cơ cấu tuổi và sự phân bố nguồn lao động",
+      "Hệ thống quan điểm chính trị, pháp quyền, đạo đức và các thiết chế tương ứng",
+      "Mục đích sản xuất, tổ chức lao động, phân phối và thái độ của người lao động",
+      "Mức đầu tư cho công cụ, trình độ kỹ thuật và kinh nghiệm của người lao động"
+    ],
+    "answer": 2,
+    "explanation": "Quan hệ sản xuất quy định mục đích sản xuất, cách tổ chức - quản lý, phân phối lợi ích và ảnh hưởng đến thái độ người lao động, qua đó thúc đẩy hoặc kìm hãm lực lượng sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.b > Sự tác động trở lại của QHSX đối với LLSX",
+      "text": "Quan hệ sản xuất tác động qua mục đích, tổ chức, phân công, phân phối và thái độ lao động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q018",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Sự phù hợp của QHSX với LLSX",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Trạng thái nào được xem là quan hệ sản xuất phù hợp với trình độ lực lượng sản xuất?",
+    "options": [
+      "Quan hệ sản xuất tạo địa bàn để các yếu tố của lực lượng sản xuất phát triển",
+      "Quan hệ sản xuất giữ nguyên bất kể lực lượng sản xuất biến đổi",
+      "Quan hệ sản xuất loại bỏ vai trò sáng tạo của người lao động",
+      "Quan hệ sản xuất phát triển càng xa trước lực lượng sản xuất càng tốt"
+    ],
+    "answer": 0,
+    "explanation": "Sự phù hợp là trạng thái quan hệ sản xuất trở thành hình thức phát triển, tạo điều kiện cho người lao động, công cụ và tổ chức sản xuất phát huy. Lạc hậu hoặc vượt trước xa đều có thể không phù hợp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > II.2. Quy luật phù hợp QHSX - LLSX",
+      "text": "Quan hệ sản xuất phù hợp là hình thức phát triển và địa bàn cho lực lượng sản xuất vận động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q019",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Mâu thuẫn LLSX - QHSX",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trình tự nào mô tả đúng sự hình thành mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất?",
+    "options": [
+      "KTTT đổi trước → LLSX xuất hiện → QHSX không còn vai trò",
+      "LLSX phát triển → QHSX tương đối ổn định trở nên không phù hợp → nảy sinh yêu cầu điều chỉnh QHSX",
+      "QHSX đổi trước → LLSX ngừng phát triển → mâu thuẫn tự mất",
+      "YTXH đổi trước → QHSX biến mất → LLSX giữ nguyên"
+    ],
+    "answer": 1,
+    "explanation": "Lực lượng sản xuất vận động thường xuyên, còn quan hệ sản xuất ổn định tương đối. Khi hình thức cũ không còn đáp ứng nội dung đã phát triển, mâu thuẫn nảy sinh và đặt ra yêu cầu cải biến quan hệ sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.b > Vai trò quyết định của LLSX đối với QHSX",
+      "text": "Nguồn mô tả lực lượng sản xuất phát triển làm quan hệ sản xuất từ hình thức phù hợp thành lực cản."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q020",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý nghĩa phương pháp luận LLSX - QHSX",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Ý nghĩa phương pháp luận trực tiếp của quy luật quan hệ sản xuất phù hợp với trình độ lực lượng sản xuất là gì?",
+    "options": [
+      "Có thể thiết lập bất kỳ quan hệ sản xuất nào bằng mong muốn chủ quan",
+      "Chỉ cần đổi quan hệ sở hữu là lực lượng sản xuất tự động phát triển",
+      "Phát triển lực lượng sản xuất và điều chỉnh quan hệ sản xuất dựa trên yêu cầu khách quan",
+      "Nên giữ nguyên quan hệ sản xuất để bảo đảm ổn định tuyệt đối"
+    ],
+    "answer": 2,
+    "explanation": "Phát triển kinh tế phải chú trọng lực lượng sản xuất, đồng thời cải biến quan hệ sản xuất căn cứ vào trình độ thực tế. Cách làm duy ý chí, giữ nguyên máy móc hoặc tuyệt đối hóa một mặt đều sai.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.b > Ý nghĩa trong đời sống xã hội",
+      "text": "Nguồn yêu cầu phát triển lực lượng sản xuất và đổi mới quan hệ sản xuất theo tính tất yếu kinh tế khách quan."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q021",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quy luật LLSX - QHSX",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cơ sở sản xuất đã áp dụng dây chuyền mới nhưng vẫn duy trì cách quản lý cứng nhắc, phân phối không gắn với đóng góp nên năng suất giảm. Giải pháp phù hợp nhất với quy luật LLSX - QHSX là gì?",
+    "options": [
+      "Loại bỏ dây chuyền mới để giữ nguyên toàn bộ quan hệ cũ",
+      "Điều chỉnh tổ chức, quản lý và phân phối cho phù hợp trình độ công nghệ mới",
+      "Chờ quan hệ sản xuất tự thay đổi mà không cần hoạt động của con người",
+      "Chỉ tăng thời gian lao động mà không thay đổi cơ chế quản lý"
+    ],
+    "answer": 1,
+    "explanation": "Dây chuyền mới làm lực lượng sản xuất thay đổi, trong khi tổ chức và phân phối cũ đang kìm hãm nó. Cần chủ động nhận thức và điều chỉnh các mặt của quan hệ sản xuất để tạo điều kiện cho lực lượng sản xuất phát triển.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > II.2. Quan hệ biện chứng giữa LLSX và QHSX",
+      "text": "Quan hệ sản xuất phù hợp thúc đẩy, còn quan hệ tổ chức và phân phối không phù hợp sẽ kìm hãm lực lượng sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q022",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quy luật LLSX - QHSX",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương sao chép nguyên mẫu quan hệ tổ chức sản xuất của nơi có trình độ công nghệ cao, trong khi lao động và công cụ tại chỗ còn rất hạn chế. Sai lầm chủ yếu là gì?",
+    "options": [
+      "Đã tuyệt đối hóa vai trò của điều kiện tự nhiên",
+      "Đã thừa nhận quan hệ sản xuất có tính độc lập tương đối",
+      "Đã thiết lập quan hệ sản xuất vượt xa trình độ hiện có của lực lượng sản xuất",
+      "Đã coi người lao động là nhân tố hàng đầu của lực lượng sản xuất"
+    ],
+    "answer": 2,
+    "explanation": "Quan hệ sản xuất không chỉ có thể lạc hậu mà còn có thể phát triển vượt quá trình độ lực lượng sản xuất. Việc sao chép thiếu căn cứ khiến hình thức tổ chức không có điều kiện vật chất để vận hành hiệu quả.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.2.b > Sự tác động trở lại của QHSX đối với LLSX",
+      "text": "Nguồn nêu quan hệ sản xuất lỗi thời hoặc phát triển trước lực lượng sản xuất đều có thể không phù hợp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q023",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cơ sở hạ tầng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ sở hạ tầng của xã hội là gì?",
+    "options": [
+      "Toàn bộ quan điểm chính trị và thiết chế nhà nước",
+      "Toàn bộ lực lượng sản xuất và tài nguyên thiên nhiên",
+      "Toàn bộ công trình giao thông và hệ thống kỹ thuật",
+      "Toàn bộ quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Trong triết học, cơ sở hạ tầng không phải hạ tầng kỹ thuật mà là toàn bộ quan hệ sản xuất trong sự vận động hiện thực, hợp thành cơ cấu kinh tế của một xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.1.a. Cơ sở hạ tầng",
+      "text": "Giáo trình định nghĩa cơ sở hạ tầng là toàn bộ quan hệ sản xuất hợp thành cơ cấu kinh tế xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q024",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cấu trúc cơ sở hạ tầng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ sở hạ tầng của một xã hội có thể bao gồm những loại quan hệ sản xuất nào?",
+    "options": [
+      "Thống trị, tàn dư và mầm mống",
+      "Đối nội, đối ngoại và xã hội",
+      "Chính trị, pháp quyền và đạo đức",
+      "Cá nhân, tập thể và cộng đồng"
+    ],
+    "answer": 0,
+    "explanation": "Cơ sở hạ tầng có thể đồng thời gồm quan hệ sản xuất thống trị, quan hệ sản xuất tàn dư của xã hội cũ và quan hệ sản xuất mầm mống của xã hội tương lai.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.a. Khái niệm cơ sở hạ tầng",
+      "text": "Nguồn nêu ba bộ phận của cơ sở hạ tầng là quan hệ sản xuất thống trị, tàn dư và mầm mống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q025",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kiến trúc thượng tầng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kiến trúc thượng tầng bao gồm hai nhóm yếu tố cơ bản nào?",
+    "options": [
+      "Các quan điểm, tư tưởng xã hội và các thiết chế xã hội tương ứng",
+      "Điều kiện địa lý và cơ cấu dân cư",
+      "Người lao động và tư liệu sản xuất",
+      "Quan hệ sản xuất thống trị và quan hệ sản xuất tàn dư"
+    ],
+    "answer": 0,
+    "explanation": "Kiến trúc thượng tầng gồm các quan điểm, tư tưởng về chính trị, pháp quyền, đạo đức, tôn giáo, nghệ thuật, triết học... cùng các thiết chế tương ứng như nhà nước, đảng phái, giáo hội và tổ chức xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.1.b. Kiến trúc thượng tầng",
+      "text": "Kiến trúc thượng tầng kết hợp đời sống tư tưởng với những tổ chức, thiết chế xã hội tương ứng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q026",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cấu trúc kiến trúc thượng tầng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào sau đây thuộc kiến trúc thượng tầng?",
+    "options": [
+      "Quan hệ sở hữu và quan hệ phân phối",
+      "Đối tượng lao động và nguyên liệu sản xuất",
+      "Công cụ lao động và máy móc sản xuất",
+      "Quan điểm pháp quyền và hệ thống cơ quan pháp luật"
+    ],
+    "answer": 3,
+    "explanation": "Quan điểm pháp quyền là yếu tố tư tưởng và cơ quan pháp luật là thiết chế tương ứng, nên cùng thuộc kiến trúc thượng tầng. Các phương án còn lại thuộc lực lượng sản xuất hoặc quan hệ sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.a. Khái niệm kiến trúc thượng tầng",
+      "text": "Nguồn liệt kê tư tưởng pháp quyền và các thiết chế tương ứng trong cấu trúc kiến trúc thượng tầng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q027",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò nhà nước trong KTTT",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong xã hội có đối kháng giai cấp, bộ phận nào của kiến trúc thượng tầng có quyền lực mạnh nhất?",
+    "options": [
+      "Ý thức thẩm mỹ cùng các thiết chế sáng tạo và truyền bá nghệ thuật",
+      "Tâm lý xã hội cùng các thói quen và trạng thái tinh thần phổ biến",
+      "Phong tục cộng đồng cùng các tổ chức bảo tồn nếp sống truyền thống",
+      "Nhà nước với bộ máy quyền lực công cộng và hệ thống pháp luật"
+    ],
+    "answer": 3,
+    "explanation": "Nhà nước là tổ chức quyền lực chính trị đặc biệt của giai cấp thống trị, có bộ máy cưỡng chế và khả năng tác động mạnh mẽ tới cơ sở kinh tế.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.1.b. Kiến trúc thượng tầng",
+      "text": "Trong kiến trúc thượng tầng của xã hội đối kháng, nhà nước là bộ phận có quyền lực mạnh nhất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q028",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "CSHT quyết định KTTT",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cơ sở hạ tầng quyết định kiến trúc thượng tầng trên những phương diện chủ yếu nào?",
+    "options": [
+      "Quyết định tên gọi, hình thức biểu hiện và mọi biến đổi riêng lẻ của từng thiết chế thượng tầng",
+      "Quyết định nguồn gốc, cơ cấu, tính chất và xu hướng vận động của kiến trúc thượng tầng",
+      "Quyết định số lượng tổ chức, cơ cấu nhân sự và hiệu lực hoạt động của toàn bộ bộ máy nhà nước",
+      "Quyết định trực tiếp nội dung, nhịp độ và trình độ phát triển của mọi hình thái ý thức xã hội"
+    ],
+    "answer": 1,
+    "explanation": "Cơ sở hạ tầng sản sinh kiểu kiến trúc thượng tầng tương ứng và xét đến cùng quy định cơ cấu, tính chất, sự vận động của nó. Sự quyết định không chỉ giới hạn ở một hiện tượng đơn lẻ.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.b > Vai trò quyết định của CSHT đối với KTTT",
+      "text": "Cơ sở hạ tầng quyết định nguồn gốc, cơ cấu, tính chất và sự vận động của kiến trúc thượng tầng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q029",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "KTTT tác động trở lại CSHT",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao kiến trúc thượng tầng có thể tác động trở lại mạnh mẽ đối với cơ sở hạ tầng?",
+    "options": [
+      "Vì tư tưởng có tính độc lập tương đối và được hiện thực hóa qua các thiết chế, hoạt động xã hội",
+      "Vì cơ sở hạ tầng hoàn toàn không chi phối đời sống tinh thần",
+      "Vì mọi thiết chế xã hội đều trực tiếp sản xuất ra của cải vật chất",
+      "Vì kiến trúc thượng tầng luôn tồn tại trước mọi quan hệ kinh tế"
+    ],
+    "answer": 0,
+    "explanation": "Kiến trúc thượng tầng có tính độc lập tương đối; tư tưởng cùng bộ máy tổ chức và thiết chế có thể định hướng, bảo vệ hoặc cản trở cơ sở kinh tế. Điều đó không phủ nhận vai trò quyết định xét đến cùng của cơ sở hạ tầng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.2.b. KTTT tác động trở lại CSHT",
+      "text": "Sức mạnh tư tưởng kết hợp với bộ máy tổ chức - thể chế tạo khả năng tác động trở lại cơ sở hạ tầng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q030",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Hai chiều tác động của KTTT",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Tác động của kiến trúc thượng tầng đối với cơ sở hạ tầng diễn ra theo hai chiều như thế nào?",
+    "options": [
+      "Chỉ tác động đến văn hóa hoặc chỉ tác động đến đạo đức",
+      "Luôn thúc đẩy hoặc luôn không ảnh hưởng đến kinh tế",
+      "Có thể thúc đẩy khi phù hợp quy luật kinh tế hoặc kìm hãm khi phản ánh sai yêu cầu khách quan",
+      "Chỉ kìm hãm trong xã hội cũ hoặc mất hoàn toàn trong xã hội mới"
+    ],
+    "answer": 2,
+    "explanation": "Khi kiến trúc thượng tầng phản ánh đúng tính tất yếu kinh tế, nó thúc đẩy cơ sở hạ tầng; khi đi ngược quy luật khách quan, nó cản trở. Tác động luôn phải đặt trong điều kiện lịch sử cụ thể.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.b > Sự tác động trở lại của KTTT đối với CSHT",
+      "text": "Nguồn chỉ rõ hai chiều thúc đẩy và kìm hãm tùy mức độ phản ánh đúng tính tất yếu kinh tế."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q031",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò của KTTT chính trị",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao kiến trúc thượng tầng chính trị, đặc biệt là nhà nước, có tác động nổi bật tới cơ sở hạ tầng?",
+    "options": [
+      "Vì nhà nước có quyền lực tổ chức, pháp luật và công cụ kiểm soát xã hội",
+      "Vì nhà nước thay thế được mọi quan hệ sản xuất",
+      "Vì nhà nước không chịu ảnh hưởng của lợi ích kinh tế",
+      "Vì nhà nước là một bộ phận trực tiếp của lực lượng sản xuất"
+    ],
+    "answer": 0,
+    "explanation": "Nhà nước có bộ máy quyền lực, pháp luật và khả năng tổ chức xã hội nên có thể bảo vệ, củng cố hoặc cải biến những quan hệ kinh tế. Nhà nước vẫn được hình thành trên một cơ sở kinh tế nhất định.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.2.b. Tác động của KTTT đối với CSHT",
+      "text": "Giáo trình nhấn mạnh vai trò đặc biệt của nhà nước nhờ sức mạnh quyền lực và kiểm soát xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q032",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý nghĩa phương pháp luận CSHT - KTTT",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan điểm phương pháp luận đúng khi xử lý quan hệ giữa kinh tế và chính trị là gì?",
+    "options": [
+      "Tách riêng hai lĩnh vực để chúng không tác động lẫn nhau",
+      "Tuyệt đối hóa chính trị và xem nhẹ điều kiện kinh tế",
+      "Tôn trọng vai trò quyết định của kinh tế đồng thời phát huy tác động tích cực của chính trị",
+      "Tuyệt đối hóa kinh tế và loại bỏ vai trò của chính trị"
+    ],
+    "answer": 2,
+    "explanation": "Kinh tế xét đến cùng quyết định chính trị, nhưng chính trị tác động trở lại mạnh mẽ. Phương pháp đúng là tránh cả duy vật kinh tế lẫn duy ý chí chính trị.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.b > Ý nghĩa trong đời sống xã hội",
+      "text": "Nguồn yêu cầu không tách rời hoặc tuyệt đối hóa kinh tế hay chính trị trong nhận thức và thực tiễn."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q033",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ CSHT - KTTT",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một hệ thống pháp luật được sửa đổi phù hợp với yêu cầu sản xuất mới, bảo đảm quyền lợi hợp lý và làm hoạt động kinh tế hiệu quả hơn. Tình huống thể hiện điều gì?",
+    "options": [
+      "Quan hệ kinh tế và pháp luật hoàn toàn độc lập với nhau",
+      "Kiến trúc thượng tầng phù hợp đang tác động tích cực trở lại cơ sở hạ tầng",
+      "Cơ sở hạ tầng không còn giữ vai trò quyết định đối với kiến trúc thượng tầng",
+      "Kiến trúc thượng tầng đã trở thành một bộ phận của lực lượng sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Pháp luật thuộc kiến trúc thượng tầng. Khi phản ánh đúng yêu cầu kinh tế và được tổ chức thực hiện, nó có thể thúc đẩy các quan hệ kinh tế vận động hiệu quả hơn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > III.2.b. KTTT tác động trở lại CSHT",
+      "text": "Kiến trúc thượng tầng phản ánh đúng quy luật kinh tế sẽ thúc đẩy cơ sở hạ tầng phát triển."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q034",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ CSHT - KTTT",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình cải cách chỉ ban hành khẩu hiệu chính trị rất cao nhưng không tính đến nguồn lực, cơ cấu kinh tế và trình độ sản xuất thực tế. Chương trình mắc khuynh hướng nào?",
+    "options": [
+      "Duy tâm, duy ý chí vì tuyệt đối hóa chính trị và xem nhẹ kinh tế",
+      "Duy vật kinh tế vì tuyệt đối hóa cơ sở hạ tầng",
+      "Quan điểm toàn diện vì kết hợp đầy đủ hai mặt",
+      "Quan điểm lịch sử - cụ thể vì dựa sát điều kiện hiện có"
+    ],
+    "answer": 0,
+    "explanation": "Đề cao mong muốn chính trị mà bỏ qua điều kiện kinh tế khách quan là biểu hiện của duy tâm, duy ý chí. Chính trị phải tác động tích cực trên cơ sở nhận thức đúng quy luật kinh tế.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.3.b > Ý nghĩa trong đời sống xã hội",
+      "text": "Tuyệt đối hóa chính trị và hạ thấp kinh tế dẫn đến chủ quan, duy ý chí và đốt cháy giai đoạn."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q035",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Hình thái kinh tế - xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hình thái kinh tế - xã hội là phạm trù dùng để chỉ điều gì?",
+    "options": [
+      "Một kiểu tổ chức nhà nước tồn tại độc lập với kinh tế",
+      "Một giai đoạn phát triển riêng của tư tưởng triết học",
+      "Xã hội ở một nấc thang lịch sử với QHSX đặc trưng, LLSX và KTTT tương ứng",
+      "Một cộng đồng người chỉ được xác định bằng lãnh thổ"
+    ],
+    "answer": 2,
+    "explanation": "Hình thái kinh tế - xã hội chỉ xã hội ở một nấc thang lịch sử nhất định, có kiểu quan hệ sản xuất đặc trưng phù hợp với trình độ lực lượng sản xuất và kiến trúc thượng tầng tương ứng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.1. Phạm trù hình thái kinh tế - xã hội",
+      "text": "Giáo trình định nghĩa hình thái kinh tế - xã hội bằng ba mặt LLSX, QHSX và KTTT ở một nấc thang lịch sử."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q036",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cấu trúc hình thái kinh tế - xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba yếu tố cơ bản, phổ biến của một hình thái kinh tế - xã hội là gì?",
+    "options": [
+      "Nhà nước, pháp luật và đạo đức",
+      "Lực lượng sản xuất, quan hệ sản xuất và kiến trúc thượng tầng",
+      "Sản xuất, phân phối và tiêu dùng",
+      "Giai cấp, dân tộc và nhân loại"
+    ],
+    "answer": 1,
+    "explanation": "Cấu trúc hình thái kinh tế - xã hội gồm nền tảng vật chất là lực lượng sản xuất, quan hệ sản xuất tạo cơ sở hạ tầng và kiến trúc thượng tầng tương ứng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.a. Phạm trù hình thái kinh tế - xã hội",
+      "text": "Nguồn liệt kê LLSX, QHSX và KTTT là ba yếu tố cấu thành cơ bản của hình thái kinh tế - xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q037",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò LLSX trong hình thái KT-XH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hình thái kinh tế - xã hội, lực lượng sản xuất giữ vai trò nào?",
+    "options": [
+      "Hệ thống tư tưởng bảo vệ trật tự xã hội",
+      "Hình thức chính trị trực tiếp của xã hội",
+      "Tiêu chuẩn duy nhất xác định bản chất giai cấp của nhà nước",
+      "Nền tảng vật chất và yếu tố xét đến cùng quyết định sự phát triển"
+    ],
+    "answer": 3,
+    "explanation": "Lực lượng sản xuất là nền tảng vật chất - kỹ thuật, tiêu chuẩn khách quan phân biệt các thời đại kinh tế và là yếu tố xét đến cùng quyết định vận động của hình thái kinh tế - xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.1. Cấu trúc hình thái kinh tế - xã hội",
+      "text": "Lực lượng sản xuất là nền tảng vật chất và động lực xét đến cùng của sự vận động hình thái kinh tế - xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q038",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò QHSX trong hình thái KT-XH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan hệ sản xuất có ý nghĩa nào trong cấu trúc hình thái kinh tế - xã hội?",
+    "options": [
+      "Là quan hệ cơ bản và tiêu chuẩn quan trọng phân biệt bản chất các chế độ xã hội",
+      "Là bộ phận duy nhất tạo ra năng suất lao động",
+      "Là hình thức cộng đồng người cao nhất",
+      "Là toàn bộ đời sống tinh thần của xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Quan hệ sản xuất là quan hệ khách quan, cơ bản, chi phối các quan hệ xã hội khác và là tiêu chuẩn quan trọng để phân biệt bản chất của các chế độ xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.a. Phạm trù hình thái kinh tế - xã hội",
+      "text": "Nguồn xác định quan hệ sản xuất là tiêu chuẩn quan trọng để phân biệt bản chất các chế độ xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q039",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò KTTT trong hình thái KT-XH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kiến trúc thượng tầng tiêu biểu cho phương diện nào của hình thái kinh tế - xã hội?",
+    "options": [
+      "Trình độ trực tiếp của công cụ lao động",
+      "Bộ mặt tinh thần và các quan hệ phi kinh tế của xã hội",
+      "Điều kiện tự nhiên và hoàn cảnh địa lý",
+      "Quan hệ chiếm hữu tư liệu sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Kiến trúc thượng tầng thể hiện quan hệ giữa người với người trong lĩnh vực phi kinh tế và tiêu biểu cho bộ mặt tinh thần của đời sống xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.a. Cấu trúc hình thái kinh tế - xã hội",
+      "text": "Nguồn mô tả kiến trúc thượng tầng là biểu hiện các quan hệ phi kinh tế và bộ mặt tinh thần xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q040",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tiến trình lịch sử - tự nhiên",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nói sự phát triển hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên có nghĩa chủ yếu là gì?",
+    "options": [
+      "Mọi dân tộc buộc phải trải qua các giai đoạn với thời gian giống nhau",
+      "Sự vận động xã hội tuân theo quy luật khách quan và được thực hiện qua hoạt động của con người",
+      "Sự phát triển xã hội chỉ chịu sự chi phối của quy luật tự nhiên sinh học",
+      "Lịch sử diễn ra không có hoạt động có ý thức của con người"
+    ],
+    "answer": 1,
+    "explanation": "Tính lịch sử - tự nhiên khẳng định tiến trình xã hội chịu sự chi phối của các quy luật khách quan. Các quy luật xã hội vẫn biểu hiện thông qua hoạt động thực tiễn có ý thức của con người, không loại bỏ vai trò chủ thể.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.2.a. Sự phát triển các hình thái KT-XH là quá trình lịch sử - tự nhiên",
+      "text": "Tiến trình xã hội có tính quy luật khách quan nhưng được thực hiện thông qua hoạt động của con người."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q041",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phát triển tuần tự và bỏ qua",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan hệ giữa phát triển tuần tự và phát triển bỏ qua một vài hình thái kinh tế - xã hội được hiểu như thế nào?",
+    "options": [
+      "Phát triển tuần tự và phát triển bỏ qua đều có thể diễn ra tùy điều kiện cụ thể của quốc gia, dân tộc",
+      "Phát triển bỏ qua phủ nhận mọi quy luật khách quan của lịch sử",
+      "Phát triển tuần tự chỉ diễn ra khi lực lượng sản xuất không thay đổi",
+      "Hai con đường loại trừ hoàn toàn sự kế thừa thành tựu nhân loại"
+    ],
+    "answer": 0,
+    "explanation": "Lịch sử toàn thế giới thể hiện logic tuần tự, còn một quốc gia có thể phát triển rút ngắn, bỏ qua một hay vài hình thái khi có điều kiện khách quan và chủ quan thích hợp. Bỏ qua không đồng nghĩa tùy ý.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.b. Tiến trình lịch sử - tự nhiên của xã hội loài người",
+      "text": "Nguồn thừa nhận cả sự phát triển tuần tự và khả năng phát triển bỏ qua ở những quốc gia cụ thể."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q042",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cơ chế vận động hình thái KT-XH",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chuỗi quan hệ nào phản ánh đúng cơ chế cơ bản làm một hình thái kinh tế - xã hội biến đổi?",
+    "options": [
+      "YTXH thay đổi → điều kiện tự nhiên đổi → phương thức sản xuất xuất hiện",
+      "Dân số đổi → nhà nước mất đi → giai cấp tự động bị xóa bỏ",
+      "KTTT đổi tùy ý → QHSX mất đi → LLSX ngừng vận động",
+      "LLSX phát triển → QHSX và CSHT biến đổi → KTTT biến đổi tương ứng"
+    ],
+    "answer": 3,
+    "explanation": "Sự phát triển thường bắt đầu từ lực lượng sản xuất, đặt ra yêu cầu biến đổi quan hệ sản xuất; cơ sở hạ tầng thay đổi dẫn tới sự biến đổi tương ứng của kiến trúc thượng tầng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.2.a. Tiến trình lịch sử - tự nhiên",
+      "text": "Hai quy luật LLSX - QHSX và CSHT - KTTT hợp thành cơ chế vận động cơ bản của hình thái kinh tế - xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q043",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Giá trị học thuyết hình thái KT-XH",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giá trị phương pháp luận nổi bật của học thuyết hình thái kinh tế - xã hội là gì?",
+    "options": [
+      "Giải thích lịch sử chủ yếu bằng ý chí của cá nhân kiệt xuất",
+      "Quy mọi biến đổi xã hội trực tiếp về điều kiện địa lý",
+      "Xem các xã hội khác nhau chỉ là những trường hợp ngẫu nhiên",
+      "Phân tích xã hội từ cấu trúc và các quy luật khách quan của đời sống vật chất - xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Học thuyết cung cấp cách tiếp cận khoa học để xem xã hội như một chỉnh thể có cấu trúc và quy luật vận động, trước hết từ phương thức sản xuất và các quan hệ cơ bản của nó.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.2.b. Giá trị khoa học của học thuyết hình thái KT-XH",
+      "text": "Học thuyết khắc phục cách giải thích duy tâm và tạo phương pháp khoa học để phân tích lịch sử xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q044",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phát triển bỏ qua",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Bản chất của phát triển bỏ qua một hình thái kinh tế - xã hội là gì?",
+    "options": [
+      "Rút ngắn những giai đoạn, bước đi nhưng vẫn tiếp thu thành tựu văn minh cần thiết",
+      "Bỏ qua việc phát triển lực lượng sản xuất hiện đại",
+      "Phủ nhận mọi thành tựu vật chất của hình thái bị bỏ qua",
+      "Rút ngắn bằng quyết định chủ quan, không cần điều kiện lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Phát triển bỏ qua là rút ngắn tiến trình, không xác lập địa vị thống trị của hình thái bị bỏ qua, đồng thời vẫn kế thừa những thành tựu văn minh, nhất là phát triển lực lượng sản xuất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.b. Tiến trình lịch sử - tự nhiên",
+      "text": "Nguồn giải thích phát triển bỏ qua là rút ngắn các giai đoạn với cốt lõi là tăng trưởng nhảy vọt của lực lượng sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q045",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng học thuyết hình thái KT-XH",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Hai quốc gia có điểm xuất phát và quan hệ quốc tế khác nhau nên lựa chọn nhịp độ, bước đi phát triển không giống nhau nhưng đều phải tôn trọng các quy luật sản xuất. Điều này minh họa nhận định nào?",
+    "options": [
+      "Sự phát triển xã hội không chịu bất kỳ điều kiện khách quan nào",
+      "Quy luật chung loại trừ mọi đặc điểm lịch sử của từng dân tộc",
+      "Mỗi quốc gia tự tạo ra quy luật xã hội riêng theo ý muốn",
+      "Tiến trình lịch sử thống nhất ở quy luật chung nhưng đa dạng ở con đường cụ thể"
+    ],
+    "answer": 3,
+    "explanation": "Quá trình lịch sử - tự nhiên thống nhất ở những quy luật cơ bản nhưng biểu hiện đa dạng qua điều kiện riêng của từng quốc gia, dân tộc. Vì vậy có thể có phát triển tuần tự hoặc rút ngắn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương X > IV.2.a. Quá trình lịch sử - tự nhiên",
+      "text": "Tiến trình lịch sử kết hợp quy luật phổ biến với quy luật đặc thù và điều kiện riêng của mỗi dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q046",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng học thuyết hình thái KT-XH",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chiến lược phát triển muốn rút ngắn một số giai đoạn nhưng lại từ chối tiếp thu công nghệ, tri thức quản lý và thành tựu văn minh đã có. Đánh giá nào phù hợp nhất?",
+    "options": [
+      "Không phù hợp vì phát triển rút ngắn vẫn cần kế thừa thành tựu và nâng cao lực lượng sản xuất",
+      "Phù hợp vì chỉ cần thay đổi kiến trúc thượng tầng là đủ",
+      "Không phù hợp vì mọi quốc gia bắt buộc phải lặp lại nguyên vẹn cùng một con đường",
+      "Phù hợp vì bỏ qua nghĩa là loại bỏ mọi thành tựu của giai đoạn trước"
+    ],
+    "answer": 0,
+    "explanation": "Bỏ qua không phải phủ nhận thành tựu văn minh. Phát triển rút ngắn đòi hỏi tiếp thu có chọn lọc thành tựu cần thiết và tạo sự phát triển mạnh của lực lượng sản xuất trong điều kiện cụ thể.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > I.4.b. Tiến trình lịch sử - tự nhiên",
+      "text": "Cốt lõi của phát triển rút ngắn là bước tiến của lực lượng sản xuất, không phải khước từ thành tựu văn minh."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q047",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Khái niệm giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo định nghĩa của V.I. Lênin, giai cấp trước hết là những tập đoàn người khác nhau về yếu tố nào?",
+    "options": [
+      "Địa vị trong một hệ thống sản xuất xã hội nhất định",
+      "Đặc điểm tâm lý cá nhân trong sinh hoạt hằng ngày",
+      "Nơi cư trú và ngôn ngữ giao tiếp",
+      "Năng khiếu tự nhiên và sở thích văn hóa"
+    ],
+    "answer": 0,
+    "explanation": "Giai cấp là những tập đoàn người to lớn khác nhau về địa vị trong một hệ thống sản xuất lịch sử, thể hiện qua quan hệ với tư liệu sản xuất, vai trò tổ chức lao động và cách hưởng thụ của cải.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI. Giai cấp và dân tộc > II.1.a. Khái niệm giai cấp",
+      "text": "Định nghĩa giai cấp đặt sự khác nhau về địa vị kinh tế - xã hội trong hệ thống sản xuất làm nền tảng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q048",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đặc trưng của giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao giai cấp được xem là một phạm trù kinh tế - xã hội có tính lịch sử?",
+    "options": [
+      "Vì giai cấp xuất hiện và tiêu vong cùng những điều kiện kinh tế - xã hội nhất định",
+      "Vì giai cấp tồn tại trong mọi cộng đồng sinh vật",
+      "Vì giai cấp không liên quan tới phương thức sản xuất",
+      "Vì giai cấp chỉ do khác biệt tư tưởng tạo nên"
+    ],
+    "answer": 0,
+    "explanation": "Giai cấp không tồn tại vĩnh viễn. Nó nảy sinh trên những điều kiện kinh tế - xã hội cụ thể và sẽ tiêu vong khi cơ sở kinh tế của sự phân chia giai cấp không còn.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a. Giai cấp > Các đặc trưng cơ bản",
+      "text": "Nguồn khẳng định giai cấp là phạm trù lịch sử gắn với những điều kiện kinh tế - xã hội xác định."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q049",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên nhân trực tiếp làm xuất hiện giai cấp là gì?",
+    "options": [
+      "Sự hình thành nhiều ngôn ngữ trong cộng đồng",
+      "Sự phát triển của các hình thái ý thức xã hội",
+      "Sự ra đời của chế độ tư hữu về tư liệu sản xuất",
+      "Sự khác nhau tự nhiên về thể lực giữa con người"
+    ],
+    "answer": 2,
+    "explanation": "Sự phát triển lực lượng sản xuất và của cải dư thừa tạo khả năng phân hóa, còn chế độ tư hữu về tư liệu sản xuất là nguyên nhân trực tiếp làm hình thành các giai cấp.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a. Giai cấp > Nguồn gốc giai cấp",
+      "text": "Nguồn phân biệt nguyên nhân sâu xa do lực lượng sản xuất với nguyên nhân trực tiếp là chế độ tư hữu tư liệu sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q050",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên nhân sâu xa tạo khả năng khách quan cho sự xuất hiện giai cấp là gì?",
+    "options": [
+      "Lực lượng sản xuất phát triển, năng suất tăng và xuất hiện của cải dư thừa",
+      "Sự hình thành các phong cách nghệ thuật khác nhau",
+      "Sự thay đổi ý chí của người đứng đầu cộng đồng",
+      "Sự khác nhau về tín ngưỡng giữa các nhóm người"
+    ],
+    "answer": 0,
+    "explanation": "Năng suất lao động tăng làm xuất hiện sản phẩm dư thừa, tạo khả năng để một tập đoàn chiếm đoạt lao động của tập đoàn khác. Đây là nguyên nhân sâu xa về kinh tế.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a. Giai cấp > Nguồn gốc giai cấp",
+      "text": "Sự phát triển LLSX và của cải dư thừa là nguyên nhân sâu xa của phân hóa giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q051",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kết cấu xã hội - giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giai cấp cơ bản của một xã hội là những giai cấp nào?",
+    "options": [
+      "Những nhóm chỉ khác nhau về trình độ học vấn",
+      "Những giai cấp gắn với phương thức sản xuất thống trị",
+      "Những nhóm có cùng sở thích nghề nghiệp",
+      "Những tầng lớp tồn tại ngoài mọi phương thức sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Giai cấp cơ bản là sản phẩm của phương thức sản xuất đang giữ địa vị thống trị. Ví dụ, tư sản và vô sản là hai giai cấp cơ bản trong xã hội tư bản chủ nghĩa.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > II.1.c. Kết cấu xã hội - giai cấp",
+      "text": "Giáo trình phân biệt giai cấp cơ bản theo mối liên hệ với phương thức sản xuất thống trị."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q052",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kết cấu xã hội - giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giai cấp không cơ bản thường gắn với bộ phận nào của cơ sở kinh tế?",
+    "options": [
+      "Chỉ với lực lượng sản xuất hiện đại nhất",
+      "Với phương thức sản xuất tàn dư hoặc mầm mống",
+      "Chỉ với hệ tư tưởng của giai cấp cầm quyền",
+      "Chỉ với quan hệ sản xuất thống trị"
+    ],
+    "answer": 1,
+    "explanation": "Giai cấp không cơ bản thường gắn với phương thức sản xuất còn sót lại từ xã hội cũ hoặc đang nảy sinh trong lòng xã hội hiện tại. Ngoài ra còn có các tầng lớp trung gian.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a. Giai cấp > Kết cấu xã hội - giai cấp",
+      "text": "Nguồn xác định giai cấp không cơ bản gắn với phương thức sản xuất tàn dư hoặc mầm mống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q053",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Dấu hiệu phân biệt giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Trong các dấu hiệu phân biệt giai cấp, vì sao quan hệ đối với tư liệu sản xuất có ý nghĩa quyết định?",
+    "options": [
+      "Vì nó trực tiếp quy định vai trò quản lý nhưng không liên quan đến phương thức phân phối sản phẩm",
+      "Vì nó quy định địa vị kinh tế và chi phối vai trò tổ chức, cách hưởng thụ của các tập đoàn người",
+      "Vì nó chỉ phân biệt người lao động trí óc với người lao động chân tay trong cùng một giai cấp",
+      "Vì nó phản ánh mức thu nhập thực tế, còn địa vị trong sản xuất hoàn toàn do pháp luật quyết định"
+    ],
+    "answer": 1,
+    "explanation": "Quan hệ sở hữu tư liệu sản xuất quy định vị trí của tập đoàn người trong sản xuất, từ đó chi phối vai trò quản lý và phương thức, quy mô hưởng thụ của cải xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > II.1.a. Khái niệm giai cấp",
+      "text": "Quan hệ với tư liệu sản xuất là dấu hiệu quyết định địa vị kinh tế - xã hội của giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q054",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kết cấu xã hội - giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào thể hiện đúng tính phức tạp của kết cấu xã hội - giai cấp?",
+    "options": [
+      "Ngoài giai cấp cơ bản còn có giai cấp không cơ bản và các tầng lớp trung gian",
+      "Kết cấu giai cấp không thay đổi khi phương thức sản xuất biến đổi",
+      "Mọi tầng lớp xã hội đều có địa vị kinh tế hoàn toàn giống nhau",
+      "Mỗi xã hội chỉ có duy nhất một giai cấp đồng nhất"
+    ],
+    "answer": 0,
+    "explanation": "Một xã hội có thể đồng thời tồn tại các giai cấp cơ bản, giai cấp không cơ bản và những tầng lớp, nhóm xã hội trung gian. Kết cấu đó vận động cùng điều kiện kinh tế - xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a > Kết cấu xã hội - giai cấp",
+      "text": "Nguồn mô tả kết cấu gồm giai cấp cơ bản, không cơ bản và các tầng lớp, nhóm xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q055",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đấu tranh giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cơ sở làm cho đấu tranh giai cấp trở thành tất yếu trong xã hội có giai cấp đối kháng là gì?",
+    "options": [
+      "Sự khác nhau tạm thời về tính cách cá nhân",
+      "Sự khác nhau về thị hiếu nghệ thuật",
+      "Sự đối lập căn bản, không thể điều hòa về lợi ích giữa các giai cấp",
+      "Sự khác nhau về nguồn gốc địa lý"
+    ],
+    "answer": 2,
+    "explanation": "Đấu tranh giai cấp bắt nguồn từ sự đối lập về địa vị và lợi ích căn bản giữa các tập đoàn người trong một phương thức sản xuất, đặc biệt giữa giai cấp bóc lột và bị bóc lột.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > II.2.a. Khái niệm đấu tranh giai cấp",
+      "text": "Sự đối lập lợi ích căn bản không thể điều hòa là cơ sở khách quan của đấu tranh giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q056",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò đấu tranh giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đánh giá nào đúng về vai trò của đấu tranh giai cấp đối với sự phát triển xã hội?",
+    "options": [
+      "Là một động lực quan trọng, trực tiếp trong xã hội có giai cấp",
+      "Là động lực duy nhất của mọi xã hội trong mọi thời kỳ",
+      "Luôn cản trở mọi biến đổi của phương thức sản xuất",
+      "Chỉ là hiện tượng tư tưởng, không liên quan đến lợi ích vật chất"
+    ],
+    "answer": 0,
+    "explanation": "Trong xã hội có giai cấp, đấu tranh giai cấp góp phần giải quyết mâu thuẫn xã hội và thúc đẩy thay thế quan hệ lỗi thời. Nó là một động lực quan trọng chứ không phải động lực duy nhất của mọi xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.b. Đấu tranh giai cấp",
+      "text": "Nguồn xác định đấu tranh giai cấp là động lực quan trọng, trực tiếp của lịch sử trong xã hội có giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q057",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Các hình thức đấu tranh của giai cấp vô sản",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một phong trào công nhân mới chỉ đòi tăng lương, chưa đấu tranh giành chính quyền và chưa xây dựng hệ tư tưởng độc lập. Đánh giá nào đúng về trình độ của phong trào?",
+    "options": [
+      "Ba hình thức hoàn toàn tách biệt; phải kết thúc đấu tranh kinh tế rồi mới có thể bắt đầu đấu tranh chính trị và tư tưởng",
+      "Phong trào chỉ cần chuyển sang đấu tranh tư tưởng, còn đấu tranh chính trị không thuộc cuộc đấu tranh của giai cấp vô sản",
+      "Phong trào mới chủ yếu ở đấu tranh kinh tế; cần gắn với đấu tranh chính trị và tư tưởng, trong đó chính trị là hình thức cao nhất",
+      "Phong trào đã đạt hình thức cao nhất vì mọi yêu sách kinh tế đều tự động dẫn tới nhiệm vụ giành chính quyền"
+    ],
+    "answer": 2,
+    "explanation": "Đòi tăng lương chủ yếu thuộc đấu tranh kinh tế. Ba hình thức kinh tế, chính trị và tư tưởng phải hỗ trợ lẫn nhau; đấu tranh chính trị là hình thức cao nhất vì hướng tới vấn đề chính quyền.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.c. Đấu tranh giai cấp của giai cấp vô sản",
+      "text": "Đấu tranh kinh tế, chính trị và tư tưởng có quan hệ chặt chẽ; đấu tranh chính trị là hình thức cao nhất của đấu tranh giai cấp vô sản."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q058",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đấu tranh chính trị",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao đấu tranh chính trị được xem là hình thức cao nhất của đấu tranh giai cấp vô sản khi chưa có chính quyền?",
+    "options": [
+      "Vì thay thế được hoàn toàn đấu tranh kinh tế và tư tưởng",
+      "Vì không cần sự tham gia của quần chúng",
+      "Vì trực tiếp hướng tới xóa bỏ quyền thống trị cũ và giành chính quyền",
+      "Vì chỉ nhằm nâng thu nhập trong một doanh nghiệp"
+    ],
+    "answer": 2,
+    "explanation": "Đấu tranh chính trị hướng tới vấn đề quyền lực nhà nước, lật đổ ách thống trị của giai cấp tư sản và giành chính quyền. Nó không phủ nhận mà kết hợp với đấu tranh kinh tế và tư tưởng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > II.2. Đấu tranh giai cấp",
+      "text": "Đấu tranh chính trị là hình thức cao nhất vì giải quyết trực tiếp vấn đề chính quyền."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q059",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng nguồn gốc giai cấp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cộng đồng đã tạo ra sản phẩm dư thừa; sau đó tư liệu sản xuất tập trung vào một nhóm, cho phép nhóm này chiếm đoạt lao động của nhóm khác. Yếu tố nào trực tiếp hoàn tất quá trình hình thành giai cấp?",
+    "options": [
+      "Cộng đồng hình thành thêm nghi lễ văn hóa",
+      "Chế độ tư hữu về tư liệu sản xuất được xác lập",
+      "Sản phẩm dư thừa tự nó xuất hiện",
+      "Năng suất lao động bắt đầu tăng"
+    ],
+    "answer": 1,
+    "explanation": "Năng suất và sản phẩm dư thừa tạo khả năng khách quan, nhưng việc tư liệu sản xuất thuộc sở hữu riêng của một nhóm là nguyên nhân trực tiếp làm hình thành quan hệ chiếm đoạt và phân chia giai cấp.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.1.a > Nguồn gốc giai cấp",
+      "text": "Nguồn phân biệt điều kiện sâu xa do LLSX với nguyên nhân trực tiếp là tư hữu tư liệu sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q060",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng đấu tranh giai cấp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Hai tập đoàn trong cùng phương thức sản xuất có lợi ích căn bản đối lập: một bên duy trì quan hệ bóc lột, bên kia đấu tranh xóa bỏ quan hệ ấy. Khái niệm nào phản ánh trực tiếp xung đột này?",
+    "options": [
+      "Cạnh tranh nghề nghiệp giữa các cá nhân",
+      "Khác biệt tâm lý giữa các thế hệ",
+      "Mâu thuẫn văn hóa giữa các vùng",
+      "Đấu tranh giai cấp"
+    ],
+    "answer": 3,
+    "explanation": "Tình huống nêu xung đột giữa những tập đoàn người có địa vị và lợi ích căn bản đối lập trong một phương thức sản xuất, đúng với nội hàm đấu tranh giai cấp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > II.2.a. Khái niệm đấu tranh giai cấp",
+      "text": "Đấu tranh giai cấp là đấu tranh giữa các tập đoàn lớn có lợi ích căn bản đối lập trong một phương thức sản xuất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q061",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Các hình thức cộng đồng người",
+    "difficulty": "Nhận biết",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trình tự phát triển từ thấp đến cao của các hình thức cộng đồng người là gì?",
+    "options": [
+      "Thị tộc → bộ tộc → bộ lạc → dân tộc",
+      "Bộ lạc → thị tộc → dân tộc → bộ tộc",
+      "Thị tộc → bộ lạc → bộ tộc → dân tộc",
+      "Bộ tộc → dân tộc → thị tộc → bộ lạc"
+    ],
+    "answer": 2,
+    "explanation": "Lịch sử cộng đồng người phát triển từ thị tộc dựa trên huyết thống, đến bộ lạc, bộ tộc và cuối cùng là dân tộc - hình thức ổn định, phổ biến hiện nay.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > I. Những hình thức cộng đồng người trong lịch sử",
+      "text": "Giáo trình sắp xếp các hình thức cộng đồng theo thứ tự thị tộc, bộ lạc, bộ tộc, dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q062",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Thị tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ sở liên kết chủ yếu của thị tộc là gì?",
+    "options": [
+      "Một nền kinh tế thị trường thống nhất",
+      "Quyền lực của nhà nước trung ương",
+      "Quan hệ huyết thống",
+      "Một hệ thống pháp luật thống nhất"
+    ],
+    "answer": 2,
+    "explanation": "Thị tộc là hình thức cộng đồng người sớm nhất, có quy mô nhỏ và được hình thành chủ yếu trên cơ sở quan hệ huyết thống trong xã hội cộng sản nguyên thủy.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.a. Các hình thức cộng đồng người trước dân tộc > Thị tộc",
+      "text": "Thị tộc được xác định là cộng đồng sớm nhất dựa trên quan hệ huyết thống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q063",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Bộ lạc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bộ lạc được hình thành chủ yếu từ sự liên kết nào?",
+    "options": [
+      "Các thiết chế chính trị có cùng pháp luật",
+      "Nhiều giai cấp có lợi ích đối kháng",
+      "Nhiều dân tộc có nhà nước độc lập",
+      "Các thị tộc có quan hệ huyết thống hoặc hôn nhân"
+    ],
+    "answer": 3,
+    "explanation": "Bộ lạc bao gồm các thị tộc liên kết với nhau bằng quan hệ huyết thống hoặc hôn nhân, với cơ sở kinh tế là công hữu về đất đai và công cụ sản xuất.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > I.1.b. Bộ lạc",
+      "text": "Bộ lạc là sự liên kết của nhiều thị tộc có quan hệ huyết thống hoặc hôn nhân."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q064",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Khái niệm dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng nào thuộc về một dân tộc với tư cách cộng đồng người ổn định?",
+    "options": [
+      "Có lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý và nhà nước thống nhất",
+      "Chỉ có chung một nghề nghiệp truyền thống",
+      "Chỉ cư trú tạm thời trong cùng một khu vực",
+      "Chỉ có cùng nguồn gốc huyết thống trực tiếp"
+    ],
+    "answer": 0,
+    "explanation": "Dân tộc là cộng đồng ổn định hình thành trong lịch sử trên cơ sở thống nhất về lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, cùng nhà nước và pháp luật.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b. Dân tộc - hình thức cộng đồng người phổ biến hiện nay",
+      "text": "Nguồn liệt kê các dấu hiệu ổn định cấu thành cộng đồng dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q065",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phân biệt dân tộc và bộ tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào thể hiện dân tộc là hình thức cộng đồng người cao hơn bộ tộc?",
+    "options": [
+      "Dân tộc không cần ngôn ngữ và đời sống kinh tế chung",
+      "Dân tộc chỉ liên kết bằng quan hệ huyết thống gần gũi",
+      "Dân tộc có sự thống nhất bền vững về kinh tế, lãnh thổ, văn hóa và tổ chức nhà nước",
+      "Dân tộc chỉ tồn tại trong xã hội cộng sản nguyên thủy"
+    ],
+    "answer": 2,
+    "explanation": "Dân tộc có mức độ ổn định và thống nhất cao hơn, vượt ra ngoài liên kết huyết thống của các cộng đồng sớm và gắn với lãnh thổ, kinh tế, văn hóa, nhà nước thống nhất.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > I.2. Dân tộc",
+      "text": "Dân tộc là hình thức cộng đồng người cao và phổ biến, có các mối liên kết xã hội ổn định hơn bộ tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q066",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Con đường hình thành dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phản ánh đúng tính đa dạng của quá trình hình thành dân tộc?",
+    "options": [
+      "Dân tộc chỉ xuất hiện khi không còn nhà nước",
+      "Mọi dân tộc chỉ hình thành sau cách mạng công nghiệp",
+      "Mọi dân tộc đều hình thành theo một trình tự thời gian giống hệt châu Âu",
+      "Ở phương Đông có dân tộc hình thành sớm, không gắn trực tiếp với sự ra đời của chủ nghĩa tư bản"
+    ],
+    "answer": 3,
+    "explanation": "Ở châu Âu, dân tộc thường gắn với sự phát triển tư bản và cách mạng tư sản; ở nhiều nước phương Đông như Việt Nam, dân tộc hình thành sớm do những điều kiện lịch sử đặc thù.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b. Dân tộc > Con đường hình thành",
+      "text": "Nguồn phân biệt con đường hình thành dân tộc ở châu Âu với tính đặc thù của phương Đông."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q067",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Dân tộc Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Sự hình thành sớm của dân tộc Việt Nam gắn nổi bật với nhu cầu lịch sử nào?",
+    "options": [
+      "Chỉ mở rộng thị trường tư bản chủ nghĩa",
+      "Dựng nước, giữ nước, chống ngoại xâm và cải tạo tự nhiên",
+      "Tách rời hoàn toàn các cộng đồng cư dân",
+      "Chỉ thống nhất một tín ngưỡng duy nhất"
+    ],
+    "answer": 1,
+    "explanation": "Tính đặc thù của dân tộc Việt Nam gắn với quá trình lâu dài dựng nước và giữ nước, đấu tranh chống ngoại xâm, cải tạo tự nhiên và bảo vệ văn hóa dân tộc.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b > Tính đặc thù của sự hình thành dân tộc Việt Nam",
+      "text": "Nguồn liên hệ sự hình thành dân tộc Việt Nam với dựng nước, giữ nước, cải tạo tự nhiên và bảo vệ văn hóa."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q068",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đặc trưng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc điểm nào khiến dân tộc khác một tập hợp cư dân tạm thời cùng sống trên một lãnh thổ?",
+    "options": [
+      "Dân tộc xuất hiện khi một nhóm cư dân tạm thời có chung cơ quan quản lý trên một địa bàn",
+      "Dân tộc hình thành chỉ cần có nơi cư trú chung, không đòi hỏi các liên kết lịch sử khác",
+      "Dân tộc chủ yếu dựa trên quan hệ huyết thống trực tiếp giữa các thành viên trong cộng đồng",
+      "Dân tộc có các liên kết lịch sử ổn định về nhiều mặt, không chỉ có nơi cư trú chung"
+    ],
+    "answer": 3,
+    "explanation": "Lãnh thổ là một đặc trưng nhưng chưa đủ. Dân tộc còn có sự thống nhất bền vững về ngôn ngữ, kinh tế, văn hóa - tâm lý và tổ chức nhà nước, pháp luật.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b. Khái niệm và đặc trưng dân tộc",
+      "text": "Dân tộc là cộng đồng ổn định, thống nhất về lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, nhà nước và pháp luật."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q069",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng khái niệm dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cộng đồng A có lãnh thổ, ngôn ngữ và văn hóa chung nhưng kinh tế còn phân tán, chưa có nhà nước và pháp luật thống nhất; cộng đồng B có đầy đủ các liên kết ấy một cách ổn định. Vì sao chưa thể chỉ từ ba dấu hiệu đầu mà kết luận A là dân tộc?",
+    "options": [
+      "Vì cộng đồng chỉ trở thành dân tộc khi mọi thành viên có chung nguồn gốc huyết thống và cùng một nghề nghiệp",
+      "Vì tiêu chí duy nhất của dân tộc là có một nhà nước riêng, còn các liên kết kinh tế và văn hóa không cần xem xét",
+      "Vì lãnh thổ, ngôn ngữ và văn hóa chung đã hoàn toàn đủ, còn kinh tế, nhà nước và pháp luật chỉ là yếu tố tùy chọn",
+      "Vì dân tộc là một chỉnh thể liên kết ổn định cả về lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, nhà nước và pháp luật"
+    ],
+    "answer": 3,
+    "explanation": "Khái niệm dân tộc đòi hỏi một hệ thống liên kết lịch sử ổn định, trong đó các mặt lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, nhà nước và pháp luật gắn với nhau. Một vài dấu hiệu riêng lẻ chưa đủ để đồng nhất cộng đồng với dân tộc.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b. Khái niệm và đặc trưng dân tộc",
+      "text": "Dân tộc được nhận diện bằng hệ thống liên kết ổn định về lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, nhà nước và pháp luật."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q070",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng đặc trưng dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề án tuyên bố củng cố toàn diện cộng đồng dân tộc nhưng chỉ tổ chức và bảo tồn lễ hội, không phân tích các liên kết về kinh tế, ngôn ngữ, lãnh thổ, nhà nước và pháp luật. Hạn chế lý luận của đề án là gì?",
+    "options": [
+      "Đồng nhất dân tộc với một giai cấp cơ bản và phủ nhận sự tham gia của các tầng lớp xã hội khác",
+      "Thu hẹp dân tộc vào một biểu hiện văn hóa và bỏ qua hệ thống đặc trưng tạo nên cộng đồng ổn định",
+      "Tuyệt đối hóa liên kết kinh tế và xem mọi biểu hiện văn hóa chỉ là kết quả thụ động của sản xuất",
+      "Đồng nhất dân tộc với bộ máy nhà nước và xem ngôn ngữ, kinh tế, văn hóa đều không có vai trò"
+    ],
+    "answer": 1,
+    "explanation": "Văn hóa là một đặc trưng quan trọng nhưng dân tộc là cộng đồng thống nhất trên nhiều phương diện. Bảo tồn văn hóa cần gắn với các liên kết kinh tế, ngôn ngữ, lãnh thổ và tổ chức xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.2.b. Khái niệm và đặc trưng dân tộc",
+      "text": "Dân tộc là chỉnh thể thống nhất về lãnh thổ, ngôn ngữ, kinh tế, văn hóa - tâm lý, nhà nước và pháp luật, không thể rút gọn vào lễ hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q071",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Giai cấp quyết định dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong xã hội có giai cấp, quan hệ giai cấp quyết định phương diện nào của dân tộc?",
+    "options": [
+      "Số lượng ngôn ngữ trên thế giới",
+      "Điều kiện khí hậu của lãnh thổ",
+      "Khuynh hướng phát triển và tính chất xã hội của dân tộc",
+      "Nguồn gốc sinh học của toàn bộ dân cư"
+    ],
+    "answer": 2,
+    "explanation": "Phương thức sản xuất và quan hệ giai cấp xét đến cùng chi phối sự hình thành, khuynh hướng phát triển và tính chất xã hội của dân tộc trong từng thời đại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.3.a. Quan hệ giai cấp - dân tộc",
+      "text": "Nguồn nêu quan hệ giai cấp quyết định khuynh hướng phát triển và tính chất của dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q072",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Dân tộc tác động đến giai cấp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đấu tranh giải phóng dân tộc có thể giữ vai trò nào đối với đấu tranh giải phóng giai cấp?",
+    "options": [
+      "Không tạo bất kỳ ảnh hưởng nào đến quan hệ giai cấp",
+      "Tạo điều kiện và tiền đề cho đấu tranh giải phóng giai cấp",
+      "Thay thế hoàn toàn mọi hình thức đấu tranh xã hội",
+      "Loại bỏ vĩnh viễn mọi vấn đề giai cấp"
+    ],
+    "answer": 1,
+    "explanation": "Vấn đề dân tộc có tính độc lập tương đối và tác động trở lại vấn đề giai cấp. Trong nhiều điều kiện, giải phóng dân tộc tạo không gian và tiền đề cho giải phóng giai cấp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > III. Quan hệ giai cấp - dân tộc",
+      "text": "Đấu tranh giải phóng dân tộc có thể trở thành điều kiện quan trọng cho đấu tranh giải phóng giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q073",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Dân tộc và nhân loại",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sự tồn tại của nhân loại có ý nghĩa nào đối với dân tộc và giai cấp?",
+    "options": [
+      "Là tiền đề và điều kiện thường xuyên cho sự tồn tại của dân tộc và giai cấp",
+      "Phụ thuộc hoàn toàn và thụ động vào một giai cấp duy nhất",
+      "Làm cho mọi lợi ích dân tộc lập tức biến mất",
+      "Chỉ có ý nghĩa sinh học, không có ý nghĩa xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Nhân loại là không gian tồn tại chung của các dân tộc và giai cấp. Sự phát triển của nhân loại tạo điều kiện cho giải quyết các vấn đề dân tộc, giai cấp và ngược lại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.3.b. Quan hệ giai cấp, dân tộc với nhân loại",
+      "text": "Nguồn xem sự tồn tại của nhân loại là tiền đề, điều kiện thường xuyên của dân tộc và giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q074",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ giai cấp - dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào thể hiện đầy đủ tính biện chứng của quan hệ giai cấp - dân tộc?",
+    "options": [
+      "Hai vấn đề hoàn toàn tách rời và không ảnh hưởng nhau",
+      "Quan hệ giai cấp biến mất ngay khi hình thành dân tộc",
+      "Dân tộc quyết định tuyệt đối mọi quan hệ giai cấp",
+      "Giai cấp xét đến cùng chi phối dân tộc, còn vấn đề dân tộc tác động trở lại vấn đề giai cấp"
+    ],
+    "answer": 3,
+    "explanation": "Quan hệ giai cấp có vai trò quyết định xét đến cùng nhưng vấn đề dân tộc không thụ động; nó có thể thúc đẩy hoặc cản trở việc giải quyết vấn đề giai cấp trong những điều kiện cụ thể.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > III.1. Quan điểm của chủ nghĩa Mác - Lênin",
+      "text": "Giáo trình trình bày quan hệ quyết định và tác động trở lại giữa giai cấp với dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q075",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Lợi ích giai cấp - dân tộc - nhân loại",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Trong xã hội có giai cấp, lợi ích nhân loại quan hệ với lợi ích giai cấp và dân tộc như thế nào?",
+    "options": [
+      "Chỉ xuất hiện sau khi mọi dân tộc không còn tồn tại",
+      "Luôn đồng nhất hoàn toàn trong mọi hoàn cảnh",
+      "Hoàn toàn tách rời nên không cần phối hợp",
+      "Gắn bó, chịu sự chi phối nhưng đồng thời có tác động trở lại quan trọng"
+    ],
+    "answer": 3,
+    "explanation": "Lợi ích nhân loại không tách khỏi lợi ích giai cấp và dân tộc, song vấn đề nhân loại có tính tác động trở lại. Vì thế cần nhận diện cả sự thống nhất và khác biệt trong hoàn cảnh cụ thể.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.3.b. Quan hệ giai cấp, dân tộc với nhân loại",
+      "text": "Nguồn bác bỏ cách hiểu lợi ích nhân loại hoàn toàn thụ động trước lợi ích giai cấp và dân tộc."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q076",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phương pháp giải quyết quan hệ giai cấp - dân tộc - nhân loại",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách tiếp cận phù hợp khi giải quyết quan hệ giai cấp, dân tộc và nhân loại là gì?",
+    "options": [
+      "Tách vấn đề giai cấp khỏi điều kiện lịch sử của dân tộc",
+      "Hy sinh mọi lợi ích dân tộc cho một lợi ích bộ phận",
+      "Kết hợp hài hòa lợi ích chính đáng trên cơ sở điều kiện lịch sử cụ thể",
+      "Chỉ theo đuổi lợi ích dân tộc và bỏ qua trách nhiệm nhân loại"
+    ],
+    "answer": 2,
+    "explanation": "Ba cấp độ lợi ích liên hệ biện chứng, nên cần kết hợp lợi ích giai cấp tiến bộ, lợi ích dân tộc chính đáng và lợi ích chung của nhân loại, tránh tuyệt đối hóa một phía.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.3. Mối quan hệ giai cấp - dân tộc - nhân loại",
+      "text": "Lý luận yêu cầu xem xét sự tác động qua lại và kết hợp các lợi ích trong điều kiện cụ thể."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q077",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ giai cấp - dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào nêu mục tiêu giải phóng giai cấp nhưng phủ nhận quyền độc lập và lợi ích chính đáng của dân tộc đang bị áp bức. Hạn chế chủ yếu là gì?",
+    "options": [
+      "Tách giải phóng giai cấp khỏi điều kiện và nhiệm vụ giải phóng dân tộc",
+      "Đề cao quá mức sự tác động của dân tộc tới giai cấp",
+      "Xem nhân loại là điều kiện tồn tại của dân tộc",
+      "Thừa nhận quan hệ giai cấp có cơ sở kinh tế"
+    ],
+    "answer": 0,
+    "explanation": "Trong điều kiện dân tộc bị áp bức, giải phóng dân tộc có thể là tiền đề thiết yếu cho giải phóng giai cấp. Phủ nhận nhiệm vụ dân tộc làm cho mục tiêu giai cấp trở nên trừu tượng và tách khỏi thực tiễn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XI > III. Quan hệ giai cấp - dân tộc",
+      "text": "Đấu tranh giải phóng dân tộc có thể là điều kiện, tiền đề cho đấu tranh giải phóng giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q078",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ dân tộc - nhân loại",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nhiều quốc gia cùng xử lý một nguy cơ đe dọa sự tồn tại chung, đồng thời vẫn bảo vệ lợi ích chính đáng của mỗi dân tộc. Tình huống thể hiện điều gì?",
+    "options": [
+      "Hợp tác quốc tế làm các dân tộc mất ngay tính độc lập",
+      "Lợi ích nhân loại và dân tộc có thể thống nhất, tác động và tạo điều kiện cho nhau",
+      "Mọi vấn đề chung đều không liên quan đến giai cấp, dân tộc",
+      "Lợi ích nhân loại loại bỏ hoàn toàn lợi ích dân tộc"
+    ],
+    "answer": 1,
+    "explanation": "Sự tồn tại và phát triển của nhân loại tạo điều kiện cho các dân tộc, còn đóng góp của từng dân tộc giúp giải quyết vấn đề chung. Hai cấp độ lợi ích có thể kết hợp mà không cần xóa bỏ lợi ích chính đáng của nhau.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > II.3.b. Quan hệ giai cấp, dân tộc với nhân loại",
+      "text": "Sự phát triển của nhân loại tạo điều kiện thuận lợi cho các dân tộc và các cuộc đấu tranh tiến bộ."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q079",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên nhân trực tiếp dẫn tới sự ra đời của nhà nước là gì?",
+    "options": [
+      "Nhu cầu sáng tạo nghệ thuật của con người",
+      "Sự khác nhau về phong tục giữa các cộng đồng",
+      "Mâu thuẫn giai cấp gay gắt không thể điều hòa",
+      "Sự thay đổi tự nhiên của khí hậu"
+    ],
+    "answer": 2,
+    "explanation": "Nhà nước xuất hiện khi xã hội phân chia giai cấp và mâu thuẫn giữa các giai cấp trở nên không thể điều hòa. Đây là nguyên nhân trực tiếp của sự ra đời nhà nước.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII. Nhà nước và cách mạng xã hội > I.1.a. Nguồn gốc nhà nước",
+      "text": "Nhà nước là sản phẩm của xã hội đã phân chia giai cấp với mâu thuẫn không thể điều hòa."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q080",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên nhân sâu xa của sự xuất hiện nhà nước bắt đầu từ quá trình nào?",
+    "options": [
+      "Mọi thành viên tự nguyện trao quyền như nhau",
+      "LLSX phát triển, xuất hiện của cải dư thừa, tư hữu và phân chia giai cấp",
+      "Một cá nhân kiệt xuất tự đặt ra bộ máy cai trị",
+      "Các hình thái ý thức xã hội tự phân hóa"
+    ],
+    "answer": 1,
+    "explanation": "Sự phát triển của lực lượng sản xuất tạo của cải dư thừa, dẫn tới tư hữu và phân hóa giai cấp. Trên cơ sở đó, mâu thuẫn giai cấp không thể điều hòa làm nhà nước xuất hiện.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.a. Nguồn gốc nhà nước",
+      "text": "Nguồn nối sự phát triển LLSX, tư hữu và phân chia giai cấp với nguồn gốc sâu xa của nhà nước."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q081",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Bản chất nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo chủ nghĩa Mác - Lênin, bản chất của nhà nước trong xã hội có giai cấp là gì?",
+    "options": [
+      "Tổ chức hình thành thuần túy từ sự thống nhất ý kiến của mọi người",
+      "Tổ chức trung lập đứng ngoài mọi quan hệ giai cấp",
+      "Tổ chức quyền lực chính trị của giai cấp thống trị nhằm bảo vệ trật tự phù hợp lợi ích của nó",
+      "Tổ chức chỉ thực hiện các hoạt động từ thiện xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Về bản chất, nhà nước là công cụ quyền lực chính trị, công cụ chuyên chính của giai cấp thống trị về kinh tế. Nhà nước đồng thời thực hiện chức năng xã hội để duy trì trật tự chung.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > I.1.b. Bản chất nhà nước",
+      "text": "Giáo trình xác định nhà nước mang bản chất giai cấp và là công cụ quyền lực của giai cấp thống trị."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q082",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đặc trưng nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng cơ bản nào thuộc về nhà nước?",
+    "options": [
+      "Chỉ tồn tại bằng đóng góp tự nguyện không ổn định",
+      "Không có cơ quan cưỡng chế chuyên nghiệp",
+      "Quản lý cư dân theo lãnh thổ, có quyền lực chuyên nghiệp và hệ thống thuế khóa",
+      "Chỉ liên kết thành viên bằng huyết thống"
+    ],
+    "answer": 2,
+    "explanation": "Ba đặc trưng cơ bản là quản lý dân cư trên lãnh thổ xác định, có bộ máy quyền lực chuyên nghiệp mang tính cưỡng chế và có hệ thống thuế để duy trì bộ máy.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.c. Đặc trưng cơ bản của nhà nước",
+      "text": "Nguồn nêu ba đặc trưng: lãnh thổ, quyền lực chuyên nghiệp và thuế khóa."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q083",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Chức năng nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai cách phân loại chức năng cơ bản của nhà nước được nêu trong giáo trình là gì?",
+    "options": [
+      "Thống trị chính trị và xã hội; đối nội và đối ngoại",
+      "Sản xuất và tiêu dùng; cá nhân và xã hội",
+      "Cảm tính và lý tính; trực tiếp và gián tiếp",
+      "Kinh tế và tinh thần; tự nhiên và xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Có thể xem xét chức năng nhà nước theo cặp thống trị chính trị - xã hội hoặc theo phạm vi đối nội - đối ngoại. Các chức năng này liên hệ với nhau trong hoạt động nhà nước.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > I.3. Chức năng cơ bản của nhà nước",
+      "text": "Giáo trình phân loại chức năng theo nội dung giai cấp - xã hội và theo phạm vi đối nội - đối ngoại."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q084",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Chức năng giai cấp và xã hội của nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng chức năng thống trị chính trị và chức năng xã hội của nhà nước?",
+    "options": [
+      "Hai chức năng không bao giờ tồn tại đồng thời",
+      "Chức năng chính trị duy trì quyền lực giai cấp; chức năng xã hội quản lý công việc chung",
+      "Chức năng xã hội chỉ phục vụ cá nhân, còn chức năng chính trị không dùng pháp luật",
+      "Chức năng chính trị thuộc kinh tế, còn chức năng xã hội thuộc tự nhiên"
+    ],
+    "answer": 1,
+    "explanation": "Nhà nước dùng chính sách, pháp luật và quyền lực để duy trì sự thống trị giai cấp; đồng thời quản lý giao thông, y tế, giáo dục, môi trường và các công việc chung nhằm duy trì trật tự xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.d. Chức năng cơ bản của nhà nước",
+      "text": "Nguồn phân biệt chức năng thống trị chính trị với chức năng quản lý các công việc chung của xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q085",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Chức năng đối nội và đối ngoại",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hoạt động nào thể hiện chức năng đối ngoại của nhà nước?",
+    "options": [
+      "Tổ chức hệ thống giáo dục trong phạm vi quốc gia",
+      "Điều hành giao thông nội địa giữa các địa phương",
+      "Bảo vệ lãnh thổ và thiết lập quan hệ với các nhà nước khác",
+      "Thực hiện chính sách an sinh trong nước"
+    ],
+    "answer": 2,
+    "explanation": "Chức năng đối ngoại giải quyết quan hệ giữa nhà nước với các quốc gia, thể chế khác, gồm bảo vệ lãnh thổ và trao đổi kinh tế, văn hóa, khoa học. Các hoạt động quản lý trong nước thuộc đối nội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > I.3.b. Chức năng đối nội và đối ngoại",
+      "text": "Chức năng đối ngoại hướng tới quan hệ quốc tế và bảo vệ lãnh thổ quốc gia."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q086",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kiểu và hình thức nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác nhau cơ bản giữa kiểu nhà nước và hình thức nhà nước là gì?",
+    "options": [
+      "Kiểu phản ánh bản chất giai cấp và cơ sở kinh tế; hình thức phản ánh cách tổ chức, thực hiện quyền lực",
+      "Kiểu chỉ tồn tại ở phương Đông, hình thức chỉ tồn tại ở phương Tây",
+      "Kiểu thuộc văn hóa, hình thức thuộc điều kiện tự nhiên",
+      "Kiểu nói về lãnh thổ, hình thức nói về dân số"
+    ],
+    "answer": 0,
+    "explanation": "Kiểu nhà nước trả lời quyền lực thuộc giai cấp nào và dựa trên chế độ kinh tế nào. Hình thức nhà nước là cách tổ chức và phương thức thực hiện quyền lực của kiểu nhà nước đó.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.đ. Các kiểu và hình thức nhà nước",
+      "text": "Nguồn phân biệt bản chất giai cấp - kinh tế của kiểu với cách thức cầm quyền của hình thức nhà nước."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q087",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kiểu và hình thức nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Hai quốc gia đều tổ chức quyền lực theo hình thức cộng hòa, nhưng một quốc gia dựa trên cơ sở kinh tế tư bản chủ nghĩa và quyền lực của giai cấp tư sản, quốc gia kia ra đời sau cách mạng vô sản. Kết luận nào đúng?",
+    "options": [
+      "Không thể phân biệt kiểu nhà nước bằng cơ sở kinh tế hay giai cấp, chỉ có thể dựa vào tên gọi chính thức",
+      "Hai quốc gia có thể cùng hình thức nhưng khác kiểu vì kiểu nhà nước do cơ sở kinh tế và bản chất giai cấp quy định",
+      "Hai quốc gia khác hình thức nhưng cùng kiểu vì hình thức tổ chức quyền lực quyết định hoàn toàn bản chất giai cấp",
+      "Hai quốc gia cùng kiểu nhà nước vì cùng sử dụng hình thức cộng hòa để tổ chức và thực hiện quyền lực"
+    ],
+    "answer": 1,
+    "explanation": "Kiểu nhà nước phản ánh cơ sở kinh tế và bản chất giai cấp của quyền lực, còn cộng hòa là một hình thức tổ chức quyền lực. Vì vậy các nhà nước có thể giống về hình thức nhưng khác về kiểu.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.đ. Các kiểu và hình thức nhà nước",
+      "text": "Kiểu nhà nước gắn với cơ sở kinh tế và bản chất giai cấp; quân chủ hay cộng hòa là hình thức tổ chức quyền lực nhà nước."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q088",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Kiểu và hình thức nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao một kiểu nhà nước có thể tồn tại dưới nhiều hình thức khác nhau?",
+    "options": [
+      "Vì cùng bản chất giai cấp có thể tổ chức và thực hiện quyền lực theo những cách khác nhau",
+      "Vì mọi hình thức đều có cơ cấu tổ chức giống nhau",
+      "Vì kiểu nhà nước không liên quan tới quyền lực giai cấp",
+      "Vì hình thức nhà nước quyết định hoàn toàn bản chất kinh tế của kiểu nhà nước"
+    ],
+    "answer": 0,
+    "explanation": "Kiểu nhà nước phản ánh bản chất giai cấp và cơ sở kinh tế, còn hình thức phản ánh cách cầm quyền. Do điều kiện lịch sử khác nhau, cùng một kiểu có thể có nhiều hình thức tổ chức quyền lực.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > I.4. Các kiểu và hình thức nhà nước",
+      "text": "Giáo trình nêu một kiểu nhà nước có thể biểu hiện qua nhiều hình thức cầm quyền khác nhau."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q089",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng nguồn gốc nhà nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cộng đồng chưa phân chia giai cấp và chưa có mâu thuẫn lợi ích đối kháng, nhưng có người khẳng định nhà nước tất yếu đã xuất hiện đầy đủ. Đánh giá nào phù hợp với lý luận Mác - Lênin?",
+    "options": [
+      "Khẳng định đó đúng vì nhà nước có trước mọi cộng đồng người",
+      "Khẳng định đó đúng vì chỉ cần có quan hệ huyết thống là có nhà nước",
+      "Khẳng định đó thiếu cơ sở vì nhà nước ra đời khi mâu thuẫn giai cấp trở nên không thể điều hòa",
+      "Khẳng định đó thiếu cơ sở vì nhà nước chỉ xuất hiện sau khi không còn tư hữu"
+    ],
+    "answer": 2,
+    "explanation": "Nhà nước là phạm trù lịch sử, không tồn tại từ đầu cùng xã hội loài người. Nó ra đời trên cơ sở phân chia giai cấp và mâu thuẫn giai cấp không thể điều hòa.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > I.1.a. Nguồn gốc nhà nước",
+      "text": "Nhà nước xuất hiện ở một giai đoạn lịch sử khi xã hội phân chia giai cấp đối kháng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q090",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng đặc trưng nhà nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Tổ chức A quản lý thành viên theo huyết thống, chưa có bộ máy cưỡng chế chuyên nghiệp và không thu thuế riêng; tổ chức B quản lý dân cư theo lãnh thổ, có quyền lực công cộng chuyên nghiệp và thu thuế. Kết luận nào đúng?",
+    "options": [
+      "Chỉ B là nhà nước vì có đủ dấu hiệu quản lý lãnh thổ, quyền lực công cộng và hệ thống thuế",
+      "Hai tổ chức đều là nhà nước vì bất kỳ cộng đồng nào cũng cần người điều phối hoạt động chung",
+      "Chỉ A là nhà nước vì quan hệ huyết thống tạo nên quyền lực chính trị chuyên nghiệp và ổn định",
+      "Hai tổ chức đều chưa là nhà nước vì nhà nước không được nhận diện bằng lãnh thổ, cưỡng chế hay thuế"
+    ],
+    "answer": 0,
+    "explanation": "Nhà nước khác tổ chức thị tộc ở việc phân chia dân cư theo lãnh thổ, thiết lập quyền lực công cộng chuyên nghiệp và duy trì hệ thống thuế. Chỉ tổ chức B có đủ các dấu hiệu này.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.1.c. Đặc trưng cơ bản của nhà nước",
+      "text": "Lãnh thổ, bộ máy quyền lực cưỡng chế và thuế khóa là dấu hiệu nhận diện nhà nước."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q091",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc cách mạng xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguồn gốc sâu xa của cách mạng xã hội là mâu thuẫn nào?",
+    "options": [
+      "Mâu thuẫn giữa yêu cầu dân chủ với hình thức tổ chức của nhà nước",
+      "Mâu thuẫn giữa LLSX tiến bộ với QHSX lỗi thời đang kìm hãm nó",
+      "Mâu thuẫn lợi ích giữa các giai cấp biểu hiện thành xung đột chính trị",
+      "Mâu thuẫn giữa hệ tư tưởng cách mạng với hệ tư tưởng thống trị"
+    ],
+    "answer": 1,
+    "explanation": "Cách mạng xã hội có nguồn gốc sâu xa từ mâu thuẫn giữa lực lượng sản xuất đã phát triển với quan hệ sản xuất lỗi thời, trở thành trở ngại phải được thay thế.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.1.b. Nguyên nhân của cách mạng xã hội",
+      "text": "Mâu thuẫn LLSX - QHSX là nguồn gốc kinh tế sâu xa của cách mạng xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q092",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc cách mạng xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong xã hội có giai cấp, nguyên nhân trực tiếp dẫn tới cách mạng xã hội là gì?",
+    "options": [
+      "Sự xuất hiện một học thuyết nghệ thuật mới",
+      "Sự khác nhau về thói quen sinh hoạt",
+      "Sự thay đổi tự nhiên của dân số",
+      "Đấu tranh giai cấp phát triển đến mức đòi hỏi giải quyết mâu thuẫn cơ bản"
+    ],
+    "answer": 3,
+    "explanation": "Mâu thuẫn kinh tế biểu hiện về xã hội thành đối kháng giữa giai cấp đại diện cho lực lượng sản xuất mới và giai cấp bảo vệ quan hệ sản xuất cũ; đấu tranh giai cấp là nguyên nhân trực tiếp của cách mạng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.a. Nguồn gốc cách mạng xã hội",
+      "text": "Nguồn chỉ rõ đấu tranh giai cấp là nguyên nhân trực tiếp dẫn đến cách mạng xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q093",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cách mạng xã hội theo nghĩa rộng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo nghĩa rộng, cách mạng xã hội là gì?",
+    "options": [
+      "Sự biến đổi thuần túy trong tâm lý của một cá nhân",
+      "Sự thay đổi nhân sự trong một tổ chức nhưng giữ nguyên cơ cấu xã hội",
+      "Sự thay đổi căn bản về chất trong toàn bộ các lĩnh vực của đời sống xã hội",
+      "Sự điều chỉnh nhỏ trong một chính sách riêng lẻ"
+    ],
+    "answer": 2,
+    "explanation": "Theo nghĩa rộng, cách mạng xã hội là biến đổi căn bản về chất của đời sống xã hội, là phương thức chuyển từ hình thái kinh tế - xã hội cũ sang hình thái mới tiến bộ hơn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.1.a. Khái niệm cách mạng xã hội",
+      "text": "Nghĩa rộng nhấn mạnh sự biến đổi căn bản về chất của xã hội và hình thái kinh tế - xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q094",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Cách mạng xã hội theo nghĩa hẹp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo nghĩa hẹp, cách mạng xã hội là gì?",
+    "options": [
+      "Sự đổi mới công nghệ làm tăng năng suất nhưng không thay đổi quyền lực chính trị và chế độ xã hội",
+      "Đỉnh cao của đấu tranh giai cấp nhằm lật đổ chính quyền cũ và thiết lập chính quyền mới tiến bộ hơn",
+      "Sự thay đổi từng phần về quản lý nhưng vẫn duy trì nền tảng kinh tế và chính quyền hiện có",
+      "Sự điều chỉnh phong tục văn hóa diễn ra dần dần mà không giải quyết vấn đề chính quyền"
+    ],
+    "answer": 1,
+    "explanation": "Nghĩa hẹp tập trung vào phương diện quyền lực chính trị: cách mạng là đỉnh cao của đấu tranh giai cấp, giải quyết việc lật đổ chính quyền cũ và thiết lập chính quyền mới.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.b. Bản chất cách mạng xã hội",
+      "text": "Nguồn định nghĩa nghĩa hẹp của cách mạng xã hội bằng việc giải quyết chính quyền ở đỉnh cao đấu tranh giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q095",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Đối tượng cách mạng xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đối tượng của cách mạng xã hội là những giai cấp và lực lượng nào?",
+    "options": [
+      "Những giai cấp đại diện cho phương thức sản xuất mới và giữ vai trò lãnh đạo cách mạng",
+      "Những giai cấp, tầng lớp có lợi ích ít nhiều gắn với và tham gia phong trào cách mạng",
+      "Những giai cấp và lực lượng đối lập mà cuộc cách mạng cần đánh đổ để hoàn thành mục tiêu",
+      "Những giai cấp có lợi ích gắn bó lâu dài, tự giác và kiên quyết thúc đẩy cách mạng"
+    ],
+    "answer": 2,
+    "explanation": "Đối tượng cách mạng là những giai cấp và lực lượng đối lập cần bị đánh đổ. Khái niệm này khác với lực lượng cách mạng, động lực cách mạng và giai cấp lãnh đạo cách mạng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.b. Bản chất cách mạng xã hội > Đối tượng cách mạng",
+      "text": "Đối tượng của cách mạng xã hội là những giai cấp và lực lượng đối lập mà cách mạng cần đánh đổ."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q096",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tính chất cách mạng xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Tính chất của một cuộc cách mạng xã hội được quy định chủ yếu bởi yếu tố nào?",
+    "options": [
+      "Số lượng khẩu hiệu được sử dụng trong phong trào",
+      "Đặc điểm cá nhân của một người lãnh đạo",
+      "Độ dài thời gian diễn ra các cuộc mít tinh",
+      "Mâu thuẫn cơ bản và nhiệm vụ chính trị mà cuộc cách mạng phải giải quyết"
+    ],
+    "answer": 3,
+    "explanation": "Tính chất cách mạng phụ thuộc vào mâu thuẫn cơ bản của xã hội và nhiệm vụ lịch sử - chính trị đặt ra để giải quyết mâu thuẫn đó, không phụ thuộc vào biểu hiện bề ngoài.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.1.d. Tính chất, lực lượng và động lực cách mạng",
+      "text": "Mâu thuẫn cơ bản và nhiệm vụ cần giải quyết quy định tính chất của cách mạng xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q097",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Lực lượng và động lực cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt động lực cách mạng với lực lượng cách mạng nói chung?",
+    "options": [
+      "Động lực là mọi người không tham gia nhưng đồng tình về mặt cảm xúc",
+      "Động lực là bộ phận có lợi ích gắn bó lâu dài, tự giác, tích cực và kiên quyết hơn với cách mạng",
+      "Động lực chỉ là điều kiện tự nhiên thuận lợi cho phong trào",
+      "Động lực là lực lượng đối lập mà cách mạng cần đánh đổ"
+    ],
+    "answer": 1,
+    "explanation": "Động lực là bộ phận có lợi ích sâu sắc, lâu dài với cách mạng, có tính tự giác và khả năng thúc đẩy, lôi cuốn lực lượng khác. Phạm vi lực lượng cách mạng thường rộng hơn.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.b > Lực lượng và động lực cách mạng",
+      "text": "Nguồn phân biệt động lực bằng mức độ gắn bó lợi ích, tự giác, chủ động và khả năng tập hợp lực lượng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q098",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Điều kiện khách quan và nhân tố chủ quan",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng điều kiện khách quan và nhân tố chủ quan của cách mạng xã hội?",
+    "options": [
+      "Điều kiện khách quan là hoàn cảnh chín muồi; nhân tố chủ quan là nhận thức và năng lực tổ chức của lực lượng cách mạng",
+      "Nhân tố chủ quan không có vai trò đối với kết quả cách mạng",
+      "Điều kiện khách quan là ý chí; nhân tố chủ quan là hoàn cảnh kinh tế",
+      "Hai yếu tố hoàn toàn giống nhau và có thể thay thế nhau"
+    ],
+    "answer": 0,
+    "explanation": "Điều kiện khách quan là hoàn cảnh kinh tế, xã hội, chính trị tạo tiền đề; nhân tố chủ quan gồm ý chí, giác ngộ, tổ chức và khả năng tập hợp lực lượng. Thành công cần sự kết hợp của cả hai.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.2. Điều kiện khách quan và nhân tố chủ quan",
+      "text": "Giáo trình phân biệt hoàn cảnh khách quan với năng lực nhận thức, tổ chức và hành động của chủ thể cách mạng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q099",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tình thế và thời cơ cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác nhau giữa tình thế cách mạng và thời cơ cách mạng là gì?",
+    "options": [
+      "Tình thế do lãnh tụ tùy ý tạo ra; thời cơ không liên quan lực lượng",
+      "Tình thế thuộc ý thức cá nhân; thời cơ chỉ là điều kiện địa lý",
+      "Tình thế và thời cơ đều chỉ là tên khác của lực lượng cách mạng",
+      "Tình thế là trạng thái chín muồi khách quan; thời cơ xuất hiện khi khách quan và chủ quan cùng chín muồi"
+    ],
+    "answer": 3,
+    "explanation": "Tình thế cách mạng là trạng thái đặc biệt của điều kiện khách quan. Thời cơ là thời điểm thuận lợi nhất khi điều kiện khách quan kết hợp với nhân tố chủ quan đã chín muồi.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.b > Tình thế và thời cơ cách mạng",
+      "text": "Nguồn phân biệt sự chín muồi khách quan của tình thế với sự hội tụ khách quan - chủ quan của thời cơ."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q100",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phương pháp cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo quan điểm của giáo trình, khả năng tiến hành cách mạng xã hội bằng con đường tương đối hòa bình cần được hiểu như thế nào?",
+    "options": [
+      "Con đường hòa bình luôn thay thế hoàn toàn bạo lực cách mạng khi lực lượng cách mạng tham gia nghị trường",
+      "Có thể dùng con đường hòa bình, nhưng phải có sức mạnh quần chúng, tức bạo lực cách mạng, làm hậu thuẫn",
+      "Hòa bình và bạo lực là hai phương pháp loại trừ tuyệt đối, vì vậy không thể cùng tồn tại trong một quá trình",
+      "Bạo lực cách mạng chỉ có nghĩa là chiến tranh vũ trang nên không liên quan đến sức mạnh của quần chúng"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình không phủ nhận khả năng dùng phương pháp hòa bình, kể cả con đường nghị trường, nhưng nhấn mạnh khả năng ấy chỉ được bảo đảm khi có sức mạnh của phong trào quần chúng, tức bạo lực cách mạng, làm hậu thuẫn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.3. Hình thức và phương pháp cách mạng",
+      "text": "Con đường tương đối hòa bình chỉ được bảo đảm khi có sức mạnh của phong trào quần chúng, tức bạo lực cách mạng, làm hậu thuẫn."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q101",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng điều kiện và thời cơ cách mạng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất cùng mâu thuẫn giai cấp đã chín muồi, gây đảo lộn sâu sắc nền kinh tế - xã hội và khủng hoảng chính trị; nhưng lực lượng cách mạng còn thiếu tổ chức, quyết tâm và khả năng tập hợp quần chúng. Kết luận nào đúng?",
+    "options": [
+      "Nhân tố chủ quan đã chín muồi, còn mâu thuẫn kinh tế - xã hội và khủng hoảng chính trị vẫn chưa xuất hiện",
+      "Thời cơ cách mạng đã đầy đủ vì tình thế khách quan tự nó bảo đảm phong trào giành được thắng lợi",
+      "Chưa có tình thế cách mạng vì điều kiện khách quan chỉ chín muồi sau khi lực lượng cách mạng có tổ chức",
+      "Đã xuất hiện tình thế cách mạng về khách quan, nhưng nhân tố chủ quan chưa chín muồi nên thời cơ chưa đầy đủ"
+    ],
+    "answer": 3,
+    "explanation": "Sự chín muồi của các mâu thuẫn và khủng hoảng chính trị sâu sắc xác lập tình thế cách mạng khách quan. Tuy nhiên, tổ chức, quyết tâm và khả năng tập hợp quần chúng còn yếu cho thấy nhân tố chủ quan chưa chín muồi; vì thế thời cơ chưa đầy đủ.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > III.2.b > Điều kiện khách quan, nhân tố chủ quan và thời cơ",
+      "text": "Thời cơ cách mạng là thời điểm điều kiện khách quan và nhân tố chủ quan cùng chín muồi."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q102",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng giai cấp lãnh đạo cách mạng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Trong một cuộc cách mạng, giai cấp A đứng ở vị trí trung tâm của thời đại, đại diện cho phương thức sản xuất mới và là giai cấp tiến bộ nhất; giai cấp B có lợi ích ít nhiều gắn với cách mạng và tích cực tham gia nhưng không có các điều kiện đó. Kết luận nào phù hợp?",
+    "options": [
+      "Giai cấp A có cơ sở giữ vai trò lãnh đạo; dữ kiện về giai cấp B mới đủ xác định B thuộc lực lượng cách mạng",
+      "Giai cấp A chỉ là lực lượng tham gia, còn giai cấp B mặc nhiên lãnh đạo vì có lợi ích gắn với cách mạng",
+      "Giai cấp A và B đương nhiên cùng lãnh đạo vì mọi lực lượng tham gia cách mạng đều có vai trò hoàn toàn như nhau",
+      "Giai cấp B phải giữ vai trò lãnh đạo vì mức độ tham gia thực tế là tiêu chí duy nhất quyết định vai trò lãnh đạo"
+    ],
+    "answer": 0,
+    "explanation": "Vai trò lãnh đạo thuộc về giai cấp đứng ở vị trí trung tâm của thời đại, đại diện cho phương thức sản xuất mới và tiến bộ nhất. Lợi ích ít nhiều gắn với cách mạng cùng sự tham gia thực tế chỉ đủ xác định B thuộc lực lượng; muốn là động lực còn phải có lợi ích gắn bó chặt chẽ, lâu dài.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XII > II.1.d. Tính chất, lực lượng và động lực của cách mạng xã hội",
+      "text": "Giai cấp lãnh đạo đứng ở vị trí trung tâm của thời đại, đại diện cho phương thức sản xuất mới và là giai cấp tiến bộ nhất; động lực có lợi ích gắn bó chặt chẽ, lâu dài với cách mạng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q103",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Khái niệm ý thức xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ý thức xã hội là gì?",
+    "options": [
+      "Toàn bộ quan hệ sản xuất tạo cơ cấu kinh tế",
+      "Mặt tinh thần của đời sống xã hội, qua đó xã hội nhận thức về mình và hiện thực",
+      "Toàn bộ điều kiện địa lý và dân cư của xã hội",
+      "Toàn bộ công cụ và phương tiện lao động"
+    ],
+    "answer": 1,
+    "explanation": "Ý thức xã hội là mặt tinh thần của đời sống xã hội, bao gồm những quan điểm, tư tưởng, tình cảm, tâm trạng... phản ánh tồn tại xã hội và hiện thực xung quanh.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII. Ý thức xã hội > I.1.b. Khái niệm và kết cấu ý thức xã hội",
+      "text": "Giáo trình xác định ý thức xã hội là mặt tinh thần phản ánh đời sống vật chất - xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q104",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý thức xã hội thông thường",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc điểm của ý thức xã hội thông thường là gì?",
+    "options": [
+      "Không liên quan tới hoạt động hằng ngày của con người",
+      "Chỉ tồn tại trong các công trình nghiên cứu chuyên sâu",
+      "Luôn được trình bày thành hệ thống khái niệm và quy luật",
+      "Hình thành trực tiếp trong đời sống hằng ngày và chưa được hệ thống hóa"
+    ],
+    "answer": 3,
+    "explanation": "Ý thức xã hội thông thường gồm những tri thức, quan niệm hình thành trực tiếp trong hoạt động hằng ngày, chưa được tổng hợp, khái quát và hệ thống hóa thành lý luận.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.b. Kết cấu ý thức xã hội > Ý thức thông thường",
+      "text": "Nguồn phân biệt ý thức thông thường bằng tính trực tiếp và chưa hệ thống hóa."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q105",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý thức lý luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ý thức lý luận được biểu hiện chủ yếu dưới hình thức nào?",
+    "options": [
+      "Tập hợp kinh nghiệm, thói quen và nhận xét nảy sinh trực tiếp trong sinh hoạt hằng ngày",
+      "Những biểu tượng rời rạc được truyền lại bằng phong tục nhưng chưa được hệ thống hóa",
+      "Hệ thống quan điểm được khái quát thành khái niệm, phạm trù, quy luật và học thuyết",
+      "Những tâm trạng, tình cảm và phản ứng tự phát phổ biến trong một cộng đồng xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Ý thức lý luận hay ý thức khoa học là những tư tưởng được tổng hợp, hệ thống hóa và khái quát hóa thành các học thuyết dưới dạng khái niệm, phạm trù, quy luật.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.b. Kết cấu ý thức xã hội > Ý thức lý luận",
+      "text": "Ý thức lý luận có tính hệ thống và khái quát cao hơn ý thức thông thường."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q106",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tâm lý xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tâm lý xã hội bao gồm những yếu tố nào hình thành trực tiếp từ đời sống hằng ngày?",
+    "options": [
+      "Chỉ các thiết chế nhà nước và pháp luật",
+      "Công cụ, phương tiện và đối tượng lao động",
+      "Chỉ các định luật khoa học đã được chứng minh",
+      "Tình cảm, tâm trạng, thói quen, phong tục, tập quán và ước muốn"
+    ],
+    "answer": 3,
+    "explanation": "Tâm lý xã hội là cấp độ phản ánh trực tiếp đời sống hằng ngày, bao gồm tư tưởng, tình cảm, tâm trạng, thói quen, nếp sống, phong tục, tập quán và ước muốn của cộng đồng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.1.b. Kết cấu ý thức xã hội > Tâm lý xã hội",
+      "text": "Tâm lý xã hội hình thành trực tiếp từ sinh hoạt hằng ngày và biểu hiện qua cảm xúc, thói quen, phong tục."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q107",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Hệ tư tưởng xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hệ tư tưởng xã hội là gì?",
+    "options": [
+      "Toàn bộ hoạt động sản xuất ra của cải vật chất",
+      "Tổng số thiết chế hành chính trong một quốc gia",
+      "Tập hợp phản xạ sinh học của cộng đồng",
+      "Sự nhận thức lý luận, hệ thống về tồn tại và các quan hệ xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Hệ tư tưởng là giai đoạn phát triển cao của ý thức xã hội, tổng kết và khái quát kinh nghiệm xã hội thành hệ thống quan điểm lý luận có khả năng đi sâu vào bản chất quan hệ xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.b. Kết cấu ý thức xã hội > Hệ tư tưởng",
+      "text": "Nguồn định nghĩa hệ tư tưởng là nhận thức lý luận đã được khái quát hóa về tồn tại xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q108",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Các hình thái ý thức xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm nào gồm các hình thái chủ yếu của ý thức xã hội?",
+    "options": [
+      "Lực lượng sản xuất, quan hệ sản xuất, kiến trúc thượng tầng",
+      "Sở hữu, tổ chức, phân phối, tiêu dùng",
+      "Thị tộc, bộ lạc, bộ tộc, dân tộc",
+      "Chính trị, pháp quyền, đạo đức, thẩm mỹ, tôn giáo, khoa học và triết học"
+    ],
+    "answer": 3,
+    "explanation": "Các hình thái ý thức xã hội là những phương thức khác nhau nắm bắt hiện thực về mặt tinh thần, gồm chính trị, pháp quyền, đạo đức, nghệ thuật, tôn giáo, khoa học và triết học.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II. Các hình thái ý thức xã hội",
+      "text": "Giáo trình trình bày các hình thái ý thức xã hội chủ yếu phản ánh những phương diện khác nhau của đời sống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q109",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý thức thông thường và ý thức lý luận",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác biệt chủ yếu giữa ý thức thông thường và ý thức lý luận là gì?",
+    "options": [
+      "Ý thức thông thường hình thành trực tiếp và chưa hệ thống; ý thức lý luận có tính khái quát, hệ thống",
+      "Ý thức thông thường luôn đúng; ý thức lý luận luôn sai",
+      "Ý thức thông thường chỉ của cá nhân; ý thức lý luận không thuộc xã hội",
+      "Ý thức thông thường thuộc tự nhiên; ý thức lý luận thuộc sản xuất vật chất"
+    ],
+    "answer": 0,
+    "explanation": "Hai cấp độ đều phản ánh đời sống xã hội, nhưng ý thức thông thường hình thành trực tiếp và rời rạc hơn, còn ý thức lý luận được khái quát, hệ thống hóa để nhận thức sâu bản chất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.b. Kết cấu ý thức xã hội",
+      "text": "Nguồn phân biệt hai cấp độ theo tính trực tiếp với tính hệ thống, khái quát."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q110",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tâm lý xã hội và hệ tư tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt đúng tâm lý xã hội với hệ tư tưởng?",
+    "options": [
+      "Hệ tư tưởng chỉ gồm thói quen và tâm trạng tự phát",
+      "Tâm lý xã hội phản ánh trực tiếp đời sống; hệ tư tưởng là sự khái quát lý luận về các quan hệ xã hội",
+      "Hai cấp độ không có bất kỳ quan hệ tác động nào",
+      "Tâm lý xã hội luôn có tính hệ thống cao hơn hệ tư tưởng"
+    ],
+    "answer": 1,
+    "explanation": "Tâm lý xã hội gắn với cảm xúc, thói quen và phản ánh trực tiếp đời sống, còn hệ tư tưởng là trình độ lý luận có hệ thống. Chúng có thể tác động qua lại chứ không biệt lập.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.1.b. Kết cấu ý thức xã hội",
+      "text": "Giáo trình phân biệt tâm lý xã hội trực tiếp với hệ tư tưởng có tính lý luận, hệ thống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q111",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tính giai cấp của ý thức xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao ý thức xã hội mang tính giai cấp trong xã hội có giai cấp?",
+    "options": [
+      "Vì ý thức xã hội không phản ánh đời sống hiện thực",
+      "Vì các giai cấp có địa vị, lợi ích và điều kiện sinh hoạt vật chất khác nhau",
+      "Vì mọi giai cấp có điều kiện vật chất và lợi ích hoàn toàn giống nhau",
+      "Vì tính giai cấp chỉ do ngôn ngữ khác nhau tạo ra"
+    ],
+    "answer": 1,
+    "explanation": "Các giai cấp có địa vị kinh tế - xã hội, lợi ích và điều kiện sống khác nhau nên cách họ phản ánh, đánh giá hiện thực cũng mang dấu ấn giai cấp, ở cả tâm lý và hệ tư tưởng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.c. Tính giai cấp của ý thức xã hội",
+      "text": "Sự khác nhau về điều kiện vật chất, địa vị và lợi ích là cơ sở của tính giai cấp trong ý thức xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q112",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý thức chính trị",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Ý thức chính trị tập trung phản ánh phương diện nào của đời sống xã hội?",
+    "options": [
+      "Quan hệ giữa các giai cấp, dân tộc và vấn đề quyền lực nhà nước",
+      "Quan hệ thẩm mỹ giữa con người với cái đẹp",
+      "Quy luật tự nhiên không liên quan đến quyền lực xã hội",
+      "Quan hệ đạo đức giữa thiện và ác trong hành vi cá nhân"
+    ],
+    "answer": 0,
+    "explanation": "Ý thức chính trị phản ánh lợi ích và quan hệ chính trị giữa các giai cấp, dân tộc, đặc biệt là thái độ đối với quyền lực nhà nước và tổ chức xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II.1. Ý thức chính trị",
+      "text": "Ý thức chính trị phản ánh các quan hệ quyền lực, giai cấp, dân tộc và thái độ đối với nhà nước."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q113",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Ý thức pháp quyền và đạo đức",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt đúng ý thức pháp quyền với ý thức đạo đức?",
+    "options": [
+      "Pháp quyền chỉ phản ánh cái đẹp; đạo đức chỉ phản ánh quy luật tự nhiên",
+      "Pháp quyền phản ánh quan hệ qua quyền, nghĩa vụ pháp lý; đạo đức đánh giá hành vi theo chuẩn mực thiện, ác, lương tâm",
+      "Pháp quyền và đạo đức hoàn toàn không tác động lẫn nhau",
+      "Pháp quyền là một công cụ lao động; đạo đức là một quan hệ sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Ý thức pháp quyền phản ánh đời sống xã hội dưới góc độ pháp luật, quyền và nghĩa vụ. Ý thức đạo đức đánh giá quan hệ và hành vi theo chuẩn mực thiện - ác, trách nhiệm, lương tâm.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II.2-3. Ý thức pháp quyền và ý thức đạo đức",
+      "text": "Hai hình thái khác nhau ở phương thức và chuẩn mực tinh thần dùng để phản ánh, điều chỉnh quan hệ xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q114",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Các hình thái ý thức xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao ý thức xã hội tồn tại dưới nhiều hình thái khác nhau?",
+    "options": [
+      "Vì mỗi hình thái chỉ do một cá nhân tùy ý sáng tạo",
+      "Vì các hình thái thay thế hoàn toàn tồn tại xã hội",
+      "Vì đời sống xã hội phong phú và được nắm bắt bằng những phương thức tinh thần khác nhau",
+      "Vì mỗi hình thái không có liên hệ với hiện thực xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Đời sống xã hội có nhiều lĩnh vực và quan hệ, nên được phản ánh qua chính trị, pháp luật, đạo đức, nghệ thuật, tôn giáo, khoa học, triết học... Các hình thái vừa khác biệt vừa tác động qua lại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.2.d. Các hình thái ý thức xã hội",
+      "text": "Sự phong phú của các hình thái ý thức xã hội phản ánh sự phong phú của đời sống xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q115",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng tâm lý xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Trong một phong trào, tin đồn ban đầu tạo ra tâm trạng và thói quen ứng xử tự phát; về sau, một nhóm lý luận hệ thống hóa kinh nghiệm ấy thành quan điểm và học thuyết. Phân loại nào đúng?",
+    "options": [
+      "Giai đoạn đầu thuộc tâm lý xã hội; giai đoạn sau chuyển thành hệ tư tưởng có tính hệ thống và khái quát",
+      "Cả giai đoạn đầu và giai đoạn sau đều chỉ thuộc tâm lý xã hội vì cùng xuất phát từ đời sống cộng đồng",
+      "Cả giai đoạn đầu và giai đoạn sau đều là hệ tư tưởng vì mọi tâm trạng tập thể đều có tính lý luận",
+      "Giai đoạn đầu là hệ tư tưởng đã hoàn chỉnh; giai đoạn sau trở lại thành tâm lý xã hội tự phát"
+    ],
+    "answer": 0,
+    "explanation": "Tâm trạng và thói quen nảy sinh trực tiếp, tự phát thuộc tâm lý xã hội; khi kinh nghiệm được khái quát thành hệ thống quan điểm lý luận thì thuộc hệ tư tưởng xã hội. Hai trình độ có liên hệ nhưng không đồng nhất.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.1.b. Tâm lý xã hội",
+      "text": "Tâm lý xã hội hình thành trực tiếp, tự phát từ sinh hoạt; hệ tư tưởng là hệ thống quan điểm được khái quát hóa bằng lý luận."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q116",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phân biệt tôn giáo, khoa học và triết học",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nhóm A xây dựng tri thức về một quá trình cụ thể bằng quan sát và kiểm nghiệm thực tiễn; nhóm B khái quát những quan niệm chung nhất về thế giới và phương pháp nhận thức; nhóm C xây dựng biểu tượng, tình cảm và giáo lý nhằm đền bù hư ảo trước sự bất lực trong hiện thực. Cách ghép nào đúng?",
+    "options": [
+      "A là ý thức tôn giáo; B là ý thức khoa học; C là ý thức triết học",
+      "A là ý thức khoa học; B là ý thức tôn giáo; C là ý thức triết học",
+      "A là ý thức triết học; B là ý thức tôn giáo; C là ý thức khoa học",
+      "A là ý thức khoa học; B là ý thức triết học; C là ý thức tôn giáo"
+    ],
+    "answer": 3,
+    "explanation": "Khoa học tạo ra tri thức lôgic được kiểm nghiệm bằng thực tiễn; triết học khái quát những quan niệm chung nhất và định hướng thế giới quan, phương pháp luận; tôn giáo dùng biểu tượng, tình cảm và giáo lý với chức năng đền bù hư ảo.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II.4, II.6; Phần I > Chương I > I.1",
+      "text": "Khoa học phản ánh bằng tri thức được kiểm nghiệm; triết học khái quát thế giới quan và phương pháp luận; tôn giáo thực hiện chức năng đền bù hư ảo."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q117",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng ý thức pháp quyền",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một hành vi được xác định là đúng thủ tục pháp luật, nhưng cộng đồng vẫn tranh luận liệu hành vi ấy có công bằng, có phù hợp lương tâm và chuẩn mực thiện - ác hay không. Nhận định nào đúng?",
+    "options": [
+      "Pháp quyền và đạo đức là cùng một hình thái ý thức vì quyền, nghĩa vụ và lương tâm đều là một loại chuẩn mực",
+      "Sự kiện chỉ thuộc ý thức pháp quyền vì một hành vi hợp pháp thì không còn có thể được đánh giá về mặt đạo đức",
+      "Sự kiện được phản ánh đồng thời bởi ý thức pháp quyền và ý thức đạo đức, mỗi hình thái dùng một hệ chuẩn mực riêng",
+      "Sự kiện chỉ thuộc ý thức đạo đức vì đánh giá thiện - ác tự động làm mất hiệu lực của mọi quy định pháp luật"
+    ],
+    "answer": 2,
+    "explanation": "Ý thức pháp quyền đánh giá bằng các phạm trù hợp pháp, quyền và nghĩa vụ; ý thức đạo đức đánh giá bằng thiện - ác, công bằng, lương tâm. Một hành vi có thể đồng thời được phản ánh bởi cả hai hình thái mà không làm chúng đồng nhất.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II.2. Ý thức pháp quyền",
+      "text": "Ý thức pháp quyền phản ánh bằng quyền, nghĩa vụ và pháp luật; ý thức đạo đức phản ánh bằng các chuẩn mực thiện - ác, công bằng và lương tâm."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q118",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng ý thức thẩm mỹ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một bức tranh về đời sống lao động vừa có thể được nghiên cứu bằng dữ liệu xã hội học, vừa được triển lãm để công chúng cảm thụ hình tượng, cái đẹp, cái cao cả và cái bi. Nhận định nào đúng về góc nhìn của triển lãm?",
+    "options": [
+      "Đó chủ yếu là ý thức thẩm mỹ vì hiện thực được phản ánh bằng hình tượng và đánh giá theo các giá trị thẩm mỹ",
+      "Đó chủ yếu là ý thức chính trị vì mọi hình tượng nghệ thuật đều chỉ trực tiếp mô tả quan hệ quyền lực nhà nước",
+      "Đó chủ yếu là ý thức pháp quyền vì việc trưng bày tác phẩm luôn phát sinh quyền và nghĩa vụ của người xem",
+      "Đó chủ yếu là ý thức khoa học vì mọi tác phẩm phản ánh hiện thực đều phải được kiểm nghiệm bằng thí nghiệm"
+    ],
+    "answer": 0,
+    "explanation": "Cùng một đối tượng có thể được nhiều hình thái ý thức phản ánh. Ở góc nhìn triển lãm, phương thức hình tượng và các giá trị đẹp, cao cả, bi, hài làm cho ý thức thẩm mỹ giữ vai trò trực tiếp; nghiên cứu xã hội học là một góc nhìn khác.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > II.5. Ý thức thẩm mỹ",
+      "text": "Ý thức thẩm mỹ nắm bắt hiện thực bằng hình tượng và đánh giá theo các giá trị thẩm mỹ."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q119",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Khái niệm tồn tại xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tồn tại xã hội là gì?",
+    "options": [
+      "Toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của cộng đồng trong một giai đoạn lịch sử",
+      "Toàn bộ trạng thái tâm lý, tình cảm và ý chí của các cá nhân trong cộng đồng ở một hoàn cảnh lịch sử",
+      "Toàn bộ các hình thái ý thức phản ánh đời sống xã hội trong những điều kiện lịch sử xác định",
+      "Toàn bộ hệ thống quan điểm, tư tưởng và học thuyết lý luận phản ánh đời sống của một cộng đồng lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Tồn tại xã hội là phương diện sinh hoạt vật chất của xã hội cùng những điều kiện vật chất trong một hoàn cảnh lịch sử xác định, đối lập tương đối với mặt tinh thần là ý thức xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.1.a. Khái niệm tồn tại xã hội",
+      "text": "Giáo trình định nghĩa tồn tại xã hội bằng đời sống và điều kiện sinh hoạt vật chất của cộng đồng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q120",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Các yếu tố của tồn tại xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba nhóm yếu tố cơ bản của tồn tại xã hội là gì?",
+    "options": [
+      "Điều kiện tự nhiên - địa lý, các hình thái ý thức và hệ thống quan điểm của giai cấp",
+      "Phương thức sản xuất vật chất, điều kiện tự nhiên - địa lý và những yếu tố cơ bản của dân cư",
+      "Quy mô dân cư, đời sống tinh thần và toàn bộ tổ chức thuộc kiến trúc thượng tầng",
+      "Phương thức sản xuất, ý thức chính trị - pháp quyền và các thiết chế quyền lực tương ứng"
+    ],
+    "answer": 1,
+    "explanation": "Tồn tại xã hội được tạo thành bởi phương thức sản xuất vật chất, điều kiện tự nhiên - địa lý và các yếu tố dân cư. Chúng tác động qua lại trong một chỉnh thể.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.1.b. Các yếu tố cơ bản của tồn tại xã hội",
+      "text": "Nguồn liệt kê phương thức sản xuất, hoàn cảnh tự nhiên - địa lý và dân cư."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q121",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò phương thức sản xuất trong TTXH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong các yếu tố của tồn tại xã hội, yếu tố nào giữ vai trò cơ bản nhất?",
+    "options": [
+      "Khí hậu xét tách khỏi hoạt động con người",
+      "Quy mô dân số xét riêng biệt",
+      "Vị trí địa lý xét như yếu tố duy nhất",
+      "Phương thức sản xuất vật chất"
+    ],
+    "answer": 3,
+    "explanation": "Điều kiện tự nhiên và dân cư đều quan trọng, nhưng phương thức sản xuất vật chất là yếu tố cơ bản nhất vì trực tiếp quy định cách con người duy trì và phát triển đời sống xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.1.a. Tồn tại xã hội",
+      "text": "Trong các yếu tố cấu thành tồn tại xã hội, phương thức sản xuất giữ vai trò cơ bản nhất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q122",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "TTXH quyết định YTXH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vai trò quyết định của tồn tại xã hội đối với ý thức xã hội thể hiện trước hết ở đâu?",
+    "options": [
+      "Tồn tại xã hội là nguồn gốc và cơ sở khách quan hình thành nội dung ý thức xã hội",
+      "Tồn tại xã hội làm mọi hình thái ý thức biến đổi với tốc độ giống nhau",
+      "Ý thức xã hội không có khả năng tác động trở lại tồn tại xã hội",
+      "Ý thức xã hội tạo ra toàn bộ điều kiện vật chất từ hư vô"
+    ],
+    "answer": 0,
+    "explanation": "Ý thức xã hội là sự phản ánh tồn tại xã hội, nên đời sống vật chất là nguồn gốc và xét đến cùng quy định nội dung, tính chất, đặc điểm của đời sống tinh thần.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3. Quan hệ biện chứng giữa TTXH và YTXH > Vai trò quyết định của TTXH",
+      "text": "Nguồn xác định tồn tại xã hội là nguồn gốc khách quan và cơ sở quy định nội dung, tính chất của ý thức xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q123",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "YTXH lạc hậu hơn TTXH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Biểu hiện nào cho thấy ý thức xã hội có thể lạc hậu hơn tồn tại xã hội?",
+    "options": [
+      "Tư tưởng khoa học dự báo đúng một xu hướng tương lai",
+      "Một lý luận tiến bộ được đưa vào hoạt động thực tiễn",
+      "Một hình thái ý thức ảnh hưởng đến hình thái ý thức khác",
+      "Điều kiện vật chất đã đổi nhưng thói quen, tập quán cũ vẫn kéo dài"
+    ],
+    "answer": 3,
+    "explanation": "Tồn tại xã hội có thể thay đổi nhanh, trong khi sức ỳ của thói quen, truyền thống và lợi ích cũ khiến những yếu tố ý thức cũ tiếp tục tồn tại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3 > Tính độc lập tương đối > YTXH thường lạc hậu",
+      "text": "Nguồn dùng sự tồn tại kéo dài của thói quen, tập quán và tư tưởng cũ để giải thích tính lạc hậu."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q124",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "YTXH vượt trước TTXH",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong điều kiện nhất định, ý thức xã hội vượt trước tồn tại xã hội bằng cách nào?",
+    "options": [
+      "Tư tưởng khoa học dự báo xu hướng và định hướng hoạt động thực tiễn",
+      "Tự tạo ra quy luật khách quan theo mong muốn",
+      "Thay thế trực tiếp hoạt động vật chất của con người",
+      "Tách hoàn toàn khỏi mọi dữ liệu của hiện thực"
+    ],
+    "answer": 0,
+    "explanation": "Lý luận khoa học có thể phát hiện khuynh hướng khách quan chưa bộc lộ đầy đủ, dự báo tương lai và chỉ đạo thực tiễn. Vượt trước không có nghĩa thoát ly điều kiện hiện thực.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.2.b. Tính độc lập tương đối của YTXH",
+      "text": "Tư tưởng khoa học tiên tiến có thể dự báo và định hướng thực tiễn trước sự phát triển hiện tại của tồn tại xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q125",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tính kế thừa của YTXH",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Tính kế thừa của ý thức xã hội được hiểu đúng là gì?",
+    "options": [
+      "Tính kế thừa phủ nhận vai trò quyết định của tồn tại xã hội",
+      "Ý thức một thời đại vừa phản ánh tồn tại hiện tại vừa tiếp thu có chọn lọc di sản tư tưởng trước đó",
+      "Ý thức xã hội chỉ lặp nguyên vẹn tư tưởng cũ mà không đổi mới",
+      "Mỗi thời đại phải xóa bỏ hoàn toàn mọi thành tựu tinh thần quá khứ"
+    ],
+    "answer": 1,
+    "explanation": "Ý thức xã hội phát triển trên cơ sở kế thừa di sản tư tưởng của các thời đại trước. Sự kế thừa được thực hiện trong điều kiện mới và chịu chi phối bởi nhu cầu, lợi ích xã hội hiện tại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3 > Tính kế thừa trong sự phát triển của YTXH",
+      "text": "Ý thức của thời đại mới tiếp thu những yếu tố tư tưởng do các thời đại trước để lại."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q126",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tác động qua lại giữa các hình thái YTXH",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào thể hiện sự tác động qua lại giữa các hình thái ý thức xã hội?",
+    "options": [
+      "Mỗi hình thái chỉ phản ánh một thế giới hoàn toàn khác",
+      "Một hình thái xuất hiện thì mọi hình thái khác tự động biến mất",
+      "Các hình thái chỉ tác động tới điều kiện tự nhiên, không tác động nhau",
+      "Ý thức chính trị, pháp quyền, đạo đức, nghệ thuật có thể ảnh hưởng lẫn nhau trong một thời đại"
+    ],
+    "answer": 3,
+    "explanation": "Các hình thái phản ánh những phương diện khác nhau nhưng cùng thuộc đời sống tinh thần xã hội, nên chúng liên hệ và ảnh hưởng lẫn nhau; có thời kỳ một hình thái giữ vai trò nổi bật.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.2.b. Tác động qua lại giữa các hình thái YTXH",
+      "text": "Các hình thái ý thức xã hội có quy luật riêng nhưng luôn tác động, thâm nhập và ảnh hưởng lẫn nhau."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q127",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "YTXH tác động trở lại TTXH",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Ý thức xã hội tác động trở lại tồn tại xã hội bằng con đường nào?",
+    "options": [
+      "Thay thế hoàn toàn quy luật khách quan bằng niềm tin",
+      "Tự mình biến đổi vật chất mà không cần chủ thể hoạt động",
+      "Thông qua hoạt động thực tiễn của con người và các lực lượng xã hội",
+      "Chỉ thông qua sự thay đổi khí hậu tự nhiên"
+    ],
+    "answer": 2,
+    "explanation": "Ý thức không trực tiếp tự biến đổi điều kiện vật chất. Tư tưởng phải được con người tiếp nhận, tổ chức và thực hiện trong hoạt động thực tiễn mới tạo ra tác động xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3 > YTXH tác động trở lại TTXH",
+      "text": "Nguồn khẳng định ý thức xã hội chỉ tác động đến tồn tại xã hội thông qua hoạt động thực tiễn."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q128",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguyên nhân YTXH lạc hậu",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nguyên nhân nào giải thích ý thức xã hội thường lạc hậu hơn tồn tại xã hội?",
+    "options": [
+      "Tồn tại xã hội không bao giờ thay đổi",
+      "Sức ỳ của thói quen, truyền thống và lợi ích của các lực lượng muốn duy trì trật tự cũ",
+      "Tư tưởng cũ không gắn với bất kỳ lợi ích xã hội nào",
+      "Ý thức xã hội luôn phản ánh ngay lập tức mọi biến đổi vật chất"
+    ],
+    "answer": 1,
+    "explanation": "Tốc độ biến đổi vật chất có thể nhanh hơn khả năng phản ánh; thói quen, truyền thống và lợi ích của những nhóm bảo thủ còn duy trì tư tưởng cũ sau khi điều kiện sống đã đổi.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.2.b. YTXH thường lạc hậu hơn TTXH",
+      "text": "Giáo trình nêu sức mạnh thói quen, truyền thống và lợi ích bảo thủ là nguyên nhân của tính lạc hậu."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q129",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nhịp độ biến đổi của YTXH",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Khi tồn tại xã hội thay đổi, các bộ phận của ý thức xã hội biến đổi như thế nào?",
+    "options": [
+      "Chỉ tâm lý xã hội thay đổi, còn lý luận không bao giờ đổi",
+      "Có bộ phận thay đổi nhanh, có bộ phận thay đổi chậm do đặc điểm và tính độc lập tương đối",
+      "Mọi bộ phận thay đổi đồng thời với cùng tốc độ",
+      "Không bộ phận nào thay đổi vì ý thức hoàn toàn độc lập"
+    ],
+    "answer": 1,
+    "explanation": "Tồn tại xã hội thay đổi làm ý thức xã hội biến đổi, nhưng nhịp độ không đồng đều. Chính trị, pháp luật có thể đổi nhanh hơn, trong khi phong tục, tôn giáo hay tâm lý đổi chậm hơn.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3 > Vai trò quyết định của TTXH đối với YTXH",
+      "text": "Nguồn lưu ý các bộ phận ý thức xã hội có mức độ và nhịp điệu biến đổi khác nhau."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q130",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Mức độ tác động của YTXH",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Mức độ ý thức xã hội tác động tới tồn tại xã hội phụ thuộc chủ yếu vào điều gì?",
+    "options": [
+      "Chỉ số lượng người phát biểu tư tưởng lần đầu",
+      "Chỉ độ dài của văn bản trình bày tư tưởng",
+      "Tính đúng đắn, điều kiện lịch sử, lực lượng xã hội và mức độ tổ chức thực hiện",
+      "Khả năng tư tưởng tồn tại mà không cần hoạt động thực tiễn"
+    ],
+    "answer": 2,
+    "explanation": "Tác động phụ thuộc vào mức độ phản ánh đúng hiện thực, lợi ích và vai trò của lực lượng nêu tư tưởng, hoàn cảnh lịch sử và khả năng đưa tư tưởng vào quần chúng, thực tiễn.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.2.b. YTXH tác động trở lại TTXH",
+      "text": "Hiệu lực của tư tưởng phụ thuộc vào nội dung, chủ thể xã hội, điều kiện lịch sử và tổ chức thực hiện."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q131",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng tính lạc hậu của YTXH",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điều kiện kinh tế và pháp luật đã thay đổi, nhưng một tập quán cũ vẫn được duy trì lâu dài do thói quen và lợi ích của một nhóm. Biểu hiện nổi bật là gì?",
+    "options": [
+      "Ý thức xã hội vượt trước tồn tại xã hội",
+      "Ý thức xã hội lạc hậu tương đối so với tồn tại xã hội",
+      "Tồn tại xã hội không quyết định ý thức xã hội",
+      "Ý thức xã hội đã trực tiếp tạo ra phương thức sản xuất"
+    ],
+    "answer": 1,
+    "explanation": "Tập quán thuộc ý thức xã hội còn kéo dài sau khi cơ sở vật chất đã đổi, thể hiện tính lạc hậu tương đối. Điều đó không phủ nhận mà làm rõ tính phức tạp của sự phản ánh.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > IV.3 > YTXH thường lạc hậu hơn TTXH",
+      "text": "Thói quen, tập quán và lợi ích cũ có thể duy trì ý thức lạc hậu sau biến đổi của đời sống vật chất."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q132",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng tính vượt trước và tác động của YTXH",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một lý luận khoa học dự báo đúng xu hướng xã hội, sau đó được tổ chức thành chương trình thực tiễn và tạo chuyển biến tích cực. Tình huống thể hiện đầy đủ điều gì?",
+    "options": [
+      "Mọi dự báo đều trở thành hiện thực bất kể điều kiện",
+      "Ý thức xã hội có thể vượt trước và tác động tích cực thông qua thực tiễn",
+      "Ý thức xã hội tự biến đổi vật chất mà không cần con người",
+      "Tồn tại xã hội không còn là nguồn gốc của ý thức"
+    ],
+    "answer": 1,
+    "explanation": "Lý luận dự báo xu hướng thể hiện khả năng vượt trước; việc được tổ chức thực hiện cho thấy ý thức chỉ tác động tới tồn tại xã hội thông qua hoạt động thực tiễn của con người.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIII > I.2.b. Tính độc lập tương đối của YTXH",
+      "text": "Tư tưởng khoa học có thể dự báo và phát huy tác dụng khi được chuyển hóa thành hoạt động thực tiễn."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q133",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Con người là thực thể sinh học - xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan niệm con người là thực thể sinh học - xã hội khẳng định điều gì?",
+    "options": [
+      "Con người chỉ là sản phẩm tinh thần, không có nhu cầu tự nhiên",
+      "Con người chỉ là cơ thể sinh học, không chịu ảnh hưởng của xã hội",
+      "Mặt sinh học và mặt xã hội tồn tại tách rời, không tác động nhau",
+      "Con người vừa là bộ phận của tự nhiên vừa sống, phát triển trong các quan hệ và quy luật xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Con người có cơ thể sinh học, chịu quy luật tự nhiên, đồng thời là thực thể xã hội biết lao động, giao tiếp và chịu sự chi phối của các quan hệ, quy luật xã hội. Hai mặt thống nhất trong con người hiện thực.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV. Quan điểm triết học Mác - Lênin về con người > I.2.a. Thực thể sinh vật - xã hội",
+      "text": "Giáo trình xem con người là sự thống nhất giữa phương diện sinh vật và phương diện xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q134",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Lao động và sự hình thành con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hoạt động xã hội nào giữ vai trò chủ yếu quyết định sự hình thành và phát triển con người?",
+    "options": [
+      "Phản xạ bẩm sinh, vì cơ chế di truyền trực tiếp quyết định toàn bộ bản chất xã hội của con người",
+      "Hoạt động tiêu dùng, vì tiếp nhận sản phẩm có sẵn là nguồn duy nhất phát triển năng lực xã hội",
+      "Cạnh tranh sinh tồn, vì đấu tranh bản năng tự nó tạo ra ngôn ngữ, ý thức và các quan hệ xã hội",
+      "Lao động sản xuất, vì qua cải biến tự nhiên và chế tạo công cụ, con người đồng thời cải biến chính mình"
+    ],
+    "answer": 3,
+    "explanation": "Lao động sản xuất giúp con người cải biến tự nhiên, chế tạo công cụ và đồng thời cải biến chính mình. Nó là điều kiện tiên quyết, cần thiết và chủ yếu của quá trình hình thành con người xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.1.a-b. Con người là thực thể sinh học - xã hội và vai trò của lao động",
+      "text": "Nguồn xác định lao động sản xuất là điều kiện tiên quyết, cần thiết và chủ yếu của sự hình thành, phát triển con người."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q135",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Bản chất con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Luận điểm của C. Mác về bản chất con người trong tính hiện thực là gì?",
+    "options": [
+      "Bản chất con người chỉ là cấu tạo sinh học",
+      "Bản chất con người là ý niệm tồn tại ngoài lịch sử",
+      "Bản chất con người là một bản năng không đổi",
+      "Bản chất con người là tổng hòa những quan hệ xã hội"
+    ],
+    "answer": 3,
+    "explanation": "C. Mác nhấn mạnh bản chất con người hiện thực được hình thành trong tổng hòa các quan hệ xã hội cụ thể. Luận điểm không phủ nhận mặt sinh học mà khắc phục cách hiểu trừu tượng, cô lập cá nhân khỏi xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > I.2.b. Bản chất con người là tổng hòa những quan hệ xã hội",
+      "text": "Bản chất con người hiện thực được tạo nên bởi hệ thống quan hệ xã hội mà con người tham gia."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q136",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Con người là chủ thể và sản phẩm lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào thể hiện đầy đủ quan hệ của con người với lịch sử?",
+    "options": [
+      "Con người đứng ngoài cả tự nhiên lẫn xã hội",
+      "Con người chỉ là sản phẩm thụ động của hoàn cảnh",
+      "Con người vừa được lịch sử tạo nên vừa sáng tạo lịch sử trong những điều kiện khách quan",
+      "Con người sáng tạo lịch sử hoàn toàn theo ý muốn tùy tiện"
+    ],
+    "answer": 2,
+    "explanation": "Con người tiếp nhận những điều kiện do tự nhiên và các thế hệ trước để lại nên là sản phẩm lịch sử; bằng lao động và hoạt động xã hội, con người cải biến hoàn cảnh nên đồng thời là chủ thể lịch sử.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.1.c-d. Con người là sản phẩm và chủ thể của lịch sử",
+      "text": "Nguồn kết hợp sự quy định của hoàn cảnh lịch sử với vai trò sáng tạo của hoạt động con người."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q137",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tính lịch sử của bản chất con người",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điều gì làm cho bản chất con người mang tính lịch sử và cụ thể?",
+    "options": [
+      "Bản chất ấy cố định như nhau ở mọi thời đại vì các quan hệ kinh tế và chính trị không tác động đến con người",
+      "Bản chất ấy chỉ là tổng số đặc điểm sinh học bẩm sinh nên không chịu ảnh hưởng của điều kiện xã hội",
+      "Bản chất ấy được hình thành trong tổng hòa quan hệ xã hội cụ thể và biến đổi khi các quan hệ thay đổi",
+      "Bản chất ấy do ý muốn riêng của cá nhân tự lựa chọn, không phụ thuộc vào quan hệ với những người khác"
+    ],
+    "answer": 2,
+    "explanation": "Con người luôn sống trong những quan hệ xã hội lịch sử cụ thể. Khi các quan hệ kinh tế, chính trị, gia đình, cộng đồng... biến đổi, điều kiện hình thành và biểu hiện bản chất con người cũng biến đổi.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > I.2.b. Bản chất con người",
+      "text": "Bản chất con người được hình thành ở những cá nhân hiện thực trong điều kiện và quan hệ lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q138",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ sinh học - xã hội của con người",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Luận điểm “bản chất con người là tổng hòa những quan hệ xã hội” cần được hiểu thế nào trong quan hệ với mặt sinh học?",
+    "options": [
+      "Luận điểm nhấn mạnh bản chất xã hội đồng thời thừa nhận con người là thực thể sinh học - xã hội",
+      "Mặt sinh học là yếu tố duy nhất quyết định bản chất con người",
+      "Quan hệ xã hội thay thế hoàn toàn cơ thể sinh học của con người",
+      "Lao động xã hội làm cho con người không còn cần cơ sở tự nhiên"
+    ],
+    "answer": 0,
+    "explanation": "Luận điểm của Mác tập trung khắc phục cách hiểu con người cô lập và nhấn mạnh mặt xã hội của bản chất hiện thực. Nó không phủ nhận cơ thể sinh học và sự phụ thuộc của con người vào tự nhiên.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.1.a và V.1.đ. Thực thể sinh học - xã hội và bản chất con người",
+      "text": "Nguồn đồng thời khẳng định hai mặt sinh học - xã hội và vai trò của tổng hòa quan hệ xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q139",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng bản chất con người",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một người thay đổi rõ rệt về năng lực, trách nhiệm và cách ứng xử sau khi được học tập, lao động và tham gia các quan hệ xã hội mới. Tình huống minh họa điều gì?",
+    "options": [
+      "Bản chất con người chỉ do di truyền sinh học quyết định",
+      "Mọi thay đổi cá nhân đều tách khỏi điều kiện lịch sử",
+      "Quan hệ xã hội không ảnh hưởng đến sự phát triển cá nhân",
+      "Bản chất con người hình thành và biến đổi trong tổng hòa quan hệ xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Học tập, lao động và quan hệ cộng đồng là những quan hệ xã hội cụ thể góp phần hình thành phẩm chất cá nhân. Điều này minh họa tính xã hội và lịch sử của bản chất con người.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > I.2.b. Bản chất con người là tổng hòa quan hệ xã hội",
+      "text": "Sự biến đổi các quan hệ xã hội có thể làm biến đổi cách con người hình thành và biểu hiện bản chất của mình."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q140",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng vai trò chủ thể của con người",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một thế hệ tiếp nhận cơ sở vật chất và thể chế do thế hệ trước để lại, sau đó cải biến chúng bằng lao động và sáng tạo. Cách giải thích nào đầy đủ nhất?",
+    "options": [
+      "Con người chỉ là chủ thể, không chịu ràng buộc lịch sử",
+      "Con người chỉ là sản phẩm, không thể cải biến hoàn cảnh",
+      "Lịch sử được tạo ra ngoài hoạt động của con người",
+      "Con người vừa là sản phẩm của điều kiện lịch sử vừa là chủ thể sáng tạo lịch sử"
+    ],
+    "answer": 3,
+    "explanation": "Thế hệ mới không lựa chọn tùy ý điểm xuất phát mà thừa hưởng điều kiện có trước. Tuy nhiên, thông qua hoạt động thực tiễn, họ có thể cải biến những điều kiện ấy và tạo ra lịch sử mới.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.1.c-d. Con người là sản phẩm và chủ thể của lịch sử",
+      "text": "Con người sáng tạo lịch sử trên cơ sở những điều kiện khách quan do lịch sử trước đó để lại."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q141",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Lao động bị tha hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thực chất của hiện tượng tha hóa con người theo C. Mác trước hết là gì?",
+    "options": [
+      "Mọi quan hệ xã hội tự động trở nên bình đẳng",
+      "Lao động và sản phẩm lao động trở thành lực lượng đối lập, nô dịch con người",
+      "Mọi hoạt động tự nhiên của con người đều biến mất",
+      "Con người ngày càng làm chủ sản phẩm và phát triển tự do"
+    ],
+    "answer": 1,
+    "explanation": "Trong lao động bị tha hóa, quá trình và sản phẩm vốn phải phục vụ sự phát triển của con người lại trở thành lực lượng xa lạ, đối lập, chi phối và nô dịch người lao động.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a. Thực chất hiện tượng tha hóa con người",
+      "text": "Nguồn xác định trọng tâm của tha hóa là lao động và sản phẩm quay lại thống trị chính người lao động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q142",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Nguồn gốc tha hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguyên nhân xã hội cơ bản gây nên hiện tượng tha hóa con người là gì?",
+    "options": [
+      "Chế độ tư hữu về tư liệu sản xuất trong xã hội có phân chia giai cấp",
+      "Sự tồn tại của mọi hình thức lao động",
+      "Sự phát triển của ngôn ngữ và tư duy",
+      "Sự đa dạng của các hình thái ý thức xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Tha hóa là hiện tượng lịch sử đặc thù của xã hội có giai cấp, bắt nguồn từ chế độ tư hữu tư liệu sản xuất và đạt mức phát triển cao trong chủ nghĩa tư bản.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a. Tha hóa con người > Nguyên nhân",
+      "text": "Nguồn gắn tha hóa với chế độ tư hữu tư liệu sản xuất và sự phân hóa giai cấp."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q143",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Mục tiêu giải phóng con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục tiêu cuối cùng trong tư tưởng giải phóng con người của chủ nghĩa Mác - Lênin là gì?",
+    "options": [
+      "Tách cá nhân khỏi mọi quan hệ cộng đồng",
+      "Chỉ thay đổi tên gọi của các thiết chế chính trị",
+      "Giải phóng con người trên các phương diện lao động, kinh tế, chính trị và xã hội",
+      "Chỉ giải phóng một cá nhân khỏi một khó khăn tâm lý"
+    ],
+    "answer": 2,
+    "explanation": "Giải phóng con người là quá trình toàn diện, từ giải phóng cá nhân, giai cấp, dân tộc đến nhân loại, khắc phục áp bức, bóc lột và các hình thức tha hóa trong lao động, kinh tế, chính trị, xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.b. Giải phóng toàn thể xã hội khỏi áp bức, bóc lột",
+      "text": "Nguồn đặt mục tiêu giải phóng con người trên nhiều cấp độ và phương diện của đời sống."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q144",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Tính lịch sử của tha hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cơ sở nào cho thấy tha hóa con người là hiện tượng có tính lịch sử?",
+    "options": [
+      "Tha hóa không liên quan tới lao động và sở hữu",
+      "Tha hóa nảy sinh trong những quan hệ sở hữu và giai cấp có tính lịch sử",
+      "Tha hóa tồn tại trước mọi xã hội loài người",
+      "Tha hóa chỉ là cảm giác riêng của từng cá nhân"
+    ],
+    "answer": 1,
+    "explanation": "Tha hóa gắn với những điều kiện xã hội lịch sử, đặc biệt là tư hữu tư liệu sản xuất và phân chia giai cấp. Khi những điều kiện sinh ra nó được khắc phục, tha hóa cũng có cơ sở để bị xóa bỏ.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a. Thực chất hiện tượng tha hóa",
+      "text": "Nguồn coi tha hóa là hiện tượng lịch sử đặc thù chứ không phải bản tính bất biến của con người."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q145",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Điều kiện giải phóng con người",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao khắc phục tha hóa phải gắn với cải biến nhiều phương diện của đời sống xã hội?",
+    "options": [
+      "Vì tha hóa chỉ tồn tại trong nghệ thuật và tôn giáo",
+      "Vì tha hóa lao động liên hệ với sở hữu, chính trị, tư tưởng và các thiết chế xã hội",
+      "Vì quan hệ sở hữu không ảnh hưởng đến người lao động",
+      "Vì chỉ cần thay đổi cảm xúc cá nhân là xóa bỏ được mọi tha hóa"
+    ],
+    "answer": 1,
+    "explanation": "Tha hóa lao động có cơ sở kinh tế nhưng còn được củng cố bởi quan hệ chính trị, tư tưởng và thiết chế. Vì vậy giải phóng con người đòi hỏi quá trình cải biến xã hội toàn diện, lâu dài.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a-b. Tha hóa và giải phóng con người",
+      "text": "Khắc phục tha hóa gắn với thay đổi sở hữu và các phương diện chính trị, tư tưởng, thiết chế của xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q146",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phát triển tự do của con người",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Luận điểm cho rằng sự phát triển tự do của mỗi người tạo điều kiện cho sự phát triển tự do của mọi người nhấn mạnh điều gì?",
+    "options": [
+      "Phát triển cá nhân và phát triển cộng đồng thống nhất, tạo điều kiện cho nhau",
+      "Tự do cá nhân chỉ có thể đạt bằng cách tách khỏi xã hội",
+      "Mỗi cá nhân phát triển độc lập với các quan hệ xã hội",
+      "Lợi ích chung đòi hỏi xóa bỏ mọi năng lực riêng của cá nhân"
+    ],
+    "answer": 0,
+    "explanation": "Con người là sự thống nhất giữa cá nhân và xã hội. Một xã hội giải phóng phải tạo điều kiện cho mỗi cá nhân phát triển, và sự phát triển tự do của từng người lại góp phần vào tự do chung.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.c. Sự phát triển tự do của mỗi người",
+      "text": "Nguồn trình bày sự thống nhất giữa tự do cá nhân và điều kiện phát triển tự do của cộng đồng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q147",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng khái niệm tha hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Ở xưởng A, người lao động không được quyết định quá trình hay mục đích sản xuất, không làm chủ sản phẩm và sản phẩm quay lại chi phối họ; ở xưởng B, người lao động cùng quyết định công việc và dùng kết quả để phát triển năng lực. Đánh giá nào phù hợp?",
+    "options": [
+      "Chỉ B là lao động bị tha hóa vì người lao động tham gia quyết định sẽ phải chịu trách nhiệm với sản phẩm",
+      "Không trường hợp nào liên quan đến tha hóa vì tha hóa chỉ là trạng thái tâm lý riêng của từng cá nhân",
+      "A biểu hiện lao động bị tha hóa, còn B giảm sự đối lập giữa người lao động với quá trình và sản phẩm",
+      "Hai xưởng đều biểu hiện lao động bị tha hóa vì mọi sản phẩm sau khi hoàn thành đều tách khỏi người sản xuất"
+    ],
+    "answer": 2,
+    "explanation": "Ở A, quá trình và sản phẩm trở thành sức mạnh xa lạ, đối lập với người tạo ra chúng nên biểu hiện lao động bị tha hóa. Ở B, quyền cùng quyết định và khả năng dùng kết quả để phát triển bản thân làm giảm sự đối lập ấy.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a. Thực chất lao động bị tha hóa",
+      "text": "Tha hóa xảy ra khi lao động và sản phẩm không phục vụ mà quay lại nô dịch, thống trị người lao động."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q148",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng giải phóng con người",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình tuyên bố giải phóng con người nhưng chỉ thay đổi khẩu hiệu chính trị, giữ nguyên quan hệ sở hữu tạo bóc lột và các thiết chế duy trì tha hóa. Đánh giá nào phù hợp nhất?",
+    "options": [
+      "Đã xóa bỏ nguồn gốc tha hóa vì không cần cải biến lao động",
+      "Chưa toàn diện vì giải phóng đòi hỏi cải biến cả cơ sở kinh tế và các quan hệ, thiết chế xã hội",
+      "Đã phát triển tự do cá nhân vì giữ nguyên mọi quan hệ cũ",
+      "Đã giải phóng triệt để vì tư tưởng tự nó đủ thay đổi hiện thực"
+    ],
+    "answer": 1,
+    "explanation": "Giải phóng con người không dừng ở tuyên bố tư tưởng. Nó phải khắc phục cơ sở sở hữu và các quan hệ kinh tế, chính trị, xã hội khiến lao động và con người bị tha hóa.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.2.a-b. Khắc phục tha hóa và giải phóng con người",
+      "text": "Nguồn yêu cầu thay đổi cơ sở tư hữu cùng các phương diện xã hội củng cố sự tha hóa."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q149",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ cá nhân - xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan hệ giữa cá nhân và xã hội có tính chất cơ bản nào?",
+    "options": [
+      "Là quan hệ ngẫu nhiên, cá nhân có thể tồn tại hoàn toàn ngoài xã hội",
+      "Là quan hệ chỉ xuất hiện trong xã hội hiện đại",
+      "Là quan hệ một chiều, xã hội chỉ kìm hãm mọi cá nhân",
+      "Là quan hệ tất yếu, làm tiền đề và điều kiện cho sự tồn tại, phát triển của cá nhân và xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Cá nhân là thành viên của một xã hội, thời đại và hệ thống quan hệ cụ thể. Xã hội tạo điều kiện cho cá nhân phát triển, còn hoạt động của các cá nhân tạo nên và biến đổi xã hội.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > II. Biện chứng giữa cá nhân và xã hội",
+      "text": "Cá nhân và xã hội không tách rời; mỗi bên là điều kiện tồn tại và phát triển của bên kia."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q150",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Khái niệm quần chúng nhân dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quần chúng nhân dân được hiểu là bộ phận xã hội nào?",
+    "options": [
+      "Chỉ những cá nhân giữ chức vụ lãnh đạo cao nhất",
+      "Chỉ những người hoạt động trong lĩnh vực sản xuất vật chất",
+      "Mọi cá nhân tồn tại trong xã hội bất kể vai trò lịch sử",
+      "Những thành phần, tầng lớp, giai cấp có lợi ích căn bản chung, liên kết giải quyết nhiệm vụ của thời đại"
+    ],
+    "answer": 3,
+    "explanation": "Quần chúng nhân dân là một phạm trù lịch sử, gồm các lực lượng có lợi ích căn bản chung và liên kết dưới sự tổ chức, lãnh đạo để giải quyết các vấn đề kinh tế, chính trị, văn hóa của thời đại.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.3.b. Vai trò quần chúng nhân dân và lãnh tụ",
+      "text": "Nguồn định nghĩa quần chúng nhân dân bằng lợi ích căn bản chung và sự liên kết thực hiện nhiệm vụ lịch sử."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q151",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò quần chúng nhân dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo chủ nghĩa duy vật lịch sử, lực lượng giữ vai trò quyết định trong sáng tạo lịch sử là ai?",
+    "options": [
+      "Cá nhân kiệt xuất, vì ý chí riêng của một người có thể tự tạo ra mọi điều kiện vật chất của lịch sử",
+      "Bộ máy nhà nước, vì mọi biến đổi lịch sử đều chỉ là kết quả của mệnh lệnh và hoạt động quản lý hành chính",
+      "Tầng lớp trí thức, vì tri thức lý luận tự nó thay thế được hoạt động thực tiễn của các lực lượng xã hội",
+      "Quần chúng nhân dân, vì họ là lực lượng sản xuất cơ bản và chủ thể chủ yếu sáng tạo giá trị, cải biến xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Quần chúng nhân dân là lực lượng sản xuất cơ bản, lực lượng chủ yếu của cải biến xã hội và chủ thể sáng tạo các giá trị vật chất, tinh thần, nên giữ vai trò quyết định đối với lịch sử.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > III.2.a. Vai trò của quần chúng nhân dân",
+      "text": "Giáo trình khẳng định quần chúng nhân dân là chủ thể sáng tạo chân chính và lực lượng quyết định lịch sử."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q152",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Biện chứng cá nhân - xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào thể hiện đúng sự thống nhất giữa cá nhân và xã hội?",
+    "options": [
+      "Xã hội tạo điều kiện cho cá nhân, còn hoạt động cá nhân góp phần duy trì và cải biến xã hội",
+      "Lợi ích cá nhân luôn đối lập tuyệt đối với lợi ích xã hội",
+      "Xã hội phát triển bằng cách xóa bỏ mọi tính riêng của cá nhân",
+      "Cá nhân có thể phát triển đầy đủ mà không cần điều kiện xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Cá nhân và xã hội có sự thống nhất và tác động qua lại. Cần kết hợp lợi ích chính đáng của cá nhân với lợi ích cộng đồng, không tuyệt đối hóa hoặc hòa tan một phía.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > II.2. Biện chứng giữa cá nhân và xã hội",
+      "text": "Quan hệ cá nhân - xã hội là quan hệ hai chiều, trong đó mỗi bên vừa là điều kiện vừa tác động tới bên kia."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q153",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vai trò lãnh tụ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Lãnh tụ lịch sử hình thành và phát huy vai trò trong mối quan hệ nào?",
+    "options": [
+      "Chỉ dựa vào phẩm chất bẩm sinh, không cần tri thức và gắn bó với nhân dân",
+      "Thay thế hoàn toàn hoạt động sáng tạo của quần chúng",
+      "Tự tạo ra phong trào từ bên ngoài mọi điều kiện xã hội",
+      "Nảy sinh từ phong trào quần chúng, đại diện lợi ích và có năng lực định hướng, tổ chức quần chúng"
+    ],
+    "answer": 3,
+    "explanation": "Lãnh tụ là cá nhân kiệt xuất do phong trào quần chúng tạo nên, có tri thức, khả năng nắm xu thế, tổ chức lực lượng và gắn bó với lợi ích quần chúng. Vai trò ấy không tách khỏi phong trào.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.3.b. Vai trò của lãnh tụ",
+      "text": "Nguồn gắn sự xuất hiện và phẩm chất lãnh tụ với phong trào, lợi ích và năng lực tập hợp quần chúng."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q154",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Quan hệ quần chúng - lãnh tụ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đánh giá nào đúng về vai trò của quần chúng nhân dân và lãnh tụ trong lịch sử?",
+    "options": [
+      "Lãnh tụ quyết định toàn bộ lịch sử, quần chúng chỉ thụ động",
+      "Hai chủ thể có vai trò giống hệt nhau trong mọi hoàn cảnh",
+      "Quần chúng giữ vai trò quyết định; lãnh tụ định hướng, tổ chức và có thể thúc đẩy phong trào",
+      "Vai trò lãnh tụ và quần chúng loại trừ lẫn nhau"
+    ],
+    "answer": 2,
+    "explanation": "Quần chúng là chủ thể sáng tạo và giữ vai trò quyết định. Lãnh tụ có vai trò rất quan trọng trong nhận thức xu thế, đề ra đường lối, tổ chức và thúc đẩy phong trào, nhưng không thể thay thế quần chúng.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > III.2. Quan hệ quần chúng nhân dân với lãnh tụ",
+      "text": "Giáo trình kết hợp vai trò quyết định của quần chúng với vai trò định hướng, tổ chức của lãnh tụ."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q155",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ quần chúng - lãnh tụ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cách viết lịch sử quy mọi thành tựu cho một lãnh tụ, xem quần chúng chỉ là công cụ thụ động. Sai lầm lý luận chủ yếu là gì?",
+    "options": [
+      "Đã đề cao quá mức vai trò của điều kiện tự nhiên",
+      "Đã tuyệt đối hóa cá nhân và phủ nhận vai trò quyết định của quần chúng nhân dân",
+      "Đã xem nhẹ tính độc lập tương đối của ý thức xã hội",
+      "Đã đồng nhất cơ sở hạ tầng với kiến trúc thượng tầng"
+    ],
+    "answer": 1,
+    "explanation": "Lãnh tụ có thể ảnh hưởng lớn tới tốc độ và cách thức giải quyết nhiệm vụ lịch sử, nhưng phong trào và thành tựu xã hội do hoạt động của quần chúng tạo nên. Tuyệt đối hóa lãnh tụ dẫn tới sùng bái cá nhân.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Phần II > Chương XIV > III.2. Vai trò quần chúng và lãnh tụ",
+      "text": "Giáo trình phê phán sùng bái cá nhân và khẳng định sức mạnh sáng tạo của quần chúng nhân dân."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q156",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan hệ quần chúng - lãnh tụ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào có đông người tham gia và lợi ích thống nhất nhưng thiếu định hướng, tổ chức nên hành động phân tán. Yếu tố nào cần được phát huy mà không phủ nhận vai trò quyết định của quần chúng?",
+    "options": [
+      "Loại bỏ mọi hình thức lãnh đạo và tổ chức",
+      "Chỉ chờ điều kiện tự nhiên tự giải quyết vấn đề",
+      "Thay quần chúng bằng một nhóm đứng ngoài phong trào",
+      "Vai trò của lãnh tụ và tổ chức trong định hướng, thống nhất hành động"
+    ],
+    "answer": 3,
+    "explanation": "Quần chúng là lực lượng quyết định nhưng để sức mạnh được tập hợp hiệu quả cần vai trò định hướng, tổ chức của lãnh tụ và tổ chức phù hợp. Hai vai trò thống nhất chứ không loại trừ nhau.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.3.b. Mối quan hệ giữa quần chúng nhân dân và lãnh tụ",
+      "text": "Lãnh tụ có nhiệm vụ tập hợp, thống nhất ý chí và hành động của quần chúng để thực hiện mục tiêu chung."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q157",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Con người trong sự nghiệp cách mạng Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan điểm đặt con người vào vị trí nào trong sự nghiệp đổi mới và phát triển ở Việt Nam?",
+    "options": [
+      "Con người chỉ là phương tiện thực hiện tăng trưởng kinh tế",
+      "Con người vừa là mục tiêu vừa là động lực của sự phát triển",
+      "Con người đứng ngoài quá trình phát triển xã hội",
+      "Con người chỉ là đối tượng thụ động nhận chính sách"
+    ],
+    "answer": 1,
+    "explanation": "Phát triển hướng tới giải phóng, nâng cao đời sống và năng lực con người, đồng thời phát huy tri thức, lao động, sáng tạo của con người như động lực của đổi mới. Con người được đặt ở trung tâm phát triển.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.4. Vấn đề con người trong sự nghiệp cách mạng ở Việt Nam",
+      "text": "Nguồn khẳng định con người vừa là mục tiêu, vừa là động lực và trung tâm của sự phát triển."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q158",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Phát triển con người toàn diện ở Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phát triển con người toàn diện ở Việt Nam cần kết hợp những phương diện nào?",
+    "options": [
+      "Tri thức, đạo đức, sức khỏe, năng lực lao động, sáng tạo và trách nhiệm cộng đồng",
+      "Chỉ nâng cao kỹ năng nghề nghiệp, không cần đạo đức và thể lực",
+      "Chỉ duy trì thói quen cũ, không cần học tập thường xuyên",
+      "Chỉ tăng tiêu dùng cá nhân, không cần lợi ích chung"
+    ],
+    "answer": 0,
+    "explanation": "Phát triển toàn diện không thu hẹp vào chuyên môn hay thu nhập. Nó bao gồm tri thức, năng lực nghề nghiệp, thể lực, thẩm mỹ, đạo đức, lối sống và ý thức trách nhiệm với cộng đồng, đất nước.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.4. Nội dung phát triển con người ở Việt Nam",
+      "text": "Nguồn mô tả hệ phẩm chất toàn diện từ yêu nước, đạo đức, kỷ cương đến tri thức, lao động sáng tạo và thể lực."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q159",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng quan điểm con người là trung tâm",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một kế hoạch phát triển chỉ đặt mục tiêu tăng sản lượng, bỏ qua sức khỏe, giáo dục, môi trường sống và khả năng tham gia của người dân. Hạn chế cơ bản là gì?",
+    "options": [
+      "Đã kết hợp hài hòa lợi ích cá nhân với lợi ích xã hội",
+      "Đã coi con người đồng thời là mục tiêu và động lực",
+      "Đã xem nhẹ con người với tư cách mục tiêu, động lực và trung tâm phát triển",
+      "Đã chú trọng đầy đủ phát triển con người toàn diện"
+    ],
+    "answer": 2,
+    "explanation": "Tăng sản lượng chỉ là một phương tiện. Phát triển bền vững phải phục vụ đời sống con người và tạo điều kiện để người dân phát huy năng lực, tham gia sáng tạo vào quá trình phát triển.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.4. Con người trong sự nghiệp cách mạng ở Việt Nam",
+      "text": "Quan điểm phát triển đặt con người ở trung tâm, vừa là mục tiêu thụ hưởng vừa là chủ thể tạo động lực."
+    }
+  },
+  {
+    "id": "MLN111-C03-Q160",
+    "courseId": "mln111",
+    "chapter": "Chương 3 · Chủ nghĩa duy vật lịch sử",
+    "chapterNum": 3,
+    "topic": "Vận dụng phát triển con người toàn diện",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình kết hợp đào tạo chuyên môn, rèn luyện đạo đức, chăm sóc thể lực, khuyến khích sáng tạo và tạo cơ chế để người dân tham gia phát triển cộng đồng. Chương trình phù hợp nhất với định hướng nào?",
+    "options": [
+      "Phát triển con người chỉ như nguồn lao động giản đơn",
+      "Tách lợi ích cá nhân khỏi lợi ích xã hội",
+      "Xem con người là đối tượng thụ động của quản lý",
+      "Phát triển con người toàn diện, phát huy con người vừa là mục tiêu vừa là động lực"
+    ],
+    "answer": 3,
+    "explanation": "Chương trình bao quát tri thức, đạo đức, sức khỏe, sáng tạo và sự tham gia xã hội, đồng thời vừa nâng cao chất lượng cuộc sống vừa phát huy năng lực chủ thể của con người.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 3 > V.4. Phát triển và phát huy vai trò con người ở Việt Nam",
+      "text": "Nguồn yêu cầu phát triển con người toàn diện và phát huy vai trò chủ thể trong mọi lĩnh vực đổi mới."
+    }
+  }
+]

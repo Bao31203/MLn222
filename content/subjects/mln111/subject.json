@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "mln111",
+  "code": "MLN111",
+  "legacyAliases": [],
+  "title": "Triết học Mác – Lênin",
+  "description": "Ngân hàng ôn tập theo ba chương của học phần Triết học Mác – Lênin.",
+  "status": "ready",
+  "studyReady": true,
+  "copyReviewRequired": false,
+  "features": {
+    "quiz": true,
+    "flashcards": true,
+    "search": true,
+    "lectures": false,
+    "game": false
+  },
+  "questionTarget": 380,
+  "chapters": [
+    {
+      "id": "mln111-c01",
+      "number": 1,
+      "title": "Khái luận về triết học và triết học Mác – Lênin",
+      "questionTarget": 70
+    },
+    {
+      "id": "mln111-c02",
+      "number": 2,
+      "title": "Chủ nghĩa duy vật biện chứng",
+      "questionTarget": 150
+    },
+    {
+      "id": "mln111-c03",
+      "number": 3,
+      "title": "Chủ nghĩa duy vật lịch sử",
+      "questionTarget": 160
+    }
+  ],
+  "questionFiles": [
+    {
+      "chapterNum": 1,
+      "path": "subjects/mln111/chapters/chapter-01.json"
+    },
+    {
+      "chapterNum": 2,
+      "path": "subjects/mln111/chapters/chapter-02.json"
+    },
+    {
+      "chapterNum": 3,
+      "path": "subjects/mln111/chapters/chapter-03.json"
+    }
+  ],
+  "lectureManifest": null,
+  "validation": {
+    "questionIdPattern": "^MLN111-C\\d{2}-Q\\d{3}$",
+    "courseIdPolicy": "required",
+    "allowedKinds": [
+      "nhan_biet_khai_niem",
+      "thong_hieu_phan_biet",
+      "trinh_tu_quan_he",
+      "van_dung_tinh_huong"
+    ],
+    "difficultyTargets": {
+      "Nhận biết": 152,
+      "Thông hiểu": 152,
+      "Vận dụng": 76
+    },
+    "answerPositionTargets": [
+      96,
+      96,
+      94,
+      94
+    ],
+    "chapterTargets": [
+      {
+        "chapterNum": 1,
+        "difficultyTargets": {
+          "Nhận biết": 28,
+          "Thông hiểu": 28,
+          "Vận dụng": 14
+        },
+        "answerPositionTargets": [
+          18,
+          18,
+          17,
+          17
+        ]
+      },
+      {
+        "chapterNum": 2,
+        "difficultyTargets": {
+          "Nhận biết": 60,
+          "Thông hiểu": 60,
+          "Vận dụng": 30
+        },
+        "answerPositionTargets": [
+          38,
+          38,
+          37,
+          37
+        ]
+      },
+      {
+        "chapterNum": 3,
+        "difficultyTargets": {
+          "Nhận biết": 64,
+          "Thông hiểu": 64,
+          "Vận dụng": 32
+        },
+        "answerPositionTargets": [
+          40,
+          40,
+          40,
+          40
+        ]
+      }
+    ],
+    "sourcePolicy": {
+      "schema": "markdown-section",
+      "allowedSources": [
+        {
+          "file": "Giáo trình Triết học Mác-Lênin.md",
+          "label": "Giáo trình Triết học Mác – Lênin"
+        },
+        {
+          "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+          "label": "Tóm tắt Triết học Mác – Lênin"
+        }
+      ],
+      "allowedSlideFiles": [],
+      "chapterPageRanges": []
+    },
+    "reviewSignoffPath": "subjects/mln111/review-signoff.json"
+  }
+}

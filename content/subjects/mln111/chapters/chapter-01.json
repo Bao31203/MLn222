@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "MLN111-C01-Q001",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nguồn gốc của triết học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Triết học xuất hiện vào khoảng thời gian nào và tại những trung tâm văn minh nào?",
+    "options": [
+      "Khoảng thế kỷ VIII đến thế kỷ VI TCN tại Trung Quốc, Ấn Độ và Hy Lạp",
+      "Khoảng thế kỷ I đến thế kỷ III tại La Mã, Ba Tư và Ai Cập",
+      "Khoảng thế kỷ XV đến thế kỷ XVI tại Anh, Pháp và Hà Lan",
+      "Khoảng thế kỷ XVII đến thế kỷ XVIII tại Đức, Nga và Italia"
+    ],
+    "answer": 0,
+    "explanation": "Triết học ra đời gần như đồng thời ở phương Đông và phương Tây, khoảng thế kỷ VIII đến thế kỷ VI TCN, tiêu biểu tại Trung Quốc, Ấn Độ và Hy Lạp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > I.1.a Khái niệm triết học",
+      "text": "Giáo trình xác định triết học ra đời khoảng thế kỷ VIII–VI TCN tại các trung tâm văn minh cổ đại Trung Quốc, Ấn Độ và Hy Lạp."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q002",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nguồn gốc nhận thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điều kiện nhận thức trực tiếp cho sự ra đời của triết học là gì?",
+    "options": [
+      "Con người tích lũy được nhiều kinh nghiệm cảm tính nhưng chưa khái quát chúng",
+      "Con người tách hoàn toàn tư duy lý luận khỏi nhu cầu của đời sống thực tiễn",
+      "Tư duy đạt trình độ trừu tượng hóa, khái quát hóa và hệ thống hóa thành lý luận",
+      "Mọi khoa học chuyên ngành đã hoàn thành hệ thống khái niệm riêng của mình"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn gốc nhận thức của triết học xuất hiện khi tư duy có thể vượt khỏi những sự kiện riêng lẻ để hình thành khái niệm, phạm trù, quy luật và học thuyết có hệ thống.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.a Nguồn gốc của triết học",
+      "text": "Nguồn gốc nhận thức là trình độ trừu tượng hóa, khái quát hóa và hệ thống hóa tri thức thành học thuyết, lý luận."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q003",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nguồn gốc xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chuỗi điều kiện nào giải thích đúng nguồn gốc xã hội của triết học?",
+    "options": [
+      "Khoa học chuyên ngành xuất hiện → giai cấp biến mất → lao động trí óc không còn cần thiết",
+      "Xã hội phân chia giai cấp và lao động → tầng lớp trí thức hình thành → tư tưởng được nghiên cứu, hệ thống hóa",
+      "Sản xuất tự cấp tự túc phát triển → lao động trí óc hợp nhất với lao động chân tay → triết học hình thành",
+      "Tín ngưỡng suy giảm → kinh nghiệm cá nhân thay thế lý luận → nhà triết học xuất hiện"
+    ],
+    "answer": 1,
+    "explanation": "Sự phân chia giai cấp và phân công lao động trí óc với lao động chân tay tạo điều kiện cho một tầng lớp chuyên nghiên cứu, khái quát và hệ thống hóa tư tưởng thành triết học.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.a Nguồn gốc của triết học",
+      "text": "Nguồn gốc xã hội gắn với phân chia giai cấp, phân chia lao động và sự hình thành tầng lớp trí thức có điều kiện nghiên cứu thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q004",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa thuật ngữ triết học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thuật ngữ Hy Lạp “philosophia” mang nghĩa nào?",
+    "options": [
+      "Sự chiêm ngưỡng bằng lý trí",
+      "Sự truy tìm bản chất của đối tượng",
+      "Sự mô tả có hệ thống về tự nhiên",
+      "Sự yêu mến thông thái và khát vọng tìm kiếm chân lý"
+    ],
+    "answer": 3,
+    "explanation": "Trong tiếng Hy Lạp, “philos” chỉ sự yêu mến và “sophia” chỉ sự thông thái; thuật ngữ còn nhấn mạnh khát vọng tìm kiếm chân lý.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > I.1.a Khái niệm triết học",
+      "text": "Philosophia có nghĩa là yêu mến sự thông thái, vừa định hướng vừa nhấn mạnh khát vọng tìm kiếm chân lý."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q005",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa thuật ngữ triết học",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm chung hợp lý nhất giữa cách hiểu về triết học ở Trung Quốc, Ấn Độ và Hy Lạp là gì?",
+    "options": [
+      "Đều giới hạn triết học vào việc mô tả những sự vật có thể quan sát trực tiếp",
+      "Đều đề cao sự hiểu biết sâu sắc, suy tư lý trí và hướng tới bản chất hoặc chân lý",
+      "Đều coi triết học là hệ thống giáo lý dựa chủ yếu trên niềm tin tôn giáo",
+      "Đều đồng nhất triết học với tổng hợp các kỹ thuật sản xuất của thời cổ đại"
+    ],
+    "answer": 1,
+    "explanation": "Dù dùng các cách diễn đạt khác nhau như truy tìm bản chất, chiêm ngưỡng bằng lý trí hay yêu mến thông thái, ba truyền thống đều hướng tới hiểu biết sâu sắc và chân lý.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.b Khái niệm triết học",
+      "text": "Các cách gọi ở Trung Quốc, Ấn Độ và Hy Lạp đều nhấn mạnh trí tuệ, suy ngẫm lý trí và sự truy tìm lẽ phải hoặc bản chất."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q006",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Khái niệm triết học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Định nghĩa nào thể hiện đầy đủ phạm vi của triết học?",
+    "options": [
+      "Hệ thống quan điểm lý luận chung nhất về thế giới, con người và sự vận động của tự nhiên, xã hội, tư duy",
+      "Hệ thống tri thức thực nghiệm về các quy luật riêng của tự nhiên và kỹ thuật kiểm chứng chuyên ngành",
+      "Hệ thống quan niệm về chuẩn mực đạo đức, lối sống và cách ứng xử của cá nhân trong cộng đồng",
+      "Hệ thống phương pháp nghiên cứu dành cho một nhóm khoa học cụ thể và các bài toán chuyên môn tương ứng"
+    ],
+    "answer": 0,
+    "explanation": "Triết học hướng tới những quan điểm và quy luật chung nhất của toàn bộ tự nhiên, xã hội và tư duy, đồng thời làm rõ vị trí của con người trong thế giới.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.b Khái niệm triết học",
+      "text": "Triết học là hệ thống quan điểm lý luận chung nhất về thế giới, vị trí con người và quy luật vận động, phát triển chung nhất của tự nhiên, xã hội, tư duy."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q007",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Đối tượng của triết học",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đâu là cách xác định đúng đối tượng của triết học so với một khoa học chuyên ngành?",
+    "options": [
+      "Triết học nghiên cứu cấu tạo riêng của từng dạng vật chất, còn khoa học chuyên ngành nghiên cứu thế giới như chỉnh thể",
+      "Triết học nghiên cứu mọi dữ kiện riêng lẻ, còn khoa học chuyên ngành chỉ khái quát quy luật phổ biến",
+      "Triết học và khoa học chuyên ngành có cùng đối tượng, chỉ khác nhau ở cách đặt tên khái niệm",
+      "Triết học nghiên cứu các quan hệ, quy luật chung nhất và quan hệ tư duy–tồn tại, còn khoa học chuyên ngành có đối tượng cụ thể"
+    ],
+    "answer": 3,
+    "explanation": "Triết học không thay thế các khoa học cụ thể; nó nghiên cứu những quan hệ, quy luật phổ biến nhất và đặt ở trung tâm mối quan hệ giữa tư duy với tồn tại.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > I.1.b Đối tượng của triết học",
+      "text": "Triết học xem xét thế giới như một chỉnh thể và nghiên cứu những vấn đề chung nhất, khác với đối tượng riêng của các khoa học cụ thể."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q008",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Đối tượng triết học trong lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Khuynh hướng quan tâm nổi bật của triết học phương Đông và phương Tây thời cổ đại khác nhau như thế nào?",
+    "options": [
+      "Phương Đông thiên về giới tự nhiên, phương Tây thiên về đời sống tôn giáo",
+      "Phương Đông thiên về thần học, phương Tây thiên về kỹ thuật sản xuất",
+      "Phương Đông quan tâm nhiều hơn đến con người và xã hội, phương Tây quan tâm nhiều hơn đến giới tự nhiên",
+      "Phương Đông quan tâm khoa học thực nghiệm, phương Tây chỉ quan tâm đạo đức cá nhân"
+    ],
+    "answer": 2,
+    "explanation": "Tài liệu khái quát rằng triết học phương Đông cổ đại nổi bật ở các vấn đề con người và xã hội, còn triết học phương Tây chú ý nhiều hơn tới giới tự nhiên.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.c Đối tượng của triết học trong lịch sử",
+      "text": "Ở thời cổ đại, phương Đông quan tâm nhiều hơn đến con người, xã hội; phương Tây quan tâm nhiều hơn đến giới tự nhiên."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q009",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Đối tượng triết học trong lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mô tả nào phản ánh đúng sự thay đổi của triết học Tây Âu từ trung cổ đến thời Phục hưng và thế kỷ XVIII?",
+    "options": [
+      "Từ phục vụ thần học, triết học dần thoát khỏi thần học, đề cao nhân đạo và gắn với khoa học tự nhiên",
+      "Từ nghiên cứu khoa học tự nhiên, triết học chuyển hoàn toàn sang chứng minh giáo lý tôn giáo",
+      "Từ đề cao con người, triết học trở thành bộ môn phụ thuộc lâu dài vào cơ học cổ điển",
+      "Từ nghiên cứu xã hội, triết học từ bỏ lý luận để chỉ ghi chép kinh nghiệm riêng lẻ"
+    ],
+    "answer": 0,
+    "explanation": "Ở Tây Âu trung cổ, triết học phục vụ thần học Kitô giáo; từ Phục hưng đến thế kỷ XVIII, nó dần thoát khỏi sự thống trị đó, đề cao nhân đạo và gắn với khoa học.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.c Đối tượng của triết học trong lịch sử",
+      "text": "Trung cổ, triết học Tây Âu là bộ môn của thần học; thời Phục hưng–thế kỷ XVIII, nó dần thoát khỏi thần học và gắn với khoa học tự nhiên."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q010",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Khái niệm thế giới quan",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thế giới quan được hiểu là gì?",
+    "options": [
+      "Tập hợp kỹ năng nghề nghiệp giúp cá nhân thích ứng với môi trường lao động",
+      "Tổng số dữ kiện khoa học mà một cộng đồng đã tích lũy trong lịch sử",
+      "Hệ thống quy tắc pháp luật điều chỉnh quan hệ giữa cá nhân với xã hội",
+      "Hệ thống tri thức, quan điểm, tình cảm, niềm tin và lý tưởng về thế giới cùng vị trí con người trong đó"
+    ],
+    "answer": 3,
+    "explanation": "Thế giới quan bao gồm cả yếu tố nhận thức và định hướng giá trị, qua đó con người xác định cách nhìn về thế giới, bản thân và hoạt động của mình.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.d Triết học – hạt nhân lý luận của thế giới quan",
+      "text": "Thế giới quan là hệ thống tri thức, quan điểm, tình cảm, niềm tin, lý tưởng về thế giới và vị trí con người trong thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q011",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Cấu trúc thế giới quan",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai yếu tố cơ bản trong cấu trúc của thế giới quan là gì?",
+    "options": [
+      "Kinh nghiệm và kỹ năng",
+      "Cảm giác và tri giác",
+      "Tri thức và niềm tin",
+      "Ngôn ngữ và lao động"
+    ],
+    "answer": 2,
+    "explanation": "Cấu trúc thế giới quan rất phức tạp nhưng hai yếu tố cơ bản là tri thức và niềm tin, cũng có thể diễn đạt là lý trí và tình cảm.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.1.d Triết học – hạt nhân lý luận của thế giới quan",
+      "text": "Hai yếu tố cơ bản của thế giới quan là tri thức và niềm tin, hay lý trí và tình cảm."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q012",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Các hình thức thế giới quan",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba hình thức cơ bản trong sự phát triển của thế giới quan là gì?",
+    "options": [
+      "Thế giới quan kinh nghiệm, khoa học và nghệ thuật",
+      "Thế giới quan huyền thoại, tôn giáo và triết học",
+      "Thế giới quan cá nhân, cộng đồng và nhân loại",
+      "Thế giới quan tự nhiên, xã hội và tư duy"
+    ],
+    "answer": 1,
+    "explanation": "Xét theo quá trình phát triển, thế giới quan biểu hiện qua ba hình thức cơ bản: huyền thoại, tôn giáo và triết học.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I. Triết học và vấn đề cơ bản của triết học > 1.d Triết học - hạt nhân lý luận của thế giới quan",
+      "text": "Sự phát triển của thế giới quan biểu hiện dưới ba hình thức cơ bản: thế giới quan huyền thoại, tôn giáo và triết học."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q013",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Triết học và thế giới quan",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao triết học được coi là hạt nhân lý luận của thế giới quan?",
+    "options": [
+      "Vì triết học thay thế hoàn toàn tri thức khoa học và kinh nghiệm sống",
+      "Vì triết học chỉ giải quyết những vấn đề niềm tin của thế giới quan tôn giáo",
+      "Vì triết học hệ thống hóa những quan niệm chung nhất và định hướng các quan niệm khác của con người",
+      "Vì triết học loại bỏ yếu tố tình cảm và chỉ giữ lại kinh nghiệm cảm tính"
+    ],
+    "answer": 2,
+    "explanation": "Triết học diễn đạt bằng lý luận những quan niệm chung nhất về thế giới như một chỉnh thể, vì vậy nó giữ vai trò cốt lõi và định hướng trong thế giới quan.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.1 Triết học – hạt nhân lý luận của thế giới quan",
+      "text": "Triết học tạo nên hệ thống lý luận về thế giới như một chỉnh thể và giữ vai trò định hướng cho việc củng cố, phát triển thế giới quan."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q014",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vai trò của thế giới quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên dùng hiểu biết khoa học và niềm tin đã được kiểm chứng để xác định mục tiêu sống, thái độ học tập và cách hành động. Tình huống này thể hiện rõ nhất vai trò nào của thế giới quan?",
+    "options": [
+      "Định hướng nhận thức, giá trị và hoạt động thực tiễn của con người",
+      "Cung cấp ngay lời giải chuyên môn cho mọi vấn đề kỹ thuật",
+      "Thay thế kinh nghiệm thực tiễn bằng những nguyên tắc trừu tượng",
+      "Tách mục tiêu cá nhân khỏi điều kiện xã hội khách quan"
+    ],
+    "answer": 0,
+    "explanation": "Thế giới quan là “thấu kính” định hướng con người nhận thức bản thân và thế giới, xác định mục đích, ý nghĩa sống và lựa chọn cách thức hoạt động.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.1 Triết học – hạt nhân lý luận của thế giới quan",
+      "text": "Thế giới quan định hướng nhận thức, xác định mục đích và giúp lựa chọn cách thức hoạt động; thế giới quan đúng đắn là tiền đề của nhân sinh quan tích cực."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q015",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vấn đề cơ bản của triết học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Ph. Ăngghen, vấn đề cơ bản lớn của mọi triết học là vấn đề nào?",
+    "options": [
+      "Quan hệ giữa tự nhiên và xã hội",
+      "Quan hệ giữa tư duy và tồn tại",
+      "Quan hệ giữa cá nhân và cộng đồng",
+      "Quan hệ giữa khoa học và tôn giáo"
+    ],
+    "answer": 1,
+    "explanation": "Ph. Ăngghen xác định vấn đề cơ bản lớn của triết học, đặc biệt của triết học hiện đại, là mối quan hệ giữa tư duy và tồn tại, tức ý thức và vật chất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2 Vấn đề cơ bản của triết học",
+      "text": "Vấn đề cơ bản của triết học là quan hệ giữa tư duy và tồn tại, biểu hiện thành quan hệ giữa vật chất và ý thức."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q016",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa của vấn đề cơ bản",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Tại sao quan hệ giữa tư duy và tồn tại được gọi là vấn đề cơ bản của triết học?",
+    "options": [
+      "Vì đây là vấn đề duy nhất mà mọi khoa học chuyên ngành đều trực tiếp nghiên cứu",
+      "Vì vấn đề này chỉ dùng để phân chia các giai đoạn trong lịch sử triết học",
+      "Vì vấn đề này xuất hiện sớm hơn mọi nhu cầu nhận thức và hoạt động thực tiễn",
+      "Vì cách giải quyết nó là nền tảng, điểm xuất phát và tiêu chuẩn xác định lập trường triết học"
+    ],
+    "answer": 3,
+    "explanation": "Cách trả lời quan hệ giữa tư duy và tồn tại chi phối việc giải quyết các vấn đề triết học khác, đồng thời cho biết lập trường thế giới quan và nhận thức luận của học thuyết.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > I.2 Vấn đề cơ bản của triết học",
+      "text": "Vấn đề cơ bản là nền tảng và điểm xuất phát để giải quyết vấn đề khác, đồng thời là tiêu chuẩn xác định lập trường, thế giới quan của học thuyết."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q017",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Mặt bản thể luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mặt thứ nhất, hay mặt bản thể luận, của vấn đề cơ bản của triết học hỏi điều gì?",
+    "options": [
+      "Con người hình thành niềm tin và lý tưởng bằng con đường nào?",
+      "Khoa học cụ thể có thể thay thế triết học trong nhận thức hay không?",
+      "Thế giới vận động theo phương pháp biện chứng hay phương pháp siêu hình?",
+      "Giữa vật chất và ý thức, cái nào có trước và giữ vai trò quyết định?"
+    ],
+    "answer": 3,
+    "explanation": "Mặt bản thể luận xác định tính thứ nhất và quan hệ quyết định giữa vật chất với ý thức: cái nào có trước, cái nào có sau, cái nào quyết định cái nào.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.a Nội dung vấn đề cơ bản của triết học",
+      "text": "Mặt thứ nhất hỏi vật chất và ý thức cái nào có trước, cái nào có sau và cái nào quyết định cái nào."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q018",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Mặt nhận thức luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mặt thứ hai, hay mặt nhận thức luận, của vấn đề cơ bản của triết học đặt ra câu hỏi nào?",
+    "options": [
+      "Vật chất tồn tại dưới bao nhiêu hình thức cơ bản?",
+      "Con người có khả năng nhận thức được thế giới hay không?",
+      "Ý thức tác động đến đời sống xã hội bằng phương thức nào?",
+      "Triết học xuất hiện trước hay sau các khoa học cụ thể?"
+    ],
+    "answer": 1,
+    "explanation": "Mặt nhận thức luận xem xét khả năng của con người trong việc nhận thức thế giới, từ đó hình thành các lập trường khả tri và bất khả tri.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.a Nội dung vấn đề cơ bản của triết học",
+      "text": "Mặt thứ hai hỏi con người có khả năng nhận thức được thế giới hay không."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q019",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phân loại trường phái triết học",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách giải quyết hai mặt của vấn đề cơ bản dẫn đến sự phân loại nào?",
+    "options": [
+      "Mặt thứ nhất phân biệt duy vật–duy tâm; mặt thứ hai phân biệt khả tri–bất khả tri",
+      "Mặt thứ nhất phân biệt biện chứng–siêu hình; mặt thứ hai phân biệt duy vật–duy tâm",
+      "Mặt thứ nhất phân biệt khả tri–bất khả tri; mặt thứ hai phân biệt nhất nguyên–nhị nguyên",
+      "Mặt thứ nhất phân biệt khoa học–tôn giáo; mặt thứ hai phân biệt biện chứng–siêu hình"
+    ],
+    "answer": 0,
+    "explanation": "Lập trường về tính thứ nhất của vật chất hay ý thức tạo thành duy vật hoặc duy tâm; lập trường về khả năng nhận thức tạo thành khả tri hoặc bất khả tri.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.a Nội dung vấn đề cơ bản của triết học",
+      "text": "Mặt bản thể luận phân chia duy vật và duy tâm; mặt nhận thức luận phân chia khả tri và bất khả tri."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q020",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa duy vật",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Lập trường cơ bản của chủ nghĩa duy vật là gì?",
+    "options": [
+      "Vật chất và ý thức là hai nguồn gốc độc lập, không quyết định nhau",
+      "Ý thức có trước nhưng không thể tác động đến vật chất",
+      "Vật chất có trước, ý thức có sau và vật chất quyết định ý thức",
+      "Ý thức có trước, vật chất có sau và ý thức quyết định vật chất"
+    ],
+    "answer": 2,
+    "explanation": "Chủ nghĩa duy vật khẳng định vật chất là tính thứ nhất, ý thức là tính thứ hai; vật chất có trước và quyết định ý thức.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.b Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Những người coi vật chất có trước, ý thức có sau và vật chất quyết định ý thức thuộc chủ nghĩa duy vật."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q021",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Các hình thức chủ nghĩa duy vật",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào khái quát đúng sự phát triển của ba hình thức cơ bản của chủ nghĩa duy vật?",
+    "options": [
+      "Duy vật chất phác đã khắc phục lối nhìn trực quan; duy vật siêu hình đã khắc phục lối nhìn máy móc",
+      "Bắt đầu từ trực quan về chất cụ thể, chuyển qua cách nhìn máy móc, rồi đạt tới quan niệm duy vật biện chứng",
+      "Bắt đầu từ phép biện chứng duy tâm, chuyển qua chủ nghĩa duy vật cổ đại, rồi trở lại phương pháp siêu hình",
+      "Ba hình thức chỉ khác về thời điểm xuất hiện, còn cách hiểu vật chất và vận động về cơ bản không thay đổi"
+    ],
+    "answer": 1,
+    "explanation": "Duy vật chất phác đồng nhất vật chất với những chất cụ thể và còn trực quan; duy vật siêu hình nhìn thế giới thiên về biệt lập, tĩnh tại; duy vật biện chứng khắc phục các hạn chế đó khi nhận thức hiện thực trong liên hệ và vận động.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.2.a Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Giáo trình phân biệt duy vật chất phác mang tính trực quan, duy vật siêu hình chịu ảnh hưởng cách nhìn máy móc và duy vật biện chứng khắc phục các hạn chế trước đó."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q022",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa duy vật chất phác",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc điểm nào phân biệt chủ nghĩa duy vật chất phác thời cổ đại?",
+    "options": [
+      "Phủ nhận giới tự nhiên và giải thích thế giới bằng thực thể tinh thần",
+      "Xem thế giới như cỗ máy gồm các bộ phận biệt lập và hoàn toàn tĩnh tại",
+      "Thống nhất chủ nghĩa duy vật với phép biện chứng trên cơ sở khoa học hiện đại",
+      "Giải thích tự nhiên từ tự nhiên nhưng đồng nhất vật chất với một số dạng cụ thể và còn trực quan"
+    ],
+    "answer": 3,
+    "explanation": "Duy vật chất phác có giá trị ở việc không viện đến thần linh để giải thích tự nhiên, nhưng còn ngây thơ vì đồng nhất vật chất với những chất cụ thể và dựa nhiều vào trực quan.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.2.a Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Duy vật chất phác thừa nhận tính thứ nhất của vật chất nhưng đồng nhất vật chất với một hoặc vài chất cụ thể và mang nặng tính trực quan."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q023",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa duy tâm chủ quan",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Chủ nghĩa duy tâm chủ quan giải thích sự tồn tại của sự vật như thế nào?",
+    "options": [
+      "Sự vật là phức hợp cảm giác của chủ thể, còn ý thức cá nhân được coi là cái có trước",
+      "Sự vật do một tinh thần khách quan tồn tại ngoài con người sản sinh",
+      "Sự vật tồn tại khách quan và quyết định cảm giác của con người",
+      "Sự vật và cảm giác là hai thực thể độc lập có địa vị ngang nhau"
+    ],
+    "answer": 0,
+    "explanation": "Duy tâm chủ quan tuyệt đối hóa ý thức của chủ thể, phủ nhận tính khách quan của hiện thực và xem sự vật như phức hợp những cảm giác cá nhân.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.b Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Duy tâm chủ quan coi cảm giác, ý thức của chủ thể có trước và các sự vật bên ngoài là phức hợp của cảm giác."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q024",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhất nguyên luận và nhị nguyên luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Học thuyết coi vật chất và tinh thần là hai nguyên thể tồn tại độc lập, cùng tạo thành hai nguồn gốc của thế giới được gọi là gì?",
+    "options": [
+      "Nhất nguyên luận duy vật",
+      "Nhất nguyên luận duy tâm",
+      "Nhị nguyên luận",
+      "Đa nguyên luận"
+    ],
+    "answer": 2,
+    "explanation": "Nhị nguyên luận thừa nhận vật chất và tinh thần là hai nguyên thể độc lập. Nhất nguyên luận chỉ thừa nhận một nguyên thể, còn đa nguyên luận cho rằng thế giới do nhiều nguyên thể độc lập tạo nên.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.2.a Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Giáo trình phân biệt nhất nguyên luận, nhị nguyên luận và đa nguyên luận theo số nguyên thể được thừa nhận là nguồn gốc của thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q025",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhận diện chủ nghĩa duy tâm chủ quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một người khẳng định: “Sự vật chỉ tồn tại như tập hợp cảm giác của tôi; ngoài cảm giác ấy không thể nói đến hiện thực khách quan.” Nhận định này thuộc lập trường nào?",
+    "options": [
+      "Chủ nghĩa duy tâm chủ quan",
+      "Chủ nghĩa duy tâm khách quan",
+      "Chủ nghĩa duy vật siêu hình",
+      "Chủ nghĩa duy vật biện chứng"
+    ],
+    "answer": 0,
+    "explanation": "Việc xem sự vật chỉ là phức hợp cảm giác của cá nhân và phủ nhận hiện thực khách quan là dấu hiệu điển hình của duy tâm chủ quan.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I. Triết học và vấn đề cơ bản của triết học > 2.b Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Chủ nghĩa duy tâm chủ quan coi cảm giác, ý thức của chủ thể là cái có trước và xem sự vật bên ngoài là phức hợp của các cảm giác ấy."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q026",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhận diện chủ nghĩa duy tâm khách quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một học thuyết cho rằng có “ý niệm tuyệt đối” tồn tại bên ngoài con người và sinh ra mọi sự vật. Học thuyết đó thuộc lập trường nào?",
+    "options": [
+      "Chủ nghĩa duy vật chất phác",
+      "Chủ nghĩa duy tâm chủ quan",
+      "Chủ nghĩa duy tâm khách quan",
+      "Chủ nghĩa duy vật biện chứng"
+    ],
+    "answer": 2,
+    "explanation": "Quan niệm về một thực thể tinh thần tồn tại khách quan, độc lập với con người và quyết định thế giới vật chất thuộc duy tâm khách quan.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.2.a Chủ nghĩa duy vật và chủ nghĩa duy tâm",
+      "text": "Duy tâm khách quan gọi thực thể tinh thần có trước bằng những tên như ý niệm, tinh thần tuyệt đối hoặc lý tính thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q027",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Thuyết bất khả tri",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thuyết bất khả tri trả lời thế nào về khả năng nhận thức thế giới của con người?",
+    "options": [
+      "Con người nhận thức ngay đầy đủ bản chất của mọi sự vật bằng cảm giác",
+      "Con người chỉ nhận thức thế giới khi tách tư duy khỏi hoạt động thực tiễn",
+      "Con người có thể đạt tri thức tuyệt đối về mọi đối tượng trong một lần nhận thức",
+      "Con người không thể hiểu được bản chất thật sự của đối tượng"
+    ],
+    "answer": 3,
+    "explanation": "Bất khả tri luận phủ nhận khả năng nhận thức bản chất của sự vật; nó cho rằng hiểu biết về đặc điểm bên ngoài không đồng nhất với bản chất thật sự của đối tượng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.2.c Thuyết khả tri và thuyết bất khả tri",
+      "text": "Thuyết bất khả tri cho rằng con người không thể hiểu được bản chất thật sự của đối tượng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q028",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Khả tri, bất khả tri và hoài nghi",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phân biệt nào đúng giữa khả tri luận, bất khả tri luận và hoài nghi luận?",
+    "options": [
+      "Khả tri luận phủ nhận nhận thức; bất khả tri luận khẳng định nhận thức; hoài nghi luận chỉ nghiên cứu cảm giác",
+      "Khả tri luận thừa nhận khả năng biết bản chất; bất khả tri luận phủ nhận khả năng đó; hoài nghi luận nâng hoài nghi thành nguyên tắc",
+      "Khả tri luận và bất khả tri luận cùng khẳng định chân lý; hoài nghi luận chỉ khác về phương pháp trình bày",
+      "Ba lập trường chỉ khác nhau về câu trả lời cho mặt bản thể luận của vấn đề cơ bản"
+    ],
+    "answer": 1,
+    "explanation": "Khả tri luận khẳng định về nguyên tắc con người có thể nhận thức bản chất; bất khả tri luận phủ nhận điều đó, còn hoài nghi luận tuyệt đối hóa sự hoài nghi đối với tri thức.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.2.b Thuyết không thể biết",
+      "text": "Giáo trình phân biệt sự thừa nhận khả năng nhận thức, thuyết không thể biết và hoài nghi luận nâng hoài nghi thành nguyên tắc xem xét tri thức."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q029",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phương pháp siêu hình",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp siêu hình nhận thức đối tượng chủ yếu theo cách nào?",
+    "options": [
+      "Trong sự chuyển hóa liên tục giữa các mặt đối lập",
+      "Trong các mối liên hệ phổ biến và quá trình phát triển",
+      "Trong trạng thái cô lập, tách rời và tương đối tĩnh tại",
+      "Trong sự thống nhất giữa lý luận với thực tiễn xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Phương pháp siêu hình cô lập đối tượng khỏi các liên hệ và chủ yếu xem nó ở trạng thái tĩnh; vì vậy phương pháp này hạn chế khi giải quyết hiện tượng vận động, tương tác phức tạp.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.a Khái niệm biện chứng và siêu hình",
+      "text": "Phương pháp siêu hình nhận thức đối tượng trong trạng thái tĩnh tại, cô lập và tách rời."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q030",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phương pháp biện chứng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp biện chứng xem xét đối tượng như thế nào?",
+    "options": [
+      "Như một tập hợp yếu tố bất biến không tác động lẫn nhau",
+      "Trong các mối liên hệ phổ biến và trong quá trình vận động, phát triển",
+      "Trong trạng thái biệt lập để loại bỏ mọi điều kiện lịch sử",
+      "Như kết quả thuần túy của cảm giác riêng của chủ thể"
+    ],
+    "answer": 1,
+    "explanation": "Tư duy biện chứng nhìn thấy không chỉ sự tồn tại mà cả sự sinh thành, phát triển và tiêu vong của sự vật trong mạng lưới liên hệ của chúng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.a Khái niệm biện chứng và siêu hình",
+      "text": "Phương pháp biện chứng nhận thức đối tượng trong mối liên hệ phổ biến và quá trình vận động, phát triển."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q031",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vận dụng phương pháp biện chứng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi đánh giá thất nghiệp, một nhóm chỉ xem số liệu của một tháng, tách nó khỏi biến động sản xuất, chính sách và kỹ năng lao động rồi kết luận tình hình sẽ không đổi. Hạn chế phương pháp chủ yếu của nhóm là gì?",
+    "options": [
+      "Đã tuyệt đối hóa sự vận động mà bỏ qua trạng thái ổn định tương đối",
+      "Đã gắn đối tượng với quá nhiều quan hệ nên không xác định được trọng tâm",
+      "Đã vận dụng phép biện chứng duy vật vào một hiện tượng chỉ thuộc cơ học",
+      "Đã xem đối tượng cô lập, tĩnh tại và bỏ qua các mối liên hệ cùng sự phát triển"
+    ],
+    "answer": 3,
+    "explanation": "Nhóm nghiên cứu biểu hiện cách nhìn siêu hình khi cô lập một chỉ báo khỏi hệ thống quan hệ và coi trạng thái tạm thời là bất biến.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.a Khái niệm biện chứng và siêu hình",
+      "text": "Phương pháp siêu hình có hạn chế khi giải quyết các vấn đề mang tính vận động và tương liên."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q032",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Biện chứng và siêu hình",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào đánh giá đúng quan hệ giữa phương pháp biện chứng và phương pháp siêu hình?",
+    "options": [
+      "Biện chứng phù hợp với đối tượng vận động, liên hệ; siêu hình có ích trong phạm vi nhất định nhưng hạn chế khi bị tuyệt đối hóa",
+      "Biện chứng chỉ dùng trong khoa học xã hội, còn siêu hình giải thích đầy đủ mọi hiện tượng tự nhiên",
+      "Siêu hình luôn vô dụng vì không thể hỗ trợ nghiên cứu bất kỳ trạng thái ổn định nào",
+      "Hai phương pháp giống nhau về cách xem xét liên hệ, chỉ khác nhau ở thuật ngữ"
+    ],
+    "answer": 0,
+    "explanation": "Phương pháp siêu hình từng có vai trò trong cơ học và việc phân tích đối tượng tương đối ổn định, nhưng tư duy biện chứng thích hợp hơn khi cần thấy liên hệ, vận động và phát triển.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.a Khái niệm biện chứng và siêu hình",
+      "text": "Siêu hình có vai trò trong giải quyết vấn đề cơ học nhưng hạn chế trước vận động và tương liên; biện chứng nhận thức sự vật trong liên hệ và phát triển."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q033",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phép biện chứng tự phát",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc trưng của phép biện chứng tự phát thời cổ đại là gì?",
+    "options": [
+      "Trình bày biện chứng thành hệ thống lý luận dựa trên thành tựu khoa học hiện đại",
+      "Thấy sự vật luôn sinh thành, biến hóa nhưng chủ yếu bằng trực kiến, chưa có chứng minh khoa học",
+      "Xem thế giới hiện thực là sự phản ánh của ý niệm có trước",
+      "Thống nhất hoàn chỉnh chủ nghĩa duy vật với phương pháp biện chứng"
+    ],
+    "answer": 1,
+    "explanation": "Các nhà biện chứng cổ đại đã nhận ra sự vận động và biến hóa của vũ trụ, nhưng nhận thức ấy còn tự phát, dựa vào trực kiến và chưa được nghiên cứu thực nghiệm chứng minh.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.b Các hình thức của phép biện chứng",
+      "text": "Phép biện chứng cổ đại thấy sự sinh thành, biến hóa vô tận nhưng còn là trực kiến, chưa có kết quả khoa học minh chứng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q034",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phép biện chứng duy tâm",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm mạnh và giới hạn cơ bản của phép biện chứng duy tâm cổ điển Đức là gì?",
+    "options": [
+      "Trình bày có hệ thống nhiều nội dung biện chứng nhưng coi hiện thực là sự phản ánh của ý niệm",
+      "Khẳng định vật chất có trước nhưng xem mọi bộ phận của thế giới hoàn toàn cô lập",
+      "Dựa vào trực kiến về biến hóa nhưng chưa hình thành bất kỳ hệ thống khái niệm nào",
+      "Thống nhất triệt để chủ nghĩa duy vật với phép biện chứng trong nghiên cứu xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Triết học cổ điển Đức có công hệ thống hóa phép biện chứng, song đặt nó trên nền tảng duy tâm khi coi thế giới hiện thực là biểu hiện hay phản ánh của ý niệm.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > I.3.b Các hình thức của phép biện chứng",
+      "text": "Phép biện chứng duy tâm trình bày có hệ thống nội dung biện chứng nhưng cho rằng hiện thực phản ánh biện chứng của ý niệm."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q035",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Phép biện chứng duy vật",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phép biện chứng duy vật hình thành bằng bước phát triển chủ yếu nào?",
+    "options": [
+      "Giữ lập trường duy tâm của Hêghen, rồi bổ sung các dữ kiện khoa học tự nhiên vào hệ thống cũ",
+      "Khôi phục nguyên vẹn phép biện chứng tự phát cổ đại và coi trực kiến là hình thức lý luận hoàn bị",
+      "Kế thừa hạt nhân hợp lý của phép biện chứng Hêghen và cải tạo nó trên lập trường duy vật",
+      "Mở rộng phương pháp cơ học cận đại thành cách giải thích chung cho tự nhiên, xã hội và tư duy"
+    ],
+    "answer": 2,
+    "explanation": "Mác và Ăngghen không lắp ghép giản đơn mà cải tạo phép biện chứng duy tâm, đặt hạt nhân hợp lý của nó trên nền tảng duy vật, tạo sự thống nhất mới.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > 4. Thực chất cuộc cách mạng",
+      "text": "Mác cải tạo cả chủ nghĩa duy vật cũ lẫn phép biện chứng duy tâm, khắc phục sự tách rời giữa thế giới quan duy vật và phép biện chứng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q036",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Điều kiện kinh tế – xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Triết học Mác ra đời trong bối cảnh kinh tế – xã hội chủ yếu nào?",
+    "options": [
+      "Chủ nghĩa phong kiến Tây Âu đang ở giai đoạn hình thành ban đầu",
+      "Nền sản xuất thủ công cổ đại phát triển nhưng chưa có phân hóa giai cấp",
+      "Chủ nghĩa tư bản đã hoàn tất mọi mâu thuẫn xã hội sau cách mạng công nghiệp",
+      "Chủ nghĩa tư bản Tây Âu phát triển mạnh vào những năm 40 thế kỷ XIX trên nền cách mạng công nghiệp"
+    ],
+    "answer": 3,
+    "explanation": "Những năm 40 thế kỷ XIX, lực lượng sản xuất tư bản chủ nghĩa phát triển mạnh nhờ cách mạng công nghiệp, đồng thời làm sâu sắc các mâu thuẫn xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Điều kiện kinh tế – xã hội",
+      "text": "Chủ nghĩa Mác ra đời ở Tây Âu những năm 40 thế kỷ XIX khi chủ nghĩa tư bản phát triển mạnh trên nền cách mạng công nghiệp."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q037",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Mâu thuẫn giai cấp trong chủ nghĩa tư bản",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Sự phát triển của chủ nghĩa tư bản đã tạo tiền đề chính trị – xã hội cho triết học Mác theo quan hệ nào?",
+    "options": [
+      "Giai cấp tư sản mất địa vị thống trị nên mâu thuẫn với vô sản tự tiêu biến",
+      "Giai cấp vô sản hòa nhập vào tư sản nên phong trào độc lập không còn cần thiết",
+      "Mâu thuẫn tư sản–vô sản sâu sắc, đưa vô sản lên vũ đài như một lực lượng chính trị – xã hội độc lập",
+      "Phân công lao động bị xóa bỏ nên mọi giai cấp có cùng lợi ích kinh tế"
+    ],
+    "answer": 2,
+    "explanation": "Khi chủ nghĩa tư bản được xác lập, đối kháng giữa giai cấp tư sản thống trị và giai cấp vô sản bị trị phát triển, làm vô sản xuất hiện như lực lượng chính trị độc lập.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Điều kiện kinh tế – xã hội",
+      "text": "Sự xuất hiện của giai cấp vô sản trên vũ đài lịch sử với tư cách lực lượng chính trị – xã hội độc lập là nhân tố quan trọng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q038",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhu cầu lý luận của phong trào công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao thất bại của các phong trào công nhân góp phần đặt ra nhu cầu ra đời chủ nghĩa Mác?",
+    "options": [
+      "Vì phong trào cần trở lại chương trình dân chủ của giai cấp tư sản để tìm một lực lượng chính trị dẫn dắt",
+      "Vì phong trào nên ưu tiên cải tiến kỹ thuật sản xuất trước khi xác định mục tiêu và tổ chức đấu tranh",
+      "Vì phong trào chỉ cần mở rộng quy mô của các cuộc đấu tranh tự phát và duy trì những yêu sách trước mắt",
+      "Vì phong trào cần một lý luận khoa học, cách mạng để nhận rõ sứ mệnh lịch sử và chuyển từ tự phát sang tự giác"
+    ],
+    "answer": 3,
+    "explanation": "Phong trào công nhân đã phát triển về thực tiễn nhưng còn tự phát và lần lượt thất bại, nên cần một hệ thống lý luận khoa học và cách mạng để chuyển sang tự giác.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Điều kiện kinh tế – xã hội",
+      "text": "Các phong trào vô sản thất bại do thiếu lý luận khoa học, cách mạng định hướng; chủ nghĩa Mác đáp ứng nhu cầu lý luận của phong trào công nhân."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q039",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Cơ sở thực tiễn của triết học Mác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ sở thực tiễn chủ yếu nhất cho sự ra đời của triết học Mác là gì?",
+    "options": [
+      "Sự phục hưng triết học tự nhiên thời cổ đại",
+      "Thực tiễn cách mạng của giai cấp vô sản",
+      "Sự mở rộng của thần học kinh viện Tây Âu",
+      "Sự hoàn thiện của phương pháp cơ học cổ điển"
+    ],
+    "answer": 1,
+    "explanation": "Triết học Mác ra đời để đáp ứng yêu cầu nhận thức và định hướng của phong trào công nhân; do đó thực tiễn cách mạng của giai cấp vô sản là cơ sở chủ yếu nhất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Điều kiện kinh tế – xã hội",
+      "text": "Thực tiễn cách mạng của giai cấp vô sản được xác định là cơ sở chủ yếu nhất cho sự ra đời triết học Mác."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q040",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nguồn gốc lý luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nguồn gốc lý luận trực tiếp của triết học Mác là thành tựu nào?",
+    "options": [
+      "Triết học cổ điển Đức",
+      "Triết học kinh viện Tây Âu",
+      "Triết học duy vật chất phác Hy Lạp",
+      "Chủ nghĩa thực dụng hiện đại"
+    ],
+    "answer": 0,
+    "explanation": "Trong ba nguồn gốc lý luận của chủ nghĩa Mác, triết học cổ điển Đức là nguồn trực tiếp đối với sự hình thành triết học Mác.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II. Triết học Mác - Lênin > 1.a Những điều kiện lịch sử > Nguồn gốc lý luận",
+      "text": "Triết học cổ điển Đức là nguồn lý luận trực tiếp cho sự hình thành triết học Mác, bên cạnh kinh tế chính trị cổ điển Anh và chủ nghĩa xã hội không tưởng Pháp."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q041",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Kế thừa triết học cổ điển Đức",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mác và Ăngghen tiếp thu, cải tạo những yếu tố nào từ Hêghen và Phoiơbắc để xây dựng triết học mới?",
+    "options": [
+      "Chủ nghĩa duy vật của Hêghen và phép biện chứng của Phoiơbắc",
+      "Thần học của Hêghen và chủ nghĩa kinh nghiệm của Phoiơbắc",
+      "Kinh tế chính trị của Hêghen và chủ nghĩa xã hội của Phoiơbắc",
+      "Hạt nhân hợp lý của phép biện chứng Hêghen và quan điểm duy vật của Phoiơbắc"
+    ],
+    "answer": 3,
+    "explanation": "Mác và Ăngghen kế thừa có phê phán phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoiơbắc, đồng thời khắc phục nền tảng duy tâm và tính trực quan, siêu hình của họ.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Nguồn gốc lý luận",
+      "text": "Triết học Mác kế thừa phép biện chứng Hêghen và quan điểm duy vật Phoiơbắc để hình thành triết học duy vật biện chứng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q042",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Kinh tế chính trị cổ điển Anh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mác và Ăngghen kế thừa những yếu tố khoa học trong kinh tế chính trị cổ điển Anh của các đại biểu nào?",
+    "options": [
+      "H. Xanhximông và S. Phuriê",
+      "Hêghen và Phoiơbắc",
+      "A. Smít và Đ. Ricácđô",
+      "Đácuyn và Moócgăng"
+    ],
+    "answer": 2,
+    "explanation": "Những yếu tố khoa học trong kinh tế chính trị của Adam Smith và David Ricardo là cơ sở để Mác phát triển lý luận kinh tế, đặc biệt học thuyết giá trị thặng dư.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Nguồn gốc lý luận",
+      "text": "Mác và Ăngghen kế thừa các yếu tố khoa học trong kinh tế chính trị của A. Smít và Đ. Ricácđô."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q043",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa xã hội không tưởng Pháp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mác và Ăngghen kế thừa giá trị chủ yếu nào từ chủ nghĩa xã hội không tưởng Pháp?",
+    "options": [
+      "Tư tưởng nhân đạo, sự phê phán xã hội tư bản và khát vọng xây dựng một xã hội tốt đẹp hơn",
+      "Phép biện chứng duy tâm và quan niệm tinh thần tuyệt đối quyết định toàn bộ tiến trình lịch sử xã hội",
+      "Cách xem xã hội như một cỗ máy gồm các bộ phận tách rời, vận động theo những quy luật cơ học",
+      "Học thuyết giá trị lao động và những phân tích kinh tế về nguồn gốc, sự vận động của lợi nhuận tư bản"
+    ],
+    "answer": 0,
+    "explanation": "Mác và Ăngghen kế thừa giá trị nhân đạo và phê phán xã hội tư bản của các nhà không tưởng Pháp như Xanh Ximông và Sáclơ Phuriê, đồng thời khắc phục tính không tưởng để xây dựng chủ nghĩa xã hội khoa học. R. Ôwen là nhà không tưởng Anh, không thuộc nhóm đại biểu Pháp.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > 2.a Nguồn gốc lý luận",
+      "text": "Giáo trình nêu Xanh Ximông và Sáclơ Phuriê là những đại biểu nổi tiếng của chủ nghĩa xã hội không tưởng Pháp, một nguồn gốc lý luận của chủ nghĩa Mác."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q044",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Tiền đề khoa học tự nhiên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba tiền đề khoa học tự nhiên tiêu biểu cho sự ra đời của triết học Mác là gì?",
+    "options": [
+      "Hình học phi Euclid, thuyết tương đối và cơ học lượng tử",
+      "Định luật bảo toàn và chuyển hóa năng lượng, thuyết tế bào và thuyết tiến hóa",
+      "Thuyết nguyên tử cổ đại, định luật vạn vật hấp dẫn và thuyết nhật tâm",
+      "Phép tính vi phân, hóa học hữu cơ và lý thuyết thông tin"
+    ],
+    "answer": 1,
+    "explanation": "Ba phát minh lớn gồm định luật bảo toàn và chuyển hóa năng lượng, thuyết tế bào và thuyết tiến hóa đã cung cấp cơ sở khoa học cho cách nhìn duy vật, biện chứng về tự nhiên.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II. Triết học Mác - Lênin > 1.a Những điều kiện lịch sử > Tiền đề khoa học tự nhiên",
+      "text": "Ba tiền đề khoa học tự nhiên tiêu biểu là định luật bảo toàn và chuyển hóa năng lượng, thuyết tiến hóa và thuyết tế bào."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q045",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa tiền đề khoa học tự nhiên",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Định luật bảo toàn và chuyển hóa năng lượng hỗ trợ quan niệm triết học mới ở điểm nào?",
+    "options": [
+      "Năng lượng được bảo toàn khi các hình thức vận động chuyển hóa, củng cố quan niệm về sự thống nhất vật chất",
+      "Các hình thức năng lượng đều quy được về vận động cơ học, nên cơ học có thể giải thích mọi biến đổi tự nhiên",
+      "Sự bảo toàn năng lượng cho thấy trạng thái hiện tại của tự nhiên ổn định hơn các quá trình chuyển hóa",
+      "Các dạng vận động tuân theo quy luật riêng, nên sự thống nhất của tự nhiên chỉ là một quy ước nhận thức"
+    ],
+    "answer": 0,
+    "explanation": "Định luật cho thấy sự bảo toàn và chuyển hóa giữa các hình thức năng lượng, chống lại cách nhìn cô lập và cung cấp cơ sở khoa học cho quan niệm về tính thống nhất vật chất.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Tiền đề khoa học tự nhiên",
+      "text": "Định luật bảo toàn và chuyển hóa năng lượng là cơ sở để xây dựng quan niệm duy vật mới và khẳng định tính thống nhất vật chất của thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q046",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa thuyết tế bào và thuyết tiến hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phân biệt nào đúng về ý nghĩa của thuyết tế bào và thuyết tiến hóa đối với tư duy biện chứng?",
+    "options": [
+      "Thuyết tế bào giải thích sự biến đổi của loài; thuyết tiến hóa xác định tế bào là đơn vị cấu tạo cơ bản của cơ thể",
+      "Thuyết tế bào nêu cơ chế chuyển hóa năng lượng; thuyết tiến hóa chứng minh sự thống nhất giữa các dạng vận động",
+      "Thuyết tế bào nhấn mạnh cấu trúc riêng của từng cơ thể; thuyết tiến hóa xem khác biệt loài là ổn định qua lịch sử",
+      "Thuyết tế bào làm rõ sự thống nhất của thế giới sống; thuyết tiến hóa chỉ ra nguồn gốc chung và sự biến đổi của loài"
+    ],
+    "answer": 3,
+    "explanation": "Thuyết tế bào làm rõ nền tảng thống nhất của cơ thể sống, còn thuyết tiến hóa bác bỏ quan niệm loài bất biến bằng việc chứng minh nguồn gốc và quá trình phát triển của chúng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Tiền đề khoa học tự nhiên",
+      "text": "Thuyết tế bào chứng minh tính thống nhất của sự sống; thuyết tiến hóa chứng minh nguồn gốc chung và sự phát triển của các loài từ thấp đến cao."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q047",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhân tố chủ quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nghiên cứu chỉ liệt kê điều kiện kinh tế, phong trào công nhân và thành tựu khoa học nhưng bỏ qua hoạt động thực tiễn, lập trường và năng lực khái quát của Mác, Ăngghen. Nghiên cứu đó thiếu nhóm nhân tố nào?",
+    "options": [
+      "Nguồn gốc xã hội của triết học nói chung",
+      "Nhân tố chủ quan trong sự ra đời triết học Mác",
+      "Mặt nhận thức luận của vấn đề cơ bản",
+      "Các hình thức lịch sử của phép biện chứng"
+    ],
+    "answer": 1,
+    "explanation": "Ngoài các điều kiện khách quan, sự ra đời triết học Mác còn phụ thuộc phẩm chất, hoạt động cách mạng, lập trường giai cấp công nhân và năng lực lý luận của Mác, Ăngghen.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.a Nhân tố chủ quan trong sự ra đời triết học Mác",
+      "text": "Mác và Ăngghen tham gia hoạt động dân chủ, đứng về giai cấp công nhân và xây dựng công cụ lý luận để nhận thức, cải tạo thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q048",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Mốc hoàn thành bước chuyển của Mác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cặp bài viết nào gắn với mốc Mác hoàn thành bước chuyển sang chủ nghĩa duy vật và chủ nghĩa cộng sản đầu năm 1844?",
+    "options": [
+      "Bản thảo kinh tế – triết học năm 1844 và Gia đình thần thánh do Mác, Ăngghen cùng viết năm 1845",
+      "Hệ tư tưởng Đức năm 1845–1846 và Sự khốn cùng của triết học được Mác công bố năm 1847",
+      "Bàn về vấn đề Do Thái và Lời nói đầu của Góp phần phê phán triết học pháp quyền của Hêghen",
+      "Tuyên ngôn của Đảng Cộng sản do Mác, Ăngghen công bố năm 1848 và Tư bản, quyển I năm 1867"
+    ],
+    "answer": 2,
+    "explanation": "Các bài Bàn về vấn đề Do Thái và Lời nói đầu của Góp phần phê phán triết học pháp quyền của Hêghen đăng trên Niên giám Pháp – Đức tháng 2-1844 đánh dấu bước chuyển dứt khoát của Mác sang chủ nghĩa duy vật và chủ nghĩa cộng sản.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > Quá trình chuyển biến tư tưởng của Mác",
+      "text": "Giáo trình xác định hai bài đăng tháng 2-1844 đánh dấu bước hoàn thành quá trình chuyển biến của Mác sang chủ nghĩa duy vật và chủ nghĩa cộng sản."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q049",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vai trò của thực tiễn trong bước chuyển tư tưởng của Mác",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao hoạt động báo chí và sự tiếp xúc với phong trào công nhân góp phần quyết định bước chuyển tư tưởng của Mác giai đoạn 1841–1844?",
+    "options": [
+      "Vì hoạt động đó giúp Mác giữ nguyên triết học Hêghen nhưng diễn đạt nó bằng những thuật ngữ chính trị mới",
+      "Vì việc kiểm nghiệm lý luận trong đời sống làm rõ các quan hệ vật chất và đưa Mác đến lập trường duy vật, cộng sản",
+      "Vì kinh nghiệm báo chí cho phép Mác thay nghiên cứu lý luận bằng việc mô tả những sự kiện chính trị riêng lẻ",
+      "Vì phong trào công nhân khiến Mác chuyển trọng tâm từ giải phóng con người sang hoàn thiện hệ thống duy tâm"
+    ],
+    "answer": 1,
+    "explanation": "Qua hoạt động báo Sông Ranh và thực tiễn chính trị, Mác nhận ra những lợi ích vật chất đứng sau nhà nước thay vì coi nhà nước là hiện thân của tinh thần tuyệt đối. Tiếp xúc với phong trào công nhân ở Pari tiếp tục thúc đẩy bước chuyển dứt khoát sang chủ nghĩa duy vật và chủ nghĩa cộng sản.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > Quá trình chuyển biến tư tưởng của Mác",
+      "text": "Việc kiểm tra lý luận trong thực tiễn đấu tranh và tiếp xúc với phong trào công nhân đã làm Mác chuyển từ duy tâm sang duy vật, từ dân chủ cách mạng sang chủ nghĩa cộng sản."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q050",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Giai đoạn 1844–1848",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung trung tâm của giai đoạn 1844–1848 là gì?",
+    "options": [
+      "Chuyển từ duy vật sang duy tâm để phê phán triết học cổ điển Đức",
+      "Chỉ nghiên cứu kinh tế chính trị mà chưa xây dựng nguyên lý triết học mới",
+      "Đề xuất các nguyên lý duy vật biện chứng, duy vật lịch sử và xây dựng nền tảng triết học mới",
+      "Tập trung tổng kết kinh nghiệm xây dựng chủ nghĩa xã hội ở nước Nga"
+    ],
+    "answer": 2,
+    "explanation": "Sau khi thoát khỏi hệ thống triết học cũ, Mác và Ăngghen xây dựng các nguyên lý nền tảng của chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.b Những thời kỳ chủ yếu > 1844–1848",
+      "text": "Thời kỳ 1844–1848 đề xuất những nguyên lý triết học duy vật biện chứng và duy vật lịch sử, xây dựng nền tảng cho triết học mới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q051",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Tác phẩm đánh dấu sự ra đời chủ nghĩa Mác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tác phẩm nào năm 1848 đánh dấu sự ra đời của chủ nghĩa Mác với tư cách một hệ thống?",
+    "options": [
+      "Tuyên ngôn của Đảng Cộng sản",
+      "Bản thảo kinh tế – triết học",
+      "Luận cương về Phoiơbắc",
+      "Hệ tư tưởng Đức"
+    ],
+    "answer": 0,
+    "explanation": "Tuyên ngôn của Đảng Cộng sản năm 1848 kết tinh các nguyên lý cơ bản và đánh dấu chủ nghĩa Mác xuất hiện với tư cách một hệ thống lý luận.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.b Những thời kỳ chủ yếu > 1844–1848",
+      "text": "Tuyên ngôn của Đảng Cộng sản (1848) được xác định là tác phẩm đánh dấu sự ra đời của chủ nghĩa Mác với tư cách một hệ thống."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q052",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Giai đoạn 1848–1895",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc điểm nổi bật của giai đoạn 1848–1895 trong sự phát triển triết học Mác là gì?",
+    "options": [
+      "Mác và Ăngghen mới bắt đầu chuyển từ duy tâm sang duy vật",
+      "Các nguyên lý triết học mới chỉ tồn tại dưới dạng giả thuyết chưa gắn với thực tiễn",
+      "Lênin trực tiếp lãnh đạo việc hoàn thiện triết học Mác trong giai đoạn này",
+      "Mác và Ăngghen bổ sung, phát triển toàn diện lý luận gắn với thực tiễn cách mạng công nhân"
+    ],
+    "answer": 3,
+    "explanation": "Từ 1848 đến 1895, lý luận được phát triển toàn diện trong quan hệ mật thiết với phong trào công nhân, góp phần chuyển phong trào từ tự phát thành tự giác.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.b Những thời kỳ chủ yếu > 1848–1895",
+      "text": "Thời kỳ 1848–1895, Mác và Ăngghen bổ sung, phát triển toàn diện lý luận gắn bó mật thiết với thực tiễn cách mạng của giai cấp công nhân."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q053",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Nhận diện giai đoạn phát triển",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề cương nghiên cứu tập trung vào Hệ tư tưởng Đức, Sự khốn cùng của triết học và Tuyên ngôn của Đảng Cộng sản. Đề cương đó đang khảo sát giai đoạn nào?",
+    "options": [
+      "Giai đoạn 1841–1844 hình thành bước chuyển thế giới quan",
+      "Giai đoạn 1848–1895 phát triển toàn diện lý luận",
+      "Giai đoạn 1844–1848 xây dựng các nguyên lý nền tảng của triết học mới",
+      "Giai đoạn 1907–1917 Lênin phát triển toàn diện triết học Mác"
+    ],
+    "answer": 2,
+    "explanation": "Ba tác phẩm nêu trong đề thuộc giai đoạn 1844–1848, khi Mác và Ăngghen xây dựng những nguyên lý duy vật biện chứng, duy vật lịch sử và xác lập hệ thống mới.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.b Những thời kỳ chủ yếu > 1844–1848",
+      "text": "Hệ tư tưởng Đức, Sự khốn cùng của triết học và Tuyên ngôn của Đảng Cộng sản nằm trong danh mục tác phẩm giai đoạn 1844–1848."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q054",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Thực chất cuộc cách mạng trong triết học",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Bước khắc phục nào tạo nên chủ nghĩa duy vật biện chứng trong cuộc cách mạng triết học của Mác và Ăngghen?",
+    "options": [
+      "Khắc phục tính trực quan, siêu hình của duy vật cũ và tính duy tâm, thần bí của biện chứng Đức",
+      "Giữ nguyên duy vật cũ và loại bỏ hoàn toàn mọi thành tựu của phép biện chứng",
+      "Giữ nguyên phép biện chứng Hêghen và thay các thuật ngữ tinh thần bằng thuật ngữ vật chất",
+      "Từ bỏ thành tựu khoa học tự nhiên để xây dựng một hệ thống triết học khép kín"
+    ],
+    "answer": 0,
+    "explanation": "Mác và Ăngghen cải tạo cả hai di sản: giải phóng duy vật khỏi tính trực quan, siêu hình và giải phóng biện chứng khỏi cái vỏ duy tâm, thần bí.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.c Thực chất và ý nghĩa cuộc cách mạng trong triết học",
+      "text": "Mác và Ăngghen khắc phục hạn chế của duy vật cũ và phép biện chứng duy tâm Đức để phát triển chủ nghĩa duy vật biện chứng."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q055",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Sự ra đời của chủ nghĩa duy vật lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung chủ yếu tạo nên bước ngoặt cách mạng trong nghiên cứu xã hội của triết học Mác là gì?",
+    "options": [
+      "Giới hạn chủ nghĩa duy vật trong việc giải thích các hiện tượng tự nhiên",
+      "Dùng ý niệm tuyệt đối để giải thích nguồn gốc của đời sống xã hội",
+      "Tách quy luật xã hội khỏi hoạt động thực tiễn của con người",
+      "Mở rộng quan điểm duy vật biện chứng vào lịch sử xã hội, sáng tạo chủ nghĩa duy vật lịch sử"
+    ],
+    "answer": 3,
+    "explanation": "Việc vận dụng lập trường duy vật biện chứng vào đời sống xã hội đã khắc phục cách giải thích duy tâm về lịch sử và tạo ra chủ nghĩa duy vật lịch sử.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.c Thực chất và ý nghĩa cuộc cách mạng trong triết học",
+      "text": "Mác và Ăngghen mở rộng duy vật biện chứng vào nghiên cứu lịch sử xã hội, sáng tạo chủ nghĩa duy vật lịch sử – nội dung chủ yếu của bước ngoặt."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q056",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Tính thực tiễn của triết học Mác",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm nghiên cứu chỉ giải thích bất bình đẳng bằng lý luận nhưng từ chối kiểm nghiệm trong đời sống và không hướng tới hoạt động cải biến. Theo bước ngoặt của triết học Mác, nhóm này thiếu yêu cầu nào?",
+    "options": [
+      "Tách triết học khỏi mọi lợi ích xã hội để giữ tính trung lập tuyệt đối",
+      "Gắn nhận thức khoa học với thực tiễn và hướng tới cải tạo thế giới",
+      "Thay phân tích khách quan bằng niềm tin của chủ thể nghiên cứu",
+      "Coi lý luận triết học là chìa khóa giải quyết trực tiếp mọi vấn đề chuyên môn"
+    ],
+    "answer": 1,
+    "explanation": "Triết học Mác không dừng ở giải thích thế giới mà nhấn mạnh sự thống nhất giữa lý luận với thực tiễn, biến tri thức thành công cụ nhận thức và cải tạo hiện thực.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > 4. Thực chất cuộc cách mạng",
+      "text": "Luận điểm về cải tạo thế giới thể hiện khác biệt về chất và tính thực tiễn của triết học Mác so với các học thuyết trước."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q057",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Triết học và khoa học cụ thể",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cuộc cách mạng của Mác và Ăngghen đã xác lập quan hệ giữa triết học với khoa học cụ thể như thế nào?",
+    "options": [
+      "Triết học tổng hợp kết quả khoa học để xây dựng các kết luận chuyên ngành có hiệu lực cao hơn từng bộ môn",
+      "Khoa học cụ thể cung cấp dữ liệu, còn triết học xác lập trước phương pháp và kết luận mà mỗi ngành phải tuân theo",
+      "Triết học và khoa học cụ thể có đối tượng riêng, nên quan hệ giữa chúng chủ yếu là cùng tồn tại độc lập",
+      "Triết học khái quát thành tựu khoa học và cung cấp thế giới quan, phương pháp luận chung, không thay thế từng ngành"
+    ],
+    "answer": 3,
+    "explanation": "Triết học Mác từ bỏ tham vọng bao trùm, thay thế các khoa học; nó phát triển trên cơ sở khái quát thành tựu khoa học và cung cấp định hướng thế giới quan, phương pháp luận chung.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > 4. Thực chất cuộc cách mạng",
+      "text": "Triết học Mác chấm dứt tham vọng “khoa học của các khoa học”, đồng thời trở thành thế giới quan khoa học và phương pháp luận chung cho khoa học."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q058",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Bối cảnh giai đoạn Lênin",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bối cảnh nào đặt ra nhu cầu V.I. Lênin bảo vệ và phát triển triết học Mác?",
+    "options": [
+      "Chủ nghĩa tư bản trở lại giai đoạn cạnh tranh tự do và phong trào thuộc địa chấm dứt",
+      "Chủ nghĩa tư bản chuyển sang đế quốc, đấu tranh cách mạng và khoa học phát triển, các trào lưu xuyên tạc Mác xuất hiện",
+      "Khoa học tự nhiên ngừng phát triển nên không còn tranh luận về thế giới quan",
+      "Chủ nghĩa xã hội đã được xây dựng hoàn chỉnh ở mọi quốc gia châu Âu"
+    ],
+    "answer": 1,
+    "explanation": "Cuối thế kỷ XIX đầu thế kỷ XX, đế quốc chủ nghĩa làm mâu thuẫn xã hội gay gắt, khoa học nảy sinh khủng hoảng thế giới quan và nhiều trào lưu duy tâm, xét lại công kích chủ nghĩa Mác.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.d Giai đoạn V.I. Lênin > Bối cảnh lịch sử",
+      "text": "Bối cảnh gồm chủ nghĩa tư bản chuyển sang đế quốc, phong trào cách mạng phát triển, khoa học biến đổi và các trào lưu xuyên tạc, phủ nhận chủ nghĩa Mác."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q059",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Giai đoạn Lênin 1893–1907",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao cuộc đấu tranh của Lênin chống phái dân túy giai đoạn 1893–1907 đồng thời là sự phát triển triết học Mác?",
+    "options": [
+      "Vì ông xem ý chí của những cá nhân kiệt xuất là động lực cơ bản quyết định tiến trình phát triển xã hội",
+      "Vì ông thay quan điểm duy vật lịch sử bằng một chương trình vận động chính trị phù hợp với nông dân Nga",
+      "Vì ông phê phán quan niệm duy tâm về lịch sử và làm phong phú lý luận duy vật về hình thái kinh tế – xã hội",
+      "Vì ông tổng kết việc xây dựng chủ nghĩa xã hội sau Cách mạng Tháng Mười để điều chỉnh học thuyết Mác"
+    ],
+    "answer": 2,
+    "explanation": "Trong khi vạch trần phái dân túy, Lênin phê phán quan điểm duy tâm chủ quan của họ về lịch sử, bảo vệ chủ nghĩa Mác và phát triển quan điểm duy vật lịch sử, nhất là lý luận hình thái kinh tế – xã hội.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.d Giai đoạn V.I. Lênin > 1893–1907",
+      "text": "Lênin bảo vệ, phát triển triết học Mác và chuẩn bị thành lập đảng mácxít ở Nga, hướng tới cách mạng dân chủ tư sản lần thứ nhất."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q060",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Giai đoạn Lênin 1907–1917",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán tiêu biểu cho sự phát triển triết học Mác trong giai đoạn 1907–1917?",
+    "options": [
+      "Lênin phê phán chủ nghĩa Makhơ và khái quát thành tựu khoa học mới để làm sâu sắc chủ nghĩa duy vật, nhận thức luận",
+      "Lênin dùng những phát hiện vật lý mới để thay phép biện chứng bằng cách giải thích thuần túy kinh nghiệm",
+      "Lênin chuyển trọng tâm triết học sang biên tập di cảo của Mác và hệ thống hóa kinh tế chính trị cổ điển",
+      "Lênin xem cuộc khủng hoảng vật lý là bằng chứng phủ định cơ sở khách quan của thế giới vật chất và nhận thức khoa học"
+    ],
+    "answer": 0,
+    "explanation": "Trước việc chủ nghĩa Makhơ lợi dụng khủng hoảng vật lý để công kích chủ nghĩa duy vật, Lênin vừa phê phán quan điểm duy tâm, siêu hình vừa khái quát thành tựu khoa học mới, qua đó làm sâu sắc chủ nghĩa duy vật biện chứng và nhận thức luận mácxít.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.d Giai đoạn V.I. Lênin > 1907–1917",
+      "text": "Trong Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán, Lênin phê phán chủ nghĩa Makhơ và phát triển chủ nghĩa duy vật, nhận thức luận trên cơ sở khái quát thành tựu khoa học mới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q061",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Giai đoạn Lênin 1917–1924",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao trọng tâm phát triển triết học Mác của Lênin thay đổi trong thời kỳ 1917–1924?",
+    "options": [
+      "Sau Cách mạng Tháng Mười, nhiệm vụ xây dựng xã hội mới đòi hỏi Lênin tổng kết thực tiễn và bổ sung lý luận",
+      "Sau Cách mạng Tháng Mười, đấu tranh chống phái dân túy trở lại thành nhiệm vụ lý luận trung tâm ở Nga",
+      "Sau năm 1917, khủng hoảng vật lý buộc Lênin tập trung chủ yếu vào việc bảo vệ định nghĩa vật chất",
+      "Sau năm 1917, việc chuẩn bị đảng kiểu mới thay thế nhiệm vụ nghiên cứu con đường xây dựng chủ nghĩa xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Thắng lợi của Cách mạng Tháng Mười chuyển nhiệm vụ thực tiễn từ chuẩn bị cách mạng sang bước đầu xây dựng chủ nghĩa xã hội. Vì vậy, Lênin tổng kết kinh nghiệm cách mạng và bổ sung lý luận để giải quyết những vấn đề của xã hội mới.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.1.d Giai đoạn V.I. Lênin > 1917–1924",
+      "text": "Thời kỳ 1917–1924, Lênin tổng kết thực tiễn cách mạng, bổ sung và hoàn thiện triết học Mác gắn với xây dựng chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q062",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vận dụng sáng tạo chủ nghĩa Mác",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi các phát minh mới gây khủng hoảng thế giới quan và bị một trào lưu duy tâm lợi dụng để phủ nhận chủ nghĩa duy vật, cách xử lý phù hợp với tinh thần của Lênin là gì?",
+    "options": [
+      "Bác bỏ các phát minh vì chúng khác quan niệm khoa học trước đó",
+      "Giữ nguyên mọi công thức cũ để tránh chủ nghĩa xét lại",
+      "Khái quát thành tựu mới, phê phán xuyên tạc và phát triển lý luận duy vật biện chứng",
+      "Tách triết học khỏi khoa học để tránh tranh luận về thế giới quan"
+    ],
+    "answer": 2,
+    "explanation": "Lênin bảo vệ chủ nghĩa Mác không bằng giáo điều mà bằng việc phân tích thành tựu khoa học mới, phê phán chủ nghĩa duy tâm và bổ sung, phát triển lý luận một cách sáng tạo.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Sự ra đời và phát triển của triết học Mác – Lênin > 5. Giai đoạn Lênin",
+      "text": "Lênin khái quát phát minh khoa học mới để phê phán chủ nghĩa Makhơ, bảo vệ và nâng chủ nghĩa duy vật biện chứng, nhận thức luận lên trình độ mới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q063",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Khái niệm triết học Mác – Lênin",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Định nghĩa nào thể hiện đầy đủ bản chất của triết học Mác – Lênin?",
+    "options": [
+      "Hệ thống quan điểm duy tâm biện chứng chỉ dùng để giải thích lịch sử tư tưởng",
+      "Hệ thống quan điểm duy vật biện chứng về tự nhiên, xã hội, tư duy và là thế giới quan, phương pháp luận khoa học, cách mạng",
+      "Tổng hợp kết quả của các khoa học cụ thể để đưa ra lời giải chuyên môn thay cho từng ngành",
+      "Học thuyết chỉ nghiên cứu đời sống tinh thần, không hướng tới cải tạo thế giới"
+    ],
+    "answer": 1,
+    "explanation": "Triết học Mác – Lênin thống nhất nội dung duy vật biện chứng về tự nhiên, xã hội, tư duy với vai trò thế giới quan và phương pháp luận khoa học, cách mạng.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.2.a Khái niệm triết học Mác – Lênin",
+      "text": "Triết học Mác – Lênin là hệ thống quan điểm duy vật biện chứng, là thế giới quan và phương pháp luận khoa học, cách mạng cho nhận thức và cải tạo thế giới."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q064",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Đối tượng triết học Mác – Lênin",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phân biệt nào xác định đúng đối tượng của triết học Mác – Lênin?",
+    "options": [
+      "Nghiên cứu những quy luật chung của đời sống tinh thần, còn quan hệ vật chất–ý thức thuộc các khoa học cụ thể",
+      "Khái quát quy luật riêng của từng ngành để xây dựng một hệ thống tri thức bao quát mọi kết quả chuyên môn",
+      "Giải quyết quan hệ con người–tự nhiên trên lập trường nhân bản và nghiên cứu quy luật phát triển riêng của xã hội",
+      "Giải quyết quan hệ vật chất–ý thức trên lập trường duy vật biện chứng và nghiên cứu các quy luật chung nhất"
+    ],
+    "answer": 3,
+    "explanation": "Triết học Mác – Lênin giải quyết quan hệ vật chất với ý thức trên lập trường duy vật biện chứng và nghiên cứu quy luật vận động, phát triển chung nhất của tự nhiên, xã hội, tư duy.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.2.b Đối tượng của triết học Mác – Lênin",
+      "text": "Đối tượng gồm quan hệ vật chất–ý thức trên lập trường duy vật biện chứng và các quy luật vận động, phát triển chung nhất của tự nhiên, xã hội, tư duy."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q065",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Kết hợp phương pháp luận và tri thức chuyên ngành",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhà sinh học muốn nghiên cứu cơ chế di truyền của một loài. Cách kết hợp triết học Mác – Lênin với khoa học chuyên ngành nào là phù hợp?",
+    "options": [
+      "Dùng nguyên lý triết học để xác định trước cơ chế di truyền, rồi lựa chọn dữ liệu phù hợp với kết luận đó",
+      "Dùng thế giới quan, phương pháp luận chung đồng thời vận dụng lý thuyết, phương pháp và dữ liệu sinh học cụ thể",
+      "Dùng phương pháp sinh học để thu thập dữ liệu, còn việc giải thích quy luật được giao hoàn toàn cho triết học",
+      "Tách phương pháp luận chung khỏi thiết kế thực nghiệm vì hai cấp độ nghiên cứu có đối tượng khác nhau"
+    ],
+    "answer": 1,
+    "explanation": "Triết học cung cấp định hướng chung nhưng không thay thế tri thức và phương pháp cụ thể; nghiên cứu hiệu quả đòi hỏi sự kết hợp giữa phương pháp luận triết học với chuyên môn và thực nghiệm.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.2.b–c Đối tượng và chức năng",
+      "text": "Triết học Mác – Lênin gắn bó với khoa học cụ thể và không phải chìa khóa vạn năng; hiệu quả đòi hỏi cả tri thức chuyên ngành và kinh nghiệm thực tiễn."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q066",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Chức năng thế giới quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một người xem xét khó khăn xã hội như hiện tượng khách quan có nguyên nhân, có thể nhận thức và cải biến bằng hoạt động tích cực. Cách nhìn này biểu hiện trực tiếp chức năng nào của triết học Mác – Lênin?",
+    "options": [
+      "Chức năng thay thế tri thức của các khoa học xã hội cụ thể",
+      "Chức năng dự báo chính xác mọi sự kiện riêng lẻ trong tương lai",
+      "Chức năng cung cấp một kỹ thuật xử lý giống nhau cho mọi hoàn cảnh",
+      "Chức năng thế giới quan, giúp hình thành quan điểm khoa học và thái độ tích cực đối với hiện thực"
+    ],
+    "answer": 3,
+    "explanation": "Chức năng thế giới quan giúp con người nhận thức đúng thế giới và bản thân, hình thành quan điểm khoa học, xác định thái độ và phát huy vai trò tích cực, sáng tạo.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.2.c Chức năng của triết học Mác – Lênin",
+      "text": "Chức năng thế giới quan giúp nhận thức đúng tự nhiên, xã hội và bản thân, hình thành quan điểm khoa học, thái độ và cách thức hoạt động tích cực."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q067",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Khả năng nhận thức và giới hạn hiện thời của tri thức",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm nghiên cứu thừa nhận kết quả hiện tại còn hạn chế và tiếp tục thí nghiệm để mở rộng hiểu biết, thay vì kết luận bản chất thế giới không thể biết. Lập trường nào phù hợp với cách làm đó?",
+    "options": [
+      "Thừa nhận khả năng nhận thức thế giới; giới hạn hiện thời thúc đẩy tiếp tục kiểm chứng và phát triển tri thức",
+      "Biến hoài nghi về kết quả hiện thời thành nguyên tắc phủ nhận khả năng đạt tới tri thức khách quan về đối tượng",
+      "Thừa nhận cảm giác cung cấp hình thức bề ngoài, còn bản chất của đối tượng nằm ngoài khả năng nghiên cứu",
+      "Xem tính chưa đầy đủ của một kết quả là bằng chứng rằng thế giới không có tính khách quan để nhận thức"
+    ],
+    "answer": 0,
+    "explanation": "Thừa nhận tri thức hiện tại còn giới hạn không đồng nghĩa phủ nhận khả năng nhận thức. Lập trường khả tri coi thế giới có thể được nhận thức và xem kiểm chứng, bổ sung tri thức là con đường khắc phục những giới hạn cụ thể.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > I.2 Vấn đề cơ bản của triết học > Mặt nhận thức luận",
+      "text": "Đa số các nhà triết học thừa nhận khả năng nhận thức thế giới; thuyết không thể biết phủ nhận hoặc giới hạn nhận thức ở hình thức bề ngoài."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q068",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Tri thức và niềm tin trong thế giới quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên biết tác hại của tin giả nhưng vẫn chia sẻ vì tin theo đám đông. Từ quan hệ tri thức–niềm tin trong thế giới quan, nhận xét nào phù hợp?",
+    "options": [
+      "Lượng tri thức đã đủ xác lập thế giới quan khoa học; cách lựa chọn thông tin là một vấn đề tách biệt",
+      "Niềm tin định hướng hành động chủ yếu nhờ độ bền tâm lý, còn cơ sở tri thức giữ vai trò thứ yếu",
+      "Tri thức chỉ gia nhập thế giới quan khi trở thành niềm tin có cơ sở và định hướng hoạt động của người đó",
+      "Việc hành động theo tin đồn chủ yếu phản ánh kỹ năng truyền thông, không liên quan đến thế giới quan"
+    ],
+    "answer": 2,
+    "explanation": "Tri thức là cơ sở trực tiếp của thế giới quan, nhưng chỉ thực sự tham gia thế giới quan khi trở thành niềm tin định hướng hành động. Biết một dữ kiện mà vẫn hành động theo tin đồn cho thấy tri thức ấy chưa chuyển thành niềm tin có cơ sở.",
+    "source": {
+      "file": "Giáo trình Triết học Mác-Lênin.md",
+      "section": "Chương I > II.1 Triết học – hạt nhân lý luận của thế giới quan",
+      "text": "Trong thế giới quan có sự hòa nhập giữa tri thức và niềm tin; tri thức chỉ gia nhập thế giới quan khi trở thành niềm tin định hướng hoạt động."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q069",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vai trò trong cách mạng khoa học và công nghệ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Để phân tích tác động xã hội của trí tuệ nhân tạo trong bối cảnh công nghệ biến đổi nhanh, cách tiếp cận nào phù hợp nhất với vai trò của triết học Mác – Lênin?",
+    "options": [
+      "Dùng thế giới quan và phương pháp luận biện chứng để phân tích xu hướng, mâu thuẫn và tác động xã hội trên cơ sở dữ liệu cụ thể",
+      "Coi công nghệ là lực lượng tự vận động, hoàn toàn tách khỏi các quan hệ kinh tế và xã hội",
+      "Suy ra mọi hệ quả tương lai từ một nguyên lý chung mà không cần kiểm tra thực tiễn",
+      "Chỉ mô tả đặc tính kỹ thuật và loại bỏ việc xem xét con người, lợi ích cùng điều kiện lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Triết học Mác – Lênin giúp phân tích xu hướng phát triển xã hội trong cách mạng khoa học và công nghệ bằng tư duy biện chứng, nhưng phân tích phải dựa trên hiện thực và tri thức chuyên ngành.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.3 Vai trò trong đời sống xã hội",
+      "text": "Triết học Mác – Lênin là cơ sở thế giới quan, phương pháp luận để phân tích xu hướng xã hội trong điều kiện cách mạng khoa học và công nghệ hiện đại."
+    }
+  },
+  {
+    "id": "MLN111-C01-Q070",
+    "courseId": "mln111",
+    "chapter": "Chương 1 · Khái luận về triết học và triết học Mác – Lênin",
+    "chapterNum": 1,
+    "topic": "Vai trò đối với sự nghiệp đổi mới ở Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Trong hoạch định chính sách đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam, cách vận dụng triết học Mác – Lênin nào là phù hợp?",
+    "options": [
+      "Lấy một mô hình lịch sử đã thành công làm khuôn cố định, rồi chỉ điều chỉnh các chi tiết quản lý cho Việt Nam",
+      "Phân tích điều kiện và xu hướng thực tiễn Việt Nam trên cơ sở lý luận khoa học, rồi điều chỉnh hành động sáng tạo",
+      "Ưu tiên mục tiêu xã hội đã xác định, còn các điều kiện kinh tế và văn hóa được xử lý ở giai đoạn thực hiện",
+      "Xuất phát từ các kết luận lý luận chung để xây dựng chính sách, sau đó dùng thực tiễn minh họa cho chính sách"
+    ],
+    "answer": 1,
+    "explanation": "Triết học Mác – Lênin là cơ sở lý luận cho đổi mới, nhưng vận dụng đúng phải thống nhất lý luận với thực tiễn, tôn trọng điều kiện lịch sử cụ thể và chống giáo điều.",
+    "source": {
+      "file": "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md",
+      "section": "Chương 1 > II.3 Vai trò trong đời sống xã hội và sự nghiệp đổi mới",
+      "text": "Triết học Mác – Lênin là cơ sở lý luận khoa học của công cuộc xây dựng chủ nghĩa xã hội và đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam."
+    }
+  }
+]

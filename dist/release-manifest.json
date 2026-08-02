@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "artifacts": {
+    "index.html": {
+      "sha256": "b2faf6a295176cd136b7619d82630d0af1636378fc99728215b499eb70d3442d",
+      "rawBytes": 2827553,
+      "gzipBytes": 704131
+    }
+  },
+  "totals": {
+    "rawBytes": 2827553,
+    "gzipBytes": 704131
+  },
+  "csp": {
+    "scriptSrcHashes": [
+      "sha256-bNYlh0eSHanbtf5/L+pzCxn8cWjUGSLjPcH7Jgjv0TQ=",
+      "sha256-jl5l5DuNnsu4fVj5+6og96LHO99CD7s+GFGj1cA3qDk="
+    ],
+    "styleSrcHashes": [
+      "sha256-BzJBYxP1P1nxmcxVkadonktI+yyLhVikNbD0hwnBoJs="
+    ]
+  },
+  "subjects": {
+    "hcm202": 480,
+    "mln111": 380,
+    "mln112": 504,
+    "mln131": 0,
+    "vnr201": 0
+  },
+  "inputSnapshotSha256": "ee30d33c369227206966fd6e63adc8b0c25f5cbdb00033f20b20cef90a2c7254"
+}

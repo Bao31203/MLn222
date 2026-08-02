@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import shutil
 import subprocess
 import sys
 import tempfile
+import unicodedata
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -19,23 +21,965 @@ from build_html import (
     GAME_SCRIPTS_PLACEHOLDER,
     GAME_STYLES_PLACEHOLDER,
     GAME_SVG_PLACEHOLDER,
+    LECTURE_CATALOGS_PLACEHOLDER,
     LECTURES_PLACEHOLDER,
     PLACEHOLDER,
+    QUESTION_BANKS_PLACEHOLDER,
+    SUBJECT_CATALOG_PLACEHOLDER,
+    PUBLIC_QUESTION_FIELDS,
+    PUBLIC_SUBJECT_FIELDS,
+    build_catalogs,
+    build_release_manifest,
+    build_vercel_config,
+    canonical_input_snapshot_sha256,
+    catalog_accessor_source,
+    discard_release_staging,
+    enforce_artifact_budget,
+    inline_csp_hashes,
     load_game_assets,
     load_lectures,
+    measure_artifact,
+    render_catalog_html,
     render_html,
     serialize_for_inline_script,
+    snapshot_input_manifest,
+    stage_release_artifacts,
+    promote_release,
 )
+from compose_questions import compose_subject
+from subject_catalog import CatalogError, load_registry, load_subject_profile, load_subjects
 from validate_questions import (
     find_repeated_answer_cycle,
     has_truncation_ellipsis,
     normalize_option,
     validate_file,
+    validate_subject,
 )
 
 
 BASE = Path(__file__).resolve().parent
+_CATALOG_TEST_FIXTURE: tuple[
+    list[dict[str, object]],
+    dict[str, list[dict[str, object]]],
+    dict[str, dict[str, object]],
+    str,
+] | None = None
 
+
+def catalog_test_fixture() -> tuple[
+    list[dict[str, object]],
+    dict[str, list[dict[str, object]]],
+    dict[str, dict[str, object]],
+    str,
+]:
+    global _CATALOG_TEST_FIXTURE
+    if _CATALOG_TEST_FIXTURE is None:
+        subjects, banks, lectures = build_catalogs(BASE)
+        template = (BASE / "template.html").read_text(encoding="utf-8")
+        rendered = render_catalog_html(
+            template, subjects, banks, lectures, load_game_assets(BASE)
+        )
+        _CATALOG_TEST_FIXTURE = subjects, banks, lectures, rendered
+    return _CATALOG_TEST_FIXTURE
+
+
+def normalized_text(value: str) -> str:
+    value = unicodedata.normalize("NFD", value.casefold())
+    value = "".join(char for char in value if unicodedata.category(char) != "Mn")
+    return re.sub(r"[^a-z0-9]+", " ", value.replace("đ", "d")).strip()
+
+
+class ContentContractTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.content_root = BASE / "content"
+        cls.subjects_root = cls.content_root / "subjects"
+        cls.registry = json.loads(
+            (cls.subjects_root / "registry.json").read_text(encoding="utf-8")
+        )
+        cls.profiles = {
+            item["id"]: json.loads(
+                (cls.content_root / Path(item["metadataPath"])).read_text(encoding="utf-8")
+            )
+            for item in cls.registry["subjects"]
+        }
+
+    def load_authored_questions(self, subject_id: str) -> list[dict]:
+        questions: list[dict] = []
+        for item in self.profiles[subject_id]["questionFiles"]:
+            path = self.content_root / Path(item["path"])
+            questions.extend(json.loads(path.read_text(encoding="utf-8")))
+        return questions
+
+    def test_registry_has_exact_five_subject_contract(self) -> None:
+        self.assertEqual(set(self.registry), {"schemaVersion", "subjects"})
+        self.assertEqual(self.registry["schemaVersion"], 1)
+        self.assertEqual(
+            [item["id"] for item in self.registry["subjects"]],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+        )
+        self.assertEqual(
+            [item["status"] for item in self.registry["subjects"]],
+            ["ready", "ready", "comingSoon", "ready", "comingSoon"],
+        )
+        self.assertFalse((self.subjects_root / "hcm201").exists())
+        expected_fields = {"id", "code", "legacyAliases", "status", "metadataPath"}
+        ids: set[str] = set()
+        codes: set[str] = set()
+        paths: set[str] = set()
+        aliases: set[str] = set()
+        for item in self.registry["subjects"]:
+            with self.subTest(subject=item["id"]):
+                self.assertEqual(set(item), expected_fields)
+                self.assertRegex(item["id"], r"^[a-z][a-z0-9-]{1,31}$")
+                self.assertNotIn(item["id"], {"__proto__", "prototype", "constructor"})
+                self.assertNotIn(item["id"], ids)
+                self.assertNotIn(item["code"], codes)
+                self.assertNotIn(item["metadataPath"], paths)
+                ids.add(item["id"])
+                codes.add(item["code"])
+                paths.add(item["metadataPath"])
+                metadata_path = Path(item["metadataPath"])
+                self.assertFalse(metadata_path.is_absolute())
+                self.assertNotIn("..", metadata_path.parts)
+                self.assertTrue((self.content_root / metadata_path).is_file())
+                for alias in item["legacyAliases"]:
+                    self.assertNotIn(alias, ids | aliases)
+                    aliases.add(alias)
+        self.assertEqual(self.registry["subjects"][1]["legacyAliases"], ["mln122", "mln222"])
+
+    def test_ready_profiles_have_unique_stable_chapters_and_existing_sources(self) -> None:
+        expected_features = {"quiz", "flashcards", "search", "lectures", "game"}
+        content_root = self.content_root.resolve()
+        all_chapter_ids: set[str] = set()
+        all_paths: set[Path] = set()
+        for subject_id in ("mln111", "mln112", "hcm202"):
+            profile = self.profiles[subject_id]
+            with self.subTest(subject=subject_id):
+                self.assertEqual(profile["status"], "ready")
+                self.assertIs(profile["studyReady"], True)
+                self.assertEqual(set(profile["features"]), expected_features)
+                self.assertEqual(
+                    sum(chapter["questionTarget"] for chapter in profile["chapters"]),
+                    profile["questionTarget"],
+                )
+                self.assertEqual(
+                    [chapter["number"] for chapter in profile["chapters"]],
+                    list(range(1, len(profile["chapters"]) + 1)),
+                )
+                for chapter in profile["chapters"]:
+                    self.assertEqual(
+                        set(chapter), {"id", "number", "title", "questionTarget"}
+                    )
+                    self.assertRegex(chapter["id"], r"^[a-z][a-z0-9-]{1,31}$")
+                    self.assertNotIn(chapter["id"], all_chapter_ids)
+                    all_chapter_ids.add(chapter["id"])
+                for question_file in profile["questionFiles"]:
+                    self.assertEqual(set(question_file), {"chapterNum", "path"})
+                    relative_path = Path(question_file["path"])
+                    self.assertFalse(relative_path.is_absolute())
+                    self.assertNotIn("..", relative_path.parts)
+                    resolved = (self.content_root / relative_path).resolve()
+                    self.assertTrue(resolved.is_relative_to(content_root))
+                    self.assertTrue(resolved.is_file())
+                    self.assertNotIn(resolved, all_paths)
+                    all_paths.add(resolved)
+
+    def test_placeholder_profiles_cannot_open_study_content(self) -> None:
+        expected_fields = {
+            "schemaVersion", "id", "code", "legacyAliases", "title", "description",
+            "status", "studyReady", "copyReviewRequired", "features", "questionTarget",
+            "chapters",
+        }
+        for subject_id in ("mln131", "vnr201"):
+            profile = self.profiles[subject_id]
+            with self.subTest(subject=subject_id):
+                self.assertEqual(set(profile), expected_fields)
+                self.assertEqual(profile["status"], "comingSoon")
+                self.assertIs(profile["studyReady"], False)
+                self.assertIs(profile["copyReviewRequired"], True)
+                self.assertEqual(profile["questionTarget"], 0)
+                self.assertEqual(profile["chapters"], [])
+                self.assertFalse(any(profile["features"].values()))
+                self.assertNotIn("questionFiles", profile)
+                self.assertNotIn("lectureManifest", profile)
+                self.assertNotIn("validation", profile)
+
+    def test_mln111_bank_matches_reviewed_distribution_and_schema(self) -> None:
+        profile = self.profiles["mln111"]
+        questions = self.load_authored_questions("mln111")
+        self.assertEqual(len(questions), 380)
+        self.assertEqual(
+            Counter(question["chapterNum"] for question in questions),
+            Counter({1: 70, 2: 150, 3: 160}),
+        )
+        self.assertEqual(
+            Counter(question["difficulty"] for question in questions),
+            Counter({"Nhận biết": 152, "Thông hiểu": 152, "Vận dụng": 76}),
+        )
+        self.assertEqual(
+            [Counter(question["answer"] for question in questions)[index] for index in range(4)],
+            [96, 96, 94, 94],
+        )
+        expected_fields = {
+            "id", "courseId", "chapter", "chapterNum", "topic", "difficulty", "kind",
+            "stem", "options", "answer", "explanation", "source",
+        }
+        ids: set[str] = set()
+        stems: set[str] = set()
+        allowed_sources = {
+            item["file"] for item in profile["validation"]["sourcePolicy"]["allowedSources"]
+        }
+        for question in questions:
+            with self.subTest(question=question["id"]):
+                self.assertEqual(set(question), expected_fields)
+                self.assertEqual(question["courseId"], "mln111")
+                self.assertRegex(question["id"], r"^MLN111-C\d{2}-Q\d{3}$")
+                self.assertNotIn(question["id"], ids)
+                ids.add(question["id"])
+                normalized_stem = normalized_text(question["stem"])
+                self.assertNotIn(normalized_stem, stems)
+                stems.add(normalized_stem)
+                self.assertEqual(len(question["options"]), 4)
+                self.assertEqual(
+                    len({normalized_text(option) for option in question["options"]}), 4
+                )
+                self.assertIn(question["answer"], range(4))
+                self.assertIn(question["kind"], profile["validation"]["allowedKinds"])
+                self.assertEqual(set(question["source"]), {"file", "section", "text"})
+                self.assertIn(question["source"]["file"], allowed_sources)
+
+    def test_hcm202_bank_matches_reviewed_distribution_schema_and_length_gates(self) -> None:
+        profile = self.profiles["hcm202"]
+        questions = self.load_authored_questions("hcm202")
+        self.assertEqual(len(questions), 480)
+        self.assertEqual(
+            Counter(question["chapterNum"] for question in questions),
+            Counter({1: 45, 2: 75, 3: 100, 4: 95, 5: 75, 6: 90}),
+        )
+        self.assertEqual(
+            Counter(question["difficulty"] for question in questions),
+            Counter({"Nhận biết": 192, "Thông hiểu": 192, "Vận dụng": 96}),
+        )
+        self.assertEqual(
+            [Counter(question["answer"] for question in questions)[index] for index in range(4)],
+            [120, 120, 120, 120],
+        )
+        expected_fields = {
+            "id", "courseId", "chapter", "chapterNum", "topic", "difficulty", "kind",
+            "stem", "options", "answer", "explanation", "source",
+        }
+        absolute_cue_pattern = re.compile(
+            r"(?<!\w)(?:chỉ|mọi|toàn bộ|hoàn toàn|không cần|tự động|duy nhất|"
+            r"bất kỳ|thay thế|đứng ngoài|khép kín|loại bỏ|phủ nhận|tuyệt đối|"
+            r"không bao giờ)(?!\w)",
+            flags=re.IGNORECASE,
+        )
+        ids: set[str] = set()
+        stems: set[str] = set()
+        absolute_cue_ids: list[str] = []
+        chapter_titles = {chapter["number"]: chapter["title"] for chapter in profile["chapters"]}
+        for question in questions:
+            with self.subTest(question=question["id"]):
+                self.assertEqual(set(question), expected_fields)
+                self.assertEqual(question["courseId"], "hcm202")
+                self.assertRegex(question["id"], r"^HCM202-C\d{2}-Q\d{3}$")
+                self.assertNotIn(question["id"], ids)
+                ids.add(question["id"])
+                normalized_stem = normalized_text(question["stem"])
+                self.assertNotIn(normalized_stem, stems)
+                stems.add(normalized_stem)
+                self.assertEqual(question["chapter"], chapter_titles[question["chapterNum"]])
+                self.assertEqual(len(question["options"]), 4)
+                self.assertEqual(
+                    len({normalized_text(option) for option in question["options"]}), 4
+                )
+                self.assertIn(question["answer"], range(4))
+                correct_has_cue = bool(
+                    absolute_cue_pattern.search(question["options"][question["answer"]])
+                )
+                distractors_with_cues = sum(
+                    bool(absolute_cue_pattern.search(option))
+                    for index, option in enumerate(question["options"])
+                    if index != question["answer"]
+                )
+                if not correct_has_cue and distractors_with_cues >= 2:
+                    absolute_cue_ids.append(question["id"])
+                self.assertIn(question["kind"], profile["validation"]["allowedKinds"])
+                self.assertEqual(set(question["source"]), {"file", "section", "text"})
+                self.assertEqual(
+                    question["source"]["file"], "Giáo trình tư tưởng Hồ Chí Minh.md"
+                )
+                self.assertTrue(
+                    question["source"]["section"].startswith(
+                        f"Chương {question['chapterNum']} >"
+                    )
+                )
+
+        self.assertEqual(absolute_cue_ids, [])
+
+        for chapter_num in range(1, 7):
+            chapter_questions = [
+                question for question in questions if question["chapterNum"] == chapter_num
+            ]
+            unique_longest = 0
+            correct_length = 0
+            distractor_length = 0
+            distractor_count = 0
+            untied_ranks = [0, 0, 0, 0]
+            length_signals: list[tuple[bool, bool]] = []
+            for question in chapter_questions:
+                lengths = [len(option) for option in question["options"]]
+                answer = question["answer"]
+                correct = lengths[answer]
+                distractors = [length for index, length in enumerate(lengths) if index != answer]
+                is_unique_longest = correct > max(distractors)
+                is_unique_shortest = correct < min(distractors)
+                unique_longest += int(is_unique_longest)
+                length_signals.append((is_unique_longest, is_unique_shortest))
+                correct_length += correct
+                distractor_length += sum(distractors)
+                distractor_count += len(distractors)
+                if len(set(lengths)) == 4:
+                    untied_ranks[sum(length > correct for length in lengths)] += 1
+            with self.subTest(chapter=chapter_num, gate="length-bias"):
+                self.assertLessEqual(unique_longest / len(chapter_questions), 0.45)
+                ratio = (correct_length / len(chapter_questions)) / (
+                    distractor_length / distractor_count
+                )
+                self.assertGreaterEqual(ratio, 0.85)
+                self.assertLessEqual(ratio, 1.15)
+                if sum(untied_ranks):
+                    self.assertLessEqual(max(untied_ranks) / sum(untied_ranks), 0.50)
+                for start in range(0, len(length_signals) - 19):
+                    window = length_signals[start : start + 20]
+                    self.assertLessEqual(sum(longest for longest, _ in window), 14)
+                    self.assertLessEqual(sum(shortest for _, shortest in window), 14)
+
+        blueprint_ranges = {
+            1: ((1, 9), (10, 14), (15, 29), (30, 35), (36, 45)),
+            2: ((1, 11), (12, 26), (27, 30), (31, 60), (61, 75)),
+            3: ((1, 18), (19, 37), (38, 54), (55, 66), (67, 74), (75, 88), (89, 100)),
+            4: ((1, 8), (9, 43), (44, 63), (64, 75), (76, 82), (83, 95)),
+            5: ((1, 24), (25, 38), (39, 46), (47, 62), (63, 75)),
+            6: ((1, 9), (10, 23), (24, 29), (30, 46), (47, 57), (58, 74), (75, 90)),
+        }
+        by_id = {question["id"]: question for question in questions}
+        for chapter_num, ranges in blueprint_ranges.items():
+            for first, last in ranges:
+                group = [
+                    by_id[f"HCM202-C{chapter_num:02d}-Q{number:03d}"]
+                    for number in range(first, last + 1)
+                ]
+                signals = []
+                for question in group:
+                    lengths = [len(option) for option in question["options"]]
+                    correct = lengths[question["answer"]]
+                    distractors = [
+                        length
+                        for index, length in enumerate(lengths)
+                        if index != question["answer"]
+                    ]
+                    signals.append((correct > max(distractors), correct < min(distractors)))
+                with self.subTest(
+                    chapter=chapter_num,
+                    blueprint=f"Q{first:03d}-Q{last:03d}",
+                    gate="blueprint-length-bias",
+                ):
+                    self.assertLessEqual(sum(longest for longest, _ in signals) / len(group), 0.60)
+                    self.assertLessEqual(sum(shortest for _, shortest in signals) / len(group), 0.60)
+
+        application_ranges = {
+            3: range(89, 101),
+            4: range(83, 96),
+            5: range(63, 76),
+            6: range(75, 91),
+        }
+        for question in questions:
+            chapter_range = application_ranges.get(question["chapterNum"])
+            question_number = int(question["id"].rsplit("Q", 1)[1])
+            if chapter_range is None or question_number not in chapter_range:
+                continue
+            with self.subTest(question=question["id"], gate="2021-framing"):
+                framed_text = " ".join(
+                    (
+                        question["stem"],
+                        question["explanation"],
+                        question["source"]["section"],
+                    )
+                )
+                self.assertIn("2021", framed_text)
+
+    def test_mln111_review_signoff_matches_exact_bank_bytes(self) -> None:
+        profile = self.profiles["mln111"]
+        signoff_path = self.content_root / Path(profile["validation"]["reviewSignoffPath"])
+        signoff = json.loads(signoff_path.read_text(encoding="utf-8"))
+        questions = self.load_authored_questions("mln111")
+        canonical = json.dumps(
+            questions, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+        ).encode("utf-8")
+        self.assertEqual(hashlib.sha256(canonical).hexdigest(), signoff["bankSha256"])
+        self.assertEqual(signoff["reviewStatus"], "approved")
+        self.assertEqual(signoff["questionCount"], 380)
+        self.assertEqual(signoff["review"]["openCritical"], 0)
+        self.assertEqual(signoff["review"]["openHigh"], 0)
+        self.assertEqual(signoff["review"]["openMedium"], 0)
+        for item in profile["questionFiles"]:
+            chapter_path = self.content_root / Path(item["path"])
+            self.assertEqual(
+                hashlib.sha256(chapter_path.read_bytes()).hexdigest(),
+                signoff["chapterFileSha256"][chapter_path.name],
+            )
+
+    def test_hcm202_review_signoff_matches_exact_bank_bytes(self) -> None:
+        profile = self.profiles["hcm202"]
+        signoff_path = self.content_root / Path(profile["validation"]["reviewSignoffPath"])
+        signoff = json.loads(signoff_path.read_text(encoding="utf-8"))
+        questions = self.load_authored_questions("hcm202")
+        canonical = json.dumps(
+            questions, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+        ).encode("utf-8")
+        self.assertEqual(hashlib.sha256(canonical).hexdigest(), signoff["bankSha256"])
+        self.assertEqual(signoff["reviewStatus"], "approved")
+        self.assertEqual(signoff["questionCount"], 480)
+        self.assertEqual(signoff["review"]["independentChapterReviews"], 6)
+        self.assertEqual(signoff["review"]["openCritical"], 0)
+        self.assertEqual(signoff["review"]["openHigh"], 0)
+        self.assertEqual(signoff["review"]["openMedium"], 0)
+        for item in profile["questionFiles"]:
+            chapter_path = self.content_root / Path(item["path"])
+            self.assertEqual(
+                hashlib.sha256(chapter_path.read_bytes()).hexdigest(),
+                signoff["chapterFileSha256"][chapter_path.name],
+            )
+
+    def test_mln112_legacy_bank_and_lecture_identity_are_unchanged(self) -> None:
+        profile = self.profiles["mln112"]
+        questions = self.load_authored_questions("mln112")
+        self.assertEqual(len(questions), 504)
+        self.assertEqual(
+            Counter(question["chapterNum"] for question in questions),
+            Counter({1: 64, 2: 89, 3: 99, 4: 84, 5: 84, 6: 84}),
+        )
+        self.assertEqual(
+            Counter(question["difficulty"] for question in questions),
+            Counter({"Nhận biết": 204, "Thông hiểu": 204, "Vận dụng": 96}),
+        )
+        for chapter_num, expected_count in enumerate((64, 89, 99, 84, 84, 84), start=1):
+            chapter = [q for q in questions if q["chapterNum"] == chapter_num]
+            self.assertEqual(
+                [q["id"] for q in chapter],
+                [f"C{chapter_num:02d}-Q{index:03d}" for index in range(1, expected_count + 1)],
+            )
+        lectures = json.loads(
+            (self.content_root / Path(profile["lectureManifest"])).read_text(encoding="utf-8")
+        )
+        self.assertEqual(lectures["playlistId"], "PLAN8e5g76wQs")
+        self.assertEqual(
+            [lecture["videoId"] for lecture in lectures["lectures"]],
+            ["IN62DsH0neI", "eSNZjv3diE0", "TrG62r4VHsc", "BhjrFABpLdI", "rNZSe5YgryI", "HzMbw07P2RQ"],
+        )
+        self.assertEqual(
+            [lecture["chapterNum"] for lecture in lectures["lectures"]],
+            [1, 2, 3, 4, 5, 6],
+        )
+
+
+class SubjectCatalogMutationTests(unittest.TestCase):
+    def make_content_fixture(self) -> tuple[tempfile.TemporaryDirectory, Path]:
+        directory = tempfile.TemporaryDirectory()
+        root = Path(directory.name)
+        shutil.copytree(BASE / "content", root / "content")
+        return directory, root
+
+    @staticmethod
+    def mutate_json(path: Path, mutate) -> None:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        mutate(value)
+        path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    def test_production_registry_and_profiles_load_in_declared_order(self) -> None:
+        registry, profiles = load_subjects(BASE)
+        self.assertEqual(
+            [profile.id for profile in profiles],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+        )
+        self.assertEqual(registry.canonical_id("mln222"), "mln112")
+        self.assertEqual(registry.canonical_id("MLN122"), "mln112")
+        self.assertIsNone(registry.canonical_id("hcm201"))
+        self.assertIsNone(registry.canonical_id("__proto__"))
+
+    def test_composer_derives_subject_chapter_ids_without_rewriting_question_ids(self) -> None:
+        _, profiles = load_subjects(BASE)
+        by_id = {profile.id: profile for profile in profiles}
+        mln111 = compose_subject(BASE, by_id["mln111"])
+        mln112 = compose_subject(BASE, by_id["mln112"])
+        hcm202 = compose_subject(BASE, by_id["hcm202"])
+        self.assertEqual(len(mln111), 380)
+        self.assertEqual(len(mln112), 504)
+        self.assertEqual(len(hcm202), 480)
+        self.assertEqual(mln111[0]["id"], "MLN111-C01-Q001")
+        self.assertEqual(mln111[-1]["id"], "MLN111-C03-Q160")
+        self.assertEqual(mln112[0]["id"], "C01-Q001")
+        self.assertEqual(mln112[-1]["id"], "C06-Q084")
+        self.assertEqual(hcm202[0]["id"], "HCM202-C01-Q001")
+        self.assertEqual(hcm202[-1]["id"], "HCM202-C06-Q090")
+        self.assertEqual(mln111[0]["chapterId"], "mln111-c01")
+        self.assertEqual(mln112[-1]["chapterId"], "mln112-c06")
+        self.assertEqual(hcm202[0]["chapterId"], "hcm202-c01")
+        self.assertEqual(hcm202[-1]["chapterId"], "hcm202-c06")
+        self.assertEqual([question["num"] for question in mln111], list(range(1, 381)))
+        self.assertEqual([question["num"] for question in mln112], list(range(1, 505)))
+        self.assertEqual([question["num"] for question in hcm202], list(range(1, 481)))
+
+    def test_registry_rejects_unknown_fields_and_reserved_or_duplicate_ids(self) -> None:
+        mutations = {
+            "unknown field": lambda value: value.update({"unexpected": True}),
+            "reserved id": lambda value: value["subjects"][0].update({"id": "prototype"}),
+            "duplicate id": lambda value: value["subjects"][1].update({"id": "mln111"}),
+            "alias collision": lambda value: value["subjects"][0]["legacyAliases"].append("mln112"),
+        }
+        for label, mutate in mutations.items():
+            with self.subTest(case=label):
+                directory, root = self.make_content_fixture()
+                with directory:
+                    path = root / "content" / "subjects" / "registry.json"
+                    self.mutate_json(path, mutate)
+                    with self.assertRaises(CatalogError):
+                        load_registry(root)
+
+    def test_registry_rejects_traversal_and_oversized_input_before_parse(self) -> None:
+        directory, root = self.make_content_fixture()
+        with directory:
+            path = root / "content" / "subjects" / "registry.json"
+            self.mutate_json(
+                path,
+                lambda value: value["subjects"][0].update(
+                    {"metadataPath": "subjects/../subjects/mln111/subject.json"}
+                ),
+            )
+            with self.assertRaises(CatalogError):
+                load_registry(root)
+
+        directory, root = self.make_content_fixture()
+        with directory:
+            path = root / "content" / "subjects" / "registry.json"
+            path.write_bytes(b" " * (256 * 1024 + 1))
+            with self.assertRaisesRegex(CatalogError, "exceeds"):
+                load_registry(root)
+
+    def test_profile_rejects_unknown_fields_duplicate_chapters_and_missing_bank(self) -> None:
+        mutations = {
+            "unknown field": lambda value: value.update({"unexpected": True}),
+            "duplicate chapter": lambda value: value["chapters"][1].update(
+                {"id": value["chapters"][0]["id"]}
+            ),
+            "missing bank": lambda value: value["questionFiles"][0].update(
+                {"path": "subjects/mln111/chapters/missing.json"}
+            ),
+            "lecture mismatch": lambda value: value["features"].update({"lectures": True}),
+            "ready copy review": lambda value: value.update({"copyReviewRequired": True}),
+            "missing ready sign-off": lambda value: value["validation"].update(
+                {"reviewSignoffPath": None}
+            ),
+        }
+        for label, mutate in mutations.items():
+            with self.subTest(case=label):
+                directory, root = self.make_content_fixture()
+                with directory:
+                    path = root / "content" / "subjects" / "mln111" / "subject.json"
+                    self.mutate_json(path, mutate)
+                    registry = load_registry(root)
+                    with self.assertRaises(CatalogError):
+                        load_subject_profile(root, registry.items[0], registry=registry)
+
+    def test_profile_rejects_active_placeholder_and_hostile_unicode(self) -> None:
+        directory, root = self.make_content_fixture()
+        with directory:
+            path = root / "content" / "subjects" / "mln131" / "subject.json"
+            self.mutate_json(path, lambda value: value["features"].update({"quiz": True}))
+            registry = load_registry(root)
+            with self.assertRaisesRegex(CatalogError, "metadata-only"):
+                load_subject_profile(root, registry.items[2], registry=registry)
+
+        for payload in ("Tên\x00môn", "Tên\u202emôn", "Trie\u0302t ho\u0323c"):
+            with self.subTest(payload=ascii(payload)):
+                directory, root = self.make_content_fixture()
+                with directory:
+                    path = root / "content" / "subjects" / "mln111" / "subject.json"
+                    self.mutate_json(path, lambda value, payload=payload: value.update({"title": payload}))
+                    registry = load_registry(root)
+                    with self.assertRaises(CatalogError):
+                        load_subject_profile(root, registry.items[0], registry=registry)
+
+    def test_draft_catalog_reports_authored_progress_without_publishing_bank(self) -> None:
+        directory, root = self.make_content_fixture()
+        with directory:
+            registry_path = root / "content" / "subjects" / "registry.json"
+            self.mutate_json(
+                registry_path,
+                lambda value: value["subjects"][0].update({"status": "draft"}),
+            )
+            profile_path = root / "content" / "subjects" / "mln111" / "subject.json"
+            self.mutate_json(
+                profile_path,
+                lambda value: value.update(
+                    {"status": "draft", "studyReady": False, "copyReviewRequired": True}
+                ),
+            )
+            for chapter_num in range(1, 4):
+                chapter_path = (
+                    root
+                    / "content"
+                    / "subjects"
+                    / "mln111"
+                    / "chapters"
+                    / f"chapter-{chapter_num:02d}.json"
+                )
+                self.mutate_json(
+                    chapter_path,
+                    lambda value: value.__setitem__(slice(1, None), []),
+                )
+
+            subjects, banks, _ = build_catalogs(root)
+            draft = next(subject for subject in subjects if subject["id"] == "mln111")
+            self.assertEqual(draft["status"], "draft")
+            self.assertFalse(draft["studyReady"])
+            self.assertEqual(draft["questionCount"], 3)
+            self.assertEqual(
+                [chapter["questionCount"] for chapter in draft["chapters"]],
+                [1, 1, 1],
+            )
+            self.assertNotIn("mln111", banks)
+
+
+class ProfileValidatorTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        _, profiles = load_subjects(BASE)
+        cls.profiles = {profile.id: profile for profile in profiles}
+
+    def validate_mutated_subject(self, subject_id: str, mutate):
+        profile = self.profiles[subject_id]
+        questions = compose_subject(BASE, profile)
+        mutate(questions)
+        return validate_subject(profile, questions, root=BASE, check_similarity=False)
+
+    def test_ready_subjects_and_placeholders_validate_from_profiles(self) -> None:
+        for subject_id in ("mln111", "mln112", "hcm202"):
+            profile = self.profiles[subject_id]
+            result = validate_subject(
+                profile, compose_subject(BASE, profile), root=BASE, check_similarity=False
+            )
+            with self.subTest(subject=subject_id):
+                self.assertEqual(result.errors, ())
+                self.assertEqual(result.warnings, ())
+                self.assertTrue(result.study_ready)
+                self.assertEqual(result.question_count, profile.question_target)
+        for subject_id in ("mln131", "vnr201"):
+            result = validate_subject(
+                self.profiles[subject_id], [], root=BASE, check_similarity=False
+            )
+            with self.subTest(subject=subject_id):
+                self.assertEqual(result.errors, ())
+                self.assertFalse(result.study_ready)
+                self.assertEqual(result.question_count, 0)
+
+    def test_validator_rejects_subject_identity_schema_and_chapter_mutations(self) -> None:
+        mutations = {
+            "wrong course": lambda questions: questions[0].update({"courseId": "mln112"}),
+            "unknown chapter": lambda questions: questions[0].update({"chapterId": "mln111-c99"}),
+            "duplicate logical id": lambda questions: questions[1].update({"id": questions[0]["id"]}),
+            "unknown field": lambda questions: questions[0].update({"unexpected": True}),
+        }
+        for label, mutate in mutations.items():
+            with self.subTest(case=label):
+                result = self.validate_mutated_subject("mln111", mutate)
+                self.assertTrue(result.errors)
+                self.assertFalse(result.study_ready)
+
+    def test_validator_rejects_source_markup_controls_and_wrong_page(self) -> None:
+        cases = (
+            ("mln111", lambda questions: questions[0]["source"].update({"text": "<img src=x onerror=alert(1)>"})),
+            ("mln111", lambda questions: questions[0]["source"].update({"file": []})),
+            ("mln111", lambda questions: questions[0].update({"stem": "Nội dung\u202eđảo chiều"})),
+            ("mln112", lambda questions: questions[0]["source"].update({"page": 999})),
+        )
+        for subject_id, mutate in cases:
+            with self.subTest(subject=subject_id):
+                result = self.validate_mutated_subject(subject_id, mutate)
+                self.assertTrue(result.errors)
+                self.assertFalse(result.study_ready)
+
+    def test_content_change_invalidates_signed_readiness(self) -> None:
+        for subject_id in ("mln111", "hcm202"):
+            with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                shutil.copytree(BASE / "content", root / "content")
+                chapter_path = (
+                    root / "content" / "subjects" / subject_id / "chapters" / "chapter-01.json"
+                )
+                chapter = json.loads(chapter_path.read_text(encoding="utf-8"))
+                chapter[0]["explanation"] += " Nội dung chưa ký."
+                chapter_path.write_text(
+                    json.dumps(chapter, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                _, profiles = load_subjects(root)
+                profile = next(item for item in profiles if item.id == subject_id)
+                result = validate_subject(
+                    profile, compose_subject(root, profile), root=root, check_similarity=False
+                )
+                self.assertTrue(any("sign-off" in error.casefold() for error in result.errors))
+                self.assertFalse(result.study_ready)
+
+    def test_review_signoff_requires_one_independent_review_per_chapter(self) -> None:
+        for subject_id in ("mln111", "hcm202"):
+            with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                shutil.copytree(BASE / "content", root / "content")
+                signoff_path = (
+                    root / "content" / "subjects" / subject_id / "review-signoff.json"
+                )
+                signoff = json.loads(signoff_path.read_text(encoding="utf-8"))
+                signoff["review"]["independentChapterReviews"] = 0
+                signoff_path.write_text(
+                    json.dumps(signoff, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                _, profiles = load_subjects(root)
+                profile = next(item for item in profiles if item.id == subject_id)
+                result = validate_subject(
+                    profile, compose_subject(root, profile), root=root, check_similarity=False
+                )
+                self.assertTrue(
+                    any(
+                        "one independent review per chapter" in error.casefold()
+                        for error in result.errors
+                    )
+                )
+                self.assertFalse(result.study_ready)
+
+
+class CatalogBuildTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        (
+            cls.subject_catalog,
+            cls.question_banks,
+            cls.lecture_catalogs,
+            cls.rendered_html,
+        ) = catalog_test_fixture()
+
+    def test_catalogs_publish_only_ready_banks_and_declared_features(self) -> None:
+        self.assertEqual(
+            [subject["id"] for subject in self.subject_catalog],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+        )
+        self.assertEqual(set(self.question_banks), {"mln111", "mln112", "hcm202"})
+        self.assertEqual(set(self.lecture_catalogs), {"mln112"})
+        self.assertEqual(len(self.question_banks["mln111"]), 380)
+        self.assertEqual(len(self.question_banks["mln112"]), 504)
+        self.assertEqual(len(self.question_banks["hcm202"]), 480)
+        by_id = {subject["id"]: subject for subject in self.subject_catalog}
+        self.assertEqual(by_id["mln111"]["questionCount"], 380)
+        self.assertEqual(by_id["mln112"]["questionCount"], 504)
+        self.assertEqual(by_id["hcm202"]["questionCount"], 480)
+        self.assertEqual(by_id["mln111"]["features"], {
+            "flashcards": True, "game": False, "lectures": False,
+            "quiz": True, "search": True,
+        })
+        self.assertEqual(by_id["hcm202"]["features"], {
+            "flashcards": True, "game": False, "lectures": False,
+            "quiz": True, "search": True,
+        })
+        for subject_id in ("mln131", "vnr201"):
+            self.assertEqual(by_id[subject_id]["questionCount"], 0)
+            self.assertFalse(by_id[subject_id]["studyReady"])
+            self.assertFalse(any(by_id[subject_id]["features"].values()))
+
+    def test_public_projection_has_exact_fields_and_no_authoring_evidence(self) -> None:
+        for subject in self.subject_catalog:
+            self.assertEqual(tuple(subject), PUBLIC_SUBJECT_FIELDS)
+        for subject_id, questions in self.question_banks.items():
+            for question in questions:
+                with self.subTest(subject=subject_id, question=question["id"]):
+                    self.assertEqual(tuple(question), PUBLIC_QUESTION_FIELDS)
+                    self.assertEqual(set(question["source"]), {"label", "section"})
+                    self.assertNotIn("courseId", question)
+        serialized = serialize_for_inline_script(
+            [self.subject_catalog, self.question_banks, self.lecture_catalogs]
+        )
+        for forbidden in (
+            "sourcePolicy", "reviewSignoffPath", "questionFiles", "chapterFileSha256",
+            "Giáo trình Triết học Mác-Lênin.md",
+            "Giáo trình tư tưởng Hồ Chí Minh.md",
+            "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
+            '"text":', "F:\\MLN111", "F:\\MLN222", "F:\\Kỳ 9",
+        ):
+            self.assertNotIn(forbidden, serialized)
+
+    def test_lecture_projection_has_stable_chapter_ids_and_video_identity(self) -> None:
+        manifest = self.lecture_catalogs["mln112"]
+        self.assertEqual(manifest["playlistId"], "PLAN8e5g76wQs")
+        self.assertEqual(
+            [lecture["chapterId"] for lecture in manifest["lectures"]],
+            [f"mln112-c{chapter:02d}" for chapter in range(1, 7)],
+        )
+        self.assertEqual(
+            [lecture["videoId"] for lecture in manifest["lectures"]],
+            ["IN62DsH0neI", "eSNZjv3diE0", "TrG62r4VHsc", "BhjrFABpLdI", "rNZSe5YgryI", "HzMbw07P2RQ"],
+        )
+        self.assertTrue(all("chapterValue" not in lecture for lecture in manifest["lectures"]))
+
+    def test_hardened_accessors_keep_game_alias_fixed_to_mln112(self) -> None:
+        source = catalog_accessor_source()
+        self.assertIn("Object.create(null)", source)
+        self.assertIn("Object.hasOwn(SUBJECT_BY_ID,id)", source)
+        self.assertIn("Object.hasOwn(QUESTION_BANKS,id)", source)
+        self.assertIn("Object.hasOwn(LECTURE_CATALOGS,id)", source)
+        self.assertIn("value:getQuestionBank('mln112')", source)
+        self.assertIn("writable:false,configurable:false", source)
+        self.assertNotIn("activeSubject", source)
+
+    def test_catalog_renderer_is_deterministic_and_replaces_every_placeholder(self) -> None:
+        template = """<!doctype html><style>/*__GAME_STYLES__*/</style><body>
+<script>const SUBJECT_CATALOG=/*__SUBJECT_CATALOG__*/[];
+const QUESTION_BANKS=/*__QUESTION_BANKS__*/{};
+const LECTURE_CATALOGS=/*__LECTURE_CATALOGS__*/{};
+const GAME_DATA=/*__GAME_DATA__*/{};</script>
+<!--__GAME_SVG__--><i style="--map:url('__GAME_MAP_TEXTURE__')"></i>
+<script>/*__GAME_SCRIPTS__*/</script></body>"""
+        game_assets = {
+            "data": {"balance": {"version": 1}},
+            "styles": ["body{color:#fff}"],
+            "scripts": ["globalThis.__gameFixture=true;"],
+            "svg": '<svg xmlns="http://www.w3.org/2000/svg"></svg>',
+            "images": {"mapTexture": "data:image/webp;base64,UklGRg=="},
+        }
+        rendered_once = render_catalog_html(
+            template, self.subject_catalog, self.question_banks, self.lecture_catalogs,
+            game_assets,
+        )
+        rendered_twice = render_catalog_html(
+            template, self.subject_catalog, self.question_banks, self.lecture_catalogs,
+            game_assets,
+        )
+        self.assertEqual(rendered_once, rendered_twice)
+        for placeholder in (
+            SUBJECT_CATALOG_PLACEHOLDER, QUESTION_BANKS_PLACEHOLDER,
+            LECTURE_CATALOGS_PLACEHOLDER, GAME_DATA_PLACEHOLDER,
+            GAME_STYLES_PLACEHOLDER, GAME_SCRIPTS_PLACEHOLDER,
+            GAME_SVG_PLACEHOLDER, GAME_MAP_TEXTURE_PLACEHOLDER,
+        ):
+            self.assertNotIn(placeholder, rendered_once)
+
+    def test_artifact_measurement_budget_and_manifest_are_deterministic(self) -> None:
+        payload = "<style>body{color:red}</style><script>const a=1;</script>"
+        self.assertEqual(measure_artifact(payload), measure_artifact(payload))
+        self.assertEqual(inline_csp_hashes(payload), inline_csp_hashes(payload))
+        self.assertEqual(enforce_artifact_budget(payload)["rawBytes"], len(payload))
+        with self.assertRaisesRegex(ValueError, "exceeds"):
+            enforce_artifact_budget(payload, raw_limit=1, gzip_limit=1)
+        first = build_release_manifest({"index.html": payload}, subject_counts={"mln112": 504, "mln111": 380})
+        second = build_release_manifest({"index.html": payload}, subject_counts={"mln111": 380, "mln112": 504})
+        self.assertEqual(first, second)
+        self.assertEqual(list(first["subjects"]), ["mln111", "mln112"])
+        self.assertTrue(first["csp"]["scriptSrcHashes"])
+        self.assertTrue(first["csp"]["styleSrcHashes"])
+
+    def test_release_stage_promotes_synced_allowlist_manifest_and_vercel(self) -> None:
+        payload = "<style>body{color:red}</style><script>const a=1;</script>"
+        input_snapshot = {"template.html": "a" * 64, "build_html.py": "b" * 64}
+        manifest = build_release_manifest(
+            {"index.html": payload},
+            subject_counts={"mln111": 380, "mln112": 504},
+            input_snapshot=input_snapshot,
+        )
+        config = build_vercel_config(manifest["csp"])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "index.html").write_text("old-index", encoding="utf-8")
+            (root / "vercel.json").write_text("old-config", encoding="utf-8")
+            (root / "dist").mkdir()
+            (root / "dist" / "old.txt").write_text("old-dist", encoding="utf-8")
+            staging = stage_release_artifacts(root, payload, manifest, config)
+            promote_release(staging, root)
+            self.assertFalse(staging.exists())
+            self.assertEqual((root / "index.html").read_text(encoding="utf-8"), payload)
+            self.assertEqual(
+                {path.name for path in (root / "dist").iterdir()},
+                {"index.html", "release-manifest.json"},
+            )
+            self.assertEqual(
+                json.loads((root / "dist" / "release-manifest.json").read_text(encoding="utf-8")),
+                manifest,
+            )
+            self.assertEqual(
+                json.loads((root / "vercel.json").read_text(encoding="utf-8")),
+                config,
+            )
+
+    def test_invalid_release_stage_preserves_previous_release(self) -> None:
+        payload = "<style>body{color:red}</style><script>const a=1;</script>"
+        snapshot = {"template.html": "c" * 64}
+        manifest = build_release_manifest(
+            {"index.html": payload}, subject_counts={"mln111": 380}, input_snapshot=snapshot
+        )
+        config = build_vercel_config(manifest["csp"])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "index.html").write_bytes(b"previous-index")
+            (root / "vercel.json").write_bytes(b"previous-config")
+            (root / "dist").mkdir()
+            (root / "dist" / "previous.txt").write_bytes(b"previous-dist")
+            before = {
+                "index": (root / "index.html").read_bytes(),
+                "vercel": (root / "vercel.json").read_bytes(),
+                "dist": (root / "dist" / "previous.txt").read_bytes(),
+            }
+            staging = stage_release_artifacts(root, payload, manifest, config)
+            (staging / "dist" / "unexpected.txt").write_text("reject", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "allowlist"):
+                promote_release(staging, root)
+            self.assertEqual((root / "index.html").read_bytes(), before["index"])
+            self.assertEqual((root / "vercel.json").read_bytes(), before["vercel"])
+            self.assertEqual((root / "dist" / "previous.txt").read_bytes(), before["dist"])
+            discard_release_staging(staging, root)
+            self.assertFalse(staging.exists())
+
+    def test_input_snapshot_is_stable_and_covers_declared_sources(self) -> None:
+        first = snapshot_input_manifest(BASE)
+        second = snapshot_input_manifest(BASE)
+        self.assertEqual(first, second)
+        for required in (
+            "content/subjects/registry.json",
+            "content/subjects/mln111/subject.json",
+            "content/subjects/mln111/review-signoff.json",
+            "content/subjects/mln111/chapters/chapter-01.json",
+            "content/subjects/hcm202/subject.json",
+            "content/subjects/hcm202/review-signoff.json",
+            "content/subjects/hcm202/chapters/chapter-01.json",
+            "content/subjects/hcm202/chapters/chapter-02.json",
+            "content/subjects/hcm202/chapters/chapter-03.json",
+            "content/subjects/hcm202/chapters/chapter-04.json",
+            "content/subjects/hcm202/chapters/chapter-05.json",
+            "content/subjects/hcm202/chapters/chapter-06.json",
+            "content/subjects/mln112/subject.json",
+            "content/chapters/chapter-01.json",
+            "content/lectures.json",
+            "game/build-manifest.json",
+            "template.html",
+            "subject_catalog.py",
+            "compose_questions.py",
+            "validate_questions.py",
+            "build_html.py",
+        ):
+            self.assertIn(required, first)
+        self.assertEqual(
+            canonical_input_snapshot_sha256(first), canonical_input_snapshot_sha256(second)
+        )
+        self.assertTrue(all(re.fullmatch(r"[0-9a-f]{64}", digest) for digest in first.values()))
 
 class ValidatorUnitTests(unittest.TestCase):
     def test_real_circulation_formula_is_not_truncation(self) -> None:
@@ -272,6 +1216,15 @@ class ValidatorUnitTests(unittest.TestCase):
 
 
 class ProductionBankTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        (
+            cls.subject_catalog,
+            cls.question_banks,
+            cls.lecture_catalogs,
+            cls.rendered_html,
+        ) = catalog_test_fixture()
+
     def test_expanded_bank_distribution(self) -> None:
         questions = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
         self.assertEqual(len(questions), 504)
@@ -342,11 +1295,14 @@ class ProductionBankTests(unittest.TestCase):
 
     def test_built_html_is_standalone(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        html = (BASE / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(template.count("/*__QUESTIONS__*/[]"), 1)
+        html = self.rendered_html
+        self.assertEqual(template.count(SUBJECT_CATALOG_PLACEHOLDER), 1)
+        self.assertEqual(template.count(QUESTION_BANKS_PLACEHOLDER), 1)
+        self.assertEqual(template.count(LECTURE_CATALOGS_PLACEHOLDER), 1)
         for placeholder in (
-            "/*__QUESTIONS__*/",
-            "/*__LECTURES__*/",
+            SUBJECT_CATALOG_PLACEHOLDER,
+            QUESTION_BANKS_PLACEHOLDER,
+            LECTURE_CATALOGS_PLACEHOLDER,
             GAME_DATA_PLACEHOLDER,
             GAME_SCRIPTS_PLACEHOLDER,
             GAME_STYLES_PLACEHOLDER,
@@ -354,56 +1310,61 @@ class ProductionBankTests(unittest.TestCase):
             GAME_MAP_TEXTURE_PLACEHOLDER,
         ):
             self.assertNotIn(placeholder, html)
-        self.assertIn('const QUESTIONS = [{"id":"C01-Q001"', html)
-        self.assertIn('const LECTURE_CATALOG = {"schemaVersion":1,"provider":"youtube"', html)
+        self.assertIn('"MLN111-C01-Q001"', html)
+        self.assertIn('"HCM202-C01-Q001"', html)
+        self.assertIn('"HCM202-C06-Q090"', html)
+        self.assertIn('"C01-Q001"', html)
+        self.assertIn('"playlistId":"PLAN8e5g76wQs"', html)
         self.assertIn('id="Layer_1"', html)
         self.assertIn('registerModule("game-app"', html)
         self.assertIn('data:image/webp;base64,', html)
 
     def test_built_html_embeds_current_production_bank(self) -> None:
-        html = (BASE / "index.html").read_text(encoding="utf-8")
+        html = self.rendered_html
         match = re.search(
-            r"const QUESTIONS = (\[.*?\]);\s*globalThis\.MLN222_QUESTIONS = QUESTIONS;",
+            r"const QUESTION_BANKS=Object\.assign\(Object\.create\(null\),(\{.*?\})\);",
             html,
             flags=re.DOTALL,
         )
         self.assertIsNotNone(match)
         embedded = json.loads(match.group(1))
         production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
-        self.assertEqual(embedded, production)
+        self.assertEqual(embedded, self.question_banks)
+        self.assertEqual(
+            [question["id"] for question in embedded["mln112"]],
+            [question["id"] for question in production],
+        )
 
     def test_built_html_matches_current_template_and_bank(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        production = json.loads((BASE / "questions.json").read_text(encoding="utf-8"))
-        expected = render_html(
-            template,
-            production,
+        expected = render_catalog_html(
+            template, self.subject_catalog, self.question_banks, self.lecture_catalogs,
             load_game_assets(BASE),
-            load_lectures(BASE),
         )
-        actual = (BASE / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(actual, expected)
+        self.assertEqual(self.rendered_html, expected)
 
     def test_built_html_embeds_current_lecture_manifest(self) -> None:
-        html = (BASE / "index.html").read_text(encoding="utf-8")
+        html = self.rendered_html
         match = re.search(
-            r"const LECTURE_CATALOG = (\{.*?\});\s*globalThis\.MLN222_LECTURES",
+            r"const LECTURE_CATALOGS=Object\.assign\(Object\.create\(null\),(\{.*?\})\);",
             html,
             flags=re.DOTALL,
         )
         self.assertIsNotNone(match)
-        self.assertEqual(json.loads(match.group(1)), load_lectures(BASE))
+        self.assertEqual(json.loads(match.group(1)), self.lecture_catalogs)
 
-    def test_public_brand_is_mln122(self) -> None:
+    def test_public_brand_is_subject_driven_while_legacy_seed_is_preserved(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        html = (BASE / "index.html").read_text(encoding="utf-8")
         controller = (BASE / "game" / "ui" / "game-controller.js").read_text(encoding="utf-8")
-        for source in (template, html):
-            self.assertIn("<title>MLN122 — Ôn tập Kinh tế chính trị Mác-Lênin</title>", source)
-            self.assertIn("<h1>MLN122</h1>", source)
-            self.assertIn("tài liệu MLN122", source)
-            self.assertIn('value="mln122-campaign"', source)
-            self.assertNotIn("<h1>MLN222</h1>", source)
+        self.assertIn("<title>Study Hub — Ôn tập các môn lý luận chính trị</title>", template)
+        self.assertIn('id="brandCode">Study Hub</', template)
+        self.assertIn("function updatePublicChrome(subject)", template)
+        self.assertIn('document.title=subject.code+" — "+subject.title', template)
+        self.assertIn('value="mln122-campaign"', template)
+        self.assertNotIn("<h1>MLN122</h1>", template)
+        self.assertNotIn("<h1>MLN222</h1>", template)
+        for code in ("MLN111", "MLN112", "MLN131", "HCM202", "VNR201"):
+            self.assertIn(f'"code":"{code}"', self.rendered_html)
         self.assertIn('"mln122-campaign"', controller)
         self.assertNotIn('"mln222-campaign"', controller)
 
@@ -423,20 +1384,28 @@ class ProductionBankTests(unittest.TestCase):
         template = (BASE / "template.html").read_text(encoding="utf-8")
         self.assertIn("mln222.v2.marked", template)
         self.assertIn("mln222.v2.stats", template)
-        self.assertIn('const STUDY_PROGRESS_KEY="mln222.v3.studyProgress"', template)
+        self.assertIn('progress:"mln222.v3.studyProgress"', template)
+        self.assertIn('marked:"mln-study-hub.v1.mln111.marked"', template)
+        self.assertIn('stats:"mln-study-hub.v1.mln111.stats"', template)
+        self.assertIn('progress:"mln-study-hub.v1.mln111.studyProgress"', template)
+        self.assertIn('marked:"mln-study-hub.v1.hcm202.marked"', template)
+        self.assertIn('stats:"mln-study-hub.v1.hcm202.stats"', template)
+        self.assertIn('progress:"mln-study-hub.v1.hcm202.studyProgress"', template)
+        self.assertIn('const LAST_SUBJECT_KEY="mln-study-hub.v1.lastSubject"', template)
         self.assertIn("const STUDY_PROGRESS_VERSION=2", template)
         self.assertIn("const LEGACY_STUDY_PROGRESS_VERSION=1", template)
         self.assertIn("function studySessionKey(value)", template)
         self.assertIn("function normalizeStudySession(value,mode)", template)
-        self.assertIn("function saveStudySession()", template)
-        self.assertIn("function restoreStudySession(mode,filters=null)", template)
+        self.assertIn("function saveStudySession(shouldPersist)", template)
+        self.assertIn("function restoreStudySession(mode,filters)", template)
         self.assertIn('id="questionCountRange"', template)
         self.assertIn('id="questionCountInput"', template)
         self.assertIn("questionStart", template)
         self.assertIn('id="flashCard"', template)
         self.assertIn("function toggleFlashcard()", template)
-        self.assertIn("window.addEventListener(\"pagehide\",saveStudySession)", template)
-        self.assertIn("window.localStorage.removeItem(STUDY_PROGRESS_KEY)", template)
+        self.assertIn('window.addEventListener("pagehide",commitCurrentRoute)', template)
+        self.assertIn("function removeActiveStudyStorage()", template)
+        self.assertIn("window.localStorage.removeItem(config.progress)", template)
         self.assertNotIn('localStorage.getItem("mln222.marked")', template)
         self.assertNotIn('localStorage.getItem("mln222.stats")', template)
         self.assertIn("function readStoredJson", template)
@@ -444,22 +1413,25 @@ class ProductionBankTests(unittest.TestCase):
 
     def test_study_progress_is_saved_across_answers_navigation_and_modes(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        choose_block = template[template.index("function choose(q,i){"):template.index("function next(){")]
-        next_block = template[template.index("function next(){"):template.index("function toggleStar(){")]
-        mode_block = template[template.index("function setMode(m){"):template.index("/* ====== Wire up ====== */")]
-        filter_block = template[template.index("function switchStudyFilters(update){"):template.index("function renderSource(source){")]
-        self.assertIn("state.answered[q.id]=i", choose_block)
+        choose_block = template[template.index("function choose(question,index){"):template.index("function nextQuestion(){")]
+        next_block = template[template.index("function nextQuestion(){"):template.index("function previousQuestion(){")]
+        mode_block = template[template.index("function enterStudyMode(mode){"):template.index("/* ====== Search ====== */")]
+        filter_block = template[template.index("function switchStudyFilters(update,options){"):template.index("function renderSourceInto(element,source){")]
+        self.assertIn("app.study.answered[key]=index", choose_block)
         self.assertIn("saveStudySession();", choose_block)
-        self.assertGreaterEqual(next_block.count("saveStudySession();"), 4)
-        self.assertIn("if(STUDY_MODES.has(state.mode)) saveStudySession();", mode_block)
-        self.assertIn("if(!restoreStudySession(m)) buildPool();", mode_block)
+        self.assertGreaterEqual(next_block.count("saveStudySession();"), 3)
+        self.assertIn("if(!restoreStudySession(mode))", mode_block)
         self.assertIn("saveStudySession();", filter_block)
-        self.assertIn("restoreStudySession(state.mode,currentStudyFilters())", filter_block)
+        self.assertIn("restoreStudySession(app.study.mode,currentStudyFilters())", filter_block)
 
     def test_build_uses_validated_snapshot_and_atomic_replace(self) -> None:
         builder = (BASE / "build_html.py").read_text(encoding="utf-8")
         self.assertIn("bank_snapshot = BANK.read_bytes()", builder)
         self.assertIn("validate_file(snapshot_path", builder)
+        self.assertIn("before = snapshot_input_manifest(BASE)", builder)
+        self.assertIn("after = snapshot_input_manifest(BASE)", builder)
+        self.assertIn("if before != after:", builder)
+        self.assertIn("enforce_artifact_budget(html)", builder)
         self.assertIn("output_path.replace(OUTPUT)", builder)
 
     def test_mode_navigation_uses_ordinary_buttons(self) -> None:
@@ -496,12 +1468,12 @@ class ProductionBankTests(unittest.TestCase):
 
     def test_source_rendering_does_not_interpolate_inner_html(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        self.assertIn("function renderSource(source)", template)
-        self.assertIn("el.replaceChildren()", template)
-        self.assertNotIn('$("#source").innerHTML=`', template)
-        self.assertIn('optsEl.replaceChildren()', template)
-        self.assertIn('box.replaceChildren(fragment)', template)
-        self.assertNotIn('box.innerHTML=res.slice', template)
+        self.assertIn("function renderSourceInto(element,source)", template)
+        self.assertIn("element.replaceChildren()", template)
+        self.assertIn('label.textContent="Nguồn:"', template)
+        self.assertIn('source.textContent="Nguồn: "+question.source.label', template)
+        self.assertIn('results.replaceChildren(fragment)', template)
+        self.assertNotIn(".innerHTML", template)
 
     def test_redesigned_workspaces_keep_dom_mobile_and_map_contracts(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
@@ -511,6 +1483,8 @@ class ProductionBankTests(unittest.TestCase):
         ids = re.findall(r'\bid="([A-Za-z][A-Za-z0-9_-]*)"', template)
         self.assertEqual(len(ids), len(set(ids)))
         for required_id in (
+            "courseHome", "courseHomeHeading", "courseList", "subjectSelect",
+            "subjectOverview", "subjectOverviewHeading", "workspaceHeading", "appStatus",
             "nextLabel", "searchStatus", "gameResourceToggle", "gameMapFocus",
             "gameMapTooltip", "gameSheetToggle", "gameSheetTitle",
             "gameBattleBadge", "gameReportBadge", "gameQuizResult", "gameRewardBanner",
@@ -518,14 +1492,13 @@ class ProductionBankTests(unittest.TestCase):
             "lecturePanel", "lecturePlayerShell", "lectureList", "lectureQuizBtn",
         ):
             self.assertIn(f'id="{required_id}"', template)
-        self.assertIn('data-study-mode="quiz"', template)
+        self.assertIn('ui.study.dataset.studyMode=app.study.mode', template)
         self.assertIn('data-filters-expanded="false"', template)
-        self.assertIn('document.body.dataset.experience=game?"game":"study"', template)
-        self.assertIn('data-mode="lecture"', template)
-        self.assertIn('grid-template-columns:repeat(5,minmax(0,1fr))', template)
+        self.assertIn('document.body.dataset.experience=isGame?"game":"study"', template)
+        self.assertIn('grid-template-columns:repeat(var(--mode-count,5),minmax(0,1fr))', template)
         self.assertIn("https://www.youtube-nocookie.com/embed/", template)
         self.assertIn('referrerPolicy="strict-origin-when-cross-origin"', template)
-        self.assertIn('previousMode==="lecture"&&m!=="lecture"', template)
+        self.assertIn('const leavingLecture=previousRoute.mode==="lecture"', template)
         self.assertIn('"Không thể tải bài giảng"', template)
         self.assertIn('button.textContent="Thử lại"', template)
         self.assertIn("navigator.onLine===false", template)
@@ -563,11 +1536,11 @@ class ProductionBankTests(unittest.TestCase):
                 "compose_questions.py",
                 "validate_questions.py",
                 "build_html.py",
+                "subject_catalog.py",
                 "template.html",
             ):
                 shutil.copy2(BASE / filename, root / filename)
-            shutil.copytree(BASE / "content" / "chapters", root / "content" / "chapters")
-            shutil.copy2(BASE / "content" / "lectures.json", root / "content" / "lectures.json")
+            shutil.copytree(BASE / "content", root / "content")
             shutil.copytree(BASE / "game", root / "game")
 
             for script in ("compose_questions.py", "build_html.py"):
@@ -587,16 +1560,18 @@ class ProductionBankTests(unittest.TestCase):
                 (root / "questions.json").read_bytes(),
                 (BASE / "questions.json").read_bytes(),
             )
-            self.assertEqual(
-                (root / "index.html").read_bytes(),
-                (BASE / "index.html").read_bytes(),
-            )
+            built = (root / "index.html").read_text(encoding="utf-8")
+            self.assertNotIn(SUBJECT_CATALOG_PLACEHOLDER, built)
+            self.assertNotIn(QUESTION_BANKS_PLACEHOLDER, built)
+            self.assertNotIn(LECTURE_CATALOGS_PLACEHOLDER, built)
+            self.assertIn('"MLN111-C01-Q001"', built)
+            self.assertIn('"C01-Q001"', built)
 
     def test_inactive_options_and_dynamic_search_are_accessible(self) -> None:
         template = (BASE / "template.html").read_text(encoding="utf-8")
-        self.assertIn("b.disabled=true", template)
+        self.assertIn("button.disabled=true", template)
         self.assertRegex(template, r'id="searchStatus"[^>]+role="status"')
-        self.assertIn('$("#feedback").focus({preventScroll:true})', template)
+        self.assertIn('scheduleFocus($("#feedback"))', template)
 
 
 if __name__ == "__main__":

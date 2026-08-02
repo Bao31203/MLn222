@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mln131",
+  "code": "MLN131",
+  "legacyAliases": [],
+  "title": "MLN131",
+  "description": "Nội dung ôn tập cho MLN131 sẽ được bổ sung trong phiên biên soạn sau.",
+  "status": "comingSoon",
+  "studyReady": false,
+  "copyReviewRequired": true,
+  "features": {
+    "quiz": false,
+    "flashcards": false,
+    "search": false,
+    "lectures": false,
+    "game": false
+  },
+  "questionTarget": 0,
+  "chapters": []
+}

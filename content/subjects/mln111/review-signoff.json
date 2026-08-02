@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "mln111",
+  "reviewStatus": "approved",
+  "reviewedAt": "2026-08-02",
+  "questionCount": 380,
+  "bankSha256": "4aaa199ba2ee3bfb9cda2c7dbb0346dfb04a7126ca7834adf0dc8dfb2eeb394c",
+  "canonicalization": "Sort chapter filenames; parse and concatenate their question arrays; recursively sort object keys; serialize as compact UTF-8 JSON; calculate SHA-256.",
+  "chapterFileSha256": {
+    "chapter-01.json": "704e92150155d1a7889ae2a5b700d2434936f0b6f140348b0265ef3eab3e5d77",
+    "chapter-02.json": "543d92fc77261a6393ecc2bd4c0105989de99662630f7c2bfe4f75738d025e55",
+    "chapter-03.json": "abd6c63b41728b3457281cb5dc0913610df409bc78f59cf2245d0abb0d47f685"
+  },
+  "distribution": {
+    "chapterQuestions": [70, 150, 160],
+    "difficulty": {
+      "Nhận biết": 152,
+      "Thông hiểu": 152,
+      "Vận dụng": 76
+    },
+    "answerPositions": [96, 96, 94, 94]
+  },
+  "review": {
+    "independentChapterReviews": 3,
+    "resolvedCritical": 0,
+    "resolvedHigh": 2,
+    "resolvedMediumGroups": 21,
+    "resolvedLow": 1,
+    "openCritical": 0,
+    "openHigh": 0,
+    "openMedium": 0
+  },
+  "productionSources": [
+    "Giáo trình Triết học Mác-Lênin.md",
+    "Triet hoc Mac-Lenin. Mot tom tat rat ngan gon. MKĐ-BQH.md"
+  ]
+}

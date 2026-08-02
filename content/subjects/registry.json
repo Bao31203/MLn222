@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "subjects": [
+    {
+      "id": "mln111",
+      "code": "MLN111",
+      "legacyAliases": [],
+      "status": "ready",
+      "metadataPath": "subjects/mln111/subject.json"
+    },
+    {
+      "id": "mln112",
+      "code": "MLN112",
+      "legacyAliases": [
+        "mln122",
+        "mln222"
+      ],
+      "status": "ready",
+      "metadataPath": "subjects/mln112/subject.json"
+    },
+    {
+      "id": "mln131",
+      "code": "MLN131",
+      "legacyAliases": [],
+      "status": "comingSoon",
+      "metadataPath": "subjects/mln131/subject.json"
+    },
+    {
+      "id": "hcm202",
+      "code": "HCM202",
+      "legacyAliases": [],
+      "status": "ready",
+      "metadataPath": "subjects/hcm202/subject.json"
+    },
+    {
+      "id": "vnr201",
+      "code": "VNR201",
+      "legacyAliases": [],
+      "status": "comingSoon",
+      "metadataPath": "subjects/vnr201/subject.json"
+    }
+  ]
+}

@@ -1,42 +1,38 @@
-Ngân hàng: C:\Users\pgb31\mln222-quiz\questions.json
-Tổng số câu: 504
-Lỗi: 0
-Cảnh báo: 0
+Subject: mln111
+Status: ready
+Study ready: yes
+Questions: 380
+Errors: 0
+Warnings: 0
+Difficulty: Nhận biết=152, Thông hiểu=152, Vận dụng=76
+Answers: A=96, B=96, C=94, D=94
 
-Phân bố theo chương:
-  Chương 1: 64
-  Chương 2: 89
-  Chương 3: 99
-  Chương 4: 84
-  Chương 5: 84
-  Chương 6: 84
+Subject: mln112
+Status: ready
+Study ready: yes
+Questions: 504
+Errors: 0
+Warnings: 0
+Difficulty: Nhận biết=204, Thông hiểu=204, Vận dụng=96
+Answers: A=127, B=126, C=126, D=125
 
-Phân bố mức độ:
-  Nhận biết: 204
-  Thông hiểu: 204
-  Vận dụng: 96
+Subject: mln131
+Status: comingSoon
+Questions: 0
+Errors: 0
+Warnings: 0
 
-Phân bố dạng câu:
-  nhan_biet_khai_niem: 199
-  thong_hieu_phan_biet: 125
-  trinh_tu_quan_he: 84
-  van_dung_tinh_huong: 81
-  van_dung_tinh_toan: 15
+Subject: hcm202
+Status: ready
+Study ready: yes
+Questions: 480
+Errors: 0
+Warnings: 0
+Difficulty: Nhận biết=192, Thông hiểu=192, Vận dụng=96
+Answers: A=120, B=120, C=120, D=120
 
-Vị trí đáp án theo chương:
-  Chương 1: A=16, B=16, C=16, D=16
-  Chương 2: A=23, B=22, C=22, D=22
-  Chương 3: A=25, B=25, C=25, D=24
-  Chương 4: A=21, B=21, C=21, D=21
-  Chương 5: A=21, B=21, C=21, D=21
-  Chương 6: A=21, B=21, C=21, D=21
-
-Dấu hiệu độ dài ở 204 câu mở rộng:
-  Chương 1: dài nhất duy nhất=9, dài nhất/đồng hạng=9, ngắn nhất duy nhất=9, ngắn nhất/đồng hạng=12, TB đúng/nhiễu=90.0/90.0
-  Chương 2: dài nhất duy nhất=8, dài nhất/đồng hạng=11, ngắn nhất duy nhất=8, ngắn nhất/đồng hạng=11, TB đúng/nhiễu=72.5/72.9
-  Chương 3: dài nhất duy nhất=7, dài nhất/đồng hạng=10, ngắn nhất duy nhất=9, ngắn nhất/đồng hạng=12, TB đúng/nhiễu=71.7/72.5
-  Chương 4: dài nhất duy nhất=8, dài nhất/đồng hạng=12, ngắn nhất duy nhất=6, ngắn nhất/đồng hạng=8, TB đúng/nhiễu=87.5/86.5
-  Chương 5: dài nhất duy nhất=8, dài nhất/đồng hạng=9, ngắn nhất duy nhất=6, ngắn nhất/đồng hạng=9, TB đúng/nhiễu=78.5/78.4
-  Chương 6: dài nhất duy nhất=8, dài nhất/đồng hạng=11, ngắn nhất duy nhất=7, ngắn nhất/đồng hạng=8, TB đúng/nhiễu=82.8/81.7
-
-Kết quả: HỢP LỆ cho bước đóng gói website.
+Subject: vnr201
+Status: comingSoon
+Questions: 0
+Errors: 0
+Warnings: 0

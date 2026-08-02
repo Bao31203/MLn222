@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MLN122 — Ôn tập Kinh tế chính trị Mác-Lênin</title>
+<title>Study Hub — Ôn tập các môn lý luận chính trị</title>
 <style>
   :root{
     color-scheme:dark;
@@ -136,7 +136,7 @@
   .result .meta{color:var(--muted);font-size:.76rem;margin-bottom:6px;}
   .stem,.explanation,.source,.result .meta,.result .ans,.result .explain,#qtag{overflow-wrap:anywhere;}
   .empty{color:var(--muted);text-align:center;padding:40px 10px;}
-  .hidden{display:none;}
+  .hidden,[hidden]{display:none!important;}
   mark{background:var(--warn);color:#17150f;padding:0 2px;border-radius:2px;}
   footer{text-align:center;color:var(--muted);font-size:.75rem;margin-top:24px;}
   @media(max-width:680px){
@@ -200,8 +200,8 @@
   .study-workspace[data-study-mode="flash"] .feedback.ok{color:var(--brass-soft);border-left-color:var(--river)}
   .flashcard-content{display:grid;gap:14px}
   .flashcard-content.hidden{display:none}
-  .flashcard{position:relative;min-height:360px;perspective:1100px;cursor:pointer;outline:0}
-  .flashcard-inner{position:relative;width:100%;min-height:360px;transform-style:preserve-3d;transition:transform 360ms var(--ease-out)}
+  .flashcard{display:block;position:relative;width:100%;min-height:360px;border:0;padding:0;background:transparent;color:inherit;font:inherit;text-align:left;perspective:1100px;cursor:pointer;outline:0}
+  .flashcard-inner{display:block;position:relative;width:100%;min-height:360px;transform-style:preserve-3d;transition:transform 360ms var(--ease-out)}
   .flashcard.is-revealed .flashcard-inner{transform:rotateY(180deg)}
   .flashcard-face{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;backface-visibility:hidden;border:1px solid var(--line-strong);border-radius:var(--radius);padding:32px clamp(20px,6vw,72px);background:var(--surface-strong);box-shadow:var(--shadow-soft)}
   .flashcard-face.back{transform:rotateY(180deg);justify-content:flex-start;overflow:auto}
@@ -343,7 +343,7 @@
   .tabs{position:fixed;z-index:80;inset:16px auto 16px 16px;width:82px;margin:0;padding:8px 7px;
     display:flex;flex-direction:column;gap:5px;overflow-y:auto;background:var(--surface);border:1px solid var(--line);
     border-radius:var(--radius);box-shadow:var(--shadow-soft)}
-  .tabs::before{content:"MLN";display:grid;place-items:center;min-height:44px;margin:0 3px 7px;color:var(--brass-soft);
+  .tabs::before{content:"HỌC";display:grid;place-items:center;min-height:44px;margin:0 3px 7px;color:var(--brass-soft);
     border-bottom:1px solid var(--line);font:800 .76rem/1 "Aptos Display","Aptos",sans-serif;letter-spacing:0}
   .tabs button{position:relative;min-height:68px;padding:8px 4px;flex-direction:column;gap:5px;border:0;border-left:3px solid transparent;
     border-radius:var(--radius-control);font-size:.69rem;line-height:1.15;font-weight:700}
@@ -351,7 +351,7 @@
   .tabs button:hover{background:var(--surface-strong)}
   .tabs button.active{background:var(--surface-raised);border-left-color:var(--brass);color:var(--ink)}
   .tabs button.active .ui-icon{color:var(--brass-soft)}
-  #studyControls,#searchPanel,#lecturePanel,footer{width:min(100%,1120px);margin-inline:auto}
+  #courseHome,#subjectOverview,#workspaceHeader,#workspaceTitleRow,#studyControls,#searchPanel,#lecturePanel,footer{width:min(100%,1120px);margin-inline:auto}
   footer{padding-top:14px;border-top:1px solid var(--line)}
   .study-toolbar{display:block;padding:0 0 14px;border-bottom:1px solid var(--line)}
   .study-toolbar-head{display:none}
@@ -384,7 +384,7 @@
     .wrap{padding:0 14px calc(var(--app-nav-height) + 22px)}
     .app-header{min-height:64px;margin-bottom:12px}
     .tabs{inset:auto 0 0 0;width:auto;min-height:var(--app-nav-height);padding:5px 6px env(safe-area-inset-bottom);
-      display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;overflow:visible;border-width:1px 0 0;border-radius:0;
+      display:grid;grid-template-columns:repeat(var(--mode-count,5),minmax(0,1fr));gap:2px;overflow:visible;border-width:1px 0 0;border-radius:0;
       box-shadow:0 -10px 28px rgba(20,37,28,.12)}
     .tabs::before{display:none}
     .tabs button{min-height:60px;padding:6px 3px;gap:3px;border:0;border-top:3px solid transparent;border-radius:4px;font-size:.67rem}
@@ -418,6 +418,61 @@
     .wrap{padding-inline:10px}.app-header .sub{max-width:180px}
     .study-filter-grid{grid-template-columns:1fr}
     .session-stat strong{font-size:.9rem}
+  }
+  /* Multi-course home and subject context */
+  body[data-view="home"] .wrap,body[data-view="subject-info"] .wrap{padding-left:30px}
+  .app-status{width:min(100%,1120px);min-height:20px;margin:0 auto 10px;color:var(--ink-muted);font-size:.78rem}
+  .app-status:empty{min-height:0;margin-bottom:0}
+  .course-home-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;margin:14px 0 22px}
+  .course-home-eyebrow,.subject-eyebrow{margin:0 0 6px;color:var(--brass);font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+  .course-home-hero h2,.subject-overview h2,.workspace-heading{margin:0;color:var(--ink);font-family:"Aptos Display","Aptos",sans-serif;
+    font-size:clamp(1.5rem,3vw,2.25rem);line-height:1.16;text-wrap:balance}
+  .course-home-hero p:last-child,.subject-description{max-width:760px;margin:9px 0 0;color:var(--ink-muted);line-height:1.6}
+  .course-home-summary{display:grid;justify-items:end;gap:2px;color:var(--ink-muted);font-size:.76rem;white-space:nowrap}
+  .course-home-summary strong{color:var(--jade-deep);font-size:1.3rem}
+  .course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .course-card{display:grid;grid-template-rows:auto auto 1fr auto;min-width:0;padding:20px;border:1px solid var(--line);border-radius:var(--radius);
+    background:var(--surface);box-shadow:var(--shadow-soft)}
+  .course-card[data-status="comingSoon"]{box-shadow:none;background:var(--surface-strong)}
+  .course-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+  .course-code{color:var(--brass);font-size:.76rem;font-weight:850;letter-spacing:.08em}
+  .course-status{display:inline-flex;align-items:center;min-height:28px;padding:3px 9px;border:1px solid var(--line-strong);border-radius:999px;
+    color:var(--ink-muted);font-size:.7rem;font-weight:750;white-space:nowrap}
+  .course-card[data-status="ready"] .course-status{border-color:#7cae91;background:var(--success-surface);color:var(--success)}
+  .course-card h3{margin:12px 0 0;color:var(--ink);font-size:1.12rem;line-height:1.35;text-wrap:balance}
+  .course-card-description{margin:8px 0 14px;color:var(--ink-muted);font-size:.88rem;line-height:1.55}
+  .course-card-meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:13px;border-top:1px solid var(--line);color:var(--ink-muted);font-size:.75rem}
+  .feature-chip{display:inline-flex;align-items:center;min-height:28px;padding:3px 8px;border-radius:999px;background:var(--surface-raised);color:var(--ink);font-weight:650}
+  .course-card-action{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:16px;padding:9px 14px;border:1px solid var(--jade);
+    border-radius:var(--radius-control);background:var(--jade-deep);color:#fff;font-size:.84rem;font-weight:800;text-decoration:none}
+  .course-card[data-status="comingSoon"] .course-card-action{border-color:var(--control-border);background:var(--surface);color:var(--ink)}
+  .subject-toolbar{display:flex;align-items:end;justify-content:space-between;gap:14px;margin:0 auto 18px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .subject-switcher{display:grid;gap:4px;min-width:min(100%,320px);color:var(--ink-muted);font-size:.72rem;font-weight:700}
+  .subject-switcher select{width:100%;min-height:44px;border:1px solid var(--control-border);border-radius:var(--radius-control);padding:8px 11px}
+  .all-subjects-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 12px;border:1px solid var(--control-border);
+    border-radius:var(--radius-control);background:var(--surface);color:var(--ink);font-size:.82rem;font-weight:750;text-decoration:none;white-space:nowrap}
+  .subject-overview{padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow-soft)}
+  .subject-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;margin:22px 0;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-control);overflow:hidden}
+  .subject-fact{padding:14px;background:var(--surface-strong)}
+  .subject-fact span{display:block;color:var(--ink-muted);font-size:.72rem}.subject-fact strong{display:block;margin-top:3px;color:var(--ink);font-size:1rem}
+  .subject-mode-list{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+  .subject-mode-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:8px 13px;border:1px solid var(--control-border);
+    border-radius:var(--radius-control);background:var(--surface);color:var(--ink);font-size:.83rem;font-weight:750;text-decoration:none}
+  .subject-mode-link:hover,.all-subjects-link:hover{border-color:var(--jade);color:var(--jade-deep)}
+  .workspace-title-row{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:14px}
+  .workspace-heading{font-size:clamp(1.15rem,2.1vw,1.55rem)}
+  .workspace-course-code{color:var(--ink-muted);font-size:.76rem;font-weight:750}
+  .star{min-width:44px;min-height:44px}
+  body[data-view="home"] .app-header,body[data-view="subject-info"] .app-header{max-width:1120px}
+  @media(max-width:900px){
+    body[data-view="home"] .wrap,body[data-view="subject-info"] .wrap{padding:0 14px 26px}
+    body[data-view="home"],body[data-view="subject-info"]{--app-nav-height:0px}
+  }
+  @media(max-width:680px){
+    .course-home-hero{grid-template-columns:1fr;gap:12px}.course-home-summary{justify-items:start}
+    .course-grid{grid-template-columns:1fr}.course-card{padding:17px}
+    .subject-toolbar{align-items:stretch;flex-direction:column}.subject-switcher{min-width:0;width:100%}.all-subjects-link{width:100%}
+    .subject-overview{padding:18px 15px}.subject-facts{grid-template-columns:1fr}.workspace-title-row{align-items:flex-start;flex-direction:column;gap:4px}
   }
 /*__GAME_STYLES__*/
 </style>
@@ -558,31 +613,48 @@ SOFTWARE.
         <svg class="ui-icon" focusable="false"><use href="#ui-icon-landmark"></use></svg>
       </span>
       <div class="brand-copy">
-        <h1>MLN122</h1>
-        <div class="sub">Kinh tế chính trị Mác-Lênin</div>
+        <h1 id="brandCode">Study Hub</h1>
+        <div class="sub" id="brandTitle">Ôn tập các môn lý luận chính trị</div>
       </div>
     </div>
-    <div class="header-count" aria-label="Ngân hàng câu hỏi">
-      <strong id="total">0</strong><span>câu hỏi</span>
+    <div class="header-count" id="headerCount" aria-label="Danh mục môn học">
+      <strong id="total">0</strong><span id="totalLabel">môn học</span>
     </div>
   </header>
 
-  <nav class="tabs" aria-label="Chế độ học">
-    <button data-mode="quiz" class="active" aria-pressed="true">
-      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-book-open"></use></svg><span>Luyện thi</span>
-    </button>
-    <button data-mode="flash" aria-pressed="false">
-      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-layers"></use></svg><span>Flashcard</span>
-    </button>
-    <button data-mode="lecture" aria-pressed="false">
-      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-circle-play"></use></svg><span>Bài giảng</span>
-    </button>
-    <button data-mode="search" aria-pressed="false">
-      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-search"></use></svg><span>Tìm kiếm</span>
-    </button>
-    <button data-mode="game" aria-pressed="false">
-      <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-castle"></use></svg><span>Công thành</span>
-    </button>
+  <div class="app-status" id="appStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <section id="courseHome" aria-labelledby="courseHomeHeading">
+    <header class="course-home-hero">
+      <div>
+        <p class="course-home-eyebrow">Không gian tự học</p>
+        <h2 id="courseHomeHeading" tabindex="-1">Chọn môn học để bắt đầu</h2>
+        <p>Ôn tập theo ngân hàng câu hỏi đã kiểm định, theo dõi tiến độ riêng cho từng môn và quay lại đúng phiên học gần nhất.</p>
+      </div>
+      <div class="course-home-summary" aria-label="Tổng quan danh mục"><strong id="courseReadyCount">0</strong><span>môn đã sẵn sàng</span></div>
+    </header>
+    <div class="course-grid" id="courseList"></div>
+  </section>
+
+  <section id="workspaceHeader" class="subject-toolbar hidden" aria-label="Chuyển môn học" hidden>
+    <label class="subject-switcher" for="subjectSelect"><span>Môn học hiện tại</span><select id="subjectSelect"></select></label>
+    <a class="all-subjects-link" id="allSubjectsLink" href="#/">Tất cả môn học</a>
+  </section>
+
+  <section id="subjectOverview" class="subject-overview hidden" aria-labelledby="subjectOverviewHeading" hidden>
+    <p class="subject-eyebrow" id="subjectStatusLabel">Thông tin môn học</p>
+    <h2 id="subjectOverviewHeading" tabindex="-1"></h2>
+    <p class="subject-description" id="subjectDescription"></p>
+    <div class="subject-facts" id="subjectFacts"></div>
+    <div class="subject-mode-list" id="subjectModeList" aria-label="Chế độ học khả dụng"></div>
+  </section>
+
+  <div class="workspace-title-row hidden" id="workspaceTitleRow" hidden>
+    <h2 class="workspace-heading" id="workspaceHeading" tabindex="-1"></h2>
+    <span class="workspace-course-code" id="workspaceCourseCode"></span>
+  </div>
+
+  <nav class="tabs hidden" id="modeNav" aria-label="Chế độ học" hidden>
   </nav>
 
   <!-- QUIZ / FLASHCARD shared controls -->
@@ -601,11 +673,11 @@ SOFTWARE.
         <div class="study-filter-grid">
           <div class="question-count-control">
             <label for="questionCountRange">
-              <span class="question-count-head"><strong>C&#226;u b&#7855;t &#273;&#7847;u</strong><span id="questionCountHint">T&#7915; 1 &#273;&#7871;n 504</span></span>
-              <input id="questionCountRange" class="question-count-range" type="range" min="1" max="504" value="1" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i b&#7855;t &#273;&#7847;u">
+              <span class="question-count-head"><strong>C&#226;u b&#7855;t &#273;&#7847;u</strong><span id="questionCountHint">Chưa có dữ liệu</span></span>
+              <input id="questionCountRange" class="question-count-range" type="range" min="1" max="1" value="1" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i b&#7855;t &#273;&#7847;u">
             </label>
             <label class="sr-only" for="questionCountInput">C&#226;u h&#7887;i b&#7855;t &#273;&#7847;u</label>
-            <input id="questionCountInput" class="question-count-input" type="number" min="1" max="504" value="1" inputmode="numeric" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i b&#7885; b&#7855;t &#273;&#7847;u">
+            <input id="questionCountInput" class="question-count-input" type="number" min="1" max="1" value="1" inputmode="numeric" aria-label="S&#7889; th&#7913; t&#7921; c&#226;u h&#7887;i bắt đầu">
           </div>
           <label class="filter-control" for="chapter"><span>Chương</span><select id="chapter" aria-label="Lọc theo chương"></select></label>
           <label class="filter-control" for="difficulty"><span>Mức độ</span><select id="difficulty" aria-label="Lọc theo mức độ"></select></label>
@@ -629,7 +701,7 @@ SOFTWARE.
     <section class="session-strip" aria-label="Tiến độ phiên học">
       <div class="session-stat"><span>Tiến độ</span><strong><b id="pos">0</b><small>/</small><b id="poolN">0</b></strong></div>
       <div class="session-stat" id="scoreWrap"><span>Điểm phiên</span><strong><b id="score">0</b><small>/</small><b id="answered">0</b> <em>(<b id="pct">0</b>%)</em></strong></div>
-      <div class="session-stat"><span>Đã luyện</span><strong><b id="seenAll">0</b><small>/504</small></strong></div>
+      <div class="session-stat"><span>Đã luyện</span><strong><b id="seenAll">0</b><small id="seenTotal">/0</small></strong></div>
       <div class="session-stat"><span>Đánh dấu</span><strong id="markN">0</strong></div>
     </section>
     <div class="progress" aria-hidden="true"><i id="bar"></i></div>
@@ -655,23 +727,23 @@ SOFTWARE.
       </div>
       </div>
       <div id="flashCardContent" class="flashcard-content hidden">
-        <div id="flashCard" class="flashcard" role="button" tabindex="0" aria-label="Lật thẻ để xem đáp án">
-          <div class="flashcard-inner">
-            <div class="flashcard-face front">
-              <div class="flashcard-kicker">Câu hỏi</div>
-              <div class="flashcard-prompt" id="flashPrompt"></div>
-              <div class="flashcard-hint">Nhấp hoặc nhấn Enter để lật thẻ</div>
-            </div>
-            <div class="flashcard-face back">
-              <div class="flashcard-kicker">Đáp án</div>
-              <div class="flashcard-answer" id="flashAnswer"></div>
-              <div class="flashcard-answer-label">Giải thích</div>
-              <p class="flashcard-explanation" id="flashExplanation"></p>
-              <div class="flashcard-source" id="flashSource"></div>
-              <div class="flashcard-hint">Nhấp để lật thẻ lại mặt câu hỏi</div>
-            </div>
-          </div>
-        </div>
+        <button id="flashCard" class="flashcard" type="button" aria-pressed="false">
+          <span class="flashcard-inner">
+            <span class="flashcard-face front" id="flashFront" aria-hidden="false">
+              <span class="flashcard-kicker">Câu hỏi</span>
+              <span class="flashcard-prompt" id="flashPrompt"></span>
+              <span class="flashcard-hint">Nhấp hoặc nhấn Enter để lật thẻ</span>
+            </span>
+            <span class="flashcard-face back" id="flashBack" aria-hidden="true">
+              <span class="flashcard-kicker">Đáp án</span>
+              <span class="flashcard-answer" id="flashAnswer"></span>
+              <span class="flashcard-answer-label">Giải thích</span>
+              <span class="flashcard-explanation" id="flashExplanation"></span>
+              <span class="flashcard-source" id="flashSource"></span>
+              <span class="flashcard-hint">Nhấp để lật thẻ lại mặt câu hỏi</span>
+            </span>
+          </span>
+        </button>
       </div>
       <div class="nav question-nav" aria-label="Điều hướng câu hỏi">
         <button class="btn" id="prevBtn"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-chevron-left"></use></svg><span>Câu trước</span></button>
@@ -683,7 +755,7 @@ SOFTWARE.
   <!-- SEARCH -->
   <div id="searchPanel" class="search-workspace hidden">
     <section class="search-toolbar" aria-label="Tìm kiếm ngân hàng câu hỏi">
-      <label for="searchInput">Tìm trong ngân hàng 504 câu hỏi</label>
+      <label for="searchInput" id="searchLabel">Tìm trong ngân hàng câu hỏi</label>
       <div class="search-field">
         <svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#ui-icon-search"></use></svg>
         <input type="text" id="searchInput" placeholder="Chủ đề, câu hỏi, đáp án hoặc nguồn" autocomplete="off" aria-describedby="searchStatus">
@@ -698,8 +770,8 @@ SOFTWARE.
     <header class="lecture-hero">
       <div>
         <p class="lecture-eyebrow">Học theo giáo trình</p>
-        <h2 id="lectureHeading">Video bài giảng theo 6 chương</h2>
-        <p class="lecture-hero-copy">6 bài giảng · 3 giờ 40 phút. Xem nội dung cốt lõi rồi chuyển thẳng sang luyện câu hỏi của từng chương.</p>
+        <h2 id="lectureHeading" tabindex="-1">Video bài giảng</h2>
+        <p class="lecture-hero-copy" id="lectureHeroCopy"></p>
       </div>
       <a class="lecture-playlist-link" id="lecturePlaylistLink" href="#" target="_blank" rel="noopener noreferrer">
         <svg class="ui-icon" aria-hidden="true"><use href="#ui-icon-list-checks"></use></svg>
@@ -711,8 +783,8 @@ SOFTWARE.
         <div class="lecture-player-shell" id="lecturePlayerShell"></div>
         <div class="lecture-details" aria-live="polite">
           <div class="lecture-current-meta">
-            <span class="lecture-chapter-chip" id="lectureCurrentChapter">Chương 1</span>
-            <span id="lectureCurrentDuration">19:44</span>
+            <span class="lecture-chapter-chip" id="lectureCurrentChapter">Chương</span>
+            <span id="lectureCurrentDuration">0:00</span>
             <span>·</span>
             <span>Video 16:9</span>
           </div>
@@ -730,7 +802,7 @@ SOFTWARE.
       <aside class="lecture-catalog" aria-labelledby="lectureCatalogHeading">
         <div class="lecture-catalog-head">
           <h3 id="lectureCatalogHeading">Danh sách bài giảng</h3>
-          <span>6 chương</span>
+          <span id="lectureCatalogCount">0 bài</span>
         </div>
         <div class="lecture-list" id="lectureList"></div>
       </aside>
@@ -873,114 +945,316 @@ SOFTWARE.
     </div>
   </div>
 
-  <footer>Nội dung được biên soạn từ tài liệu MLN122 · Tiến độ lưu trên trình duyệt này.</footer>
+  <footer id="appFooter">Tiến độ học tập được lưu riêng trên trình duyệt này.</footer>
 </main>
 
 <script>
-/* ====== DATA (embedded) ====== */
-const QUESTIONS = /*__QUESTIONS__*/[];
-globalThis.MLN222_QUESTIONS = QUESTIONS;
-const LECTURE_CATALOG = /*__LECTURES__*/{};
-globalThis.MLN222_LECTURES = LECTURE_CATALOG;
-const LECTURE_ITEMS=Array.isArray(LECTURE_CATALOG.lectures)?LECTURE_CATALOG.lectures:[];
-const LETTERS = ["A","B","C","D"];
-const KIND_LABELS = {
+/* ====== Embedded multi-subject catalogs ====== */
+const SUBJECT_CATALOG=Object.freeze(/*__SUBJECT_CATALOG__*/[]);
+const QUESTION_BANKS=Object.assign(Object.create(null),/*__QUESTION_BANKS__*/{});
+const LECTURE_CATALOGS=Object.assign(Object.create(null),/*__LECTURE_CATALOGS__*/{});
+const EMPTY_QUESTION_BANK=Object.freeze([]);
+const SUBJECTS_BY_ID=Object.create(null);
+SUBJECT_CATALOG.forEach(function(subject){
+  if(subject&&typeof subject.id==="string")SUBJECTS_BY_ID[subject.id]=subject;
+});
+function hasOwn(record,key){return Object.prototype.hasOwnProperty.call(record,key);}
+function hasSubject(id){return typeof id==="string"&&hasOwn(SUBJECTS_BY_ID,id);}
+function getSubject(id){return hasSubject(id)?SUBJECTS_BY_ID[id]:null;}
+function getQuestionBank(id){
+  const bank=typeof id==="string"&&hasOwn(QUESTION_BANKS,id)?QUESTION_BANKS[id]:null;
+  return Array.isArray(bank)?bank:EMPTY_QUESTION_BANK;
+}
+function getLectures(id){
+  const manifest=typeof id==="string"&&hasOwn(LECTURE_CATALOGS,id)?LECTURE_CATALOGS[id]:null;
+  return manifest&&typeof manifest==="object"&&!Array.isArray(manifest)?manifest:null;
+}
+Object.defineProperty(globalThis,"MLN222_QUESTIONS",{
+  value:getQuestionBank("mln112"),writable:false,configurable:false,enumerable:true,
+});
+
+const LETTERS=["A","B","C","D"];
+const KIND_LABELS={
   nhan_biet_khai_niem:"Khái niệm",
   thong_hieu_phan_biet:"Phân biệt",
   trinh_tu_quan_he:"Quan hệ",
   van_dung_tinh_huong:"Tình huống",
   van_dung_tinh_toan:"Tính toán",
 };
-
-/* ====== Persistent store (localStorage) ====== */
-const QUESTION_IDS = new Set(QUESTIONS.map(q=>q.id));
-const QUESTION_BY_ID = new Map(QUESTIONS.map(q=>[q.id,q]));
-const CHAPTER_VALUES = new Set(QUESTIONS.map(q=>q.chapter));
-const DIFFICULTY_VALUES = new Set(QUESTIONS.map(q=>q.difficulty));
-const STUDY_PROGRESS_KEY="mln222.v3.studyProgress";
+const MODE_DEFS=Object.freeze([
+  Object.freeze({id:"quiz",feature:"quiz",label:"Luyện thi",icon:"book-open"}),
+  Object.freeze({id:"flash",feature:"flashcards",label:"Flashcard",icon:"layers"}),
+  Object.freeze({id:"lecture",feature:"lectures",label:"Bài giảng",icon:"circle-play"}),
+  Object.freeze({id:"search",feature:"search",label:"Tìm kiếm",icon:"search"}),
+  Object.freeze({id:"game",feature:"game",label:"Công thành",icon:"castle"}),
+]);
+const MODE_BY_ID=Object.create(null);
+MODE_DEFS.forEach(function(mode){MODE_BY_ID[mode.id]=mode;});
+const STUDY_MODES=new Set(["quiz","flash"]);
 const STUDY_PROGRESS_VERSION=2;
 const LEGACY_STUDY_PROGRESS_VERSION=1;
-const STUDY_MODES=new Set(["quiz","flash"]);
-function readStoredJson(key,fallback){
-  try{
-    const raw=window.localStorage.getItem(key);
-    return raw===null ? fallback : JSON.parse(raw);
-  }catch(_error){ return fallback; }
-}
-function loadMarked(){
-  const value=readStoredJson("mln222.v2.marked",[]);
-  return new Set(Array.isArray(value)?value.filter(id=>typeof id==="string"&&QUESTION_IDS.has(id)):[]);
-}
-function loadStats(){
-  const value=readStoredJson("mln222.v2.stats",{});
-  const clean={};
-  if(!value||typeof value!=="object"||Array.isArray(value)) return clean;
-  Object.entries(value).forEach(([id,stat])=>{
-    if(!QUESTION_IDS.has(id)||!stat||typeof stat!=="object"||Array.isArray(stat)) return;
-    const c=Number.isSafeInteger(stat.c)&&stat.c>=0?stat.c:0;
-    const w=Number.isSafeInteger(stat.w)&&stat.w>=0?stat.w:0;
-    clean[id]={c,w};
-  });
-  return clean;
-}
-const LS = {
-  marked:loadMarked(),
-  stats:loadStats(), // id -> {c,w}
-  save(){
-    try{
-      window.localStorage.setItem("mln222.v2.marked",JSON.stringify([...this.marked]));
-      window.localStorage.setItem("mln222.v2.stats",JSON.stringify(this.stats));
-    }catch(_error){ /* Continue with in-memory progress when storage is unavailable. */ }
-  },
-  clear(){
-    try{
-      window.localStorage.removeItem("mln222.v2.marked");
-      window.localStorage.removeItem("mln222.v2.stats");
-      window.localStorage.removeItem(STUDY_PROGRESS_KEY);
-    }catch(_error){ /* In-memory state is still reset below. */ }
-  },
-  stat(id){ return this.stats[id] || (this.stats[id]={c:0,w:0}); },
-};
-
-/* ====== App state ====== */
-const state = {
-  mode:"quiz", chapter:"all", difficulty:"all",
-  questionStart:1,
-  shuffle:false, onlyMarked:false, onlyWrong:false,
-  pool:[], idx:0,
-  answered:{}, // question id -> chosen index (session, for navigation)
-  sessSeen:0, sessCorrect:0, flashRevealed:-1,
-};
-
-/* ====== Helpers ====== */
-const $=s=>document.querySelector(s);
-const shuffleArr=a=>{for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
-
-function isPlainRecord(value){
-  return Boolean(value)&&typeof value==="object"&&!Array.isArray(value);
-}
-
-function questionsForFilters(filters){
-  return QUESTIONS.filter(q=>{
-    if(filters.chapter!=="all" && q.chapter!==filters.chapter) return false;
-    if(filters.difficulty!=="all" && q.difficulty!==filters.difficulty) return false;
-    if(filters.onlyMarked && !LS.marked.has(q.id)) return false;
-    if(filters.onlyWrong){ const s=LS.stats[q.id]; if(!s||s.w<=0) return false; }
-    return true;
-  });
-}
+const MAX_STUDY_SESSIONS_PER_MODE=12;
+const SEARCH_DEBOUNCE_MS=180;
+const LAST_SUBJECT_KEY="mln-study-hub.v1.lastSubject";
+const STORAGE_BY_SUBJECT=Object.freeze({
+  mln111:Object.freeze({
+    marked:"mln-study-hub.v1.mln111.marked",
+    stats:"mln-study-hub.v1.mln111.stats",
+    progress:"mln-study-hub.v1.mln111.studyProgress",
+  }),
+  hcm202:Object.freeze({
+    marked:"mln-study-hub.v1.hcm202.marked",
+    stats:"mln-study-hub.v1.hcm202.stats",
+    progress:"mln-study-hub.v1.hcm202.studyProgress",
+  }),
+  mln112:Object.freeze({
+    marked:"mln222.v2.marked",
+    stats:"mln222.v2.stats",
+    progress:"mln222.v3.studyProgress",
+  }),
+});
 
 function emptyStudyProgress(){
   return {
     version:STUDY_PROGRESS_VERSION,
     active:{quiz:null,flash:null},
-    sessions:{quiz:{},flash:{}},
+    sessions:{quiz:Object.create(null),flash:Object.create(null)},
   };
 }
+function createEmptyStudyState(){
+  return {
+    mode:null,
+    chapterId:"all",
+    difficulty:"all",
+    questionStart:1,
+    shuffle:false,
+    onlyMarked:false,
+    onlyWrong:false,
+    pool:[],
+    idx:0,
+    answered:Object.create(null),
+    sessSeen:0,
+    sessCorrect:0,
+    flashRevealed:-1,
+    marked:new Set(),
+    stats:Object.create(null),
+    progress:emptyStudyProgress(),
+    searchQuery:"",
+  };
+}
+const app={
+  route:{subjectId:undefined,mode:undefined,chapterId:"all",difficulty:"all"},
+  subject:null,
+  questions:EMPTY_QUESTION_BANK,
+  lectureManifest:null,
+  lectures:[],
+  study:createEmptyStudyState(),
+  memoryStudyBySubject:new Map(),
+  pendingStudyFilters:null,
+};
 
+const $=function(selector){return document.querySelector(selector);};
+const ui={
+  home:$("#courseHome"),
+  subjectOverview:$("#subjectOverview"),
+  workspaceHeader:$("#workspaceHeader"),
+  workspaceTitleRow:$("#workspaceTitleRow"),
+  modeNav:$("#modeNav"),
+  study:$("#studyControls"),
+  search:$("#searchPanel"),
+  lecture:$("#lecturePanel"),
+  game:$("#gameRoot"),
+};
+let QUESTION_IDS=new Set();
+let QUESTION_BY_ID=new Map();
+let QUESTION_BY_KEY=new Map();
+let SEARCH_TEXT_BY_ID=new Map();
+let CHAPTER_IDS=new Set();
+let DIFFICULTY_VALUES=new Set();
+let CHAPTER_LABEL_BY_ID=new Map();
+let CHAPTER_ID_BY_LABEL=new Map();
+let activeLectureIndex=0;
+let loadedLectureVideoId=null;
+let lectureLoadTimer=null;
+let searchDebounceTimer=null;
+let replacingHash=false;
+
+function isPlainRecord(value){
+  return Boolean(value)&&typeof value==="object"&&!Array.isArray(value);
+}
+function isReadySubject(subject){
+  return Boolean(subject)&&subject.status==="ready"&&subject.studyReady===true;
+}
+function availableModes(subject){
+  if(!isReadySubject(subject)||!isPlainRecord(subject.features))return [];
+  return MODE_DEFS.filter(function(mode){return subject.features[mode.feature]===true;});
+}
+function questionKey(subjectId,id){return subjectId+":"+id;}
+function currentQuestionKey(question){
+  return app.subject&&question?questionKey(app.subject.id,question.id):null;
+}
+function questionFromKey(key){return QUESTION_BY_KEY.get(key)||null;}
+function sourceIdFromKey(key){
+  const question=questionFromKey(key);
+  return question?question.id:null;
+}
+function shuffleArr(array){
+  for(let index=array.length-1;index>0;index--){
+    const swapIndex=(Math.random()*(index+1))|0;
+    const value=array[index];array[index]=array[swapIndex];array[swapIndex]=value;
+  }
+  return array;
+}
+function setVisible(element,visible){
+  if(!element)return;
+  element.classList.toggle("hidden",!visible);
+  element.hidden=!visible;
+}
+function createIcon(name){
+  const icon=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  icon.setAttribute("class","ui-icon");
+  icon.setAttribute("aria-hidden","true");
+  icon.setAttribute("focusable","false");
+  const use=document.createElementNS("http://www.w3.org/2000/svg","use");
+  use.setAttribute("href","#ui-icon-"+name);
+  icon.append(use);
+  return icon;
+}
+function announce(message,kind){
+  const status=$("#appStatus");
+  if(!status)return;
+  status.dataset.kind=kind||"info";
+  status.textContent=message||"";
+}
+function noteStorageFailure(){
+  announce("Tiến độ vẫn còn trong phiên này nhưng chưa lưu trên thiết bị.","storage");
+}
+function scheduleFocus(element){
+  if(!element)return;
+  requestAnimationFrame(function(){
+    if(element.isConnected&&!element.closest("[hidden]")&&!element.closest(".hidden"))element.focus({preventScroll:true});
+  });
+}
+function formatCount(value,label){
+  return String(Number.isSafeInteger(value)?value:0)+" "+label;
+}
+function statusText(subject){
+  if(subject.status==="ready"&&subject.studyReady)return "Sẵn sàng";
+  if(subject.status==="comingSoon")return "Sắp ra mắt";
+  if(subject.status==="draft"||subject.copyReviewRequired)return "Đang hoàn thiện";
+  return "Chưa sẵn sàng";
+}
+function statusDescription(subject){
+  if(subject.status==="ready"&&subject.studyReady)return "Ngân hàng đã sẵn sàng để học.";
+  if(subject.status==="comingSoon")return "Môn học đã có trong lộ trình và đang chờ biên soạn nội dung.";
+  if(subject.status==="draft"||subject.copyReviewRequired)return "Nội dung đang được kiểm định trước khi mở chế độ học.";
+  return "Môn học chưa sẵn sàng để mở chế độ học.";
+}
+function routeEquals(left,right){
+  return Boolean(left)&&Boolean(right)&&left.subjectId===right.subjectId&&left.mode===right.mode;
+}
+
+/* ====== Route grammar and canonical navigation ====== */
+function serializeRoute(route){
+  if(!route||!route.subjectId)return "#/";
+  const subjectId=encodeURIComponent(route.subjectId);
+  return route.mode?"#/"+subjectId+"/"+encodeURIComponent(route.mode):"#/"+subjectId;
+}
+function decodeRouteSegment(raw){
+  try{
+    const decoded=decodeURIComponent(raw);
+    if(!decoded||decoded==="."||decoded===".."||/[\\\\/]/u.test(decoded)||/[\u0000-\u001f\u007f-\u009f]/u.test(decoded))return null;
+    return decoded;
+  }catch(_error){return null;}
+}
+function parseRoute(rawHash){
+  const hash=typeof rawHash==="string"?rawHash:"";
+  const raw=hash.startsWith("#")?hash.slice(1):hash;
+  if(new TextEncoder().encode(raw).length>512){
+    return {route:{subjectId:null,mode:null},canonical:"#/",corrected:hash!=="#/"};
+  }
+  const queryIndex=raw.indexOf("?");
+  const rawPath=queryIndex===-1?raw:raw.slice(0,queryIndex);
+  const rawSegments=rawPath.split("/").filter(function(segment){return segment.length>0;});
+  const first=rawSegments.length?decodeRouteSegment(rawSegments[0]):null;
+  const subject=first?getSubject(first):null;
+  const unsafe=queryIndex!==-1||rawSegments.length>2||(!raw.startsWith("/")&&raw!=="");
+  if(unsafe){
+    const route=subject?{subjectId:subject.id,mode:null}:{subjectId:null,mode:null};
+    const canonical=serializeRoute(route);
+    return {route:route,canonical:canonical,corrected:canonical!==hash};
+  }
+  if(!rawSegments.length){
+    return {route:{subjectId:null,mode:null},canonical:"#/",corrected:Boolean(hash)&&hash!=="#/"};
+  }
+  if(!subject){
+    return {route:{subjectId:null,mode:null},canonical:"#/",corrected:hash!=="#/"};
+  }
+  if(rawSegments.length===1){
+    const route={subjectId:subject.id,mode:null};
+    return {route:route,canonical:serializeRoute(route),corrected:serializeRoute(route)!==hash};
+  }
+  const mode=decodeRouteSegment(rawSegments[1]);
+  const enabled=availableModes(subject).some(function(item){return item.id===mode;});
+  if(!isReadySubject(subject)||!mode||!enabled){
+    const route={subjectId:subject.id,mode:null};
+    return {route:route,canonical:serializeRoute(route),corrected:serializeRoute(route)!==hash};
+  }
+  const route={subjectId:subject.id,mode:mode};
+  return {route:route,canonical:serializeRoute(route),corrected:serializeRoute(route)!==hash};
+}
+function navigate(route,options){
+  const target=serializeRoute(route);
+  const replace=Boolean(options&&options.replace);
+  if(replace){
+    replacingHash=true;
+    history.replaceState(history.state,"",location.pathname+location.search+target);
+    replacingHash=false;
+    handleLocation();
+    return;
+  }
+  if(location.hash===target){handleLocation();return;}
+  location.hash=target;
+}
+function handleLocation(){
+  if(replacingHash)return;
+  const parsed=parseRoute(location.hash);
+  if(parsed.canonical!==location.hash){
+    replacingHash=true;
+    history.replaceState(history.state,"",location.pathname+location.search+parsed.canonical);
+    replacingHash=false;
+  }
+  applyRoute(parsed.route);
+  const status=$("#appStatus");
+  if(parsed.corrected&&status.dataset.kind!=="storage")announce("Liên kết không hợp lệ đã được đưa về trang an toàn gần nhất.","route");
+  else if(!parsed.corrected&&status.dataset.kind!=="storage")announce("");
+}
+
+/* ====== Subject-scoped persistence ====== */
+function storageConfig(subjectId){return hasOwn(STORAGE_BY_SUBJECT,subjectId)?STORAGE_BY_SUBJECT[subjectId]:null;}
+function readStoredJson(key,fallback){
+  try{
+    const raw=window.localStorage.getItem(key);
+    return raw===null?fallback:JSON.parse(raw);
+  }catch(_error){noteStorageFailure();return fallback;}
+}
+function questionsForFilters(filters){
+  if(!isReadySubject(app.subject))return [];
+  return app.questions.filter(function(question){
+    if(filters.chapterId!=="all"&&question.chapterId!==filters.chapterId)return false;
+    if(filters.difficulty!=="all"&&question.difficulty!==filters.difficulty)return false;
+    const key=currentQuestionKey(question);
+    if(filters.onlyMarked&&!app.study.marked.has(key))return false;
+    if(filters.onlyWrong){
+      const stat=app.study.stats[key];
+      if(!stat||stat.w<=0)return false;
+    }
+    return true;
+  });
+}
 function studySessionKey(value){
   return JSON.stringify([
-    value.chapter,
+    value.chapterId,
     value.difficulty,
     Number.isSafeInteger(value.questionStart)&&value.questionStart>0?value.questionStart:1,
     value.shuffle,
@@ -988,722 +1262,1120 @@ function studySessionKey(value){
     value.onlyWrong,
   ]);
 }
-
+function chapterIdFromStored(value){
+  if(value==="all")return "all";
+  if(typeof value!=="string")return null;
+  if(CHAPTER_IDS.has(value))return value;
+  return CHAPTER_ID_BY_LABEL.get(value)||null;
+}
 function normalizeStudySession(value,mode){
-  if(!isPlainRecord(value)) return null;
-  const chapter=value.chapter;
+  if(!isPlainRecord(value))return null;
+  const chapterId=chapterIdFromStored(value.chapterId===undefined?value.chapter:value.chapterId);
   const difficulty=value.difficulty;
-  if(chapter!=="all"&&!CHAPTER_VALUES.has(chapter)) return null;
-  if(difficulty!=="all"&&!DIFFICULTY_VALUES.has(difficulty)) return null;
-  if(
-    typeof value.shuffle!=="boolean" ||
-    typeof value.onlyMarked!=="boolean" ||
-    typeof value.onlyWrong!=="boolean"
-  ) return null;
-
+  if(!chapterId)return null;
+  if(difficulty!=="all"&&!DIFFICULTY_VALUES.has(difficulty))return null;
+  if(typeof value.shuffle!=="boolean"||typeof value.onlyMarked!=="boolean"||typeof value.onlyWrong!=="boolean")return null;
   const legacyCountMode=!Number.isSafeInteger(value.questionStart)&&Number.isSafeInteger(value.questionLimit)&&value.questionLimit>0;
   const questionStart=Number.isSafeInteger(value.questionStart)&&value.questionStart>0?value.questionStart:1;
   const filters={
-    chapter,difficulty,questionStart,shuffle:value.shuffle,
-    onlyMarked:value.onlyMarked,onlyWrong:value.onlyWrong,
+    chapterId:chapterId,difficulty:difficulty,questionStart:questionStart,
+    shuffle:value.shuffle,onlyMarked:value.onlyMarked,onlyWrong:value.onlyWrong,
   };
   const available=questionsForFilters(filters);
-  const expected=(legacyCountMode?available.slice(0,value.questionLimit):available.slice(filters.questionStart-1)).map(q=>q.id);
-  if(!Array.isArray(value.pool)||value.pool.some(id=>typeof id!=="string"||!QUESTION_IDS.has(id))) return null;
-  if(value.pool.length!==expected.length||new Set(value.pool).size!==value.pool.length) return null;
-  const savedIds=new Set(value.pool);
-  if(!value.shuffle&&value.pool.some((id,index)=>id!==expected[index])) return null;
-  if(value.shuffle&&value.pool.some(id=>!available.some(q=>q.id===id))) return null;
-
-  const poolLength=value.pool.length;
-  if(!Number.isSafeInteger(value.idx)||value.idx<0||(poolLength?value.idx>=poolLength:value.idx!==0)) return null;
-  if(!isPlainRecord(value.answered)) return null;
-  const answered={};
-  for(const [id,choice] of Object.entries(value.answered)){
-    const question=QUESTION_BY_ID.get(id);
-    if(!savedIds.has(id)||!question||!Number.isSafeInteger(choice)||choice<0||choice>=question.options.length) return null;
-    answered[id]=choice;
+  const expectedQuestions=legacyCountMode?available.slice(0,value.questionLimit):available.slice(filters.questionStart-1);
+  const expectedKeys=expectedQuestions.map(function(question){return currentQuestionKey(question);});
+  if(!Array.isArray(value.pool))return null;
+  const poolKeys=[];
+  for(const id of value.pool){
+    if(typeof id!=="string"||!QUESTION_IDS.has(id))return null;
+    poolKeys.push(questionKey(app.subject.id,id));
   }
-  if(mode==="flash"&&Object.keys(answered).length) return null;
-  if(value.flashRevealed!==null&&typeof value.flashRevealed!=="string") return null;
-  const currentId=poolLength?value.pool[value.idx]:null;
-  const flashRevealed=mode==="flash"&&value.flashRevealed===currentId?currentId:null;
-  return {...filters,pool:value.pool.slice(),idx:value.idx,answered,flashRevealed};
+  if(poolKeys.length!==expectedKeys.length||new Set(poolKeys).size!==poolKeys.length)return null;
+  if(!value.shuffle&&poolKeys.some(function(key,index){return key!==expectedKeys[index];}))return null;
+  const availableKeys=new Set(available.map(function(question){return currentQuestionKey(question);}));
+  if(value.shuffle&&poolKeys.some(function(key){return !availableKeys.has(key);}))return null;
+  const poolLength=poolKeys.length;
+  if(!Number.isSafeInteger(value.idx)||value.idx<0||(poolLength?value.idx>=poolLength:value.idx!==0))return null;
+  if(!isPlainRecord(value.answered))return null;
+  const answered=Object.create(null);
+  const savedKeys=new Set(poolKeys);
+  for(const entry of Object.entries(value.answered)){
+    const id=entry[0],choice=entry[1],question=QUESTION_BY_ID.get(id);
+    const key=questionKey(app.subject.id,id);
+    if(!savedKeys.has(key)||!question||!Number.isSafeInteger(choice)||choice<0||choice>=question.options.length)return null;
+    answered[key]=choice;
+  }
+  if(mode==="flash"&&Object.keys(answered).length)return null;
+  if(value.flashRevealed!==null&&typeof value.flashRevealed!=="string")return null;
+  const currentKey=poolLength?poolKeys[value.idx]:null;
+  const revealedKey=value.flashRevealed===null?null:questionKey(app.subject.id,value.flashRevealed);
+  return {
+    chapterId:chapterId,difficulty:difficulty,questionStart:questionStart,
+    shuffle:value.shuffle,onlyMarked:value.onlyMarked,onlyWrong:value.onlyWrong,
+    pool:poolKeys,idx:value.idx,answered:answered,
+    flashRevealed:mode==="flash"&&revealedKey===currentKey?currentKey:null,
+  };
 }
-
-function loadStudyProgress(){
-  const value=readStoredJson(STUDY_PROGRESS_KEY,null);
+function boundedStoredSessionEntries(value,activeKey){
+  const entries=Object.entries(value);
+  const limited=entries.slice(-MAX_STUDY_SESSIONS_PER_MODE);
+  if(typeof activeKey==="string"&&hasOwn(value,activeKey)&&!limited.some(function(entry){return entry[0]===activeKey;})){
+    if(limited.length>=MAX_STUDY_SESSIONS_PER_MODE)limited.shift();
+    limited.push([activeKey,value[activeKey]]);
+  }
+  return limited;
+}
+function loadStudyProgress(key){
+  const value=readStoredJson(key,null);
   const progress=emptyStudyProgress();
-  if(!isPlainRecord(value)||!isPlainRecord(value.sessions)) return progress;
+  if(!isPlainRecord(value)||!isPlainRecord(value.sessions))return progress;
   if(value.version===LEGACY_STUDY_PROGRESS_VERSION){
-    STUDY_MODES.forEach(mode=>{
+    STUDY_MODES.forEach(function(mode){
       const session=normalizeStudySession(value.sessions[mode],mode);
-      if(!session) return;
-      const key=studySessionKey(session);
-      progress.sessions[mode][key]=session;
-      progress.active[mode]=key;
+      if(!session)return;
+      const keyValue=studySessionKey(session);
+      progress.sessions[mode][keyValue]=session;
+      progress.active[mode]=keyValue;
     });
     return progress;
   }
-  if(value.version!==STUDY_PROGRESS_VERSION||!isPlainRecord(value.active)) return progress;
-  STUDY_MODES.forEach(mode=>{
+  if(value.version!==STUDY_PROGRESS_VERSION||!isPlainRecord(value.active))return progress;
+  STUDY_MODES.forEach(function(mode){
     const storedSessions=value.sessions[mode];
-    if(!isPlainRecord(storedSessions)) return;
-    Object.values(storedSessions).forEach(stored=>{
-      const session=normalizeStudySession(stored,mode);
-      if(!session) return;
-      progress.sessions[mode][studySessionKey(session)]=session;
+    if(!isPlainRecord(storedSessions))return;
+    boundedStoredSessionEntries(storedSessions,value.active[mode]).forEach(function(entry){
+      const storedKey=entry[0],session=normalizeStudySession(entry[1],mode);
+      if(!session)return;
+      const keyValue=studySessionKey(session);
+      progress.sessions[mode][keyValue]=session;
+      if(value.active[mode]===storedKey)progress.active[mode]=keyValue;
     });
-    const activeKey=value.active[mode];
-    if(typeof activeKey==="string"&&progress.sessions[mode][activeKey]) progress.active[mode]=activeKey;
+    const directKey=value.active[mode];
+    if(typeof directKey==="string"&&progress.sessions[mode][directKey])progress.active[mode]=directKey;
   });
   return progress;
 }
-
-let studyProgress=loadStudyProgress();
-
-function saveStudySession(){
-  if(!STUDY_MODES.has(state.mode)) return;
-  const current=state.pool[state.idx];
-  const session={
-    chapter:state.chapter,
-    difficulty:state.difficulty,
-    questionStart:state.questionStart,
-    shuffle:state.shuffle,
-    onlyMarked:state.onlyMarked,
-    onlyWrong:state.onlyWrong,
-    pool:state.pool.map(q=>q.id),
-    idx:state.idx,
-    answered:{...state.answered},
-    flashRevealed:state.mode==="flash"&&state.flashRevealed===state.idx&&current?current.id:null,
+function loadSubjectStudy(subject){
+  const study=createEmptyStudyState();
+  const config=storageConfig(subject.id);
+  if(!config)return study;
+  const marked=readStoredJson(config.marked,[]);
+  if(Array.isArray(marked)){
+    marked.forEach(function(id){
+      if(typeof id==="string"&&QUESTION_IDS.has(id))study.marked.add(questionKey(subject.id,id));
+    });
+  }
+  const stats=readStoredJson(config.stats,{});
+  if(isPlainRecord(stats)){
+    Object.entries(stats).forEach(function(entry){
+      const id=entry[0],stat=entry[1];
+      if(!QUESTION_IDS.has(id)||!isPlainRecord(stat))return;
+      const c=Number.isSafeInteger(stat.c)&&stat.c>=0?stat.c:0;
+      const w=Number.isSafeInteger(stat.w)&&stat.w>=0?stat.w:0;
+      study.stats[questionKey(subject.id,id)]={c:c,w:w};
+    });
+  }
+  const previousStudy=app.study;
+  app.study=study;
+  study.progress=loadStudyProgress(config.progress);
+  app.study=previousStudy;
+  return study;
+}
+function storedChapterValue(chapterId){
+  if(chapterId==="all")return "all";
+  if(app.subject&&app.subject.id==="mln112")return CHAPTER_LABEL_BY_ID.get(chapterId)||chapterId;
+  return chapterId;
+}
+function serializeStudySession(session){
+  const pool=session.pool.map(sourceIdFromKey).filter(Boolean);
+  const answered=Object.create(null);
+  Object.entries(session.answered).forEach(function(entry){
+    const id=sourceIdFromKey(entry[0]);
+    if(id)answered[id]=entry[1];
+  });
+  return {
+    chapter:storedChapterValue(session.chapterId),
+    difficulty:session.difficulty,
+    questionStart:session.questionStart,
+    shuffle:session.shuffle,
+    onlyMarked:session.onlyMarked,
+    onlyWrong:session.onlyWrong,
+    pool:pool,
+    idx:session.idx,
+    answered:answered,
+    flashRevealed:session.flashRevealed?sourceIdFromKey(session.flashRevealed):null,
   };
-  const key=studySessionKey(session);
-  studyProgress.sessions[state.mode][key]=session;
-  studyProgress.active[state.mode]=key;
+}
+function storedSessionKey(session){
+  return JSON.stringify([
+    session.chapter,session.difficulty,session.questionStart,
+    session.shuffle,session.onlyMarked,session.onlyWrong,
+  ]);
+}
+function serializeStudyProgress(){
+  const output={
+    version:STUDY_PROGRESS_VERSION,
+    active:{quiz:null,flash:null},
+    sessions:{quiz:{},flash:{}},
+  };
+  STUDY_MODES.forEach(function(mode){
+    pruneStudySessions(mode,app.study.progress.active[mode]);
+    Object.entries(app.study.progress.sessions[mode]).forEach(function(entry){
+      const memoryKey=entry[0],payload=serializeStudySession(entry[1]);
+      const key=storedSessionKey(payload);
+      output.sessions[mode][key]=payload;
+      if(app.study.progress.active[mode]===memoryKey)output.active[mode]=key;
+    });
+  });
+  return output;
+}
+function rememberStudyState(){
+  if(isReadySubject(app.subject))app.memoryStudyBySubject.set(app.subject.id,app.study);
+}
+function persistStudyState(){
+  if(!isReadySubject(app.subject))return;
+  rememberStudyState();
+  const config=storageConfig(app.subject.id);
+  if(!config)return;
   try{
-    window.localStorage.setItem(STUDY_PROGRESS_KEY,JSON.stringify(studyProgress));
-  }catch(_error){ /* Continue with the in-memory session when storage is unavailable. */ }
+    const marked=Array.from(app.study.marked).map(sourceIdFromKey).filter(Boolean);
+    const stats=Object.create(null);
+    Object.entries(app.study.stats).forEach(function(entry){
+      const id=sourceIdFromKey(entry[0]);
+      if(id)stats[id]=entry[1];
+    });
+    window.localStorage.setItem(config.marked,JSON.stringify(marked));
+    window.localStorage.setItem(config.stats,JSON.stringify(stats));
+    window.localStorage.setItem(config.progress,JSON.stringify(serializeStudyProgress()));
+  }catch(_error){noteStorageFailure();}
+}
+function saveLastSubject(subject){
+  if(!isReadySubject(subject))return;
+  try{window.localStorage.setItem(LAST_SUBJECT_KEY,subject.id);}
+  catch(_error){noteStorageFailure();}
+}
+function removeActiveStudyStorage(){
+  if(!isReadySubject(app.subject))return;
+  const config=storageConfig(app.subject.id);
+  app.memoryStudyBySubject.delete(app.subject.id);
+  if(!config)return;
+  try{
+    window.localStorage.removeItem(config.marked);
+    window.localStorage.removeItem(config.stats);
+    window.localStorage.removeItem(config.progress);
+  }catch(_error){noteStorageFailure();}
 }
 
-function restoreStudySession(mode,filters=null){
-  if(!STUDY_MODES.has(mode)) return false;
-  const key=filters?studySessionKey(filters):studyProgress.active[mode];
-  if(typeof key!=="string") return false;
-  const session=normalizeStudySession(studyProgress.sessions[mode][key],mode);
-  if(!session){
-    delete studyProgress.sessions[mode][key];
-    if(studyProgress.active[mode]===key) studyProgress.active[mode]=null;
-    return false;
+/* ====== Home, subject metadata, and shared chrome ====== */
+function updatePublicChrome(subject){
+  if(!subject){
+    document.title="Study Hub — Ôn tập các môn lý luận chính trị";
+    $("#brandCode").textContent="Study Hub";
+    $("#brandTitle").textContent="Ôn tập các môn lý luận chính trị";
+    $("#total").textContent=SUBJECT_CATALOG.length;
+    $("#totalLabel").textContent="môn học";
+    $("#headerCount").setAttribute("aria-label","Danh mục môn học");
+    $("#appFooter").textContent="Tiến độ học tập được lưu riêng trên trình duyệt này.";
+    return;
   }
-  studyProgress.sessions[mode][key]=session;
-  studyProgress.active[mode]=key;
-  state.chapter=session.chapter;
-  state.difficulty=session.difficulty;
-  state.questionStart=session.questionStart;
-  state.shuffle=session.shuffle;
-  state.onlyMarked=session.onlyMarked;
-  state.onlyWrong=session.onlyWrong;
-  state.pool=session.pool.map(id=>QUESTION_BY_ID.get(id));
-  state.idx=session.idx;
-  state.answered={...session.answered};
-  state.sessSeen=Object.keys(state.answered).length;
-  state.sessCorrect=Object.entries(state.answered).reduce((total,[id,choice])=>{
-    const question=QUESTION_BY_ID.get(id);
-    return total+(question&&question.answer===choice?1:0);
-  },0);
-  state.flashRevealed=mode==="flash"&&session.flashRevealed===session.pool[session.idx]?session.idx:-1;
+  document.title=subject.code+" — "+subject.title;
+  $("#brandCode").textContent=subject.code;
+  $("#brandTitle").textContent=subject.title;
+  $("#total").textContent=subject.questionCount;
+  $("#totalLabel").textContent=isReadySubject(subject)?"câu hỏi":"đang biên soạn";
+  $("#headerCount").setAttribute("aria-label",isReadySubject(subject)?"Ngân hàng câu hỏi":"Trạng thái nội dung");
+  $("#appFooter").textContent=subject.code+" · Tiến độ học tập được lưu riêng trên trình duyệt này.";
+}
+function renderCourseHome(){
+  const fragment=document.createDocumentFragment();
+  let readyCount=0;
+  SUBJECT_CATALOG.forEach(function(subject){
+    if(isReadySubject(subject))readyCount++;
+    const card=document.createElement("article");
+    card.className="course-card";
+    card.dataset.status=subject.status;
+    const headingId="course-"+subject.id+"-title";
+    const statusId="course-"+subject.id+"-status";
+    card.setAttribute("aria-labelledby",headingId);
+
+    const head=document.createElement("div");
+    head.className="course-card-head";
+    const code=document.createElement("span");
+    code.className="course-code";code.textContent=subject.code;
+    const status=document.createElement("span");
+    status.className="course-status";status.id=statusId;status.textContent=statusText(subject);
+    head.append(code,status);
+
+    const title=document.createElement("h3");
+    title.id=headingId;title.textContent=subject.title;
+    const description=document.createElement("p");
+    description.className="course-card-description";description.textContent=subject.description;
+    const meta=document.createElement("div");
+    meta.className="course-card-meta";
+    if(isReadySubject(subject)){
+      const count=document.createElement("span");
+      count.textContent=formatCount(subject.questionCount,"câu hỏi");
+      meta.append(count);
+      availableModes(subject).forEach(function(mode){
+        const chip=document.createElement("span");
+        chip.className="feature-chip";chip.textContent=mode.label;meta.append(chip);
+      });
+    }else if(subject.status==="comingSoon"){
+      const pending=document.createElement("span");
+      pending.textContent="Chưa có ngân hàng câu hỏi";meta.append(pending);
+    }else if(subject.status==="draft"||subject.copyReviewRequired){
+      const progress=document.createElement("span");
+      progress.textContent=subject.questionCount+"/"+subject.questionTarget+" câu đã biên soạn";
+      meta.append(progress);
+    }else{
+      const unavailable=document.createElement("span");
+      unavailable.textContent="Chưa thể mở chế độ học";meta.append(unavailable);
+    }
+    const action=document.createElement("a");
+    action.className="course-card-action";
+    action.href=serializeRoute({subjectId:subject.id,mode:null});
+    action.setAttribute("aria-describedby",statusId);
+    action.textContent=isReadySubject(subject)?"Xem môn học":"Xem thông tin";
+    card.append(head,title,description,meta,action);
+    fragment.append(card);
+  });
+  $("#courseReadyCount").textContent=readyCount;
+  $("#courseList").replaceChildren(fragment);
+}
+function renderSubjectSwitcher(){
+  const options=SUBJECT_CATALOG.map(function(subject){return new Option(subject.code+" — "+subject.title,subject.id);});
+  const select=$("#subjectSelect");
+  select.replaceChildren.apply(select,options);
+  if(app.subject)select.value=app.subject.id;
+}
+function appendFact(container,labelText,valueText){
+  const fact=document.createElement("div");fact.className="subject-fact";
+  const label=document.createElement("span");label.textContent=labelText;
+  const value=document.createElement("strong");value.textContent=valueText;
+  fact.append(label,value);container.append(fact);
+}
+function renderSubjectOverview(){
+  const subject=app.subject;
+  $("#subjectStatusLabel").textContent=statusText(subject);
+  $("#subjectOverviewHeading").textContent=subject.code+" — "+subject.title;
+  $("#subjectDescription").textContent=subject.description+" "+statusDescription(subject);
+  const facts=document.createDocumentFragment();
+  appendFact(facts,"Ngân hàng",isReadySubject(subject)?formatCount(subject.questionCount,"câu hỏi"):subject.questionCount+"/"+subject.questionTarget+" câu");
+  appendFact(facts,"Nội dung",formatCount(subject.chapters.length,"chương"));
+  appendFact(facts,"Trạng thái",statusText(subject));
+  $("#subjectFacts").replaceChildren(facts);
+
+  const modes=document.createDocumentFragment();
+  availableModes(subject).forEach(function(mode){
+    const link=document.createElement("a");
+    link.className="subject-mode-link";
+    link.href=serializeRoute({subjectId:subject.id,mode:mode.id});
+    link.append(createIcon(mode.icon),document.createTextNode(mode.label));
+    modes.append(link);
+  });
+  $("#subjectModeList").replaceChildren(modes);
+}
+function renderModeNav(activeMode){
+  const modes=availableModes(app.subject);
+  const fragment=document.createDocumentFragment();
+  modes.forEach(function(mode){
+    const button=document.createElement("button");
+    button.type="button";
+    button.dataset.mode=mode.id;
+    const active=mode.id===activeMode;
+    button.classList.toggle("active",active);
+    button.setAttribute("aria-pressed",String(active));
+    if(active)button.setAttribute("aria-current","page");
+    const label=document.createElement("span");label.textContent=mode.label;
+    button.append(createIcon(mode.icon),label);
+    button.onclick=function(){navigate({subjectId:app.subject.id,mode:mode.id});};
+    fragment.append(button);
+  });
+  ui.modeNav.style.setProperty("--mode-count",String(Math.max(1,modes.length)));
+  ui.modeNav.replaceChildren(fragment);
+  setVisible(ui.modeNav,modes.length>0);
+}
+function hideAllPrimaryViews(){
+  setVisible(ui.home,false);
+  setVisible(ui.subjectOverview,false);
+  setVisible(ui.workspaceHeader,false);
+  setVisible(ui.workspaceTitleRow,false);
+  setVisible(ui.modeNav,false);
+  setVisible(ui.study,false);
+  setVisible(ui.search,false);
+  setVisible(ui.lecture,false);
+  setVisible(ui.game,false);
+  ui.modeNav.replaceChildren();
+}
+function syncGameModalInert(active){
+  const overlay=$("#gameQuizOverlay");
+  const main=$("#main");
+  if(!overlay||!main||overlay.classList.contains("hidden"))return;
+  const background=Array.from(main.children).filter(function(node){return node!==overlay.parentElement;})
+    .concat(Array.from(overlay.parentElement.children).filter(function(node){return node!==overlay;}));
+  const skipLink=document.querySelector(".skip-link");
+  if(skipLink)background.push(skipLink);
+  background.forEach(function(node){node.inert=active;});
+  if(active)scheduleFocus(overlay);
+}
+function renderHomeView(){
+  syncGameModalInert(false);
+  hideAllPrimaryViews();
+  app.subject=null;
+  app.questions=EMPTY_QUESTION_BANK;
+  app.lectureManifest=null;
+  app.lectures=[];
+  updatePublicChrome(null);
+  setVisible(ui.home,true);
+  document.body.classList.remove("game-mode");
+  document.body.dataset.mode="home";
+  document.body.dataset.experience="study";
+  document.body.dataset.view="home";
+  document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:"home"}}));
+  scheduleFocus($("#courseHomeHeading"));
+}
+function renderSubjectInfoView(){
+  syncGameModalInert(false);
+  hideAllPrimaryViews();
+  updatePublicChrome(app.subject);
+  renderSubjectOverview();
+  setVisible(ui.workspaceHeader,true);
+  setVisible(ui.subjectOverview,true);
+  if(isReadySubject(app.subject))renderModeNav(null);
+  document.body.classList.remove("game-mode");
+  document.body.dataset.mode="overview";
+  document.body.dataset.experience="study";
+  document.body.dataset.view=isReadySubject(app.subject)?"overview":"subject-info";
+  document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:"overview"}}));
+  scheduleFocus($("#subjectOverviewHeading"));
+}
+
+/* ====== Subject activation and derived indexes ====== */
+function destroyLecturePlayer(){
+  if(lectureLoadTimer!==null){clearTimeout(lectureLoadTimer);lectureLoadTimer=null;}
+  loadedLectureVideoId=null;
+  const shell=$("#lecturePlayerShell");
+  if(shell){shell.dataset.state="idle";shell.replaceChildren();}
+}
+function clearSubjectTransientUi(){
+  destroyLecturePlayer();
+  if(searchDebounceTimer!==null){window.clearTimeout(searchDebounceTimer);searchDebounceTimer=null;}
+  activeLectureIndex=0;
+  $("#lectureList").replaceChildren();
+  $("#searchInput").value="";
+  $("#searchResults").replaceChildren();
+  $("#searchStatus").textContent="Nhập ít nhất 2 ký tự để bắt đầu.";
+  const noPool=$("#noPool");if(noPool)noPool.remove();
+}
+function rebuildSubjectIndexes(){
+  QUESTION_IDS=new Set();
+  QUESTION_BY_ID=new Map();
+  QUESTION_BY_KEY=new Map();
+  SEARCH_TEXT_BY_ID=new Map();
+  CHAPTER_IDS=new Set();
+  DIFFICULTY_VALUES=new Set();
+  CHAPTER_LABEL_BY_ID=new Map();
+  CHAPTER_ID_BY_LABEL=new Map();
+  app.subject.chapters.forEach(function(chapter){
+    CHAPTER_IDS.add(chapter.id);
+    CHAPTER_LABEL_BY_ID.set(chapter.id,chapter.title);
+    CHAPTER_ID_BY_LABEL.set(chapter.title,chapter.id);
+  });
+  app.questions.forEach(function(question){
+    QUESTION_IDS.add(question.id);
+    QUESTION_BY_ID.set(question.id,question);
+    QUESTION_BY_KEY.set(questionKey(app.subject.id,question.id),question);
+    const source=question.source?(question.source.label+" "+question.source.section):"";
+    SEARCH_TEXT_BY_ID.set(question.id,normalizeText([
+      question.stem,question.chapter,question.topic,question.difficulty,
+      question.explanation,source,
+    ].concat(question.options).join(" ")));
+    CHAPTER_IDS.add(question.chapterId);
+    CHAPTER_LABEL_BY_ID.set(question.chapterId,question.chapter);
+    CHAPTER_ID_BY_LABEL.set(question.chapter,question.chapterId);
+    DIFFICULTY_VALUES.add(question.difficulty);
+  });
+}
+function activateSubject(subjectId){
+  const subject=getSubject(subjectId);
+  if(!subject)return false;
+  clearSubjectTransientUi();
+  app.subject=subject;
+  app.questions=isReadySubject(subject)?getQuestionBank(subject.id):EMPTY_QUESTION_BANK;
+  app.lectureManifest=isReadySubject(subject)&&subject.features.lectures===true?getLectures(subject.id):null;
+  app.lectures=Array.isArray(app.lectureManifest&&app.lectureManifest.lectures)?app.lectureManifest.lectures:[];
+  rebuildSubjectIndexes();
+  if(isReadySubject(subject)){
+    app.study=app.memoryStudyBySubject.get(subject.id)||loadSubjectStudy(subject);
+    app.memoryStudyBySubject.set(subject.id,app.study);
+    saveLastSubject(subject);
+  }else{
+    app.study=createEmptyStudyState();
+  }
+  renderSubjectSwitcher();
+  updatePublicChrome(subject);
   return true;
 }
 
+/* ====== Study sessions, filters, and rendering ====== */
+function pruneStudySessions(mode,keepKey){
+  const sessions=app.study.progress.sessions[mode];
+  if(!isPlainRecord(sessions))return;
+  while(Object.keys(sessions).length>MAX_STUDY_SESSIONS_PER_MODE){
+    const staleKey=Object.keys(sessions).find(function(key){return key!==keepKey;});
+    if(staleKey===undefined)break;
+    delete sessions[staleKey];
+  }
+}
+function saveStudySession(shouldPersist){
+  if(!isReadySubject(app.subject)||!STUDY_MODES.has(app.study.mode))return;
+  const current=app.study.pool[app.study.idx];
+  const session={
+    chapterId:app.study.chapterId,
+    difficulty:app.study.difficulty,
+    questionStart:app.study.questionStart,
+    shuffle:app.study.shuffle,
+    onlyMarked:app.study.onlyMarked,
+    onlyWrong:app.study.onlyWrong,
+    pool:app.study.pool.map(function(question){return currentQuestionKey(question);}),
+    idx:app.study.idx,
+    answered:Object.assign(Object.create(null),app.study.answered),
+    flashRevealed:app.study.mode==="flash"&&app.study.flashRevealed===app.study.idx&&current?currentQuestionKey(current):null,
+  };
+  const key=studySessionKey(session);
+  const sessions=app.study.progress.sessions[app.study.mode];
+  if(hasOwn(sessions,key))delete sessions[key];
+  sessions[key]=session;
+  app.study.progress.active[app.study.mode]=key;
+  pruneStudySessions(app.study.mode,key);
+  if(shouldPersist!==false)persistStudyState();
+}
+function restoreStudySession(mode,filters){
+  if(!STUDY_MODES.has(mode))return false;
+  const key=filters?studySessionKey(filters):app.study.progress.active[mode];
+  if(typeof key!=="string")return false;
+  const session=app.study.progress.sessions[mode][key];
+  if(!session){
+    if(app.study.progress.active[mode]===key)app.study.progress.active[mode]=null;
+    return false;
+  }
+  const pool=session.pool.map(questionFromKey);
+  if(pool.some(function(question){return !question;}))return false;
+  app.study.chapterId=session.chapterId;
+  app.study.difficulty=session.difficulty;
+  app.study.questionStart=session.questionStart;
+  app.study.shuffle=session.shuffle;
+  app.study.onlyMarked=session.onlyMarked;
+  app.study.onlyWrong=session.onlyWrong;
+  app.study.pool=pool;
+  app.study.idx=session.idx;
+  app.study.answered=Object.assign(Object.create(null),session.answered);
+  app.study.sessSeen=Object.keys(app.study.answered).length;
+  app.study.sessCorrect=Object.entries(app.study.answered).reduce(function(total,entry){
+    const question=questionFromKey(entry[0]);
+    return total+(question&&question.answer===entry[1]?1:0);
+  },0);
+  const currentKey=pool.length?currentQuestionKey(pool[app.study.idx]):null;
+  app.study.flashRevealed=mode==="flash"&&session.flashRevealed===currentKey?app.study.idx:-1;
+  return true;
+}
+function currentStudyFilters(){
+  return {
+    chapterId:app.study.chapterId,
+    difficulty:app.study.difficulty,
+    questionStart:app.study.questionStart,
+    shuffle:app.study.shuffle,
+    onlyMarked:app.study.onlyMarked,
+    onlyWrong:app.study.onlyWrong,
+  };
+}
+function buildPool(){
+  if(!isReadySubject(app.subject))return;
+  let pool=questionsForFilters(app.study);
+  if(app.study.shuffle)pool=shuffleArr(pool.slice());
+  pool=pool.slice(Math.min(Math.max(1,app.study.questionStart),Math.max(1,pool.length))-1);
+  app.study.pool=pool;
+  app.study.idx=0;
+  app.study.answered=Object.create(null);
+  app.study.sessSeen=0;
+  app.study.sessCorrect=0;
+  app.study.flashRevealed=-1;
+}
+function buildChapterSelect(){
+  const options=[new Option("Tất cả chương","all")];
+  app.subject.chapters.forEach(function(chapter){
+    options.push(new Option("Chương "+chapter.number+" · "+chapter.title+" ("+chapter.questionCount+")",chapter.id));
+  });
+  $("#chapter").replaceChildren.apply($("#chapter"),options);
+}
+function buildDifficultySelect(){
+  const levels=Array.from(DIFFICULTY_VALUES);
+  $("#difficulty").replaceChildren.apply($("#difficulty"),[new Option("Tất cả mức độ","all")].concat(
+    levels.map(function(level){return new Option(level,level);})
+  ));
+}
+function updateStudyFilterSummary(){
+  const chapter=$("#chapter"),difficulty=$("#difficulty");
+  const chapterLabel=chapter.selectedOptions[0]?chapter.selectedOptions[0].textContent.replace(/ \(\d+\)$/u,""):"Tất cả chương";
+  const difficultyLabel=difficulty.selectedOptions[0]?difficulty.selectedOptions[0].textContent:"Tất cả mức độ";
+  $("#studyFilterSummary").textContent=chapterLabel+" · "+difficultyLabel;
+}
 function syncStudyControls(){
-  $("#chapter").value=state.chapter;
-  $("#difficulty").value=state.difficulty;
-  const available=questionsForFilters(state);
+  $("#chapter").value=app.study.chapterId;
+  $("#difficulty").value=app.study.difficulty;
+  const available=questionsForFilters(app.study);
   const max=Math.max(1,available.length);
-  const range=$("#questionCountRange");
-  const input=$("#questionCountInput");
-  range.max=String(max); input.max=String(max);
-  const value=Math.min(Math.max(1,state.questionStart),max);
-  range.value=String(value); input.value=String(value);
-  $("#questionCountHint").textContent=`Từ 1 đến ${max}`;
-  [["#cShuffle",state.shuffle],["#cMarked",state.onlyMarked],["#cWrong",state.onlyWrong]].forEach(([selector,on])=>{
-    const control=$(selector);
+  const value=Math.min(Math.max(1,app.study.questionStart),max);
+  $("#questionCountRange").max=String(max);
+  $("#questionCountRange").value=String(value);
+  $("#questionCountInput").max=String(max);
+  $("#questionCountInput").value=String(value);
+  $("#questionCountHint").textContent=available.length?"Từ 1 đến "+available.length:"Không có câu phù hợp";
+  [["#cShuffle",app.study.shuffle],["#cMarked",app.study.onlyMarked],["#cWrong",app.study.onlyWrong]].forEach(function(entry){
+    const control=$(entry[0]),on=entry[1];
     control.classList.toggle("on",on);
     control.setAttribute("aria-pressed",String(on));
   });
   updateStudyFilterSummary();
 }
-
-function buildChapterSelect(){
-  const sel=$("#chapter");
-  const chaps=[...new Set(QUESTIONS.map(q=>q.chapter))];
-  const options=[new Option("Tất cả chương","all")];
-  chaps.forEach(c=>{
-    const n=QUESTIONS.filter(q=>q.chapter===c).length;
-    options.push(new Option(`${c} (${n})`,c));
-  });
-  sel.replaceChildren(...options);
-}
-
-function buildDifficultySelect(){
-  const sel=$("#difficulty");
-  const levels=[...new Set(QUESTIONS.map(q=>q.difficulty))];
-  sel.replaceChildren(new Option("Tất cả mức độ","all"),...levels.map(level=>new Option(level,level)));
-}
-
-function updateStudyFilterSummary(){
-  const chapter=$("#chapter");
-  const difficulty=$("#difficulty");
-  if(!chapter||!difficulty)return;
-  const chapterLabel=chapter.selectedOptions[0]?.textContent?.replace(/ \(\d+\)$/u,"")||"Tất cả chương";
-  const difficultyLabel=difficulty.selectedOptions[0]?.textContent||"Tất cả mức độ";
-  $("#studyFilterSummary").textContent=`${chapterLabel} · ${difficultyLabel}`;
-}
-
-function buildPool(){
-  let pool=questionsForFilters(state);
-  if(state.shuffle) pool=shuffleArr(pool.slice());
-  pool=pool.slice(Math.min(Math.max(1,state.questionStart),Math.max(1,pool.length))-1);
-  state.pool=pool; state.idx=0; state.answered={};
-  state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
-}
-
-function currentStudyFilters(){
-  return {
-    chapter:state.chapter,
-    difficulty:state.difficulty,
-    questionStart:state.questionStart,
-    shuffle:state.shuffle,
-    onlyMarked:state.onlyMarked,
-    onlyWrong:state.onlyWrong,
-  };
-}
-
-function switchStudyFilters(update){
-  saveStudySession();
+function switchStudyFilters(update,options){
+  if(!STUDY_MODES.has(app.study.mode))return;
+  saveStudySession(false);
   update();
-  if(!restoreStudySession(state.mode,currentStudyFilters())) buildPool();
+  if(!restoreStudySession(app.study.mode,currentStudyFilters()))buildPool();
   syncStudyControls();
   saveStudySession();
-  render();
-  focusQuestion();
+  renderStudy();
+  if(!options||options.focus!==false)focusQuestion();
 }
-
-function renderSourceInto(el,source){
-  el.replaceChildren();
+function renderSourceInto(element,source){
+  element.replaceChildren();
+  if(!source)return;
   const label=document.createElement("b");
   label.textContent="Nguồn:";
-  el.append(label,document.createTextNode(` ${source.file||""}${source.page?` · trang ${source.page}`:""}`));
-  el.append(document.createElement("br"),document.createTextNode(source.text||""));
-  if(source.slide){
-    const slideLabel=document.createElement("b");
-    slideLabel.textContent="Slide bổ trợ:";
-    el.append(document.createElement("br"),slideLabel,document.createTextNode(
-      ` ${source.slide.file||""}${source.slide.number?` · slide ${source.slide.number}`:""}`
-    ));
+  element.append(label,document.createTextNode(" "+(source.label||"Tài liệu học tập")));
+  if(source.section){
+    element.append(document.createElement("br"),document.createTextNode(source.section));
   }
 }
-function renderSource(source){renderSourceInto($("#source"),source);}
-
 function focusQuestion(){
-  if(!$("#card").classList.contains("hidden")) $("#stem").focus({preventScroll:true});
+  if(ui.study.classList.contains("hidden"))return;
+  if(app.study.mode==="flash")scheduleFocus($("#flashCard"));
+  else scheduleFocus($("#stem"));
 }
-
-/* ====== Render quiz/flashcard ====== */
-function render(){
-  const pool=state.pool;
-  $("#studyControls").dataset.studyMode=state.mode;
+function renderStudy(){
+  if(!isReadySubject(app.subject))return;
+  const pool=app.study.pool;
+  ui.study.dataset.studyMode=app.study.mode;
   $("#poolN").textContent=pool.length;
-  $("#markN").textContent=LS.marked.size;
-  $("#seenAll").textContent=Object.values(LS.stats).filter(s=>s.c+s.w>0).length;
-  $("#score").textContent=state.sessCorrect;
-  $("#answered").textContent=state.sessSeen;
-  $("#pct").textContent=state.sessSeen?Math.round(state.sessCorrect/state.sessSeen*100):0;
-
+  $("#markN").textContent=app.study.marked.size;
+  $("#seenAll").textContent=Object.values(app.study.stats).filter(function(stat){return stat.c+stat.w>0;}).length;
+  $("#seenTotal").textContent="/"+app.questions.length;
+  $("#score").textContent=app.study.sessCorrect;
+  $("#answered").textContent=app.study.sessSeen;
+  $("#pct").textContent=app.study.sessSeen?Math.round(app.study.sessCorrect/app.study.sessSeen*100):0;
   if(!pool.length){
     $("#card").classList.add("hidden");
     if(!$("#noPool")){
-      const d=document.createElement("div");d.id="noPool";d.className="empty";
-      d.textContent="Không có câu nào khớp bộ lọc.";
-      $("#studyControls").appendChild(d);
+      const empty=document.createElement("div");
+      empty.id="noPool";empty.className="empty";empty.setAttribute("role","status");
+      empty.textContent="Không có câu nào khớp bộ lọc.";
+      ui.study.append(empty);
     }
     $("#pos").textContent=0;$("#bar").style.width="0%";
     return;
   }
-  if($("#noPool")) $("#noPool").remove();
+  const noPool=$("#noPool");if(noPool)noPool.remove();
   $("#card").classList.remove("hidden");
-
-  const q=pool[state.idx];
-  $("#pos").textContent=state.idx+1;
-  $("#bar").style.width=((state.idx+1)/pool.length*100)+"%";
-  const s=LS.stats[q.id];
-  const stat=s?` · đúng ${s.c} · sai ${s.w}`:"";
-  $("#qtag").textContent=`${q.chapter} · Câu ${q.num}${stat}`;
-  $("#qlevel").textContent=q.difficulty;
-  $("#qtopic").textContent=`${q.topic} · ${KIND_LABELS[q.kind]||q.kind}`;
-  const isFlash=state.mode==="flash";
+  const question=pool[app.study.idx];
+  const key=currentQuestionKey(question);
+  $("#pos").textContent=app.study.idx+1;
+  $("#bar").style.width=((app.study.idx+1)/pool.length*100)+"%";
+  const stat=app.study.stats[key];
+  const statText=stat?" · đúng "+stat.c+" · sai "+stat.w:"";
+  $("#qtag").textContent=question.chapter+" · Câu "+question.num+statText;
+  $("#qlevel").textContent=question.difficulty;
+  $("#qtopic").textContent=question.topic+" · "+(KIND_LABELS[question.kind]||question.kind);
+  const isFlash=app.study.mode==="flash";
   $("#quizCardContent").classList.toggle("hidden",isFlash);
   $("#flashCardContent").classList.toggle("hidden",!isFlash);
-  $("#star").classList.toggle("on",LS.marked.has(q.id));
-  $("#star").setAttribute("aria-pressed",String(LS.marked.has(q.id)));
-  $("#star").title=LS.marked.has(q.id)?"Bỏ đánh dấu câu này":"Đánh dấu câu khó";
+  const marked=app.study.marked.has(key);
+  $("#star").classList.toggle("on",marked);
+  $("#star").setAttribute("aria-pressed",String(marked));
+  $("#star").title=marked?"Bỏ đánh dấu câu này":"Đánh dấu câu khó";
   $("#star").setAttribute("aria-label",$("#star").title);
-  $("#stem").textContent=q.stem;
+  $("#stem").textContent=question.stem;
   $("#feedback").textContent="";$("#feedback").className="feedback";
   $("#review").classList.add("hidden");
   $("#explanation").textContent="";$("#source").replaceChildren();
 
-  const chosen=state.answered[q.id]; // session choice
-  const reveal = state.mode==="flash" ? (state.flashRevealed===state.idx) : (chosen!==undefined);
+  const chosen=app.study.answered[key];
+  const reveal=isFlash?app.study.flashRevealed===app.study.idx:chosen!==undefined;
   if(isFlash){
     $("#flashCard").classList.toggle("is-revealed",reveal);
-    $("#flashCard").setAttribute("aria-label",reveal?"Lật thẻ để xem lại câu hỏi":"Lật thẻ để xem đáp án");
-    $("#flashPrompt").textContent=q.stem;
-    $("#flashAnswer").textContent=`${LETTERS[q.answer]}. ${q.options[q.answer]}`;
-    $("#flashExplanation").textContent=q.explanation||"";
-    $("#flashSource").replaceChildren();
-    if(q.source) renderSourceInto($("#flashSource"),q.source);
+    $("#flashCard").setAttribute("aria-pressed",String(reveal));
+    $("#flashFront").setAttribute("aria-hidden",String(reveal));
+    $("#flashBack").setAttribute("aria-hidden",String(!reveal));
+    $("#flashPrompt").textContent=question.stem;
+    $("#flashAnswer").textContent=LETTERS[question.answer]+". "+question.options[question.answer];
+    $("#flashExplanation").textContent=question.explanation||"";
+    renderSourceInto($("#flashSource"),question.source);
   }
 
-  const optsEl=$("#opts");optsEl.replaceChildren();
-  q.options.forEach((opt,i)=>{
-    const b=document.createElement("button");
-    b.className="opt";
-    b.type="button";
-    const label=document.createElement("span");label.className="lbl";label.textContent=`${LETTERS[i]}.`;
-    const answer=document.createElement("span");answer.textContent=opt;
-    b.append(label,answer);
-    b.setAttribute("aria-label",`${LETTERS[i]}. ${opt}`);
+  const options=$("#opts");options.replaceChildren();
+  question.options.forEach(function(option,index){
+    const button=document.createElement("button");
+    button.className="opt";button.type="button";
+    const label=document.createElement("span");label.className="lbl";label.textContent=LETTERS[index]+".";
+    const answer=document.createElement("span");answer.textContent=option;
+    button.append(label,answer);
+    button.setAttribute("aria-label",LETTERS[index]+". "+option);
     if(reveal){
-      b.classList.add("locked");
-      b.disabled=true;
-      if(i===q.answer) b.classList.add("correct");
-      else if(i===chosen) b.classList.add("wrong");
-    }else if(state.mode==="quiz"){
-      b.onclick=()=>choose(q,i);
+      button.classList.add("locked");button.disabled=true;
+      if(index===question.answer)button.classList.add("correct");
+      else if(index===chosen)button.classList.add("wrong");
+    }else if(app.study.mode==="quiz"){
+      button.onclick=function(){choose(question,index);};
     }else{
-      b.classList.add("locked");
-      b.disabled=true;
+      button.classList.add("locked");button.disabled=true;
     }
-    optsEl.appendChild(b);
+    options.append(button);
   });
 
-  // feedback line
-  if(state.mode==="quiz" && chosen!==undefined){
-    const ok=chosen===q.answer;
-    $("#feedback").textContent=ok?"Chính xác · Bạn đã chọn đúng đáp án.":`Chưa chính xác · Đáp án đúng: ${LETTERS[q.answer]}.`;
-    $("#feedback").className="feedback "+(ok?"ok":"bad");
-  }else if(state.mode==="flash" && reveal){
-    $("#feedback").textContent=`Đáp án: ${LETTERS[q.answer]}. ${q.options[q.answer]}`;
+  if(app.study.mode==="quiz"&&chosen!==undefined){
+    const correct=chosen===question.answer;
+    $("#feedback").textContent=correct?"Chính xác · Bạn đã chọn đúng đáp án.":"Chưa chính xác · Đáp án đúng: "+LETTERS[question.answer]+".";
+    $("#feedback").className="feedback "+(correct?"ok":"bad");
+  }else if(isFlash&&reveal){
+    $("#feedback").textContent="Đáp án: "+LETTERS[question.answer]+". "+question.options[question.answer];
     $("#feedback").className="feedback ok";
   }
-  if(reveal && q.source){
+  if(reveal&&question.source){
     $("#review").classList.remove("hidden");
-    $("#explanation").textContent=q.explanation;
-    renderSource(q.source);
+    $("#explanation").textContent=question.explanation;
+    renderSourceInto($("#source"),question.source);
   }
-  // flashcard reveal control via nextBtn label handled below
-  $("#prevBtn").disabled=state.idx===0;
-  $("#nextLabel").textContent = (state.mode==="flash" && !reveal) ? "Hiện đáp án"
-      : (state.idx===pool.length-1?"Làm lại từ đầu":"Câu sau");
+  $("#prevBtn").disabled=app.study.idx===0;
+  $("#nextLabel").textContent=isFlash&&!reveal?"Hiện đáp án":(app.study.idx===pool.length-1?"Làm lại từ đầu":"Câu sau");
 }
-
-function choose(q,i){
-  if(state.answered[q.id]!==undefined) return;
-  state.answered[q.id]=i;
-  const ok=i===q.answer;
-  const st=LS.stat(q.id); ok?st.c++:st.w++; LS.save();
-  state.sessSeen++; if(ok) state.sessCorrect++;
-  saveStudySession();
-  render();
-  $("#feedback").focus({preventScroll:true});
+function studyStat(key){
+  return app.study.stats[key]||(app.study.stats[key]={c:0,w:0});
 }
-
-function next(){
-  if(state.mode==="flash" && state.flashRevealed!==state.idx){
-    state.flashRevealed=state.idx; saveStudySession(); render(); return;
-  }
-  if(state.idx<state.pool.length-1){
-    state.idx++;state.flashRevealed=-1;saveStudySession();render();focusQuestion();return;
-  }
-  state.idx=0;state.answered={};state.sessSeen=0;state.sessCorrect=0;state.flashRevealed=-1;
-  if(state.shuffle) state.pool=shuffleArr(state.pool.slice());
+function choose(question,index){
+  const key=currentQuestionKey(question);
+  if(app.study.answered[key]!==undefined)return;
+  app.study.answered[key]=index;
+  const correct=index===question.answer;
+  const stat=studyStat(key);
+  if(correct)stat.c++;else stat.w++;
+  app.study.sessSeen++;if(correct)app.study.sessCorrect++;
   saveStudySession();
-  render();focusQuestion();
+  renderStudy();
+  scheduleFocus($("#feedback"));
+}
+function nextQuestion(){
+  if(app.study.mode==="flash"&&app.study.flashRevealed!==app.study.idx){
+    app.study.flashRevealed=app.study.idx;saveStudySession();renderStudy();return;
+  }
+  if(app.study.idx<app.study.pool.length-1){
+    app.study.idx++;app.study.flashRevealed=-1;saveStudySession();renderStudy();focusQuestion();return;
+  }
+  app.study.idx=0;app.study.answered=Object.create(null);app.study.sessSeen=0;app.study.sessCorrect=0;app.study.flashRevealed=-1;
+  if(app.study.shuffle)app.study.pool=shuffleArr(app.study.pool.slice());
+  saveStudySession();renderStudy();focusQuestion();
+}
+function previousQuestion(){
+  if(app.study.idx>0){app.study.idx--;app.study.flashRevealed=-1;saveStudySession();renderStudy();focusQuestion();}
 }
 function toggleFlashcard(){
-  if(state.mode!=="flash"||!state.pool.length)return;
-  state.flashRevealed=state.flashRevealed===state.idx?-1:state.idx;
-  saveStudySession(); render();
+  if(app.study.mode!=="flash"||!app.study.pool.length)return;
+  app.study.flashRevealed=app.study.flashRevealed===app.study.idx?-1:app.study.idx;
+  saveStudySession();renderStudy();
 }
-function prev(){
-  if(state.idx>0){state.idx--;state.flashRevealed=-1;saveStudySession();render();focusQuestion();}
-}
-
 function toggleStar(){
-  const q=state.pool[state.idx]; if(!q)return;
-  LS.marked.has(q.id)?LS.marked.delete(q.id):LS.marked.add(q.id);
-  LS.save();
-  if(state.onlyMarked) buildPool();
+  const question=app.study.pool[app.study.idx];if(!question)return;
+  const key=currentQuestionKey(question);
+  if(app.study.marked.has(key))app.study.marked.delete(key);else app.study.marked.add(key);
+  if(app.study.onlyMarked)buildPool();
+  saveStudySession();renderStudy();
+}
+function enterStudyMode(mode){
+  app.study.mode=mode;
+  buildChapterSelect();
+  buildDifficultySelect();
+  const pending=app.pendingStudyFilters&&app.pendingStudyFilters.subjectId===app.subject.id?app.pendingStudyFilters:null;
+  app.pendingStudyFilters=null;
+  if(pending){
+    app.study.chapterId=CHAPTER_IDS.has(pending.chapterId)?pending.chapterId:"all";
+    app.study.difficulty="all";
+    app.study.questionStart=1;
+    app.study.onlyMarked=false;
+    app.study.onlyWrong=false;
+    if(!restoreStudySession(mode,currentStudyFilters()))buildPool();
+  }else if(!restoreStudySession(mode)){
+    buildPool();
+  }
+  syncStudyControls();
   saveStudySession();
-  render();
+  renderStudy();
 }
 
 /* ====== Search ====== */
-function normalizeText(s){
-  return String(s??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\u0111/g,"d").replace(/\u0110/g,"D").toLowerCase();
+function normalizeText(value){
+  return String(value===undefined||value===null?"":value).normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\u0111/g,"d").replace(/\u0110/g,"D").toLowerCase();
 }
-function appendHighlighted(parent,text,kw){
-  const value=String(text??"");
-  if(!kw){parent.append(document.createTextNode(value));return;}
-  const re=new RegExp("("+kw.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","gi");
-  value.split(re).forEach((part,index)=>{
-    if(!part)return;
-    if(index%2===1){const mark=document.createElement("mark");mark.textContent=part;parent.append(mark);}
-    else parent.append(document.createTextNode(part));
-  });
+function appendHighlighted(parent,text,keyword){
+  const value=String(text===undefined||text===null?"":text);
+  const needle=normalizeText(keyword);
+  if(!needle){parent.append(document.createTextNode(value));return;}
+  let folded="",offset=0;
+  const spans=[];
+  for(const character of value){
+    const part=normalizeText(character);
+    for(let index=0;index<part.length;index++){
+      folded+=part[index];
+      spans.push([offset,offset+character.length]);
+    }
+    offset+=character.length;
+  }
+  let sourceIndex=0,searchIndex=0,matched=false;
+  while(searchIndex<folded.length){
+    const matchIndex=folded.indexOf(needle,searchIndex);
+    if(matchIndex<0||!spans[matchIndex]||!spans[matchIndex+needle.length-1])break;
+    const start=spans[matchIndex][0],end=spans[matchIndex+needle.length-1][1];
+    if(start<sourceIndex){searchIndex=matchIndex+needle.length;continue;}
+    if(start>sourceIndex)parent.append(document.createTextNode(value.slice(sourceIndex,start)));
+    const mark=document.createElement("mark");mark.textContent=value.slice(start,end);parent.append(mark);
+    matched=true;sourceIndex=end;searchIndex=matchIndex+needle.length;
+  }
+  if(sourceIndex<value.length)parent.append(document.createTextNode(value.slice(sourceIndex)));
+  if(!matched&&value.length===0)parent.append(document.createTextNode(value));
 }
-function renderSearchEmpty(box,message){
-  const empty=document.createElement("div");empty.className="empty";empty.textContent=message;box.replaceChildren(empty);
+function renderSearchEmpty(container,message){
+  const empty=document.createElement("div");empty.className="empty";empty.textContent=message;container.replaceChildren(empty);
 }
 function doSearch(){
-  const kw=$("#searchInput").value.trim();
-  const box=$("#searchResults");
-  const status=$("#searchStatus");
-  if(kw.length<2){
-    renderSearchEmpty(box,"Gõ ít nhất 2 ký tự để tìm.");
+  if(!isReadySubject(app.subject))return;
+  const keyword=$("#searchInput").value.trim();
+  app.study.searchQuery=keyword;
+  rememberStudyState();
+  const results=$("#searchResults"),status=$("#searchStatus");
+  if(keyword.length<2){
+    renderSearchEmpty(results,"Gõ ít nhất 2 ký tự để tìm.");
     status.textContent="Nhập ít nhất 2 ký tự để tìm kiếm.";
     return;
   }
-  const low=normalizeText(kw);
-  const res=QUESTIONS.filter(q=>{
-    const src=q.source?`${q.source.file} ${q.source.text} ${q.source.page||""}`:"";
-    const searchable=[q.stem,q.chapter,q.topic,q.difficulty,q.explanation,src,...q.options].map(normalizeText);
-    return searchable.some(value=>value.includes(low));
-  });
-  if(!res.length){
-    renderSearchEmpty(box,"Không tìm thấy câu nào.");
+  const normalized=normalizeText(keyword);
+  const matches=app.questions.filter(function(question){return (SEARCH_TEXT_BY_ID.get(question.id)||"").includes(normalized);});
+  if(!matches.length){
+    renderSearchEmpty(results,"Không tìm thấy câu nào.");
     status.textContent="Không có kết quả tìm kiếm.";
     return;
   }
-  status.textContent=`Tìm thấy ${res.length} kết quả.`;
+  status.textContent="Tìm thấy "+matches.length+" kết quả.";
   const fragment=document.createDocumentFragment();
   let previousChapter="";
-  res.slice(0,80).forEach(q=>{
-    if(q.chapter!==previousChapter){
-      const heading=document.createElement("h2");heading.className="search-chapter-heading";heading.textContent=q.chapter;fragment.append(heading);previousChapter=q.chapter;
+  matches.slice(0,80).forEach(function(question){
+    if(question.chapter!==previousChapter){
+      const heading=document.createElement("h3");heading.className="search-chapter-heading";heading.textContent=question.chapter;
+      fragment.append(heading);previousChapter=question.chapter;
     }
-    const row=document.createElement("article");row.className="result";row.dataset.questionId=q.id;
-    const meta=document.createElement("div");meta.className="meta";meta.textContent=`Câu ${q.num} · ${q.difficulty} · ${q.topic}`;
-    const stem=document.createElement("div");stem.className="stem";appendHighlighted(stem,q.stem,kw);
-    const answer=document.createElement("div");answer.className="ans";answer.append(document.createTextNode(`${LETTERS[q.answer]}. `));appendHighlighted(answer,q.options[q.answer],kw);
-    const explanation=document.createElement("div");explanation.className="explain";appendHighlighted(explanation,q.explanation,kw);
+    const row=document.createElement("article");row.className="result";row.dataset.questionId=question.id;
+    const meta=document.createElement("div");meta.className="meta";meta.textContent="Câu "+question.num+" · "+question.difficulty+" · "+question.topic;
+    const stem=document.createElement("div");stem.className="stem";appendHighlighted(stem,question.stem,keyword);
+    const answer=document.createElement("div");answer.className="ans";answer.append(document.createTextNode(LETTERS[question.answer]+". "));appendHighlighted(answer,question.options[question.answer],keyword);
+    const explanation=document.createElement("div");explanation.className="explain";appendHighlighted(explanation,question.explanation,keyword);
     row.append(meta,stem,answer,explanation);
-    if(q.source){const source=document.createElement("div");source.className="meta";source.textContent=`Nguồn: ${q.source.file||""}${q.source.page?` · trang ${q.source.page}`:""}`;row.append(source);}
+    if(question.source){
+      const source=document.createElement("div");source.className="meta";
+      source.textContent="Nguồn: "+question.source.label+(question.source.section?" · "+question.source.section:"");
+      row.append(source);
+    }
     fragment.append(row);
   });
-  if(res.length>80){const more=document.createElement("div");more.className="empty";more.textContent=`Còn ${res.length-80} kết quả khác. Hãy nhập từ khóa cụ thể hơn.`;fragment.append(more);}
-  box.replaceChildren(fragment);
+  if(matches.length>80){
+    const more=document.createElement("div");more.className="empty";more.textContent="Còn "+(matches.length-80)+" kết quả khác. Hãy nhập từ khóa cụ thể hơn.";
+    fragment.append(more);
+  }
+  results.replaceChildren(fragment);
+}
+function scheduleSearch(){
+  if(searchDebounceTimer!==null)window.clearTimeout(searchDebounceTimer);
+  app.study.searchQuery=$("#searchInput").value.trim();
+  rememberStudyState();
+  searchDebounceTimer=window.setTimeout(function(){
+    searchDebounceTimer=null;
+    if(app.route.mode==="search")doSearch();
+  },SEARCH_DEBOUNCE_MS);
+}
+function enterSearchMode(){
+  $("#searchLabel").textContent="Tìm trong ngân hàng "+app.questions.length+" câu hỏi";
+  $("#searchInput").value=app.study.searchQuery||"";
+  doSearch();
 }
 
 /* ====== Video lectures ====== */
-let activeLectureIndex=0;
-let loadedLectureVideoId=null;
-let lectureLoadTimer=null;
-
 function formatLectureDuration(seconds){
   const minutes=Math.floor(seconds/60);
-  return `${minutes}:${String(seconds%60).padStart(2,"0")}`;
+  return minutes+":"+String(seconds%60).padStart(2,"0");
 }
-
+function formatLectureTotal(seconds){
+  const hours=Math.floor(seconds/3600);
+  const minutes=Math.round((seconds%3600)/60);
+  return hours?hours+" giờ "+minutes+" phút":minutes+" phút";
+}
 function clearLectureLoadTimer(){
-  if(lectureLoadTimer!==null){
-    clearTimeout(lectureLoadTimer);
-    lectureLoadTimer=null;
-  }
+  if(lectureLoadTimer!==null){clearTimeout(lectureLoadTimer);lectureLoadTimer=null;}
 }
-
-function createLectureStatus(kind,titleText,hintText,retry=false){
+function createLectureStatus(kind,titleText,hintText,retry){
   const placeholder=document.createElement("div");
   placeholder.className="lecture-player-placeholder";
   placeholder.dataset.kind=kind;
   placeholder.setAttribute("role","status");
   placeholder.setAttribute("aria-live","polite");
   const content=document.createElement("div");
-  const icon=document.createElementNS("http://www.w3.org/2000/svg","svg");
-  icon.setAttribute("class","ui-icon");
-  icon.setAttribute("aria-hidden","true");
-  const use=document.createElementNS("http://www.w3.org/2000/svg","use");
-  use.setAttribute("href","#ui-icon-circle-play");
-  icon.append(use);
-  const title=document.createElement("strong");
-  title.textContent=titleText;
-  const hint=document.createElement("span");
-  hint.textContent=hintText;
-  content.append(icon,title,hint);
+  content.append(createIcon("circle-play"));
+  const title=document.createElement("strong");title.textContent=titleText;
+  const hint=document.createElement("span");hint.textContent=hintText;
+  content.append(title,hint);
   if(retry){
     const button=document.createElement("button");
-    button.type="button";
-    button.className="lecture-retry";
-    button.textContent="Thử lại";
-    button.onclick=()=>{
-      loadedLectureVideoId=null;
-      loadLecturePlayer();
-    };
+    button.type="button";button.className="lecture-retry";button.textContent="Thử lại";
+    button.onclick=function(){loadedLectureVideoId=null;loadLecturePlayer();};
     content.append(button);
   }
   placeholder.append(content);
   return placeholder;
 }
-
 function renderLecturePlaceholder(){
   clearLectureLoadTimer();
   const shell=$("#lecturePlayerShell");
   shell.dataset.state="idle";
-  shell.replaceChildren(createLectureStatus(
-    "idle",
-    "Sẵn sàng phát bài giảng",
-    "Video chỉ được tải khi bạn mở mục Bài giảng.",
-  ));
+  shell.replaceChildren(createLectureStatus("idle","Sẵn sàng phát bài giảng","Video chỉ được tải khi bạn mở mục Bài giảng.",false));
 }
-
 function renderLectureError(){
   clearLectureLoadTimer();
   const shell=$("#lecturePlayerShell");
   shell.dataset.state="error";
-  shell.replaceChildren(createLectureStatus(
-    "error",
-    "Không thể tải bài giảng",
-    "Hãy kiểm tra kết nối, thử lại hoặc mở video trực tiếp trên YouTube.",
-    true,
-  ));
+  shell.replaceChildren(createLectureStatus("error","Không thể tải bài giảng","Hãy kiểm tra kết nối, thử lại hoặc mở video trực tiếp trên YouTube.",true));
 }
-
 function lectureEmbedUrl(lecture){
-  const params=new URLSearchParams({
-    hl:"vi",
-    playsinline:"1",
-    rel:"0",
-    cc_lang_pref:"vi",
-  });
-  return `https://www.youtube-nocookie.com/embed/${lecture.videoId}?${params}`;
+  const params=new URLSearchParams({hl:"vi",playsinline:"1",rel:"0",cc_lang_pref:"vi"});
+  return "https://www.youtube-nocookie.com/embed/"+encodeURIComponent(lecture.videoId)+"?"+params.toString();
 }
-
 function loadLecturePlayer(){
-  const lecture=LECTURE_ITEMS[activeLectureIndex];
+  const lecture=app.lectures[activeLectureIndex];
   if(!lecture||loadedLectureVideoId===lecture.videoId)return;
   clearLectureLoadTimer();
-  if(navigator.onLine===false){
-    renderLectureError();
-    return;
-  }
+  if(navigator.onLine===false){renderLectureError();return;}
   const shell=$("#lecturePlayerShell");
   const frame=document.createElement("iframe");
   frame.src=lectureEmbedUrl(lecture);
-  frame.title=`Bài giảng Chương ${lecture.chapterNum}: ${lecture.title}`;
+  frame.title="Bài giảng Chương "+lecture.chapterNum+": "+lecture.title;
   frame.loading="lazy";
   frame.referrerPolicy="strict-origin-when-cross-origin";
   frame.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
   frame.allowFullscreen=true;
   loadedLectureVideoId=lecture.videoId;
   shell.dataset.state="loading";
-  const loading=createLectureStatus(
-    "loading",
-    "Đang tải bài giảng…",
-    "Trình phát YouTube sẽ xuất hiện sau ít giây.",
-  );
-  frame.addEventListener("load",()=>{
+  const loading=createLectureStatus("loading","Đang tải bài giảng…","Trình phát YouTube sẽ xuất hiện sau ít giây.",false);
+  frame.addEventListener("load",function(){
     if(!frame.isConnected||loadedLectureVideoId!==lecture.videoId)return;
-    clearLectureLoadTimer();
-    shell.dataset.state="ready";
-    loading.remove();
+    clearLectureLoadTimer();shell.dataset.state="ready";loading.remove();
   },{once:true});
-  frame.addEventListener("error",()=>{
-    if(loadedLectureVideoId===lecture.videoId)renderLectureError();
-  },{once:true});
+  frame.addEventListener("error",function(){if(loadedLectureVideoId===lecture.videoId)renderLectureError();},{once:true});
   shell.replaceChildren(frame,loading);
-  lectureLoadTimer=setTimeout(()=>{
-    if(shell.dataset.state==="loading"&&loadedLectureVideoId===lecture.videoId){
-      loadedLectureVideoId=null;
-      renderLectureError();
-    }
-  },15_000);
+  lectureLoadTimer=setTimeout(function(){
+    if(shell.dataset.state==="loading"&&loadedLectureVideoId===lecture.videoId){loadedLectureVideoId=null;renderLectureError();}
+  },15000);
 }
-
-function stopLecturePlayback(){
-  loadedLectureVideoId=null;
-  renderLecturePlaceholder();
-}
-
-function selectLecture(index,loadPlayer=state.mode==="lecture"){
-  const lecture=LECTURE_ITEMS[index];
-  if(!lecture)return;
+function selectLecture(index,loadPlayer){
+  const lecture=app.lectures[index];if(!lecture)return;
   activeLectureIndex=index;
-  $("#lectureCurrentChapter").textContent=`Chương ${lecture.chapterNum}`;
+  $("#lectureCurrentChapter").textContent="Chương "+lecture.chapterNum;
   $("#lectureCurrentDuration").textContent=formatLectureDuration(lecture.durationSeconds);
   $("#lectureCurrentTitle").textContent=lecture.title;
   $("#lectureCurrentSummary").textContent=lecture.summary;
-  $("#lectureVideoLink").href=`https://youtu.be/${lecture.videoId}`;
-  document.querySelectorAll(".lecture-item").forEach((button,itemIndex)=>{
+  $("#lectureVideoLink").href="https://youtu.be/"+encodeURIComponent(lecture.videoId);
+  document.querySelectorAll(".lecture-item").forEach(function(button,itemIndex){
     const active=itemIndex===index;
     button.classList.toggle("active",active);
     button.setAttribute("aria-pressed",String(active));
     const meta=button.querySelector(".lecture-item-meta");
-    if(meta)meta.textContent=active
-      ? `Đang xem · ${formatLectureDuration(LECTURE_ITEMS[itemIndex].durationSeconds)}`
-      : `Chương ${LECTURE_ITEMS[itemIndex].chapterNum} · ${formatLectureDuration(LECTURE_ITEMS[itemIndex].durationSeconds)}`;
+    if(meta)meta.textContent=active?"Đang xem · "+formatLectureDuration(app.lectures[itemIndex].durationSeconds):"Chương "+app.lectures[itemIndex].chapterNum+" · "+formatLectureDuration(app.lectures[itemIndex].durationSeconds);
     if(active)button.setAttribute("aria-current","true");else button.removeAttribute("aria-current");
   });
   if(loadPlayer)loadLecturePlayer();
 }
-
 function renderLectureCatalog(){
   const fragment=document.createDocumentFragment();
-  LECTURE_ITEMS.forEach((lecture,index)=>{
+  app.lectures.forEach(function(lecture,index){
     const button=document.createElement("button");
-    button.type="button";
-    button.className="lecture-item";
-    button.setAttribute("aria-pressed","false");
-    button.onclick=()=>selectLecture(index,true);
-
-    const thumb=document.createElement("span");
-    thumb.className="lecture-thumb";
+    button.type="button";button.className="lecture-item";button.setAttribute("aria-pressed","false");
+    button.onclick=function(){selectLecture(index,true);};
+    const thumb=document.createElement("span");thumb.className="lecture-thumb";
     const image=document.createElement("img");
-    image.src=`https://i.ytimg.com/vi/${lecture.videoId}/mqdefault.jpg`;
-    image.alt="";
-    image.loading="lazy";
-    image.referrerPolicy="no-referrer";
-    const number=document.createElement("span");
-    number.className="lecture-thumb-number";
-    number.textContent=String(lecture.chapterNum).padStart(2,"0");
+    image.src="https://i.ytimg.com/vi/"+encodeURIComponent(lecture.videoId)+"/mqdefault.jpg";
+    image.alt="";image.loading="lazy";image.referrerPolicy="no-referrer";
+    const number=document.createElement("span");number.className="lecture-thumb-number";number.textContent=String(lecture.chapterNum).padStart(2,"0");
     thumb.append(image,number);
-
-    const copy=document.createElement("span");
-    copy.className="lecture-item-copy";
-    const title=document.createElement("span");
-    title.className="lecture-item-title";
-    title.textContent=lecture.title;
-    const meta=document.createElement("span");
-    meta.className="lecture-item-meta";
-    meta.textContent=`Chương ${lecture.chapterNum} · ${formatLectureDuration(lecture.durationSeconds)}`;
-    copy.append(title,meta);
-    button.append(thumb,copy);
-    fragment.append(button);
+    const copy=document.createElement("span");copy.className="lecture-item-copy";
+    const title=document.createElement("span");title.className="lecture-item-title";title.textContent=lecture.title;
+    const meta=document.createElement("span");meta.className="lecture-item-meta";meta.textContent="Chương "+lecture.chapterNum+" · "+formatLectureDuration(lecture.durationSeconds);
+    copy.append(title,meta);button.append(thumb,copy);fragment.append(button);
   });
   $("#lectureList").replaceChildren(fragment);
-  selectLecture(activeLectureIndex,false);
+  if(app.lectures.length)selectLecture(Math.min(activeLectureIndex,app.lectures.length-1),false);
 }
-
-/* ====== Mode switching ====== */
-function setMode(m){
-  const previousMode=state.mode;
-  if(STUDY_MODES.has(state.mode)) saveStudySession();
-  if(previousMode==="lecture"&&m!=="lecture")stopLecturePlayback();
-  state.mode=m;
-  document.querySelectorAll(".tabs button").forEach(b=>{
-    const active=b.dataset.mode===m;
-    b.classList.toggle("active",active);
-    b.setAttribute("aria-pressed",String(active));
-  });
-  const search=m==="search";
-  const game=m==="game";
-  const lecture=m==="lecture";
-  $("#studyControls").classList.toggle("hidden",search||game||lecture);
-  $("#searchPanel").classList.toggle("hidden",!search);
-  $("#lecturePanel").classList.toggle("hidden",!lecture);
-  $("#gameRoot").classList.toggle("hidden",!game);
-  document.body.classList.toggle("game-mode",game);
-  document.body.dataset.mode=m;
-  document.body.dataset.experience=game?"game":"study";
-  document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:m}}));
-  $("#scoreWrap").style.display = m==="quiz" ? "" : "none";
-  if(game){if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();}
-  else if(search){doSearch();}else{
-    if(lecture){selectLecture(activeLectureIndex,true);return;}
-    if(!restoreStudySession(m)) buildPool();
-    syncStudyControls();
-    saveStudySession();
-    render();focusQuestion();
-  }
-}
-
-/* ====== Wire up ====== */
-function init(){
-  $("#total").textContent=QUESTIONS.length;
-  buildChapterSelect();
-  buildDifficultySelect();
+function enterLectureMode(){
+  const totalSeconds=app.lectures.reduce(function(total,lecture){return total+lecture.durationSeconds;},0);
+  $("#lectureHeading").textContent="Video bài giảng theo "+app.lectures.length+" chương";
+  $("#lectureHeroCopy").textContent=app.lectures.length+" bài giảng · "+formatLectureTotal(totalSeconds)+". Xem nội dung cốt lõi rồi chuyển thẳng sang luyện câu hỏi của từng chương.";
+  $("#lectureCatalogCount").textContent=app.lectures.length+" bài";
+  const playlistId=app.lectureManifest&&app.lectureManifest.playlistId;
+  $("#lecturePlaylistLink").href=playlistId?"https://www.youtube.com/playlist?list="+encodeURIComponent(playlistId):"#";
+  $("#lecturePlaylistLink").classList.toggle("hidden",!playlistId);
   renderLecturePlaceholder();
   renderLectureCatalog();
-  $("#lecturePlaylistLink").href=`https://www.youtube.com/playlist?list=${LECTURE_CATALOG.playlistId}`;
-  document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
-  $("#chapter").onchange=e=>switchStudyFilters(()=>{state.chapter=e.target.value;});
-  $("#difficulty").onchange=e=>switchStudyFilters(()=>{state.difficulty=e.target.value;});
-  $("#studyFilterToggle").onclick=e=>{
-    const toolbar=e.currentTarget.closest(".study-toolbar");
+  if(app.lectures.length)selectLecture(activeLectureIndex,true);
+  else $("#lecturePlayerShell").replaceChildren(createLectureStatus("idle","Chưa có bài giảng","Danh mục video của môn học này đang được cập nhật.",false));
+}
+
+/* ====== Route application and mode lifecycle ====== */
+function renderWorkspace(mode){
+  hideAllPrimaryViews();
+  updatePublicChrome(app.subject);
+  renderModeNav(mode);
+  setVisible(ui.workspaceHeader,true);
+  setVisible(ui.workspaceTitleRow,true);
+  setVisible(ui.modeNav,true);
+  $("#workspaceHeading").textContent=MODE_BY_ID[mode].label+" · "+app.subject.title;
+  $("#workspaceCourseCode").textContent=app.subject.code;
+  const isGame=mode==="game";
+  document.body.classList.toggle("game-mode",isGame);
+  document.body.dataset.mode=mode;
+  document.body.dataset.experience=isGame?"game":"study";
+  document.body.dataset.view="workspace";
+  setVisible(ui.study,mode==="quiz"||mode==="flash");
+  setVisible(ui.search,mode==="search");
+  setVisible(ui.lecture,mode==="lecture");
+  setVisible(ui.game,isGame);
+  if(mode==="quiz"||mode==="flash")enterStudyMode(mode);
+  else if(mode==="search")enterSearchMode();
+  else if(mode==="lecture")enterLectureMode();
+  document.dispatchEvent(new CustomEvent("mln222:mode-change",{detail:{mode:mode}}));
+  if(isGame){
+    syncGameModalInert(true);
+    if(globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();
+    scheduleFocus($("#workspaceHeading"));
+  }else if(mode==="search")scheduleFocus($("#searchInput"));
+  else if(mode==="lecture")scheduleFocus($("#lectureHeading"));
+  else focusQuestion();
+}
+function commitCurrentRoute(){
+  if(isReadySubject(app.subject)&&STUDY_MODES.has(app.study.mode))saveStudySession();
+  else if(isReadySubject(app.subject))rememberStudyState();
+}
+function applyRoute(route){
+  if(routeEquals(app.route,route))return;
+  const previousRoute=app.route;
+  const previousSubject=app.subject;
+  const subjectChanged=previousRoute.subjectId!==route.subjectId;
+  const leavingLecture=previousRoute.mode==="lecture"&&(route.mode!=="lecture"||subjectChanged);
+  const leavingGame=previousRoute.mode==="game"&&(route.mode!=="game"||subjectChanged);
+  if(previousSubject&&(subjectChanged||previousRoute.mode!==route.mode))commitCurrentRoute();
+  if(leavingLecture)destroyLecturePlayer();
+  if(leavingGame)syncGameModalInert(false);
+  app.route={subjectId:route.subjectId,mode:route.mode,chapterId:"all",difficulty:"all"};
+  if(!route.subjectId){renderHomeView();return;}
+  if(subjectChanged||!app.subject||app.subject.id!==route.subjectId){
+    if(!activateSubject(route.subjectId)){renderHomeView();return;}
+  }
+  $("#subjectSelect").value=app.subject.id;
+  if(isReadySubject(app.subject))saveLastSubject(app.subject);
+  if(!isReadySubject(app.subject)||!route.mode){renderSubjectInfoView();return;}
+  renderWorkspace(route.mode);
+}
+
+/* ====== Static event wiring ====== */
+function init(){
+  renderCourseHome();
+  $("#subjectSelect").onchange=function(event){navigate({subjectId:event.target.value,mode:null});};
+  $("#chapter").onchange=function(event){switchStudyFilters(function(){app.study.chapterId=event.target.value;});};
+  $("#difficulty").onchange=function(event){switchStudyFilters(function(){app.study.difficulty=event.target.value;});};
+  $("#studyFilterToggle").onclick=function(event){
+    const toolbar=event.currentTarget.closest(".study-toolbar");
     const expanded=toolbar.dataset.filtersExpanded!=="true";
     toolbar.dataset.filtersExpanded=String(expanded);
-    e.currentTarget.setAttribute("aria-expanded",String(expanded));
-    e.currentTarget.title=expanded?"Đóng bộ lọc":"Mở bộ lọc";
-    e.currentTarget.setAttribute("aria-label",e.currentTarget.title);
+    event.currentTarget.setAttribute("aria-expanded",String(expanded));
+    event.currentTarget.title=expanded?"Đóng bộ lọc":"Mở bộ lọc";
+    event.currentTarget.setAttribute("aria-label",event.currentTarget.title);
   };
-  $("#cShuffle").onclick=()=>switchStudyFilters(()=>{state.shuffle=!state.shuffle;});
-  $("#cMarked").onclick=()=>switchStudyFilters(()=>{state.onlyMarked=!state.onlyMarked;});
-  $("#cWrong").onclick=()=>switchStudyFilters(()=>{state.onlyWrong=!state.onlyWrong;});
-  const updateQuestionStart=value=>{
-    const max=Number($("#questionCountInput").max)||QUESTIONS.length;
-    const nextValue=Math.min(Math.max(1,Number(value)||1),max);
-    switchStudyFilters(()=>{state.questionStart=nextValue;});
+  $("#cShuffle").onclick=function(){switchStudyFilters(function(){app.study.shuffle=!app.study.shuffle;});};
+  $("#cMarked").onclick=function(){switchStudyFilters(function(){app.study.onlyMarked=!app.study.onlyMarked;});};
+  $("#cWrong").onclick=function(){switchStudyFilters(function(){app.study.onlyWrong=!app.study.onlyWrong;});};
+  const previewQuestionStart=function(value){
+    const max=Number($("#questionCountInput").max)||app.questions.length;
+    const parsed=Number(value);
+    const integer=Number.isFinite(parsed)?Math.trunc(parsed):1;
+    const nextValue=Math.min(Math.max(1,integer),max);
+    $("#questionCountRange").value=String(nextValue);
+    $("#questionCountInput").value=String(nextValue);
+    return nextValue;
   };
-  $("#questionCountRange").oninput=e=>updateQuestionStart(e.target.value);
-  $("#questionCountInput").onchange=e=>updateQuestionStart(e.target.value);
+  const commitQuestionStart=function(value){
+    const nextValue=previewQuestionStart(value);
+    if(nextValue===app.study.questionStart){syncStudyControls();return;}
+    switchStudyFilters(function(){app.study.questionStart=nextValue;},{focus:false});
+  };
+  $("#questionCountRange").oninput=function(event){previewQuestionStart(event.target.value);};
+  $("#questionCountRange").onchange=function(event){commitQuestionStart(event.target.value);};
+  $("#questionCountInput").onchange=function(event){commitQuestionStart(event.target.value);};
   $("#flashCard").onclick=toggleFlashcard;
-  $("#flashCard").onkeydown=e=>{
-    if(e.key==="Enter"||e.key===" "){e.preventDefault();toggleFlashcard();}
-  };
-  $("#prevBtn").onclick=prev; $("#nextBtn").onclick=next; $("#star").onclick=toggleStar;
-  $("#resetBtn").onclick=()=>{
-    if(confirm("Xoá toàn bộ tiến độ, thống kê và câu đánh dấu?")){
-      LS.clear();
-      LS.marked=new Set();LS.stats={};studyProgress=emptyStudyProgress();
-      state.sessSeen=0;state.sessCorrect=0;
-      buildPool();saveStudySession();render();
+  $("#prevBtn").onclick=previousQuestion;
+  $("#nextBtn").onclick=nextQuestion;
+  $("#star").onclick=toggleStar;
+  $("#resetBtn").onclick=function(){
+    if(!isReadySubject(app.subject))return;
+    if(confirm("Xoá tiến độ, thống kê và câu đánh dấu của "+app.subject.code+"?")){
+      const currentMode=app.route.mode;
+      removeActiveStudyStorage();
+      app.study=createEmptyStudyState();
+      app.memoryStudyBySubject.set(app.subject.id,app.study);
+      if(STUDY_MODES.has(currentMode)){
+        app.study.mode=currentMode;buildPool();syncStudyControls();saveStudySession();renderStudy();
+      }else if(currentMode==="search")enterSearchMode();
+      announce("Đã đặt lại tiến độ của "+app.subject.code+".","success");
     }
   };
-  $("#searchInput").oninput=doSearch;
-  $("#lectureQuizBtn").onclick=()=>{
-    const lecture=LECTURE_ITEMS[activeLectureIndex];
-    setMode("quiz");
-    switchStudyFilters(()=>{
-      state.chapter=lecture.chapterValue;
-      state.difficulty="all";
-      state.questionStart=1;
-      state.onlyMarked=false;
-      state.onlyWrong=false;
-    });
+  $("#searchInput").oninput=scheduleSearch;
+  $("#lectureQuizBtn").onclick=function(){
+    const lecture=app.lectures[activeLectureIndex];if(!lecture)return;
+    app.pendingStudyFilters={subjectId:app.subject.id,chapterId:lecture.chapterId};
+    navigate({subjectId:app.subject.id,mode:"quiz"});
   };
-  document.onkeydown=e=>{
-    if(state.mode==="search" || state.mode==="game" || state.mode==="lecture" || (e.target instanceof Element && e.target.closest("input,select,textarea,button,a")))return;
-    if(e.key==="ArrowRight"){e.preventDefault();next();}
-    else if(e.key==="ArrowLeft"){e.preventDefault();prev();}
-    else if(["1","2","3","4"].includes(e.key) && state.mode==="quiz"){
-      e.preventDefault();
-      const q=state.pool[state.idx]; if(q && state.answered[q.id]===undefined) choose(q,+e.key-1);
+  document.onkeydown=function(event){
+    if(!STUDY_MODES.has(app.route.mode)||(event.target instanceof Element&&event.target.closest("input,select,textarea,button,a")))return;
+    if(event.key==="ArrowRight"){event.preventDefault();nextQuestion();}
+    else if(event.key==="ArrowLeft"){event.preventDefault();previousQuestion();}
+    else if(["1","2","3","4"].includes(event.key)&&app.route.mode==="quiz"){
+      event.preventDefault();
+      const question=app.study.pool[app.study.idx];
+      const key=currentQuestionKey(question);
+      if(question&&app.study.answered[key]===undefined)choose(question,Number(event.key)-1);
     }
   };
-  document.body.dataset.mode="quiz";
-  document.body.dataset.experience="study";
-  if(!restoreStudySession("quiz")) buildPool();
-  syncStudyControls();
-  saveStudySession();
-  render();
+  window.addEventListener("hashchange",handleLocation);
+  window.addEventListener("pagehide",commitCurrentRoute);
+  document.addEventListener("visibilitychange",function(){if(document.visibilityState==="hidden")commitCurrentRoute();});
+  handleLocation();
 }
-window.addEventListener("pagehide",saveStudySession);
-document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden")saveStudySession();});
 init();
 </script>
 <script>
 globalThis.MLN222_GAME_DATA = /*__GAME_DATA__*/{};
 /*__GAME_SCRIPTS__*/
+if(document.body.dataset.mode==="game"&&globalThis.MLN222GameUI)globalThis.MLN222GameUI.activate();
 </script>
 </body>
 </html>

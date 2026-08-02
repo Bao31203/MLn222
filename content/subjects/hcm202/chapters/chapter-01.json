@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "HCM202-C01-Q001",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Khái niệm tư tưởng Hồ Chí Minh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, tư tưởng Hồ Chí Minh được xác định trước hết là gì?",
+    "options": [
+      "Hệ thống quan điểm toàn diện, sâu sắc về cách mạng Việt Nam",
+      "Một tập hợp hồi ức riêng lẻ về cuộc đời hoạt động cách mạng của Hồ Chí Minh",
+      "Một học thuyết chỉ giải thích các vấn đề văn hóa của xã hội Việt Nam",
+      "Một danh mục các chủ trương được ban hành trong từng thời kỳ lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Khái niệm nhấn mạnh tính hệ thống, toàn diện và sâu sắc của các quan điểm về những vấn đề cơ bản của cách mạng Việt Nam. Vì vậy, không thể thu hẹp tư tưởng Hồ Chí Minh thành hồi ức, một lĩnh vực đơn lẻ hay danh mục chủ trương.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ nhất: bản chất và nội dung",
+      "text": "Giáo trình xác định tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện, sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q002",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Cơ sở hình thành tư tưởng Hồ Chí Minh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tổ hợp nào nêu đúng các cơ sở hình thành tư tưởng Hồ Chí Minh được chỉ ra trong khái niệm của giáo trình?",
+    "options": [
+      "Chủ nghĩa Mác – Lênin và kinh nghiệm hoạt động thực tiễn của Hồ Chí Minh",
+      "Giá trị truyền thống dân tộc và kinh nghiệm đấu tranh của phong trào công nhân",
+      "Chủ nghĩa Mác – Lênin, giá trị truyền thống dân tộc và tinh hoa văn hóa nhân loại",
+      "Chủ nghĩa Mác – Lênin, truyền thống dân tộc và thành tựu khoa học kỹ thuật hiện đại"
+    ],
+    "answer": 2,
+    "explanation": "Khái niệm của giáo trình nêu đúng ba cơ sở là chủ nghĩa Mác – Lênin, các giá trị truyền thống dân tộc và tinh hoa văn hóa nhân loại. Các tổ hợp còn lại bỏ sót hoặc thay một cơ sở bằng yếu tố không thuộc danh mục này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ hai: cơ sở hình thành",
+      "text": "Cơ sở hình thành gồm chủ nghĩa Mác – Lênin, các giá trị truyền thống tốt đẹp của dân tộc và tinh hoa văn hóa nhân loại."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q003",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Mục tiêu cơ bản của cách mạng Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục tiêu khái quát nào thuộc nội dung cơ bản của tư tưởng Hồ Chí Minh theo giáo trình?",
+    "options": [
+      "Một nước Việt Nam hòa bình, thống nhất, độc lập, giàu mạnh và trung lập trước cách mạng thế giới",
+      "Một nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và góp phần vào cách mạng thế giới",
+      "Một nước Việt Nam hòa bình, thống nhất, dân chủ, giàu mạnh và phụ thuộc vào định hướng từ bên ngoài",
+      "Một nước Việt Nam hòa bình, độc lập, dân chủ, giàu mạnh và phát triển theo mục tiêu riêng của từng vùng"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình xác định đồng thời các yêu cầu hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và đóng góp cho cách mạng thế giới. Mỗi tổ hợp còn lại làm thiếu hoặc thay đổi một thành tố của mục tiêu tổng thể.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ nhất: bản chất và nội dung",
+      "text": "Hệ thống quan điểm hướng tới một Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và có đóng góp quốc tế."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q004",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa của tư tưởng Hồ Chí Minh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình khẳng định ý nghĩa khái quát nào của tư tưởng Hồ Chí Minh đối với Đảng và dân tộc Việt Nam?",
+    "options": [
+      "Là hệ thống lý luận riêng biệt được đặt cao hơn các nền tảng tư tưởng khác của cách mạng Việt Nam",
+      "Chủ yếu cung cấp tư liệu tiểu sử để nghiên cứu một nhân vật lịch sử",
+      "Chỉ có giá trị khi Hồ Chí Minh trực tiếp lãnh đạo và chấm dứt vai trò khi hoàn cảnh lịch sử thay đổi",
+      "Là tài sản tinh thần vô cùng to lớn, quý giá và soi đường cho sự nghiệp cách mạng"
+    ],
+    "answer": 3,
+    "explanation": "Tư tưởng Hồ Chí Minh được khẳng định là tài sản tinh thần vô cùng to lớn và quý giá của Đảng, dân tộc, có vai trò soi đường cho sự nghiệp cách mạng. Giá trị ấy không bị giới hạn ở tư liệu tiểu sử hay một giai đoạn lịch sử.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ ba: ý nghĩa",
+      "text": "Tư tưởng Hồ Chí Minh là tài sản tinh thần vô cùng to lớn, quý giá và soi đường cho sự nghiệp cách mạng của nhân dân Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q005",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Tính hệ thống của tư tưởng Hồ Chí Minh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách hiểu nào phản ánh đúng nhất từ “hệ thống” trong khái niệm tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Các quan điểm được tập hợp theo từng chủ đề, còn quan hệ nội tại giữa chúng chưa phải nội dung cần xác định",
+      "Các quan điểm liên hệ thành một chỉnh thể, phản ánh những vấn đề có tính quy luật của cách mạng Việt Nam",
+      "Các quan điểm được sắp theo thời gian nhằm tái hiện đầy đủ diễn biến hoạt động của Hồ Chí Minh",
+      "Các quan điểm được chọn theo giá trị của từng phát biểu để phục vụ riêng từng nhiệm vụ cách mạng"
+    ],
+    "answer": 1,
+    "explanation": "Tính hệ thống nằm ở quan hệ nội tại giữa các quan điểm trong một chỉnh thể, qua đó phản ánh những vấn đề có tính quy luật của cách mạng Việt Nam. Việc tập hợp theo chủ đề, thời gian hoặc từng phát biểu chưa xác lập được chỉnh thể ấy.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ nhất: bản chất và nội dung",
+      "text": "Tính hệ thống thể hiện ở chỉnh thể quan điểm toàn diện, sâu sắc phản ánh những vấn đề có tính quy luật của cách mạng Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q006",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Bản chất khoa học và cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Biểu hiện nào cho thấy đồng thời bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Khái quát quy luật và chỉ ra mục tiêu, con đường, lực lượng, phương pháp cách mạng phù hợp",
+      "Mô tả các sự kiện lịch sử mà không xác định mục tiêu và con đường cách mạng",
+      "Đề cao mục tiêu cách mạng nhưng không cần cơ sở lý luận hay điều kiện thực tiễn",
+      "Giải thích xã hội bằng những nhận xét riêng lẻ, không liên kết thành hệ thống quan điểm"
+    ],
+    "answer": 0,
+    "explanation": "Tính khoa học nằm ở việc nhận thức toàn diện, sâu sắc và khái quát quy luật; tính cách mạng thể hiện ở định hướng mục tiêu cùng con đường, lực lượng và phương pháp để cải biến thực tiễn. Hai mặt này gắn bó chứ không tách rời nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ nhất: bản chất và nội dung",
+      "text": "Bản chất khoa học và cách mạng thể hiện qua hệ thống quan điểm về quy luật, mục tiêu, con đường, lực lượng và phương pháp cách mạng Việt Nam."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q007",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa các cơ sở hình thành",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào diễn đạt đúng quan hệ giữa chủ nghĩa Mác – Lênin với các nguồn hình thành khác của tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Chủ nghĩa Mác – Lênin cung cấp phương pháp, còn truyền thống dân tộc giữ vai trò cơ sở lý luận cơ bản nhất",
+      "Truyền thống dân tộc là cơ sở cơ bản nhất, tinh hoa nhân loại giúp xác định con đường cách mạng Việt Nam",
+      "Ba nguồn có vị trí ngang nhau và được tiếp nhận nguyên trạng trong điều kiện thực tiễn Việt Nam",
+      "Chủ nghĩa Mác – Lênin là cơ sở cơ bản nhất, đồng thời kế thừa truyền thống dân tộc và tinh hoa văn hóa nhân loại"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình xác định chủ nghĩa Mác – Lênin là cơ sở cơ bản nhất, đồng thời ghi nhận truyền thống dân tộc và tinh hoa văn hóa nhân loại là hai nguồn quan trọng. Các nhận định khác đảo thứ bậc hoặc xem ba nguồn được tiếp nhận mà thiếu sự vận dụng sáng tạo.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ hai: cơ sở hình thành",
+      "text": "Chủ nghĩa Mác – Lênin là giá trị cơ bản nhất; truyền thống dân tộc và tinh hoa văn hóa nhân loại cũng là những nguồn hình thành quan trọng."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q008",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Nền tảng tư tưởng và kim chỉ nam",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo giáo trình, vị trí của tư tưởng Hồ Chí Minh trong nền tảng tư tưởng của Đảng được hiểu như thế nào?",
+    "options": [
+      "Là tư liệu lịch sử, không có vai trò định hướng hành động cách mạng",
+      "Là nền tảng duy nhất nên chủ nghĩa Mác – Lênin không còn vai trò chỉ dẫn",
+      "Cùng với chủ nghĩa Mác – Lênin, cấu thành nền tảng tư tưởng và kim chỉ nam cho hành động",
+      "Chỉ là hệ thống kinh nghiệm lịch sử, không có giá trị chỉ dẫn đối với thực tiễn"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình đặt tư tưởng Hồ Chí Minh trong mối quan hệ cùng với chủ nghĩa Mác – Lênin để cấu thành nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng và cách mạng Việt Nam. Không thể tuyệt đối hóa hoặc hạ thấp một trong hai thành tố.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ ba: ý nghĩa",
+      "text": "Cùng với chủ nghĩa Mác – Lênin, tư tưởng Hồ Chí Minh là bộ phận cấu thành nền tảng tư tưởng và kim chỉ nam cho hành động."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q009",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng nội hàm khái niệm",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm học tập lấy một câu nói riêng lẻ, bỏ qua các quan điểm liên quan rồi xem đó là toàn bộ tư tưởng Hồ Chí Minh về cách mạng Việt Nam. Nhóm nên điều chỉnh cách làm thế nào?",
+    "options": [
+      "Đặt câu nói trong hệ thống quan điểm, liên hệ mục tiêu, con đường, lực lượng và phương pháp cách mạng",
+      "Đối chiếu câu nói với các phát biểu cùng chủ đề rồi chọn văn bản có thời điểm gần nhất làm kết luận",
+      "Phân tích hoàn cảnh ra đời của câu nói và dùng hoàn cảnh đó làm phạm vi đầy đủ của hệ thống tư tưởng",
+      "Sắp xếp câu nói bên cạnh các mốc tiểu sử để xác định vai trò của nó trong quá trình hoạt động của Người"
+    ],
+    "answer": 0,
+    "explanation": "Một câu nói phải được đặt trong chỉnh thể các quan điểm và mục tiêu cách mạng liên quan mới phản ánh đúng tính hệ thống. Đối chiếu niên đại, hoàn cảnh hoặc tiểu sử là cần thiết nhưng chưa thay thế việc xác định quan hệ nội tại với toàn bộ hệ thống.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > I. Khái niệm Tư tưởng Hồ Chí Minh > Nội hàm thứ nhất: bản chất và nội dung",
+      "text": "Các quan điểm của Hồ Chí Minh tạo thành hệ thống toàn diện, sâu sắc chứ không phải tập hợp những phát biểu biệt lập."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q010",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Đối tượng nghiên cứu của môn học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào thuộc đối tượng nghiên cứu trực tiếp của môn Tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Hệ thống sự kiện lịch sử gắn với cuộc đời Hồ Chí Minh trong tiến trình cách mạng Việt Nam",
+      "Hệ thống quan điểm của Hồ Chí Minh được thể hiện trong toàn bộ di sản của Người",
+      "Hệ thống văn kiện của Đảng được ban hành trong thời kỳ đổi mới và hội nhập quốc tế",
+      "Hệ thống công trình của các học giả bình luận về cuộc đời và sự nghiệp Hồ Chí Minh"
+    ],
+    "answer": 1,
+    "explanation": "Đối tượng trực tiếp trước hết là hệ thống quan điểm của Hồ Chí Minh được thể hiện trong di sản của Người. Sự kiện tiểu sử, văn kiện thuộc một giai đoạn hoặc công trình bình luận có thể là tư liệu hỗ trợ nhưng không thay cho đối tượng này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > II. Đối tượng nghiên cứu > Hệ thống quan điểm trong di sản Hồ Chí Minh",
+      "text": "Đối tượng nghiên cứu gồm toàn bộ quan điểm của Hồ Chí Minh được thể hiện trong di sản của Người."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q011",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Hình thức biểu hiện của di sản tư tưởng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hệ thống quan điểm của Hồ Chí Minh được phản ánh qua những hình thức nào theo giáo trình?",
+    "options": [
+      "Qua bài nói, bài viết và các tác phẩm lý luận đã được xuất bản của Người",
+      "Qua hoạt động cách mạng, công tác chỉ đạo và các quyết định chính trị của Người",
+      "Qua cuộc sống hằng ngày, phong cách ứng xử và hồi ức của những người cộng tác",
+      "Qua bài nói, bài viết, hoạt động cách mạng và cuộc sống hằng ngày của Người"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình nhận diện hệ thống quan điểm qua đủ bốn hình thức: bài nói, bài viết, hoạt động cách mạng và cuộc sống hằng ngày. Ba phương án còn lại đều phản ánh một phần tư liệu nhưng chưa bao quát các hình thức được nêu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > II. Đối tượng nghiên cứu > Hệ thống quan điểm trong di sản Hồ Chí Minh",
+      "text": "Hệ thống quan điểm được phản ánh trong bài nói, bài viết, hoạt động cách mạng và cuộc sống hằng ngày của Hồ Chí Minh."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q012",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quá trình hiện thực hóa tư tưởng Hồ Chí Minh",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao đối tượng môn học không dừng ở việc thống kê các quan điểm trong di sản Hồ Chí Minh?",
+    "options": [
+      "Vì còn phải nghiên cứu quá trình tư tưởng được hiện thực hóa, vận dụng và phát triển sáng tạo trong thực tiễn",
+      "Vì môn học chủ yếu thay việc nghiên cứu quan điểm bằng ghi nhớ các sự kiện lịch sử theo thời gian",
+      "Vì các quan điểm chỉ có ý nghĩa khi tách khỏi điều kiện mới và giữ nguyên cách áp dụng ban đầu",
+      "Vì đối tượng chính là đánh giá đời tư thay cho nghiên cứu những vấn đề lý luận và thực tiễn"
+    ],
+    "answer": 0,
+    "explanation": "Đối tượng môn học có hai chiều gắn bó: hệ thống quan điểm trong di sản và quá trình hệ thống ấy vận động trong thực tiễn, được hiện thực hóa, vận dụng, phát triển sáng tạo trong điều kiện mới. Chỉ thống kê văn bản sẽ bỏ mất chiều vận động này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > II. Đối tượng nghiên cứu > Quá trình hiện thực hóa, vận dụng và phát triển",
+      "text": "Đối tượng còn bao gồm quá trình hệ thống quan điểm vận động trong thực tiễn và được cách mạng Việt Nam vận dụng, phát triển sáng tạo."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q013",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa di sản và hoạt động thực tiễn",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng phạm vi “di sản tư tưởng” với phạm vi “quá trình vận động trong thực tiễn”?",
+    "options": [
+      "Di sản cho thấy kết quả vận dụng qua từng thời kỳ; quá trình vận động cho thấy các hình thức biểu hiện ban đầu",
+      "Di sản và quá trình vận động cùng mô tả hình thức biểu hiện, khác nhau chủ yếu ở loại tư liệu sử dụng",
+      "Di sản biểu hiện hệ thống quan điểm; quá trình vận động phản ánh việc hiện thực hóa và phát triển hệ thống ấy",
+      "Di sản cho thấy các quan điểm gốc; quá trình vận động thay đổi nội dung của chúng theo từng chủ thể tiếp nhận"
+    ],
+    "answer": 2,
+    "explanation": "Di sản là nơi hệ thống quan điểm được biểu hiện, còn quá trình vận động phản ánh việc hệ thống ấy được hiện thực hóa, vận dụng và phát triển trong thực tiễn. Các phương án khác đảo hai phạm vi, đồng nhất chúng hoặc hiểu phát triển thành thay đổi tùy chủ thể.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > II. Đối tượng nghiên cứu > Quá trình hiện thực hóa, vận dụng và phát triển",
+      "text": "Môn học vừa nghiên cứu hệ thống quan điểm trong di sản, vừa nghiên cứu quá trình hệ thống ấy được hiện thực hóa và phát triển trong thực tiễn."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q014",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Xác định phạm vi tư liệu nghiên cứu",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề tài chỉ đọc các bài viết đã xuất bản rồi kết luận về toàn bộ tư tưởng Hồ Chí Minh, không xem xét hoạt động chỉ đạo và đời sống hằng ngày của Người. Cách khắc phục phù hợp nhất là gì?",
+    "options": [
+      "Mở rộng sang các tác phẩm cùng thời kỳ và đối chiếu cách dùng thuật ngữ giữa các văn bản",
+      "Đối chiếu kết luận với công trình nghiên cứu thứ cấp và nhận xét của những người cùng thời",
+      "Kết hợp văn bản với hoạt động, đời sống và quá trình tư tưởng đi vào thực tiễn",
+      "Bổ sung các sự kiện trong đời Hồ Chí Minh rồi sắp xếp chúng theo trình tự thời gian"
+    ],
+    "answer": 2,
+    "explanation": "Đối tượng nghiên cứu bao gồm cả các hình thức biểu hiện trong di sản và quá trình hiện thực hóa trong thực tiễn. Mở rộng thêm văn bản, tư liệu thứ cấp hoặc tiểu sử vẫn chưa khắc phục được thiếu sót nếu đề tài chưa nghiên cứu hoạt động, đời sống và sự vận động của tư tưởng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > II. Đối tượng nghiên cứu > Hệ thống quan điểm và quá trình hiện thực hóa",
+      "text": "Di sản tư tưởng được phản ánh cả trong văn bản, hoạt động, đời sống và quá trình vận động của các quan điểm trong thực tiễn."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q015",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Thống nhất tính đảng và tính khoa học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yêu cầu cốt lõi của quan điểm thống nhất tính đảng và tính khoa học là gì?",
+    "options": [
+      "Tạm gác lập trường để giữ tính khách quan",
+      "Giữ vững lập trường và bảo đảm tính khách quan, khoa học",
+      "Dùng lập trường thay cho việc kiểm tra chứng cứ và phân tích khách quan",
+      "Chỉ bảo đảm hình thức trích dẫn mà không cần xem xét tính đúng đắn của luận đề"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình yêu cầu nghiên cứu trên lập trường giai cấp công nhân, quan điểm chủ nghĩa Mác – Lênin và đường lối của Đảng, đồng thời phải bảo đảm tính khách quan, khoa học. Thiếu một trong hai mặt đều không đạt nguyên tắc thống nhất.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.a Thống nhất tính đảng và tính khoa học",
+      "text": "Nghiên cứu phải giữ vững lập trường, quan điểm đồng thời bảo đảm tính khách quan và khoa học của các luận đề."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q016",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vai trò của tính đảng và tính khoa học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, sự thống nhất tính đảng và tính khoa học giúp người nghiên cứu đạt kết quả nào?",
+    "options": [
+      "Hiểu rõ và hiểu sâu sắc tư tưởng Hồ Chí Minh",
+      "Thay việc phân tích bằng việc ghi nhớ các kết luận có sẵn",
+      "Loại bỏ yêu cầu xem xét khách quan các luận đề",
+      "Tách tư tưởng Hồ Chí Minh khỏi chủ nghĩa Mác – Lênin"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình coi đây là nguyên tắc rất cơ bản và khẳng định chỉ trên cơ sở thống nhất tính đảng với tính khoa học, người nghiên cứu mới có thể hiểu rõ, hiểu sâu sắc tư tưởng Hồ Chí Minh.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.a Thống nhất tính đảng và tính khoa học",
+      "text": "Sự thống nhất chặt chẽ giữa tính đảng và tính khoa học là cơ sở để hiểu rõ, sâu sắc tư tưởng Hồ Chí Minh."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q017",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Bảo đảm khách quan trong nghiên cứu",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Sự thống nhất tính đảng và tính khoa học đòi hỏi người nghiên cứu kết hợp những yêu cầu nào?",
+    "options": [
+      "Đặt yêu cầu khách quan làm cơ sở phân tích, còn lập trường được sử dụng chủ yếu khi hình thành kết luận",
+      "Quán triệt đường lối và quan điểm của Đảng để định hướng trước nội dung mà chứng cứ cần chứng minh",
+      "Giữ lập trường phương pháp luận và ưu tiên những chứng cứ phù hợp với nhận định nghiên cứu ban đầu",
+      "Giữ lập trường giai cấp công nhân, quan điểm Mác – Lênin và bảo đảm các luận đề khách quan, khoa học"
+    ],
+    "answer": 3,
+    "explanation": "Nguyên tắc yêu cầu đồng thời đứng trên lập trường giai cấp công nhân, quan điểm Mác – Lênin, quán triệt đường lối của Đảng và bảo đảm tính khách quan, khoa học của luận đề. Tách hai yêu cầu hoặc định hướng chứng cứ theo kết luận có sẵn đều làm mất sự thống nhất này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.a Thống nhất tính đảng và tính khoa học",
+      "text": "Giữ vững lập trường phải đi liền với yêu cầu khách quan, khoa học trong nhận thức và phân tích các quan điểm."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q018",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Thống nhất lý luận và thực tiễn",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan hệ giữa lý luận và thực tiễn được giáo trình trình bày như thế nào?",
+    "options": [
+      "Lý luận tự hình thành, không cần khái quát kinh nghiệm thực tiễn",
+      "Thực tiễn được khái quát thành lý luận và lý luận trở lại chỉ đạo thực tiễn",
+      "Thực tiễn chỉ dùng để minh họa sau khi lý luận đã hoàn toàn cố định",
+      "Lý luận và thực tiễn là hai lĩnh vực độc lập, không tác động lẫn nhau"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình nhấn mạnh mối quan hệ hai chiều: thực tiễn được xem xét, so sánh, khái quát thành lý luận; lý luận chân chính lại chỉ phương hướng cho hoạt động thực tế. Tuyệt đối hóa một phía đều dẫn đến sai lầm.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.b Thống nhất lý luận và thực tiễn",
+      "text": "Thực tiễn được khái quát thành lý luận, còn lý luận đóng vai trò chỉ đạo hoạt động thực tiễn."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q019",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Hai khuynh hướng tách rời lý luận và thực tiễn",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách phân biệt nào đúng giữa “khinh lý luận” và “lý luận suông”?",
+    "options": [
+      "Khinh lý luận là vận dụng máy móc sách vở; lý luận suông là tổng kết kinh nghiệm thành kết luận khoa học",
+      "Khinh lý luận là kiểm nghiệm lý luận; lý luận suông là điều chỉnh nhận thức theo điều kiện khách quan",
+      "Khinh lý luận là chỉ dựa kinh nghiệm; lý luận suông là học lý luận mà không đưa vào thực hành",
+      "Khinh lý luận và lý luận suông đều là sự thống nhất đúng đắn giữa nhận thức với hành động"
+    ],
+    "answer": 2,
+    "explanation": "Người chỉ có kinh nghiệm mà thiếu lý luận dễ chủ quan, không cân nhắc đúng điều kiện; người học nhiều lý luận nhưng không áp dụng vào công việc rơi vào lý luận suông. Hai lệch lạc đối lập này cùng phá vỡ sự thống nhất lý luận – thực tiễn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.b Thống nhất lý luận và thực tiễn",
+      "text": "Giáo trình phê phán cả bệnh khinh lý luận do chỉ dựa kinh nghiệm và bệnh lý luận suông do không áp dụng kiến thức vào thực tế."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q020",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng quan hệ lý luận – thực tiễn",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm đề xuất giải pháp giáo dục chỉ từ khái niệm trong sách, không khảo sát điều kiện thực tế và cũng không đánh giá kết quả áp dụng. Nhóm cần làm gì để bảo đảm thống nhất lý luận với thực tiễn?",
+    "options": [
+      "Khảo sát điều kiện thực tế, vận dụng lý luận để thử nghiệm, đánh giá kết quả và điều chỉnh giải pháp",
+      "Khảo sát thực tế để mô tả vấn đề, sau đó giữ giải pháp lý luận đã có làm kết luận cuối cùng",
+      "Tổng hợp kinh nghiệm của các thành viên, chọn cách được dùng nhiều nhất rồi triển khai giải pháp",
+      "Bổ sung cơ sở lý luận cho giải pháp và đánh giá tính chặt chẽ bằng tranh luận trong nhóm"
+    ],
+    "answer": 0,
+    "explanation": "Thống nhất lý luận với thực tiễn đòi hỏi xuất phát từ thực tế, dùng lý luận chỉ đạo hành động, rồi trở lại thực tế để kiểm nghiệm và điều chỉnh. Khảo sát mà giữ sẵn kết luận, dựa vào kinh nghiệm phổ biến hoặc tranh luận nội bộ đều thiếu một mắt xích của quá trình này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.b Thống nhất lý luận và thực tiễn",
+      "text": "Lý luận chân chính phải được hình thành từ thực tế, chỉ đạo công việc và được chứng minh trở lại bằng thực tế."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q021",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan điểm lịch sử – cụ thể",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan điểm lịch sử – cụ thể yêu cầu xem xét sự vật, hiện tượng theo cách nào?",
+    "options": [
+      "Xem sự vật trong quá trình xuất hiện, phát triển và trạng thái hiện nay",
+      "Xem trạng thái hiện tại như kết quả chính, dùng quá khứ để bổ sung bối cảnh cho phần mô tả",
+      "Xác định một khuôn phân tích chung rồi áp dụng ổn định cho các giai đoạn phát triển",
+      "So sánh sự vật với những hiện tượng cùng thời điểm để rút ra đặc điểm nổi bật"
+    ],
+    "answer": 0,
+    "explanation": "Quan điểm lịch sử – cụ thể đòi hỏi truy xét sự vật xuất hiện ra sao, trải qua các giai đoạn phát triển nào và hiện đã trở thành thế nào. Mô tả hiện trạng, dùng một khuôn ổn định hoặc so sánh đồng đại chưa tái hiện được quá trình lịch sử ấy.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.c Quan điểm lịch sử – cụ thể",
+      "text": "Sự vật cần được xem trong mối liên hệ lịch sử, quá trình xuất hiện, các giai đoạn phát triển và trạng thái hiện tại."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q022",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Dấu ấn phát triển lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao không nên giải thích một quan điểm của Hồ Chí Minh mà bỏ qua thời điểm và giai đoạn phát triển của nó?",
+    "options": [
+      "Vì hoàn cảnh giúp xác định niên đại và phân loại tư liệu trước bước phân tích nội dung quan điểm",
+      "Vì quan điểm phản ánh nhiệm vụ từng thời kỳ nên giá trị của nó phụ thuộc mức độ gần với hiện tại",
+      "Vì giai đoạn ra đời quyết định hình thức diễn đạt, còn nội dung cốt lõi có thể đọc độc lập với bối cảnh",
+      "Vì tư tưởng mang dấu ấn của quá trình phát triển lịch sử, sáng tạo và đổi mới qua từng giai đoạn"
+    ],
+    "answer": 3,
+    "explanation": "Bối cảnh không dừng ở việc xác định niên đại hay hình thức diễn đạt; nó cho thấy quan điểm hình thành và phát triển sáng tạo theo nhiệm vụ lịch sử. Bỏ quá trình ấy dễ làm sai lệch bản chất và ý nghĩa của luận điểm.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.c Quan điểm lịch sử – cụ thể",
+      "text": "Tư tưởng Hồ Chí Minh mang dấu ấn của quá trình phát triển lịch sử, phát triển sáng tạo và đổi mới."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q023",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng quan điểm lịch sử – cụ thể",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một bài tiểu luận đặt hai chỉ dẫn ra đời ở hai giai đoạn khác nhau cạnh nhau rồi kết luận chúng mâu thuẫn, nhưng không phân tích nhiệm vụ và hoàn cảnh từng giai đoạn. Cách sửa phù hợp nhất là gì?",
+    "options": [
+      "Xác định chỉ dẫn ra đời sớm hơn rồi dùng nó làm chuẩn để đánh giá chỉ dẫn còn lại",
+      "So sánh câu chữ, thuật ngữ và mức độ phổ biến của mỗi chỉ dẫn trước khi kết luận về quan hệ",
+      "Phục dựng hoàn cảnh, nhiệm vụ, giai đoạn phát triển của từng chỉ dẫn rồi đánh giá quan hệ giữa chúng",
+      "Xếp hai chỉ dẫn vào cùng chủ đề và giải thích khác biệt bằng phong cách diễn đạt của từng thời kỳ"
+    ],
+    "answer": 2,
+    "explanation": "Muốn đánh giá quan hệ giữa hai chỉ dẫn, phải đặt mỗi chỉ dẫn trong hoàn cảnh, nhiệm vụ và giai đoạn phát triển tương ứng. Thứ tự ra đời, câu chữ hoặc phong cách diễn đạt là dữ kiện phụ, chưa đủ để kết luận về bản chất quan hệ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.c Quan điểm lịch sử – cụ thể",
+      "text": "Muốn hiểu đúng phải xem sự vật trong hoàn cảnh lịch sử, các giai đoạn phát triển chủ yếu và xu hướng vận động của nó."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q024",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan điểm toàn diện và hệ thống",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khi nghiên cứu tư tưởng Hồ Chí Minh theo quan điểm toàn diện và hệ thống, cần tập trung vào yêu cầu cốt lõi nào?",
+    "options": [
+      "Xác định từng bộ phận theo chức năng riêng rồi so sánh mức độ ảnh hưởng của chúng trong hệ thống",
+      "Đặt từng bộ phận trong quan hệ biện chứng với chỉnh thể và hạt nhân cốt lõi của hệ thống tư tưởng",
+      "Sắp xếp các bộ phận theo mức độ xuất hiện trong tư liệu để nhận diện nội dung trọng tâm",
+      "Tập trung vào hạt nhân cốt lõi và xem các bộ phận còn lại như những minh họa có vị trí tương đương"
+    ],
+    "answer": 1,
+    "explanation": "Quan điểm toàn diện và hệ thống yêu cầu xác định quan hệ biện chứng giữa từng bộ phận với chỉnh thể và hạt nhân độc lập, tự do, dân chủ, chủ nghĩa xã hội. Phân loại chức năng, tần suất hoặc dùng hạt nhân như một nhãn chung chưa làm rõ các mối liên hệ ấy.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.d Quan điểm toàn diện và hệ thống",
+      "text": "Các bộ phận của hệ thống tư tưởng liên hệ biện chứng quanh hạt nhân độc lập, tự do, dân chủ và chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q025",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Hệ quả của việc tách rời hệ thống",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hệ quả trực tiếp nào có thể xảy ra khi tách một yếu tố khỏi toàn bộ hệ thống tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Giúp xác định rõ trọng điểm của yếu tố vì các quan hệ khác được tạm gác trong quá trình giải thích",
+      "Làm nổi bật đặc điểm riêng của yếu tố và từ đó suy ra được vị trí của nó trong chỉnh thể",
+      "Giảm số quan hệ cần phân tích nhưng vẫn bảo toàn ý nghĩa của yếu tố trong toàn bộ hệ thống",
+      "Dễ hiểu sai yếu tố đó vì mất các mối liên hệ biện chứng vốn quy định ý nghĩa của nó"
+    ],
+    "answer": 3,
+    "explanation": "Ý nghĩa của một yếu tố được quy định bởi các mối liên hệ biện chứng với những bộ phận khác và với chỉnh thể. Việc cô lập có thể làm yếu tố nổi bật hơn về hình thức nhưng không bảo toàn được vị trí và ý nghĩa hệ thống của nó.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.d Quan điểm toàn diện và hệ thống",
+      "text": "Tách rời một yếu tố khỏi các mối liên hệ nội tại của hệ thống có thể làm người nghiên cứu hiểu sai tư tưởng Hồ Chí Minh."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q026",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng quan điểm toàn diện và hệ thống",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm nghiên cứu vấn đề dân tộc trong tư tưởng Hồ Chí Minh nhưng tách nó khỏi vấn đề giai cấp, lực lượng cách mạng và quan hệ với cách mạng thế giới. Nhóm cần bổ sung cách tiếp cận nào?",
+    "options": [
+      "Xem xét các quan hệ trong chỉnh thể và trọng điểm từng giai đoạn",
+      "Mở rộng trích dẫn về dân tộc và giữ cách phân tích tách rời",
+      "Coi vấn đề dân tộc là trọng điểm bất biến và duy nhất trong mọi giai đoạn cách mạng",
+      "Thay phân tích hệ thống bằng việc mô tả riêng từng từ ngữ xuất hiện trong văn bản"
+    ],
+    "answer": 0,
+    "explanation": "Quan điểm toàn diện và hệ thống đòi hỏi giải quyết biện chứng các quan hệ, trong đó có quan hệ dân tộc – giai cấp và cách mạng Việt Nam – cách mạng thế giới. Đồng thời, trọng điểm phải được nhận diện theo từng giai đoạn chứ không cố định mãi mãi.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.d Quan điểm toàn diện và hệ thống",
+      "text": "Phương pháp luận toàn diện yêu cầu xem các quan hệ biện chứng và lựa chọn trọng điểm hành động phù hợp từng giai đoạn."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q027",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan điểm kế thừa và phát triển",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan điểm kế thừa và phát triển đặt ra yêu cầu nào khi nghiên cứu, học tập tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Kế thừa những luận điểm còn giá trị và áp dụng lại cách triển khai đã thành công trong hoàn cảnh trước",
+      "Phát triển cách tiếp cận mới từ thực tiễn, dùng tư tưởng Hồ Chí Minh như tài liệu đối chiếu lịch sử",
+      "Kế thừa, vận dụng và phát triển sáng tạo tư tưởng của Người trong điều kiện lịch sử mới",
+      "Vận dụng các quan điểm vào điều kiện mới và giữ phương thức tổ chức đã được sử dụng trước đây"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình yêu cầu kết hợp kế thừa, vận dụng với phát triển sáng tạo trong điều kiện lịch sử mới. Áp dụng lại cách triển khai, tách đổi mới khỏi nền tảng tư tưởng hoặc giữ phương thức tổ chức cũ đều thiếu mặt phát triển sáng tạo.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.e Quan điểm kế thừa và phát triển",
+      "text": "Nghiên cứu và học tập phải gắn kế thừa, vận dụng với phát triển sáng tạo trong điều kiện lịch sử mới."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q028",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Thích nghi và tự đổi mới",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao sao chép máy móc một giải pháp cũ không phù hợp với quan điểm kế thừa và phát triển?",
+    "options": [
+      "Vì giá trị được kế thừa cần diễn đạt bằng một hệ khái niệm mới trước khi có thể vận dụng",
+      "Vì hoàn cảnh luôn vận động, đòi hỏi chủ thể thích nghi, tự đổi mới và lựa chọn cách vận dụng phù hợp",
+      "Vì giải pháp cũ gắn với người đề xuất ban đầu nên chủ thể mới cần xây dựng một giải pháp khác",
+      "Vì phát triển sáng tạo ưu tiên kết quả mới hơn việc kiểm tra quan hệ với tư tưởng được kế thừa"
+    ],
+    "answer": 1,
+    "explanation": "Hoàn cảnh vận động buộc chủ thể thích nghi, tự đổi mới và sáng tạo cách vận dụng phù hợp trên nền giá trị được kế thừa. Đổi thuật ngữ, đổi chủ thể hoặc chạy theo kết quả mới chưa giải quyết quan hệ giữa kế thừa với phát triển.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.e Quan điểm kế thừa và phát triển",
+      "text": "Muốn thích nghi với hoàn cảnh vận động, con người phải luôn tự đổi mới để tiếp tục phát triển."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q029",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Biện chứng giữa cái mới và cái cũ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mối quan hệ giữa cái mới và cái cũ trong quá trình phát triển được giáo trình diễn giải như thế nào?",
+    "options": [
+      "Phát triển là khẳng định cái mới, phủ định cái cũ lạc hậu và giải phóng những ràng buộc cản trở tiến bộ",
+      "Phát triển là chọn những yếu tố từng đem lại kết quả rồi duy trì chúng làm khuôn cho hoàn cảnh mới",
+      "Phát triển là đổi mới phương thức biểu đạt và giữ nguyên các quan hệ đã hình thành trong quá khứ",
+      "Phát triển là bổ sung yếu tố mới bên cạnh cái cũ để hạn chế xung đột giữa các xu hướng"
+    ],
+    "answer": 0,
+    "explanation": "Phát triển bao gồm khẳng định cái mới, phủ định cái cũ lạc hậu và giải phóng những ràng buộc cản trở tiến bộ. Duy trì khuôn cũ, đổi riêng hình thức hoặc đặt cái mới cạnh trở lực chưa thể hiện quá trình biện chứng đó.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.1.e Quan điểm kế thừa và phát triển",
+      "text": "Phát triển gắn với khẳng định cái mới, phủ định cái cũ lạc hậu và giải phóng các ràng buộc cản trở tiến bộ."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q030",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Phương pháp lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp lịch sử nghiên cứu sự vật, hiện tượng theo hướng nào?",
+    "options": [
+      "Khái quát bản chất và quy luật nhưng không xét tiến trình phát sinh, phát triển và hệ quả",
+      "Phân chia sự vật thành các bộ phận mà không đặt chúng trong thời gian",
+      "Đo lường thái độ hiện tại để thay thế toàn bộ tư liệu lịch sử",
+      "Theo trình tự thời gian từ phát sinh, phát triển đến hệ quả của sự vật, hiện tượng"
+    ],
+    "answer": 3,
+    "explanation": "Phương pháp lịch sử tái hiện sự vật, hiện tượng theo trình tự thời gian, theo dõi quá trình từ phát sinh, phát triển đến hệ quả. Đây là đặc trưng phân biệt nó với phương pháp lôgíc vốn hướng tới khái quát bản chất.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Phương pháp lịch sử",
+      "text": "Phương pháp lịch sử theo dõi sự vật theo trình tự thời gian từ lúc phát sinh, qua phát triển đến hệ quả."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q031",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Phương pháp lôgíc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục đích nổi bật của phương pháp lôgíc là gì?",
+    "options": [
+      "Tái hiện chuỗi sự kiện theo trật tự thời gian rồi dừng ở việc mô tả diễn biến",
+      "Thu thập ý kiến xã hội để tính tỷ lệ đồng thuận của người trả lời",
+      "Chỉ mô tả hình thức bề ngoài của từng hiện tượng riêng lẻ",
+      "Tìm bản chất và mối liên hệ tất yếu để khái quát thành lý luận"
+    ],
+    "answer": 3,
+    "explanation": "Phương pháp lôgíc nghiên cứu tổng quát để tìm bản chất vốn có, nhận ra mối liên hệ tất yếu giữa các sự kiện và khái quát thành lý luận. Việc tái hiện trình tự thời gian là trọng tâm của phương pháp lịch sử.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Phương pháp lôgíc",
+      "text": "Phương pháp lôgíc tìm ra bản chất, mối liên hệ tất yếu của sự vật và khái quát kết quả thành lý luận."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q032",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Phương pháp chuyên ngành và liên ngành",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao nghiên cứu tư tưởng Hồ Chí Minh cần sử dụng phương pháp liên ngành?",
+    "options": [
+      "Vì nội dung mỗi tác phẩm thuộc một lĩnh vực độc lập, nên cần ghép kết quả nghiên cứu riêng lẻ của các ngành để mô tả hệ thống",
+      "Vì tư tưởng Hồ Chí Minh được thể hiện trên nhiều lĩnh vực chính trị, triết học, kinh tế, quân sự và văn hóa",
+      "Vì một phương pháp của bất kỳ ngành nào cũng tự động giải thích đầy đủ toàn bộ hệ thống tư tưởng",
+      "Vì phương pháp liên ngành cho phép bỏ qua đặc trưng của từng lĩnh vực nghiên cứu"
+    ],
+    "answer": 1,
+    "explanation": "Tư tưởng Hồ Chí Minh biểu hiện trên nhiều lĩnh vực, nên cần huy động phương pháp chuyên ngành và liên ngành để nghiên cứu cả hệ thống lẫn từng tác phẩm. Liên ngành không có nghĩa là xóa bỏ đặc trưng của mỗi ngành.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Phương pháp chuyên ngành, liên ngành",
+      "text": "Tính đa lĩnh vực của tư tưởng Hồ Chí Minh đòi hỏi sử dụng các phương pháp chuyên ngành và liên ngành phù hợp."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q033",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Kết hợp phương pháp lôgíc và lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phương án nào thể hiện đúng sự bổ sung giữa phương pháp lịch sử và phương pháp lôgíc?",
+    "options": [
+      "Lịch sử xác định các giai đoạn tiêu biểu; lôgíc sắp xếp sự kiện theo mức độ quan trọng",
+      "Lịch sử mô tả điều kiện xuất hiện; lôgíc lựa chọn sự kiện phù hợp với luận đề nghiên cứu",
+      "Lịch sử tái hiện tiến trình cụ thể; lôgíc làm rõ bản chất, quan hệ tất yếu và quy luật vận động",
+      "Lịch sử cung cấp các ví dụ; lôgíc xây dựng quy luật trước rồi dùng ví dụ để minh họa"
+    ],
+    "answer": 2,
+    "explanation": "Phương pháp lịch sử tái hiện diễn biến cụ thể, còn phương pháp lôgíc khái quát bản chất và quan hệ tất yếu từ tiến trình đó. Sắp lại sự kiện, chọn dữ kiện theo luận đề hoặc dùng lịch sử làm ví dụ đều không thể hiện đúng sự bổ sung hai chiều.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Kết hợp phương pháp lôgíc và lịch sử",
+      "text": "Nghiên cứu tư tưởng Hồ Chí Minh cần kết hợp tái hiện tiến trình lịch sử với khái quát bản chất và lôgíc tất yếu."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q034",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Phân tích văn bản và hoạt động thực tiễn",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Tại sao phân tích văn bản phải kết hợp với nghiên cứu hoạt động thực tiễn của Hồ Chí Minh?",
+    "options": [
+      "Vì tư tưởng được thể hiện trong tác phẩm, hoạt động chỉ đạo, đời sống và sự phản ánh của người cộng tác",
+      "Vì hoạt động thực tiễn cho biết bối cảnh thi hành, còn nội dung tư tưởng được xác định đầy đủ từ văn bản",
+      "Vì tác phẩm trình bày quan điểm lý luận, còn hoạt động thực tiễn chủ yếu cung cấp dữ kiện kiểm tra niên đại",
+      "Vì lời kể của người cộng tác bổ sung hoạt động thực tiễn và có giá trị ngang các văn bản do Người viết"
+    ],
+    "answer": 0,
+    "explanation": "Tác phẩm là nguồn đầu tiên, nhưng tư tưởng còn được thể hiện qua hoạt động chỉ đạo, cuộc sống và sự phản ánh của đồng chí, học trò. Các phương án khác hạ thực tiễn thành bối cảnh, niên đại hoặc đặt tư liệu hồi ức ngang với mọi văn bản nên chưa xác lập đúng quan hệ bổ sung.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Phân tích văn bản kết hợp nghiên cứu hoạt động thực tiễn",
+      "text": "Di sản tư tưởng hiện diện trong tác phẩm và cả hoạt động chỉ đạo, cuộc sống hằng ngày cùng sự phản ánh qua những người cộng tác với Hồ Chí Minh."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q035",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Lựa chọn phương pháp nghiên cứu cụ thể",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề tài muốn biết sinh viên đang hiểu và vận dụng một quan điểm của Hồ Chí Minh như thế nào, đồng thời cần khái quát kết quả thành nhận định. Thiết kế nào phù hợp nhất?",
+    "options": [
+      "Phân tích nội dung giáo trình, lập bảng tiêu chí rồi suy ra mức độ hiểu của sinh viên từ yêu cầu môn học",
+      "Thu thập dữ liệu bằng điều tra xã hội học, rồi phân tích, so sánh và tổng hợp để hình thành nhận định",
+      "Phỏng vấn một nhóm sinh viên tiêu biểu, dùng các phát biểu điển hình thay cho việc tổng hợp dữ liệu",
+      "So sánh kết quả học tập giữa các lớp và coi chênh lệch điểm số là biểu hiện trực tiếp của mức độ vận dụng"
+    ],
+    "answer": 1,
+    "explanation": "Điều tra xã hội học tạo dữ liệu trực tiếp về nhận thức và vận dụng; phân tích, so sánh, tổng hợp giúp khái quát dữ liệu thành nhận định. Suy ra từ yêu cầu môn học, dùng phát biểu điển hình hoặc lấy điểm số làm đại diện đều chưa đo đúng câu hỏi nghiên cứu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > III.2 Một số phương pháp cụ thể > Phân tích, tổng hợp, so sánh và điều tra xã hội học",
+      "text": "Các phương pháp phân tích, tổng hợp, so sánh, điều tra xã hội học phải được lựa chọn theo yêu cầu của nội dung nghiên cứu cụ thể."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q036",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Nâng cao năng lực tư duy lý luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Một ý nghĩa quan trọng của việc học môn Tư tưởng Hồ Chí Minh đối với năng lực nhận thức của sinh viên là gì?",
+    "options": [
+      "Ưu tiên ghi nhớ kết luận để hình thành khuôn mẫu xử lý ổn định cho các vấn đề phát sinh trong học tập và cuộc sống",
+      "Giới hạn việc học ở cảm xúc cá nhân, không cần tri thức khoa học",
+      "Bồi đắp tri thức, phương pháp và năng lực tư duy lý luận để định hướng hành động",
+      "Tách lập trường, niềm tin khỏi quá trình vận dụng kiến thức vào cuộc sống"
+    ],
+    "answer": 2,
+    "explanation": "Môn học cung cấp tri thức về hệ thống quan điểm, góp phần hình thành năng lực, phương pháp làm việc và bồi đắp tư duy lý luận để giải quyết yêu cầu của cuộc sống. Học tập không chỉ là ghi nhớ kết luận.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.1 Góp phần nâng cao năng lực tư duy lý luận",
+      "text": "Tri thức và kỹ năng từ môn học bồi đắp năng lực tư duy lý luận, phương pháp làm việc và khả năng định hướng hành động."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q037",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Giáo dục đạo đức và bồi dưỡng lòng yêu nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm nội dung nào thuộc ý nghĩa giáo dục của môn Tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Rèn luyện đạo đức cách mạng và bồi dưỡng tình cảm yêu nước trên cơ sở trải nghiệm cá nhân",
+      "Củng cố niềm tin khoa học và nâng cao năng lực trình bày các vấn đề lịch sử của cách mạng",
+      "Bồi dưỡng lòng yêu nước và kỹ năng công tác, xem niềm tin khoa học là kết quả của hoạt động thực tiễn",
+      "Định hướng thực hành đạo đức cách mạng, củng cố niềm tin khoa học và bồi dưỡng lòng yêu nước"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình kết hợp ba thành tố trong cùng nhóm ý nghĩa: thực hành đạo đức cách mạng, niềm tin khoa học và tình cảm, lòng yêu nước. Các tổ hợp khác thay một thành tố bằng trải nghiệm, kỹ năng trình bày hoặc kỹ năng công tác thuộc phạm vi khác.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.2 Giáo dục đạo đức, niềm tin khoa học và lòng yêu nước",
+      "text": "Môn học góp phần định hướng thực hành đạo đức cách mạng, củng cố niềm tin khoa học và bồi dưỡng tình cảm, lòng yêu nước."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q038",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Tri thức lý luận gắn với năng lực hành động",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào đúng về quan hệ giữa tri thức môn học và năng lực hành động của sinh viên?",
+    "options": [
+      "Tri thức hình thành lập trường, phương pháp, niềm tin và năng lực vận dụng",
+      "Tri thức phục vụ thi cử, còn năng lực hành động hình thành từ trải nghiệm",
+      "Chỉ cần niềm tin là đủ, không cần hiểu hệ thống quan điểm và phương pháp làm việc",
+      "Vận dụng thực tiễn làm giảm tính khoa học nên phải tách khỏi quá trình học tập"
+    ],
+    "answer": 0,
+    "explanation": "Ý nghĩa nâng cao tư duy lý luận không dừng ở việc tích lũy kiến thức. Tri thức, phương pháp, lập trường và niềm tin hỗ trợ nhau để sinh viên biết vận dụng tư tưởng Hồ Chí Minh vào giải quyết những vấn đề cuộc sống đặt ra.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.1 Góp phần nâng cao năng lực tư duy lý luận",
+      "text": "Môn học góp phần hình thành tri thức, phương pháp, lập trường, niềm tin và năng lực vận dụng vào giải quyết vấn đề thực tiễn."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q039",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Thực hành đạo đức cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Biểu hiện nào phù hợp nhất với “thực hành đạo đức cách mạng” được nêu trong phần ý nghĩa học tập?",
+    "options": [
+      "Bày tỏ sự ngưỡng mộ như cách thể hiện nhận thức mà chưa gắn với thay đổi hành vi",
+      "Đề cao lợi ích cá nhân và xem việc phục vụ xã hội là lựa chọn không cần thiết",
+      "Chống chủ nghĩa cá nhân, sống có ích, làm điều tốt và chủ động tránh điều xấu",
+      "Tách việc tu dưỡng bản thân khỏi học tập tư tưởng, đạo đức và phong cách Hồ Chí Minh"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình chuyển yêu cầu đạo đức thành hành vi cụ thể: chống chủ nghĩa cá nhân, sống có ích cho xã hội, yêu và làm điều tốt, ghét và tránh điều xấu. Cảm xúc không đi kèm tu dưỡng và hành động chưa đáp ứng ý nghĩa này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.2 Giáo dục đạo đức, niềm tin khoa học và lòng yêu nước",
+      "text": "Thực hành đạo đức cách mạng gắn với chống chủ nghĩa cá nhân, sống có ích, làm điều tốt và tránh điều xấu."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q040",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Rèn luyện phương pháp và phong cách công tác",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, sinh viên có thể vận dụng môn học để xây dựng những phương diện phong cách nào?",
+    "options": [
+      "Phong cách tư duy, diễn đạt và nghiên cứu lý luận trong hoạt động học tập",
+      "Phong cách tư duy, diễn đạt, làm việc, ứng xử và sinh hoạt trong học tập, rèn luyện",
+      "Phong cách làm việc, lãnh đạo, quản lý và tổ chức hoạt động trong cơ quan",
+      "Phong cách tư duy, ứng xử và sinh hoạt được thiết kế thống nhất cho từng tập thể"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình nêu đúng năm phương diện: phong cách tư duy, diễn đạt, làm việc, ứng xử và sinh hoạt. Các tổ hợp khác bỏ bớt phương diện hoặc thay bằng hoạt động nghiên cứu, lãnh đạo, quản lý không thuộc danh sách trực tiếp của mục này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.3 Xây dựng, rèn luyện phương pháp và phong cách công tác",
+      "text": "Sinh viên có thể vận dụng môn học để rèn phong cách tư duy, diễn đạt, làm việc, ứng xử và sinh hoạt."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q041",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Phương châm dĩ bất biến ứng vạn biến",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Trong mục IV.3, giáo trình đặt phương châm “Dĩ bất biến ứng vạn biến” sau yêu cầu trực tiếp nào về rèn luyện phong cách?",
+    "options": [
+      "Xây dựng các phong cách phù hợp với từng người, từng lúc, từng nơi và điều kiện cụ thể",
+      "Duy trì một phong cách chung cho các địa bàn để bảo đảm tính thống nhất trong công tác",
+      "Điều chỉnh mục tiêu học tập theo từng tình huống rồi lựa chọn phong cách tương ứng",
+      "Ưu tiên phong cách diễn đạt trước, sau đó mở rộng sang phong cách làm việc và ứng xử"
+    ],
+    "answer": 0,
+    "explanation": "Đoạn nguồn trực tiếp yêu cầu sinh viên xây dựng phương pháp và các phong cách phù hợp với điều kiện cụ thể của từng người, từng địa bàn, từng lúc và từng nơi, rồi mới dẫn phương châm này. Giáo trình không giải thích riêng hai vế thành một hệ mục tiêu và nguyên tắc trong mục lá đó.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.3 Xây dựng, rèn luyện phương pháp và phong cách công tác",
+      "text": "Giáo trình yêu cầu phương pháp và phong cách phù hợp với điều kiện cụ thể của từng người, từng địa bàn, từng lúc và từng nơi, rồi dẫn phương châm “Dĩ bất biến ứng vạn biến”."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q042",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa ba nhóm ý nghĩa học tập",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nhận định nào thể hiện đúng quan hệ giữa ba nhóm ý nghĩa học tập môn Tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Năng lực lý luận tạo cơ sở nhận thức; đạo đức và phong cách được rèn như hai kết quả nối tiếp sau đó",
+      "Giáo dục đạo đức định hướng động cơ, còn tư duy và phong cách phát triển theo mục tiêu chuyên môn riêng",
+      "Rèn phong cách chuyển tri thức thành kỹ năng, trong khi niềm tin và trách nhiệm thuộc đời sống cá nhân",
+      "Ba nhóm bổ sung nhau: tư duy định hướng nhận thức, đạo đức định hướng động cơ và phong cách định hướng hành động"
+    ],
+    "answer": 3,
+    "explanation": "Ba nhóm ý nghĩa bổ sung nhau: tri thức và tư duy định hướng nhận thức; đạo đức, niềm tin định hướng động cơ; phương pháp, phong cách chuyển hóa thành cách hành động. Xếp chúng thành các bước rời nhau hoặc tách một nhóm về đời sống riêng làm mất quan hệ thống nhất.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV. Ý nghĩa của việc học tập môn Tư tưởng Hồ Chí Minh",
+      "text": "Ba nhóm ý nghĩa về tư duy lý luận, đạo đức và phương pháp công tác cùng góp phần hoàn thiện nhân cách, định hướng hành động của sinh viên."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q043",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng năng lực tư duy lý luận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên gặp thông tin xuyên tạc một quan điểm trong giáo trình và định chia sẻ ngay theo cảm xúc. Hành động nào phù hợp nhất với ý nghĩa nâng cao năng lực tư duy lý luận?",
+    "options": [
+      "Chia sẻ ngay vì phản ứng nhanh quan trọng hơn việc kiểm tra luận cứ",
+      "Đối chiếu hệ thống quan điểm và thực tiễn liên quan, phân tích có căn cứ rồi chủ động phản bác nhận định sai",
+      "Tránh tìm hiểu vì tư duy lý luận thuộc phạm vi học thuật và ít liên hệ đến trách nhiệm công dân trước thông tin sai",
+      "Chỉ dựa vào mức độ phổ biến của thông tin để quyết định nó đúng hay sai"
+    ],
+    "answer": 1,
+    "explanation": "Năng lực tư duy lý luận giúp người học xem xét vấn đề có căn cứ, gắn tri thức với thực tiễn và chủ động phê phán quan điểm sai trái. Phản ứng cảm tính hoặc dựa vào độ phổ biến đều không thể thay thế phân tích khoa học.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.1 Góp phần nâng cao năng lực tư duy lý luận",
+      "text": "Môn học củng cố lập trường, năng lực vận dụng và tinh thần chủ động phê phán những quan điểm sai trái bằng nhận thức có cơ sở."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q044",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng phong cách công tác",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một trưởng nhóm dùng cùng một cách giao tiếp cứng nhắc với mọi thành viên, khiến phối hợp kém hiệu quả. Theo ý nghĩa rèn luyện phong cách công tác, lựa chọn nào phù hợp nhất?",
+    "options": [
+      "Phân loại thành viên theo mức độ tiếp nhận rồi dùng cách giao tiếp chuẩn cho từng nhóm cố định",
+      "Thống nhất mục tiêu chung với tập thể, sau đó để từng thành viên tự chọn cách phối hợp phù hợp",
+      "Giữ mục tiêu và trách nhiệm chung nhưng điều chỉnh cách diễn đạt, ứng xử phù hợp từng người và hoàn cảnh",
+      "Điều chỉnh cách diễn đạt theo từng người nhưng giữ quy trình làm việc ổn định dù hiệu quả phối hợp thay đổi"
+    ],
+    "answer": 2,
+    "explanation": "Phong cách diễn đạt, làm việc và ứng xử phải phù hợp với từng người, từng lúc, từng nơi. Phân nhóm cứng, giao việc điều chỉnh cho thành viên hoặc đổi riêng cách diễn đạt đều chưa khắc phục sự cứng nhắc trong phối hợp.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.3 Xây dựng, rèn luyện phương pháp và phong cách công tác",
+      "text": "Phong cách diễn đạt, làm việc và ứng xử cần được điều chỉnh phù hợp với từng người, từng lúc, từng nơi."
+    }
+  },
+  {
+    "id": "HCM202-C01-Q045",
+    "courseId": "hcm202",
+    "chapter": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+    "chapterNum": 1,
+    "topic": "Vận dụng giáo dục đạo đức cách mạng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên đạt điểm cao môn học nhưng thường đặt lợi ích cá nhân lên trên tập thể và né tránh việc có ích cho cộng đồng. Theo giáo trình, sinh viên cần điều chỉnh theo hướng nào?",
+    "options": [
+      "Tiếp tục ưu tiên điểm số vì đó là thước đo kết quả học tập",
+      "Tách kiến thức môn học khỏi hành vi cá nhân để tránh ảnh hưởng đến lựa chọn riêng",
+      "Chỉ thể hiện tình cảm yêu nước bằng lời nói mà không cần thay đổi cách sống",
+      "Gắn hiểu biết với tu dưỡng, chống chủ nghĩa cá nhân và sống có ích"
+    ],
+    "answer": 3,
+    "explanation": "Ý nghĩa giáo dục của môn học đòi hỏi chuyển nhận thức thành tu dưỡng và hành động: chống chủ nghĩa cá nhân, sống có ích, làm điều tốt và nâng cao trách nhiệm công dân. Điểm số không thể thay thế sự thay đổi trong đạo đức và cách sống.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 1 > IV.2 Giáo dục đạo đức, niềm tin khoa học và lòng yêu nước",
+      "text": "Người học cần thường xuyên tu dưỡng theo tư tưởng, đạo đức, phong cách Hồ Chí Minh, chống chủ nghĩa cá nhân và sống có ích cho xã hội."
+    }
+  }
+]

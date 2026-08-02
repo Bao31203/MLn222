@@ -1,0 +1,2072 @@
+[
+  {
+    "id": "HCM202-C06-Q001",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về văn hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo cách tiếp cận nghĩa rộng của Hồ Chí Minh, văn hóa được hiểu là gì?",
+    "options": [
+      "Đời sống tinh thần của xã hội thuộc kiến trúc thượng tầng",
+      "Phương thức sinh hoạt và biểu hiện do con người sáng tạo",
+      "Trình độ học vấn mà mỗi cá nhân đạt được qua giáo dục",
+      "Phương thức con người sử dụng các công cụ trong sinh hoạt"
+    ],
+    "answer": 1,
+    "explanation": "Nghĩa rộng bao quát toàn bộ những phương thức sinh hoạt và biểu hiện do con người sáng tạo để đáp ứng nhu cầu sống. Ba phương án còn lại lần lượt gần với các cách tiếp cận hẹp hơn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.a Quan niệm của Hồ Chí Minh về văn hóa",
+      "text": "Giáo trình trình bày nghĩa rộng của văn hóa là tổng hợp mọi phương thức sinh hoạt và biểu hiện do con người tạo ra."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q002",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về văn hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm phân biệt đúng giữa nghĩa rộng và nghĩa hẹp của văn hóa trong tư tưởng Hồ Chí Minh là gì?",
+    "options": [
+      "Nghĩa rộng là đời sống tinh thần xã hội; nghĩa hẹp bao quát các phương thức sinh hoạt",
+      "Nghĩa rộng bao quát hoạt động vật chất; nghĩa hẹp bao quát hoạt động tinh thần",
+      "Nghĩa rộng là thành tựu của cộng đồng; nghĩa hẹp là trình độ học vấn của cá nhân",
+      "Nghĩa rộng bao quát sinh hoạt; nghĩa hẹp là đời sống tinh thần xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Nghĩa rộng bao quát các sáng tạo và phương thức sinh hoạt của con người; nghĩa hẹp tập trung vào đời sống tinh thần thuộc kiến trúc thượng tầng. Không thể đảo hai phạm vi này cho nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.a Quan niệm của Hồ Chí Minh về văn hóa",
+      "text": "Bốn cách tiếp cận được phân biệt theo phạm vi, trong đó nghĩa rộng bao quát sinh hoạt còn nghĩa hẹp chỉ đời sống tinh thần."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q003",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về văn hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Văn hóa theo nghĩa rất hẹp được Hồ Chí Minh dùng để chỉ nội dung nào?",
+    "options": [
+      "Hệ thống các quan hệ chính trị và pháp luật của xã hội",
+      "Toàn bộ cách thức lao động và sinh hoạt của cộng đồng",
+      "Trình độ học vấn của một con người",
+      "Các thành tựu vật chất do con người sáng tạo"
+    ],
+    "answer": 2,
+    "explanation": "Ở nghĩa rất hẹp, văn hóa chỉ trình độ học vấn của con người. Cách hiểu này hẹp hơn văn hóa với tư cách đời sống tinh thần hoặc tổng thể phương thức sinh hoạt.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.a Quan niệm của Hồ Chí Minh về văn hóa",
+      "text": "Giáo trình nêu cách tiếp cận rất hẹp của văn hóa là trình độ học vấn của con người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q004",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về văn hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Quan niệm văn hóa năm 1943 của Hồ Chí Minh làm nổi bật nguồn gốc và mục đích nào của sáng tạo văn hóa?",
+    "options": [
+      "Con người sáng tạo văn hóa vì sinh tồn và để đáp ứng những nhu cầu của đời sống",
+      "Nhà nước tạo ra văn hóa chủ yếu để phân biệt địa vị giữa các tầng lớp",
+      "Văn hóa xuất hiện độc lập với đời sống và không nhằm thích ứng nhu cầu nào",
+      "Văn hóa do giới nghệ thuật sáng tạo để phục vụ hoạt động thưởng thức"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh giải thích loài người sáng tạo ngôn ngữ, đạo đức, khoa học, nghệ thuật và công cụ vì lẽ sinh tồn, mục đích sống và nhu cầu đời sống. Văn hóa vì thế không bị giới hạn ở nghệ thuật.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.a Quan niệm của Hồ Chí Minh về văn hóa",
+      "text": "Quan niệm năm 1943 gắn những sáng tạo văn hóa với lẽ sinh tồn, mục đích sống và yêu cầu thích ứng nhu cầu đời sống."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q005",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan hệ văn hóa với chính trị, kinh tế và xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hoàn cảnh Việt Nam thuộc địa, điều kiện chính trị nào mở đường cho văn hóa phát triển?",
+    "options": [
+      "Giải phóng dân tộc, giành chính quyền và thiết lập nhà nước của nhân dân",
+      "Duy trì bộ máy thuộc địa nhưng mở rộng một số hoạt động văn nghệ",
+      "Tách hoạt động văn hóa khỏi nhiệm vụ giải phóng chính trị của dân tộc",
+      "Chờ đời sống tinh thần phát triển hoàn chỉnh rồi mới giành độc lập"
+    ],
+    "answer": 0,
+    "explanation": "Giải phóng chính trị, xóa ách nô lệ và giành chính quyền về tay nhân dân tạo điều kiện giải phóng văn hóa. Hoạt động văn nghệ riêng lẻ không thay thế được tiền đề chính trị ấy.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.b Quan hệ giữa văn hóa với các lĩnh vực khác",
+      "text": "Giáo trình coi giải phóng chính trị và thiết lập nhà nước của dân là con đường mở ra điều kiện phát triển văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q006",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan hệ văn hóa với chính trị, kinh tế và xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yêu cầu văn hóa phải ở trong chính trị được hiểu đầy đủ như thế nào?",
+    "options": [
+      "Văn hóa định hướng nhiệm vụ chính trị, còn chính trị đảm nhiệm việc tổ chức thực hiện",
+      "Văn hóa truyền đạt đường lối, còn phẩm chất của người hoạt động chính trị thuộc lĩnh vực đạo đức",
+      "Văn hóa phát huy vai trò phản biện sau khi nhiệm vụ chính trị đã được hoàn tất",
+      "Văn hóa phục vụ nhiệm vụ chính trị và hoạt động chính trị phải có hàm lượng văn hóa"
+    ],
+    "answer": 3,
+    "explanation": "Quan hệ này có hai chiều: văn hóa phục vụ nhiệm vụ chính trị, đồng thời tổ chức và nhà chính trị phải hành động có văn hóa. Đó không phải sự thay thế hoặc tách biệt hai lĩnh vực.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.b Quan hệ giữa văn hóa với các lĩnh vực khác",
+      "text": "Văn hóa phải phục vụ nhiệm vụ chính trị, còn hoạt động của tổ chức và nhà chính trị phải chứa đựng giá trị văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q007",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan hệ văn hóa với chính trị, kinh tế và xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một kế hoạch phát triển cho rằng chỉ cần tăng nguồn lực kinh tế, còn giáo dục, đạo đức và lối sống có thể chờ đến sau. Điều chỉnh nào phù hợp với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Ưu tiên tăng trưởng trước rồi dùng nguồn lực tích lũy để phát triển văn hóa",
+      "Chuyển trọng tâm từ kinh tế sang giáo dục và các hoạt động tinh thần",
+      "Phát triển kinh tế đồng thời với văn hóa để hai lĩnh vực hỗ trợ lẫn nhau",
+      "Phân công kinh tế và văn hóa thành hai chương trình vận hành độc lập"
+    ],
+    "answer": 2,
+    "explanation": "Kinh tế tạo cơ sở và điều kiện cho văn hóa, nhưng văn hóa không thụ động mà tác động tích cực trở lại kinh tế. Vì vậy cần phát triển hai lĩnh vực trong quan hệ tương hỗ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.b Quan hệ giữa văn hóa với các lĩnh vực khác",
+      "text": "Giáo trình xác định cơ sở kinh tế tạo điều kiện cho văn hóa và văn hóa có tác động tích cực trở lại sự phát triển kinh tế."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q008",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan hệ văn hóa với chính trị, kinh tế và xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Luận điểm xã hội thế nào thì văn hóa thế ấy nhấn mạnh quan hệ nào?",
+    "options": [
+      "Xã hội chi phối văn hóa; giải phóng xã hội mở đường cho văn hóa",
+      "Văn hóa không chịu ảnh hưởng của chế độ xã hội và hoàn cảnh lịch sử",
+      "Xã hội tác động trực tiếp đến kinh tế, còn văn học nghệ thuật vận động theo quy luật riêng",
+      "Văn hóa phải hoàn thành trước thì xã hội mới có thể bắt đầu biến đổi"
+    ],
+    "answer": 0,
+    "explanation": "Chế độ xã hội tạo môi trường tồn tại và phát triển của văn hóa; trong chế độ nô lệ, văn nghệ cũng bị nô lệ. Giải phóng xã hội vì thế mở điều kiện cho văn hóa phát triển.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.b Quan hệ giữa văn hóa với các lĩnh vực khác",
+      "text": "Giáo trình liên hệ trạng thái của xã hội với trạng thái văn hóa và coi giải phóng xã hội là điều kiện giải phóng văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q009",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan hệ văn hóa với chính trị, kinh tế và xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ đúng giữa giữ gìn bản sắc dân tộc và tiếp thu văn hóa nhân loại là gì?",
+    "options": [
+      "Giữ nguyên các giá trị truyền thống và tiếp nhận hạn chế những yếu tố bên ngoài",
+      "Lấy văn hóa dân tộc làm gốc, tiếp thu có chọn lọc tinh hoa thế giới",
+      "Ưu tiên chuẩn mực quốc tế để thúc đẩy truyền thống dân tộc đổi mới nhanh chóng",
+      "Tiếp thu kỹ thuật phương Tây, còn giá trị tinh thần dựa vào văn hóa cổ phương Đông"
+    ],
+    "answer": 1,
+    "explanation": "Bản sắc dân tộc là gốc và cơ sở để tiếp thu có chọn lọc những điều hay, tốt của Đông, Tây, kim, cổ. Tiếp biến nhằm làm giàu văn hóa Việt Nam, không phải khép kín hay bắt chước.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.1.b Quan hệ giữa văn hóa với các lĩnh vực khác",
+      "text": "Tiếp thu tinh hoa nhân loại phải dựa trên gốc văn hóa dân tộc và nhằm bồi đắp một nền văn hóa Việt Nam giàu đẹp hơn."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q010",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là mục tiêu và động lực",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao văn hóa được xem là một mục tiêu của cách mạng Việt Nam?",
+    "options": [
+      "Vì văn hóa là kết quả cần đạt sau khi các nhiệm vụ chính trị và kinh tế đã ổn định",
+      "Vì văn hóa giữ vai trò điều phối các mục tiêu chính trị, kinh tế và xã hội",
+      "Vì văn hóa thuộc mục tiêu chung của tiến trình cách mạng",
+      "Vì văn hóa đáp ứng chủ yếu nhu cầu hưởng thụ tinh thần của các tầng lớp dân cư"
+    ],
+    "answer": 2,
+    "explanation": "Cùng với chính trị, kinh tế và xã hội, văn hóa nằm trong mục tiêu chung của cách mạng gắn độc lập dân tộc với chủ nghĩa xã hội. Nó không phải mục tiêu phụ xuất hiện sau cùng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.a Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng",
+      "text": "Giáo trình đặt văn hóa cùng chính trị, kinh tế và xã hội trong mục tiêu chung của toàn bộ tiến trình cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q011",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là mục tiêu và động lực",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác nhau chủ yếu giữa văn hóa với tư cách mục tiêu và văn hóa với tư cách động lực là gì?",
+    "options": [
+      "Mục tiêu là đích văn hóa cần đạt; động lực là sức văn hóa thúc đẩy cách mạng",
+      "Mục tiêu phản ánh yêu cầu kinh tế; động lực biểu hiện qua văn học và nghệ thuật",
+      "Mục tiêu hướng tới từng cá nhân; động lực tác động chủ yếu tới thiết chế nhà nước",
+      "Mục tiêu được đặt ra sau giải phóng; động lực phát huy mạnh nhất trước khi giành chính quyền"
+    ],
+    "answer": 0,
+    "explanation": "Văn hóa là mục tiêu khi biểu hiện các giá trị và đời sống mà cách mạng hướng tới; văn hóa là động lực khi các nguồn lực tinh thần thúc đẩy hành động và phát triển. Hai vai trò liên hệ nhưng không đồng nhất.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.a Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng",
+      "text": "Giáo trình vừa xác định các giá trị văn hóa trong đích đến cách mạng, vừa phân tích sức thúc đẩy của những lĩnh vực văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q012",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là mục tiêu và động lực",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách ghép nào đúng giữa một lĩnh vực văn hóa và tác dụng động lực của nó?",
+    "options": [
+      "Văn hóa pháp luật — thu hẹp quyền làm chủ của nhân dân để tăng quyền quản lý",
+      "Văn hóa giáo dục — truyền đạt kiến thức phổ thông nhưng chưa gắn với đào tạo con người mới",
+      "Văn hóa văn nghệ — bồi dưỡng lòng yêu nước, lý tưởng, niềm tin và ý chí cách mạng",
+      "Văn hóa đạo đức — nâng phẩm giá cá nhân nhưng tách khỏi hiệu quả của công việc cách mạng"
+    ],
+    "answer": 2,
+    "explanation": "Văn hóa văn nghệ nuôi dưỡng tình cảm, lý tưởng, sự lạc quan, ý chí và niềm tin cách mạng. Giáo dục, đạo đức và pháp luật cũng là động lực nhưng tác dụng của chúng bị mô tả sai ở các phương án khác.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.a Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng",
+      "text": "Văn hóa văn nghệ góp phần nâng cao lòng yêu nước, lý tưởng, tình cảm, ý chí và niềm tin vào thắng lợi cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q013",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là mục tiêu và động lực",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình xóa mù chữ đồng thời bồi dưỡng kiến thức, kỹ năng và trách nhiệm để người học tham gia xây dựng đất nước. Chương trình thể hiện vai trò nào của văn hóa giáo dục?",
+    "options": [
+      "Tạo nguồn nhân lực chuyên môn nhưng tách khỏi yêu cầu tham gia công cuộc chung",
+      "Mở rộng cơ hội nhận chứng nhận học vấn cho người vừa biết đọc, biết viết",
+      "Nâng mức hưởng thụ tinh thần trước mắt hơn là bồi dưỡng năng lực hành động",
+      "Diệt giặc dốt, đào tạo con người mới và tạo nguồn nhân lực cho cách mạng"
+    ],
+    "answer": 3,
+    "explanation": "Giáo dục vừa xóa mù chữ, giúp hiểu biết quy luật xã hội, vừa thực hiện sứ mệnh trồng người và đào tạo nguồn nhân lực. Vì vậy chương trình đang phát huy văn hóa như một động lực phát triển.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.a Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng",
+      "text": "Văn hóa giáo dục diệt giặc dốt và đào tạo con người mới, cán bộ mới cùng nguồn nhân lực chất lượng cho cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q014",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là một mặt trận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khái niệm mặt trận văn hóa trong tư tưởng Hồ Chí Minh chỉ điều gì?",
+    "options": [
+      "Một lĩnh vực phụ trợ cho phát triển kinh tế và chịu sự dẫn dắt của thị trường",
+      "Một không gian sáng tạo nghệ thuật, ít liên hệ với đấu tranh tư tưởng và đạo đức",
+      "Một lĩnh vực đấu tranh cách mạng về văn hóa, tư tưởng gắn với các lĩnh vực khác",
+      "Một cơ quan điều phối báo chí, văn nghệ và lý luận trong thời kỳ cách mạng"
+    ],
+    "answer": 2,
+    "explanation": "Mặt trận văn hóa là lĩnh vực hoạt động có tính độc lập tương đối, liên hệ mật thiết với lĩnh vực khác và phản ánh cuộc đấu tranh cam go về văn hóa, tư tưởng. Nó không phải một cơ quan hành chính.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.b Văn hóa là một mặt trận",
+      "text": "Giáo trình gọi mặt trận văn hóa là cuộc đấu tranh cách mạng trên lĩnh vực văn hóa, tư tưởng với nội dung phong phú."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q015",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là một mặt trận",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Hồ Chí Minh gọi văn nghệ sĩ là chiến sĩ trên mặt trận văn hóa?",
+    "options": [
+      "Vì quyền tự do sáng tác hướng tác phẩm trước hết tới nhu cầu cá nhân của văn nghệ sĩ",
+      "Vì tác phẩm nghệ thuật đảm nhiệm chức năng tổ chức và lãnh đạo hoạt động chính trị",
+      "Vì kỹ thuật biểu đạt tạo sức chiến đấu cho tác phẩm, còn lập trường thuộc lĩnh vực khác",
+      "Vì họ dùng hoạt động nghệ thuật để phụng sự Tổ quốc, nhân dân và định hướng giá trị"
+    ],
+    "answer": 3,
+    "explanation": "Văn nghệ sĩ tham gia cuộc đấu tranh trên lĩnh vực văn hóa bằng tác phẩm, lập trường và sự gắn bó với thực tiễn. Nhiệm vụ của họ là phụng sự Tổ quốc, phục vụ nhân dân và hướng tới chân, thiện, mỹ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.b Văn hóa là một mặt trận",
+      "text": "Chiến sĩ nghệ thuật dùng ngòi bút, tác phẩm và lập trường để phụng sự Tổ quốc, phục vụ nhân dân trên mặt trận văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q016",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa là một mặt trận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm sáng tác chỉ tô đẹp thành tích, né tránh thói xấu trong đời sống và không tìm hiểu thực tế của nhân dân. Theo tư tưởng Hồ Chí Minh, nhóm cần điều chỉnh thế nào?",
+    "options": [
+      "Tiếp tục phản ánh mặt tích cực để củng cố niềm tin, còn hạn chế giao cho báo chí phê bình",
+      "Tập trung nâng kỹ thuật biểu đạt để tác phẩm hấp dẫn hơn trước khi khảo sát thực tế",
+      "Lấy kinh nghiệm của nhóm sáng tác làm căn cứ chính khi lựa chọn vấn đề của quần chúng",
+      "Bám sát thực tiễn, phê bình cái xấu và biểu dương chân thật người tốt, việc tốt"
+    ],
+    "answer": 3,
+    "explanation": "Chiến sĩ văn hóa phải đi sâu vào quần chúng, phản ánh trung thực đời sống, phê bình thói xấu và nêu gương tốt. Chỉ tô đẹp thành tích làm mất chức năng chiến đấu và giáo dục của văn nghệ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.b Văn hóa là một mặt trận",
+      "text": "Văn nghệ phải bám sát thực tiễn, phê bình nghiêm khắc thói xấu và ca ngợi chân thật người tốt, việc tốt."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q017",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa phục vụ quần chúng nhân dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yêu cầu cơ bản của văn hóa phục vụ quần chúng nhân dân là gì?",
+    "options": [
+      "Trở về đời sống thực tế và phản ánh tư tưởng, khát vọng của quần chúng",
+      "Phản ánh sở thích của người sáng tác trước khi xác định nhu cầu của công chúng",
+      "Dùng lời lẽ cầu kỳ để tạo khoảng cách giữa sản phẩm với người tiếp nhận",
+      "Coi quần chúng là người nhận thụ động, không có khả năng sáng tạo văn hóa"
+    ],
+    "answer": 0,
+    "explanation": "Văn hóa vì nhân dân phải xuất phát từ cuộc sống, tư tưởng và khát vọng của quần chúng rồi trở lại phục vụ họ. Cách tiếp cận ấy phủ nhận thái độ xa dân hoặc coi dân chỉ là người nhận thụ động.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.c Văn hóa phục vụ quần chúng nhân dân",
+      "text": "Mọi hoạt động văn hóa phải trở về cuộc sống thực tại và phản ánh được tư tưởng cùng khát vọng của quần chúng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q018",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa phục vụ quần chúng nhân dân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vai trò của quần chúng trong hoạt động văn hóa được Hồ Chí Minh nhìn nhận đầy đủ như thế nào?",
+    "options": [
+      "Quần chúng cung cấp tư liệu, còn việc sáng tạo và đánh giá thuộc giới chuyên môn",
+      "Quần chúng tham gia thẩm định và hưởng thụ, còn sáng tạo cùng tư liệu thuộc giới chuyên môn",
+      "Quần chúng tiếp nhận thành quả sau khi tác phẩm được cơ quan văn hóa lựa chọn",
+      "Quần chúng sáng tạo, cung cấp tư liệu, thẩm định và hưởng thụ các giá trị văn hóa"
+    ],
+    "answer": 3,
+    "explanation": "Nhân dân vừa có năng lực sáng tạo, vừa cung cấp chất liệu đời sống, đánh giá sản phẩm và phải được hưởng thụ giá trị văn hóa. Không thể giản lược họ thành một mắt xích thụ động.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.c Văn hóa phục vụ quần chúng nhân dân",
+      "text": "Giáo trình xác định quần chúng là người sáng tác, nguồn tư liệu, chủ thể thẩm định và người hưởng thụ văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q019",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Văn hóa phục vụ quần chúng nhân dân",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tài liệu phổ biến kiến thức dùng nhiều thuật ngữ khó, kéo dài và không xác định rõ người đọc cần gì. Cách sửa nào phù hợp với quan điểm văn hóa phục vụ quần chúng?",
+    "options": [
+      "Bổ sung thêm thuật ngữ chuyên môn để chứng tỏ trình độ của người viết",
+      "Xác định người đọc, mục đích và viết thiết thực, rõ ràng từ thực tế quần chúng",
+      "Giữ nguyên nội dung vì công chúng phải tự thích nghi với cách viết của tác giả",
+      "Lược bớt cả thông tin nền tảng để văn bản đạt độ ngắn tối đa"
+    ],
+    "answer": 1,
+    "explanation": "Người viết phải trả lời viết cho ai, để làm gì, lấy tài liệu ở đâu và viết thế nào; cách diễn đạt cần thiết thực, thấm thía. Ngắn gọn không đồng nghĩa với lược bỏ nội dung cần thiết.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.2.c Văn hóa phục vụ quần chúng nhân dân",
+      "text": "Văn hóa phục vụ dân đòi hỏi xác định công chúng, mục đích, nguồn tư liệu và cách diễn đạt thiết thực, dễ thấm."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q020",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng nền văn hóa mới",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong định hướng xây dựng nền văn hóa dân tộc năm 1943, nội dung xây dựng tâm lý là gì?",
+    "options": [
+      "Tâm lý phục tùng và trông chờ vào sự giúp đỡ từ bên ngoài",
+      "Tinh thần độc lập, tự cường của dân tộc",
+      "Thói quen đặt lợi ích cá nhân lên trên phúc lợi nhân dân",
+      "Tư tưởng tách dân quyền khỏi đời sống chính trị"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh nêu xây dựng tâm lý với tinh thần độc lập, tự cường. Định hướng này thống nhất với xây dựng luân lý vì quần chúng, xã hội vì phúc lợi và chính trị dân quyền.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.3 Quan điểm về xây dựng nền văn hóa mới",
+      "text": "Trong định hướng năm 1943, xây dựng tâm lý được xác định là bồi dưỡng tinh thần độc lập và tự cường."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q021",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng nền văn hóa mới",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách hiểu nào làm rõ mối liên hệ giữa ba tính chất của nền văn hóa mới trong kháng chiến chống thực dân Pháp?",
+    "options": [
+      "Dân tộc nhấn mạnh tính bác học, khoa học bảo vệ truyền thống, đại chúng phục vụ văn nghệ sĩ",
+      "Dân tộc tạo sự thuần nhất, khoa học đề cao kỹ thuật, đại chúng mở rộng hoạt động giải trí",
+      "Dân tộc giới hạn nguồn tiếp thu, khoa học tách văn hóa khỏi đời sống, đại chúng hạ thấp chất lượng",
+      "Dân tộc giữ cốt cách Việt Nam, khoa học bảo đảm tiến bộ, đại chúng đưa văn hóa đến đông đảo nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Ba tính chất không phải ba mục tiêu rời nhau: tính dân tộc giữ cốt cách Việt Nam, tính khoa học bảo đảm tinh thần tiến bộ và tính đại chúng làm cho văn hóa phục vụ, thuộc về nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.3 Quan điểm về xây dựng nền văn hóa mới",
+      "text": "Mục I.3 xác định ba tính chất dân tộc, khoa học, đại chúng và tổng kết nền văn hóa mới phải giữ cốt cách dân tộc, bảo đảm tiến bộ, nhân văn."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q022",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng nền văn hóa mới",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong thời kỳ xây dựng chủ nghĩa xã hội, nền văn hóa mới được Hồ Chí Minh định hướng như thế nào?",
+    "options": [
+      "Nội dung dân tộc và hình thức tách khỏi tiến bộ xã hội",
+      "Nội dung kỹ thuật và tính chất không mang bản sắc riêng",
+      "Nội dung cổ truyền và tính chất hạn chế giao lưu với thế giới",
+      "Nội dung xã hội chủ nghĩa và tính chất dân tộc"
+    ],
+    "answer": 3,
+    "explanation": "Trong thời kỳ miền Bắc quá độ lên chủ nghĩa xã hội, Hồ Chí Minh chủ trương nền văn hóa có nội dung xã hội chủ nghĩa và tính chất dân tộc. Hai mặt này bổ sung chứ không loại trừ nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.3 Quan điểm về xây dựng nền văn hóa mới",
+      "text": "Nền văn hóa thời kỳ xây dựng chủ nghĩa xã hội được định hướng có nội dung xã hội chủ nghĩa và tính chất dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q023",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng nền văn hóa mới",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung xuyên suốt trong quan điểm Hồ Chí Minh về nền văn hóa mới Việt Nam là gì?",
+    "options": [
+      "Xây dựng văn hóa toàn diện, giữ cốt cách dân tộc, bảo đảm tính khoa học và nhân văn",
+      "Khôi phục các giá trị truyền thống làm trọng tâm, đồng thời thận trọng với sáng tạo mới",
+      "Ưu tiên hình thức hiện đại và xem văn hóa như lĩnh vực chuyên môn của giới sáng tác",
+      "Tiếp nhận mô hình bên ngoài làm chuẩn, còn bản sắc giữ vai trò tư liệu tham khảo"
+    ],
+    "answer": 0,
+    "explanation": "Quan niệm xuyên suốt kết hợp tính toàn diện với cốt cách dân tộc, khoa học, tiến bộ và nhân văn. Vì vậy bảo tồn không phải đóng kín, còn hiện đại hóa không phải xóa bản sắc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > I.3 Quan điểm về xây dựng nền văn hóa mới",
+      "text": "Giáo trình khái quát nền văn hóa mới là toàn diện, giữ cốt cách dân tộc và bảo đảm khoa học, tiến bộ, nhân văn."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q024",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh xác định địa vị của đạo đức đối với người cách mạng như thế nào?",
+    "options": [
+      "Là phẩm chất hỗ trợ người cán bộ vận dụng tài năng trong những nhiệm vụ phức tạp",
+      "Là chuẩn mực ứng xử cá nhân, còn hiệu quả công việc do năng lực chuyên môn quyết định",
+      "Là phẩm chất được củng cố từ uy tín và kinh nghiệm của người giữ chức vụ",
+      "Là cái gốc, nền tảng tinh thần, nguồn sức mạnh và tiêu chuẩn hàng đầu"
+    ],
+    "answer": 3,
+    "explanation": "Đạo đức được ví như gốc của cây và nguồn của sông, là nền tảng để người cách mạng gánh vác nhiệm vụ. Tài năng hoặc chức vụ không tự tạo ra nền tảng này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Hồ Chí Minh nhiều lần coi đạo đức là gốc, nền tảng, sức mạnh và tiêu chuẩn hàng đầu của người cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q025",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao sự nghiệp cách mạng càng lớn lao càng đòi hỏi người cách mạng phải có nền tảng đạo đức?",
+    "options": [
+      "Vì đạo đức quyết định trực tiếp kỹ thuật tổ chức và trình độ chuyên môn",
+      "Vì đạo đức cung cấp đầy đủ tri thức và phương tiện để hoàn thành nhiệm vụ",
+      "Vì đạo đức tạo uy tín cá nhân, qua đó bảo đảm sự tín nhiệm của tổ chức",
+      "Vì nhiệm vụ nặng nề, lâu dài cần sức mạnh tinh thần để kiên định hành động"
+    ],
+    "answer": 3,
+    "explanation": "Cải tạo xã hội là công việc lâu dài, phức tạp và gian khổ; nền tảng đạo đức giúp con người đủ sức bền, giữ mục đích đúng và hoàn thành nhiệm vụ. Đạo đức không thay thế tài năng hoặc tổ chức.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Nhiệm vụ cách mạng nặng nề và lâu dài đòi hỏi người cách mạng có đạo đức làm nền tảng để gánh vác và đi xa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q026",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đạo đức cách mạng giúp con người ứng xử thế nào trước khó khăn và thành công?",
+    "options": [
+      "Bình tĩnh trước khó khăn nhưng tự cho phép hưởng thụ khi đã thành công",
+      "Không rụt rè trước gian khổ và vẫn khiêm tốn, chất phác khi thành công",
+      "Giữ khiêm tốn khi thất bại và đề cao công lao cá nhân lúc nhiệm vụ thuận lợi",
+      "Lựa chọn nhiệm vụ ít rủi ro để giữ thành tích và uy tín đã đạt được"
+    ],
+    "answer": 1,
+    "explanation": "Đạo đức là chỗ dựa để không sợ khó khăn, thất bại và cũng không kiêu căng khi thuận lợi, thành công. Bản lĩnh phải được giữ trong cả nghịch cảnh lẫn thuận cảnh.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Đạo đức cách mạng giúp con người vững vàng trước gian khổ và vẫn giữ sự chất phác, khiêm tốn khi thành công."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q027",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cán bộ có chuyên môn giỏi nhưng dùng năng lực để mưu lợi riêng và gây hại cho tập thể. Đánh giá nào phù hợp với tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Tài năng thiếu nền tảng đạo đức có thể trở nên vô dụng hoặc gây hại",
+      "Chuyên môn tạo kết quả có ích nên động cơ vụ lợi có thể xem là hạn chế thứ yếu",
+      "Yêu cầu đạo đức nên tập trung ở người còn yếu chuyên môn",
+      "Điều chuyển vị trí sẽ khai thác được tài năng dù động cơ phục vụ tập thể chưa đổi"
+    ],
+    "answer": 0,
+    "explanation": "Tài là phương tiện thực hiện mục đích, còn đức định hướng mục đích và là nền tảng. Khi thiếu đạo đức, năng lực có thể bị dùng sai và gây hại chứ không tự chuyển thành giá trị tích cực.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Giáo trình khẳng định thiếu tài thì khó làm việc, nhưng có tài mà thiếu đạo đức thì vô dụng, thậm chí có hại."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q028",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ giữa đức và tài được Hồ Chí Minh lý giải đúng nhất theo cách nào?",
+    "options": [
+      "Đức quyết định thái độ, tài quyết định kết quả; hai mặt vận hành tách nhau",
+      "Đức định hướng mục đích, tài là phương tiện; cả hai thống nhất và đức là gốc",
+      "Tài định mục đích, đức tạo thiện cảm trong quá trình thực hiện",
+      "Hiệu quả công việc cao có thể bù hạn chế về động cơ và định hướng đạo đức"
+    ],
+    "answer": 1,
+    "explanation": "Đức và tài phải thống nhất: đức định hướng mục đích hành động, tài giúp hiện thực hóa mục đích, trong đó đức giữ vai trò nền tảng. Vì vậy không được tuyệt đối hóa hoặc tách rời một mặt.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Đức là tiêu chuẩn cho mục đích, tài là phương tiện thực hiện; hai phẩm chất thống nhất nhưng đạo đức giữ vai trò gốc."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q029",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Đạo đức là gốc, là nền tảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Hồ Chí Minh, tiêu chí nào thể hiện lòng cao thượng của con người dù công việc lớn hay nhỏ?",
+    "options": [
+      "Quyền hạn mà người đó nắm giữ trong tổ chức và xã hội",
+      "Mức độ nổi tiếng mà người đó đạt được sau công việc",
+      "Khả năng giữ gìn và thực hành đạo đức trong công việc",
+      "Lợi ích vật chất mà người đó thu nhận được cho bản thân"
+    ],
+    "answer": 2,
+    "explanation": "Năng lực và quy mô công việc của mỗi người có thể khác nhau, nhưng ai giữ được đạo đức đều là người cao thượng. Địa vị, danh tiếng hoặc lợi ích riêng không phải thước đo này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng",
+      "text": "Giáo trình dùng việc giữ đạo đức làm thước đo lòng cao thượng, không phụ thuộc người đó làm việc lớn hay nhỏ."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q030",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Trung với nước, hiếu với dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh đã đổi mới nội dung của hai khái niệm trung và hiếu như thế nào?",
+    "options": [
+      "Từ trung với vua, hiếu với cha mẹ mở rộng sang nghĩa vụ với đất nước",
+      "Từ trung với vua, hiếu với cha mẹ thành trung với nước, hiếu với toàn dân",
+      "Từ trách nhiệm với quốc gia chuyển sang nghĩa vụ với gia đình và dòng họ",
+      "Từ đạo đức công dân chuyển thành lòng trung thành với người cầm quyền"
+    ],
+    "answer": 1,
+    "explanation": "Hồ Chí Minh kế thừa thuật ngữ truyền thống nhưng mở rộng và cách mạng hóa nội dung: trung thành với nước của dân và hiếu với toàn dân. Chủ thể trung thành không còn là cá nhân nhà vua.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.a Trung với nước, hiếu với dân",
+      "text": "Hai khái niệm đạo đức cũ được đổi mới từ trung với vua, hiếu với cha mẹ thành trung với nước, hiếu với toàn dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q031",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Trung với nước, hiếu với dân",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cách mạng trong quan niệm trung với nước, hiếu với dân thể hiện rõ nhất ở đâu?",
+    "options": [
+      "Nước thuộc về dân, dân làm chủ nên trung và hiếu cùng hướng tới lợi ích của nhân dân",
+      "Nhà nước đại diện lợi ích chung nên dân phục tùng các quyết định quản lý",
+      "Lòng trung bảo vệ đất nước, chữ hiếu điều chỉnh quan hệ giữa cán bộ với dân",
+      "Nhà nước bảo đảm quyền lợi cho dân, còn dân cung cấp nguồn lực và thực hiện nghĩa vụ với đất nước"
+    ],
+    "answer": 0,
+    "explanation": "Quan niệm mới đặt nhân dân vào địa vị chủ nhân của đất nước; quyền hành, lực lượng và lợi ích đều gắn với dân. Vì thế trung và hiếu trở thành phẩm chất chính trị, đạo đức vì nước, vì dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.a Trung với nước, hiếu với dân",
+      "text": "Nội dung mới xuất phát từ quan niệm nước là nước của dân, dân là chủ nhân và quyền hành, lực lượng đều ở nơi dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q032",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Trung với nước, hiếu với dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung của trung với nước theo tư tưởng Hồ Chí Minh bao gồm yêu cầu nào?",
+    "options": [
+      "Trung thành với lợi ích của tổ chức và bảo vệ uy tín của bộ máy trước nhân dân",
+      "Bảo vệ đất nước khi nhiệm vụ phù hợp với quyền lợi và vị trí công tác của mình",
+      "Gắn lòng yêu nước với việc giữ ổn định xã hội, còn sự nghiệp cách mạng do Đảng phụ trách",
+      "Yêu nước, trung thành với Tổ quốc, suốt đời phấn đấu vì dân giàu và nước mạnh"
+    ],
+    "answer": 3,
+    "explanation": "Trung với nước là yêu nước, tuyệt đối trung thành với Tổ quốc, suốt đời phấn đấu cho Đảng, cho cách mạng và vì dân giàu, nước mạnh. Nó không dung hòa với lợi ích cục bộ trái lợi ích dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.a Trung với nước, hiếu với dân",
+      "text": "Trung với nước gắn lòng yêu nước, sự trung thành với Tổ quốc và phấn đấu cho cách mạng, cho dân giàu, nước mạnh."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q033",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Trung với nước, hiếu với dân",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cán bộ ra quyết định mà không hỏi dân, xem dân chỉ là đối tượng phải phục tùng và thường lên giọng ra oai. Người đó cần sửa theo yêu cầu nào của hiếu với dân?",
+    "options": [
+      "Tham khảo ý kiến dân sau khi ban hành quyết định để giữ quyền chủ động của người quản lý",
+      "Gặp đại diện các nhóm đồng thuận nhằm tạo cơ sở xã hội thuận lợi cho việc triển khai",
+      "Tăng chất lượng phục vụ nhưng vẫn giữ quyền quyết định tập trung ở cán bộ chuyên môn",
+      "Tin dân, gần dân, học dân, tôn trọng quyền làm chủ và hết lòng phục vụ nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Hiếu với dân đòi hỏi thương dân, tin dân, thân dân, học hỏi dân, lấy dân làm gốc và tôn trọng quyền làm chủ. Thái độ quan cách, ra lệnh ra oai đi ngược chuẩn mực này.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.a Trung với nước, hiếu với dân",
+      "text": "Hiếu với dân được thể hiện bằng tin, gần, học hỏi, kính trọng dân, lấy dân làm gốc và phục vụ nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q034",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Trung với nước, hiếu với dân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao trung với nước phải gắn liền với hiếu với dân?",
+    "options": [
+      "Vì lợi ích quốc gia do cơ quan công quyền xác định, còn đời sống dân là mục tiêu hỗ trợ",
+      "Vì trung với nước nêu định hướng chính trị, còn hiếu với dân bổ sung cách ứng xử cá nhân",
+      "Vì phục vụ dân giúp củng cố uy tín quản lý, qua đó thuận lợi cho việc bảo vệ quyền lực nhà nước",
+      "Vì nước thuộc về dân nên trung với nước phải thể hiện trong tôn trọng và phụng sự nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Khi nhân dân là chủ nhân của nước, lòng trung với Tổ quốc không thể tách khỏi trách nhiệm đối với dân. Hiếu với dân là cách hiện thực hóa lòng trung trong quyền làm chủ và lợi ích của nhân dân.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.a Trung với nước, hiếu với dân",
+      "text": "Trung với nước và hiếu với dân thống nhất vì đất nước thuộc về nhân dân, còn cán bộ phải là người phục vụ nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q035",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Cần, kiệm, liêm, chính, chí công vô tư",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung đúng của đức cần theo tư tưởng Hồ Chí Minh là gì?",
+    "options": [
+      "Lao động siêng năng, có kế hoạch, sáng tạo, năng suất cao và phát huy tinh thần tự lực",
+      "Làm việc nhiều giờ theo thói quen, coi kế hoạch và chất lượng là yêu cầu thứ yếu",
+      "Tập trung công việc đem lại lợi ích trực tiếp cho bản thân và gia đình",
+      "Chờ nguồn lực hỗ trợ rồi mới nhận phần trách nhiệm phù hợp với khả năng"
+    ],
+    "answer": 0,
+    "explanation": "Cần không chỉ là chăm chỉ mà còn đòi hỏi kế hoạch, sáng tạo, năng suất và tự lực cánh sinh. Sự bận rộn thiếu mục tiêu, hiệu quả không phản ánh đầy đủ đức cần.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.b Cần, kiệm, liêm, chính, chí công vô tư",
+      "text": "Cần là lao động cần cù, có kế hoạch, sáng tạo, năng suất cao và có tinh thần tự lực, không lười biếng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q036",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Cần, kiệm, liêm, chính, chí công vô tư",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm phân biệt giữa tiết kiệm và bủn xỉn theo Hồ Chí Minh là gì?",
+    "options": [
+      "Tiết kiệm giảm cả khoản chi thiết yếu, còn bủn xỉn tập trung giảm khoản chi cho cá nhân",
+      "Tiết kiệm tránh lãng phí nhưng sẵn sàng chi cho việc ích nước, lợi dân; bủn xỉn thì không",
+      "Tiết kiệm quản lý nguồn lực chung, còn bủn xỉn là cách giữ tài sản thuộc sở hữu cá nhân",
+      "Tiết kiệm dành nguồn lực cho mục tiêu dài hạn, còn bủn xỉn dành nguồn lực cho người thân"
+    ],
+    "answer": 1,
+    "explanation": "Kiệm là không xa xỉ, hoang phí nhưng việc đáng làm và có ích cho đồng bào, Tổ quốc thì sẵn lòng đóng góp. Không chi cho việc đáng chi mới là bủn xỉn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.b Cần, kiệm, liêm, chính, chí công vô tư",
+      "text": "Tiết kiệm không phải bủn xỉn: phải tránh chi vô ích nhưng sẵn lòng dùng công, của cho việc có lợi cho dân, cho nước."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q037",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Cần, kiệm, liêm, chính, chí công vô tư",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đức liêm được Hồ Chí Minh giải thích chủ yếu bằng nội dung nào?",
+    "options": [
+      "Tích lũy địa vị và tiền tài để tăng khả năng chi phối người khác",
+      "Trong sạch, không tham lam và tôn trọng, giữ gìn của công, của dân",
+      "Từ chối học tập, làm việc và tiến bộ để không nảy sinh ham muốn",
+      "Hạn chế trách nhiệm với tài sản chung vì đó là việc của cơ quan quản lý"
+    ],
+    "answer": 1,
+    "explanation": "Liêm là trong sạch, không tham địa vị, tiền tài, sung sướng hoặc lời tâng bốc, đồng thời biết giữ của công và của dân. Ham học, ham làm và ham tiến bộ không bị xem là tham lam.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.b Cần, kiệm, liêm, chính, chí công vô tư",
+      "text": "Liêm được giải thích là trong sạch, không tham lam và luôn tôn trọng, giữ gìn tài sản công cùng tài sản của dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q038",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Cần, kiệm, liêm, chính, chí công vô tư",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một người tự cao với đồng nghiệp, nịnh người trên, coi thường người dưới và đặt việc nhà lên trước việc công. Người đó vi phạm trực tiếp đức tính nào?",
+    "options": [
+      "Cần, vì người đó chưa thể hiện tinh thần siêng năng trong công việc",
+      "Kiệm, vì người đó chưa cân đối đúng lợi ích cá nhân và tập thể",
+      "Chính, vì chưa ngay thẳng với mình, với người và với việc",
+      "Liêm, vì người đó chưa thể hiện mong muốn học tập và tiến bộ"
+    ],
+    "answer": 2,
+    "explanation": "Chính thể hiện trong ba quan hệ: không tự kiêu với mình, chân thành và khiêm tốn với người, đặt việc nước lên trên việc tư. Tình huống vi phạm đồng thời cả ba phương diện đó.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.b Cần, kiệm, liêm, chính, chí công vô tư",
+      "text": "Đức chính được biểu hiện trong cách đối với mình, với người và với việc, luôn ngay thẳng và đặt việc công lên trước."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q039",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Cần, kiệm, liêm, chính, chí công vô tư",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chí công vô tư có quan hệ thế nào với cần, kiệm, liêm, chính?",
+    "options": [
+      "Xem công bằng trong phân phối là đích riêng, ít liên hệ với việc rèn luyện bốn đức",
+      "Bổ sung yêu cầu dành cho người có quyền hạn, còn bốn đức áp dụng rộng trong xã hội",
+      "Điều hòa lợi ích riêng với lợi ích chung theo vị trí và đóng góp của từng cá nhân",
+      "Kết tinh bốn đức, đặt lợi ích chung lên trên lợi ích riêng và chống chủ nghĩa cá nhân"
+    ],
+    "answer": 3,
+    "explanation": "Chí công vô tư là sự tiếp nối và phát triển của cần, kiệm, liêm, chính: hành động công tâm, không thiên vị, đặt lợi ích của Đảng, dân tộc và nhân dân lên trước lợi ích riêng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.b Cần, kiệm, liêm, chính, chí công vô tư",
+      "text": "Chí công vô tư nối tiếp cần, kiệm, liêm, chính, nêu cao lợi ích tập thể và chống chủ nghĩa cá nhân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q040",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Thương yêu con người, sống có tình có nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tình thương yêu con người trong tư tưởng Hồ Chí Minh trước hết hướng tới những ai?",
+    "options": [
+      "Những người có cùng địa vị xã hội và cùng nguồn gốc dân tộc",
+      "Người nghèo khổ, mất quyền và bị áp bức, bóc lột",
+      "Những người có khả năng đem lại lợi ích trực tiếp cho tổ chức",
+      "Những người chưa từng mắc sai lầm trong công việc và cuộc sống"
+    ],
+    "answer": 1,
+    "explanation": "Tình thương có phạm vi rộng, trước hết dành cho người nghèo khổ, bị mất quyền, áp bức và bóc lột, không phân biệt màu da hay dân tộc. Nó không dựa trên địa vị hoặc lợi ích trao đổi.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.c Thương yêu con người, sống có tình có nghĩa",
+      "text": "Tình yêu thương trước hết dành cho những người nghèo khổ, mất quyền, bị áp bức và bóc lột không phân biệt màu da, dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q041",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Thương yêu con người, sống có tình có nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm khác nhau giữa tình thương yêu con người và thái độ dĩ hòa vi quý là gì?",
+    "options": [
+      "Tình thương ưu tiên tha thứ lỗi lầm; dĩ hòa vi quý ưu tiên giữ nghiêm chuẩn mực",
+      "Tình thương dành cho người cùng lập trường; dĩ hòa vi quý mở rộng đến người mắc khuyết điểm",
+      "Tình thương hướng đến động cơ người sai; dĩ hòa vi quý chú trọng kết quả sửa chữa",
+      "Tình thương giúp người tiến bộ, không xuê xoa hoặc che giấu sai lầm"
+    ],
+    "answer": 3,
+    "explanation": "Tình thương cách mạng phải độ lượng, vị tha nhưng đồng thời nâng con người lên, kể cả người nhất thời lầm lạc. Nó không phải thái độ xuê xoa, né góp ý hoặc hạ thấp yêu cầu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.c Thương yêu con người, sống có tình có nghĩa",
+      "text": "Thương yêu đòi hỏi tôn trọng, tạo điều kiện phát huy và nâng con người lên, không phải dĩ hòa vi quý hay vùi dập."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q042",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Thương yêu con người, sống có tình có nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tình thương yêu con người phải được biểu hiện chủ yếu bằng cách nào?",
+    "options": [
+      "Bằng lời nói giàu cảm xúc nhưng tách khỏi các quan hệ hằng ngày",
+      "Bằng hành động cụ thể, thiết thực trong quan hệ với những người xung quanh",
+      "Bằng việc hạ thấp yêu cầu để người mắc sai lầm không phải sửa mình",
+      "Bằng thái độ nghiêm khắc với người khác và dễ dãi với bản thân"
+    ],
+    "answer": 1,
+    "explanation": "Tình thương không dừng ở cảm xúc hoặc lời nói mà phải đi vào hành động thiết thực trong quan hệ hằng ngày. Người có tình thương cần nghiêm với mình và rộng lượng với người khác.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.c Thương yêu con người, sống có tình có nghĩa",
+      "text": "Giáo trình yêu cầu tình thương yêu con người phải được thể hiện bằng hành động cụ thể và thiết thực trong đời sống."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q043",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Thương yêu con người, sống có tình có nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đồng nghiệp nhất thời mắc lỗi và đã muốn sửa chữa. Cách ứng xử nào phù hợp nhất với tư tưởng thương yêu con người của Hồ Chí Minh?",
+    "options": [
+      "Phê bình công khai trước tập thể để tăng trách nhiệm và tạo bài học chung",
+      "Tạm bỏ qua khuyết điểm để giữ quan hệ, chờ người đó tự điều chỉnh",
+      "Giảm phần việc của người đó lâu dài nhằm phòng ngừa lỗi tương tự tái diễn",
+      "Góp ý với thái độ tôn trọng, đồng thời giúp người đó sửa lỗi và phát huy năng lực"
+    ],
+    "answer": 3,
+    "explanation": "Tình thương đòi hỏi thái độ tôn trọng, độ lượng và giúp con người tiến bộ, không vùi dập cũng không xuê xoa. Góp ý gắn với cơ hội sửa chữa đáp ứng cả tình và trách nhiệm.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.c Thương yêu con người, sống có tình có nghĩa",
+      "text": "Đối với người nhất thời lầm lạc, cần tôn trọng, khoan dung và tạo điều kiện để họ sửa chữa, phát huy điều tốt."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q044",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tinh thần quốc tế trong sáng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào thể hiện tinh thần quốc tế trong sáng theo tư tưởng Hồ Chí Minh?",
+    "options": [
+      "Đề cao lợi ích dân tộc mình hơn quyền bình đẳng của các dân tộc khác",
+      "Giới hạn đoàn kết trong những người cùng quốc tịch và cùng văn hóa",
+      "Tôn trọng, thương yêu và đoàn kết với các lực lượng tiến bộ thế giới",
+      "Từ bỏ độc lập, tự chủ để nhận sự quyết định từ lực lượng bên ngoài"
+    ],
+    "answer": 2,
+    "explanation": "Tinh thần quốc tế trong sáng hướng tới đoàn kết giai cấp vô sản, dân tộc bị áp bức và những người tiến bộ, đồng thời chống phân biệt, hằn thù và bá quyền. Nó không phủ nhận độc lập dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.d Tinh thần quốc tế trong sáng",
+      "text": "Chủ nghĩa quốc tế bao gồm tôn trọng, hiểu biết, thương yêu và đoàn kết với các dân tộc cùng lực lượng tiến bộ toàn cầu."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q045",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tinh thần quốc tế trong sáng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ giữa chủ nghĩa yêu nước chân chính và tinh thần quốc tế trong sáng được hiểu như thế nào?",
+    "options": [
+      "Hai phẩm chất kết hợp nhuần nhuyễn, cùng chống áp bức và hướng tới hòa bình, tiến bộ",
+      "Yêu nước đòi hỏi biệt lập, còn đoàn kết quốc tế làm suy yếu quyền tự chủ dân tộc",
+      "Tinh thần quốc tế phát huy sau khi các lợi ích căn bản của dân tộc đã được đáp ứng",
+      "Hai phẩm chất thuộc hai mục tiêu đối lập nên không thể cùng tồn tại trong một con người"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh kết hợp lòng yêu nước chân chính với chủ nghĩa quốc tế vô sản; độc lập của dân tộc mình thống nhất với hòa bình, tự do và tiến bộ của các dân tộc khác.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.d Tinh thần quốc tế trong sáng",
+      "text": "Tư tưởng Hồ Chí Minh kết hợp nhuần nhuyễn chủ nghĩa yêu nước chân chính với tinh thần quốc tế vô sản trong sáng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q046",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tinh thần quốc tế trong sáng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mệnh đề nào diễn đạt đúng quan hệ giữa độc lập, tự chủ và đoàn kết quốc tế?",
+    "options": [
+      "Giữ độc lập, tự lực đồng thời tăng cường hợp tác và ủng hộ các cuộc đấu tranh tiến bộ",
+      "Giữ độc lập bằng cách hạn chế hợp tác và ưu tiên giải quyết các công việc trong nước",
+      "Mở rộng đoàn kết bằng cách điều chỉnh quyền tự quyết theo lợi ích của đối tác chủ chốt",
+      "Tự lực được bảo đảm khi các phong trào quốc tế không tham gia vào vấn đề của dân tộc"
+    ],
+    "answer": 0,
+    "explanation": "Độc lập, tự chủ và tự lực là nền tảng chứ không phải lý do biệt lập; chúng đi cùng đoàn kết, hợp tác và nghĩa vụ với phong trào tiến bộ thế giới. Quan hệ mới ưu tiên đối thoại thay đối đầu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.2.d Tinh thần quốc tế trong sáng",
+      "text": "Hồ Chí Minh nêu cao độc lập, tự lực nhưng luôn thúc đẩy đoàn kết, hợp tác và ủng hộ nhân dân các nước vì tiến bộ."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q047",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nói đi đôi với làm và nêu gương",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nói đi đôi với làm trong xây dựng đạo đức mới yêu cầu điều gì?",
+    "options": [
+      "Lời nói thống nhất với hành động và kết quả thực tế",
+      "Nêu chuẩn mực cho người khác, còn bản thân thực hiện theo điều kiện công việc",
+      "Đánh giá đạo đức chủ yếu bằng lời hứa thay cho hiệu quả hành động",
+      "Tách lý luận đạo đức khỏi thực tiễn để giữ nguyên tính khái quát"
+    ],
+    "answer": 0,
+    "explanation": "Nguyên tắc này đòi hỏi sự thống nhất giữa lý luận và thực tiễn, giữa điều đã nói với việc thực sự làm. Nó đối lập với đạo đức giả, nói suông hoặc nói một đằng làm một nẻo.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.a Nói đi đôi với làm, nêu gương về đạo đức",
+      "text": "Nói đi đôi với làm là nguyên tắc quan trọng, thể hiện sự thống nhất giữa lý luận, lời nói và hành động thực tế."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q048",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nói đi đôi với làm và nêu gương",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao nêu gương được coi là phương pháp giáo dục đạo đức có sức thuyết phục lớn?",
+    "options": [
+      "Vì uy tín của người nêu gương khiến người học tiếp nhận chuẩn mực trước khi hình thành tự giác",
+      "Vì hành vi của một cá nhân trực tiếp hình thành phẩm chất đạo đức cho các thành viên khác",
+      "Vì nêu gương tạo ấn tượng cảm xúc nhanh hơn quá trình rèn luyện trong thực tế",
+      "Vì gương sống biến chuẩn mực thành điều có thể học và làm theo"
+    ],
+    "answer": 3,
+    "explanation": "Một tấm gương sống làm cho chuẩn mực trở nên cụ thể và đáng tin, tác động cả tới người khác lẫn quá trình tự giáo dục của người nêu gương. Nó không thay thế lý luận hay sự tự rèn luyện.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.a Nói đi đôi với làm, nêu gương về đạo đức",
+      "text": "Giáo trình nhấn mạnh giá trị giáo dục của tấm gương sống và yêu cầu cán bộ làm mực thước cho quần chúng noi theo."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q049",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nói đi đôi với làm và nêu gương",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một người đứng đầu thường kêu gọi tiết kiệm nhưng lại tổ chức hoạt động xa hoa cho bản thân. Cách đánh giá nào phù hợp nhất?",
+    "options": [
+      "Người đó vi phạm nói đi đôi với làm và làm suy giảm tác dụng nêu gương",
+      "Thông điệp tiết kiệm vẫn có giá trị, còn đời sống riêng được đánh giá theo chuẩn mực khác",
+      "Hành vi cá nhân làm giảm uy tín nhưng ít ảnh hưởng tới việc giáo dục đạo đức của tổ chức",
+      "Người đứng đầu định hướng bằng lời, còn cấp dưới thể hiện chuẩn mực bằng hành động"
+    ],
+    "answer": 0,
+    "explanation": "Lời kêu gọi trái với hành vi là biểu hiện nói một đằng làm một nẻo, làm mất lòng tin và khả năng giáo dục bằng gương sống. Người đứng đầu càng phải thực hành trước điều mình yêu cầu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.a Nói đi đôi với làm, nêu gương về đạo đức",
+      "text": "Nói đi đôi với làm đối lập với đạo đức giả; cán bộ, đảng viên phải làm gương trong lời nói và việc làm."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q050",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nói đi đôi với làm và nêu gương",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ giữa nói đi đôi với làm và nêu gương về đạo đức là gì?",
+    "options": [
+      "Hai yêu cầu bổ sung nhau, nhưng thực hiện tốt một mặt có thể bù hạn chế ở mặt kia",
+      "Nêu gương nhấn mạnh vai trò lãnh đạo, còn nói đi đôi với làm nhấn mạnh trách nhiệm quần chúng",
+      "Sự thống nhất lời nói, việc làm tạo nên tấm gương và tấm gương củng cố giáo dục đạo đức",
+      "Nói đi đôi với làm bảo đảm hiệu quả công việc, còn nêu gương chủ yếu tạo uy tín cá nhân"
+    ],
+    "answer": 2,
+    "explanation": "Tấm gương chỉ hình thành khi lời nói thống nhất với hành động; chính tấm gương ấy lại giúp chuẩn mực thấm vào đời sống. Hai yêu cầu gắn bó và cùng chống bệnh hình thức, nói suông.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.a Nói đi đôi với làm, nêu gương về đạo đức",
+      "text": "Lời nói đi đôi với việc làm phải gắn liền với nêu gương để chuẩn mực đạo đức trở thành hành vi thường ngày."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q051",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây đi đôi với chống",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong nguyên tắc xây đi đôi với chống, xây và chống lần lượt có nghĩa là gì?",
+    "options": [
+      "Xây cơ sở vật chất và hạn chế sự thay đổi trong đời sống tinh thần",
+      "Xây giá trị, chuẩn mực đạo đức mới và chống biểu hiện, hành vi vô đạo đức",
+      "Xây quy định xử phạt và chống việc giáo dục ý thức tự giác của con người",
+      "Xây lợi ích cá nhân và chống những yêu cầu thuộc về lợi ích cộng đồng"
+    ],
+    "answer": 1,
+    "explanation": "Xây là bồi dưỡng giá trị và chuẩn mực đạo đức mới; chống là đấu tranh với cái xấu, sai và hành vi vô đạo đức. Hai mặt cùng hướng tới sự hình thành nền đạo đức mới.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.b Xây đi đôi với chống",
+      "text": "Giáo trình giải thích xây là tạo lập giá trị, chuẩn mực đạo đức mới còn chống là loại trừ biểu hiện và hành vi vô đạo đức."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q052",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây đi đôi với chống",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mối quan hệ đúng giữa xây và chống trong giáo dục đạo đức là gì?",
+    "options": [
+      "Xây phải gắn với chống, chống nhằm mục đích xây và lấy xây làm chính",
+      "Chống tạo môi trường cho xây nên cần ưu tiên xử lý cái xấu trước khi bồi dưỡng cái tốt",
+      "Xây hướng vào cá nhân, chống hướng vào tổ chức nên có thể triển khai thành hai quá trình riêng",
+      "Xây phát huy khi các biểu hiện sai đã giảm, còn chống được dùng ở giai đoạn chuẩn bị"
+    ],
+    "answer": 0,
+    "explanation": "Cái tốt và xấu đan xen nên muốn xây phải chống, nhưng chống không phải mục đích tự thân mà phục vụ xây dựng, trong đó xây giữ vai trò chính. Không thể chờ một mặt hoàn tất rồi mới làm mặt kia.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.b Xây đi đôi với chống",
+      "text": "Xây và chống phải kết hợp chặt chẽ; chống nhằm phục vụ xây dựng và trong quan hệ đó phải lấy xây làm chính."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q053",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây đi đôi với chống",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình đạo đức chỉ tăng hình phạt đối với sai phạm, không bồi dưỡng chuẩn mực tốt hay khả năng tự giáo dục. Theo Hồ Chí Minh, nên bổ sung điều gì?",
+    "options": [
+      "Giảm biện pháp ngăn sai phạm và chuyển nguồn lực sang tuyên truyền các gương tốt",
+      "Tăng mức xử phạt và công khai vi phạm để tạo động cơ tuân thủ trong tập thể",
+      "Bồi dưỡng điều tốt, khơi dậy tự giác đồng thời tiếp tục ngăn ngừa sai phạm",
+      "Ban hành thêm chuẩn mực và khẩu hiệu để người học ghi nhớ các hành vi nên tránh"
+    ],
+    "answer": 2,
+    "explanation": "Xây dựng đạo đức cần cả giáo dục chuẩn mực, khơi dậy tự giác và đấu tranh với hành vi xấu, kết hợp giáo dục với pháp luật. Hình phạt đơn độc không tạo được nền tảng đạo đức tích cực.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.b Xây đi đôi với chống",
+      "text": "Giáo trình yêu cầu xây chuẩn mực, khơi dậy ý thức tự giác và kết hợp giáo dục đạo đức với tính nghiêm minh của pháp luật."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q054",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tu dưỡng đạo đức suốt đời",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh ví quá trình tu dưỡng đạo đức của mỗi người với điều gì?",
+    "options": [
+      "Một cuộc cách mạng trường kỳ, gian khổ trong chính bản thân mình",
+      "Một kết quả tự nhiên có sẵn và không chịu ảnh hưởng của giáo dục",
+      "Một nhiệm vụ ngắn hạn hoàn tất khi con người đạt được chức vụ",
+      "Một hoạt động được tiến hành khi đã xuất hiện sai phạm nghiêm trọng"
+    ],
+    "answer": 0,
+    "explanation": "Tu dưỡng là cuộc cải tạo lâu dài giữa tư tưởng mới và cũ trong mỗi người, đòi hỏi tự giác, kiên trì. Đạo đức không phải phẩm chất tự nhiên hoàn chỉnh hoặc nhiệm vụ có điểm kết thúc sớm.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.c Tu dưỡng đạo đức suốt đời",
+      "text": "Giáo trình coi tự tu dưỡng là một cuộc cách mạng trường kỳ, gian khổ diễn ra trong bản thân từng con người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q055",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tu dưỡng đạo đức suốt đời",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao đạo đức không phải phẩm chất nhất thành bất biến?",
+    "options": [
+      "Vì đạo đức biến đổi theo địa vị và trách nhiệm xã hội của từng người",
+      "Vì phẩm chất hình thành theo kinh nghiệm sống, còn ý thức cá nhân tác động không đáng kể",
+      "Vì đạo đức hình thành, được củng cố hoặc suy giảm qua giáo dục và rèn luyện thực tiễn",
+      "Vì đạo đức là trạng thái tâm lý theo tình huống nên khó trở thành phẩm chất bền vững"
+    ],
+    "answer": 2,
+    "explanation": "Đạo đức được hình thành, củng cố hoặc suy giảm trong hoàn cảnh sống, giáo dục và quá trình rèn luyện thực tế. Vì vậy mỗi người phải thường xuyên tự giáo dục, không thể dựa vào phẩm chất đã có.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.c Tu dưỡng đạo đức suốt đời",
+      "text": "Đạo đức không cố định mà được hình thành, phát triển nhờ hoàn cảnh giáo dục và sự rèn luyện, phấn đấu của mỗi người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q056",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tu dưỡng đạo đức suốt đời",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Quan điểm đúng về thời gian tu dưỡng đạo đức là gì?",
+    "options": [
+      "Tập trung rèn luyện ở tuổi trẻ, sau đó duy trì bằng kinh nghiệm và uy tín nghề nghiệp",
+      "Người từng sai phạm cần tu dưỡng trong giai đoạn khắc phục, người khác chú trọng phòng ngừa",
+      "Tu dưỡng suốt đời, đặc biệt chú trọng giai đoạn tuổi trẻ",
+      "Có thể giảm mức tự soi xét sau khi phẩm chất đã được tập thể ghi nhận qua nhiều năm"
+    ],
+    "answer": 2,
+    "explanation": "Tuổi trẻ có ý nghĩa đặc biệt đối với việc hình thành phẩm chất, nhưng rèn luyện phải diễn ra liên tục suốt đời. Thành tích hoặc tuổi tác không bảo đảm con người không thể thoái hóa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.c Tu dưỡng đạo đức suốt đời",
+      "text": "Mỗi người phải kiên trì rèn luyện và tu dưỡng đạo đức suốt đời, với thời tuổi trẻ là giai đoạn đặc biệt quan trọng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q057",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Tu dưỡng đạo đức suốt đời",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Bài học nào được rút ra từ nhận định người từng có công vẫn có thể thoái hóa về sau?",
+    "options": [
+      "Công lao quá khứ không miễn trừ việc tự soi xét và rèn đạo đức thường xuyên",
+      "Người có nhiều thành tích cần được giảm nhiệm vụ để hạn chế nguy cơ nảy sinh chủ nghĩa cá nhân",
+      "Kiểm tra của tổ chức quyết định hơn tự giáo dục trong việc giữ gìn đạo đức",
+      "Thường xuyên nhắc lại công lao cũ là biện pháp giữ vững phẩm chất hiện tại"
+    ],
+    "answer": 0,
+    "explanation": "Đạo đức có thể suy giảm nếu con người ngừng rèn luyện và sa vào chủ nghĩa cá nhân. Công lao cũ đáng trân trọng nhưng không miễn trừ trách nhiệm tự giáo dục trong hiện tại.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > II.3.c Tu dưỡng đạo đức suốt đời",
+      "text": "Giáo trình cảnh báo người từng có công vẫn có thể thoái hóa nếu không giữ lòng trong sáng và không tiếp tục rèn luyện."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q058",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh nhìn nhận con người như một chỉnh thể thống nhất gồm những phương diện nào?",
+    "options": [
+      "Trí lực và nghề nghiệp được xem xét tách khỏi tình cảm, sức khỏe",
+      "Trí lực, tâm lực, thể lực trong những quan hệ cá nhân và xã hội đa dạng",
+      "Địa vị giai cấp và vai trò xã hội, bỏ qua nét riêng của cá nhân",
+      "Nhu cầu vật chất, tinh thần của cá nhân ít gắn với cộng đồng và xã hội"
+    ],
+    "answer": 1,
+    "explanation": "Con người là chỉnh thể thống nhất giữa trí lực, tâm lực và thể lực, đồng thời tồn tại trong mạng lưới quan hệ gia đình, giai cấp, dân tộc, chính trị, văn hóa và đạo đức.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.1 Quan niệm của Hồ Chí Minh về con người",
+      "text": "Giáo trình nhìn con người như chỉnh thể thống nhất trí lực, tâm lực, thể lực và đa dạng trong các quan hệ xã hội."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q059",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về con người",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách nhìn con người lịch sử, cụ thể khác với cách nhìn con người trừu tượng ở điểm nào?",
+    "options": [
+      "Xem đặc điểm sinh học là cơ sở chính, còn quan hệ xã hội là yếu tố phát sinh về sau",
+      "Dùng một khuôn mẫu con người ổn định để so sánh giữa các giai đoạn và hoàn cảnh",
+      "Xem con người theo giới, tuổi, nghề, vị trí và điều kiện lịch sử, xã hội cụ thể",
+      "Phân loại con người theo trình độ học vấn rồi suy ra vị trí gia đình và xã hội"
+    ],
+    "answer": 2,
+    "explanation": "Con người lịch sử, cụ thể luôn được đặt trong hoàn cảnh, vị trí và quan hệ xác định, thay vì một khái niệm phi nguồn gốc. Cách tiếp cận này giúp nhận ra sự đa dạng thực tế.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.1 Quan niệm của Hồ Chí Minh về con người",
+      "text": "Hồ Chí Minh xem xét con người cụ thể theo giới tính, lứa tuổi, nghề nghiệp, vị trí và từng giai đoạn lịch sử."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q060",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Các phạm vi nghĩa của chữ người được Hồ Chí Minh mở rộng theo trình tự nào?",
+    "options": [
+      "Từ cá nhân, đến cơ quan nhà nước, rồi mở rộng thành một giai cấp xã hội",
+      "Từ dân tộc, đến gia đình, rồi chuyển sang nhiều nhóm nghề nghiệp trong xã hội",
+      "Từ gia đình và người thân, đến đồng bào cả nước, rồi toàn thể loài người",
+      "Từ loài người, đến đồng bào cả nước, rồi thu hẹp về gia đình và người thân"
+    ],
+    "answer": 2,
+    "explanation": "Nghĩa hẹp gồm gia đình, anh em, họ hàng, bè bạn; nghĩa rộng là đồng bào cả nước; rộng hơn nữa là loài người. Trình tự thể hiện phạm vi quan hệ ngày càng mở rộng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.1 Quan niệm của Hồ Chí Minh về con người",
+      "text": "Chữ người được giải thích từ phạm vi gia đình, người thân đến đồng bào cả nước và rộng nhất là toàn loài người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q061",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về con người",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chính sách áp dụng cùng một cách hỗ trợ cho mọi người, không xét tuổi, nghề nghiệp, vị trí hay hoàn cảnh xã hội. Hạn chế của chính sách theo quan niệm Hồ Chí Minh là gì?",
+    "options": [
+      "Đã xem con người một cách trừu tượng, bỏ qua những khác biệt lịch sử và hoàn cảnh cụ thể",
+      "Đã nhấn mạnh bối cảnh xã hội đến mức xem nhẹ những nhu cầu chung giữa các nhóm người",
+      "Đã ưu tiên cộng đồng nên hạn chế khả năng tự chủ của cá nhân trong các quan hệ xã hội",
+      "Đã coi người dân là các chủ thể bình đẳng nên việc phân nhóm hỗ trợ trở nên không phù hợp"
+    ],
+    "answer": 0,
+    "explanation": "Con người phải được nhận diện trong giới tính, lứa tuổi, nghề nghiệp, vị trí và điều kiện lịch sử cụ thể. Một chính sách đồng loạt có thể bỏ sót nhu cầu khác nhau của các nhóm thực tế.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.1 Quan niệm của Hồ Chí Minh về con người",
+      "text": "Quan niệm con người lịch sử, cụ thể đòi hỏi chú ý tuổi, nghề nghiệp, vị trí và hoàn cảnh kinh tế, xã hội xác định."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q062",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Quan niệm về con người",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Việc Hồ Chí Minh đồng thời quan tâm cơm ăn, áo mặc, chỗ ở, học hành và quyền làm chủ thể hiện điều gì?",
+    "options": [
+      "Vật chất là nền tảng, còn quyền làm chủ được xem xét ở giai đoạn sau",
+      "Địa vị chính trị định hướng nhu cầu, còn điều kiện sống thuộc trách nhiệm cá nhân",
+      "Con người có cả nhu cầu vật chất, tinh thần và tồn tại trong các quan hệ xã hội",
+      "Chế độ bảo đảm nhu cầu, còn quan hệ cộng đồng ít ảnh hưởng đến con người"
+    ],
+    "answer": 2,
+    "explanation": "Con người vừa có phương diện sinh vật với nhu cầu sống thiết yếu, vừa là thành viên xã hội có quyền, học vấn và các mối quan hệ. Chính sách vì con người phải chú ý đồng thời các mặt đó.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.1 Quan niệm của Hồ Chí Minh về con người",
+      "text": "Giáo trình kết hợp yếu tố sinh vật, nhu cầu thiết yếu với tính xã hội và các chiều quan hệ của con người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q063",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Con người là mục tiêu của cách mạng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Con người là mục tiêu của cách mạng được Hồ Chí Minh cụ thể hóa qua tiến trình nào?",
+    "options": [
+      "Ưu tiên phát triển kinh tế và củng cố bộ máy, sau đó từng bước cải thiện các quyền con người",
+      "Giải phóng dân tộc, xây dựng chế độ dân chủ nhân dân và tiến lên chủ nghĩa xã hội",
+      "Giải phóng từng cá nhân và giai cấp trước, từ đó hình thành điều kiện giành độc lập dân tộc",
+      "Phát triển văn hóa và giáo dục trước, rồi tiến hành các biến đổi chính trị và xã hội"
+    ],
+    "answer": 1,
+    "explanation": "Mục tiêu vì con người được triển khai qua giải phóng dân tộc, xây dựng chế độ dân chủ nhân dân và tiến lên chủ nghĩa xã hội. Tiến trình này hướng tới giải phóng xã hội, giai cấp và từng con người.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.2 Quan niệm của Hồ Chí Minh về vai trò của con người",
+      "text": "Con người là mục tiêu chiến lược được cụ thể hóa qua giải phóng dân tộc, xây dựng dân chủ và tiến lên xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q064",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Con người là mục tiêu của cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ giữa giải phóng dân tộc, xã hội, giai cấp và con người được giáo trình trình bày như thế nào?",
+    "options": [
+      "Bốn quá trình diễn ra song song và có điều kiện riêng",
+      "Giải phóng con người tạo tiền đề trực tiếp để giải quyết vấn đề giai cấp và giành độc lập dân tộc",
+      "Chúng gắn bó, nối tiếp; giải phóng dân tộc mở đường cho các mục tiêu tiếp theo",
+      "Giải phóng giai cấp quy tụ các mục tiêu dân tộc, xã hội và cá nhân"
+    ],
+    "answer": 2,
+    "explanation": "Các quá trình giải phóng kết hợp chặt chẽ và phát triển nối tiếp; giành độc lập đã chứa yếu tố giải phóng xã hội, con người và mở đường để các mục tiêu ấy đi xa hơn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.2 Quan niệm của Hồ Chí Minh về vai trò của con người",
+      "text": "Các quá trình giải phóng liên hệ, nối tiếp nhau và giải phóng dân tộc mở đường cho giải phóng xã hội, giai cấp, con người."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q065",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Con người là động lực của cách mạng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao nhân dân được coi là động lực quyết định của sự nghiệp cách mạng?",
+    "options": [
+      "Vì nhân dân là lực lượng đông đảo thực hiện nhiệm vụ do tổ chức cách mạng đề ra",
+      "Vì nhân dân sáng tạo lịch sử bằng lao động, đấu tranh và hoạt động văn hóa của xã hội",
+      "Vì sức mạnh nhân dân phát huy chủ yếu từ kinh nghiệm tự phát của từng cộng đồng",
+      "Vì năng lực của các cá nhân ưu tú dẫn dắt và tạo nên sức mạnh chung của quần chúng"
+    ],
+    "answer": 1,
+    "explanation": "Cách mạng là sự nghiệp của quần chúng; nhân dân trực tiếp sáng tạo lịch sử trong lao động sản xuất, đấu tranh xã hội và văn hóa. Sức mạnh ấy còn được phát huy thông qua đoàn kết và tổ chức.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.2 Quan niệm của Hồ Chí Minh về vai trò của con người",
+      "text": "Nhân dân là chủ thể sáng tạo lịch sử qua lao động, đấu tranh chính trị, xã hội và sáng tạo các giá trị văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q066",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Con người là động lực của cách mạng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một dự án cộng đồng do chuyên gia quyết định toàn bộ, người dân chỉ được thông báo và không thể góp sức hoặc góp ý. Theo tư tưởng Hồ Chí Minh, hạn chế chính là gì?",
+    "options": [
+      "Chưa phân công rõ trách nhiệm giữa chuyên gia và chính quyền trong khâu triển khai",
+      "Chưa phát huy nhân dân với tư cách chủ thể, nguồn lực và nguồn trí tuệ của dự án",
+      "Chưa trao quyền tự quản riêng cho từng hộ dân trong việc lựa chọn mục tiêu dự án",
+      "Chưa xác định đầy đủ nhóm thụ hưởng nên mục tiêu hỗ trợ còn thiếu trọng tâm"
+    ],
+    "answer": 1,
+    "explanation": "Nhân dân không chỉ là người thụ hưởng mà còn là lực lượng, trí tuệ và chủ thể thực tiễn. Loại họ khỏi tham gia khiến dự án bỏ phí động lực quyết định và khó phản ánh đúng nhu cầu cộng đồng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.2 Quan niệm của Hồ Chí Minh về vai trò của con người",
+      "text": "Giáo trình coi lực lượng, trí tuệ, quyền hành và sức đoàn kết của nhân dân là gốc và động lực của cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q067",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Con người là mục tiêu và động lực",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hai vai trò con người là mục tiêu và là động lực khác nhau nhưng thống nhất ở điểm nào?",
+    "options": [
+      "Con người thụ hưởng mục tiêu, còn vai trò tạo động lực thuộc về tổ chức và đường lối",
+      "Cách mạng hướng tới giải phóng, phát triển con người và đồng thời được chính con người thực hiện",
+      "Con người trở thành động lực sau khi các điều kiện giải phóng và phát triển đã được thiết lập",
+      "Vai trò động lực đòi hỏi ưu tiên nghĩa vụ đóng góp trước khi mở rộng quyền và điều kiện phát triển"
+    ],
+    "answer": 1,
+    "explanation": "Con người vừa là đích đến được giải phóng, bảo đảm tự do và phát triển toàn diện, vừa là chủ thể tạo nên thắng lợi. Bảo đảm lợi ích con người cũng góp phần khơi dậy sức hành động của họ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.2 Quan niệm của Hồ Chí Minh về vai trò của con người",
+      "text": "Tư tưởng Hồ Chí Minh đặt con người ở cả vị trí đích đến của giải phóng và chủ thể quyết định thành công cách mạng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q068",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Ý nghĩa của việc xây dựng con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hồ Chí Minh xác định ý nghĩa của việc xây dựng con người như thế nào?",
+    "options": [
+      "Là nhiệm vụ phụ được đặt ra sau khi kinh tế và chính trị đã hoàn thiện",
+      "Là công việc ngắn hạn nhằm đáp ứng riêng nhu cầu nhân lực trước mắt",
+      "Là yêu cầu vừa cấp bách, vừa lâu dài, có ý nghĩa chiến lược đối với cách mạng",
+      "Là trách nhiệm riêng của ngành giáo dục, không thuộc cá nhân hoặc tổ chức khác"
+    ],
+    "answer": 2,
+    "explanation": "Xây dựng con người là yêu cầu khách quan, cấp bách nhưng lâu dài, giữ vị trí chiến lược trong phát triển đất nước. Nó liên hệ với chính trị, kinh tế, văn hóa, xã hội và là trách nhiệm chung.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.a Ý nghĩa của việc xây dựng con người",
+      "text": "Xây dựng con người được xác định vừa cấp bách vừa lâu dài, là trọng tâm có ý nghĩa chiến lược của phát triển đất nước."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q069",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Ý nghĩa của việc xây dựng con người",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ đúng giữa xây dựng con người xã hội chủ nghĩa và xây dựng chủ nghĩa xã hội là gì?",
+    "options": [
+      "Hai quá trình diễn ra đồng thời; con người mới vừa là sản phẩm, vừa là động lực xây dựng xã hội mới",
+      "Phải hoàn thành xây dựng xã hội mới rồi mới bắt đầu hình thành con người mới",
+      "Phải có đầy đủ con người mới trước rồi mới được biến đổi kinh tế và xã hội",
+      "Hai quá trình tách biệt vì phẩm chất con người không ảnh hưởng việc xây dựng chế độ"
+    ],
+    "answer": 0,
+    "explanation": "Không thể chờ kinh tế, văn hóa phát triển xong mới xây dựng con người, cũng không thể xây xong con người rồi mới xây xã hội. Hai quá trình tác động qua lại và phải được đặt ra ngay từ đầu.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.a Ý nghĩa của việc xây dựng con người",
+      "text": "Con người xã hội chủ nghĩa được hình thành trong quá trình xây dựng xã hội mới và đồng thời là động lực của quá trình đó."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q070",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nội dung xây dựng con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục tiêu khái quát của xây dựng con người toàn diện theo Hồ Chí Minh là gì?",
+    "options": [
+      "Đặt lý tưởng và đạo đức ở vị trí trung tâm, coi chuyên môn là phương tiện hỗ trợ",
+      "Lấy năng lực nghề nghiệp làm chuẩn chính, còn đạo đức đánh giá trong quan hệ cá nhân",
+      "Kết hợp chuyên môn sâu với tinh thần trách nhiệm trong phạm vi nghề nghiệp được giao",
+      "Vừa hồng vừa chuyên, thống nhất lý tưởng, đạo đức, tác phong với năng lực làm chủ"
+    ],
+    "answer": 3,
+    "explanation": "Con người toàn diện phải kết hợp hồng và chuyên: có lý tưởng, bản lĩnh, đạo đức, tác phong xã hội chủ nghĩa đồng thời có tri thức và năng lực làm chủ. Tuyệt đối hóa một mặt đều không đầy đủ.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.b Nội dung xây dựng con người",
+      "text": "Nội dung xây dựng con người toàn diện được khái quát bằng sự thống nhất giữa hồng và chuyên, phẩm chất với năng lực."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q071",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nội dung xây dựng con người",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phương án nào kết hợp đúng các mặt chủ yếu của con người toàn diện?",
+    "options": [
+      "Ý thức làm chủ, cần kiệm, yêu nước gắn với quốc tế và phương pháp làm việc khoa học",
+      "Ý thức tự chủ cá nhân, lối sống tiết chế và phong cách làm việc linh hoạt theo hoàn cảnh",
+      "Lòng yêu nước, kinh nghiệm thực tiễn và phương pháp làm việc dựa trên trực giác cá nhân",
+      "Năng lực chuyên môn, sức khỏe và bản lĩnh chính trị, còn đạo đức thuộc quá trình tự rèn"
+    ],
+    "answer": 0,
+    "explanation": "Con người toàn diện có ý thức làm chủ, tinh thần tập thể, cần kiệm, yêu nước gắn quốc tế trong sáng và phong cách làm việc khoa học, dân chủ, quần chúng. Các mặt phải hỗ trợ nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.b Nội dung xây dựng con người",
+      "text": "Nội dung xây dựng con người kết hợp ý thức làm chủ, cần kiệm, yêu nước, quốc tế trong sáng và phương pháp làm việc khoa học."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q072",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Nội dung xây dựng con người",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình đào tạo chỉ chú trọng kỹ thuật và ngoại ngữ, không bồi dưỡng lý tưởng, đạo đức, sức khỏe hay trách nhiệm tập thể. Theo Hồ Chí Minh, cần điều chỉnh thế nào?",
+    "options": [
+      "Giảm thời lượng chuyên môn để dành phần lớn chương trình cho giáo dục đạo đức và lý tưởng",
+      "Dùng chuẩn nghề nghiệp làm nền rồi đánh giá các phẩm chất khác qua kết quả kỹ thuật",
+      "Bổ sung giáo dục lý tưởng, đạo đức, sức khỏe và trách nhiệm tập thể bên cạnh chuyên môn",
+      "Tổ chức học tập cá nhân nhằm nâng kỹ thuật trước, còn trách nhiệm tập thể rèn qua hoạt động sau"
+    ],
+    "answer": 2,
+    "explanation": "Xây dựng con người toàn diện không hạ thấp chuyên môn mà đặt chuyên môn trong sự thống nhất với lý tưởng, đạo đức, thể lực và trách nhiệm. Đó là nội dung vừa hồng vừa chuyên.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.b Nội dung xây dựng con người",
+      "text": "Giáo trình yêu cầu bồi dưỡng đồng thời đạo đức, lý luận, văn hóa, khoa học kỹ thuật, chuyên môn, ngoại ngữ và sức khỏe."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q073",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Phương pháp xây dựng con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp xây dựng con người phải kết hợp hai phương diện cơ bản nào?",
+    "options": [
+      "Tự rèn luyện cá nhân với việc tách con người khỏi tổ chức và xã hội",
+      "Giáo dục lý thuyết với việc hạn chế thực hành quyền dân chủ của nhân dân",
+      "Nêu gương cá nhân với việc bỏ qua cơ chế và tính khoa học của bộ máy",
+      "Tự tu dưỡng của mỗi người với xây dựng cơ chế, bộ máy khoa học và nền dân chủ"
+    ],
+    "answer": 3,
+    "explanation": "Con người phải chủ động tự rèn luyện, nhưng môi trường thể chế, bộ máy khoa học và dân chủ cũng có vai trò tạo điều kiện. Không thể quy toàn bộ trách nhiệm cho riêng cá nhân hoặc cơ chế.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.c Phương pháp xây dựng con người",
+      "text": "Phương pháp xây dựng con người kết hợp tự rèn luyện, tu dưỡng với xây dựng cơ chế, bộ máy khoa học và nền dân chủ."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q074",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Phương pháp xây dựng con người",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách phối hợp nào phản ánh đầy đủ phương pháp xây dựng con người của Hồ Chí Minh?",
+    "options": [
+      "Lấy giáo dục lý luận làm nền, nêu gương và thực tiễn đóng vai trò hỗ trợ sau khóa học",
+      "Lấy phong trào làm môi trường chính, kết hợp tuyên truyền và khen thưởng người tích cực",
+      "Dựa vào người đứng đầu để định hướng, tổ chức lấy ý kiến dân chủ ở khâu đánh giá",
+      "Kết hợp giáo dục, nêu gương, tổ chức, phong trào thực tiễn và quá trình tự rèn luyện của từng người"
+    ],
+    "answer": 3,
+    "explanation": "Giáo dục, gương người tốt việc tốt, tổ chức Đảng, chính quyền, đoàn thể và phong trào quần chúng đều cần thiết, đồng thời mỗi người phải tự rèn luyện. Các phương pháp bổ trợ nhau.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > III.3.c Phương pháp xây dựng con người",
+      "text": "Xây dựng con người cần giáo dục, nêu gương, phát huy tổ chức và phong trào, dựa vào quần chúng cùng sự tự tu dưỡng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q075",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, văn hóa giữ địa vị nào trong phát triển đất nước?",
+    "options": [
+      "Là lĩnh vực tiêu dùng phụ thuộc, không tham gia tạo sức mạnh phát triển",
+      "Là nền tảng tinh thần, mục tiêu và sức mạnh nội sinh thúc đẩy phát triển",
+      "Là hoạt động phục vụ giải trí sau khi các nhiệm vụ kinh tế đã hoàn thành",
+      "Là công việc riêng của đội ngũ văn nghệ sĩ, không phải sự nghiệp toàn dân"
+    ],
+    "answer": 1,
+    "explanation": "Phần vận dụng theo giáo trình năm 2021 coi văn hóa là nền tảng tinh thần, mục tiêu, động lực và sức mạnh nội sinh của phát triển bền vững. Xây dựng văn hóa là sự nghiệp của toàn dân dưới sự lãnh đạo của Đảng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 xác định văn hóa là nền tảng tinh thần, mục tiêu, động lực và sức mạnh nội sinh của phát triển."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q076",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, nền văn hóa tiên tiến, đậm đà bản sắc dân tộc thống nhất với tính đa dạng như thế nào?",
+    "options": [
+      "Thống nhất yêu cầu các sắc thái địa phương điều chỉnh theo cùng một khuôn mẫu văn hóa",
+      "Thống nhất ở định hướng, giá trị chung nhưng tôn trọng sắc thái đa dạng của cộng đồng",
+      "Đa dạng cho phép từng cộng đồng ưu tiên hệ giá trị riêng hơn định hướng chung của quốc gia",
+      "Bản sắc nhấn mạnh di sản truyền thống, còn tinh thần nhân văn và dân chủ thuộc tính tiên tiến"
+    ],
+    "answer": 1,
+    "explanation": "Thống nhất trong đa dạng là cùng hướng tới các giá trị chung, đồng thời kế thừa và phát huy truyền thống tốt đẹp của các dân tộc Việt Nam. Thống nhất không đồng nghĩa đồng nhất hóa.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 định hướng nền văn hóa phát triển toàn diện, thống nhất trong đa dạng và đậm đà bản sắc dân tộc."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q077",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phần vận dụng của giáo trình năm 2021 xác định con người có vị trí nào trong chiến lược phát triển?",
+    "options": [
+      "Là đối tượng thụ hưởng trực tiếp và thước đo kết quả của chiến lược phát triển",
+      "Là nguồn nhân lực chủ yếu để chuyển các quyết định quản lý thành kết quả phát triển",
+      "Là trung tâm đồng thời là chủ thể của quá trình phát triển",
+      "Là yếu tố xã hội được cải thiện nhờ thành quả tăng trưởng kinh tế và giáo dục"
+    ],
+    "answer": 2,
+    "explanation": "Con người vừa là trung tâm mà mọi chính sách hướng tới, vừa là chủ thể tạo nên phát triển. Quan điểm này đi cùng tôn trọng quyền con người, quyền làm chủ và lợi ích của dân tộc.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Cương lĩnh được giáo trình dẫn xác định con người là trung tâm của chiến lược và đồng thời là chủ thể phát triển."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q078",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương đánh giá văn hóa chỉ bằng số lễ hội tổ chức, trong khi người dân khó tiếp cận hoạt động văn hóa và môi trường ứng xử xuống cấp. Cần điều chỉnh thế nào theo giáo trình năm 2021?",
+    "options": [
+      "Tăng thêm lễ hội, lấy số người tham dự làm thước đo mức hưởng thụ văn hóa",
+      "Gắn hoạt động với phát triển con người, môi trường lành mạnh và quyền hưởng thụ văn hóa",
+      "Thu hẹp văn hóa vào biểu diễn nghệ thuật để dễ thống kê kết quả hằng năm",
+      "Tách văn hóa khỏi đời sống cộng đồng vì ứng xử thuộc trách nhiệm riêng từng người"
+    ],
+    "answer": 1,
+    "explanation": "Xây dựng văn hóa phải tác động đến con người, môi trường sống, nhân cách và quyền hưởng thụ, không thể đo bằng số sự kiện. Tiếp cận này làm văn hóa thấm sâu vào đời sống xã hội.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 yêu cầu phát triển con người toàn diện, môi trường văn hóa lành mạnh và mở rộng khả năng hưởng thụ văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q079",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, vì sao xây dựng văn hóa hiện nay phải gắn với chính trị, kinh tế và xã hội?",
+    "options": [
+      "Vì văn hóa vừa chịu tác động của các lĩnh vực ấy, vừa tạo sức mạnh nội sinh cho phát triển",
+      "Vì văn hóa phản ánh trình độ của các lĩnh vực và điều chỉnh theo yêu cầu kinh tế, xã hội",
+      "Vì tăng trưởng kinh tế cung cấp nguồn lực rồi từ đó hình thành nhân cách và môi trường văn hóa",
+      "Vì phối hợp các lĩnh vực giúp dùng các thước đo vật chất để đánh giá kết quả xây dựng con người"
+    ],
+    "answer": 0,
+    "explanation": "Văn hóa tồn tại trong điều kiện chính trị, kinh tế, xã hội nhưng đồng thời định hướng tư tưởng, đạo đức, lối sống và góp sức cho mỗi bước phát triển. Quan hệ ấy là tác động hai chiều.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 yêu cầu giải quyết đúng quan hệ văn hóa với kinh tế, chính trị, xã hội và phát huy sức mạnh nội sinh."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q080",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hệ giá trị con người Việt Nam được phần vận dụng năm 2021 nhấn mạnh bằng tổ hợp nào?",
+    "options": [
+      "Thực dụng cá nhân, cạnh tranh bất chấp kỷ cương và thờ ơ với cộng đồng",
+      "Bảo lưu văn hóa dân tộc, ngại học tập và dựa vào kinh nghiệm có sẵn",
+      "Yêu nước, đoàn kết, sống lành mạnh, lao động và học tập sáng tạo",
+      "Đề cao địa vị, hưởng thụ, hình thức và giảm trách nhiệm với môi trường"
+    ],
+    "answer": 2,
+    "explanation": "Hệ giá trị kết hợp lòng yêu nước, tự cường, lợi ích chung, nếp sống văn minh, cần kiệm, trung thực, lao động có lương tâm và học tập nâng cao toàn diện. Đây không phải lối sống khép kín hay thực dụng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 nêu các giá trị yêu nước, đoàn kết, lối sống lành mạnh, lao động sáng tạo và thường xuyên học tập."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q081",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chiến lược thu hút nhân tài đưa ra đãi ngộ cao nhưng môi trường thiếu công bằng, quyền sáng tạo bị hạn chế và giáo dục không được đổi mới. Theo giáo trình năm 2021, nên bổ sung gì?",
+    "options": [
+      "Tăng cạnh tranh cá nhân và giảm trách nhiệm xã hội của người có tài",
+      "Tạo môi trường công bằng, tôn trọng quyền, đổi mới giáo dục và phát huy năng lực sáng tạo",
+      "Tách nhân tài khỏi cộng đồng để họ không phải tham gia nhiệm vụ chung",
+      "Thay chính sách phát triển con người bằng việc nhập toàn bộ nguồn lực từ bên ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Trọng dụng nhân tài phải đi cùng giáo dục, quyền sáng tạo, chính sách xã hội công bằng và môi trường giúp mọi năng lực được phát huy. Đãi ngộ vật chất đơn lẻ chưa tạo thành chiến lược vì con người.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 gắn trọng dụng nhân tài với đổi mới giáo dục, chính sách công bằng và điều kiện phát huy sáng tạo của nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q082",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo định hướng vận dụng trong giáo trình năm 2021, phát triển công nghiệp văn hóa cần gắn với điều kiện nào?",
+    "options": [
+      "Tăng sản lượng nội dung trước, còn thị trường được hình thành sau khi có đủ sản phẩm",
+      "Mở rộng dịch vụ văn hóa bằng cách ưu tiên khả năng sinh lời hơn giá trị xã hội",
+      "Phát triển đồng bộ thị trường dịch vụ, sản phẩm văn hóa với công nghiệp văn hóa",
+      "Quản lý công nghiệp văn hóa như hoạt động sự nghiệp, tách khỏi nhu cầu của công chúng"
+    ],
+    "answer": 2,
+    "explanation": "Phần vận dụng năm 2021 đặt phát triển công nghiệp văn hóa đi đôi với xây dựng và hoàn thiện thị trường dịch vụ, sản phẩm văn hóa. Sản xuất và thị trường vì thế phải được phát triển đồng bộ, không tách thành hai giai đoạn.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 yêu cầu phát triển công nghiệp văn hóa đi đôi với xây dựng, hoàn thiện thị trường dịch vụ và sản phẩm văn hóa."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q083",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phù hợp với định hướng xây dựng văn hóa và con người trong giáo trình năm 2021?",
+    "options": [
+      "Đặt văn hóa thành lĩnh vực chuyên biệt, phối hợp với chính trị và kinh tế sau khi đạt các mục tiêu riêng",
+      "Phát triển sản phẩm giải trí và hạ tầng tiếp cận, còn môi trường gia đình do cộng đồng tự điều chỉnh",
+      "Ưu tiên quản lý nội dung, thu hẹp không gian thông tin và sáng tạo để giữ sự đồng thuận văn hóa",
+      "Phát triển con người toàn diện, môi trường lành mạnh và văn hóa trong chính trị, kinh tế"
+    ],
+    "answer": 3,
+    "explanation": "Định hướng được giáo trình năm 2021 trình bày gồm phát triển toàn diện con người, xây dựng môi trường văn hóa và đưa văn hóa vào chính trị, kinh tế. Đây là các nhiệm vụ liên kết, không phải những mảng tách rời.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 nhấn mạnh phát triển con người toàn diện, môi trường văn hóa lành mạnh và văn hóa trong chính trị, kinh tế."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q084",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao giáo dục đạo đức cách mạng cho thanh niên, sinh viên có ý nghĩa đặc biệt?",
+    "options": [
+      "Vì thanh niên đang định hình đời sống cá nhân nên cần chuẩn bị năng lực thích ứng nghề nghiệp",
+      "Vì giáo dục đạo đức bù đắp những hạn chế về tri thức và kinh nghiệm nghề nghiệp của tuổi trẻ",
+      "Vì thanh niên kế thừa thành quả cách mạng và giữ vai trò hỗ trợ các thế hệ đang lãnh đạo",
+      "Vì họ là chủ nhân tương lai, tiếp sức cách mạng và sẽ gánh trách nhiệm với đất nước"
+    ],
+    "answer": 3,
+    "explanation": "Theo phần vận dụng của giáo trình năm 2021, thanh niên là lực lượng tiếp nối thế hệ trước, dìu dắt thế hệ sau và ảnh hưởng lớn đến thịnh suy của nước nhà. Vì vậy cần bồi dưỡng cả đức và tài.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 coi thanh niên là chủ nhân tương lai, lực lượng tiếp sức cách mạng và dìu dắt thế hệ kế tiếp."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q085",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hai câu hỏi học để làm gì và học để phục vụ ai định hướng sinh viên theo cách nào?",
+    "options": [
+      "Định hướng lựa chọn ngành học theo khả năng tạo thu nhập và vị thế xã hội",
+      "Tập trung tích lũy chuyên môn rồi tham gia việc chung khi nghề nghiệp đã ổn định",
+      "Coi bằng cấp và thành tích học tập là căn cứ chính đánh giá mức độ đóng góp xã hội",
+      "Gắn mục đích học tập với cống hiến, trách nhiệm công dân và phục vụ nhân dân"
+    ],
+    "answer": 3,
+    "explanation": "Hai câu hỏi buộc người học xác định rõ mục tiêu xã hội của tri thức và đối tượng mình phục vụ. Theo giáo trình năm 2021, học tập phải góp phần làm người công dân tốt và làm chủ đất nước.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 yêu cầu sinh viên xác định dứt khoát mục đích học tập và trách nhiệm phục vụ đất nước, nhân dân."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q086",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên nhiều lần thất bại trong đề tài nên muốn bỏ mục tiêu dù vẫn có thể điều chỉnh cách làm. Theo giáo trình năm 2021, cách ứng xử nào phù hợp?",
+    "options": [
+      "Bình tĩnh xem lại phương pháp, kiên trì mục đích và chủ động vượt qua thử thách",
+      "Giữ nguyên cách làm để chứng tỏ ý chí, tiếp tục thực hiện đến khi đạt kết quả",
+      "Tạm gác mục tiêu dài hạn, ưu tiên công việc dễ tạo thành tích để lấy lại tự tin",
+      "Chờ điều kiện thuận lợi và sự hỗ trợ đầy đủ rồi mới tiếp tục thực hiện đề tài"
+    ],
+    "answer": 0,
+    "explanation": "Phần vận dụng năm 2021 nêu tấm gương bình tĩnh, kiên cường, chủ động vượt thử thách và kiên trì mục đích. Ý chí không đồng nghĩa với giữ một cách làm kém hiệu quả; người học cần điều chỉnh phương pháp mà vẫn bền chí với mục tiêu đúng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 yêu cầu học đức tính bình tĩnh, kiên cường, chủ động vượt qua thử thách và kiên trì mục đích sống."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q087",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung học tập đạo đức Hồ Chí Minh được giáo trình năm 2021 nhấn mạnh bằng nhóm phẩm chất nào?",
+    "options": [
+      "Cầu danh, vụ lợi, đề cao cá nhân và né tránh trách nhiệm với cộng đồng",
+      "Thỏa hiệp trước khó khăn, tự mãn với thành tích và xa rời nhân dân",
+      "Trung với nước, cần kiệm liêm chính, thương người và quốc tế trong sáng",
+      "Thu hẹp giao lưu dân tộc, coi nhẹ hợp tác và đặt hưởng thụ lên trước cống hiến"
+    ],
+    "answer": 2,
+    "explanation": "Phần vận dụng năm 2021 kế thừa các chuẩn mực trung với nước, hiếu với dân; cần, kiệm, liêm, chính; nhân ái; và yêu nước gắn quốc tế trong sáng. Những phẩm chất ấy định hướng hành động hiện nay.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 yêu cầu học các phẩm chất vì nước, vì dân, cần kiệm liêm chính, nhân ái và quốc tế trong sáng."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q088",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo phần vận dụng của giáo trình xuất bản năm 2021, việc mỗi người tự tu dưỡng đạo đức có quan hệ thế nào với đấu tranh chống suy thoái trong xã hội?",
+    "options": [
+      "Tự tu dưỡng hoàn thiện nhân cách và góp phần ngăn suy thoái xã hội",
+      "Tự tu dưỡng tập trung vào đời sống cá nhân, còn niềm tin xã hội được củng cố bằng thiết chế",
+      "Cơ quan quản lý chịu trách nhiệm chống suy thoái, cá nhân đóng góp bằng việc tuân thủ quy định",
+      "Đấu tranh với biểu hiện xã hội tạo điều kiện để cá nhân giảm tự soi xét trong giai đoạn ổn định"
+    ],
+    "answer": 0,
+    "explanation": "Đạo đức là yếu tố cơ bản của nhân cách; sự tự rèn luyện giúp từng người chống chủ nghĩa cá nhân và hành vi lệch chuẩn. Nhiều cá nhân tự giác sẽ góp phần củng cố đạo đức xã hội và niềm tin.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 gắn tự tu dưỡng với hoàn thiện nhân cách và cuộc đấu tranh chống suy thoái đạo đức, lối sống."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q089",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng văn hóa và con người hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một khu dân cư tổ chức đều các hoạt động văn hóa nhưng bạo lực gia đình và ứng xử thiếu văn minh vẫn phổ biến. Theo giáo trình năm 2021, giải pháp nào đúng trọng tâm?",
+    "options": [
+      "Tăng số sự kiện biểu diễn để cải thiện mức hưởng thụ văn hóa của cư dân",
+      "Gắn hoạt động cộng đồng với xây dựng gia đình no ấm, tiến bộ, hạnh phúc, văn minh",
+      "Chuyển trách nhiệm giáo dục nếp sống cho nhà trường và các đoàn thể địa phương",
+      "Ưu tiên chỉnh trang cảnh quan, còn quan hệ gia đình được xử lý bằng tư vấn riêng"
+    ],
+    "answer": 1,
+    "explanation": "Phần vận dụng năm 2021 yêu cầu xây dựng môi trường văn hóa lành mạnh gắn với chiến lược phát triển gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, văn minh. Tăng hoạt động bề nổi chưa xử lý được nền nếp ứng xử trong gia đình và cộng đồng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.1 Xây dựng và phát triển văn hóa, con người",
+      "text": "Phần vận dụng năm 2021 gắn xây dựng môi trường văn hóa lành mạnh với phát triển gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, văn minh."
+    }
+  },
+  {
+    "id": "HCM202-C06-Q090",
+    "courseId": "hcm202",
+    "chapter": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+    "chapterNum": 6,
+    "topic": "Xây dựng đạo đức cách mạng hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên nhân danh lòng yêu nước để miệt thị dân tộc khác và phản đối mọi hợp tác quốc tế. Theo giáo trình năm 2021, cần điều chỉnh nhận thức nào?",
+    "options": [
+      "Ưu tiên lợi ích dân tộc bằng cách hạn chế giao lưu với những cộng đồng có khác biệt",
+      "Mở rộng hợp tác bằng cách điều chỉnh bản sắc và quyền tự chủ theo chuẩn mực của đối tác",
+      "Gắn yêu nước chân chính với quốc tế trong sáng và tôn trọng các dân tộc",
+      "Giữ lòng tự hào dân tộc trong quan hệ trong nước, còn hợp tác quốc tế dựa chủ yếu vào lợi ích"
+    ],
+    "answer": 2,
+    "explanation": "Theo phần vận dụng năm 2021, thanh niên phải kết hợp lòng yêu nước chân chính với tinh thần quốc tế trong sáng. Tình yêu Tổ quốc không cho phép phân biệt, hằn thù hay phủ nhận hợp tác bình đẳng.",
+    "source": {
+      "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+      "section": "Chương 6 > IV.2 Xây dựng đạo đức cách mạng",
+      "text": "Phần vận dụng năm 2021 yêu cầu sinh viên kết hợp chủ nghĩa yêu nước chân chính với tinh thần quốc tế trong sáng."
+    }
+  }
+]

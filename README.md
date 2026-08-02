@@ -1,96 +1,168 @@
-# MLN122 Quiz
+# Study Hub — Ôn tập các môn lý luận chính trị
 
-Ứng dụng học tập MLN122 dạng HTML tĩnh, đóng gói 504 câu hỏi theo 6 chương và một game chiến lược theo lượt trên bản đồ 34 tỉnh/thành.
+Web tĩnh dùng để ôn tập năm học phần lý luận chính trị. Toàn bộ catalog và ngân hàng câu hỏi đã công khai được kiểm định rồi nhúng vào một SPA độc lập; không cần backend hay tài khoản. Catalog hiện có **1.364 câu** trên ba môn sẵn sàng học: MLN111 380 câu, MLN112 504 câu và HCM202 480 câu.
 
-## Trạng thái kiểm định
+## Trạng thái nội dung
 
-- Đợt mở rộng bổ sung 204 câu mới, chia đều 34 câu cho mỗi chương, nâng tổng ngân hàng từ 300 lên 504 câu.
-- Số câu theo chương: `64/89/99/84/84/84`.
-- Validator ngân hàng câu hỏi: 0 lỗi, 0 cảnh báo.
-- Engine game deterministic, không dùng mạng ở runtime; dữ liệu bản đồ, CSS và JavaScript đều được nhúng vào `index.html`.
-- Kiểm thử trình duyệt bao phủ desktop/mobile, save/resume giữa quiz, save hỏng và trình duyệt không cung cấp bộ nhớ.
-- Nội dung: [báo cáo mở rộng](plans/260717-expand-theory-bank/reports/expansion-validation.md) và [kiểm thử ngân hàng câu hỏi](plans/260717-expand-theory-bank/reports/end-to-end-testing.md).
-- Game: [báo cáo cân bằng](plans/260717-2056-conquest-learning-game/reports/balance-validation.md) và [kiểm thử đầu cuối](plans/260717-2056-conquest-learning-game/reports/end-to-end-testing.md).
+| Môn | Nội dung | Trạng thái | Tính năng |
+|---|---|---|---|
+| `MLN111` | Triết học Mác – Lênin, 380 câu/3 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm |
+| `MLN112` | Kinh tế chính trị Mác – Lênin, 504 câu/6 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm, 6 bài giảng YouTube, Công thành |
+| `MLN131` | Sẽ biên soạn ở phiên sau | Sắp ra mắt | Chỉ hiển thị thông tin môn |
+| `HCM202` | Tư tưởng Hồ Chí Minh, 480 câu/6 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm |
+| `VNR201` | Sẽ biên soạn ở phiên sau | Sắp ra mắt | Chỉ hiển thị thông tin môn |
 
-## Mở ứng dụng
+Mã công khai của học phần Kinh tế chính trị là `MLN112`. Các tên `mln122` và `mln222` chỉ được giữ làm alias/namespace tương thích nội bộ; không dùng làm nhãn môn mới.
 
-Để dùng đủ cả video bài giảng, chạy website qua HTTP tại thư mục dự án:
+## Chạy trên máy
+
+Yêu cầu Python 3 và trình duyệt hiện đại. Để chạy đúng artifact production đã kiểm định, từ thư mục gốc dự án:
 
 ```powershell
-python -m http.server 8000
+python -m http.server 8000 --directory dist
 ```
 
-Sau đó mở `http://localhost:8000/`. `index.html` cung cấp năm chế độ: Luyện thi, Flashcard, Bài giảng, Tìm kiếm và Công thành. Bốn chức năng ôn tập/game vẫn có thể chạy trực tiếp bằng `file://` và không tải tài nguyên từ mạng; riêng Bài giảng cần HTTP(S) cùng kết nối Internet để YouTube chấp nhận phát 6 video không công khai.
+Mở `http://localhost:8000/`. Chỉ dùng `python -m http.server 8000` không có `--directory dist` khi đang phát triển trực tiếp từ source tree. Nên dùng HTTP thay vì `file://`; trình phát YouTube cần HTTP(S), Internet và quyền nhúng video.
 
-## Giao diện và khả năng truy cập
+Các route dạng hash nên có thể mở trực tiếp, tải lại và dùng Back/Forward:
 
-- App shell tách hai không gian: giao diện học sáng, dễ đọc và workspace Công thành tối kiểu bản đồ chiến thuật; desktop dùng thanh điều hướng trái, mobile dùng thanh điều hướng đáy.
-- Luyện thi có bộ lọc gọn, thống kê phiên ổn định và review đáp án; Flashcard tách thao tác lật thẻ khỏi điểm số; Tìm kiếm highlight kết quả bằng DOM an toàn.
-- Bài giảng cung cấp playlist 6 video theo đúng 6 chương, trình phát 16:9 dùng chế độ tăng cường quyền riêng tư của YouTube và nút chuyển nhanh sang bộ câu hỏi của chương đang xem.
-- Công thành dùng bản đồ Việt Nam map-first với 34 tỉnh thao tác được bằng bàn phím; đất liền và các đảo giữ nguyên vị trí địa lý trong toàn bộ `viewBox`, dùng đường biên đồng mảnh và nền trống đồng nhúng offline. Bản đồ mở ở 110%, hỗ trợ nút zoom, con lăn, phím `+/-/0`, kéo và pinch trên màn hình cảm ứng.
-- Nhấp chuột phải vào tỉnh của thế lực khác mở vòng lệnh Thông tin/Ngoại giao/Thương mại/Quân sự. Bàn phím dùng `Context Menu` hoặc `Shift+F10`; màn hình cảm ứng có nút `Hành động` và long press.
-- Lệnh đã chọn xuất hiện trong khay lệnh và trên tuyến bản đồ; từng lệnh có thể hủy riêng trước khi kết thúc lượt. Mọi lựa chọn khả dụng lấy trực tiếp từ `controller.legalActions()` rồi được xếp bằng `controller.stageAction()`.
-- Trên màn hình nhỏ, tài nguyên có thể thu gọn/mở rộng và bảng chiến dịch chuyển thành bottom sheet; trạng thái sheet chỉ thuộc UI, không đi vào campaign save.
-- Control tương tác có kích thước tối thiểu 44px, trạng thái đúng/sai/cảnh báo không chỉ dựa vào màu, quiz cuối lượt giữ focus trong modal và hỗ trợ `prefers-reduced-motion`.
+```text
+#/                         Trang chọn môn
+#/mln111                   Tổng quan MLN111
+#/mln111/quiz              Luyện thi MLN111
+#/mln111/flash             Flashcard MLN111
+#/mln111/search            Tìm kiếm MLN111
+#/mln112/lecture           Sáu bài giảng MLN112
+#/mln112/game              Công thành MLN112
+#/hcm202                   Tổng quan HCM202
+#/hcm202/quiz              Luyện thi HCM202
+#/hcm202/flash             Flashcard HCM202
+#/hcm202/search            Tìm kiếm HCM202
+#/mln131                   Trang “Sắp ra mắt”
+```
 
-Bằng chứng thiết kế và kiểm thử nằm tại [báo cáo đại tu UI và vòng lệnh](plans/260719-1752-hybrid-ui-command-wheel/reports/end-to-end-testing.md).
+Mode hợp lệ là `quiz`, `flash`, `lecture`, `search`, `game` và phải được feature flag của môn cho phép. Route sai, quá dài, chứa query hoặc segment không an toàn được đưa về trang hợp lệ gần nhất. Bộ lọc chương/độ khó thuộc trạng thái học, không nằm trong URL.
 
-## Chế độ Công thành
+## Biên soạn nội dung
 
-- Chọn một trong 34 tỉnh/thành làm cứ điểm; 33 tỉnh còn lại do NPC kiểm soát.
-- Mỗi lượt quản lý lương thực, tiền, dân thường, quân đội, thương mại, ngoại giao, tuyển quân và mở khóa binh chủng.
-- Tiến công cần cảnh báo trước một lượt; giao chiến diễn ra qua nhiều hiệp, hỗ trợ chiến thuật và viện binh.
-- Kết thúc lượt phải hoàn thành đủ 10 câu hỏi. Điểm quiz quyết định tài nguyên, dân số hoặc hiệu ứng sản xuất của lượt sau.
-- Điều kiện thắng yêu cầu đồng thời đạt tỷ lệ kiểm soát toàn quốc và số vùng kiểm soát tối thiểu.
+Registry và profile nằm trong `content/subjects/`:
 
-Chiến dịch production lưu tại `mln222.campaign.v1`; trạng thái giao diện lưu tại `mln222.campaign.ui.v1`. Hai khóa này tách biệt với tiến độ học `mln222.v2.*`.
+- `content/subjects/registry.json`: thứ tự, ID chuẩn, code, alias và trạng thái năm môn.
+- `content/subjects/<subject>/subject.json`: chương, target, feature flag, file câu hỏi, nguồn được phép và profile kiểm định.
+- `content/subjects/mln111/chapters/`: ba file nguồn của 380 câu MLN111.
+- `content/chapters/`: sáu file nguồn tương thích của 504 câu MLN112.
+- `content/subjects/hcm202/chapters/`: sáu file nguồn của 480 câu HCM202 đã sign-off.
+- `content/lectures.json`: manifest sáu video YouTube của MLN112.
+- [Chuẩn biên soạn MLN111](content/subjects/mln111/AUTHORING.md), [MLN112](content/AUTHORING.md) và [HCM202](content/subjects/hcm202/AUTHORING.md).
 
-Độ khó phụ thuộc tỉnh khởi đầu. Benchmark 45-60 lượt dùng Đà Nẵng làm tỉnh tham chiếu; chiến dịch thực tế không bị giới hạn cứng ở lượt 60.
+Không sửa trực tiếp catalog public trong HTML. `chapterId` và `num` được compiler tạo từ profile; câu hỏi authored phải giữ đúng schema, `courseId`, nguồn, quota và ID của môn. MLN111 và HCM202 chỉ được `studyReady` khi hash ngân hàng khớp review sign-off tương ứng: [MLN111](content/subjects/mln111/review-signoff.json), [HCM202](content/subjects/hcm202/review-signoff.json).
 
-## Các file chính
+## Compose và validate
 
-- `content/chapters/chapter-01.json` đến `chapter-06.json`: dữ liệu biên soạn theo từng chương.
-- `content/lectures.json`: manifest 6 video YouTube, thời lượng và liên kết tới bộ câu hỏi tương ứng.
-- `content/AUTHORING.md`: schema và tiêu chuẩn biên soạn câu hỏi.
-- `questions.json`: ngân hàng 504 câu được hợp nhất từ các file chương.
-- `template.html`: mẫu ứng dụng; `index.html`: bản HTML độc lập đã đóng gói.
-- `game/data`, `game/engine`, `game/quiz`, `game/storage`, `game/ui`: dữ liệu và mã nguồn game theo module.
-- `game/build-manifest.json`: thứ tự dữ liệu, SVG, CSS và JavaScript được builder nhúng.
-- `scripts/simulate-*.js`: mô phỏng kinh tế, chiến đấu và chiến dịch để kiểm tra invariant/cân bằng.
-- `parse_report.txt`: báo cáo kiểm định gần nhất.
-- `compose_questions.py`, `validate_questions.py`, `build_html.py`, `test_pipeline.py`: pipeline hợp nhất, kiểm định, đóng gói và kiểm thử.
-
-## Nguồn nội dung
-
-Nguồn nằm tại `F:\MLN222`:
-
-- Giáo trình chuẩn: `GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf`.
-- Bài giảng bổ trợ: các file `*.pptx.txt` tương ứng với từng slot.
-
-PDF là nguồn chuẩn để xác định đáp án. Khi PDF và slide khác nhau, ưu tiên PDF; slide chỉ dùng để xác định trọng tâm và ví dụ bổ trợ.
-
-Hình học bản đồ 34 tỉnh/thành và họa tiết trống đồng lấy từ website do chủ dự án cung cấp: `https://fptlichsuviet.io.vn/map/index.html`. Builder nén và nhúng các tài nguyên cần thiết vào `index.html`; ứng dụng không phụ thuộc website nguồn ở runtime.
-
-## Compose, validate, build và test
-
-Chạy từ thư mục gốc dự án:
+Kiểm tra toàn bộ năm profile mà không ghi artifact:
 
 ```powershell
-python compose_questions.py
-python validate_questions.py
+python compose_questions.py --all --check
+python validate_questions.py --all --check
+```
+
+Kiểm tra riêng một môn:
+
+```powershell
+python compose_questions.py --subject mln111 --check
+python validate_questions.py --subject mln111 --check
+python compose_questions.py --subject hcm202 --check
+python validate_questions.py --subject hcm202 --check
+```
+
+Ghi output/report chỉ khi chỉ định đích rõ ràng:
+
+```powershell
+python compose_questions.py --subject mln111 --output .\tmp\mln111.questions.json
+python compose_questions.py --all --output .\tmp\banks
+python validate_questions.py --all --report .\tmp\validation-report.txt
+```
+
+Hai lệnh không tham số vẫn là workflow tương thích MLN112: `compose_questions.py` tạo `questions.json`; `validate_questions.py` kiểm tra snapshot đó và ghi `parse_report.txt`.
+
+## Build và kiểm thử
+
+Quy trình kiểm định trước build:
+
+```powershell
+python compose_questions.py --all --check
+python validate_questions.py --all --check
 node scripts/validate-game-data.js
-python build_html.py
 python -m unittest -v test_pipeline.py
-node --test --test-concurrency=1 tests/game/*.test.cjs
+node --test --test-concurrency=1 tests/game/*.test.cjs tests/study-hub/*.test.cjs
 node scripts/simulate-economy.js --runs 100000 --assert
 node scripts/simulate-combat.js --runs 10000 --assert --config game/data/balance.json
 node scripts/simulate-campaign.js --runs 1000 --turns 60 --assert
 ```
 
-- `compose_questions.py` kiểm tra đủ 6 file chương, thêm số thứ tự `num`, hợp nhất và kiểm định trước khi thay `questions.json`.
-- `validate_questions.py` kiểm định `questions.json` theo mặc định và ghi kết quả vào `parse_report.txt`; có thể truyền một đường dẫn JSON khác làm đối số.
-- `build_html.py` kiểm định ngân hàng, manifest, SVG và tài sản game; sau đó thay atomically `index.html` bằng bản độc lập mới.
-- `test_pipeline.py` kiểm tra validator, tính đồng nhất dữ liệu, build cô lập và byte-equivalence của HTML production.
-- Bộ test Node kiểm tra engine, AI, save/resume, controller trình duyệt và hợp đồng tài sản build.
+Sau khi toàn bộ gate xanh:
 
-`parse_questions.py` là trình trích xuất cũ phục vụ khảo sát nguồn; đầu ra `questions.generated-draft.json` không được website production sử dụng.
+```powershell
+python compose_questions.py
+python validate_questions.py --all --report parse_report.txt
+python build_html.py
+git diff --check
+```
+
+Builder nạp registry, kiểm định từng profile, chỉ publish bank `studyReady` và làm sạch public projection. Một lần chạy `python build_html.py` tạo release từ cùng validated input snapshot rồi promote theo transaction: root `index.html`, đúng hai file `dist/index.html` + `dist/release-manifest.json`, và root `vercel.json`. Nếu staging/promotion lỗi, bản `dist/` trước được giữ hoặc phục hồi; build bị chặn nếu vượt 3 MiB raw hoặc 700 KiB gzip.
+
+Kết quả release gate hiện tại:
+
+- Python: 70/70 test pass; Node: 165/165 test pass.
+- Compose/validate HCM202: 480 câu, 0 lỗi, 0 cảnh báo; compose/validate toàn catalog và game-data validation đều pass.
+- Economy 100.000 runs và combat 10.000 runs pass.
+- Campaign held-out 1.000×60 thoát mã 0: `invalidActions=0`, `invariantFailures=0`, `warningViolations=0`; standard `winRate=0.8383233533`, `medianVictoryTurn=52`, `p95TurnMs=28.9419`, `maximumTurnMs=66.2464`.
+- Hai clean build cho output giống nhau, gồm 5 môn/1.364 câu. `dist/index.html`: SHA-256 `b2faf6a295176cd136b7619d82630d0af1636378fc99728215b499eb70d3442d`, 2.827.553 byte raw, 704.131 byte gzip; input snapshot `ee30d33c369227206966fd6e63adc8b0c25f5cbdb00033f20b20cef90a2c7254`.
+- Browser QA pass ở desktop 1440×900 và mobile 390×844: Home có 5 môn/3 môn sẵn sàng; overview HCM202 có 480 câu/6 chương; Quiz và Flashcard dùng được bằng bàn phím; Search không phân biệt dấu; Back, deep link và feature gate chặn Lecture/Game HCM202 đều đúng. Có 0 page/console error và 0 horizontal overflow.
+- Local HTTP trả 200 cho root và 404 cho đường dẫn không tồn tại. Request 404 duy nhất trong phiên browser là favicon tùy chọn do trình duyệt tự yêu cầu.
+
+Bằng chứng giao diện: [HCM202 trên Home](docs/screenshots/08-hcm202-course-home.png), [overview 480 câu/6 chương](docs/screenshots/09-hcm202-overview.png), [Flashcard](docs/screenshots/10-hcm202-flashcard.png), [Search](docs/screenshots/11-hcm202-search.png) và [Quiz mobile](docs/screenshots/12-hcm202-mobile-quiz.png).
+
+## Lưu tiến độ và tương thích
+
+Các namespace `localStorage` hiện tại:
+
+| Phạm vi | Khóa |
+|---|---|
+| Môn được mở gần nhất | `mln-study-hub.v1.lastSubject` |
+| MLN111 đánh dấu | `mln-study-hub.v1.mln111.marked` |
+| MLN111 thống kê | `mln-study-hub.v1.mln111.stats` |
+| MLN111 phiên học | `mln-study-hub.v1.mln111.studyProgress` |
+| MLN112 đánh dấu | `mln222.v2.marked` |
+| MLN112 thống kê | `mln222.v2.stats` |
+| MLN112 phiên học | `mln222.v3.studyProgress` |
+| HCM202 đánh dấu | `mln-study-hub.v1.hcm202.marked` |
+| HCM202 thống kê | `mln-study-hub.v1.hcm202.stats` |
+| HCM202 phiên học | `mln-study-hub.v1.hcm202.studyProgress` |
+| Chiến dịch Công thành | `mln222.campaign.v1` |
+| Giao diện chiến dịch | `mln222.campaign.ui.v1` |
+
+`mln222.game.v1` là khóa mặc định của codec save cấp thấp; UI Công thành production dùng hai khóa `campaign` ở trên. Không đổi hoặc xóa các khóa MLN112 khi phát hành/rollback. Nếu storage không khả dụng, phiên học cùng tab được giữ trong bộ nhớ và UI thông báo không lưu được.
+
+Game luôn lấy câu từ alias bất biến `globalThis.MLN222_QUESTIONS`, được cố định vào `getQuestionBank("mln112")`; đổi môn học không đổi bank của game. MLN111, HCM202 và các môn “Sắp ra mắt” không khởi tạo game.
+
+## Vercel và `dist/`
+
+Đích production dự kiến: `https://mln122-one.vercel.app/`. Artifact local đã được dựng theo hợp đồng:
+
+1. `python build_html.py` transactionally đồng bộ root `index.html`, exact `dist/{index.html,release-manifest.json}` và root `vercel.json` từ cùng snapshot.
+2. `dist/` không chứa `content/`, `plans/`, `docs/`, Python, raw JSON hay report.
+3. `vercel.json` dùng `outputDirectory: "dist"`, CSP hash đúng release manifest và các security header bắt buộc.
+4. Khi serve `dist/` qua local HTTP, root/manifest trả 200 và forbidden source matrix trả 404.
+
+Không deploy trực tiếp toàn bộ repository. Vercel preview/production và kiểm tra header trên origin live **chưa được thực hiện** vì người dùng chưa cấp quyền push/deploy. Phát video YouTube qua mạng thật, kiểm tra screen reader và zoom 200% vẫn là bước manual còn lại.
+
+## Bảo mật và rollback
+
+- Public question chỉ chứa trường học tập và citation `{label, section}`; không chứa `source.text`, file nguồn, path nội bộ hay validation policy.
+- Catalog dùng ID đã kiểm định, dictionary null-prototype và accessor own-property-safe. JSON inline escape `<`, U+2028 và U+2029.
+- YouTube dùng `youtube-nocookie.com`, tải lười, không autoplay; không có backend, analytics hay third-party script mới.
+- Release phải có CSP hash đúng với inline script/style cùng các header `nosniff`, `Referrer-Policy` và `Permissions-Policy`.
+- Nếu preview/production lỗi, promote lại deployment Vercel tốt gần nhất rồi revert đúng commit release. Không dùng `git reset --hard` và không xóa localStorage của người học.
+
+Kiến trúc và hợp đồng chi tiết: [docs/multi-course-study-hub.md](docs/multi-course-study-hub.md). Nhật ký phiên triển khai: [docs/journals/260802-multi-course-study-hub.md](docs/journals/260802-multi-course-study-hub.md).

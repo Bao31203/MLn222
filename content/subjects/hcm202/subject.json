@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "hcm202",
+  "code": "HCM202",
+  "legacyAliases": [],
+  "title": "Tư tưởng Hồ Chí Minh",
+  "description": "Ngân hàng 480 câu ôn tập bám sát sáu chương của Giáo trình Tư tưởng Hồ Chí Minh.",
+  "status": "ready",
+  "studyReady": true,
+  "copyReviewRequired": false,
+  "features": {
+    "quiz": true,
+    "flashcards": true,
+    "search": true,
+    "lectures": false,
+    "game": false
+  },
+  "questionTarget": 480,
+  "chapters": [
+    {
+      "id": "hcm202-c01",
+      "number": 1,
+      "title": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+      "questionTarget": 45
+    },
+    {
+      "id": "hcm202-c02",
+      "number": 2,
+      "title": "Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh",
+      "questionTarget": 75
+    },
+    {
+      "id": "hcm202-c03",
+      "number": 3,
+      "title": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+      "questionTarget": 100
+    },
+    {
+      "id": "hcm202-c04",
+      "number": 4,
+      "title": "Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước của nhân dân, do nhân dân, vì nhân dân",
+      "questionTarget": 95
+    },
+    {
+      "id": "hcm202-c05",
+      "number": 5,
+      "title": "Tư tưởng Hồ Chí Minh về đại đoàn kết dân tộc và đoàn kết quốc tế",
+      "questionTarget": 75
+    },
+    {
+      "id": "hcm202-c06",
+      "number": 6,
+      "title": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+      "questionTarget": 90
+    }
+  ],
+  "questionFiles": [
+    {
+      "chapterNum": 1,
+      "path": "subjects/hcm202/chapters/chapter-01.json"
+    },
+    {
+      "chapterNum": 2,
+      "path": "subjects/hcm202/chapters/chapter-02.json"
+    },
+    {
+      "chapterNum": 3,
+      "path": "subjects/hcm202/chapters/chapter-03.json"
+    },
+    {
+      "chapterNum": 4,
+      "path": "subjects/hcm202/chapters/chapter-04.json"
+    },
+    {
+      "chapterNum": 5,
+      "path": "subjects/hcm202/chapters/chapter-05.json"
+    },
+    {
+      "chapterNum": 6,
+      "path": "subjects/hcm202/chapters/chapter-06.json"
+    }
+  ],
+  "lectureManifest": null,
+  "validation": {
+    "questionIdPattern": "^HCM202-C\\d{2}-Q\\d{3}$",
+    "courseIdPolicy": "required",
+    "allowedKinds": [
+      "nhan_biet_khai_niem",
+      "thong_hieu_phan_biet",
+      "trinh_tu_quan_he",
+      "van_dung_tinh_huong"
+    ],
+    "difficultyTargets": {
+      "Nhận biết": 192,
+      "Thông hiểu": 192,
+      "Vận dụng": 96
+    },
+    "answerPositionTargets": [
+      120,
+      120,
+      120,
+      120
+    ],
+    "chapterTargets": [
+      {
+        "chapterNum": 1,
+        "difficultyTargets": {
+          "Nhận biết": 18,
+          "Thông hiểu": 18,
+          "Vận dụng": 9
+        },
+        "answerPositionTargets": [12, 11, 11, 11]
+      },
+      {
+        "chapterNum": 2,
+        "difficultyTargets": {
+          "Nhận biết": 30,
+          "Thông hiểu": 30,
+          "Vận dụng": 15
+        },
+        "answerPositionTargets": [18, 19, 19, 19]
+      },
+      {
+        "chapterNum": 3,
+        "difficultyTargets": {
+          "Nhận biết": 40,
+          "Thông hiểu": 40,
+          "Vận dụng": 20
+        },
+        "answerPositionTargets": [25, 25, 25, 25]
+      },
+      {
+        "chapterNum": 4,
+        "difficultyTargets": {
+          "Nhận biết": 38,
+          "Thông hiểu": 38,
+          "Vận dụng": 19
+        },
+        "answerPositionTargets": [24, 24, 24, 23]
+      },
+      {
+        "chapterNum": 5,
+        "difficultyTargets": {
+          "Nhận biết": 30,
+          "Thông hiểu": 30,
+          "Vận dụng": 15
+        },
+        "answerPositionTargets": [19, 19, 18, 19]
+      },
+      {
+        "chapterNum": 6,
+        "difficultyTargets": {
+          "Nhận biết": 36,
+          "Thông hiểu": 36,
+          "Vận dụng": 18
+        },
+        "answerPositionTargets": [22, 22, 23, 23]
+      }
+    ],
+    "sourcePolicy": {
+      "schema": "markdown-section",
+      "allowedSources": [
+        {
+          "file": "Giáo trình tư tưởng Hồ Chí Minh.md",
+          "label": "Giáo trình Tư tưởng Hồ Chí Minh"
+        }
+      ],
+      "allowedSlideFiles": [],
+      "chapterPageRanges": []
+    },
+    "reviewSignoffPath": "subjects/hcm202/review-signoff.json"
+  }
+}

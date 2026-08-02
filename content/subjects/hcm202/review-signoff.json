@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "hcm202",
+  "reviewStatus": "approved",
+  "reviewedAt": "2026-08-02",
+  "questionCount": 480,
+  "bankSha256": "c0c9a0ec983de0e48da565f8cb08625261836487b3b3d2a72c3b5d0502350255",
+  "canonicalization": "Sort chapter filenames; parse and concatenate their question arrays; recursively sort object keys; serialize as compact UTF-8 JSON; calculate SHA-256.",
+  "chapterFileSha256": {
+    "chapter-01.json": "cf7b207a358f3e9ec95685890a5c0a9e627e998d751b41e9fdcdb936b4d58c84",
+    "chapter-02.json": "1c083e5453d35d6874db8034b9c97ab44bf0d2ef71e664965cf61a6151561295",
+    "chapter-03.json": "961f03d52edc347a67a115f3872f1aebb2bce17e0b479c503dd454d9a0a93a1c",
+    "chapter-04.json": "b505f62a167f1da67ba0c4bf9b772f4a133366da67d5b56793dc9e21a66b55c1",
+    "chapter-05.json": "a454c46ab6bcd87315d08a6ac4d2adf1232ae8b4e8638e285bea2f25f3762c23",
+    "chapter-06.json": "65538159f73de2c3e6ffa9cb3277161fdc22da5fc38eff19b62233504472195e"
+  },
+  "distribution": {
+    "chapterQuestions": [45, 75, 100, 95, 75, 90],
+    "difficulty": {
+      "Nhận biết": 192,
+      "Thông hiểu": 192,
+      "Vận dụng": 96
+    },
+    "answerPositions": [120, 120, 120, 120]
+  },
+  "review": {
+    "independentChapterReviews": 6,
+    "resolvedCritical": 0,
+    "resolvedHigh": 5,
+    "resolvedMediumGroups": 12,
+    "resolvedLow": 13,
+    "openCritical": 0,
+    "openHigh": 0,
+    "openMedium": 0
+  },
+  "productionSources": [
+    "Giáo trình tư tưởng Hồ Chí Minh.md"
+  ]
+}
