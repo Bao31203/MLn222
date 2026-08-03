@@ -5,7 +5,7 @@
 - Người rà soát: chính tác giả ngân hàng; đây **không phải** phản biện độc lập.
 - Phạm vi: 280/280 câu, 1.120/1.120 phương án, bảy tệp chương.
 - Nguồn: `giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md`, SHA-256 `1379d246e3466b5451752e31279c50081b85894296c3feea873fa68fd66c6ee8`.
-- Trạng thái đề nghị: `self-reviewed`, giữ môn ở `draft`, `studyReady: false`, `copyReviewRequired: true`.
+- Trạng thái đề nghị tại thời điểm tự rà soát: `self-reviewed`, giữ môn ở `draft`, `studyReady: false`, `copyReviewRequired: true`. Trạng thái này đã được thay thế bởi phê duyệt phát hành ngày 2026-08-03.
 
 ## Công việc đã thực hiện
 
@@ -14,7 +14,7 @@
 3. Kiểm từng câu trong quá trình biên soạn về tri thức đích, một đáp án bảo vệ được, ba nhiễu sai phạm vi/quan hệ/điều kiện, giải thích và mục nguồn.
 4. Quét toàn ngân hàng về schema, NFC, đường dẫn nguồn, ID liên tục, quota độ khó, vị trí đáp án, chuỗi/chu kỳ đáp án, cue tuyệt đối, độ dài, trùng chính xác và stem gần trùng.
 5. Chạy validator của skill với `--warnings-as-errors`; kết quả cuối `280 câu · 0 error · 0 warning`.
-6. Chạy composer và validator của website; MLN131 có `280 câu · 0 error · 0 warning`, không phát hành runtime vì trạng thái `draft`.
+6. Chạy composer và validator của website; MLN131 có `280 câu · 0 error · 0 warning`, không phát hành runtime tại thời điểm đó vì trạng thái `draft`.
 
 ## Kết quả định lượng
 

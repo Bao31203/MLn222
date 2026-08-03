@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "artifacts": {
     "index.html": {
-      "sha256": "b2faf6a295176cd136b7619d82630d0af1636378fc99728215b499eb70d3442d",
-      "rawBytes": 2827553,
-      "gzipBytes": 704131
+      "sha256": "42302eedaebae0d74e58c926e6fad4ee727e1385d5668b1d39fc6d907c149250",
+      "rawBytes": 3334672,
+      "gzipBytes": 744324
     }
   },
   "totals": {
-    "rawBytes": 2827553,
-    "gzipBytes": 704131
+    "rawBytes": 3334672,
+    "gzipBytes": 744324
   },
   "csp": {
     "scriptSrcHashes": [
-      "sha256-bNYlh0eSHanbtf5/L+pzCxn8cWjUGSLjPcH7Jgjv0TQ=",
-      "sha256-jl5l5DuNnsu4fVj5+6og96LHO99CD7s+GFGj1cA3qDk="
+      "sha256-jl5l5DuNnsu4fVj5+6og96LHO99CD7s+GFGj1cA3qDk=",
+      "sha256-mCTjx6FlMHHm7TSy6uQy6zK3P/dCJbNYsE/1l6D+nzQ="
     ],
     "styleSrcHashes": [
       "sha256-BzJBYxP1P1nxmcxVkadonktI+yyLhVikNbD0hwnBoJs="
@@ -24,8 +24,8 @@
     "hcm202": 480,
     "mln111": 380,
     "mln112": 504,
-    "mln131": 0,
+    "mln131": 280,
     "vnr201": 0
   },
-  "inputSnapshotSha256": "ee30d33c369227206966fd6e63adc8b0c25f5cbdb00033f20b20cef90a2c7254"
+  "inputSnapshotSha256": "a631868e6a8229efd04ff94db57a05784184f10e3405602d4701c2c1fe88c78b"
 }

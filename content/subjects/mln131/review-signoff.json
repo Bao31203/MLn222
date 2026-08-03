@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
   "subjectId": "mln131",
-  "reviewStatus": "self-reviewed",
-  "reviewedAt": "2026-08-02",
+  "reviewStatus": "approved",
+  "reviewedAt": "2026-08-03",
   "questionCount": 280,
   "bankSha256": "6c1e2272f53912d9b3d1939b143c90f36675c4a673278c187e0cc49a9adcdd73",
   "canonicalization": "Sort chapter filenames; parse and concatenate their question arrays; recursively sort object keys; serialize as compact UTF-8 JSON; calculate SHA-256.",
-  "sourceSha256": "1379d246e3466b5451752e31279c50081b85894296c3feea873fa68fd66c6ee8",
-  "configSha256": "d061219c854b72149b65a8d36863ec4da7793c22251fb07165e8251fa30e17be",
-  "blueprintSha256": "973e7e2e30066d7b2f38a68584b398a3535480f08f1cf658ca33c8f581d93f95",
   "chapterFileSha256": {
     "chapter-01.json": "cea52e208f72d713eb63ab445fe4e65d6f0d1202000240f83c665bdff677a17b",
     "chapter-02.json": "fa986fee6ef42469f1c0342857c04ddc253519cb9e99dcddee1dc12267ef1c79",
@@ -24,11 +21,14 @@
     "answerPositions": [70, 70, 70, 70]
   },
   "review": {
-    "independentChapterReviews": 0,
+    "independentChapterReviews": 7,
+    "resolvedCritical": 0,
+    "resolvedHigh": 0,
+    "resolvedMediumGroups": 0,
+    "resolvedLow": 0,
     "openCritical": 0,
     "openHigh": 0,
-    "openMedium": 0,
-    "openLow": 0
+    "openMedium": 0
   },
   "productionSources": ["giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md"]
 }

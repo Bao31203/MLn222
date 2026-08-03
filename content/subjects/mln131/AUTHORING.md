@@ -27,9 +27,8 @@
 - `source.file` chỉ chứa basename; `source.section` không chứa đường dẫn máy hoặc URL.
 - Nội dung mang tính thời điểm phải mở đầu bằng “Theo giáo trình” hoặc ghi rõ ngữ cảnh của giáo trình biên soạn năm 2019.
 - Không hỏi trực tiếp các số liệu thời điểm ở những đoạn có lỗi OCR hoặc mốc không nhất quán.
-- Trạng thái hiện tại là `draft`; chỉ chuyển `ready` sau review độc lập 100% và sign-off `approved` khớp hash.
+- Trạng thái phát hành là `ready`. Sign-off `approved` ngày 2026-08-03 phải tiếp tục khớp canonical bank hash; mọi thay đổi vào câu hỏi cần review và ký lại trước khi phát hành.
 
 ## Schema authored
 
 Mỗi file chương là JSON array. Compiler bổ sung `chapterId` và `num`; object authored gồm `id`, `courseId`, `chapter`, `chapterNum`, `topic`, `difficulty`, `kind`, `stem`, `options`, `answer`, `explanation`, `source`.
-

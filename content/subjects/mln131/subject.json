@@ -5,9 +5,9 @@
   "legacyAliases": [],
   "title": "Chủ nghĩa xã hội khoa học",
   "description": "Ngân hàng 280 câu ôn tập bám sát bảy chương của Giáo trình Chủ nghĩa xã hội khoa học.",
-  "status": "draft",
-  "studyReady": false,
-  "copyReviewRequired": true,
+  "status": "ready",
+  "studyReady": true,
+  "copyReviewRequired": false,
   "features": {
     "quiz": true,
     "flashcards": true,
@@ -56,6 +56,6 @@
       "allowedSlideFiles": [],
       "chapterPageRanges": []
     },
-    "reviewSignoffPath": null
+    "reviewSignoffPath": "subjects/mln131/review-signoff.json"
   }
 }
