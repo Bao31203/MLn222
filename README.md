@@ -1,6 +1,6 @@
 # Study Hub — Ôn tập các môn lý luận chính trị
 
-Web tĩnh dùng để ôn tập năm học phần lý luận chính trị. Toàn bộ catalog và ngân hàng câu hỏi đã công khai được kiểm định rồi nhúng vào một SPA độc lập; không cần backend hay tài khoản. Catalog hiện có **1.364 câu** trên ba môn sẵn sàng học: MLN111 380 câu, MLN112 504 câu và HCM202 480 câu.
+Web tĩnh dùng để ôn tập năm học phần lý luận chính trị. Toàn bộ catalog và ngân hàng câu hỏi đã công khai được kiểm định rồi nhúng vào một SPA độc lập; không cần backend hay tài khoản. Catalog có **2.214 câu** trên bốn môn sẵn sàng học: MLN111 380 câu, MLN112 504 câu, HCM202 480 câu và VNR202 850 câu. MLN131 có 280 câu đang ở trạng thái bản thảo và chưa được publish để học.
 
 ## Trạng thái nội dung
 
@@ -8,11 +8,11 @@ Web tĩnh dùng để ôn tập năm học phần lý luận chính trị. Toàn
 |---|---|---|---|
 | `MLN111` | Triết học Mác – Lênin, 380 câu/3 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm |
 | `MLN112` | Kinh tế chính trị Mác – Lênin, 504 câu/6 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm, 6 bài giảng YouTube, Công thành |
-| `MLN131` | Sẽ biên soạn ở phiên sau | Sắp ra mắt | Chỉ hiển thị thông tin môn |
+| `MLN131` | Chủ nghĩa xã hội khoa học, 280 câu/7 chương | Bản thảo | Chưa mở chế độ học |
 | `HCM202` | Tư tưởng Hồ Chí Minh, 480 câu/6 chương | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm |
-| `VNR201` | Sẽ biên soạn ở phiên sau | Sắp ra mắt | Chỉ hiển thị thông tin môn |
+| `VNR202` | Lịch sử Đảng Cộng sản Việt Nam, 850 câu/5 đơn vị học | Sẵn sàng | Luyện thi, Flashcard, Tìm kiếm |
 
-Mã công khai của học phần Kinh tế chính trị là `MLN112`. Các tên `mln122` và `mln222` chỉ được giữ làm alias/namespace tương thích nội bộ; không dùng làm nhãn môn mới.
+Mã công khai của học phần Kinh tế chính trị là `MLN112`; `mln122` và `mln222` là alias tương thích. Mã chuẩn của môn Lịch sử Đảng là `VNR202`; route cũ `vnr201` được chuyển về `vnr202`.
 
 ## Chạy trên máy
 
@@ -38,7 +38,11 @@ Các route dạng hash nên có thể mở trực tiếp, tải lại và dùng 
 #/hcm202/quiz              Luyện thi HCM202
 #/hcm202/flash             Flashcard HCM202
 #/hcm202/search            Tìm kiếm HCM202
-#/mln131                   Trang “Sắp ra mắt”
+#/vnr202                   Tổng quan VNR202
+#/vnr202/quiz              Luyện thi VNR202
+#/vnr202/flash             Flashcard VNR202
+#/vnr202/search            Tìm kiếm VNR202
+#/mln131                   Trang bản thảo, chưa mở chế độ học
 ```
 
 Mode hợp lệ là `quiz`, `flash`, `lecture`, `search`, `game` và phải được feature flag của môn cho phép. Route sai, quá dài, chứa query hoặc segment không an toàn được đưa về trang hợp lệ gần nhất. Bộ lọc chương/độ khó thuộc trạng thái học, không nằm trong URL.
@@ -52,10 +56,11 @@ Registry và profile nằm trong `content/subjects/`:
 - `content/subjects/mln111/chapters/`: ba file nguồn của 380 câu MLN111.
 - `content/chapters/`: sáu file nguồn tương thích của 504 câu MLN112.
 - `content/subjects/hcm202/chapters/`: sáu file nguồn của 480 câu HCM202 đã sign-off.
+- `content/subjects/vnr202/chapters/`: năm file nguồn của 850 câu VNR202 đã sign-off.
 - `content/lectures.json`: manifest sáu video YouTube của MLN112.
-- [Chuẩn biên soạn MLN111](content/subjects/mln111/AUTHORING.md), [MLN112](content/AUTHORING.md) và [HCM202](content/subjects/hcm202/AUTHORING.md).
+- [Chuẩn biên soạn MLN111](content/subjects/mln111/AUTHORING.md), [MLN112](content/AUTHORING.md), [HCM202](content/subjects/hcm202/AUTHORING.md) và [VNR202](content/subjects/vnr202/AUTHORING.md).
 
-Không sửa trực tiếp catalog public trong HTML. `chapterId` và `num` được compiler tạo từ profile; câu hỏi authored phải giữ đúng schema, `courseId`, nguồn, quota và ID của môn. MLN111 và HCM202 chỉ được `studyReady` khi hash ngân hàng khớp review sign-off tương ứng: [MLN111](content/subjects/mln111/review-signoff.json), [HCM202](content/subjects/hcm202/review-signoff.json).
+Không sửa trực tiếp catalog public trong HTML. `chapterId` và `num` được compiler tạo từ profile; câu hỏi authored phải giữ đúng schema, `courseId`, nguồn, quota và ID của môn. Các bank đã review chỉ được `studyReady` khi hash ngân hàng khớp sign-off tương ứng: [MLN111](content/subjects/mln111/review-signoff.json), [HCM202](content/subjects/hcm202/review-signoff.json), [VNR202](content/subjects/vnr202/review-signoff.json).
 
 ## Compose và validate
 
@@ -73,6 +78,8 @@ python compose_questions.py --subject mln111 --check
 python validate_questions.py --subject mln111 --check
 python compose_questions.py --subject hcm202 --check
 python validate_questions.py --subject hcm202 --check
+python compose_questions.py --subject vnr202 --check
+python validate_questions.py --subject vnr202 --check
 ```
 
 Ghi output/report chỉ khi chỉ định đích rõ ràng:
@@ -109,7 +116,7 @@ python build_html.py
 git diff --check
 ```
 
-Builder nạp registry, kiểm định từng profile, chỉ publish bank `studyReady` và làm sạch public projection. Một lần chạy `python build_html.py` tạo release từ cùng validated input snapshot rồi promote theo transaction: root `index.html`, đúng hai file `dist/index.html` + `dist/release-manifest.json`, và root `vercel.json`. Nếu staging/promotion lỗi, bản `dist/` trước được giữ hoặc phục hồi; build bị chặn nếu vượt 3 MiB raw hoặc 700 KiB gzip.
+Builder nạp registry, kiểm định từng profile, chỉ publish bank `studyReady` và làm sạch public projection. Một lần chạy `python build_html.py` tạo release từ cùng validated input snapshot rồi promote theo transaction: root `index.html`, đúng hai file `dist/index.html` + `dist/release-manifest.json`, và root `vercel.json`. Nếu staging/promotion lỗi, bản `dist/` trước được giữ hoặc phục hồi; build bị chặn nếu vượt 5 MiB raw hoặc 1 MiB gzip.
 
 Kết quả release gate hiện tại:
 
@@ -139,12 +146,15 @@ Các namespace `localStorage` hiện tại:
 | HCM202 đánh dấu | `mln-study-hub.v1.hcm202.marked` |
 | HCM202 thống kê | `mln-study-hub.v1.hcm202.stats` |
 | HCM202 phiên học | `mln-study-hub.v1.hcm202.studyProgress` |
+| VNR202 đánh dấu | `mln-study-hub.v1.vnr202.marked` |
+| VNR202 thống kê | `mln-study-hub.v1.vnr202.stats` |
+| VNR202 phiên học | `mln-study-hub.v1.vnr202.studyProgress` |
 | Chiến dịch Công thành | `mln222.campaign.v1` |
 | Giao diện chiến dịch | `mln222.campaign.ui.v1` |
 
 `mln222.game.v1` là khóa mặc định của codec save cấp thấp; UI Công thành production dùng hai khóa `campaign` ở trên. Không đổi hoặc xóa các khóa MLN112 khi phát hành/rollback. Nếu storage không khả dụng, phiên học cùng tab được giữ trong bộ nhớ và UI thông báo không lưu được.
 
-Game luôn lấy câu từ alias bất biến `globalThis.MLN222_QUESTIONS`, được cố định vào `getQuestionBank("mln112")`; đổi môn học không đổi bank của game. MLN111, HCM202 và các môn “Sắp ra mắt” không khởi tạo game.
+Game luôn lấy câu từ alias bất biến `globalThis.MLN222_QUESTIONS`, được cố định vào `getQuestionBank("mln112")`; đổi môn học không đổi bank của game. MLN111, HCM202, VNR202 và môn bản thảo MLN131 không khởi tạo game.
 
 ## Vercel và `dist/`
 

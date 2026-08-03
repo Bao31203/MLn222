@@ -1,0 +1,2011 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "sha256": "a686d4395752bf70302dff62cbf1502187f19ebcd1e9406a9a402e97b76799bc",
+      "bytes": 831134,
+      "encoding": "utf-8",
+      "newline": "crlf",
+      "nfc": false,
+      "lineCount": 9916,
+      "wordCount": 132448,
+      "characterCount": 621646,
+      "headings": [
+        {
+          "id": "h0001",
+          "level": 4,
+          "title": "I. Đối tượng nghiên cứu của môn học Lịch sử Đảng Cộng sản Việt Nam",
+          "line": 105,
+          "titleEndLine": 105,
+          "syntax": "heuristic",
+          "endLine": 110,
+          "path": [
+            "I. Đối tượng nghiên cứu của môn học Lịch sử Đảng Cộng sản Việt Nam"
+          ],
+          "wordCount": 44,
+          "characterCount": 197
+        },
+        {
+          "id": "h0002",
+          "level": 3,
+          "title": "1. Trước hết là các sự kiện lịch sử Đảng. Cần phân biệt rõ sự kiện lịch sử Đảng gắn",
+          "line": 111,
+          "titleEndLine": 111,
+          "syntax": "heuristic",
+          "endLine": 130,
+          "path": [
+            "1. Trước hết là các sự kiện lịch sử Đảng. Cần phân biệt rõ sự kiện lịch sử Đảng gắn"
+          ],
+          "wordCount": 332,
+          "characterCount": 1510
+        },
+        {
+          "id": "h0003",
+          "level": 3,
+          "title": "2. Đảng lãnh đạo cách mạng giải phóng dân tộc, xây dựng và phát triển đất nước",
+          "line": 131,
+          "titleEndLine": 131,
+          "syntax": "heuristic",
+          "endLine": 155,
+          "path": [
+            "2. Đảng lãnh đạo cách mạng giải phóng dân tộc, xây dựng và phát triển đất nước"
+          ],
+          "wordCount": 307,
+          "characterCount": 1462
+        },
+        {
+          "id": "h0004",
+          "level": 3,
+          "title": "3. Đảng lãnh đạo thông qua quá trình chỉ đạo, tổ chức thực tiễn trong tiến trình cách",
+          "line": 156,
+          "titleEndLine": 156,
+          "syntax": "heuristic",
+          "endLine": 178,
+          "path": [
+            "3. Đảng lãnh đạo thông qua quá trình chỉ đạo, tổ chức thực tiễn trong tiến trình cách"
+          ],
+          "wordCount": 348,
+          "characterCount": 1660
+        },
+        {
+          "id": "h0005",
+          "level": 3,
+          "title": "4. Nghiên cứu Lịch sử Đảng là làm rõ hệ thống tổ chức Đảng, công tác xây dựng",
+          "line": 179,
+          "titleEndLine": 179,
+          "syntax": "heuristic",
+          "endLine": 199,
+          "path": [
+            "4. Nghiên cứu Lịch sử Đảng là làm rõ hệ thống tổ chức Đảng, công tác xây dựng"
+          ],
+          "wordCount": 233,
+          "characterCount": 1049
+        },
+        {
+          "id": "h0006",
+          "level": 3,
+          "title": "1. Chức năng của khoa học Lịch sử Đảng",
+          "line": 200,
+          "titleEndLine": 200,
+          "syntax": "heuristic",
+          "endLine": 254,
+          "path": [
+            "1. Chức năng của khoa học Lịch sử Đảng"
+          ],
+          "wordCount": 806,
+          "characterCount": 3672
+        },
+        {
+          "id": "h0007",
+          "level": 3,
+          "title": "2. Nhiệm vụ của khoa học Lịch sử Đảng",
+          "line": 255,
+          "titleEndLine": 255,
+          "syntax": "heuristic",
+          "endLine": 330,
+          "path": [
+            "2. Nhiệm vụ của khoa học Lịch sử Đảng"
+          ],
+          "wordCount": 904,
+          "characterCount": 4119
+        },
+        {
+          "id": "h0008",
+          "level": 3,
+          "title": "1. Quán triệt phương pháp luận sử học",
+          "line": 331,
+          "titleEndLine": 331,
+          "syntax": "heuristic",
+          "endLine": 358,
+          "path": [
+            "1. Quán triệt phương pháp luận sử học"
+          ],
+          "wordCount": 419,
+          "characterCount": 1886
+        },
+        {
+          "id": "h0009",
+          "level": 3,
+          "title": "2. Các phương pháp cụ thể",
+          "line": 359,
+          "titleEndLine": 359,
+          "syntax": "heuristic",
+          "endLine": 634,
+          "path": [
+            "2. Các phương pháp cụ thể"
+          ],
+          "wordCount": 3598,
+          "characterCount": 16704
+        },
+        {
+          "id": "h0010",
+          "level": 4,
+          "title": "I. Đảng Cộng sản Việt Nam ra đời và Cương lĩnh chính trị đầu tiên của Đảng",
+          "line": 628,
+          "titleEndLine": 628,
+          "syntax": "heuristic",
+          "endLine": 634,
+          "path": [
+            "2. Các phương pháp cụ thể",
+            "I. Đảng Cộng sản Việt Nam ra đời và Cương lĩnh chính trị đầu tiên của Đảng"
+          ],
+          "wordCount": 23,
+          "characterCount": 97
+        },
+        {
+          "id": "h0011",
+          "level": 3,
+          "title": "1. Bối cảnh lịch sử",
+          "line": 635,
+          "titleEndLine": 635,
+          "syntax": "heuristic",
+          "endLine": 914,
+          "path": [
+            "1. Bối cảnh lịch sử"
+          ],
+          "wordCount": 3866,
+          "characterCount": 17771
+        },
+        {
+          "id": "h0012",
+          "level": 3,
+          "title": "2. Nguyễn Ái Quốc chuẩn bị các điều kiện để thành lập Đảng",
+          "line": 915,
+          "titleEndLine": 915,
+          "syntax": "heuristic",
+          "endLine": 1108,
+          "path": [
+            "2. Nguyễn Ái Quốc chuẩn bị các điều kiện để thành lập Đảng"
+          ],
+          "wordCount": 2604,
+          "characterCount": 12097
+        },
+        {
+          "id": "h0013",
+          "level": 3,
+          "title": "3. Thành lập Đảng Cộng sản Việt Nam và Cương lĩnh chính trị đầu tiên của",
+          "line": 1109,
+          "titleEndLine": 1109,
+          "syntax": "heuristic",
+          "endLine": 1204,
+          "path": [
+            "3. Thành lập Đảng Cộng sản Việt Nam và Cương lĩnh chính trị đầu tiên của"
+          ],
+          "wordCount": 1178,
+          "characterCount": 5492
+        },
+        {
+          "id": "h0014",
+          "level": 3,
+          "title": "2. Thảo luận ý kiến của đại biểu Quốc tế Cộng sản về: a) Việc hợp nhất tất cả các",
+          "line": 1205,
+          "titleEndLine": 1205,
+          "syntax": "heuristic",
+          "endLine": 1357,
+          "path": [
+            "2. Thảo luận ý kiến của đại biểu Quốc tế Cộng sản về: a) Việc hợp nhất tất cả các"
+          ],
+          "wordCount": 1944,
+          "characterCount": 8913
+        },
+        {
+          "id": "h0015",
+          "level": 3,
+          "title": "4. Ý nghĩa lịch sử của việc thành lập Đảng Cộng sản Việt Nam",
+          "line": 1358,
+          "titleEndLine": 1358,
+          "syntax": "heuristic",
+          "endLine": 1700,
+          "path": [
+            "4. Ý nghĩa lịch sử của việc thành lập Đảng Cộng sản Việt Nam"
+          ],
+          "wordCount": 4227,
+          "characterCount": 19527
+        },
+        {
+          "id": "h0016",
+          "level": 3,
+          "title": "2. Phong trào dân chủ 1936-1939",
+          "line": 1701,
+          "titleEndLine": 1701,
+          "syntax": "heuristic",
+          "endLine": 1890,
+          "path": [
+            "2. Phong trào dân chủ 1936-1939"
+          ],
+          "wordCount": 2448,
+          "characterCount": 11415
+        },
+        {
+          "id": "h0017",
+          "level": 3,
+          "title": "3. Phong trào giải phóng dân tộc 1939-1945",
+          "line": 1891,
+          "titleEndLine": 1891,
+          "syntax": "heuristic",
+          "endLine": 2552,
+          "path": [
+            "3. Phong trào giải phóng dân tộc 1939-1945"
+          ],
+          "wordCount": 8131,
+          "characterCount": 38211
+        },
+        {
+          "id": "h0018",
+          "level": 3,
+          "title": "4. Tính chất, ý nghĩa và kinh nghiệm của Cách mạng Tháng Tám năm 1945",
+          "line": 2553,
+          "titleEndLine": 2553,
+          "syntax": "heuristic",
+          "endLine": 2727,
+          "path": [
+            "4. Tính chất, ý nghĩa và kinh nghiệm của Cách mạng Tháng Tám năm 1945"
+          ],
+          "wordCount": 1899,
+          "characterCount": 8704
+        },
+        {
+          "id": "h0019",
+          "level": 3,
+          "title": "1. Phân tích những điều kiện cần thiết dẫn tới thành lập Đảng Cộng sản Việt Nam",
+          "line": 2728,
+          "titleEndLine": 2728,
+          "syntax": "heuristic",
+          "endLine": 2731,
+          "path": [
+            "1. Phân tích những điều kiện cần thiết dẫn tới thành lập Đảng Cộng sản Việt Nam"
+          ],
+          "wordCount": 19,
+          "characterCount": 95
+        },
+        {
+          "id": "h0020",
+          "level": 3,
+          "title": "2. Nội dung cơ bản và ý nghĩa lịch sử của Cương lĩnh chính trị đầu tiên được Hội",
+          "line": 2732,
+          "titleEndLine": 2732,
+          "syntax": "heuristic",
+          "endLine": 2737,
+          "path": [
+            "2. Nội dung cơ bản và ý nghĩa lịch sử của Cương lĩnh chính trị đầu tiên được Hội"
+          ],
+          "wordCount": 41,
+          "characterCount": 198
+        },
+        {
+          "id": "h0021",
+          "level": 3,
+          "title": "4. Đặc điểm, tính chất, kinh nghiệm và ý nghĩa lịch sử của cuộc Cánh mạng Tháng",
+          "line": 2738,
+          "titleEndLine": 2738,
+          "syntax": "heuristic",
+          "endLine": 2771,
+          "path": [
+            "4. Đặc điểm, tính chất, kinh nghiệm và ý nghĩa lịch sử của cuộc Cánh mạng Tháng"
+          ],
+          "wordCount": 214,
+          "characterCount": 1031
+        },
+        {
+          "id": "h0022",
+          "level": 4,
+          "title": "I. Lãnh đạo xây dựng, bảo vệ chính quyền cách mạng, kháng chiến chống thực",
+          "line": 2768,
+          "titleEndLine": 2768,
+          "syntax": "heuristic",
+          "endLine": 2771,
+          "path": [
+            "4. Đặc điểm, tính chất, kinh nghiệm và ý nghĩa lịch sử của cuộc Cánh mạng Tháng",
+            "I. Lãnh đạo xây dựng, bảo vệ chính quyền cách mạng, kháng chiến chống thực"
+          ],
+          "wordCount": 21,
+          "characterCount": 105
+        },
+        {
+          "id": "h0023",
+          "level": 3,
+          "title": "1. Xây dựng và bảo vệ chính quyền cách mạng 1945-1946",
+          "line": 2772,
+          "titleEndLine": 2772,
+          "syntax": "heuristic",
+          "endLine": 3145,
+          "path": [
+            "1. Xây dựng và bảo vệ chính quyền cách mạng 1945-1946"
+          ],
+          "wordCount": 5253,
+          "characterCount": 24202
+        },
+        {
+          "id": "h0024",
+          "level": 3,
+          "title": "2. Đường lối kháng chiến toàn quốc và quá trình tổ chức thực hiện từ năm 1946",
+          "line": 3146,
+          "titleEndLine": 3146,
+          "syntax": "heuristic",
+          "endLine": 3473,
+          "path": [
+            "2. Đường lối kháng chiến toàn quốc và quá trình tổ chức thực hiện từ năm 1946"
+          ],
+          "wordCount": 4479,
+          "characterCount": 20960
+        },
+        {
+          "id": "h0025",
+          "level": 3,
+          "title": "3. Đẩy mạnh cuộc kháng chiến đến thắng lợi 1951-1954",
+          "line": 3474,
+          "titleEndLine": 3474,
+          "syntax": "heuristic",
+          "endLine": 3803,
+          "path": [
+            "3. Đẩy mạnh cuộc kháng chiến đến thắng lợi 1951-1954"
+          ],
+          "wordCount": 4620,
+          "characterCount": 21688
+        },
+        {
+          "id": "h0026",
+          "level": 3,
+          "title": "4. Ý nghĩa lịch sử và kinh nghiệm của Đảng trong lãnh đạo kháng chiến chống",
+          "line": 3804,
+          "titleEndLine": 3804,
+          "syntax": "heuristic",
+          "endLine": 3912,
+          "path": [
+            "4. Ý nghĩa lịch sử và kinh nghiệm của Đảng trong lãnh đạo kháng chiến chống"
+          ],
+          "wordCount": 1407,
+          "characterCount": 6596
+        },
+        {
+          "id": "h0027",
+          "level": 3,
+          "title": "1. Sự lãnh đạo của Đảng đối với cách mạng hai miền Nam - Bắc 1954-1965",
+          "line": 3913,
+          "titleEndLine": 3913,
+          "syntax": "heuristic",
+          "endLine": 4514,
+          "path": [
+            "1. Sự lãnh đạo của Đảng đối với cách mạng hai miền Nam - Bắc 1954-1965"
+          ],
+          "wordCount": 7918,
+          "characterCount": 36481
+        },
+        {
+          "id": "h0028",
+          "level": 3,
+          "title": "2. Lãnh đạo cách mạng cả nước 1965-1975",
+          "line": 4515,
+          "titleEndLine": 4515,
+          "syntax": "heuristic",
+          "endLine": 5145,
+          "path": [
+            "2. Lãnh đạo cách mạng cả nước 1965-1975"
+          ],
+          "wordCount": 8527,
+          "characterCount": 39952
+        },
+        {
+          "id": "h0029",
+          "level": 3,
+          "title": "3. Ý nghĩa lịch sử và kinh nghiệm lãnh đạo của Đảng thời kỳ 1954 - 1975",
+          "line": 5146,
+          "titleEndLine": 5146,
+          "syntax": "heuristic",
+          "endLine": 5220,
+          "path": [
+            "3. Ý nghĩa lịch sử và kinh nghiệm lãnh đạo của Đảng thời kỳ 1954 - 1975"
+          ],
+          "wordCount": 849,
+          "characterCount": 3839
+        },
+        {
+          "id": "h0030",
+          "level": 3,
+          "title": "1. Đường lối và sự chỉ đạo của Đảng trong cuộc kháng chiến chống thực dân Pháp",
+          "line": 5221,
+          "titleEndLine": 5221,
+          "syntax": "heuristic",
+          "endLine": 5229,
+          "path": [
+            "1. Đường lối và sự chỉ đạo của Đảng trong cuộc kháng chiến chống thực dân Pháp"
+          ],
+          "wordCount": 48,
+          "characterCount": 231
+        },
+        {
+          "id": "h0031",
+          "level": 3,
+          "title": "2. Ý nghĩa lịch sử và những kinh nghiệm lãnh đạo của Đảng trong cuộc kháng chiến",
+          "line": 5230,
+          "titleEndLine": 5230,
+          "syntax": "heuristic",
+          "endLine": 5233,
+          "path": [
+            "2. Ý nghĩa lịch sử và những kinh nghiệm lãnh đạo của Đảng trong cuộc kháng chiến"
+          ],
+          "wordCount": 24,
+          "characterCount": 119
+        },
+        {
+          "id": "h0032",
+          "level": 3,
+          "title": "3. Sự phát triển đường lối và khái quát quá trình chỉ đạo thực hiện của Đảng trong",
+          "line": 5234,
+          "titleEndLine": 5234,
+          "syntax": "heuristic",
+          "endLine": 5237,
+          "path": [
+            "3. Sự phát triển đường lối và khái quát quá trình chỉ đạo thực hiện của Đảng trong"
+          ],
+          "wordCount": 25,
+          "characterCount": 126
+        },
+        {
+          "id": "h0033",
+          "level": 3,
+          "title": "4. Đặc điểm, ý nghĩa thắng lợi và những kinh nghiệm lãnh đạo của Đảng trong",
+          "line": 5238,
+          "titleEndLine": 5238,
+          "syntax": "heuristic",
+          "endLine": 5241,
+          "path": [
+            "4. Đặc điểm, ý nghĩa thắng lợi và những kinh nghiệm lãnh đạo của Đảng trong"
+          ],
+          "wordCount": 23,
+          "characterCount": 119
+        },
+        {
+          "id": "h0034",
+          "level": 3,
+          "title": "5. Cách mạng xã hội chủ nghĩa và những thành quả xây dựng chủ nghĩa xã hội ở",
+          "line": 5242,
+          "titleEndLine": 5242,
+          "syntax": "heuristic",
+          "endLine": 5280,
+          "path": [
+            "5. Cách mạng xã hội chủ nghĩa và những thành quả xây dựng chủ nghĩa xã hội ở"
+          ],
+          "wordCount": 228,
+          "characterCount": 1047
+        },
+        {
+          "id": "h0035",
+          "level": 4,
+          "title": "I. Lãnh đạo cả nước xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc 1975-1986",
+          "line": 5279,
+          "titleEndLine": 5279,
+          "syntax": "heuristic",
+          "endLine": 5280,
+          "path": [
+            "5. Cách mạng xã hội chủ nghĩa và những thành quả xây dựng chủ nghĩa xã hội ở",
+            "I. Lãnh đạo cả nước xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc 1975-1986"
+          ],
+          "wordCount": 18,
+          "characterCount": 75
+        },
+        {
+          "id": "h0036",
+          "level": 3,
+          "title": "1. Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc 1975-1981",
+          "line": 5281,
+          "titleEndLine": 5281,
+          "syntax": "heuristic",
+          "endLine": 5596,
+          "path": [
+            "1. Xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc 1975-1981"
+          ],
+          "wordCount": 4322,
+          "characterCount": 19782
+        },
+        {
+          "id": "h0037",
+          "level": 3,
+          "title": "2. Đại hội đại biểu toàn quốc lần thứ V của Đảng và các bước đột phá tiếp tục đổi",
+          "line": 5597,
+          "titleEndLine": 5597,
+          "syntax": "heuristic",
+          "endLine": 5806,
+          "path": [
+            "2. Đại hội đại biểu toàn quốc lần thứ V của Đảng và các bước đột phá tiếp tục đổi"
+          ],
+          "wordCount": 2964,
+          "characterCount": 13608
+        },
+        {
+          "id": "h0038",
+          "level": 3,
+          "title": "1. Đổi mới toàn diện, đưa đất nước ra khỏi khủng hoảng kinh tế - xã hội 1986-",
+          "line": 5807,
+          "titleEndLine": 5807,
+          "syntax": "heuristic",
+          "endLine": 6389,
+          "path": [
+            "1. Đổi mới toàn diện, đưa đất nước ra khỏi khủng hoảng kinh tế - xã hội 1986-"
+          ],
+          "wordCount": 7998,
+          "characterCount": 36645
+        },
+        {
+          "id": "h0039",
+          "level": 3,
+          "title": "2. Tiếp tục công cuộc đổi mới, đẩy mạnh công nghiệp hoá, hiện đại hoá và hội",
+          "line": 6390,
+          "titleEndLine": 6390,
+          "syntax": "heuristic",
+          "endLine": 8849,
+          "path": [
+            "2. Tiếp tục công cuộc đổi mới, đẩy mạnh công nghiệp hoá, hiện đại hoá và hội"
+          ],
+          "wordCount": 35363,
+          "characterCount": 162606
+        },
+        {
+          "id": "h0040",
+          "level": 3,
+          "title": "3. Thành tựu, kinh nghiệm của công cuộc đổi mới",
+          "line": 8850,
+          "titleEndLine": 8850,
+          "syntax": "heuristic",
+          "endLine": 9271,
+          "path": [
+            "3. Thành tựu, kinh nghiệm của công cuộc đổi mới"
+          ],
+          "wordCount": 5860,
+          "characterCount": 26719
+        },
+        {
+          "id": "h0041",
+          "level": 3,
+          "title": "1. Khái quát quá trình xây dựng chủ nghĩa xã hội trong cả nước và quá trình tìm con",
+          "line": 9272,
+          "titleEndLine": 9272,
+          "syntax": "heuristic",
+          "endLine": 9277,
+          "path": [
+            "1. Khái quát quá trình xây dựng chủ nghĩa xã hội trong cả nước và quá trình tìm con"
+          ],
+          "wordCount": 41,
+          "characterCount": 191
+        },
+        {
+          "id": "h0042",
+          "level": 3,
+          "title": "3. Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (năm",
+          "line": 9278,
+          "titleEndLine": 9278,
+          "syntax": "heuristic",
+          "endLine": 9281,
+          "path": [
+            "3. Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (năm"
+          ],
+          "wordCount": 22,
+          "characterCount": 98
+        },
+        {
+          "id": "h0043",
+          "level": 3,
+          "title": "4. Vai trò lãnh đạo của Đảng đối với sựu nghiệp đổi mới, công nghiệp hóa hiện đại",
+          "line": 9282,
+          "titleEndLine": 9282,
+          "syntax": "heuristic",
+          "endLine": 9285,
+          "path": [
+            "4. Vai trò lãnh đạo của Đảng đối với sựu nghiệp đổi mới, công nghiệp hóa hiện đại"
+          ],
+          "wordCount": 26,
+          "characterCount": 117
+        },
+        {
+          "id": "h0044",
+          "level": 3,
+          "title": "5. Thành tựu, ý nghĩa lịch sử và kinh nghiệm lãnh đạo của Đảng trong sự nghiệp đổi",
+          "line": 9286,
+          "titleEndLine": 9286,
+          "syntax": "heuristic",
+          "endLine": 9612,
+          "path": [
+            "5. Thành tựu, ý nghĩa lịch sử và kinh nghiệm lãnh đạo của Đảng trong sự nghiệp đổi"
+          ],
+          "wordCount": 4579,
+          "characterCount": 21072
+        },
+        {
+          "id": "h0045",
+          "level": 3,
+          "title": "1. Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội",
+          "line": 9613,
+          "titleEndLine": 9613,
+          "syntax": "heuristic",
+          "endLine": 9641,
+          "path": [
+            "1. Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội"
+          ],
+          "wordCount": 440,
+          "characterCount": 1983
+        },
+        {
+          "id": "h0046",
+          "level": 3,
+          "title": "2. Sự nghiệp cách mạng là của nhân dân, do nhân dân và vì nhân dân",
+          "line": 9642,
+          "titleEndLine": 9642,
+          "syntax": "heuristic",
+          "endLine": 9680,
+          "path": [
+            "2. Sự nghiệp cách mạng là của nhân dân, do nhân dân và vì nhân dân"
+          ],
+          "wordCount": 556,
+          "characterCount": 2541
+        },
+        {
+          "id": "h0047",
+          "level": 3,
+          "title": "3. Không ngừng củng cố, tăng cường đoàn kết, đoàn kết toàn Đảng, đoàn kết",
+          "line": 9681,
+          "titleEndLine": 9681,
+          "syntax": "heuristic",
+          "endLine": 9715,
+          "path": [
+            "3. Không ngừng củng cố, tăng cường đoàn kết, đoàn kết toàn Đảng, đoàn kết"
+          ],
+          "wordCount": 459,
+          "characterCount": 2111
+        },
+        {
+          "id": "h0048",
+          "level": 3,
+          "title": "4. Kết hợp sức mạnh dân tộc với sức mạnh thời đại, sức mạnh trong nước với sức",
+          "line": 9716,
+          "titleEndLine": 9716,
+          "syntax": "heuristic",
+          "endLine": 9750,
+          "path": [
+            "4. Kết hợp sức mạnh dân tộc với sức mạnh thời đại, sức mạnh trong nước với sức"
+          ],
+          "wordCount": 447,
+          "characterCount": 2022
+        },
+        {
+          "id": "h0049",
+          "level": 3,
+          "title": "5. Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu quyết định thắng lợi của",
+          "line": 9751,
+          "titleEndLine": 9751,
+          "syntax": "heuristic",
+          "endLine": 9847,
+          "path": [
+            "5. Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu quyết định thắng lợi của"
+          ],
+          "wordCount": 1232,
+          "characterCount": 5803
+        },
+        {
+          "id": "h0050",
+          "level": 3,
+          "title": "1. Học viện Chính trị quốc gia Hồ Chí Minh. Viện Lịch sử Đảng, Lịch sử Đảng Cộng",
+          "line": 9848,
+          "titleEndLine": 9848,
+          "syntax": "heuristic",
+          "endLine": 9851,
+          "path": [
+            "1. Học viện Chính trị quốc gia Hồ Chí Minh. Viện Lịch sử Đảng, Lịch sử Đảng Cộng"
+          ],
+          "wordCount": 31,
+          "characterCount": 140
+        },
+        {
+          "id": "h0051",
+          "level": 3,
+          "title": "2. Viện Nghiên cứu Chủ nghĩa Mác –Lênin. Viện Lịch sử Đảng, Lịch sử Đảng Cộng",
+          "line": 9852,
+          "titleEndLine": 9852,
+          "syntax": "heuristic",
+          "endLine": 9868,
+          "path": [
+            "2. Viện Nghiên cứu Chủ nghĩa Mác –Lênin. Viện Lịch sử Đảng, Lịch sử Đảng Cộng"
+          ],
+          "wordCount": 103,
+          "characterCount": 477
+        },
+        {
+          "id": "h0052",
+          "level": 3,
+          "title": "5. Học viện Chính trị quốc gia Hồ Chí Minh, Hồ Chí Minh tiểu sử, Nxb Chính trị",
+          "line": 9869,
+          "titleEndLine": 9869,
+          "syntax": "heuristic",
+          "endLine": 9872,
+          "path": [
+            "5. Học viện Chính trị quốc gia Hồ Chí Minh, Hồ Chí Minh tiểu sử, Nxb Chính trị"
+          ],
+          "wordCount": 23,
+          "characterCount": 103
+        },
+        {
+          "id": "h0053",
+          "level": 3,
+          "title": "6. Đảng Cộng sản Việt Nam 80 năm xây dựng và phát triển, Nxb Chính trị quốc gia,",
+          "line": 9873,
+          "titleEndLine": 9873,
+          "syntax": "heuristic",
+          "endLine": 9876,
+          "path": [
+            "6. Đảng Cộng sản Việt Nam 80 năm xây dựng và phát triển, Nxb Chính trị quốc gia,"
+          ],
+          "wordCount": 21,
+          "characterCount": 95
+        },
+        {
+          "id": "h0054",
+          "level": 3,
+          "title": "7. Ban Chỉ đạo tổng kết chiến tranh trực thuộc Bộ Chính trị, Chiến tranh cách mạng",
+          "line": 9877,
+          "titleEndLine": 9877,
+          "syntax": "heuristic",
+          "endLine": 9879,
+          "path": [
+            "7. Ban Chỉ đạo tổng kết chiến tranh trực thuộc Bộ Chính trị, Chiến tranh cách mạng"
+          ],
+          "wordCount": 33,
+          "characterCount": 162
+        },
+        {
+          "id": "h0055",
+          "level": 3,
+          "title": "8. Đảng Cộng sản Việt Nam - Ban Chấp hành Trung ương - Ban Chỉ đạo tổng kết,",
+          "line": 9880,
+          "titleEndLine": 9880,
+          "syntax": "heuristic",
+          "endLine": 9884,
+          "path": [
+            "8. Đảng Cộng sản Việt Nam - Ban Chấp hành Trung ương - Ban Chỉ đạo tổng kết,"
+          ],
+          "wordCount": 41,
+          "characterCount": 185
+        },
+        {
+          "id": "h0056",
+          "level": 3,
+          "title": "9. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XI (phần",
+          "line": 9885,
+          "titleEndLine": 9885,
+          "syntax": "heuristic",
+          "endLine": 9888,
+          "path": [
+            "9. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XI (phần"
+          ],
+          "wordCount": 33,
+          "characterCount": 154
+        },
+        {
+          "id": "h0057",
+          "level": 3,
+          "title": "10. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XII Văn",
+          "line": 9889,
+          "titleEndLine": 9889,
+          "syntax": "heuristic",
+          "endLine": 9892,
+          "path": [
+            "10. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XII Văn"
+          ],
+          "wordCount": 25,
+          "characterCount": 118
+        },
+        {
+          "id": "h0058",
+          "level": 3,
+          "title": "11. Hội đồng Trung ương chỉ đạo biên soạn giáo trình quốc gia các bộ môn khoa học",
+          "line": 9893,
+          "titleEndLine": 9893,
+          "syntax": "heuristic",
+          "endLine": 9896,
+          "path": [
+            "11. Hội đồng Trung ương chỉ đạo biên soạn giáo trình quốc gia các bộ môn khoa học"
+          ],
+          "wordCount": 49,
+          "characterCount": 227
+        },
+        {
+          "id": "h0059",
+          "level": 3,
+          "title": "12. Bộ Ngoại giao, Ngoại giao Việt Nam 1945-2000, Nxb Chính trị quốc gia, Hà Nội",
+          "line": 9897,
+          "titleEndLine": 9897,
+          "syntax": "heuristic",
+          "endLine": 9900,
+          "path": [
+            "12. Bộ Ngoại giao, Ngoại giao Việt Nam 1945-2000, Nxb Chính trị quốc gia, Hà Nội"
+          ],
+          "wordCount": 17,
+          "characterCount": 89
+        },
+        {
+          "id": "h0060",
+          "level": 3,
+          "title": "13. Bộ Ngoại giao, Mặt trận Ngoại giao với cuộc đàm phán Paris về Việt Nam, Nxb",
+          "line": 9901,
+          "titleEndLine": 9901,
+          "syntax": "heuristic",
+          "endLine": 9904,
+          "path": [
+            "13. Bộ Ngoại giao, Mặt trận Ngoại giao với cuộc đàm phán Paris về Việt Nam, Nxb"
+          ],
+          "wordCount": 24,
+          "characterCount": 114
+        },
+        {
+          "id": "h0061",
+          "level": 3,
+          "title": "14. Bộ Giáo dục và Đào tạo, Giáo trình Lịch sử Đảng Cộng sản Việt Nam, Nxb Chính",
+          "line": 9905,
+          "titleEndLine": 9905,
+          "syntax": "heuristic",
+          "endLine": 9910,
+          "path": [
+            "14. Bộ Giáo dục và Đào tạo, Giáo trình Lịch sử Đảng Cộng sản Việt Nam, Nxb Chính"
+          ],
+          "wordCount": 38,
+          "characterCount": 186
+        },
+        {
+          "id": "h0062",
+          "level": 3,
+          "title": "16. Robert S McNamara, Nhìn lại quá khứ - tấn thảm kịch và những bài học về Việt",
+          "line": 9911,
+          "titleEndLine": 9911,
+          "syntax": "heuristic",
+          "endLine": 9916,
+          "path": [
+            "16. Robert S McNamara, Nhìn lại quá khứ - tấn thảm kịch và những bài học về Việt"
+          ],
+          "wordCount": 27,
+          "characterCount": 130
+        }
+      ],
+      "warnings": [
+        {
+          "rule": "standalone-page-number",
+          "line": 11,
+          "text": "0"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 52,
+          "text": "1"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 94,
+          "text": "2"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 139,
+          "text": "3"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 183,
+          "text": "4"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 229,
+          "text": "5"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 274,
+          "text": "6"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 324,
+          "text": "7"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 371,
+          "text": "8"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 416,
+          "text": "9"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 460,
+          "text": "10"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 503,
+          "text": "11"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 546,
+          "text": "12"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 589,
+          "text": "13"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 632,
+          "text": "14"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 676,
+          "text": "15"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 724,
+          "text": "16"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 769,
+          "text": "17"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 814,
+          "text": "18"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 856,
+          "text": "19"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 902,
+          "text": "20"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 947,
+          "text": "21"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 992,
+          "text": "22"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1039,
+          "text": "23"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1083,
+          "text": "24"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1128,
+          "text": "25"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1173,
+          "text": "26"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1225,
+          "text": "27"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1275,
+          "text": "28"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1319,
+          "text": "29"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1366,
+          "text": "30"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1413,
+          "text": "31"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1460,
+          "text": "32"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1509,
+          "text": "33"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1557,
+          "text": "34"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1603,
+          "text": "35"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1649,
+          "text": "36"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1698,
+          "text": "37"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1744,
+          "text": "38"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1789,
+          "text": "39"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1837,
+          "text": "40"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1884,
+          "text": "41"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1931,
+          "text": "42"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 1979,
+          "text": "43"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2023,
+          "text": "44"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2070,
+          "text": "45"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2117,
+          "text": "46"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2165,
+          "text": "47"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2209,
+          "text": "48"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2253,
+          "text": "49"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2301,
+          "text": "50"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2346,
+          "text": "51"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2391,
+          "text": "52"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2435,
+          "text": "53"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2482,
+          "text": "54"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2529,
+          "text": "55"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2577,
+          "text": "56"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2624,
+          "text": "57"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2678,
+          "text": "58"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2725,
+          "text": "59"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2780,
+          "text": "60"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2825,
+          "text": "61"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2870,
+          "text": "62"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2915,
+          "text": "63"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 2961,
+          "text": "64"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3005,
+          "text": "65"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3049,
+          "text": "66"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3092,
+          "text": "67"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3134,
+          "text": "68"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3181,
+          "text": "69"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3227,
+          "text": "70"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3272,
+          "text": "71"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3316,
+          "text": "72"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3362,
+          "text": "73"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3407,
+          "text": "74"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3452,
+          "text": "75"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3496,
+          "text": "76"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3543,
+          "text": "77"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3590,
+          "text": "78"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3632,
+          "text": "79"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3677,
+          "text": "80"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3720,
+          "text": "81"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3767,
+          "text": "82"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3810,
+          "text": "83"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3854,
+          "text": "84"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3898,
+          "text": "85"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3947,
+          "text": "86"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 3993,
+          "text": "87"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4040,
+          "text": "88"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4084,
+          "text": "89"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4129,
+          "text": "90"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4176,
+          "text": "91"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4224,
+          "text": "92"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4271,
+          "text": "93"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4315,
+          "text": "94"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4361,
+          "text": "95"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4406,
+          "text": "96"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4454,
+          "text": "97"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4501,
+          "text": "98"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4548,
+          "text": "99"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4592,
+          "text": "100"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4637,
+          "text": "101"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4682,
+          "text": "102"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4726,
+          "text": "103"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4772,
+          "text": "104"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4815,
+          "text": "105"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4861,
+          "text": "106"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4904,
+          "text": "107"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4948,
+          "text": "108"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 4993,
+          "text": "109"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5039,
+          "text": "110"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5083,
+          "text": "111"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5128,
+          "text": "112"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5174,
+          "text": "113"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5225,
+          "text": "114"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5274,
+          "text": "115"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5320,
+          "text": "116"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5366,
+          "text": "117"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5416,
+          "text": "118"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5461,
+          "text": "119"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5505,
+          "text": "120"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5550,
+          "text": "121"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5594,
+          "text": "122"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5640,
+          "text": "123"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5685,
+          "text": "124"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5729,
+          "text": "125"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5773,
+          "text": "126"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5809,
+          "text": "1996"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5821,
+          "text": "127"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5865,
+          "text": "128"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5910,
+          "text": "129"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 5955,
+          "text": "130"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6000,
+          "text": "131"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6048,
+          "text": "132"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6094,
+          "text": "133"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6140,
+          "text": "134"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6187,
+          "text": "135"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6235,
+          "text": "136"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6278,
+          "text": "137"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6321,
+          "text": "138"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6367,
+          "text": "139"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6414,
+          "text": "140"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6458,
+          "text": "141"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6505,
+          "text": "142"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6550,
+          "text": "143"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6596,
+          "text": "144"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6639,
+          "text": "145"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6686,
+          "text": "146"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6732,
+          "text": "147"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6778,
+          "text": "148"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6823,
+          "text": "149"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6867,
+          "text": "150"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6911,
+          "text": "151"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 6955,
+          "text": "152"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7000,
+          "text": "153"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7042,
+          "text": "154"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7088,
+          "text": "155"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7133,
+          "text": "156"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7178,
+          "text": "157"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7223,
+          "text": "158"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7268,
+          "text": "159"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7312,
+          "text": "160"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7357,
+          "text": "161"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7401,
+          "text": "162"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7445,
+          "text": "163"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7489,
+          "text": "164"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7534,
+          "text": "165"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7582,
+          "text": "166"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7626,
+          "text": "167"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7674,
+          "text": "168"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7721,
+          "text": "169"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7767,
+          "text": "170"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7812,
+          "text": "171"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7856,
+          "text": "172"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7900,
+          "text": "173"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7946,
+          "text": "174"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 7992,
+          "text": "175"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8036,
+          "text": "176"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8082,
+          "text": "177"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8127,
+          "text": "178"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8171,
+          "text": "179"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8216,
+          "text": "180"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8259,
+          "text": "181"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8304,
+          "text": "182"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8347,
+          "text": "183"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8397,
+          "text": "184"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8442,
+          "text": "185"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8487,
+          "text": "186"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8533,
+          "text": "187"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8577,
+          "text": "188"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8622,
+          "text": "189"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8667,
+          "text": "190"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8710,
+          "text": "191"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8753,
+          "text": "192"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8797,
+          "text": "193"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8843,
+          "text": "194"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8890,
+          "text": "195"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8936,
+          "text": "196"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 8979,
+          "text": "197"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9022,
+          "text": "198"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9065,
+          "text": "199"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9113,
+          "text": "200"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9158,
+          "text": "201"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9206,
+          "text": "202"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9250,
+          "text": "203"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9292,
+          "text": "204"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9334,
+          "text": "205"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9376,
+          "text": "206"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9419,
+          "text": "207"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9464,
+          "text": "208"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9511,
+          "text": "209"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9557,
+          "text": "210"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9601,
+          "text": "211"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9647,
+          "text": "212"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9692,
+          "text": "213"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9739,
+          "text": "214"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9782,
+          "text": "215"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9828,
+          "text": "216"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9864,
+          "text": "217"
+        },
+        {
+          "rule": "standalone-page-number",
+          "line": 9915,
+          "text": "218"
+        },
+        {
+          "rule": "repeated-line",
+          "line": 5,
+          "text": "lịch sử đảng cộng sản việt nam (x3)"
+        },
+        {
+          "rule": "repeated-line",
+          "line": 2721,
+          "text": "nội dung ôn tập và thảo luận (x3)"
+        }
+      ],
+      "omittedWarningCount": 0
+    }
+  ],
+  "totals": {
+    "fileCount": 1,
+    "bytes": 831134,
+    "lineCount": 9916,
+    "wordCount": 132448,
+    "headingCount": 62,
+    "warningCount": 222
+  }
+}

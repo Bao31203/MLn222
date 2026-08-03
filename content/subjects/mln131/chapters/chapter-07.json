@@ -1,0 +1,807 @@
+[
+  {
+    "id": "MLN131-C07-Q001",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "khái niệm gia đình",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về khái niệm gia đình?",
+    "options": [
+      "Đơn thuần là là người cùng nơi ở, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình là cộng đồng đặc biệt hình thành chủ yếu từ hôn nhân, huyết thống và nuôi dưỡng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là đơn vị tiêu dùng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có ràng buộc trách nhiệm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về khái niệm gia đình, giáo trình xác định: gia đình là cộng đồng đặc biệt hình thành chủ yếu từ hôn nhân, huyết thống và nuôi dưỡng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về khái niệm gia đình, giáo trình xác định: gia đình là cộng đồng đặc biệt hình thành chủ yếu từ hôn nhân, huyết thống và nuôi dưỡng."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q002",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở hôn nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng cơ sở hôn nhân?",
+    "options": [
+      "Đơn thuần là huyết thống tạo gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các hôn nhân do ép buộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Hôn nhân không tạo quyền nghĩa vụ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quan hệ vợ chồng hợp pháp và tự nguyện là một nền tảng hình thành gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về cơ sở hôn nhân, giáo trình xác định: quan hệ vợ chồng hợp pháp và tự nguyện là một nền tảng hình thành gia đình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về cơ sở hôn nhân, giáo trình xác định: quan hệ vợ chồng hợp pháp và tự nguyện là một nền tảng hình thành gia đình."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q003",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở huyết thống",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của cơ sở huyết thống là gì?",
+    "options": [
+      "Thay thế về căn bản hôn nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là quan hệ kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không phát sinh chăm sóc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Quan hệ cha mẹ, con cái và họ hàng tạo sự gắn kết thế hệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về cơ sở huyết thống, giáo trình xác định: quan hệ cha mẹ, con cái và họ hàng tạo sự gắn kết thế hệ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về cơ sở huyết thống, giáo trình xác định: quan hệ cha mẹ, con cái và họ hàng tạo sự gắn kết thế hệ."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q004",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở nuôi dưỡng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về cơ sở nuôi dưỡng?",
+    "options": [
+      "Nuôi dưỡng không có nghĩa vụ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là người cùng máu là gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chăm sóc và trách nhiệm có thể xác lập quan hệ gia đình cả khi không cùng huyết thống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là giao dịch kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về cơ sở nuôi dưỡng, giáo trình xác định: chăm sóc và trách nhiệm có thể xác lập quan hệ gia đình cả khi không cùng huyết thống. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về cơ sở nuôi dưỡng, giáo trình xác định: chăm sóc và trách nhiệm có thể xác lập quan hệ gia đình cả khi không cùng huyết thống."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q005",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "gia đình là tế bào xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về gia đình là tế bào xã hội?",
+    "options": [
+      "Gia đình biệt lập xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Sự ổn định và phát triển gia đình tác động trực tiếp đến xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xã hội không tác động gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình đơn thuần là việc riêng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về gia đình là tế bào xã hội, giáo trình xác định: sự ổn định và phát triển gia đình tác động trực tiếp đến xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về gia đình là tế bào xã hội, giáo trình xác định: sự ổn định và phát triển gia đình tác động trực tiếp đến xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q006",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "gia đình là tổ ấm",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác gia đình là tổ ấm?",
+    "options": [
+      "Không có chức năng tinh thần, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cung cấp thu nhập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình đáp ứng nhu cầu tình cảm, bảo vệ và phát triển cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Luôn hạn chế cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về gia đình là tổ ấm, giáo trình xác định: gia đình đáp ứng nhu cầu tình cảm, bảo vệ và phát triển cá nhân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về gia đình là tổ ấm, giáo trình xác định: gia đình đáp ứng nhu cầu tình cảm, bảo vệ và phát triển cá nhân."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q007",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "gia đình là cầu nối",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét gia đình là cầu nối?",
+    "options": [
+      "Gia đình truyền chuẩn mực xã hội cho cá nhân và phản ánh tác động xã hội vào đời sống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cá nhân tiếp xúc xã hội không qua gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình đảm nhiệm thay các tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là nối các thế hệ bằng tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về gia đình là cầu nối, giáo trình xác định: gia đình truyền chuẩn mực xã hội cho cá nhân và phản ánh tác động xã hội vào đời sống. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.1–B.1.2 > Khái niệm và vị trí gia đình",
+      "text": "Về gia đình là cầu nối, giáo trình xác định: gia đình truyền chuẩn mực xã hội cho cá nhân và phản ánh tác động xã hội vào đời sống."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q008",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "tái sản xuất con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với tái sản xuất con người?",
+    "options": [
+      "Không liên hệ dân số, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là tạo thu nhập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là duy trì tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình duy trì nòi giống và góp phần tái tạo nguồn nhân lực xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về tái sản xuất con người, giáo trình xác định: gia đình duy trì nòi giống và góp phần tái tạo nguồn nhân lực xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về tái sản xuất con người, giáo trình xác định: gia đình duy trì nòi giống và góp phần tái tạo nguồn nhân lực xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q009",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "nuôi dưỡng và giáo dục",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về nuôi dưỡng và giáo dục?",
+    "options": [
+      "Không cần phối hợp xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là nhà trường giáo dục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là truyền kỹ năng nghề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình hình thành nhân cách, tri thức, đạo đức và thói quen ban đầu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về nuôi dưỡng và giáo dục, giáo trình xác định: gia đình hình thành nhân cách, tri thức, đạo đức và thói quen ban đầu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về nuôi dưỡng và giáo dục, giáo trình xác định: gia đình hình thành nhân cách, tri thức, đạo đức và thói quen ban đầu."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q010",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "chức năng kinh tế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nội dung nào phản ánh đúng chức năng kinh tế?",
+    "options": [
+      "Gia đình tham gia sản xuất, tạo thu nhập và tổ chức đời sống vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tiêu dùng thụ động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không tham gia lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không chịu tác động thị trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về chức năng kinh tế, giáo trình xác định: gia đình tham gia sản xuất, tạo thu nhập và tổ chức đời sống vật chất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về chức năng kinh tế, giáo trình xác định: gia đình tham gia sản xuất, tạo thu nhập và tổ chức đời sống vật chất."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q011",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "tổ chức tiêu dùng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của tổ chức tiêu dùng là gì?",
+    "options": [
+      "Mỗi người tiêu dùng không đòi hỏi phối hợp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình phân bổ nguồn lực để đáp ứng nhu cầu vật chất và tinh thần của thành viên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tích lũy tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ mức sống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về tổ chức tiêu dùng, giáo trình xác định: gia đình phân bổ nguồn lực để đáp ứng nhu cầu vật chất và tinh thần của thành viên. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về tổ chức tiêu dùng, giáo trình xác định: gia đình phân bổ nguồn lực để đáp ứng nhu cầu vật chất và tinh thần của thành viên."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q012",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "thỏa mãn tâm sinh lý",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về thỏa mãn tâm sinh lý?",
+    "options": [
+      "Đơn thuần là có chức năng sinh con, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình đáp ứng tình cảm, tình dục chính đáng, chăm sóc và cân bằng tâm lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không tạo hỗ trợ tinh thần, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thay thế dịch vụ y tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về thỏa mãn tâm sinh lý, giáo trình xác định: gia đình đáp ứng tình cảm, tình dục chính đáng, chăm sóc và cân bằng tâm lý. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về thỏa mãn tâm sinh lý, giáo trình xác định: gia đình đáp ứng tình cảm, tình dục chính đáng, chăm sóc và cân bằng tâm lý."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q013",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "chức năng văn hóa và chính trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về chức năng văn hóa và chính trị?",
+    "options": [
+      "Đứng ngoài quản lý xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Gia đình lưu giữ văn hóa và là môi trường thực hiện quyền, nghĩa vụ công dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là truyền tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về chức năng văn hóa và chính trị, giáo trình xác định: gia đình lưu giữ văn hóa và là môi trường thực hiện quyền, nghĩa vụ công dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về chức năng văn hóa và chính trị, giáo trình xác định: gia đình lưu giữ văn hóa và là môi trường thực hiện quyền, nghĩa vụ công dân."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q014",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "phối hợp giáo dục trẻ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác phối hợp giáo dục trẻ?",
+    "options": [
+      "Gia đình cần phối hợp nhà trường và xã hội nhưng giữ vai trò nền tảng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giao trọn vẹn cho nhà trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là dùng mệnh lệnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần nêu gương, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về phối hợp giáo dục trẻ, giáo trình xác định: gia đình cần phối hợp nhà trường và xã hội nhưng giữ vai trò nền tảng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.1.3 > Các chức năng cơ bản của gia đình",
+      "text": "Về phối hợp giáo dục trẻ, giáo trình xác định: gia đình cần phối hợp nhà trường và xã hội nhưng giữ vai trò nền tảng."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q015",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở kinh tế – xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét cơ sở kinh tế – xã hội?",
+    "options": [
+      "Duy trì phụ thuộc kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là tăng tiêu dùng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phát triển lực lượng sản xuất và xóa sở hữu tư nhân về tư liệu chủ yếu tạo nền tảng bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ bình đẳng giới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về cơ sở kinh tế – xã hội, giáo trình xác định: phát triển lực lượng sản xuất và xóa sở hữu tư nhân về tư liệu chủ yếu tạo nền tảng bình đẳng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về cơ sở kinh tế – xã hội, giáo trình xác định: phát triển lực lượng sản xuất và xóa sở hữu tư nhân về tư liệu chủ yếu tạo nền tảng bình đẳng."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q016",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở chính trị – xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với cơ sở chính trị – xã hội?",
+    "options": [
+      "Nhà nước quyết định hôn nhân cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình không đòi hỏi pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là phong tục điều chỉnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước của nhân dân và pháp luật tiến bộ bảo vệ quyền thành viên gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về cơ sở chính trị – xã hội, giáo trình xác định: nhà nước của nhân dân và pháp luật tiến bộ bảo vệ quyền thành viên gia đình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về cơ sở chính trị – xã hội, giáo trình xác định: nhà nước của nhân dân và pháp luật tiến bộ bảo vệ quyền thành viên gia đình."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q017",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "cơ sở văn hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo giáo trình, nhận định nào đúng về cơ sở văn hóa?",
+    "options": [
+      "Phủ nhận các truyền thống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giá trị mới về bình đẳng, trách nhiệm và tình yêu hỗ trợ quan hệ gia đình tiến bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là kinh tế quyết định trực tiếp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chấp nhận định kiến giới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về cơ sở văn hóa, giáo trình xác định: giá trị mới về bình đẳng, trách nhiệm và tình yêu hỗ trợ quan hệ gia đình tiến bộ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về cơ sở văn hóa, giáo trình xác định: giá trị mới về bình đẳng, trách nhiệm và tình yêu hỗ trợ quan hệ gia đình tiến bộ."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q018",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "hôn nhân tự nguyện",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng hôn nhân tự nguyện?",
+    "options": [
+      "Kết hôn vì trao đổi tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cha mẹ quyết định vô điều kiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nam nữ tự do lựa chọn trên cơ sở tình yêu và không bị cưỡng ép, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không được ly hôn trong các trường hợp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về hôn nhân tự nguyện, giáo trình xác định: nam nữ tự do lựa chọn trên cơ sở tình yêu và không bị cưỡng ép. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về hôn nhân tự nguyện, giáo trình xác định: nam nữ tự do lựa chọn trên cơ sở tình yêu và không bị cưỡng ép."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q019",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "một vợ một chồng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của một vợ một chồng là gì?",
+    "options": [
+      "Đơn thuần là ràng buộc phụ nữ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cho phép đặc quyền đa thê, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quan hệ hôn nhân bình đẳng, chung thủy và phù hợp điều kiện giải phóng phụ nữ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về một vợ một chồng, giáo trình xác định: quan hệ hôn nhân bình đẳng, chung thủy và phù hợp điều kiện giải phóng phụ nữ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về một vợ một chồng, giáo trình xác định: quan hệ hôn nhân bình đẳng, chung thủy và phù hợp điều kiện giải phóng phụ nữ."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q020",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "hôn nhân được pháp luật bảo đảm",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cách hiểu nào phù hợp về hôn nhân được pháp luật bảo đảm?",
+    "options": [
+      "Đăng ký và pháp luật bảo vệ quyền, nghĩa vụ chính đáng của các bên và con cái, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tình cảm không đòi hỏi trách nhiệm pháp lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Pháp luật đảm nhiệm thay tình yêu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là bảo vệ người có tài sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về hôn nhân được pháp luật bảo đảm, giáo trình xác định: đăng ký và pháp luật bảo vệ quyền, nghĩa vụ chính đáng của các bên và con cái. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về hôn nhân được pháp luật bảo đảm, giáo trình xác định: đăng ký và pháp luật bảo vệ quyền, nghĩa vụ chính đáng của các bên và con cái."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q021",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "trường hợp cưỡng ép kết hôn",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về trường hợp cưỡng ép kết hôn?",
+    "options": [
+      "Ưu tiên ý chí gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải tôn trọng quyền quyết định của người kết hôn và ngăn cưỡng ép theo pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chấp nhận vì phong tục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xem xét lợi ích kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về trường hợp cưỡng ép kết hôn, giáo trình xác định: phải tôn trọng quyền quyết định của người kết hôn và ngăn cưỡng ép theo pháp luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.2 > Cơ sở xây dựng gia đình và chế độ hôn nhân tiến bộ",
+      "text": "Về trường hợp cưỡng ép kết hôn, giáo trình xác định: phải tôn trọng quyền quyết định của người kết hôn và ngăn cưỡng ép theo pháp luật."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q022",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi quy mô gia đình",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác biến đổi quy mô gia đình?",
+    "options": [
+      "Các thế hệ cùng ở bắt buộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình luôn mở rộng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không đổi theo đô thị hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình có xu hướng thu nhỏ, gia đình hạt nhân ngày càng phổ biến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về biến đổi quy mô gia đình, giáo trình xác định: gia đình có xu hướng thu nhỏ, gia đình hạt nhân ngày càng phổ biến. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi quy mô gia đình, giáo trình xác định: gia đình có xu hướng thu nhỏ, gia đình hạt nhân ngày càng phổ biến."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q023",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi tái sản xuất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét biến đổi tái sản xuất?",
+    "options": [
+      "Không liên hệ chính sách dân số, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là do sở thích cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mức sinh và quan niệm số con thay đổi theo điều kiện kinh tế – xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Luôn tăng ở các nơi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về biến đổi tái sản xuất, giáo trình xác định: mức sinh và quan niệm số con thay đổi theo điều kiện kinh tế – xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi tái sản xuất, giáo trình xác định: mức sinh và quan niệm số con thay đổi theo điều kiện kinh tế – xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q024",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi chức năng kinh tế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Yếu tố nào gắn trực tiếp với biến đổi chức năng kinh tế?",
+    "options": [
+      "Gia đình từ đơn vị sản xuất tự cấp chuyển mạnh sang sản xuất hàng hóa và tiêu dùng thị trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hoàn toàn ngừng lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trở lại tự cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không chịu tác động thị trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về biến đổi chức năng kinh tế, giáo trình xác định: gia đình từ đơn vị sản xuất tự cấp chuyển mạnh sang sản xuất hàng hóa và tiêu dùng thị trường. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi chức năng kinh tế, giáo trình xác định: gia đình từ đơn vị sản xuất tự cấp chuyển mạnh sang sản xuất hàng hóa và tiêu dùng thị trường."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q025",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi chức năng giáo dục",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về biến đổi chức năng giáo dục?",
+    "options": [
+      "Nhà trường đảm nhiệm thay cha mẹ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gia đình hết vai trò, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Gia đình chia sẻ nhiều hơn với nhà trường, xã hội nhưng trách nhiệm nền tảng vẫn còn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giáo dục đơn thuần là truyền nghề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về biến đổi chức năng giáo dục, giáo trình xác định: gia đình chia sẻ nhiều hơn với nhà trường, xã hội nhưng trách nhiệm nền tảng vẫn còn. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi chức năng giáo dục, giáo trình xác định: gia đình chia sẻ nhiều hơn với nhà trường, xã hội nhưng trách nhiệm nền tảng vẫn còn."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q026",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi quan hệ vợ chồng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng biến đổi quan hệ vợ chồng?",
+    "options": [
+      "Bình đẳng và chia sẻ tăng lên, dù định kiến và xung đột mới vẫn tồn tại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền gia trưởng tăng tất yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có thay đổi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bình đẳng xóa các trách nhiệm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về biến đổi quan hệ vợ chồng, giáo trình xác định: bình đẳng và chia sẻ tăng lên, dù định kiến và xung đột mới vẫn tồn tại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi quan hệ vợ chồng, giáo trình xác định: bình đẳng và chia sẻ tăng lên, dù định kiến và xung đột mới vẫn tồn tại."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q027",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "biến đổi quan hệ thế hệ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của biến đổi quan hệ thế hệ là gì?",
+    "options": [
+      "Không có xung đột giá trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Con cái về căn bản phụ thuộc suốt đời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tính độc lập cá nhân tăng và khoảng cách thế hệ có thể rõ hơn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Người cao tuổi mất các vai trò, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về biến đổi quan hệ thế hệ, giáo trình xác định: tính độc lập cá nhân tăng và khoảng cách thế hệ có thể rõ hơn. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về biến đổi quan hệ thế hệ, giáo trình xác định: tính độc lập cá nhân tăng và khoảng cách thế hệ có thể rõ hơn."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q028",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "gia đình có cha mẹ di cư",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về gia đình có cha mẹ di cư?",
+    "options": [
+      "Không cần hỗ trợ tâm lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là gửi tiền là đủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giao trọn vẹn cho nhà trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần duy trì chăm sóc, giao tiếp và phối hợp người nuôi dưỡng để bảo đảm chức năng gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về gia đình có cha mẹ di cư, giáo trình xác định: cần duy trì chăm sóc, giao tiếp và phối hợp người nuôi dưỡng để bảo đảm chức năng gia đình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.1 > Sự biến đổi của gia đình Việt Nam",
+      "text": "Về gia đình có cha mẹ di cư, giáo trình xác định: cần duy trì chăm sóc, giao tiếp và phối hợp người nuôi dưỡng để bảo đảm chức năng gia đình."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q029",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "tăng cường lãnh đạo và nhận thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về tăng cường lãnh đạo và nhận thức?",
+    "options": [
+      "Cần nâng cao nhận thức, trách nhiệm của hệ thống chính trị và xã hội về gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Coi gia đình về căn bản riêng tư, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giao Hội phụ nữ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần giáo dục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về tăng cường lãnh đạo và nhận thức, giáo trình xác định: cần nâng cao nhận thức, trách nhiệm của hệ thống chính trị và xã hội về gia đình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về tăng cường lãnh đạo và nhận thức, giáo trình xác định: cần nâng cao nhận thức, trách nhiệm của hệ thống chính trị và xã hội về gia đình."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q030",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "phát triển kinh tế gia đình",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác phát triển kinh tế gia đình?",
+    "options": [
+      "Chính sách việc làm, thu nhập và an sinh tạo điều kiện vật chất cho gia đình bền vững, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tuyên truyền đạo đức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần dịch vụ xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Thu nhập không ảnh hưởng gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về phát triển kinh tế gia đình, giáo trình xác định: chính sách việc làm, thu nhập và an sinh tạo điều kiện vật chất cho gia đình bền vững. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về phát triển kinh tế gia đình, giáo trình xác định: chính sách việc làm, thu nhập và an sinh tạo điều kiện vật chất cho gia đình bền vững."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q031",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "kế thừa giá trị truyền thống",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét kế thừa giá trị truyền thống?",
+    "options": [
+      "Đồng nhất truyền thống với bất bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giữ các phong tục cũ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phủ nhận trọn vẹn truyền thống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giữ gìn tình nghĩa, trách nhiệm, hiếu thảo đồng thời gạt bỏ gia trưởng và định kiến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về kế thừa giá trị truyền thống, giáo trình xác định: giữ gìn tình nghĩa, trách nhiệm, hiếu thảo đồng thời loại bỏ gia trưởng và định kiến. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về kế thừa giá trị truyền thống, giáo trình xác định: giữ gìn tình nghĩa, trách nhiệm, hiếu thảo đồng thời loại bỏ gia trưởng và định kiến."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q032",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "tiếp thu giá trị tiến bộ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với tiếp thu giá trị tiến bộ?",
+    "options": [
+      "Sao chép lối sống cực đoan, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đề cao bình đẳng giới, quyền trẻ em, tự nguyện và tôn trọng cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Loại bỏ gắn kết thế hệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Coi cá nhân không có nghĩa vụ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về tiếp thu giá trị tiến bộ, giáo trình xác định: đề cao bình đẳng giới, quyền trẻ em, tự nguyện và tôn trọng cá nhân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về tiếp thu giá trị tiến bộ, giáo trình xác định: đề cao bình đẳng giới, quyền trẻ em, tự nguyện và tôn trọng cá nhân."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q033",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "xây dựng gia đình văn hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về xây dựng gia đình văn hóa?",
+    "options": [
+      "Đơn thuần là cần giấy công nhận, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải gắn tiêu chí với hành vi thực chất, không chạy theo danh hiệu hình thức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần phòng chống bạo lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là xét mức thu nhập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về xây dựng gia đình văn hóa, giáo trình xác định: phải gắn tiêu chí với hành vi thực chất, không chạy theo danh hiệu hình thức. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về xây dựng gia đình văn hóa, giáo trình xác định: phải gắn tiêu chí với hành vi thực chất, không chạy theo danh hiệu hình thức."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q034",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "dịch vụ hỗ trợ gia đình",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng dịch vụ hỗ trợ gia đình?",
+    "options": [
+      "Gia đình phải tự giải quyết các việc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần phát triển tư vấn, chăm sóc trẻ em, người cao tuổi và phòng chống bạo lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xử lý sau khủng hoảng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần nhân lực chuyên môn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về dịch vụ hỗ trợ gia đình, giáo trình xác định: cần phát triển tư vấn, chăm sóc trẻ em, người cao tuổi và phòng chống bạo lực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về dịch vụ hỗ trợ gia đình, giáo trình xác định: cần phát triển tư vấn, chăm sóc trẻ em, người cao tuổi và phòng chống bạo lực."
+    }
+  },
+  {
+    "id": "MLN131-C07-Q035",
+    "courseId": "mln131",
+    "chapter": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 7,
+    "topic": "khu dân cư xây chương trình gia đình",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của khu dân cư xây chương trình gia đình là gì?",
+    "options": [
+      "Bỏ qua nhóm dễ tổn thương, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là tổ chức thi danh hiệu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tuyên truyền một lần, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nên kết hợp sinh kế, giáo dục, bình đẳng giới, tư vấn và cơ chế bảo vệ thành viên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về khu dân cư xây chương trình gia đình, giáo trình xác định: nên kết hợp sinh kế, giáo dục, bình đẳng giới, tư vấn và cơ chế bảo vệ thành viên. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 7 > B.3.2 > Phương hướng xây dựng gia đình Việt Nam",
+      "text": "Về khu dân cư xây chương trình gia đình, giáo trình xác định: nên kết hợp sinh kế, giáo dục, bình đẳng giới, tư vấn và cơ chế bảo vệ thành viên."
+    }
+  }
+]

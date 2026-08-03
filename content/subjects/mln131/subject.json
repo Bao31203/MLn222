@@ -3,18 +3,59 @@
   "id": "mln131",
   "code": "MLN131",
   "legacyAliases": [],
-  "title": "MLN131",
-  "description": "Nội dung ôn tập cho MLN131 sẽ được bổ sung trong phiên biên soạn sau.",
-  "status": "comingSoon",
+  "title": "Chủ nghĩa xã hội khoa học",
+  "description": "Ngân hàng 280 câu ôn tập bám sát bảy chương của Giáo trình Chủ nghĩa xã hội khoa học.",
+  "status": "draft",
   "studyReady": false,
   "copyReviewRequired": true,
   "features": {
-    "quiz": false,
-    "flashcards": false,
-    "search": false,
+    "quiz": true,
+    "flashcards": true,
+    "search": true,
     "lectures": false,
     "game": false
   },
-  "questionTarget": 0,
-  "chapters": []
+  "questionTarget": 280,
+  "chapters": [
+    {"id": "mln131-c01", "number": 1, "title": "Nhập môn Chủ nghĩa xã hội khoa học", "questionTarget": 35},
+    {"id": "mln131-c02", "number": 2, "title": "Sứ mệnh lịch sử của giai cấp công nhân", "questionTarget": 45},
+    {"id": "mln131-c03", "number": 3, "title": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội", "questionTarget": 45},
+    {"id": "mln131-c04", "number": 4, "title": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa", "questionTarget": 40},
+    {"id": "mln131-c05", "number": 5, "title": "Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội", "questionTarget": 35},
+    {"id": "mln131-c06", "number": 6, "title": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội", "questionTarget": 45},
+    {"id": "mln131-c07", "number": 7, "title": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội", "questionTarget": 35}
+  ],
+  "questionFiles": [
+    {"chapterNum": 1, "path": "subjects/mln131/chapters/chapter-01.json"},
+    {"chapterNum": 2, "path": "subjects/mln131/chapters/chapter-02.json"},
+    {"chapterNum": 3, "path": "subjects/mln131/chapters/chapter-03.json"},
+    {"chapterNum": 4, "path": "subjects/mln131/chapters/chapter-04.json"},
+    {"chapterNum": 5, "path": "subjects/mln131/chapters/chapter-05.json"},
+    {"chapterNum": 6, "path": "subjects/mln131/chapters/chapter-06.json"},
+    {"chapterNum": 7, "path": "subjects/mln131/chapters/chapter-07.json"}
+  ],
+  "lectureManifest": null,
+  "validation": {
+    "questionIdPattern": "^MLN131-C\\d{2}-Q\\d{3}$",
+    "courseIdPolicy": "required",
+    "allowedKinds": ["nhan_biet_khai_niem", "thong_hieu_phan_biet", "trinh_tu_quan_he", "van_dung_tinh_huong"],
+    "difficultyTargets": {"Nhận biết": 112, "Thông hiểu": 112, "Vận dụng": 56},
+    "answerPositionTargets": [70, 70, 70, 70],
+    "chapterTargets": [
+      {"chapterNum": 1, "difficultyTargets": {"Nhận biết": 14, "Thông hiểu": 14, "Vận dụng": 7}, "answerPositionTargets": [9, 9, 9, 8]},
+      {"chapterNum": 2, "difficultyTargets": {"Nhận biết": 18, "Thông hiểu": 18, "Vận dụng": 9}, "answerPositionTargets": [11, 11, 11, 12]},
+      {"chapterNum": 3, "difficultyTargets": {"Nhận biết": 18, "Thông hiểu": 18, "Vận dụng": 9}, "answerPositionTargets": [11, 11, 12, 11]},
+      {"chapterNum": 4, "difficultyTargets": {"Nhận biết": 16, "Thông hiểu": 16, "Vận dụng": 8}, "answerPositionTargets": [10, 10, 10, 10]},
+      {"chapterNum": 5, "difficultyTargets": {"Nhận biết": 14, "Thông hiểu": 14, "Vận dụng": 7}, "answerPositionTargets": [9, 9, 8, 9]},
+      {"chapterNum": 6, "difficultyTargets": {"Nhận biết": 18, "Thông hiểu": 18, "Vận dụng": 9}, "answerPositionTargets": [12, 11, 11, 11]},
+      {"chapterNum": 7, "difficultyTargets": {"Nhận biết": 14, "Thông hiểu": 14, "Vận dụng": 7}, "answerPositionTargets": [8, 9, 9, 9]}
+    ],
+    "sourcePolicy": {
+      "schema": "markdown-section",
+      "allowedSources": [{"file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md", "label": "Giáo trình Chủ nghĩa xã hội khoa học"}],
+      "allowedSlideFiles": [],
+      "chapterPageRanges": []
+    },
+    "reviewSignoffPath": null
+  }
 }

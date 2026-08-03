@@ -12,20 +12,21 @@ Thứ tự registry là một phần của hợp đồng giao diện:
 |---|---|---|---|---:|---|
 | `mln111` | `MLN111` | Triết học Mác – Lênin | `ready`, `studyReady` | 380/3 | quiz, flashcards, search |
 | `mln112` | `MLN112` | Kinh tế chính trị Mác – Lênin | `ready`, `studyReady` | 504/6 | quiz, flashcards, search, lectures, game |
-| `mln131` | `MLN131` | MLN131 | `comingSoon` | 0/0 | không |
+| `mln131` | `MLN131` | Chủ nghĩa xã hội khoa học | `draft` | 280/7 | chưa publish mode học |
 | `hcm202` | `HCM202` | Tư tưởng Hồ Chí Minh | `ready`, `studyReady` | 480/6 | quiz, flashcards, search |
-| `vnr201` | `VNR201` | VNR201 | `comingSoon` | 0/0 | không |
+| `vnr202` | `VNR202` | Lịch sử Đảng Cộng sản Việt Nam | `ready`, `studyReady` | 850/5 | quiz, flashcards, search |
 
-`mln112` là ID chuẩn bất biến. `mln122` và `mln222` chỉ là legacy alias để đọc đầu vào/duy trì tương thích; nhãn public là `MLN112`.
+`mln112` là ID chuẩn bất biến. `mln122` và `mln222` chỉ là legacy alias để đọc đầu vào/duy trì tương thích; nhãn public là `MLN112`. `vnr202` là ID chuẩn của môn Lịch sử Đảng; alias `vnr201` được canonicalize sang `vnr202`.
 
 Phân bổ ngân hàng:
 
 - MLN111: `70/150/160`, tổng 380 câu; 152 Nhận biết, 152 Thông hiểu, 76 Vận dụng.
 - MLN112: `64/89/99/84/84/84`, tổng 504 câu; 204 Nhận biết, 204 Thông hiểu, 96 Vận dụng.
 - HCM202: `45/75/100/95/75/90`, tổng 480 câu; 192 Nhận biết, 192 Thông hiểu, 96 Vận dụng; vị trí đáp án A/B/C/D cùng 120 câu.
+- VNR202: `63/120/220/400/47`, tổng 850 câu; 340 Nhận biết, 340 Thông hiểu, 170 Vận dụng; vị trí A/B/C/D là `213/213/212/212`.
 - MLN112 có sáu lecture YouTube, mỗi lecture ánh xạ một `chapterId`, và game Công thành dùng nguyên bank 504 câu.
 
-Catalog public hiện có năm môn, ba môn sẵn sàng và tổng **1.364 câu**; MLN131 cùng VNR201 vẫn là placeholder `comingSoon`.
+Catalog public có năm môn, bốn môn sẵn sàng và tổng **2.214 câu** trong các bank được publish. MLN131 có 280 câu đã authored nhưng vẫn là `draft`, vì vậy chỉ hiển thị tiến độ và chưa đưa bank vào runtime.
 
 ## Luồng dữ liệu
 
@@ -66,7 +67,7 @@ Profile `subject.json` là nguồn chuẩn cho:
 - ID pattern, `courseId` policy, `kind` hợp lệ, quota difficulty/answer.
 - Source policy và review sign-off.
 
-`comingSoon` là profile dataless: target 0, không chapter/file/validation và mọi feature đều tắt. Pipeline kiểm tra metadata nhưng không được mở question bank. `ready` chỉ được publish khi target đầy đủ và validation không lỗi; MLN111 và HCM202 còn phải khớp SHA-256 trong `review-signoff.json` tương ứng.
+`comingSoon` là profile dataless: target 0, không chapter/file/validation và mọi feature đều tắt. `draft` có thể chứa chapter/file/validation để báo tiến độ nhưng không được publish question bank hoặc mở workspace. `ready` chỉ được publish khi target đầy đủ, validation không lỗi và mọi review sign-off đã khai báo khớp SHA-256; MLN111, HCM202 và VNR202 dùng hợp đồng sign-off này.
 
 ## Catalog public
 
@@ -75,7 +76,7 @@ Builder không đưa object authored trực tiếp vào browser.
 ### Subject
 
 ```text
-id, code, title, description, status, studyReady, copyReviewRequired,
+id, code, legacyAliases, title, description, status, studyReady, copyReviewRequired,
 features, questionTarget, questionCount,
 chapters[{id, number, title, questionTarget, questionCount}]
 ```
@@ -119,7 +120,7 @@ Route canonical dùng fragment để Vercel/static host luôn phục vụ cùng 
 | `#/<subjectId>` | Tổng quan hoặc trạng thái môn |
 | `#/<subjectId>/<mode>` | Workspace của một mode được bật |
 
-Mode runtime: `quiz`, `flash`, `lecture`, `search`, `game`. `availableModes(subject)` lấy trực tiếp từ feature flags. Vì vậy `#/mln111/game` được sửa về `#/mln111`; `#/hcm202/lecture` và `#/hcm202/game` được đưa về overview HCM202; còn `#/mln131/quiz` chỉ mở trang “Sắp ra mắt” và không tạo pool/storage/iframe/game.
+Mode runtime: `quiz`, `flash`, `lecture`, `search`, `game`. `availableModes(subject)` lấy trực tiếp từ feature flags nhưng chỉ trả mode khi subject thực sự `ready` và `studyReady`. Vì vậy `#/mln111/game`, `#/hcm202/game` và `#/vnr202/game` đều được đưa về overview; `#/mln131/quiz` chỉ mở trang bản thảo và không tạo pool/storage/iframe/game. `#/vnr201/quiz` được canonicalize thành `#/vnr202/quiz`.
 
 Parser giới hạn fragment 512 byte, chỉ nhận tối đa hai segment, decode có guard, từ chối control character, `.`/`..`, slash/backslash mã hóa và query. Route không canonical được thay bằng `history.replaceState`; điều hướng hợp lệ dùng hash nên refresh và Back/Forward hoạt động.
 
@@ -139,13 +140,16 @@ Bộ lọc chương, difficulty, câu bắt đầu, shuffle, marked/wrong là st
 | HCM202 | `mln-study-hub.v1.hcm202.marked` | Compound question keys đã đánh dấu |
 | HCM202 | `mln-study-hub.v1.hcm202.stats` | Thống kê đúng/sai theo câu |
 | HCM202 | `mln-study-hub.v1.hcm202.studyProgress` | Phiên quiz/flash |
+| VNR202 | `mln-study-hub.v1.vnr202.marked` | Compound question keys đã đánh dấu |
+| VNR202 | `mln-study-hub.v1.vnr202.stats` | Thống kê đúng/sai theo câu |
+| VNR202 | `mln-study-hub.v1.vnr202.studyProgress` | Phiên quiz/flash |
 | Game | `mln222.campaign.v1` | Campaign save production |
 | Game UI | `mln222.campaign.ui.v1` | Trạng thái trình bày campaign |
 | Game codec | `mln222.game.v1` | Default key của save codec cấp thấp |
 
-Question key logic trong hub là `<subjectId>:<questionId>`, ngăn ID trùng giữa ba bank sẵn sàng. Loader coi localStorage là dữ liệu không tin cậy: parse có guard, đối chiếu ID với bank hiện tại, bỏ record sai/cross-subject và giữ fallback trong `memoryStudyBySubject`. Lỗi `getItem`, `setItem` hoặc `removeItem` không được làm mất phiên cùng tab.
+Question key logic trong hub là `<subjectId>:<questionId>`, ngăn ID trùng giữa bốn bank sẵn sàng. Loader coi localStorage là dữ liệu không tin cậy: parse có guard, đối chiếu ID với bank hiện tại, bỏ record sai/cross-subject và giữ fallback trong `memoryStudyBySubject`. Lỗi `getItem`, `setItem` hoặc `removeItem` không được làm mất phiên cùng tab.
 
-Reset chỉ xóa ba key study của môn hiện tại. Rollback không xóa storage: app cũ tiếp tục đọc key MLN112, bỏ qua key MLN111/HCM202; khi forward recovery, từng môn đọc lại dữ liệu của mình.
+Reset chỉ xóa ba key study của môn hiện tại. Rollback không xóa storage: app cũ tiếp tục đọc key MLN112, bỏ qua key MLN111/HCM202/VNR202; khi forward recovery, từng môn đọc lại dữ liệu của mình.
 
 ## Hợp đồng game MLN112
 
@@ -192,7 +196,7 @@ python build_html.py
 git diff --check
 ```
 
-Builder chụp input manifest (gồm cả bốn compiler source), đọc lại `template.html`, render deterministically, đo raw/gzip, rồi chụp snapshot lần hai. Từ đúng snapshot này, `python build_html.py` dựng staging cùng volume và transactionally promote đồng bộ root `index.html`, exact `dist/{index.html,release-manifest.json}` cùng root `vercel.json`. Trình tự snapshot → reread template → render → snapshot đóng cửa sổ TOCTOU; backup/restore giữ release cũ nếu promotion lỗi. Release manifest chứa SHA-256/size, CSP của từng inline script/style, subject counts và canonical `inputSnapshotSha256`; không chứa test count. Hard gate là tối đa 3 MiB raw và 700 KiB gzip.
+Builder chụp input manifest (gồm cả bốn compiler source), đọc lại `template.html`, render deterministically, đo raw/gzip, rồi chụp snapshot lần hai. Từ đúng snapshot này, `python build_html.py` dựng staging cùng volume và transactionally promote đồng bộ root `index.html`, exact `dist/{index.html,release-manifest.json}` cùng root `vercel.json`. Trình tự snapshot → reread template → render → snapshot đóng cửa sổ TOCTOU; backup/restore giữ release cũ nếu promotion lỗi. Release manifest chứa SHA-256/size, CSP của từng inline script/style, subject counts và canonical `inputSnapshotSha256`; không chứa test count. Hard gate là tối đa 5 MiB raw và 1 MiB gzip.
 
 Hai clean build đã cho output byte-identical. Serve production artifact local bằng:
 

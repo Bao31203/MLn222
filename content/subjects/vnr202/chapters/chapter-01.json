@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "VNR202-C01-Q001",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Đối tượng nghiên cứu tổng quát",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đối tượng nghiên cứu tổng quát của khoa học Lịch sử Đảng là gì?",
+    "options": [
+      "Toàn bộ lịch sử dân tộc Việt Nam qua mọi thời kỳ và trên mọi lĩnh vực",
+      "Riêng quá trình hình thành hệ thống tổ chức của Đảng từ trung ương đến cơ sở",
+      "Các cuộc chiến tranh diễn ra trên lãnh thổ Việt Nam trong thời kỳ hiện đại",
+      "Sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình xác định đối tượng tổng quát gồm cả sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ; chỉ chọn một mặt tổ chức hoặc quân sự sẽ thu hẹp sai phạm vi.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I. Đối tượng nghiên cứu (dòng logic 105–109)",
+      "text": "Đối tượng của khoa học Lịch sử Đảng bao quát sự ra đời, phát triển và hoạt động lãnh đạo của Đảng trong tiến trình lịch sử."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q002",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Dấu hiệu của sự kiện lịch sử Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Dấu hiệu cốt lõi để xác định một sự kiện thuộc phạm vi lịch sử Đảng là gì?",
+    "options": [
+      "Sự kiện diễn ra đồng thời với một biến động quân sự trong nước",
+      "Sự kiện có ảnh hưởng rộng đến đời sống của cộng đồng dân cư",
+      "Sự kiện xuất hiện trong cùng thời kỳ với lịch sử dân tộc Việt Nam",
+      "Sự kiện gắn trực tiếp với sự lãnh đạo và hoạt động của Đảng"
+    ],
+    "answer": 3,
+    "explanation": "Điểm phân định là mối gắn kết trực tiếp với sự lãnh đạo của Đảng. Cùng thời kỳ, có ảnh hưởng xã hội hoặc mang tính quân sự chưa tự thân biến một sự kiện thành sự kiện lịch sử Đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.1. Các sự kiện lịch sử Đảng (dòng logic 111–129)",
+      "text": "Giáo trình yêu cầu phân biệt sự kiện lịch sử Đảng bằng quan hệ trực tiếp của sự kiện với sự lãnh đạo của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q003",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Phân biệt sự kiện lịch sử Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách phân loại nào phù hợp với yêu cầu của giáo trình khi nhiều sự kiện diễn ra trong cùng một thời kỳ?",
+    "options": [
+      "Xếp mọi sự kiện dân tộc và quân sự vào lịch sử Đảng nếu chúng diễn ra trong cùng thời kỳ và thời điểm lịch sử",
+      "Chỉ xếp sự kiện quân sự vào lịch sử Đảng vì lĩnh vực quân sự thể hiện rõ nhất đấu tranh",
+      "Xác định riêng những sự kiện gắn trực tiếp với sự lãnh đạo của Đảng, không đồng nhất với toàn bộ sự kiện dân tộc hay quân sự",
+      "Loại các sự kiện kinh tế, văn hóa và đối ngoại vì lịch sử Đảng chỉ nghiên cứu chính trị"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình không đồng nhất ba phạm vi sự kiện. Sự kiện lịch sử Đảng được nhận diện bởi sự gắn kết với lãnh đạo của Đảng và có thể xuất hiện trên nhiều lĩnh vực, không chỉ quân sự hoặc chính trị.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.1. Các sự kiện lịch sử Đảng (dòng logic 111–129)",
+      "text": "Sự kiện lịch sử Đảng phải được phân biệt với sự kiện lịch sử dân tộc và lịch sử quân sự trong cùng thời kỳ."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q004",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Phạm vi nghiên cứu sự kiện lịch sử Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một nghiên cứu đáp ứng đầy đủ phạm vi sự kiện lịch sử Đảng cần làm rõ điều gì?",
+    "options": [
+      "Làm rõ niên đại, địa điểm và diễn biến quân sự của sự kiện trong quan hệ với lịch sử dân tộc",
+      "Làm rõ quyết định của cấp trung ương và ảnh hưởng hành chính của chúng ở từng thời kỳ",
+      "Làm rõ bối cảnh xã hội và kết quả chung của sự kiện đối với tiến trình lịch sử dân tộc",
+      "Làm rõ nội dung, tính chất và bản chất sự kiện gắn với lãnh đạo của Đảng trên các lĩnh vực"
+    ],
+    "answer": 3,
+    "explanation": "Nghiên cứu phải đi từ sự kiện đến nội dung, tính chất và bản chất gắn với sự lãnh đạo của Đảng, đồng thời bao quát các lĩnh vực mà giáo trình nêu; liệt kê niên đại đơn thuần là chưa đủ.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.1. Các sự kiện lịch sử Đảng (dòng logic 111–129)",
+      "text": "Nguồn yêu cầu nghiên cứu sâu sắc, có hệ thống nội dung, tính chất và bản chất của sự kiện trên nhiều lĩnh vực gắn với lãnh đạo của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q005",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Yêu cầu tái hiện sự kiện",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm sinh viên tái hiện một sự kiện lãnh đạo của Đảng. Phương án nào đáp ứng tốt nhất yêu cầu của giáo trình?",
+    "options": [
+      "Đối chiếu tư liệu chính xác, khách quan và phản ánh cả thành tựu, khó khăn, hy sinh, đóng góp",
+      "Ưu tiên tư liệu kể về thành tựu để làm nổi bật kết quả cuối cùng của sự kiện",
+      "Ưu tiên hồi ức sinh động dù chưa kiểm tra độ chính xác vì cảm xúc giúp bài viết hấp dẫn",
+      "Lược bỏ đóng góp của tổ chức cơ sở và cá nhân để tập trung vào quyết định, kết quả ở cấp trung ương"
+    ],
+    "answer": 0,
+    "explanation": "Tái hiện khoa học phải dựa trên tư liệu chính xác, trung thực, khách quan và cho thấy đầy đủ cả thành tựu lẫn khó khăn, hy sinh, cống hiến. Các cách chọn một chiều hoặc dùng tư liệu chưa kiểm chứng đều trái yêu cầu này.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.1. Các sự kiện lịch sử Đảng (dòng logic 120–129)",
+      "text": "Hệ thống sự kiện cần phản ánh nhiều mặt và được tái hiện trên cơ sở tư liệu chính xác, trung thực, khách quan."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q006",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Cương lĩnh và đường lối",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bên cạnh các sự kiện, nội dung nào được giáo trình xác định là đối tượng nghiên cứu của Lịch sử Đảng?",
+    "options": [
+      "Các kỹ thuật quản trị hành chính tại từng cơ quan nhà nước",
+      "Phong tục và sinh hoạt văn hóa của các cộng đồng dân cư",
+      "Cương lĩnh và đường lối của Đảng qua tiến trình cách mạng",
+      "Các học thuyết chính trị từng được giới thiệu tại Việt Nam"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình nêu rõ Cương lĩnh và đường lối của Đảng là một đối tượng nghiên cứu. Các phương án còn lại hoặc quá rộng, hoặc thuộc một phạm vi chuyên ngành khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.2. Cương lĩnh và đường lối của Đảng (dòng logic 131–154)",
+      "text": "Lịch sử Đảng nghiên cứu Cương lĩnh và đường lối mà Đảng đề ra để lãnh đạo cách mạng và phát triển đất nước."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q007",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Các chiều phân tích đường lối",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Muốn làm sáng tỏ một đường lối của Đảng theo giáo trình, cần kết hợp những chiều phân tích nào?",
+    "options": [
+      "Nội dung, cơ sở lý luận, thực tiễn và giá trị hiện thực của đường lối",
+      "Tên văn kiện, số trang, hình thức trình bày và số lần văn kiện được trích dẫn",
+      "Thời điểm ban hành, độ dài văn bản, cơ quan lưu trữ và cách sắp xếp phụ lục",
+      "Tiểu sử người soạn thảo, địa điểm công bố, phản ứng báo chí và số bản phát hành"
+    ],
+    "answer": 0,
+    "explanation": "Bốn chiều được nguồn yêu cầu là nội dung, cơ sở lý luận, cơ sở thực tiễn và giá trị hiện thực. Thông tin hình thức hoặc thư mục không thay thế được việc phân tích khoa học đường lối.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.2. Cương lĩnh và đường lối của Đảng (dòng logic 131–137)",
+      "text": "Nguồn yêu cầu làm rõ nội dung, nền tảng lý luận, căn cứ thực tiễn và giá trị hiện thực của Cương lĩnh, đường lối."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q008",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Đường lối và sự phát triển của thực tiễn",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao giáo trình đồng thời nhấn mạnh đường lối đúng đắn và việc bổ sung, phát triển đường lối?",
+    "options": [
+      "Vì đường lối mang ý nghĩa lý luận, còn kết quả thực tiễn do hoàn cảnh khách quan quyết định",
+      "Vì đường lối luôn phải đổi mới từ đầu khi xuất hiện một vấn đề thực tiễn",
+      "Vì việc bổ sung đường lối nhằm làm giảm vai trò tổ chức phong trào của quần chúng",
+      "Vì đường lối đúng là điều kiện trước hết của thắng lợi nhưng phải theo kịp lý luận và thực tiễn"
+    ],
+    "answer": 3,
+    "explanation": "Đường lối đúng đắn giữ vai trò điều kiện trước hết, song lý luận, thực tiễn và yêu cầu cuộc sống luôn phát triển nên đường lối phải tiếp tục được bổ sung. Điều đó không có nghĩa thay mới tùy tiện hoặc coi nhẹ tổ chức thực tiễn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.2. Cương lĩnh và đường lối của Đảng (dòng logic 131–143)",
+      "text": "Đường lối đúng đắn là điều kiện trước hết quyết định thắng lợi và cần được bổ sung phù hợp với lý luận, thực tiễn, yêu cầu cuộc sống."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q009",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Đề ra và hiện thực hóa đường lối",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề cương muốn thể hiện đầy đủ quan hệ giữa đường lối và thắng lợi thực tiễn. Cách xây dựng nào phù hợp nhất?",
+    "options": [
+      "Phân tích từ việc đề ra chiến lược, sách lược, phương pháp đến tổ chức quần chúng hiện thực hóa đường lối",
+      "Dừng ở việc liệt kê tên, thời điểm ban hành Cương lĩnh và đường lối, không xem xét tổ chức thực hiện",
+      "Dừng ở việc mô tả phong trào quần chúng, không xác định đường lối đã định hướng cho phong trào",
+      "Đồng nhất Cương lĩnh, đường lối, sách lược và hoạt động tổ chức thành một khái niệm chung"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn phân biệt việc đề ra các quyết định chiến lược, sách lược, phương pháp với việc tổ chức phong trào quần chúng để đưa đường lối vào thực tế. Đề cương đúng phải làm rõ cả hai khâu và quan hệ giữa chúng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.2. Cương lĩnh và đường lối của Đảng (dòng logic 145–154)",
+      "text": "Đảng cụ thể hóa Cương lĩnh bằng đường lối, quyết định chiến lược, sách lược, phương pháp và tổ chức quần chúng hiện thực hóa đường lối."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q010",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Quá trình chỉ đạo và tổ chức thực tiễn",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hoạt động nào là đối tượng nghiên cứu thứ ba được nêu trong phần nhập môn?",
+    "options": [
+      "Quá trình xuất bản, phổ biến các công trình nghiên cứu và tư liệu lịch sử",
+      "Quá trình hình thành các ngành khoa học xã hội ở Việt Nam",
+      "Quá trình sưu tầm hiện vật tại các bảo tàng và di tích lịch sử",
+      "Quá trình chỉ đạo, tổ chức thực tiễn của Đảng trong cách mạng"
+    ],
+    "answer": 3,
+    "explanation": "Sau sự kiện và Cương lĩnh, đường lối, giáo trình xác định quá trình chỉ đạo, tổ chức thực tiễn của Đảng trong tiến trình cách mạng là một đối tượng nghiên cứu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.3. Quá trình chỉ đạo, tổ chức thực tiễn (dòng logic 156–177)",
+      "text": "Đảng lãnh đạo thông qua quá trình chỉ đạo và tổ chức thực tiễn trong tiến trình cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q011",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Đánh giá hoạt động lãnh đạo",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cách đánh giá nào phản ánh đúng yêu cầu nghiên cứu quá trình lãnh đạo của Đảng?",
+    "options": [
+      "Làm rõ thành tựu, kinh nghiệm và những điều kiện thuận lợi tạo nên kết quả lãnh đạo",
+      "Làm rõ thành tựu, kinh nghiệm cùng khuyết điểm, hạn chế, khó khăn và nguy cơ",
+      "Làm rõ khuyết điểm, hạn chế và những nguyên nhân chủ quan trong quá trình lãnh đạo",
+      "Đánh giá quá trình lãnh đạo qua kết quả cuối cùng và hiệu quả của các quyết sách trung ương"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình yêu cầu cách nhìn nhiều mặt: làm rõ thắng lợi, thành tựu, kinh nghiệm, bài học nhưng cũng thẳng thắn nhận diện khuyết điểm, hạn chế, khó khăn, thách thức và nguy cơ cần khắc phục.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.3. Quá trình chỉ đạo, tổ chức thực tiễn (dòng logic 156–166)",
+      "text": "Nghiên cứu hoạt động lãnh đạo phải làm rõ cả kết quả, kinh nghiệm và những hạn chế, khó khăn, nguy cơ cần vượt qua."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q012",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Tổng kết kinh nghiệm và quy luật",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Mối quan hệ nào giữa kinh nghiệm, bài học và quy luật được giáo trình đặt ra trong tổng kết lịch sử?",
+    "options": [
+      "Kinh nghiệm được đồng nhất với bài học, còn quy luật được xác định trước khi xem xét thực tiễn",
+      "Bài học gắn với một sự kiện riêng, còn kinh nghiệm luôn bao quát tiến trình cách mạng",
+      "Quy luật được suy ra từ lý thuyết có sẵn nên không phụ thuộc tổng kết ở từng thời kỳ",
+      "Tổng kết kinh nghiệm, bài học từng thời kỳ góp phần tìm quy luật riêng của cách mạng Việt Nam"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn coi tổng kết kinh nghiệm, bài học và tìm ra quy luật riêng là công việc thường xuyên ở mỗi thời kỳ. Quy luật không được đặt sẵn thay cho việc xem xét thực tiễn lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.3. Quá trình chỉ đạo, tổ chức thực tiễn (dòng logic 168–173)",
+      "text": "Tổng kết kinh nghiệm, bài học để tìm quy luật riêng của cách mạng Việt Nam là công việc thường xuyên của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q013",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Vận dụng các truyền thống nổi bật của Đảng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chương trình giáo dục truyền thống đã có ba hoạt động: rèn ý chí vượt khó, hòa giải để giữ thống nhất nội bộ và cùng nhân dân xác định lợi ích chung. Để thể hiện đủ khung truyền thống trong nguồn, nên bổ sung hoạt động nào?",
+    "options": [
+      "Tổ chức hoạt động giúp cán bộ kiên trì vượt khó trong quá trình thực hiện nhiệm vụ chung",
+      "Thiết lập thêm cơ chế hòa giải để củng cố đồng thuận giữa các bộ phận trong tổ chức",
+      "Cùng cộng đồng xây dựng chương trình phục vụ lợi ích chính đáng của người dân",
+      "Phối hợp với các lực lượng tiến bộ quốc tế trên tinh thần đoàn kết trong sáng"
+    ],
+    "answer": 3,
+    "explanation": "Ba hoạt động đã lần lượt thể hiện truyền thống kiên cường, đoàn kết thống nhất và gắn bó với nhân dân. Hoạt động hợp tác với các lực lượng tiến bộ quốc tế bổ sung đúng truyền thống còn thiếu là chủ nghĩa quốc tế trong sáng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.3. Quá trình chỉ đạo, tổ chức thực tiễn (dòng logic 168–177)",
+      "text": "Giáo trình liệt kê bốn truyền thống nổi bật về đấu tranh, đoàn kết, gắn bó với nhân dân và chủ nghĩa quốc tế trong sáng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q014",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Bốn mặt xây dựng Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nêu công tác xây dựng Đảng qua các thời kỳ trên bốn mặt nào?",
+    "options": [
+      "Lý luận, pháp luật, hành chính và đối ngoại",
+      "Kinh tế, văn hóa, xã hội và quốc phòng",
+      "Chính trị, tư tưởng, tổ chức và đạo đức",
+      "Cương lĩnh, sách lược, phong trào và tổng kết"
+    ],
+    "answer": 2,
+    "explanation": "Bốn mặt được nêu trực tiếp là chính trị, tư tưởng, tổ chức và đạo đức. Các phương án khác trộn lĩnh vực hoạt động với nội dung xây dựng Đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.4. Hệ thống tổ chức và xây dựng Đảng (dòng logic 179–192)",
+      "text": "Nghiên cứu công tác xây dựng Đảng cần xem xét bốn mặt: chính trị, tư tưởng, tổ chức và đạo đức."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q015",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Xây dựng Đảng về chính trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào thuộc xây dựng Đảng về chính trị theo giáo trình?",
+    "options": [
+      "Củng cố hệ thống tổ chức và phát triển đội ngũ cán bộ, đảng viên",
+      "Bảo đảm đường lối đúng, củng cố nội bộ và nâng cao bản lĩnh chính trị",
+      "Xác lập chuẩn mực đạo đức và ngăn chặn suy thoái về đạo đức, lối sống",
+      "Lấy chủ nghĩa Mác–Lênin, tư tưởng Hồ Chí Minh làm nền tảng tư tưởng"
+    ],
+    "answer": 1,
+    "explanation": "Bảo đảm tính đúng đắn của đường lối, củng cố chính trị nội bộ và nâng cao bản lĩnh chính trị là nội dung xây dựng về chính trị; các phương án còn lại lần lượt thuộc tổ chức, đạo đức và tư tưởng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.4. Hệ thống tổ chức và xây dựng Đảng (dòng logic 179–192)",
+      "text": "Xây dựng Đảng về chính trị hướng tới đường lối đúng đắn, chính trị nội bộ vững và bản lĩnh chính trị cao."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q016",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Xây dựng Đảng về tư tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt xây dựng Đảng về tư tưởng với xây dựng về tổ chức?",
+    "options": [
+      "Xây dựng về tư tưởng tập trung phát triển hệ thống tổ chức và đội ngũ đảng viên",
+      "Xây dựng về tư tưởng tập trung quy định nguyên tắc tổ chức và kỷ luật nội bộ",
+      "Tư tưởng xác lập nền tảng, kim chỉ nam; tổ chức củng cố hệ thống và đội ngũ",
+      "Xây dựng về tư tưởng xác lập chuẩn mực lối sống; xây dựng về tổ chức bảo đảm đường lối"
+    ],
+    "answer": 2,
+    "explanation": "Mặt tư tưởng gắn với chủ nghĩa Mác–Lênin, tư tưởng Hồ Chí Minh như nền tảng và kim chỉ nam; mặt tổ chức gắn với hệ thống tổ chức, đội ngũ và nguyên tắc tổ chức. Hai nội dung không thể hoán đổi.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.4. Hệ thống tổ chức và xây dựng Đảng (dòng logic 186–192)",
+      "text": "Nguồn tách mặt tư tưởng dựa trên nền tảng tư tưởng với mặt tổ chức nhằm củng cố hệ thống, đội ngũ và nguyên tắc."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q017",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Xây dựng Đảng về tổ chức",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một kế hoạch thuộc xây dựng Đảng về tổ chức phải đồng thời hướng tới những nội dung nào?",
+    "options": [
+      "Hoàn thiện đường lối, củng cố chính trị nội bộ và nâng cao bản lĩnh chính trị của toàn Đảng",
+      "Củng cố hệ thống, phát triển đội ngũ và tuân thủ nguyên tắc tổ chức cơ bản",
+      "Xác lập nền tảng tư tưởng và đấu tranh với các nhận thức khác nhau trong đời sống xã hội",
+      "Xây dựng chuẩn mực đạo đức và đánh giá riêng lối sống của từng cá nhân"
+    ],
+    "answer": 1,
+    "explanation": "Mặt tổ chức bao gồm cả củng cố, phát triển hệ thống và đội ngũ cán bộ, đảng viên lẫn tuân thủ nguyên tắc tổ chức cơ bản. Chỉ nói đường lối, nền tảng tư tưởng hoặc chuẩn mực đạo đức là lệch mặt nghiên cứu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.4. Hệ thống tổ chức và xây dựng Đảng (dòng logic 186–192)",
+      "text": "Xây dựng về tổ chức gắn việc củng cố hệ thống, phát triển đội ngũ với tuân thủ nguyên tắc tổ chức."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q018",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Vận dụng xây dựng Đảng về đạo đức",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một chi bộ đã có đường lối và cơ cấu tổ chức ổn định, nhưng một bộ phận cán bộ biểu hiện vụ lợi và sa sút lối sống. Biện pháp ưu tiên nào xử lý đúng mặt yếu được tình huống nêu?",
+    "options": [
+      "Bổ sung đường lối và nâng cao bản lĩnh chính trị của tổ chức",
+      "Xây dựng chuẩn mực đạo đức và biện pháp ngăn chặn, đẩy lùi suy thoái lối sống",
+      "Kiện toàn cấp ủy và phát triển số lượng cán bộ, đảng viên",
+      "Nghiên cứu nền tảng tư tưởng và hoàn thiện hệ thống chương trình lý luận"
+    ],
+    "answer": 1,
+    "explanation": "Dữ kiện trọng tâm là biểu hiện vụ lợi và sa sút lối sống, nên phải ưu tiên xây dựng chuẩn mực và ngăn chặn suy thoái đạo đức. Các phương án còn lại xử lý mặt chính trị, tổ chức hoặc tư tưởng vốn không phải điểm yếu được nêu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > I.4. Hệ thống tổ chức và xây dựng Đảng (dòng logic 186–192)",
+      "text": "Xây dựng Đảng về đạo đức gồm xây dựng chuẩn mực và ngăn chặn, đẩy lùi suy thoái đạo đức, lối sống."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q019",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Chức năng nhận thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Chức năng nhận thức của khoa học Lịch sử Đảng trước hết cung cấp loại tri thức nào?",
+    "options": [
+      "Tri thức có hệ thống về lịch sử lãnh đạo, đấu tranh và cầm quyền của Đảng",
+      "Tri thức chuyên biệt về kỹ thuật quản lý của từng cơ quan hành chính nhà nước",
+      "Tri thức tổng hợp về mọi nền văn hóa từng giao lưu với dân tộc Việt Nam",
+      "Tri thức dự báo độc lập với những gì đã diễn ra trong quá khứ"
+    ],
+    "answer": 0,
+    "explanation": "Chức năng nhận thức trước hết giúp hình thành tri thức lịch sử đầy đủ, có hệ thống về quá trình lãnh đạo, đấu tranh và cầm quyền của Đảng; dự báo là một chức năng khác và dựa trên nhận thức lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng nhận thức (dòng logic 194–223)",
+      "text": "Nghiên cứu Lịch sử Đảng nhằm nhận thức có hệ thống lịch sử lãnh đạo, đấu tranh và cầm quyền của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q020",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Quy luật ra đời của Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, quy luật ra đời của Đảng Cộng sản Việt Nam là sự kết hợp của những yếu tố nào?",
+    "options": [
+      "Chủ nghĩa Mác–Lênin với phong trào dân chủ và hoạt động nghị trường",
+      "Tư tưởng Hồ Chí Minh với phong trào nông dân và phong trào yêu nước",
+      "Phong trào công nhân với phong trào nông dân, phong trào yêu nước và các tổ chức công đoàn",
+      "Chủ nghĩa Mác–Lênin, phong trào công nhân và phong trào yêu nước Việt Nam"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn nêu tổ hợp ba yếu tố: chủ nghĩa Mác–Lênin, phong trào công nhân và phong trào yêu nước Việt Nam. Thay một yếu tố bằng phong trào khác làm sai công thức được trình bày.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng nhận thức (dòng logic 202–213)",
+      "text": "Quy luật ra đời và phát triển của Đảng được nêu là sự kết hợp chủ nghĩa Mác–Lênin với phong trào công nhân và phong trào yêu nước Việt Nam."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q021",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Đảng lãnh đạo và Đảng cầm quyền",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phân biệt nào đúng giữa vai trò lãnh đạo và tư cách Đảng cầm quyền theo mốc thời gian trong giáo trình?",
+    "options": [
+      "Lãnh đạo cách mạng từ năm 1930; trở thành Đảng cầm quyền, nắm chính quyền và lãnh đạo Nhà nước từ Cách mạng Tháng Tám 1945",
+      "Lãnh đạo từ năm 1945; trở thành Đảng cầm quyền từ khi Đảng được thành lập năm 1930",
+      "Lãnh đạo và cầm quyền đều từ năm 1930, khi Đảng có Cương lĩnh và hệ thống tổ chức",
+      "Lãnh đạo và cầm quyền đều từ năm 1945, khi Đảng nắm chính quyền và lãnh đạo Nhà nước"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình tách hai mốc: từ năm 1930, Đảng là tổ chức lãnh đạo cách mạng; từ Cách mạng Tháng Tám 1945, Đảng trở thành Đảng cầm quyền, tức nắm chính quyền và lãnh đạo Nhà nước, xã hội.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng nhận thức (dòng logic 202–213)",
+      "text": "Vai trò lãnh đạo được xác định từ năm 1930, còn tư cách cầm quyền gắn với việc nắm chính quyền từ Cách mạng Tháng Tám 1945."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q022",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Tổng kết lịch sử và nhận thức quy luật",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Tổng kết lịch sử Đảng hỗ trợ chức năng nhận thức theo quan hệ nào?",
+    "options": [
+      "Giúp sắp xếp các sự kiện thành tiến trình, từ đó coi trình tự thời gian là quy luật của cách mạng",
+      "Giúp khái quát kinh nghiệm từng chặng, từ đó vận dụng nguyên vẹn kinh nghiệm của chặng trước",
+      "Giúp nhận thức các quy luật cách mạng, từ đó tạo điều kiện hành động phù hợp quy luật",
+      "Giúp nhận thức quy luật giải phóng dân tộc, từ đó dùng quy luật ấy cho cả xây dựng và bảo vệ Tổ quốc"
+    ],
+    "answer": 2,
+    "explanation": "Tổng kết lịch sử hướng tới nhận thức quy luật của giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc và con đường đi lên chủ nghĩa xã hội; năng lực nhận thức và hành động theo quy luật là điều kiện của lãnh đạo đúng đắn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng nhận thức (dòng logic 215–223)",
+      "text": "Tổng kết lịch sử giúp nhận thức quy luật cách mạng; nhận thức và hành động theo quy luật hỗ trợ sự lãnh đạo đúng đắn."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q023",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nội dung chức năng giáo dục",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào được giáo trình đặt ở đầu phần chức năng giáo dục của khoa học Lịch sử Đảng?",
+    "options": [
+      "Lòng yêu nước, tự hào, tự tôn, tự lực và tự cường dân tộc",
+      "Đào tạo kỹ năng dự báo độc lập với việc nghiên cứu các sự kiện đã qua",
+      "Trang bị kỹ thuật tổ chức bộ máy và quản lý hành chính cho sinh viên",
+      "Hướng dẫn ghi nhớ toàn bộ tên người, địa danh và niên đại trong giáo trình"
+    ],
+    "answer": 0,
+    "explanation": "Phần chức năng giáo dục mở đầu bằng yêu cầu giáo dục sâu sắc tinh thần yêu nước, tự hào, tự tôn, tự lực và tự cường dân tộc. Ghi nhớ dữ kiện hoặc kỹ thuật quản lý không phải nội dung được nêu ở đây.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng giáo dục (dòng logic 225–242)",
+      "text": "Chức năng giáo dục bồi đắp lòng yêu nước, tự hào, tự tôn và ý chí tự lực, tự cường của dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q024",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Giáo dục lý tưởng cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chức năng giáo dục gắn với mục tiêu chiến lược của cách mạng theo cách nào?",
+    "options": [
+      "Giáo dục niềm tự hào dân tộc gắn với mục tiêu phát triển đời sống văn hóa",
+      "Giáo dục lý tưởng cách mạng gắn mục tiêu độc lập dân tộc với chủ nghĩa xã hội",
+      "Giáo dục chủ nghĩa anh hùng cách mạng gắn với mục tiêu xây dựng nhân cách cá nhân",
+      "Giáo dục tinh thần tự lực, tự cường gắn với mục tiêu hiện đại hóa đất nước"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình gắn chức năng giáo dục với lý tưởng độc lập dân tộc và chủ nghĩa xã hội, đồng thời nâng cao nhận thức tư tưởng, lý luận về con đường phát triển; không dừng ở cảm xúc tự hào.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng giáo dục (dòng logic 225–242)",
+      "text": "Lịch sử Đảng giáo dục lý tưởng cách mạng mà mục tiêu chiến lược là độc lập dân tộc và chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q025",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Vai trò giáo dục của truyền thống và tấm gương",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một hoạt động học tập muốn phát huy đúng chức năng giáo dục của môn học. Thiết kế nào phù hợp nhất?",
+    "options": [
+      "Phân tích truyền thống và tấm gương để bồi dưỡng đạo đức, nhân cách, lý tưởng",
+      "Phân tích tiểu sử và thành tích để xây dựng danh mục nhân vật tiêu biểu theo từng thời kỳ",
+      "Tái hiện chiến công của các nhân vật để rèn kỹ năng ghi nhớ sự kiện và niên đại lịch sử",
+      "Khái quát phẩm chất của các tấm gương để minh họa thành tựu tổ chức của từng giai đoạn"
+    ],
+    "answer": 0,
+    "explanation": "Chức năng giáo dục được thực hiện qua truyền thống, chủ nghĩa anh hùng, đức hy sinh và tính tiên phong để góp phần hình thành đạo đức, nhân cách, lối sống. Học thuộc danh sách không đạt mục tiêu đó.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng giáo dục (dòng logic 232–242)",
+      "text": "Truyền thống và tấm gương cách mạng có vai trò giáo dục đạo đức, nhân cách, lối sống và lý tưởng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q026",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Bốn chức năng của khoa học Lịch sử Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bốn chức năng được nêu của khoa học Lịch sử Đảng là gì?",
+    "options": [
+      "Nhận thức, giáo dục, dự báo và phê phán",
+      "Mô tả, thống kê, lưu trữ và xuất bản",
+      "Lãnh đạo, quản lý, tổ chức và kiểm tra",
+      "Khảo sát, thực nghiệm, tính toán và mô phỏng"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn nêu hai chức năng cơ bản của sử học là nhận thức, giáo dục và bổ sung chức năng dự báo, phê phán đối với khoa học Lịch sử Đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng dự báo và phê phán (dòng logic 244–253)",
+      "text": "Khoa học Lịch sử Đảng có các chức năng nhận thức, giáo dục, dự báo và phê phán."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q027",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Cơ sở của chức năng dự báo",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Chức năng dự báo của khoa học Lịch sử Đảng dựa trên quan hệ nhận thức nào?",
+    "options": [
+      "Dùng nhận thức hiện tại để lựa chọn những sự kiện quá khứ phù hợp với xu hướng tương lai",
+      "Dùng nhận thức có hệ thống về quá khứ để hiểu rõ hiện tại và dự báo xu hướng phát triển tương lai",
+      "Dùng các dự báo đã có để giải thích hiện tại rồi khái quát lại quá khứ",
+      "Dùng sự kiện gần nhất để suy rộng thành xu hướng phát triển của toàn bộ tương lai"
+    ],
+    "answer": 1,
+    "explanation": "Dự báo không tách khỏi lịch sử: hiểu quá khứ tạo cơ sở nhận thức hiện tại và thấy trước xu hướng tương lai. Đảo chiều quan hệ hoặc bỏ qua tri thức hệ thống đều không đúng với nguồn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng dự báo và phê phán (dòng logic 244–253)",
+      "text": "Nhận thức quá khứ là cơ sở để hiểu rõ hiện tại và dự báo sự phát triển trong tương lai."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q028",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Chức năng phê phán",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức muốn vận dụng chức năng phê phán được trình bày trong giáo trình. Cách làm nào đúng mục tiêu nhất?",
+    "options": [
+      "Tổng hợp biểu hiện tiêu cực để quy trách nhiệm cho từng cá nhân và công bố kết quả phê bình",
+      "Đánh giá hạn chế qua chuẩn mực đạo đức, sau đó xử lý bằng biện pháp kỷ luật tổ chức",
+      "Tự phê bình và phê bình để ngăn biểu hiện tiêu cực, nâng cao sự lãnh đạo và sức chiến đấu của tổ chức",
+      "Phê bình hiện tượng lạc hậu từ kết luận có sẵn rồi dùng kết luận ấy để điều chỉnh tổ chức"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn đặt tự phê bình và phê bình trong mục tiêu tăng cường lãnh đạo, nâng cao sức chiến đấu và ngăn chặn biểu hiện tiêu cực, suy thoái. Che giấu hoặc phê bình tách khỏi mục tiêu phát triển đều sai.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.1. Chức năng dự báo và phê phán (dòng logic 244–253)",
+      "text": "Tự phê bình, phê bình là quy luật phát triển và phục vụ việc nâng cao sức chiến đấu, ngăn chặn biểu hiện tiêu cực."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q029",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nhiệm vụ trình bày Cương lĩnh và đường lối",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhiệm vụ hàng đầu của khoa học Lịch sử Đảng đối với Cương lĩnh và đường lối là gì?",
+    "options": [
+      "Hệ thống hóa văn kiện theo thời kỳ và mô tả hoàn cảnh ban hành của từng Cương lĩnh, đường lối",
+      "Trình bày hệ thống, chứng minh giá trị khoa học và hiện thực của mục tiêu, đường lối",
+      "Khái quát nội dung văn kiện thành các chủ đề và đối chiếu cách diễn đạt giữa các thời kỳ",
+      "Tuyển chọn các Cương lĩnh tiêu biểu để minh họa sự phát triển tư tưởng của Đảng"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn xác định nhiệm vụ hàng đầu là trình bày có hệ thống Cương lĩnh, đường lối, qua đó khẳng định và chứng minh giá trị khoa học, hiện thực của mục tiêu chiến lược và sách lược.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ trình bày Cương lĩnh, đường lối (dòng logic 255–268)",
+      "text": "Khoa học Lịch sử Đảng có nhiệm vụ trình bày có hệ thống và chứng minh giá trị của mục tiêu, Cương lĩnh, đường lối."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q030",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Mục tiêu, lý luận và thực tiễn lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Căn cứ nào giúp đánh giá mục tiêu và con đường cách mạng trong nhiệm vụ nghiên cứu đường lối?",
+    "options": [
+      "Sự nhất quán về hình thức của văn kiện qua mọi thời kỳ",
+      "Mức độ phổ biến của mục tiêu trong các tài liệu ngoài giáo trình và ý kiến của người biên soạn",
+      "Kết hợp thực tiễn lịch sử với nền tảng lý luận để thúc đẩy tiến trình cách mạng",
+      "Số lượng chủ trương được ban hành để cụ thể hóa từng mục tiêu"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình đặt mục tiêu và con đường trong sự thống nhất giữa thực tiễn lịch sử với nền tảng lý luận, hướng đến nhận thức và cải biến đất nước. Các tiêu chí hình thức hay số lượng văn kiện không đủ bảo vệ đánh giá.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ trình bày Cương lĩnh, đường lối (dòng logic 261–268)",
+      "text": "Mục tiêu, con đường cách mạng thể hiện sự kết hợp giữa thực tiễn lịch sử và nền tảng lý luận để thúc đẩy tiến trình cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q031",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nguồn tư liệu tái hiện lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khoa học Lịch sử Đảng tái hiện tiến trình lịch sử từ những loại nguồn tư liệu nào?",
+    "options": [
+      "Giới hạn ở văn kiện chính thức đã được xuất bản thành sách",
+      "Hiện thực lịch sử cùng tư liệu thành văn và không thành văn",
+      "Giới hạn ở ký ức cá nhân của những người trực tiếp tham gia sự kiện",
+      "Từ các nhận định lý luận mà không đối chiếu nguồn tư liệu"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn chỉ rõ phải dựa trên hiện thực lịch sử và cả tư liệu thành văn lẫn không thành văn. Giới hạn vào một dạng tư liệu làm thiếu cơ sở tái hiện.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tái hiện tiến trình lịch sử (dòng logic 270–280)",
+      "text": "Việc tái hiện tiến trình lãnh đạo, đấu tranh dựa trên hiện thực lịch sử cùng nguồn tư liệu thành văn và không thành văn."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q032",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Cấu trúc tiến trình lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao cần làm nổi bật thời kỳ, giai đoạn và dấu mốc khi tái hiện lịch sử Đảng?",
+    "options": [
+      "Để nhận diện đặc điểm riêng của mỗi thời kỳ và xem các thời kỳ như những tiến trình độc lập",
+      "Để nhận ra các bước phát triển căn bản của tiến trình lãnh đạo, đấu tranh",
+      "Để chọn một dấu mốc tiêu biểu làm đại diện cho toàn bộ quá trình lãnh đạo, đấu tranh",
+      "Để sắp xếp sự kiện theo niên đại và coi biến chuyển thời gian là bước phát triển căn bản"
+    ],
+    "answer": 1,
+    "explanation": "Thời kỳ, giai đoạn và dấu mốc giúp cấu trúc, làm rõ những bước phát triển căn bản của tiến trình. Chúng không thay thế phân tích nội dung hoặc tách hoạt động lãnh đạo khỏi lực lượng xã hội.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tái hiện tiến trình lịch sử (dòng logic 270–280)",
+      "text": "Tái hiện lịch sử phải làm nổi bật thời kỳ, giai đoạn và dấu mốc phát triển căn bản của tiến trình lãnh đạo, đấu tranh."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q033",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Hoạt động của Đảng và sức mạnh nhân dân",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi giải thích một thắng lợi lịch sử, cách tiếp cận nào đúng với nhiệm vụ tái hiện mà giáo trình nêu?",
+    "options": [
+      "Xem hoạt động của Đảng là quá trình biệt lập với phong trào xã hội",
+      "Làm rõ vai trò lãnh đạo gắn với sức mạnh nhân dân và khối đại đoàn kết",
+      "Quy kết quả cho hoàn cảnh khách quan bên ngoài tổ chức",
+      "Tập trung mô tả hành động của một vài cá nhân mà không xét lực lượng quần chúng"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn nhấn mạnh hoạt động của Đảng không biệt lập mà thống nhất với việc khơi dậy sức mạnh giai cấp công nhân, nhân dân lao động và toàn dân tộc. Cách giải thích đúng phải thể hiện quan hệ đó.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tái hiện tiến trình lịch sử (dòng logic 270–280)",
+      "text": "Tri thức lịch sử làm rõ vai trò lãnh đạo trong quan hệ với sức mạnh của nhân dân và khối đại đoàn kết toàn dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q034",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Mục đích tổng kết lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao nghiên cứu Lịch sử Đảng không dừng lại ở mô tả và tái hiện sự kiện?",
+    "options": [
+      "Để tổng kết các chặng, làm rõ kinh nghiệm, bài học, quy luật và vấn đề lý luận",
+      "Để hệ thống sự kiện theo chặng, xác định mốc tiêu biểu và mô tả đầy đủ diễn biến lịch sử",
+      "Để khái quát mỗi sự kiện thành một bài học và xem bài học ấy là quy luật của toàn tiến trình",
+      "Để xây dựng hệ thống khái niệm lý luận rồi dùng hệ thống đó phân loại các sự kiện lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Nhiệm vụ tổng kết đi xa hơn tái hiện: khái quát kinh nghiệm, bài học, quy luật và vấn đề lý luận từ từng chặng và toàn tiến trình. Điều đó vẫn phải dựa vào sự kiện và thực tiễn, không bỏ qua chúng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tổng kết lịch sử (dòng logic 282–306)",
+      "text": "Lịch sử Đảng còn tổng kết từng chặng và toàn tiến trình để rút ra kinh nghiệm, bài học, quy luật, vấn đề lý luận."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q035",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Cấp độ khái quát trong tổng kết",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phân biệt nào đúng về cấp độ khái quát của kinh nghiệm, bài học và quy luật?",
+    "options": [
+      "Kinh nghiệm luôn bao quát toàn tiến trình, còn bài học chỉ gắn với một sự kiện hoặc giai đoạn riêng lẻ",
+      "Bài học và quy luật đều đồng nhất với việc kể lại một diễn biến lịch sử",
+      "Kinh nghiệm gắn sự kiện; bài học khái quát hơn; quy luật và lý luận ở tầm cao hơn",
+      "Quy luật là nhận xét nhất thời, còn kinh nghiệm luôn có giá trị khái quát cao nhất"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn xác lập các nấc khái quát: kinh nghiệm gắn gần với sự kiện hoặc giai đoạn, bài học gắn với thời kỳ dài hay vấn đề chiến lược, còn quy luật và vấn đề lý luận ở tầm tổng kết cao hơn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tổng kết lịch sử (dòng logic 282–288)",
+      "text": "Giáo trình phân tầng kinh nghiệm, bài học, quy luật và vấn đề lý luận theo mức độ khái quát tăng dần."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q036",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Hình thành và kiểm chứng lý luận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm nghiên cứu muốn rút ra kết luận lý luận từ một chặng đường cách mạng. Quy trình nào phù hợp với giáo trình?",
+    "options": [
+      "Xem xét, so sánh kỹ thực tế và kinh nghiệm, rút ra kết luận rồi đưa kết luận trở lại thực tế để kiểm chứng",
+      "Xác định kết luận từ khung lý thuyết, chọn kinh nghiệm phù hợp rồi đối chiếu với thực tế",
+      "Tổng hợp các kinh nghiệm phổ biến, khái quát thành kết luận rồi áp dụng cho chặng đường khác",
+      "Sắp xếp sự kiện theo tiến trình, rút kết luận từ mốc tiêu biểu rồi dùng niên đại xác nhận"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn mô tả lý luận chân chính được hình thành bằng xem xét, so sánh thực tế và kinh nghiệm, rút ra kết luận, sau đó lại chứng minh bằng thực tế. Quy trình này loại bỏ cách áp đặt kết luận trước.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Nhiệm vụ tổng kết lịch sử (dòng logic 282–306)",
+      "text": "Lý luận được khái quát từ việc xem xét, so sánh kinh nghiệm và phải được đưa trở lại thực tế để kiểm chứng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q037",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Hệ thống tổ chức đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhiệm vụ nghiên cứu nào làm rõ vai trò và sức chiến đấu của tổ chức đảng?",
+    "options": [
+      "Làm rõ vai trò chỉ đạo của Trung ương đối với các cơ quan lãnh đạo cấp chiến lược",
+      "Làm rõ đóng góp của các cán bộ tiêu biểu đối với sự phát triển của tổ chức Đảng",
+      "Làm rõ vai trò, sức chiến đấu của hệ thống tổ chức từ Trung ương đến cơ sở trong lãnh đạo và tổ chức thực tiễn",
+      "Làm rõ cơ cấu của hệ thống từ Trung ương đến cơ sở và sự biến đổi về số lượng tổ chức"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình yêu cầu làm rõ hệ thống tổ chức đảng từ Trung ương đến cơ sở và vai trò, sức chiến đấu của hệ thống ấy trong lãnh đạo, tổ chức thực tiễn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Vai trò tổ chức, truyền thống và con người (dòng logic 308–316)",
+      "text": "Một nhiệm vụ của Lịch sử Đảng là làm rõ vai trò và sức chiến đấu của hệ thống tổ chức từ Trung ương đến cơ sở."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q038",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Giá trị của truyền thống và tấm gương",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao nghiên cứu truyền thống, cán bộ, đảng viên và tấm gương tiêu biểu thuộc nhiệm vụ của Lịch sử Đảng?",
+    "options": [
+      "Vì truyền thống và tấm gương tạo động lực phát triển, thể hiện bản chất cách mạng",
+      "Vì việc ghi nhớ tên người được coi trọng hơn nghiên cứu hệ thống tổ chức và hoạt động lãnh đạo",
+      "Vì tiểu sử cá nhân là căn cứ chính để đánh giá tiến trình lịch sử",
+      "Vì truyền thống chủ yếu có giá trị lưu niệm, không liên quan đến giáo dục và hành động"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn không yêu cầu học thuộc tiểu sử đơn thuần mà nhấn mạnh giá trị giáo dục, động lực phát triển và sự biểu hiện bản chất cách mạng qua truyền thống, đức hy sinh, tấm gương tiêu biểu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > II.2. Vai trò tổ chức, truyền thống và con người (dòng logic 308–316)",
+      "text": "Truyền thống, phẩm chất và tấm gương tiêu biểu là động lực cho sự phát triển và bản chất cách mạng của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q039",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nền tảng phương pháp luận sử học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nền tảng phương pháp luận được đặc biệt nhấn mạnh khi nghiên cứu Lịch sử Đảng là gì?",
+    "options": [
+      "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
+      "Phương pháp thống kê mô tả và phương pháp thực nghiệm tự nhiên",
+      "Lý thuyết quản trị tổ chức và khoa học hành chính hiện đại",
+      "Phương pháp ghi nhớ niên đại và tái thuật sự kiện theo thứ tự"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình yêu cầu dựa trên phương pháp luận khoa học mác xít, đặc biệt là chủ nghĩa duy vật biện chứng và duy vật lịch sử, để nhận thức lịch sử khách quan và đúng quy luật.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 327–357)",
+      "text": "Chủ nghĩa duy vật biện chứng và duy vật lịch sử là nền tảng phương pháp luận để xem xét tiến trình lịch sử."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q040",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Các quan điểm nhận thức lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm quan điểm nào được giáo trình yêu cầu chú trọng khi nhận thức lịch sử?",
+    "options": [
+      "Trực quan, định lượng, thực nghiệm và dự báo",
+      "Kế thừa, ổn định, cân bằng và đồng thuận",
+      "Khách quan, toàn diện, phát triển và lịch sử cụ thể",
+      "Cá biệt, ngẫu nhiên, bất biến và tách khỏi điều kiện không gian, thời gian"
+    ],
+    "answer": 2,
+    "explanation": "Bốn quan điểm được nêu trực tiếp là khách quan, toàn diện, phát triển và lịch sử cụ thể. Nhóm này ngăn cách nhìn một chiều hoặc tách sự kiện khỏi hoàn cảnh lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 333–341)",
+      "text": "Nhận thức lịch sử cần theo các quan điểm khách quan, toàn diện, phát triển và lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q041",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Các phạm trù duy vật lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào thuộc các phạm trù duy vật lịch sử được gợi ý để xem xét tiến trình cách mạng?",
+    "options": [
+      "Quy luật cung cầu, cạnh tranh, lưu thông và các hình thức tổ chức sản xuất hàng hóa",
+      "Hình thái kinh tế–xã hội, giai cấp, dân tộc, quần chúng và cách mạng xã hội",
+      "Cấu trúc ngôn ngữ, thể loại văn bản và phong cách diễn đạt",
+      "Khí hậu, địa hình, tài nguyên và biến đổi sinh thái"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn liệt kê các lý luận về hình thái kinh tế–xã hội, giai cấp và đấu tranh giai cấp, dân tộc, vai trò quần chúng và cá nhân, động lực xã hội, cách mạng xã hội cùng sứ mệnh lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 343–350)",
+      "text": "Chủ nghĩa duy vật lịch sử cung cấp các phạm trù về hình thái xã hội, giai cấp, dân tộc, con người và cách mạng để nhận thức tiến trình."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q042",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Thực tiễn và tiêu chuẩn chân lý",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vai trò của thực tiễn trong phương pháp luận sử học được giáo trình diễn giải như thế nào?",
+    "options": [
+      "Xuất phát từ hệ thống lý luận và dùng thực tiễn lịch sử để minh họa kết luận đã hình thành",
+      "Xuất phát từ kinh nghiệm hiện tại và dùng kết quả trước mắt làm chuẩn cho các nhận thức lịch sử",
+      "Tư duy từ hiện thực lịch sử và lấy thực tiễn cùng kết quả hoạt động thực tiễn làm tiêu chuẩn của chân lý",
+      "Xuất phát từ sự kiện tiêu biểu và dùng mức độ thành công làm tiêu chuẩn đánh giá tính chân lý"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình yêu cầu tư duy từ thực tiễn, từ hiện thực lịch sử và coi thực tiễn cùng kết quả hoạt động thực tiễn là tiêu chuẩn của chân lý; không phải minh họa phụ cho kết luận áp đặt trước.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 333–341)",
+      "text": "Hiện thực lịch sử là điểm xuất phát của tư duy và kết quả thực tiễn là tiêu chuẩn kiểm nghiệm chân lý."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q043",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Các cặp quan hệ trong phân tích lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Phương án nào tập hợp đúng các cặp quan hệ mà giáo trình dùng để nhận thức sự kiện và tiến trình lịch sử?",
+    "options": [
+      "Chủ thể–khách thể, lý thuyết–mô hình, dữ liệu–thống kê, truyền thống–hiện đại, mục tiêu–phương tiện",
+      "Kinh tế–chính trị, trung ương–địa phương, lãnh đạo–quản lý, quyền–nghĩa vụ",
+      "Không gian–thời gian, cá nhân–tập thể, mục tiêu–phương tiện, ổn định–đổi mới",
+      "Nguyên nhân–kết quả, hình thức–nội dung, hiện tượng–bản chất, chung–riêng, phổ biến–đặc thù"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn nêu đúng năm cặp quan hệ ở phương án D. Các phương án khác có những cặp có thể hữu ích nhưng không phải danh mục được trình bày trong đoạn phương pháp luận này.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 333–341)",
+      "text": "Sự kiện cần được đặt trong các quan hệ nguyên nhân–kết quả, hình thức–nội dung, hiện tượng–bản chất, chung–riêng và phổ biến–đặc thù."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q044",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Sáng tạo và chống giáo điều",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên vận dụng tư tưởng và phong cách khoa học Hồ Chí Minh khi phân tích sự kiện. Cách làm nào phù hợp nhất?",
+    "options": [
+      "Bám sát hiện thực, vận dụng sáng tạo và tránh giáo điều, chủ quan duy ý chí",
+      "Bám sát hiện thực, vận dụng nguyên lý theo khuôn mẫu chung và ưu tiên tính nhất quán của công thức",
+      "Bám sát mục tiêu nghiên cứu, giải thích tư liệu theo dự kiến và dùng kết quả để củng cố giả thuyết",
+      "Bám sát hệ thống khái niệm, dùng phong cách Hồ Chí Minh làm khung trình bày cho phần dẫn nhập"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình coi tư tưởng, tư duy và phong cách khoa học Hồ Chí Minh là cơ sở định hướng phương pháp, gắn với sáng tạo và chống giáo điều, chủ quan duy ý chí. Áp công thức hoặc ý muốn chủ quan đi ngược yêu cầu đó.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.1. Quán triệt phương pháp luận sử học (dòng logic 352–357)",
+      "text": "Tư tưởng và phong cách khoa học Hồ Chí Minh định hướng nghiên cứu sáng tạo, chống giáo điều và chủ quan duy ý chí."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q045",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Hai phương pháp cơ bản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai phương pháp cơ bản của khoa học lịch sử và chuyên ngành Lịch sử Đảng là gì?",
+    "options": [
+      "Phương pháp điều tra và phương pháp thực nghiệm",
+      "Phương pháp thống kê và phương pháp mô hình hóa",
+      "Phương pháp lịch sử và phương pháp logic",
+      "Phương pháp diễn dịch và phương pháp dự báo"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình xác định phương pháp lịch sử và phương pháp logic là hai phương pháp cơ bản, đồng thời vẫn chú trọng các phương pháp của khoa học xã hội khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Các phương pháp cụ thể (dòng logic 359–363)",
+      "text": "Phương pháp lịch sử và phương pháp logic là hai phương pháp cơ bản được sử dụng trong chuyên ngành Lịch sử Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q046",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Định nghĩa phương pháp lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương pháp lịch sử được hiểu đúng nhất như thế nào?",
+    "options": [
+      "Cách khái quát hiện tượng để giữ lại bản chất, quy luật và khuynh hướng chung trong quá trình phát triển",
+      "Tìm hiểu quá trình phát triển qua các giai đoạn tiêu biểu để khái quát quy luật chung của nó",
+      "Tìm hiểu, trình bày quá trình phát triển trong tính cụ thể, sinh động và quanh co",
+      "Trình bày các sự kiện theo trình tự thời gian và chọn các mốc quyết định cho kết luận lý luận"
+    ],
+    "answer": 2,
+    "explanation": "Phương pháp lịch sử nhằm tái hiện quá trình phát triển trong tính cụ thể, hiện thực, sinh động và quanh co. Việc tập trung vào bản chất, quy luật, khuynh hướng chung là đặc trưng nổi bật của phương pháp logic.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp lịch sử (dòng logic 365–387)",
+      "text": "Phương pháp lịch sử tìm hiểu và trình bày quá trình phát triển với đầy đủ tính cụ thể, sống động, quanh co."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q047",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Tính đặc thù của tiến trình lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao phương pháp lịch sử chú ý cái khác trước và cái không lặp lại?",
+    "options": [
+      "Vì các hiện tượng lịch sử tách biệt với nhau và không có yếu tố phổ biến",
+      "Vì đề cao chi tiết cá biệt đòi hỏi xem nhẹ bản chất và quy luật của sự kiện",
+      "Vì tiến trình lịch sử luôn đi thẳng và không có bước thụt lùi tạm thời",
+      "Vì sự kiện có thể tái diễn nhưng không như cũ, nên phải tìm nét đặc thù và quanh co"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn cho rằng hiện tượng lịch sử có thể tái diễn nhưng không bao giờ hoàn toàn như cũ. Phương pháp lịch sử vì thế tìm cái đặc thù, cái không lặp và cả những bước quanh co, thụt lùi tạm thời.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp lịch sử (dòng logic 378–387)",
+      "text": "Phương pháp lịch sử phát hiện nét đặc thù, không lặp hoàn toàn và bước quanh co trong quá trình phát triển."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q048",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Yêu cầu tái hiện cụ thể",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Bộ yếu tố nào phù hợp với yêu cầu tái hiện lịch sử bằng phương pháp lịch sử?",
+    "options": [
+      "Quy luật chung, khuynh hướng tất yếu, mô hình khái quát và sự kiện điển hình",
+      "Nhận định sẵn có, dữ liệu chọn lọc, kết luận cố định và ví dụ minh họa",
+      "Chi tiết, vai trò con người, không gian, thời gian, tên đất và tên người",
+      "Số liệu thống kê, dự báo tương lai, mô phỏng và phương án thực nghiệm"
+    ],
+    "answer": 2,
+    "explanation": "Phương pháp lịch sử đòi hỏi nghiên cứu thấu đáo chi tiết, vai trò và tâm lý quần chúng, đồng thời chú ý không gian, thời gian, tên đất, tên người để tái hiện đúng diễn biến.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp lịch sử (dòng logic 378–387)",
+      "text": "Tái hiện lịch sử cần chú ý chi tiết, con người, không gian và thời gian để thể hiện đúng tính cụ thể của tiến trình."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q049",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Phương pháp lịch sử và học thuộc sự kiện",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Hai bài làm đều trình bày đúng niên đại. Bài nào thực sự vận dụng phương pháp lịch sử theo giáo trình?",
+    "options": [
+      "Bài tái hiện bối cảnh và diễn biến cụ thể để lập một niên biểu chính xác của sự kiện",
+      "Bài tái hiện bối cảnh, diễn biến cụ thể để làm rõ tính chất, bản chất sự kiện",
+      "Bài phân tích tính chất, bản chất từ một số sự kiện điển hình và khái quát quy luật chung",
+      "Bài trình bày vai trò con người và hoàn cảnh qua các kết luận đã được khái quát từ trước"
+    ],
+    "answer": 1,
+    "explanation": "Phương pháp lịch sử không đồng nghĩa học thuộc diễn biến. Bài làm đúng phải tái hiện cụ thể, sống động và đồng thời hiểu tính chất, bản chất; vì vậy phương pháp này cũng không tách rời phương pháp logic.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp lịch sử (dòng logic 378–387)",
+      "text": "Phương pháp lịch sử không phải học thuộc sự kiện mà phải từ tái hiện cụ thể đi tới hiểu tính chất và bản chất."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q050",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Định nghĩa phương pháp logic",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mục đích trực tiếp của phương pháp logic trong nghiên cứu hiện tượng lịch sử là gì?",
+    "options": [
+      "Tái hiện quá trình phát triển trong tính cụ thể, sinh động và quanh co của hiện tượng",
+      "Xác định đặc điểm riêng, cá biệt và những yếu tố biến đổi qua từng thời kỳ lịch sử",
+      "Nghiên cứu hiện tượng trong hình thức tổng quát để vạch ra bản chất, quy luật và khuynh hướng vận động chung",
+      "Phân kỳ tiến trình, lựa chọn mốc điển hình và trình bày quan hệ trước–sau của sự kiện"
+    ],
+    "answer": 2,
+    "explanation": "Phương pháp logic nghiên cứu hiện tượng trong hình thức tổng quát để vạch bản chất, quy luật và khuynh hướng chung. Tái hiện đầy đủ chi tiết, trình tự là trọng tâm của phương pháp lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp logic (dòng logic 389–403)",
+      "text": "Phương pháp logic hướng tới bản chất, quy luật và khuynh hướng chung của sự vận động lịch sử."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q051",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Thao tác của phương pháp logic",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm thao tác nào được giáo trình gắn trực tiếp với phương pháp logic?",
+    "options": [
+      "Quan sát, đo lường, thực nghiệm và mô phỏng đối tượng trong điều kiện được kiểm soát",
+      "Phân tích, so sánh, tổng hợp và chọn trường hợp điển hình",
+      "Ghi chép, phiên âm, biên mục và bảo quản hiện vật",
+      "Phỏng vấn, điều tra, lấy mẫu và xử lý thống kê"
+    ],
+    "answer": 1,
+    "explanation": "Phương pháp logic dùng phân tích, so sánh, tổng hợp với tư duy khái quát và chú trọng sự kiện, nhân vật, giai đoạn điển hình để nhận ra bản chất, quy luật.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp logic (dòng logic 389–403)",
+      "text": "Phân tích, so sánh, tổng hợp và chọn trường hợp điển hình là các thao tác giúp phương pháp logic tìm bản chất, quy luật."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q052",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Bản chất, phổ biến và lặp lại",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc điểm nào phân biệt trọng tâm của phương pháp logic với phương pháp lịch sử?",
+    "options": [
+      "Đi sâu vào cái cá biệt, yếu tố biến đổi và sắc thái riêng của từng hiện tượng lịch sử",
+      "Đi sâu vào trình tự, không gian, thời gian và vai trò của nhân vật trong từng sự kiện",
+      "Đi sâu vào bước quanh co, thụt lùi tạm thời và những chi tiết tạo nên tính sinh động",
+      "Đi sâu vào bản chất, cái phổ biến, cái lặp lại và bước phát triển tất yếu"
+    ],
+    "answer": 3,
+    "explanation": "Trọng tâm logic là bản chất, cái phổ biến, cái lặp lại và quy luật vận động; trọng tâm lịch sử là tính cụ thể, cá biệt và quanh co. Hai phương pháp khác trọng tâm nhưng gắn bó với nhau.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp logic (dòng logic 389–403)",
+      "text": "Phương pháp logic tìm bản chất, yếu tố phổ biến, lặp lại và các bước phát triển tất yếu của tiến trình."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q053",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Vận dụng quy luật khách quan",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Sau khi phân tích nhiều sự kiện và nhận ra một quy luật vận động khách quan, bước xử lý nào đúng với vai trò của phương pháp logic?",
+    "options": [
+      "Dùng quy luật để sắp xếp lại các sự kiện theo mức độ phù hợp với kết luận đã có",
+      "Dùng quy luật làm mô hình chung và áp dụng đồng nhất cho các điều kiện lịch sử khác nhau",
+      "Dùng quy luật để giải thích tiến trình và ghi nhận kết luận trong phạm vi nghiên cứu lý luận",
+      "Sau khi nắm vững quy luật khách quan, vận dụng quy luật vào thực tiễn để chủ động cải tạo, cải biến hiện thực"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình nối việc nhận thức quy luật khách quan với vận dụng vào thực tiễn cách mạng. Vận dụng không phải áp công thức bất biến mà phải dựa trên nhận thức đúng thế giới khách quan.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp logic (dòng logic 389–403)",
+      "text": "Nắm quy luật khách quan là cơ sở vận dụng vào thực tiễn và chủ động cải tạo hiện thực lịch sử."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q054",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa phương pháp lịch sử và logic",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Quan hệ giữa phương pháp lịch sử và phương pháp logic được giáo trình xác định như thế nào?",
+    "options": [
+      "Hai phương pháp loại trừ nhau vì một phương pháp nghiên cứu chi tiết, một phương pháp nghiên cứu bản chất",
+      "Gắn bó mật thiết, thống nhất trong phương pháp biện chứng mác xít để nhận thức lịch sử",
+      "Phương pháp lịch sử là bước tạm thời, sau đó phương pháp logic tiếp quản vai trò chính",
+      "Phương pháp logic được dùng trong lý luận, còn phương pháp lịch sử được dùng trong giảng dạy"
+    ],
+    "answer": 1,
+    "explanation": "Dù có trọng tâm khác nhau, hai phương pháp không tách rời mà quan hệ mật thiết, thống nhất trong phương pháp biện chứng mác xít. Cụ thể lịch sử tạo cơ sở để nắm logic sâu sắc, còn logic giúp hiểu bản chất.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Quan hệ giữa phương pháp lịch sử và logic (dòng logic 405–411)",
+      "text": "Phương pháp lịch sử và logic có quan hệ mật thiết, không tách rời và thống nhất trong phương pháp biện chứng mác xít."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q055",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Kết hợp phương pháp và nguyên tắc nghiên cứu",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một đề tài vừa cần tái hiện một bước ngoặt cụ thể, vừa phải chỉ ra bản chất và quy luật của nó. Thiết kế nào phù hợp nhất?",
+    "options": [
+      "Kết hợp phương pháp lịch sử với tính khoa học để tái hiện đầy đủ bối cảnh và diễn biến",
+      "Kết hợp chặt chẽ phương pháp lịch sử, phương pháp logic với nguyên tắc tính khoa học và tính đảng trong cùng đề tài",
+      "Kết hợp phương pháp logic với tính đảng để khái quát bản chất và quy luật của bước ngoặt",
+      "Vận dụng lần lượt phương pháp lịch sử và logic ở hai phần độc lập của đề tài nghiên cứu"
+    ],
+    "answer": 1,
+    "explanation": "Đề tài đòi hỏi đồng thời tính cụ thể và khả năng khái quát nên phải kết hợp lịch sử với logic. Giáo trình còn yêu cầu hai phương pháp luôn gắn với tính khoa học và tính đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Quan hệ giữa phương pháp lịch sử và logic (dòng logic 405–411)",
+      "text": "Hai phương pháp phải được kết hợp và cùng gắn với nguyên tắc tính khoa học, tính đảng trong nghiên cứu Lịch sử Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q056",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Phương pháp so sánh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình gợi ý phương pháp so sánh theo những chiều nào?",
+    "options": [
+      "So sánh giai đoạn, thời kỳ, sự kiện, quan hệ và bối cảnh trong nước–thế giới",
+      "So sánh giai đoạn, thời kỳ, sự kiện, quan hệ và bối cảnh giữa các địa phương trong nước",
+      "So sánh giai đoạn, thời kỳ, nhân vật, tiểu sử và bối cảnh trong nước–thế giới",
+      "So sánh sự kiện, hiện tượng, quan hệ và bối cảnh trong cùng một thời kỳ lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn nêu việc so sánh giữa các giai đoạn, thời kỳ, sự kiện, hiện tượng, quan hệ và giữa trong nước với thế giới. So sánh hình thức văn bản không phải trọng tâm được trình bày.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Tổng kết thực tiễn và phương pháp so sánh (dòng logic 413–422)",
+      "text": "Phương pháp so sánh được vận dụng giữa các chặng, sự kiện, hiện tượng, quan hệ và bối cảnh trong nước–thế giới."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q057",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Tổng kết thực tiễn gắn với nghiên cứu lý luận",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Việc gắn tổng kết thực tiễn lịch sử với nghiên cứu lý luận nhằm đạt kết quả nào?",
+    "options": [
+      "Làm rõ sự kiện, dấu mốc, nhân vật và trình tự của từng giai đoạn cách mạng",
+      "Làm rõ đặc điểm cụ thể, quanh co và yếu tố cá biệt của mỗi hiện tượng lịch sử",
+      "Làm rõ bản chất, cái phổ biến, cái lặp lại và khuynh hướng vận động chung",
+      "Làm rõ kinh nghiệm, bài học, quy luật và vấn đề lý luận của cách mạng"
+    ],
+    "answer": 3,
+    "explanation": "Tổng kết thực tiễn và nghiên cứu lý luận phải gắn nhau để làm rõ nhiều cấp độ khái quát từ kinh nghiệm, bài học đến quy luật, vấn đề nhận thức lý luận; không bên nào thay thế bên nào.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Tổng kết thực tiễn và phương pháp so sánh (dòng logic 413–422)",
+      "text": "Tổng kết thực tiễn gắn với nghiên cứu lý luận nhằm nhận diện kinh nghiệm, bài học, quy luật và vấn đề lý luận."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q058",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Phương pháp học tập của sinh viên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phương án nào phản ánh đầy đủ nhóm phương pháp học tập được giáo trình khuyến nghị cho sinh viên?",
+    "options": [
+      "Nghe giảng, thảo luận nhóm, dùng công nghệ, học tại thư viện và thi đúng quy chế",
+      "Nghe giảng, làm việc cá nhân, dùng công nghệ, học tại di tích và thi đúng quy chế",
+      "Nghe giảng, thảo luận nhóm, dùng công nghệ, học tại di tích và thi đúng quy chế",
+      "Nghe giảng, thảo luận nhóm, dùng công nghệ, học tại di tích và đánh giá bằng báo cáo nhóm"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn kết hợp nhiều phương pháp: nghe giảng, làm việc nhóm và thảo luận, sử dụng công nghệ thông tin, học tập tại bảo tàng hoặc di tích, đồng thời kiểm tra, thi cử đúng quy chế.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Phương pháp học tập của sinh viên (dòng logic 424–431)",
+      "text": "Sinh viên được khuyến nghị phối hợp nghe giảng, thảo luận nhóm, công nghệ, trải nghiệm di tích và thực hiện đúng quy chế đánh giá."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q059",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nền tảng lý luận cần nắm",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Để vận dụng lý luận vào nghiên cứu Lịch sử Đảng, sinh viên cần nắm những nền tảng nào?",
+    "options": [
+      "Các bộ phận lý luận của chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh",
+      "Riêng phương pháp thống kê, kỹ thuật lưu trữ và phân loại các loại tài liệu lịch sử",
+      "Các lý thuyết quản trị hiện đại cùng kỹ năng điều hành hành chính",
+      "Chỉ những kết luận của lịch sử quân sự và lịch sử ngoại giao"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn yêu cầu nắm lý luận cơ bản của chủ nghĩa Mác–Lênin gồm triết học, kinh tế chính trị học, chủ nghĩa xã hội khoa học, đồng thời nắm vững tư tưởng Hồ Chí Minh.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Vận dụng lý luận vào thực tiễn (dòng logic 433–438)",
+      "text": "Nghiên cứu cần dựa trên các bộ phận lý luận của chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q060",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Liên hệ lý luận với thực tiễn Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một sinh viên dùng khái niệm lý luận để phân tích một sự kiện lãnh đạo cụ thể. Cách làm nào đúng yêu cầu vận dụng?",
+    "options": [
+      "Nắm lý luận rồi áp dụng trực tiếp kết luận chung vào sự kiện Việt Nam có đặc điểm gần tương tự",
+      "Nắm vững lý luận cơ bản và liên hệ với thực tiễn Việt Nam để nhận thức đúng bản chất của hiện tượng, sự kiện",
+      "Tái hiện thực tiễn Việt Nam rồi rút bản chất sự kiện từ diễn biến và kết quả trước mắt",
+      "Đối chiếu thực tiễn Việt Nam với một mô hình nước ngoài rồi lấy mô hình đó làm khuôn phân tích"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình đòi hỏi nắm vững lý luận và luôn liên hệ với thực tiễn Việt Nam để nhận thức bản chất. Áp công thức, chỉ kể sự kiện hoặc thay bối cảnh Việt Nam bằng trường hợp khác đều không đáp ứng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Vận dụng lý luận vào thực tiễn (dòng logic 433–438)",
+      "text": "Lý luận phải được liên hệ với thực tiễn Việt Nam để nhận thức đúng bản chất hiện tượng và sự kiện lịch sử."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q061",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Yêu cầu của tính khoa học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tính khoa học trong nghiên cứu lịch sử đòi hỏi điều gì?",
+    "options": [
+      "Ưu tiên kết luận phù hợp mục tiêu trình bày dù chứng cứ lịch sử chưa đầy đủ hoặc có điểm mâu thuẫn",
+      "Chỉ phản ánh những mặt tích cực và lược bỏ hạn chế của tiến trình",
+      "Giữ nguyên cách giải thích cũ để bảo đảm sự ổn định của nhận thức",
+      "Phản ánh khách quan, trung thực, có luận cứ và tôn trọng hiện thực lịch sử"
+    ],
+    "answer": 3,
+    "explanation": "Tính khoa học hướng đến chân lý khách quan, yêu cầu phản ánh trung thực, đánh giá có luận cứ, tôn trọng hiện thực lịch sử và sử dụng phương pháp sáng tạo, nghiêm túc, có trách nhiệm.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Tính khoa học và tính đảng (dòng logic 440–451)",
+      "text": "Tính khoa học đòi hỏi sự khách quan, trung thực, có luận cứ và tôn trọng hiện thực lịch sử trong nghiên cứu."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q062",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Nội hàm tính đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội hàm tính đảng trong nghiên cứu lịch sử được giáo trình trình bày như thế nào?",
+    "options": [
+      "Giữ lập trường Mác–Lênin, tư tưởng Hồ Chí Minh; phản ánh đường lối và phục vụ lợi ích của nhân dân, dân tộc",
+      "Giữ lập trường Mác–Lênin, tư tưởng Hồ Chí Minh và phục vụ lợi ích riêng của tổ chức nghiên cứu",
+      "Giữ lập trường dân tộc chủ nghĩa, phản ánh đường lối và phục vụ lợi ích của nhân dân, dân tộc",
+      "Giữ lập trường Mác–Lênin, tư tưởng Hồ Chí Minh và đặt tính chiến đấu cao hơn tính trung thực lịch sử"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn gắn tính đảng với lập trường Mác–Lênin, tư tưởng Hồ Chí Minh, phản ánh đúng đường lối và phục vụ lợi ích của nhân dân, dân tộc. Tính chiến đấu phải thống nhất với tính khoa học, chứ không đứng cao hơn sự trung thực lịch sử.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Tính khoa học và tính đảng (dòng logic 440–451)",
+      "text": "Tính đảng được xác định bằng lập trường, lợi ích phục vụ, tính chiến đấu và sự kế thừa, phát triển sáng tạo."
+    }
+  },
+  {
+    "id": "VNR202-C01-Q063",
+    "courseId": "vnr202",
+    "chapter": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+    "chapterNum": 1,
+    "topic": "Sự thống nhất giữa tính khoa học và tính đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao tính khoa học và tính đảng không được xem là hai yêu cầu đối lập trong giáo trình?",
+    "options": [
+      "Vì tính đảng cho phép bỏ qua chứng cứ khi mục tiêu chính trị đã rõ",
+      "Vì tính khoa học phụ trách riêng phương pháp, còn tính đảng quyết định riêng mục tiêu và hình thức trình bày",
+      "Vì hai yêu cầu có thể hoán đổi vai trò tùy theo loại sự kiện được nghiên cứu",
+      "Vì hai yêu cầu thống nhất trong nhận thức đúng lịch sử và hướng tới độc lập dân tộc, chủ nghĩa xã hội"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình khẳng định tính khoa học và tính đảng thống nhất, cùng phục vụ nhiệm vụ cách mạng vì mục tiêu độc lập dân tộc và chủ nghĩa xã hội. Tính đảng không phải lý do để hạ thấp chuẩn chứng cứ khoa học.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Nhập môn > III.2. Tính khoa học và tính đảng (dòng logic 440–451)",
+      "text": "Tính khoa học và tính đảng thống nhất, cùng hướng tới nhiệm vụ cách mạng vì độc lập dân tộc và chủ nghĩa xã hội."
+    }
+  }
+]

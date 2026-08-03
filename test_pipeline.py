@@ -116,11 +116,11 @@ class ContentContractTests(unittest.TestCase):
         self.assertEqual(self.registry["schemaVersion"], 1)
         self.assertEqual(
             [item["id"] for item in self.registry["subjects"]],
-            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr202"],
         )
         self.assertEqual(
             [item["status"] for item in self.registry["subjects"]],
-            ["ready", "ready", "comingSoon", "ready", "comingSoon"],
+            ["ready", "ready", "draft", "ready", "ready"],
         )
         self.assertFalse((self.subjects_root / "hcm201").exists())
         expected_fields = {"id", "code", "legacyAliases", "status", "metadataPath"}
@@ -147,13 +147,14 @@ class ContentContractTests(unittest.TestCase):
                     self.assertNotIn(alias, ids | aliases)
                     aliases.add(alias)
         self.assertEqual(self.registry["subjects"][1]["legacyAliases"], ["mln122", "mln222"])
+        self.assertEqual(self.registry["subjects"][4]["legacyAliases"], ["vnr201"])
 
     def test_ready_profiles_have_unique_stable_chapters_and_existing_sources(self) -> None:
         expected_features = {"quiz", "flashcards", "search", "lectures", "game"}
         content_root = self.content_root.resolve()
         all_chapter_ids: set[str] = set()
         all_paths: set[Path] = set()
-        for subject_id in ("mln111", "mln112", "hcm202"):
+        for subject_id in ("mln111", "mln112", "hcm202", "vnr202"):
             profile = self.profiles[subject_id]
             with self.subTest(subject=subject_id):
                 self.assertEqual(profile["status"], "ready")
@@ -185,25 +186,23 @@ class ContentContractTests(unittest.TestCase):
                     self.assertNotIn(resolved, all_paths)
                     all_paths.add(resolved)
 
-    def test_placeholder_profiles_cannot_open_study_content(self) -> None:
+    def test_draft_profile_exposes_authored_progress_without_becoming_study_ready(self) -> None:
         expected_fields = {
             "schemaVersion", "id", "code", "legacyAliases", "title", "description",
             "status", "studyReady", "copyReviewRequired", "features", "questionTarget",
-            "chapters",
+            "chapters", "questionFiles", "lectureManifest", "validation",
         }
-        for subject_id in ("mln131", "vnr201"):
-            profile = self.profiles[subject_id]
-            with self.subTest(subject=subject_id):
-                self.assertEqual(set(profile), expected_fields)
-                self.assertEqual(profile["status"], "comingSoon")
-                self.assertIs(profile["studyReady"], False)
-                self.assertIs(profile["copyReviewRequired"], True)
-                self.assertEqual(profile["questionTarget"], 0)
-                self.assertEqual(profile["chapters"], [])
-                self.assertFalse(any(profile["features"].values()))
-                self.assertNotIn("questionFiles", profile)
-                self.assertNotIn("lectureManifest", profile)
-                self.assertNotIn("validation", profile)
+        profile = self.profiles["mln131"]
+        self.assertEqual(set(profile), expected_fields)
+        self.assertEqual(profile["status"], "draft")
+        self.assertIs(profile["studyReady"], False)
+        self.assertIs(profile["copyReviewRequired"], True)
+        self.assertEqual(profile["questionTarget"], 280)
+        self.assertEqual(len(profile["chapters"]), 7)
+        self.assertEqual(len(profile["questionFiles"]), 7)
+        self.assertTrue(profile["features"]["quiz"])
+        self.assertTrue(profile["features"]["flashcards"])
+        self.assertTrue(profile["features"]["search"])
 
     def test_mln111_bank_matches_reviewed_distribution_and_schema(self) -> None:
         profile = self.profiles["mln111"]
@@ -410,6 +409,64 @@ class ContentContractTests(unittest.TestCase):
                 )
                 self.assertIn("2021", framed_text)
 
+    def test_vnr202_bank_matches_reviewed_distribution_schema_and_blueprint(self) -> None:
+        profile = self.profiles["vnr202"]
+        questions = self.load_authored_questions("vnr202")
+        self.assertEqual(len(questions), 850)
+        self.assertEqual(
+            Counter(question["chapterNum"] for question in questions),
+            Counter({1: 63, 2: 120, 3: 220, 4: 400, 5: 47}),
+        )
+        self.assertEqual(
+            Counter(question["difficulty"] for question in questions),
+            Counter({"Nhận biết": 340, "Thông hiểu": 340, "Vận dụng": 170}),
+        )
+        self.assertEqual(
+            [Counter(question["answer"] for question in questions)[index] for index in range(4)],
+            [213, 213, 212, 212],
+        )
+        expected_fields = {
+            "id", "courseId", "chapter", "chapterNum", "topic", "difficulty", "kind",
+            "stem", "options", "answer", "explanation", "source",
+        }
+        ids: set[str] = set()
+        stems: set[str] = set()
+        chapter_titles = {chapter["number"]: chapter["title"] for chapter in profile["chapters"]}
+        for question in questions:
+            with self.subTest(question=question["id"]):
+                self.assertEqual(set(question), expected_fields)
+                self.assertEqual(question["courseId"], "vnr202")
+                self.assertRegex(question["id"], r"^VNR202-C\d{2}-Q\d{3}$")
+                self.assertNotIn(question["id"], ids)
+                ids.add(question["id"])
+                stem = normalized_text(question["stem"])
+                self.assertNotIn(stem, stems)
+                stems.add(stem)
+                self.assertEqual(question["chapter"], chapter_titles[question["chapterNum"]])
+                self.assertEqual(len(question["options"]), 4)
+                self.assertEqual(
+                    len({normalized_text(option) for option in question["options"]}), 4
+                )
+                self.assertIn(question["answer"], range(4))
+                self.assertIn(question["kind"], profile["validation"]["allowedKinds"])
+                self.assertEqual(set(question["source"]), {"file", "section", "text"})
+                self.assertEqual(
+                    question["source"]["file"],
+                    "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+                )
+
+        blueprint = json.loads(
+            (self.content_root / "subjects" / "vnr202" / "blueprint.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        covered = [group for group in blueprint["groups"] if group["status"] == "covered"]
+        mapped_ids = [question_id for group in covered for question_id in group["questionIds"]]
+        self.assertEqual(sum(group["target"] for group in covered), 850)
+        self.assertEqual(len(mapped_ids), 850)
+        self.assertEqual(len(set(mapped_ids)), 850)
+        self.assertEqual(set(mapped_ids), ids)
+
     def test_mln111_review_signoff_matches_exact_bank_bytes(self) -> None:
         profile = self.profiles["mln111"]
         signoff_path = self.content_root / Path(profile["validation"]["reviewSignoffPath"])
@@ -443,6 +500,28 @@ class ContentContractTests(unittest.TestCase):
         self.assertEqual(signoff["reviewStatus"], "approved")
         self.assertEqual(signoff["questionCount"], 480)
         self.assertEqual(signoff["review"]["independentChapterReviews"], 6)
+        self.assertEqual(signoff["review"]["openCritical"], 0)
+        self.assertEqual(signoff["review"]["openHigh"], 0)
+        self.assertEqual(signoff["review"]["openMedium"], 0)
+        for item in profile["questionFiles"]:
+            chapter_path = self.content_root / Path(item["path"])
+            self.assertEqual(
+                hashlib.sha256(chapter_path.read_bytes()).hexdigest(),
+                signoff["chapterFileSha256"][chapter_path.name],
+            )
+
+    def test_vnr202_review_signoff_matches_exact_bank_bytes(self) -> None:
+        profile = self.profiles["vnr202"]
+        signoff_path = self.content_root / Path(profile["validation"]["reviewSignoffPath"])
+        signoff = json.loads(signoff_path.read_text(encoding="utf-8"))
+        questions = self.load_authored_questions("vnr202")
+        canonical = json.dumps(
+            questions, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+        ).encode("utf-8")
+        self.assertEqual(hashlib.sha256(canonical).hexdigest(), signoff["bankSha256"])
+        self.assertEqual(signoff["reviewStatus"], "approved")
+        self.assertEqual(signoff["questionCount"], 850)
+        self.assertEqual(signoff["review"]["independentChapterReviews"], 5)
         self.assertEqual(signoff["review"]["openCritical"], 0)
         self.assertEqual(signoff["review"]["openHigh"], 0)
         self.assertEqual(signoff["review"]["openMedium"], 0)
@@ -502,10 +581,12 @@ class SubjectCatalogMutationTests(unittest.TestCase):
         registry, profiles = load_subjects(BASE)
         self.assertEqual(
             [profile.id for profile in profiles],
-            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr202"],
         )
         self.assertEqual(registry.canonical_id("mln222"), "mln112")
         self.assertEqual(registry.canonical_id("MLN122"), "mln112")
+        self.assertEqual(registry.canonical_id("vnr201"), "vnr202")
+        self.assertEqual(registry.canonical_id("VNR201"), "vnr202")
         self.assertIsNone(registry.canonical_id("hcm201"))
         self.assertIsNone(registry.canonical_id("__proto__"))
 
@@ -514,23 +595,32 @@ class SubjectCatalogMutationTests(unittest.TestCase):
         by_id = {profile.id: profile for profile in profiles}
         mln111 = compose_subject(BASE, by_id["mln111"])
         mln112 = compose_subject(BASE, by_id["mln112"])
+        mln131 = compose_subject(BASE, by_id["mln131"])
         hcm202 = compose_subject(BASE, by_id["hcm202"])
+        vnr202 = compose_subject(BASE, by_id["vnr202"])
         self.assertEqual(len(mln111), 380)
         self.assertEqual(len(mln112), 504)
+        self.assertEqual(len(mln131), 280)
         self.assertEqual(len(hcm202), 480)
+        self.assertEqual(len(vnr202), 850)
         self.assertEqual(mln111[0]["id"], "MLN111-C01-Q001")
         self.assertEqual(mln111[-1]["id"], "MLN111-C03-Q160")
         self.assertEqual(mln112[0]["id"], "C01-Q001")
         self.assertEqual(mln112[-1]["id"], "C06-Q084")
         self.assertEqual(hcm202[0]["id"], "HCM202-C01-Q001")
         self.assertEqual(hcm202[-1]["id"], "HCM202-C06-Q090")
+        self.assertEqual(vnr202[0]["id"], "VNR202-C01-Q001")
+        self.assertEqual(vnr202[-1]["id"], "VNR202-C05-Q047")
         self.assertEqual(mln111[0]["chapterId"], "mln111-c01")
         self.assertEqual(mln112[-1]["chapterId"], "mln112-c06")
         self.assertEqual(hcm202[0]["chapterId"], "hcm202-c01")
         self.assertEqual(hcm202[-1]["chapterId"], "hcm202-c06")
+        self.assertEqual(vnr202[0]["chapterId"], "vnr202-c01")
+        self.assertEqual(vnr202[-1]["chapterId"], "vnr202-c05")
         self.assertEqual([question["num"] for question in mln111], list(range(1, 381)))
         self.assertEqual([question["num"] for question in mln112], list(range(1, 505)))
         self.assertEqual([question["num"] for question in hcm202], list(range(1, 481)))
+        self.assertEqual([question["num"] for question in vnr202], list(range(1, 851)))
 
     def test_registry_rejects_unknown_fields_and_reserved_or_duplicate_ids(self) -> None:
         mutations = {
@@ -596,11 +686,21 @@ class SubjectCatalogMutationTests(unittest.TestCase):
     def test_profile_rejects_active_placeholder_and_hostile_unicode(self) -> None:
         directory, root = self.make_content_fixture()
         with directory:
-            path = root / "content" / "subjects" / "mln131" / "subject.json"
-            self.mutate_json(path, lambda value: value["features"].update({"quiz": True}))
+            registry_path = root / "content" / "subjects" / "registry.json"
+            self.mutate_json(
+                registry_path,
+                lambda value: value["subjects"][4].update({"status": "comingSoon"}),
+            )
+            path = root / "content" / "subjects" / "vnr202" / "subject.json"
+            self.mutate_json(
+                path,
+                lambda value: value.update(
+                    {"status": "comingSoon", "studyReady": False, "copyReviewRequired": True}
+                ),
+            )
             registry = load_registry(root)
             with self.assertRaisesRegex(CatalogError, "metadata-only"):
-                load_subject_profile(root, registry.items[2], registry=registry)
+                load_subject_profile(root, registry.items[4], registry=registry)
 
         for payload in ("Tên\x00môn", "Tên\u202emôn", "Trie\u0302t ho\u0323c"):
             with self.subTest(payload=ascii(payload)):
@@ -665,8 +765,8 @@ class ProfileValidatorTests(unittest.TestCase):
         mutate(questions)
         return validate_subject(profile, questions, root=BASE, check_similarity=False)
 
-    def test_ready_subjects_and_placeholders_validate_from_profiles(self) -> None:
-        for subject_id in ("mln111", "mln112", "hcm202"):
+    def test_ready_subjects_and_draft_validate_from_profiles(self) -> None:
+        for subject_id in ("mln111", "mln112", "hcm202", "vnr202"):
             profile = self.profiles[subject_id]
             result = validate_subject(
                 profile, compose_subject(BASE, profile), root=BASE, check_similarity=False
@@ -676,14 +776,14 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertEqual(result.warnings, ())
                 self.assertTrue(result.study_ready)
                 self.assertEqual(result.question_count, profile.question_target)
-        for subject_id in ("mln131", "vnr201"):
-            result = validate_subject(
-                self.profiles[subject_id], [], root=BASE, check_similarity=False
-            )
-            with self.subTest(subject=subject_id):
-                self.assertEqual(result.errors, ())
-                self.assertFalse(result.study_ready)
-                self.assertEqual(result.question_count, 0)
+        profile = self.profiles["mln131"]
+        result = validate_subject(
+            profile, compose_subject(BASE, profile), root=BASE, check_similarity=False
+        )
+        self.assertEqual(result.errors, ())
+        self.assertEqual(result.warnings, ())
+        self.assertFalse(result.study_ready)
+        self.assertEqual(result.question_count, 280)
 
     def test_validator_rejects_subject_identity_schema_and_chapter_mutations(self) -> None:
         mutations = {
@@ -712,7 +812,7 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertFalse(result.study_ready)
 
     def test_content_change_invalidates_signed_readiness(self) -> None:
-        for subject_id in ("mln111", "hcm202"):
+        for subject_id in ("mln111", "hcm202", "vnr202"):
             with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 shutil.copytree(BASE / "content", root / "content")
@@ -734,7 +834,7 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertFalse(result.study_ready)
 
     def test_review_signoff_requires_one_independent_review_per_chapter(self) -> None:
-        for subject_id in ("mln111", "hcm202"):
+        for subject_id in ("mln111", "hcm202", "vnr202"):
             with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 shutil.copytree(BASE / "content", root / "content")
@@ -774,17 +874,21 @@ class CatalogBuildTests(unittest.TestCase):
     def test_catalogs_publish_only_ready_banks_and_declared_features(self) -> None:
         self.assertEqual(
             [subject["id"] for subject in self.subject_catalog],
-            ["mln111", "mln112", "mln131", "hcm202", "vnr201"],
+            ["mln111", "mln112", "mln131", "hcm202", "vnr202"],
         )
-        self.assertEqual(set(self.question_banks), {"mln111", "mln112", "hcm202"})
+        self.assertEqual(
+            set(self.question_banks), {"mln111", "mln112", "hcm202", "vnr202"}
+        )
         self.assertEqual(set(self.lecture_catalogs), {"mln112"})
         self.assertEqual(len(self.question_banks["mln111"]), 380)
         self.assertEqual(len(self.question_banks["mln112"]), 504)
         self.assertEqual(len(self.question_banks["hcm202"]), 480)
+        self.assertEqual(len(self.question_banks["vnr202"]), 850)
         by_id = {subject["id"]: subject for subject in self.subject_catalog}
         self.assertEqual(by_id["mln111"]["questionCount"], 380)
         self.assertEqual(by_id["mln112"]["questionCount"], 504)
         self.assertEqual(by_id["hcm202"]["questionCount"], 480)
+        self.assertEqual(by_id["vnr202"]["questionCount"], 850)
         self.assertEqual(by_id["mln111"]["features"], {
             "flashcards": True, "game": False, "lectures": False,
             "quiz": True, "search": True,
@@ -793,10 +897,14 @@ class CatalogBuildTests(unittest.TestCase):
             "flashcards": True, "game": False, "lectures": False,
             "quiz": True, "search": True,
         })
-        for subject_id in ("mln131", "vnr201"):
-            self.assertEqual(by_id[subject_id]["questionCount"], 0)
-            self.assertFalse(by_id[subject_id]["studyReady"])
-            self.assertFalse(any(by_id[subject_id]["features"].values()))
+        self.assertEqual(by_id["vnr202"]["features"], {
+            "flashcards": True, "game": False, "lectures": False,
+            "quiz": True, "search": True,
+        })
+        self.assertEqual(by_id["vnr202"]["legacyAliases"], ["vnr201"])
+        self.assertEqual(by_id["mln131"]["questionCount"], 280)
+        self.assertFalse(by_id["mln131"]["studyReady"])
+        self.assertNotIn("mln131", self.question_banks)
 
     def test_public_projection_has_exact_fields_and_no_authoring_evidence(self) -> None:
         for subject in self.subject_catalog:
@@ -814,6 +922,7 @@ class CatalogBuildTests(unittest.TestCase):
             "sourcePolicy", "reviewSignoffPath", "questionFiles", "chapterFileSha256",
             "Giáo trình Triết học Mác-Lênin.md",
             "Giáo trình tư tưởng Hồ Chí Minh.md",
+            "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
             "GIAO-TRINH-KINH-TE-CHINH-TRI-MAC-LENIN-BO-GIAO-DUC-VA-DAO-TAO.pdf",
             '"text":', "F:\\MLN111", "F:\\MLN222", "F:\\Kỳ 9",
         ):
@@ -965,6 +1074,13 @@ const GAME_DATA=/*__GAME_DATA__*/{};</script>
             "content/subjects/hcm202/chapters/chapter-04.json",
             "content/subjects/hcm202/chapters/chapter-05.json",
             "content/subjects/hcm202/chapters/chapter-06.json",
+            "content/subjects/vnr202/subject.json",
+            "content/subjects/vnr202/review-signoff.json",
+            "content/subjects/vnr202/chapters/chapter-01.json",
+            "content/subjects/vnr202/chapters/chapter-02.json",
+            "content/subjects/vnr202/chapters/chapter-03.json",
+            "content/subjects/vnr202/chapters/chapter-04.json",
+            "content/subjects/vnr202/chapters/chapter-05.json",
             "content/subjects/mln112/subject.json",
             "content/chapters/chapter-01.json",
             "content/lectures.json",
@@ -1363,7 +1479,7 @@ class ProductionBankTests(unittest.TestCase):
         self.assertIn('value="mln122-campaign"', template)
         self.assertNotIn("<h1>MLN122</h1>", template)
         self.assertNotIn("<h1>MLN222</h1>", template)
-        for code in ("MLN111", "MLN112", "MLN131", "HCM202", "VNR201"):
+        for code in ("MLN111", "MLN112", "MLN131", "HCM202", "VNR202"):
             self.assertIn(f'"code":"{code}"', self.rendered_html)
         self.assertIn('"mln122-campaign"', controller)
         self.assertNotIn('"mln222-campaign"', controller)

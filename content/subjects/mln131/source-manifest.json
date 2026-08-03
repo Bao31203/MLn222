@@ -1,0 +1,3388 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "sha256": "1379d246e3466b5451752e31279c50081b85894296c3feea873fa68fd66c6ee8",
+      "bytes": 521726,
+      "encoding": "utf-8",
+      "newline": "crlf",
+      "nfc": true,
+      "lineCount": 10959,
+      "wordCount": 83628,
+      "characterCount": 397902,
+      "headings": [
+        {
+          "id": "h0001",
+          "level": 1,
+          "title": "Chương 1....................................................................................................................... 6 NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC.......................................................6",
+          "line": 108,
+          "titleEndLine": 110,
+          "syntax": "heuristic",
+          "endLine": 118,
+          "path": [
+            "Chương 1....................................................................................................................... 6 NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC.......................................................6"
+          ],
+          "wordCount": 59,
+          "characterCount": 636
+        },
+        {
+          "id": "h0002",
+          "level": 3,
+          "title": "1. Sự ra đời của Chủ nghĩa xã hội khoa học...............................................................6",
+          "line": 112,
+          "titleEndLine": 112,
+          "syntax": "heuristic",
+          "endLine": 113,
+          "path": [
+            "Chương 1....................................................................................................................... 6 NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC.......................................................6",
+            "1. Sự ra đời của Chủ nghĩa xã hội khoa học...............................................................6"
+          ],
+          "wordCount": 12,
+          "characterCount": 107
+        },
+        {
+          "id": "h0003",
+          "level": 3,
+          "title": "2. Các giai đoạn phát triển cơ bản của Chủ nghĩa xã hội khoa học...........................12",
+          "line": 114,
+          "titleEndLine": 114,
+          "syntax": "heuristic",
+          "endLine": 115,
+          "path": [
+            "Chương 1....................................................................................................................... 6 NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC.......................................................6",
+            "2. Các giai đoạn phát triển cơ bản của Chủ nghĩa xã hội khoa học...........................12"
+          ],
+          "wordCount": 16,
+          "characterCount": 94
+        },
+        {
+          "id": "h0004",
+          "level": 3,
+          "title": "3. Đối tượng, phương pháp và ý nghĩa của việc nghiên cứu Chủ nghĩa xã hội khoa",
+          "line": 116,
+          "titleEndLine": 116,
+          "syntax": "heuristic",
+          "endLine": 118,
+          "path": [
+            "Chương 1....................................................................................................................... 6 NHẬP MÔN CHỦ NGHĨA XÃ HỘI KHOA HỌC.......................................................6",
+            "3. Đối tượng, phương pháp và ý nghĩa của việc nghiên cứu Chủ nghĩa xã hội khoa"
+          ],
+          "wordCount": 19,
+          "characterCount": 210
+        },
+        {
+          "id": "h0005",
+          "level": 1,
+          "title": "Chương 2..................................................................................................................... 30 SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN...............................................30",
+          "line": 119,
+          "titleEndLine": 121,
+          "syntax": "heuristic",
+          "endLine": 130,
+          "path": [
+            "Chương 2..................................................................................................................... 30 SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN...............................................30"
+          ],
+          "wordCount": 75,
+          "characterCount": 726
+        },
+        {
+          "id": "h0006",
+          "level": 3,
+          "title": "1. Quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và sứ mệnh",
+          "line": 123,
+          "titleEndLine": 123,
+          "syntax": "heuristic",
+          "endLine": 125,
+          "path": [
+            "Chương 2..................................................................................................................... 30 SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN...............................................30",
+            "1. Quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và sứ mệnh"
+          ],
+          "wordCount": 28,
+          "characterCount": 190
+        },
+        {
+          "id": "h0007",
+          "level": 3,
+          "title": "2. Giai cấp công nhân và việc thực hiện sứ mệnh lịch sử của giai cấp công nhân hiện",
+          "line": 126,
+          "titleEndLine": 126,
+          "syntax": "heuristic",
+          "endLine": 128,
+          "path": [
+            "Chương 2..................................................................................................................... 30 SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN...............................................30",
+            "2. Giai cấp công nhân và việc thực hiện sứ mệnh lịch sử của giai cấp công nhân hiện"
+          ],
+          "wordCount": 21,
+          "characterCount": 215
+        },
+        {
+          "id": "h0008",
+          "level": 3,
+          "title": "3. Sứ mệnh lịch sử của giai cấp công nhân Việt Nam...............................................45",
+          "line": 129,
+          "titleEndLine": 129,
+          "syntax": "heuristic",
+          "endLine": 130,
+          "path": [
+            "Chương 2..................................................................................................................... 30 SỨ MỆNH LỊCH SỬ CỦA GIAI CẤP CÔNG NHÂN...............................................30",
+            "3. Sứ mệnh lịch sử của giai cấp công nhân Việt Nam...............................................45"
+          ],
+          "wordCount": 13,
+          "characterCount": 100
+        },
+        {
+          "id": "h0009",
+          "level": 1,
+          "title": "Chương 3..................................................................................................................... 54 CHỦ NGHĨA XÃ HỘI VÀ THỜI KỲ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI...........54",
+          "line": 131,
+          "titleEndLine": 133,
+          "syntax": "heuristic",
+          "endLine": 140,
+          "path": [
+            "Chương 3..................................................................................................................... 54 CHỦ NGHĨA XÃ HỘI VÀ THỜI KỲ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI...........54"
+          ],
+          "wordCount": 47,
+          "characterCount": 540
+        },
+        {
+          "id": "h0010",
+          "level": 3,
+          "title": "1. Chủ nghĩa xã hội...................................................................................................54",
+          "line": 135,
+          "titleEndLine": 135,
+          "syntax": "heuristic",
+          "endLine": 136,
+          "path": [
+            "Chương 3..................................................................................................................... 54 CHỦ NGHĨA XÃ HỘI VÀ THỜI KỲ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI...........54",
+            "1. Chủ nghĩa xã hội...................................................................................................54"
+          ],
+          "wordCount": 6,
+          "characterCount": 121
+        },
+        {
+          "id": "h0011",
+          "level": 3,
+          "title": "2. Thời kì quá độ lên chủ nghĩa xã hội......................................................................64",
+          "line": 137,
+          "titleEndLine": 137,
+          "syntax": "heuristic",
+          "endLine": 138,
+          "path": [
+            "Chương 3..................................................................................................................... 54 CHỦ NGHĨA XÃ HỘI VÀ THỜI KỲ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI...........54",
+            "2. Thời kì quá độ lên chủ nghĩa xã hội......................................................................64"
+          ],
+          "wordCount": 11,
+          "characterCount": 111
+        },
+        {
+          "id": "h0012",
+          "level": 3,
+          "title": "3. Quá độ lên chủ nghĩa xã hội ở Việt Nam..............................................................68",
+          "line": 139,
+          "titleEndLine": 139,
+          "syntax": "heuristic",
+          "endLine": 140,
+          "path": [
+            "Chương 3..................................................................................................................... 54 CHỦ NGHĨA XÃ HỘI VÀ THỜI KỲ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI...........54",
+            "3. Quá độ lên chủ nghĩa xã hội ở Việt Nam..............................................................68"
+          ],
+          "wordCount": 12,
+          "characterCount": 106
+        },
+        {
+          "id": "h0013",
+          "level": 1,
+          "title": "Chương 4..................................................................................................................... 76 DÂN CHỦ XÃ HỘI CHỦ NGHĨA VÀ NHÀ NƯỚC XÃ HỘI CHỦ NGHĨA...........76",
+          "line": 141,
+          "titleEndLine": 143,
+          "syntax": "heuristic",
+          "endLine": 151,
+          "path": [
+            "Chương 4..................................................................................................................... 76 DÂN CHỦ XÃ HỘI CHỦ NGHĨA VÀ NHÀ NƯỚC XÃ HỘI CHỦ NGHĨA...........76"
+          ],
+          "wordCount": 56,
+          "characterCount": 635
+        },
+        {
+          "id": "h0014",
+          "level": 3,
+          "title": "1. Dân chủ và dân chủ xã hội chủ nghĩa...................................................................76",
+          "line": 145,
+          "titleEndLine": 145,
+          "syntax": "heuristic",
+          "endLine": 146,
+          "path": [
+            "Chương 4..................................................................................................................... 76 DÂN CHỦ XÃ HỘI CHỦ NGHĨA VÀ NHÀ NƯỚC XÃ HỘI CHỦ NGHĨA...........76",
+            "1. Dân chủ và dân chủ xã hội chủ nghĩa...................................................................76"
+          ],
+          "wordCount": 11,
+          "characterCount": 108
+        },
+        {
+          "id": "h0015",
+          "level": 3,
+          "title": "2. Nhà nước xã hội chủ nghĩa...................................................................................85",
+          "line": 147,
+          "titleEndLine": 147,
+          "syntax": "heuristic",
+          "endLine": 148,
+          "path": [
+            "Chương 4..................................................................................................................... 76 DÂN CHỦ XÃ HỘI CHỦ NGHĨA VÀ NHÀ NƯỚC XÃ HỘI CHỦ NGHĨA...........76",
+            "2. Nhà nước xã hội chủ nghĩa...................................................................................85"
+          ],
+          "wordCount": 8,
+          "characterCount": 114
+        },
+        {
+          "id": "h0016",
+          "level": 3,
+          "title": "3. Dân chủ xã hội chủ nghĩa và nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam",
+          "line": 149,
+          "titleEndLine": 149,
+          "syntax": "heuristic",
+          "endLine": 151,
+          "path": [
+            "Chương 4..................................................................................................................... 76 DÂN CHỦ XÃ HỘI CHỦ NGHĨA VÀ NHÀ NƯỚC XÃ HỘI CHỦ NGHĨA...........76",
+            "3. Dân chủ xã hội chủ nghĩa và nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam"
+          ],
+          "wordCount": 20,
+          "characterCount": 213
+        },
+        {
+          "id": "h0017",
+          "level": 1,
+          "title": "Chương 5................................................................................................................... 100 CƠ CẤU XÃ HỘI – GIAI CẤP VÀ LIÊN MINH GIAI CẤP, TẦNG LỚP TRONG",
+          "line": 152,
+          "titleEndLine": 154,
+          "syntax": "heuristic",
+          "endLine": 170,
+          "path": [
+            "Chương 5................................................................................................................... 100 CƠ CẤU XÃ HỘI – GIAI CẤP VÀ LIÊN MINH GIAI CẤP, TẦNG LỚP TRONG"
+          ],
+          "wordCount": 105,
+          "characterCount": 765
+        },
+        {
+          "id": "h0018",
+          "level": 3,
+          "title": "1. Cơ cấu xã hội – giai cấp trong thời kì quá độ lên chủ nghĩa xã hội....................100",
+          "line": 157,
+          "titleEndLine": 157,
+          "syntax": "heuristic",
+          "endLine": 158,
+          "path": [
+            "Chương 5................................................................................................................... 100 CƠ CẤU XÃ HỘI – GIAI CẤP VÀ LIÊN MINH GIAI CẤP, TẦNG LỚP TRONG",
+            "1. Cơ cấu xã hội – giai cấp trong thời kì quá độ lên chủ nghĩa xã hội....................100"
+          ],
+          "wordCount": 18,
+          "characterCount": 93
+        },
+        {
+          "id": "h0019",
+          "level": 3,
+          "title": "2. Liên minh giai cấp, tầng lớp trong thời kì quá độ lên chủ nghĩa xã hội..............104",
+          "line": 159,
+          "titleEndLine": 159,
+          "syntax": "heuristic",
+          "endLine": 160,
+          "path": [
+            "Chương 5................................................................................................................... 100 CƠ CẤU XÃ HỘI – GIAI CẤP VÀ LIÊN MINH GIAI CẤP, TẦNG LỚP TRONG",
+            "2. Liên minh giai cấp, tầng lớp trong thời kì quá độ lên chủ nghĩa xã hội..............104"
+          ],
+          "wordCount": 18,
+          "characterCount": 91
+        },
+        {
+          "id": "h0020",
+          "level": 3,
+          "title": "3. Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kì quá độ lên",
+          "line": 161,
+          "titleEndLine": 161,
+          "syntax": "heuristic",
+          "endLine": 170,
+          "path": [
+            "Chương 5................................................................................................................... 100 CƠ CẤU XÃ HỘI – GIAI CẤP VÀ LIÊN MINH GIAI CẤP, TẦNG LỚP TRONG",
+            "3. Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kì quá độ lên"
+          ],
+          "wordCount": 42,
+          "characterCount": 293
+        },
+        {
+          "id": "h0021",
+          "level": 1,
+          "title": "CHƯƠNG 6...............................................................................................................119 VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO TRONG THỜI KÌ QUÁ ĐỘ.........................119",
+          "line": 171,
+          "titleEndLine": 173,
+          "syntax": "heuristic",
+          "endLine": 182,
+          "path": [
+            "CHƯƠNG 6...............................................................................................................119 VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO TRONG THỜI KÌ QUÁ ĐỘ.........................119"
+          ],
+          "wordCount": 62,
+          "characterCount": 621
+        },
+        {
+          "id": "h0022",
+          "level": 3,
+          "title": "1. Dân tộc trong thời kỳ quá độ lên chủ nghĩa xã hội.............................................119",
+          "line": 177,
+          "titleEndLine": 177,
+          "syntax": "heuristic",
+          "endLine": 178,
+          "path": [
+            "CHƯƠNG 6...............................................................................................................119 VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO TRONG THỜI KÌ QUÁ ĐỘ.........................119",
+            "1. Dân tộc trong thời kỳ quá độ lên chủ nghĩa xã hội.............................................119"
+          ],
+          "wordCount": 14,
+          "characterCount": 101
+        },
+        {
+          "id": "h0023",
+          "level": 3,
+          "title": "2. Tôn giáo trong thời kì quá độ lên chủ nghĩa xã hội............................................129",
+          "line": 179,
+          "titleEndLine": 179,
+          "syntax": "heuristic",
+          "endLine": 180,
+          "path": [
+            "CHƯƠNG 6...............................................................................................................119 VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO TRONG THỜI KÌ QUÁ ĐỘ.........................119",
+            "2. Tôn giáo trong thời kì quá độ lên chủ nghĩa xã hội............................................129"
+          ],
+          "wordCount": 14,
+          "characterCount": 101
+        },
+        {
+          "id": "h0024",
+          "level": 3,
+          "title": "3. Quan hệ dân tộc và tôn giáo ở Việt Nam............................................................138",
+          "line": 181,
+          "titleEndLine": 181,
+          "syntax": "heuristic",
+          "endLine": 182,
+          "path": [
+            "CHƯƠNG 6...............................................................................................................119 VẤN ĐỀ DÂN TỘC VÀ TÔN GIÁO TRONG THỜI KÌ QUÁ ĐỘ.........................119",
+            "3. Quan hệ dân tộc và tôn giáo ở Việt Nam............................................................138"
+          ],
+          "wordCount": 12,
+          "characterCount": 105
+        },
+        {
+          "id": "h0025",
+          "level": 1,
+          "title": "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+          "line": 183,
+          "titleEndLine": 185,
+          "syntax": "heuristic",
+          "endLine": 10959,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142"
+          ],
+          "wordCount": 82880,
+          "characterCount": 381337
+        },
+        {
+          "id": "h0026",
+          "level": 3,
+          "title": "1. Khái niệm, vị trí và chức năng của gia đình.......................................................142",
+          "line": 187,
+          "titleEndLine": 187,
+          "syntax": "heuristic",
+          "endLine": 188,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "1. Khái niệm, vị trí và chức năng của gia đình.......................................................142"
+          ],
+          "wordCount": 12,
+          "characterCount": 105
+        },
+        {
+          "id": "h0027",
+          "level": 3,
+          "title": "2. Cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội....................148",
+          "line": 189,
+          "titleEndLine": 189,
+          "syntax": "heuristic",
+          "endLine": 190,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "2. Cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội....................148"
+          ],
+          "wordCount": 18,
+          "characterCount": 92
+        },
+        {
+          "id": "h0028",
+          "level": 3,
+          "title": "3. Xây dựng gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội.............153",
+          "line": 191,
+          "titleEndLine": 191,
+          "syntax": "heuristic",
+          "endLine": 256,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "3. Xây dựng gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội.............153"
+          ],
+          "wordCount": 352,
+          "characterCount": 1706
+        },
+        {
+          "id": "h0029",
+          "level": 4,
+          "title": "A. MỤC ĐÍCH",
+          "line": 255,
+          "titleEndLine": 255,
+          "syntax": "heuristic",
+          "endLine": 256,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "3. Xây dựng gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội.............153",
+            "A. MỤC ĐÍCH"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0030",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên có kiến thức cơ bản, hệ thống về sự ra đời, các giai đoạn",
+          "line": 257,
+          "titleEndLine": 257,
+          "syntax": "heuristic",
+          "endLine": 262,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "1. Về kiến thức: Sinh viên có kiến thức cơ bản, hệ thống về sự ra đời, các giai đoạn"
+          ],
+          "wordCount": 53,
+          "characterCount": 247
+        },
+        {
+          "id": "h0031",
+          "level": 3,
+          "title": "2. Về kỹ năng: sinh viên có khả năng luận chứng được khách thể và đối tượng nghiên",
+          "line": 263,
+          "titleEndLine": 263,
+          "syntax": "heuristic",
+          "endLine": 276,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "2. Về kỹ năng: sinh viên có khả năng luận chứng được khách thể và đối tượng nghiên"
+          ],
+          "wordCount": 97,
+          "characterCount": 439
+        },
+        {
+          "id": "h0032",
+          "level": 4,
+          "title": "B. NỘI DUNG",
+          "line": 275,
+          "titleEndLine": 275,
+          "syntax": "heuristic",
+          "endLine": 276,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "2. Về kỹ năng: sinh viên có khả năng luận chứng được khách thể và đối tượng nghiên",
+            "B. NỘI DUNG"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0033",
+          "level": 3,
+          "title": "1. Sự ra đời của Chủ nghĩa xã hội khoa học",
+          "line": 277,
+          "titleEndLine": 277,
+          "syntax": "heuristic",
+          "endLine": 708,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "1. Sự ra đời của Chủ nghĩa xã hội khoa học"
+          ],
+          "wordCount": 3287,
+          "characterCount": 15363
+        },
+        {
+          "id": "h0034",
+          "level": 3,
+          "title": "2. Các giai đoạn phát triển cơ bản của Chủ nghĩa xã hội khoa học",
+          "line": 709,
+          "titleEndLine": 709,
+          "syntax": "heuristic",
+          "endLine": 1406,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "2. Các giai đoạn phát triển cơ bản của Chủ nghĩa xã hội khoa học"
+          ],
+          "wordCount": 5536,
+          "characterCount": 25475
+        },
+        {
+          "id": "h0035",
+          "level": 3,
+          "title": "3. Đối tượng, phương pháp và ý nghĩa của việc nghiên cứu Chủ nghĩa xã hội khoa",
+          "line": 1407,
+          "titleEndLine": 1407,
+          "syntax": "heuristic",
+          "endLine": 1847,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "3. Đối tượng, phương pháp và ý nghĩa của việc nghiên cứu Chủ nghĩa xã hội khoa"
+          ],
+          "wordCount": 3444,
+          "characterCount": 16024
+        },
+        {
+          "id": "h0036",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 1848,
+          "titleEndLine": 1848,
+          "syntax": "heuristic",
+          "endLine": 1872,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 101,
+          "characterCount": 458
+        },
+        {
+          "id": "h0037",
+          "level": 2,
+          "title": "D. TÀI LIỆU THAM KHẢO",
+          "line": 1873,
+          "titleEndLine": 1873,
+          "syntax": "heuristic",
+          "endLine": 3464,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 12142,
+          "characterCount": 56178
+        },
+        {
+          "id": "h0038",
+          "level": 3,
+          "title": "2. Hội đồng Trung ương chỉ đạo biên soạn giáo trình quốc gia các môn khoa",
+          "line": 1879,
+          "titleEndLine": 1879,
+          "syntax": "heuristic",
+          "endLine": 1882,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Hội đồng Trung ương chỉ đạo biên soạn giáo trình quốc gia các môn khoa"
+          ],
+          "wordCount": 37,
+          "characterCount": 174
+        },
+        {
+          "id": "h0039",
+          "level": 3,
+          "title": "3. Học viện Chính trị quốc gia Hồ Chí Minh (2018), Giáo trình Chủ nghĩa xã",
+          "line": 1883,
+          "titleEndLine": 1883,
+          "syntax": "heuristic",
+          "endLine": 1886,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Học viện Chính trị quốc gia Hồ Chí Minh (2018), Giáo trình Chủ nghĩa xã"
+          ],
+          "wordCount": 44,
+          "characterCount": 209
+        },
+        {
+          "id": "h0040",
+          "level": 3,
+          "title": "4. Pedro P. Geiger (2015) Chủ nghĩa tư bản, chủ nghĩa quốc tế và chủ nghĩa xã",
+          "line": 1887,
+          "titleEndLine": 1887,
+          "syntax": "heuristic",
+          "endLine": 1903,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "4. Pedro P. Geiger (2015) Chủ nghĩa tư bản, chủ nghĩa quốc tế và chủ nghĩa xã"
+          ],
+          "wordCount": 60,
+          "characterCount": 302
+        },
+        {
+          "id": "h0041",
+          "level": 4,
+          "title": "A. MỤC TIÊU",
+          "line": 1902,
+          "titleEndLine": 1902,
+          "syntax": "heuristic",
+          "endLine": 1903,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "4. Pedro P. Geiger (2015) Chủ nghĩa tư bản, chủ nghĩa quốc tế và chủ nghĩa xã",
+            "A. MỤC TIÊU"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0042",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm vững quan điểm cơ bản của chủ nghĩa Mác – Lênin về",
+          "line": 1904,
+          "titleEndLine": 1904,
+          "syntax": "heuristic",
+          "endLine": 1909,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm vững quan điểm cơ bản của chủ nghĩa Mác – Lênin về"
+          ],
+          "wordCount": 48,
+          "characterCount": 217
+        },
+        {
+          "id": "h0043",
+          "level": 3,
+          "title": "2. Về kỹ năng: Biết vận dụng phương pháp luận và các phương pháp nghiên cứu",
+          "line": 1910,
+          "titleEndLine": 1910,
+          "syntax": "heuristic",
+          "endLine": 1917,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Biết vận dụng phương pháp luận và các phương pháp nghiên cứu"
+          ],
+          "wordCount": 58,
+          "characterCount": 276
+        },
+        {
+          "id": "h0044",
+          "level": 3,
+          "title": "3. Về tư tưởng: Góp phần xây dựng và củng cố niềm tin khoa học; lập trường giai cấp",
+          "line": 1918,
+          "titleEndLine": 1918,
+          "syntax": "heuristic",
+          "endLine": 1933,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về tư tưởng: Góp phần xây dựng và củng cố niềm tin khoa học; lập trường giai cấp"
+          ],
+          "wordCount": 100,
+          "characterCount": 458
+        },
+        {
+          "id": "h0045",
+          "level": 4,
+          "title": "B. NỘI DUNG",
+          "line": 1924,
+          "titleEndLine": 1924,
+          "syntax": "heuristic",
+          "endLine": 1933,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về tư tưởng: Góp phần xây dựng và củng cố niềm tin khoa học; lập trường giai cấp",
+            "B. NỘI DUNG"
+          ],
+          "wordCount": 61,
+          "characterCount": 282
+        },
+        {
+          "id": "h0046",
+          "level": 3,
+          "title": "1. Quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và sứ",
+          "line": 1934,
+          "titleEndLine": 1934,
+          "syntax": "heuristic",
+          "endLine": 2629,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và sứ"
+          ],
+          "wordCount": 5369,
+          "characterCount": 24492
+        },
+        {
+          "id": "h0047",
+          "level": 3,
+          "title": "2. Giai cấp công nhân và việc thực hiện sứ mệnh lịch sử của giai cấp công nhân",
+          "line": 2630,
+          "titleEndLine": 2630,
+          "syntax": "heuristic",
+          "endLine": 2933,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Giai cấp công nhân và việc thực hiện sứ mệnh lịch sử của giai cấp công nhân"
+          ],
+          "wordCount": 2295,
+          "characterCount": 10629
+        },
+        {
+          "id": "h0048",
+          "level": 3,
+          "title": "3. Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+          "line": 2934,
+          "titleEndLine": 2934,
+          "syntax": "heuristic",
+          "endLine": 3464,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Sứ mệnh lịch sử của giai cấp công nhân Việt Nam"
+          ],
+          "wordCount": 4106,
+          "characterCount": 19297
+        },
+        {
+          "id": "h0049",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 3465,
+          "titleEndLine": 3465,
+          "syntax": "heuristic",
+          "endLine": 3484,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 132,
+          "characterCount": 602
+        },
+        {
+          "id": "h0050",
+          "level": 3,
+          "title": "1. Nêu những quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và",
+          "line": 3467,
+          "titleEndLine": 3467,
+          "syntax": "heuristic",
+          "endLine": 3470,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "1. Nêu những quan điểm cơ bản của chủ nghĩa Mác – Lênin về giai cấp công nhân và"
+          ],
+          "wordCount": 29,
+          "characterCount": 131
+        },
+        {
+          "id": "h0051",
+          "level": 3,
+          "title": "2. Trình bày những điều kiện khách quan và nhân tố chủ quan quy định sứ mệnh lịch",
+          "line": 3471,
+          "titleEndLine": 3471,
+          "syntax": "heuristic",
+          "endLine": 3476,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "2. Trình bày những điều kiện khách quan và nhân tố chủ quan quy định sứ mệnh lịch"
+          ],
+          "wordCount": 43,
+          "characterCount": 197
+        },
+        {
+          "id": "h0052",
+          "level": 3,
+          "title": "4. Phân tích những đặc điểm của giai cấp công nhân Việt Nam và nội dung sứ mệnh",
+          "line": 3477,
+          "titleEndLine": 3477,
+          "syntax": "heuristic",
+          "endLine": 3480,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "4. Phân tích những đặc điểm của giai cấp công nhân Việt Nam và nội dung sứ mệnh"
+          ],
+          "wordCount": 27,
+          "characterCount": 122
+        },
+        {
+          "id": "h0053",
+          "level": 3,
+          "title": "5. Phương hướng và giải pháp chủ yếu để xây dựng giai cấp công nhân Việt Nam hiện",
+          "line": 3481,
+          "titleEndLine": 3481,
+          "syntax": "heuristic",
+          "endLine": 3484,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "5. Phương hướng và giải pháp chủ yếu để xây dựng giai cấp công nhân Việt Nam hiện"
+          ],
+          "wordCount": 28,
+          "characterCount": 130
+        },
+        {
+          "id": "h0054",
+          "level": 2,
+          "title": "D. TÀI LIỆU THAM KHẢO",
+          "line": 3485,
+          "titleEndLine": 3485,
+          "syntax": "heuristic",
+          "endLine": 4942,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 11711,
+          "characterCount": 53467
+        },
+        {
+          "id": "h0055",
+          "level": 3,
+          "title": "1. Đảng Cộng sản Việt Nam, Văn kiện Hội nghị lần thứ sáu Ban Chấp hành Trung",
+          "line": 3487,
+          "titleEndLine": 3487,
+          "syntax": "heuristic",
+          "endLine": 3490,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Đảng Cộng sản Việt Nam, Văn kiện Hội nghị lần thứ sáu Ban Chấp hành Trung"
+          ],
+          "wordCount": 26,
+          "characterCount": 122
+        },
+        {
+          "id": "h0056",
+          "level": 3,
+          "title": "2. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XI, XII,",
+          "line": 3491,
+          "titleEndLine": 3491,
+          "syntax": "heuristic",
+          "endLine": 3494,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XI, XII,"
+          ],
+          "wordCount": 25,
+          "characterCount": 120
+        },
+        {
+          "id": "h0057",
+          "level": 3,
+          "title": "3. Hội đồng TW chỉ đạo biên soạn giáo trình quốc gia các môn khoa học Mác – Lênin,",
+          "line": 3495,
+          "titleEndLine": 3495,
+          "syntax": "heuristic",
+          "endLine": 3500,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Hội đồng TW chỉ đạo biên soạn giáo trình quốc gia các môn khoa học Mác – Lênin,"
+          ],
+          "wordCount": 36,
+          "characterCount": 170
+        },
+        {
+          "id": "h0058",
+          "level": 3,
+          "title": "4. Học viện Chính trị quốc gia Hồ Chí Minh, Giáo trình Chủ nghĩa xã hội khoa học,",
+          "line": 3501,
+          "titleEndLine": 3501,
+          "syntax": "heuristic",
+          "endLine": 3504,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "4. Học viện Chính trị quốc gia Hồ Chí Minh, Giáo trình Chủ nghĩa xã hội khoa học,"
+          ],
+          "wordCount": 29,
+          "characterCount": 130
+        },
+        {
+          "id": "h0059",
+          "level": 3,
+          "title": "5. Hoàng Chí bảo, Nguyễn Việt Thông, Bùi Đình Bôn (đồng chủ biên), Một số vấn đề",
+          "line": 3505,
+          "titleEndLine": 3505,
+          "syntax": "heuristic",
+          "endLine": 3523,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Hoàng Chí bảo, Nguyễn Việt Thông, Bùi Đình Bôn (đồng chủ biên), Một số vấn đề"
+          ],
+          "wordCount": 85,
+          "characterCount": 422
+        },
+        {
+          "id": "h0060",
+          "level": 4,
+          "title": "A. MỤC TIÊU",
+          "line": 3522,
+          "titleEndLine": 3522,
+          "syntax": "heuristic",
+          "endLine": 3523,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Hoàng Chí bảo, Nguyễn Việt Thông, Bùi Đình Bôn (đồng chủ biên), Một số vấn đề",
+            "A. MỤC TIÊU"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0061",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm được những quan điểm của chủ nghĩa Mác -",
+          "line": 3524,
+          "titleEndLine": 3524,
+          "syntax": "heuristic",
+          "endLine": 3529,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm được những quan điểm của chủ nghĩa Mác -"
+          ],
+          "wordCount": 49,
+          "characterCount": 221
+        },
+        {
+          "id": "h0062",
+          "level": 3,
+          "title": "2. Về kỹ năng: Sinh viên bước đầu biết vận dụng những tri thức có được vào",
+          "line": 3530,
+          "titleEndLine": 3530,
+          "syntax": "heuristic",
+          "endLine": 3535,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Sinh viên bước đầu biết vận dụng những tri thức có được vào"
+          ],
+          "wordCount": 41,
+          "characterCount": 176
+        },
+        {
+          "id": "h0063",
+          "level": 3,
+          "title": "3. Về thái độ: Sinh viên khẳng định niềm tin vào chế độ xã hội chủ nghĩa, luôn",
+          "line": 3536,
+          "titleEndLine": 3536,
+          "syntax": "heuristic",
+          "endLine": 3543,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên khẳng định niềm tin vào chế độ xã hội chủ nghĩa, luôn"
+          ],
+          "wordCount": 46,
+          "characterCount": 204
+        },
+        {
+          "id": "h0064",
+          "level": 4,
+          "title": "B. NỘI DUNG",
+          "line": 3542,
+          "titleEndLine": 3542,
+          "syntax": "heuristic",
+          "endLine": 3543,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên khẳng định niềm tin vào chế độ xã hội chủ nghĩa, luôn",
+            "B. NỘI DUNG"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0065",
+          "level": 3,
+          "title": "1. Chủ nghĩa xã hội",
+          "line": 3544,
+          "titleEndLine": 3544,
+          "syntax": "heuristic",
+          "endLine": 4229,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Chủ nghĩa xã hội"
+          ],
+          "wordCount": 5775,
+          "characterCount": 26175
+        },
+        {
+          "id": "h0066",
+          "level": 3,
+          "title": "2. Thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 4230,
+          "titleEndLine": 4230,
+          "syntax": "heuristic",
+          "endLine": 4456,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 1883,
+          "characterCount": 8508
+        },
+        {
+          "id": "h0067",
+          "level": 3,
+          "title": "3. Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+          "line": 4457,
+          "titleEndLine": 4457,
+          "syntax": "heuristic",
+          "endLine": 4942,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Quá độ lên chủ nghĩa xã hội ở Việt Nam"
+          ],
+          "wordCount": 3711,
+          "characterCount": 17186
+        },
+        {
+          "id": "h0068",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 4943,
+          "titleEndLine": 4943,
+          "syntax": "heuristic",
+          "endLine": 4965,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 106,
+          "characterCount": 493
+        },
+        {
+          "id": "h0069",
+          "level": 3,
+          "title": "1. Phân tích điều kiện ra đời và những đặc trưng của chủ nghĩa xã hội? Liên hệ",
+          "line": 4952,
+          "titleEndLine": 4952,
+          "syntax": "heuristic",
+          "endLine": 4955,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "1. Phân tích điều kiện ra đời và những đặc trưng của chủ nghĩa xã hội? Liên hệ"
+          ],
+          "wordCount": 23,
+          "characterCount": 104
+        },
+        {
+          "id": "h0070",
+          "level": 3,
+          "title": "2. Phân tích tính tất yếu, đặc điểm của thời kì quá độ lên chủ nghĩa xã hội? Liên",
+          "line": 4956,
+          "titleEndLine": 4956,
+          "syntax": "heuristic",
+          "endLine": 4959,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "2. Phân tích tính tất yếu, đặc điểm của thời kì quá độ lên chủ nghĩa xã hội? Liên"
+          ],
+          "wordCount": 22,
+          "characterCount": 96
+        },
+        {
+          "id": "h0071",
+          "level": 3,
+          "title": "3. Phân tích luận điểm của Đảng Cộng sản Việt Nam về con đường đi lên chủ",
+          "line": 4960,
+          "titleEndLine": 4960,
+          "syntax": "heuristic",
+          "endLine": 4965,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "3. Phân tích luận điểm của Đảng Cộng sản Việt Nam về con đường đi lên chủ"
+          ],
+          "wordCount": 42,
+          "characterCount": 176
+        },
+        {
+          "id": "h0072",
+          "level": 2,
+          "title": "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+          "line": 4966,
+          "titleEndLine": 4966,
+          "syntax": "heuristic",
+          "endLine": 6527,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 12159,
+          "characterCount": 55107
+        },
+        {
+          "id": "h0073",
+          "level": 3,
+          "title": "1. Đảng Cộng sản Việt Nam, Văn kiện các Đại hội đại biểu toàn quốc của",
+          "line": 4968,
+          "titleEndLine": 4968,
+          "syntax": "heuristic",
+          "endLine": 4971,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Đảng Cộng sản Việt Nam, Văn kiện các Đại hội đại biểu toàn quốc của"
+          ],
+          "wordCount": 29,
+          "characterCount": 131
+        },
+        {
+          "id": "h0074",
+          "level": 3,
+          "title": "2. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất nước trong thời kỳ quá",
+          "line": 4972,
+          "titleEndLine": 4972,
+          "syntax": "heuristic",
+          "endLine": 4975,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất nước trong thời kỳ quá"
+          ],
+          "wordCount": 30,
+          "characterCount": 136
+        },
+        {
+          "id": "h0075",
+          "level": 3,
+          "title": "3. Hội đồng trung ương chỉ đạo biên soạn giáo trình quốc gia các bộ môn Mác -",
+          "line": 4976,
+          "titleEndLine": 4976,
+          "syntax": "heuristic",
+          "endLine": 4994,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Hội đồng trung ương chỉ đạo biên soạn giáo trình quốc gia các bộ môn Mác -"
+          ],
+          "wordCount": 71,
+          "characterCount": 358
+        },
+        {
+          "id": "h0076",
+          "level": 4,
+          "title": "A. MỤC TIÊU",
+          "line": 4986,
+          "titleEndLine": 4986,
+          "syntax": "heuristic",
+          "endLine": 4994,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Hội đồng trung ương chỉ đạo biên soạn giáo trình quốc gia các bộ môn Mác -",
+            "A. MỤC TIÊU"
+          ],
+          "wordCount": 17,
+          "characterCount": 108
+        },
+        {
+          "id": "h0077",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm được bản chất của nền dân chủ xã hội chủ nghĩa",
+          "line": 4995,
+          "titleEndLine": 4995,
+          "syntax": "heuristic",
+          "endLine": 4998,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm được bản chất của nền dân chủ xã hội chủ nghĩa"
+          ],
+          "wordCount": 32,
+          "characterCount": 141
+        },
+        {
+          "id": "h0078",
+          "level": 3,
+          "title": "2. Về kỹ năng: Sinh viên có khả năng vận dụng lý luận về dân chủ xã hội chủ",
+          "line": 4999,
+          "titleEndLine": 4999,
+          "syntax": "heuristic",
+          "endLine": 5004,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Sinh viên có khả năng vận dụng lý luận về dân chủ xã hội chủ"
+          ],
+          "wordCount": 49,
+          "characterCount": 218
+        },
+        {
+          "id": "h0079",
+          "level": 3,
+          "title": "3. Về thái độ: Sinh viên khẳng định bản chất tiến bộ của nền dân chủ xã hội chủ",
+          "line": 5005,
+          "titleEndLine": 5005,
+          "syntax": "heuristic",
+          "endLine": 5014,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên khẳng định bản chất tiến bộ của nền dân chủ xã hội chủ"
+          ],
+          "wordCount": 66,
+          "characterCount": 295
+        },
+        {
+          "id": "h0080",
+          "level": 4,
+          "title": "B. NỘI DUNG",
+          "line": 5013,
+          "titleEndLine": 5013,
+          "syntax": "heuristic",
+          "endLine": 5014,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên khẳng định bản chất tiến bộ của nền dân chủ xã hội chủ",
+            "B. NỘI DUNG"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0081",
+          "level": 3,
+          "title": "1. Dân chủ và dân chủ xã hội chủ nghĩa",
+          "line": 5015,
+          "titleEndLine": 5015,
+          "syntax": "heuristic",
+          "endLine": 5620,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Dân chủ và dân chủ xã hội chủ nghĩa"
+          ],
+          "wordCount": 4871,
+          "characterCount": 21820
+        },
+        {
+          "id": "h0082",
+          "level": 3,
+          "title": "2. Nhà nước xã hội chủ nghĩa",
+          "line": 5621,
+          "titleEndLine": 5621,
+          "syntax": "heuristic",
+          "endLine": 5961,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Nhà nước xã hội chủ nghĩa"
+          ],
+          "wordCount": 2778,
+          "characterCount": 12459
+        },
+        {
+          "id": "h0083",
+          "level": 3,
+          "title": "3. Dân chủ xã hội chủ nghĩa và nhà nước pháp quyền xã hội chủ nghĩa ở Việt",
+          "line": 5962,
+          "titleEndLine": 5962,
+          "syntax": "heuristic",
+          "endLine": 6527,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Dân chủ xã hội chủ nghĩa và nhà nước pháp quyền xã hội chủ nghĩa ở Việt"
+          ],
+          "wordCount": 4226,
+          "characterCount": 19509
+        },
+        {
+          "id": "h0084",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 6528,
+          "titleEndLine": 6528,
+          "syntax": "heuristic",
+          "endLine": 6541,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 100,
+          "characterCount": 436
+        },
+        {
+          "id": "h0085",
+          "level": 3,
+          "title": "3. Bản chất và định hướng xây dựng chế độ dân chủ xã hội chủ nghĩa ở Việt",
+          "line": 6532,
+          "titleEndLine": 6532,
+          "syntax": "heuristic",
+          "endLine": 6533,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "3. Bản chất và định hướng xây dựng chế độ dân chủ xã hội chủ nghĩa ở Việt"
+          ],
+          "wordCount": 18,
+          "characterCount": 74
+        },
+        {
+          "id": "h0086",
+          "level": 3,
+          "title": "4. Nội dung và định hướng xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở",
+          "line": 6534,
+          "titleEndLine": 6534,
+          "syntax": "heuristic",
+          "endLine": 6537,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "4. Nội dung và định hướng xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở"
+          ],
+          "wordCount": 19,
+          "characterCount": 85
+        },
+        {
+          "id": "h0087",
+          "level": 3,
+          "title": "5. Liên hệ trách nhiệm cá nhân trong việc góp phần xây dựng nền dân chủ xã",
+          "line": 6538,
+          "titleEndLine": 6538,
+          "syntax": "heuristic",
+          "endLine": 6541,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "5. Liên hệ trách nhiệm cá nhân trong việc góp phần xây dựng nền dân chủ xã"
+          ],
+          "wordCount": 33,
+          "characterCount": 148
+        },
+        {
+          "id": "h0088",
+          "level": 2,
+          "title": "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+          "line": 6542,
+          "titleEndLine": 6542,
+          "syntax": "heuristic",
+          "endLine": 7761,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 9553,
+          "characterCount": 44124
+        },
+        {
+          "id": "h0089",
+          "level": 3,
+          "title": "1. Hoàng Chí Bảo, Thái Ninh (1991), Dân chủ tư sản và dân chủ xã hội chủ",
+          "line": 6544,
+          "titleEndLine": 6544,
+          "syntax": "heuristic",
+          "endLine": 6547,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Hoàng Chí Bảo, Thái Ninh (1991), Dân chủ tư sản và dân chủ xã hội chủ"
+          ],
+          "wordCount": 23,
+          "characterCount": 104
+        },
+        {
+          "id": "h0090",
+          "level": 3,
+          "title": "2. Đảng Cộng sản Việt Nam (2011), Cương lĩnh xây dựng đất nước trong thời",
+          "line": 6548,
+          "titleEndLine": 6548,
+          "syntax": "heuristic",
+          "endLine": 6551,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Đảng Cộng sản Việt Nam (2011), Cương lĩnh xây dựng đất nước trong thời"
+          ],
+          "wordCount": 33,
+          "characterCount": 157
+        },
+        {
+          "id": "h0091",
+          "level": 3,
+          "title": "3. Học viện Chính trị Quốc gia Hồ chí Minh (2014), Giáo trình cao cấp lý luận",
+          "line": 6552,
+          "titleEndLine": 6552,
+          "syntax": "heuristic",
+          "endLine": 6555,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Học viện Chính trị Quốc gia Hồ chí Minh (2014), Giáo trình cao cấp lý luận"
+          ],
+          "wordCount": 34,
+          "characterCount": 156
+        },
+        {
+          "id": "h0092",
+          "level": 3,
+          "title": "4. Nguyễn Quang Mạnh (2010), Xây dựng Nhà nước pháp quyền xã hội chủ",
+          "line": 6556,
+          "titleEndLine": 6556,
+          "syntax": "heuristic",
+          "endLine": 6559,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "4. Nguyễn Quang Mạnh (2010), Xây dựng Nhà nước pháp quyền xã hội chủ"
+          ],
+          "wordCount": 27,
+          "characterCount": 132
+        },
+        {
+          "id": "h0093",
+          "level": 3,
+          "title": "5. Đào Trí Úc (2015), Giáo trình Nhà nước pháp quyền, Nxb Đại học Quốc",
+          "line": 6560,
+          "titleEndLine": 6560,
+          "syntax": "heuristic",
+          "endLine": 6578,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "5. Đào Trí Úc (2015), Giáo trình Nhà nước pháp quyền, Nxb Đại học Quốc"
+          ],
+          "wordCount": 60,
+          "characterCount": 304
+        },
+        {
+          "id": "h0094",
+          "level": 4,
+          "title": "A. MỤC TIÊU",
+          "line": 6577,
+          "titleEndLine": 6577,
+          "syntax": "heuristic",
+          "endLine": 6578,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "5. Đào Trí Úc (2015), Giáo trình Nhà nước pháp quyền, Nxb Đại học Quốc",
+            "A. MỤC TIÊU"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0095",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm được những kiến thức nền tảng về cơ cấu xã hội",
+          "line": 6579,
+          "titleEndLine": 6579,
+          "syntax": "heuristic",
+          "endLine": 6582,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm được những kiến thức nền tảng về cơ cấu xã hội"
+          ],
+          "wordCount": 37,
+          "characterCount": 165
+        },
+        {
+          "id": "h0096",
+          "level": 3,
+          "title": "2. Về kỹ năng: Sinh viên có kỹ năng nhận diện những biến đổi trong cơ cấu xã",
+          "line": 6583,
+          "titleEndLine": 6583,
+          "syntax": "heuristic",
+          "endLine": 6588,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Sinh viên có kỹ năng nhận diện những biến đổi trong cơ cấu xã"
+          ],
+          "wordCount": 41,
+          "characterCount": 178
+        },
+        {
+          "id": "h0097",
+          "level": 3,
+          "title": "3. Về thái độ: Sinh viên nhận thức được về tầm quan trọng và thấy được sự cần",
+          "line": 6589,
+          "titleEndLine": 6589,
+          "syntax": "heuristic",
+          "endLine": 6596,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên nhận thức được về tầm quan trọng và thấy được sự cần"
+          ],
+          "wordCount": 52,
+          "characterCount": 244
+        },
+        {
+          "id": "h0098",
+          "level": 4,
+          "title": "B. NỘI DUNG",
+          "line": 6595,
+          "titleEndLine": 6595,
+          "syntax": "heuristic",
+          "endLine": 6596,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên nhận thức được về tầm quan trọng và thấy được sự cần",
+            "B. NỘI DUNG"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0099",
+          "level": 3,
+          "title": "1. Cơ cấu xã hội – giai cấp trong thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 6597,
+          "titleEndLine": 6597,
+          "syntax": "heuristic",
+          "endLine": 6882,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "1. Cơ cấu xã hội – giai cấp trong thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 2329,
+          "characterCount": 10480
+        },
+        {
+          "id": "h0100",
+          "level": 3,
+          "title": "2. Liên minh giai cấp, tầng lớp trong thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 6883,
+          "titleEndLine": 6883,
+          "syntax": "heuristic",
+          "endLine": 7062,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "2. Liên minh giai cấp, tầng lớp trong thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 1452,
+          "characterCount": 6699
+        },
+        {
+          "id": "h0101",
+          "level": 3,
+          "title": "3. Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kì quá độ lên",
+          "line": 7063,
+          "titleEndLine": 7063,
+          "syntax": "heuristic",
+          "endLine": 7761,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. DANH MỤC TÀI LIỆU THAM KHẢO",
+            "3. Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kì quá độ lên"
+          ],
+          "wordCount": 5458,
+          "characterCount": 25463
+        },
+        {
+          "id": "h0102",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 7762,
+          "titleEndLine": 7762,
+          "syntax": "heuristic",
+          "endLine": 7783,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 154,
+          "characterCount": 692
+        },
+        {
+          "id": "h0103",
+          "level": 3,
+          "title": "1. Phân tích cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+          "line": 7764,
+          "titleEndLine": 7764,
+          "syntax": "heuristic",
+          "endLine": 7767,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "1. Phân tích cơ cấu xã hội - giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 25,
+          "characterCount": 104
+        },
+        {
+          "id": "h0104",
+          "level": 3,
+          "title": "2. Trong thời kỳ quá độ lên chủ nghĩa xã hội vì sao phải thực hiện liên minh",
+          "line": 7768,
+          "titleEndLine": 7768,
+          "syntax": "heuristic",
+          "endLine": 7773,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "2. Trong thời kỳ quá độ lên chủ nghĩa xã hội vì sao phải thực hiện liên minh"
+          ],
+          "wordCount": 45,
+          "characterCount": 200
+        },
+        {
+          "id": "h0105",
+          "level": 3,
+          "title": "3. Phân tích nội dung của liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên",
+          "line": 7774,
+          "titleEndLine": 7774,
+          "syntax": "heuristic",
+          "endLine": 7779,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "3. Phân tích nội dung của liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên"
+          ],
+          "wordCount": 47,
+          "characterCount": 215
+        },
+        {
+          "id": "h0106",
+          "level": 3,
+          "title": "4. Làm rõ trách nhiệm của thanh niên, sinh viên trong việc góp phần củng cố",
+          "line": 7780,
+          "titleEndLine": 7780,
+          "syntax": "heuristic",
+          "endLine": 7783,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "4. Làm rõ trách nhiệm của thanh niên, sinh viên trong việc góp phần củng cố"
+          ],
+          "wordCount": 32,
+          "characterCount": 151
+        },
+        {
+          "id": "h0107",
+          "level": 2,
+          "title": "D. TÀI LIỆU THAM KHẢO",
+          "line": 7784,
+          "titleEndLine": 7784,
+          "syntax": "heuristic",
+          "endLine": 9550,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 13249,
+          "characterCount": 61342
+        },
+        {
+          "id": "h0108",
+          "level": 3,
+          "title": "1. Đảng Cộng sản Việt Nam (2008), Văn kiện Hội nghị lần thứ sáu Ban Chấp",
+          "line": 7786,
+          "titleEndLine": 7786,
+          "syntax": "heuristic",
+          "endLine": 7789,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Đảng Cộng sản Việt Nam (2008), Văn kiện Hội nghị lần thứ sáu Ban Chấp"
+          ],
+          "wordCount": 28,
+          "characterCount": 130
+        },
+        {
+          "id": "h0109",
+          "level": 3,
+          "title": "2. Đảng Cộng sản Việt Nam (2008), Văn kiện Hội nghị lần thứ bảy Ban Chấp",
+          "line": 7790,
+          "titleEndLine": 7790,
+          "syntax": "heuristic",
+          "endLine": 7793,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Đảng Cộng sản Việt Nam (2008), Văn kiện Hội nghị lần thứ bảy Ban Chấp"
+          ],
+          "wordCount": 28,
+          "characterCount": 129
+        },
+        {
+          "id": "h0110",
+          "level": 3,
+          "title": "3. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất trong thời kỳ quá độ lên",
+          "line": 7794,
+          "titleEndLine": 7794,
+          "syntax": "heuristic",
+          "endLine": 7804,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất trong thời kỳ quá độ lên"
+          ],
+          "wordCount": 48,
+          "characterCount": 254
+        },
+        {
+          "id": "h0111",
+          "level": 3,
+          "title": "4. Đảng Cộng sản Việt Nam (2016), Văn kiện Đại hội đại biểu toàn quốc lần",
+          "line": 7805,
+          "titleEndLine": 7805,
+          "syntax": "heuristic",
+          "endLine": 7808,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "4. Đảng Cộng sản Việt Nam (2016), Văn kiện Đại hội đại biểu toàn quốc lần"
+          ],
+          "wordCount": 24,
+          "characterCount": 115
+        },
+        {
+          "id": "h0112",
+          "level": 3,
+          "title": "5. Tạ Ngọc Tấn (Chủ biên) (2010), Một số vấn đề về biến đổi cơ cấu xã hội Việt",
+          "line": 7809,
+          "titleEndLine": 7809,
+          "syntax": "heuristic",
+          "endLine": 7827,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Tạ Ngọc Tấn (Chủ biên) (2010), Một số vấn đề về biến đổi cơ cấu xã hội Việt"
+          ],
+          "wordCount": 65,
+          "characterCount": 317
+        },
+        {
+          "id": "h0113",
+          "level": 4,
+          "title": "A. Mục tiêu",
+          "line": 7826,
+          "titleEndLine": 7826,
+          "syntax": "heuristic",
+          "endLine": 7827,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Tạ Ngọc Tấn (Chủ biên) (2010), Một số vấn đề về biến đổi cơ cấu xã hội Việt",
+            "A. Mục tiêu"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0114",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm được quan điểm cơ bản của chủ nghĩa Mác –",
+          "line": 7828,
+          "titleEndLine": 7828,
+          "syntax": "heuristic",
+          "endLine": 7831,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm được quan điểm cơ bản của chủ nghĩa Mác –"
+          ],
+          "wordCount": 22,
+          "characterCount": 99
+        },
+        {
+          "id": "h0115",
+          "level": 3,
+          "title": "2. Về kỹ năng: Sinh viên rèn luyện kỹ năng tư duy và năng lực vận dụng những",
+          "line": 7832,
+          "titleEndLine": 7832,
+          "syntax": "heuristic",
+          "endLine": 7837,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Sinh viên rèn luyện kỹ năng tư duy và năng lực vận dụng những"
+          ],
+          "wordCount": 42,
+          "characterCount": 189
+        },
+        {
+          "id": "h0116",
+          "level": 3,
+          "title": "3. Về tư tưởng: Sinh viên thấy rõ tính khoa học trong quan điểm và cách thức",
+          "line": 7838,
+          "titleEndLine": 7838,
+          "syntax": "heuristic",
+          "endLine": 7847,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về tư tưởng: Sinh viên thấy rõ tính khoa học trong quan điểm và cách thức"
+          ],
+          "wordCount": 66,
+          "characterCount": 314
+        },
+        {
+          "id": "h0117",
+          "level": 4,
+          "title": "B. Nội dung",
+          "line": 7846,
+          "titleEndLine": 7846,
+          "syntax": "heuristic",
+          "endLine": 7847,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về tư tưởng: Sinh viên thấy rõ tính khoa học trong quan điểm và cách thức",
+            "B. Nội dung"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0118",
+          "level": 3,
+          "title": "1. Dân tộc trong thời kỳ quá độ lên chủ nghĩa xã hội",
+          "line": 7848,
+          "titleEndLine": 7848,
+          "syntax": "heuristic",
+          "endLine": 8498,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Dân tộc trong thời kỳ quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 4826,
+          "characterCount": 22211
+        },
+        {
+          "id": "h0119",
+          "level": 3,
+          "title": "2. Tôn giáo trong thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 8499,
+          "titleEndLine": 8499,
+          "syntax": "heuristic",
+          "endLine": 9155,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Tôn giáo trong thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 4975,
+          "characterCount": 23162
+        },
+        {
+          "id": "h0120",
+          "level": 3,
+          "title": "3. Quan hệ dân tộc và tôn giáo ở Việt Nam",
+          "line": 9156,
+          "titleEndLine": 9156,
+          "syntax": "heuristic",
+          "endLine": 9550,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Quan hệ dân tộc và tôn giáo ở Việt Nam"
+          ],
+          "wordCount": 3120,
+          "characterCount": 14389
+        },
+        {
+          "id": "h0121",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 9551,
+          "titleEndLine": 9551,
+          "syntax": "heuristic",
+          "endLine": 9578,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 206,
+          "characterCount": 909
+        },
+        {
+          "id": "h0122",
+          "level": 3,
+          "title": "1. Phân tích quan điểm Mác - Lênin về vấn đề dân tộc và giải quyết vấn đề dân",
+          "line": 9553,
+          "titleEndLine": 9553,
+          "syntax": "heuristic",
+          "endLine": 9556,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "1. Phân tích quan điểm Mác - Lênin về vấn đề dân tộc và giải quyết vấn đề dân"
+          ],
+          "wordCount": 26,
+          "characterCount": 117
+        },
+        {
+          "id": "h0123",
+          "level": 3,
+          "title": "2. Trình bày những quan điểm, tư tưởng, chính sách, pháp luật của Đảng và",
+          "line": 9557,
+          "titleEndLine": 9557,
+          "syntax": "heuristic",
+          "endLine": 9562,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "2. Trình bày những quan điểm, tư tưởng, chính sách, pháp luật của Đảng và"
+          ],
+          "wordCount": 52,
+          "characterCount": 229
+        },
+        {
+          "id": "h0124",
+          "level": 3,
+          "title": "3. Phân tích, làm rõ quan điểm của chủ nghĩa Mác - Lênin về vấn đề tôn giáo",
+          "line": 9563,
+          "titleEndLine": 9563,
+          "syntax": "heuristic",
+          "endLine": 9566,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "3. Phân tích, làm rõ quan điểm của chủ nghĩa Mác - Lênin về vấn đề tôn giáo"
+          ],
+          "wordCount": 31,
+          "characterCount": 140
+        },
+        {
+          "id": "h0125",
+          "level": 3,
+          "title": "4. Trình bày những quan điểm, tư tưởng, chính sách, pháp luật của Đảng và",
+          "line": 9567,
+          "titleEndLine": 9567,
+          "syntax": "heuristic",
+          "endLine": 9572,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "4. Trình bày những quan điểm, tư tưởng, chính sách, pháp luật của Đảng và"
+          ],
+          "wordCount": 52,
+          "characterCount": 231
+        },
+        {
+          "id": "h0126",
+          "level": 3,
+          "title": "5. Vì sao vấn đề dân tộc luôn gắn liền với vấn đề tôn giáo và có ảnh hưởng sâu",
+          "line": 9573,
+          "titleEndLine": 9573,
+          "syntax": "heuristic",
+          "endLine": 9578,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "5. Vì sao vấn đề dân tộc luôn gắn liền với vấn đề tôn giáo và có ảnh hưởng sâu"
+          ],
+          "wordCount": 40,
+          "characterCount": 169
+        },
+        {
+          "id": "h0127",
+          "level": 2,
+          "title": "D. TÀI LIỆU THAM KHẢO",
+          "line": 9579,
+          "titleEndLine": 9579,
+          "syntax": "heuristic",
+          "endLine": 10923,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 10243,
+          "characterCount": 46900
+        },
+        {
+          "id": "h0128",
+          "level": 3,
+          "title": "1. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất nước trong thời kỳ quá",
+          "line": 9581,
+          "titleEndLine": 9581,
+          "syntax": "heuristic",
+          "endLine": 9586,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Đảng Cộng sản Việt Nam, Cương lĩnh xây dựng đất nước trong thời kỳ quá"
+          ],
+          "wordCount": 36,
+          "characterCount": 169
+        },
+        {
+          "id": "h0129",
+          "level": 3,
+          "title": "2. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XII,",
+          "line": 9587,
+          "titleEndLine": 9587,
+          "syntax": "heuristic",
+          "endLine": 9597,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ XII,"
+          ],
+          "wordCount": 39,
+          "characterCount": 211
+        },
+        {
+          "id": "h0130",
+          "level": 3,
+          "title": "3. Đảng Cộng sản Việt Nam, Nghị quyết số 24 - NQ/TƯ, ngày 12/3/2003 của",
+          "line": 9598,
+          "titleEndLine": 9598,
+          "syntax": "heuristic",
+          "endLine": 9601,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Đảng Cộng sản Việt Nam, Nghị quyết số 24 - NQ/TƯ, ngày 12/3/2003 của"
+          ],
+          "wordCount": 30,
+          "characterCount": 133
+        },
+        {
+          "id": "h0131",
+          "level": 3,
+          "title": "4. Đảng Cộng sản Việt Nam, Nghị quyết số 25 - NQ/TƯ, ngày 12/3/2003 của",
+          "line": 9602,
+          "titleEndLine": 9602,
+          "syntax": "heuristic",
+          "endLine": 9605,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "4. Đảng Cộng sản Việt Nam, Nghị quyết số 25 - NQ/TƯ, ngày 12/3/2003 của"
+          ],
+          "wordCount": 30,
+          "characterCount": 134
+        },
+        {
+          "id": "h0132",
+          "level": 3,
+          "title": "5. Ban Tuyên giáo Trung ương Đảng, Vấn đề dân tộc và chính sách dân tộc,",
+          "line": 9606,
+          "titleEndLine": 9606,
+          "syntax": "heuristic",
+          "endLine": 9609,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Ban Tuyên giáo Trung ương Đảng, Vấn đề dân tộc và chính sách dân tộc,"
+          ],
+          "wordCount": 26,
+          "characterCount": 124
+        },
+        {
+          "id": "h0133",
+          "level": 3,
+          "title": "6. Quốc hội nước CHXHCN Việt Nam (khóa XIV), Luật tín ngưỡng, tôn giáo,",
+          "line": 9610,
+          "titleEndLine": 9610,
+          "syntax": "heuristic",
+          "endLine": 9613,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "6. Quốc hội nước CHXHCN Việt Nam (khóa XIV), Luật tín ngưỡng, tôn giáo,"
+          ],
+          "wordCount": 23,
+          "characterCount": 112
+        },
+        {
+          "id": "h0134",
+          "level": 3,
+          "title": "7. Dương Xuân Ngọc, Giáo trình Chủ nghĩa xã hội khoa học, dùng cho hệ đào",
+          "line": 9614,
+          "titleEndLine": 9614,
+          "syntax": "heuristic",
+          "endLine": 9632,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "7. Dương Xuân Ngọc, Giáo trình Chủ nghĩa xã hội khoa học, dùng cho hệ đào"
+          ],
+          "wordCount": 60,
+          "characterCount": 305
+        },
+        {
+          "id": "h0135",
+          "level": 4,
+          "title": "A. Mục tiêu",
+          "line": 9631,
+          "titleEndLine": 9631,
+          "syntax": "heuristic",
+          "endLine": 9632,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "7. Dương Xuân Ngọc, Giáo trình Chủ nghĩa xã hội khoa học, dùng cho hệ đào",
+            "A. Mục tiêu"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0136",
+          "level": 3,
+          "title": "1. Về kiến thức: Sinh viên nắm được những quan điểm cơ bản của chủ nghĩa Mác -",
+          "line": 9633,
+          "titleEndLine": 9633,
+          "syntax": "heuristic",
+          "endLine": 9640,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Về kiến thức: Sinh viên nắm được những quan điểm cơ bản của chủ nghĩa Mác -"
+          ],
+          "wordCount": 55,
+          "characterCount": 250
+        },
+        {
+          "id": "h0137",
+          "level": 3,
+          "title": "2. Về kỹ năng: Sinh viên có kỹ năng, phương pháp khoa học trong nghiên cứu những",
+          "line": 9641,
+          "titleEndLine": 9641,
+          "syntax": "heuristic",
+          "endLine": 9646,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Về kỹ năng: Sinh viên có kỹ năng, phương pháp khoa học trong nghiên cứu những"
+          ],
+          "wordCount": 49,
+          "characterCount": 216
+        },
+        {
+          "id": "h0138",
+          "level": 3,
+          "title": "3. Về thái độ: Sinh viên có thái độ và hành vi đúng đắn trong xây dựng gia đình, xây",
+          "line": 9647,
+          "titleEndLine": 9647,
+          "syntax": "heuristic",
+          "endLine": 9652,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên có thái độ và hành vi đúng đắn trong xây dựng gia đình, xây"
+          ],
+          "wordCount": 35,
+          "characterCount": 149
+        },
+        {
+          "id": "h0139",
+          "level": 4,
+          "title": "B. Nội dung",
+          "line": 9651,
+          "titleEndLine": 9651,
+          "syntax": "heuristic",
+          "endLine": 9652,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Về thái độ: Sinh viên có thái độ và hành vi đúng đắn trong xây dựng gia đình, xây",
+            "B. Nội dung"
+          ],
+          "wordCount": 3,
+          "characterCount": 12
+        },
+        {
+          "id": "h0140",
+          "level": 3,
+          "title": "1. Khái niệm, vị trí và chức năng của gia đình",
+          "line": 9653,
+          "titleEndLine": 9653,
+          "syntax": "heuristic",
+          "endLine": 10089,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Khái niệm, vị trí và chức năng của gia đình"
+          ],
+          "wordCount": 3397,
+          "characterCount": 15528
+        },
+        {
+          "id": "h0141",
+          "level": 3,
+          "title": "2. Cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 10090,
+          "titleEndLine": 10090,
+          "syntax": "heuristic",
+          "endLine": 10379,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Cơ sở xây dựng gia đình trong thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 2306,
+          "characterCount": 10336
+        },
+        {
+          "id": "h0142",
+          "level": 3,
+          "title": "3. Xây dựng gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội",
+          "line": 10380,
+          "titleEndLine": 10380,
+          "syntax": "heuristic",
+          "endLine": 10923,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Xây dựng gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã hội"
+          ],
+          "wordCount": 4152,
+          "characterCount": 19198
+        },
+        {
+          "id": "h0143",
+          "level": 2,
+          "title": "C. CÂU HỎI ÔN TẬP",
+          "line": 10924,
+          "titleEndLine": 10924,
+          "syntax": "heuristic",
+          "endLine": 10937,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP"
+          ],
+          "wordCount": 81,
+          "characterCount": 358
+        },
+        {
+          "id": "h0144",
+          "level": 3,
+          "title": "3. Những biến đổi cơ bản của gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã",
+          "line": 10930,
+          "titleEndLine": 10930,
+          "syntax": "heuristic",
+          "endLine": 10933,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "3. Những biến đổi cơ bản của gia đình Việt Nam trong thời kì quá độ lên chủ nghĩa xã"
+          ],
+          "wordCount": 21,
+          "characterCount": 91
+        },
+        {
+          "id": "h0145",
+          "level": 3,
+          "title": "4. Trình bày những phương hướng xây dựng và phát triên gia đình ở Việt Nam trong",
+          "line": 10934,
+          "titleEndLine": 10934,
+          "syntax": "heuristic",
+          "endLine": 10937,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "C. CÂU HỎI ÔN TẬP",
+            "4. Trình bày những phương hướng xây dựng và phát triên gia đình ở Việt Nam trong"
+          ],
+          "wordCount": 26,
+          "characterCount": 119
+        },
+        {
+          "id": "h0146",
+          "level": 2,
+          "title": "D. TÀI LIỆU THAM KHẢO",
+          "line": 10938,
+          "titleEndLine": 10938,
+          "syntax": "heuristic",
+          "endLine": 10959,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO"
+          ],
+          "wordCount": 126,
+          "characterCount": 603
+        },
+        {
+          "id": "h0147",
+          "level": 3,
+          "title": "1. Đảng Cộng sản Việt Nam (2016), Văn kiện Đại hội Đại biểu toàn quốc lần thứ XII,",
+          "line": 10940,
+          "titleEndLine": 10940,
+          "syntax": "heuristic",
+          "endLine": 10943,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "1. Đảng Cộng sản Việt Nam (2016), Văn kiện Đại hội Đại biểu toàn quốc lần thứ XII,"
+          ],
+          "wordCount": 25,
+          "characterCount": 116
+        },
+        {
+          "id": "h0148",
+          "level": 3,
+          "title": "2. Quốc hội số 52/2014/QH13, Luật Hôn nhân và Gia đình, ban hành ngày 19 tháng 6",
+          "line": 10944,
+          "titleEndLine": 10944,
+          "syntax": "heuristic",
+          "endLine": 10947,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "2. Quốc hội số 52/2014/QH13, Luật Hôn nhân và Gia đình, ban hành ngày 19 tháng 6"
+          ],
+          "wordCount": 21,
+          "characterCount": 92
+        },
+        {
+          "id": "h0149",
+          "level": 3,
+          "title": "3. Chiến lược phát triển gia đình Việt Nam đến năm 2020, tầm nhìn 2030 - Quyết định",
+          "line": 10948,
+          "titleEndLine": 10948,
+          "syntax": "heuristic",
+          "endLine": 10953,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "3. Chiến lược phát triển gia đình Việt Nam đến năm 2020, tầm nhìn 2030 - Quyết định"
+          ],
+          "wordCount": 47,
+          "characterCount": 227
+        },
+        {
+          "id": "h0150",
+          "level": 3,
+          "title": "5. Lê Ngọc Văn (2011), Gia đình và biến đổi gia đình ở Việt Nam, Nxb KHXH, Hà",
+          "line": 10954,
+          "titleEndLine": 10954,
+          "syntax": "heuristic",
+          "endLine": 10959,
+          "path": [
+            "Chương 7................................................................................................................... 142 VẤN ĐỀ GIA ĐÌNH TRONG THỜI KÌ QUÁ ĐỘ LÊN CHỦ NGHĨA XÃ HỘI.....142",
+            "D. TÀI LIỆU THAM KHẢO",
+            "5. Lê Ngọc Văn (2011), Gia đình và biến đổi gia đình ở Việt Nam, Nxb KHXH, Hà"
+          ],
+          "wordCount": 28,
+          "characterCount": 142
+        }
+      ],
+      "warnings": [
+        {
+          "rule": "download-metadata",
+          "line": 17,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 17,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 36,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 36,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 97,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 97,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 164,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 164,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 193,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 193,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 244,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 244,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 312,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 312,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 379,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 379,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 447,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 447,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 516,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 516,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 585,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 585,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 654,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 654,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 723,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 723,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 794,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 794,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 863,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 863,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 932,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 932,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1001,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1001,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1070,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1070,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1139,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1139,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "url",
+          "line": 1206,
+          "text": "1 Xem http://dangcongsan.vn/tu-lieu-van-kien/cac-ban-dang-trung-uong/books"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1208,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1208,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1277,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1277,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1346,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1346,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1415,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1415,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1484,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1484,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1553,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1553,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1622,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1622,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1691,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1691,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1760,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1760,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1829,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1829,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1891,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1891,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 1958,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 1958,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2024,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2024,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2092,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2092,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2161,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2161,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2230,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2230,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2299,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2299,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2368,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2368,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2437,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2437,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2506,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2506,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2575,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2575,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2641,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2641,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2710,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2710,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2779,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2779,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2848,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2848,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2917,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2917,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 2987,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 2987,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3056,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3056,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3125,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3125,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3195,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3195,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3264,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3264,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3333,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3333,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3403,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3403,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3458,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3458,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3511,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3511,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3580,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3580,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3647,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3647,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3716,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3716,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3784,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3784,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3854,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3854,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3920,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3920,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 3990,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 3990,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4059,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4059,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4129,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4129,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4199,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4199,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4268,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4268,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4337,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4337,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4406,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4406,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4475,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4475,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4540,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4540,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4609,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4609,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "url",
+          "line": 4675,
+          "text": "2http://tulieuvankien.dangcongsan.vn"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4677,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4677,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "url",
+          "line": 4744,
+          "text": "3 http://tulieuvankien.dangcongsan.vn"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4746,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4746,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "url",
+          "line": 4813,
+          "text": "1http://tulieuvankien.dangcongsan.vn"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4815,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4815,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4884,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4884,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4945,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4945,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 4988,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 4988,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5057,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5057,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5126,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5126,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5195,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5195,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5262,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5262,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5331,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5331,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5400,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5400,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5470,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5470,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5539,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5539,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5608,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5608,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5677,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5677,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5746,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5746,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5813,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5813,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5880,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5880,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 5949,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 5949,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6019,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6019,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6088,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6088,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6157,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6157,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6226,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6226,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6296,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6296,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6365,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6365,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6434,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6434,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "download-metadata",
+          "line": 6503,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        },
+        {
+          "rule": "email",
+          "line": 6503,
+          "text": "Downloaded by Nguy?n Ph??ng (phuongminh882005@gmail.com)"
+        }
+      ],
+      "omittedWarningCount": 143
+    }
+  ],
+  "totals": {
+    "fileCount": 1,
+    "bytes": 521726,
+    "lineCount": 10959,
+    "wordCount": 83628,
+    "headingCount": 150,
+    "warningCount": 343
+  }
+}

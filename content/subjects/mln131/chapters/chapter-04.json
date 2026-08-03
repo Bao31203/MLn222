@@ -1,0 +1,922 @@
+[
+  {
+    "id": "MLN131-C04-Q001",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "khái niệm dân chủ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về khái niệm dân chủ?",
+    "options": [
+      "Dân chủ là đặc quyền của thiểu số, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ là quyền lực thuộc về nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ đơn thuần là tự do không giới hạn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ không liên hệ quyền lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về khái niệm dân chủ, giáo trình xác định: dân chủ là quyền lực thuộc về nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về khái niệm dân chủ, giáo trình xác định: dân chủ là quyền lực thuộc về nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q002",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ như giá trị xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng dân chủ như giá trị xã hội?",
+    "options": [
+      "Dân chủ loại trừ nghĩa vụ công dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Dân chủ đơn thuần là thủ tục bầu cử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ là giá trị riêng của tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ phản ánh thành quả đấu tranh vì quyền làm chủ của nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về dân chủ như giá trị xã hội, giáo trình xác định: dân chủ phản ánh thành quả đấu tranh vì quyền làm chủ của nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về dân chủ như giá trị xã hội, giáo trình xác định: dân chủ phản ánh thành quả đấu tranh vì quyền làm chủ của nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q003",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ như chế độ chính trị",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của dân chủ như chế độ chính trị là gì?",
+    "options": [
+      "Dân chủ được thể chế hóa bằng nhà nước, pháp luật và cơ chế thực thi quyền lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ đơn thuần tồn tại trong ý thức cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ không đòi hỏi thiết chế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Dân chủ đồng nghĩa không có nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dân chủ như chế độ chính trị, giáo trình xác định: dân chủ được thể chế hóa bằng nhà nước, pháp luật và cơ chế thực thi quyền lực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về dân chủ như chế độ chính trị, giáo trình xác định: dân chủ được thể chế hóa bằng nhà nước, pháp luật và cơ chế thực thi quyền lực."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q004",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ trong cộng đồng nguyên thủy",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về dân chủ trong cộng đồng nguyên thủy?",
+    "options": [
+      "Dân chủ đơn thuần xuất hiện cùng tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Hình thức dân chủ sơ khai gắn với quyền lực cộng đồng khi chưa có nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ nguyên thủy do quý tộc độc quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ sơ khai dựa trên lao động làm thuê, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về dân chủ trong cộng đồng nguyên thủy, giáo trình xác định: hình thức dân chủ sơ khai gắn với quyền lực cộng đồng khi chưa có nhà nước. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về dân chủ trong cộng đồng nguyên thủy, giáo trình xác định: hình thức dân chủ sơ khai gắn với quyền lực cộng đồng khi chưa có nhà nước."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q005",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ chủ nô",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về dân chủ chủ nô?",
+    "options": [
+      "Quyền dân chủ đơn thuần dành cho thiểu số công dân tự do và loại trừ nô lệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các thành viên đều bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nô lệ nắm quyền nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có tính giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về dân chủ chủ nô, giáo trình xác định: quyền dân chủ chỉ dành cho thiểu số công dân tự do và loại trừ nô lệ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về dân chủ chủ nô, giáo trình xác định: quyền dân chủ chỉ dành cho thiểu số công dân tự do và loại trừ nô lệ."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q006",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ tư sản",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác dân chủ tư sản?",
+    "options": [
+      "Thực hiện đầy đủ quyền lực của các lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là bước tiến lịch sử nhưng mang bản chất và giới hạn của giai cấp tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không dựa trên sở hữu tư nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Xóa bỏ các bất bình đẳng thực tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về dân chủ tư sản, giáo trình xác định: là bước tiến lịch sử nhưng mang bản chất và giới hạn của giai cấp tư sản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về dân chủ tư sản, giáo trình xác định: là bước tiến lịch sử nhưng mang bản chất và giới hạn của giai cấp tư sản."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q007",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "tính lịch sử của dân chủ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét tính lịch sử của dân chủ?",
+    "options": [
+      "Dân chủ không liên hệ phương thức sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ bất biến qua các thời đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nội dung và hình thức dân chủ biến đổi theo điều kiện kinh tế – xã hội và giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tên gọi dân chủ thay đổi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về tính lịch sử của dân chủ, giáo trình xác định: nội dung và hình thức dân chủ biến đổi theo điều kiện kinh tế – xã hội và giai cấp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về tính lịch sử của dân chủ, giáo trình xác định: nội dung và hình thức dân chủ biến đổi theo điều kiện kinh tế – xã hội và giai cấp."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q008",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "đánh giá dân chủ chỉ là khẩu hiệu",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với đánh giá dân chủ chỉ là khẩu hiệu?",
+    "options": [
+      "Không cần năng lực tham gia của dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần tuyên bố quyền là đủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần pháp luật và giám sát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không chỉ xét về hình thức, dân chủ phải được thể chế hóa và bảo đảm bằng điều kiện thực hiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đánh giá dân chủ chỉ là khẩu hiệu, giáo trình xác định: dân chủ phải được thể chế hóa và bảo đảm bằng điều kiện thực hiện. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.1 > Dân chủ và sự ra đời, phát triển của dân chủ",
+      "text": "Về đánh giá dân chủ chỉ là khẩu hiệu, giáo trình xác định: dân chủ phải được thể chế hóa và bảo đảm bằng điều kiện thực hiện."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q009",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "sự ra đời dân chủ xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về sự ra đời dân chủ xã hội chủ nghĩa?",
+    "options": [
+      "Không cần cơ sở kinh tế mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Ra đời trước các xã hội có giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Do tư sản tự nguyện trao quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ xã hội chủ nghĩa hình thành cùng thắng lợi cách mạng vô sản và nhà nước mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về sự ra đời dân chủ xã hội chủ nghĩa, giáo trình xác định: dân chủ xã hội chủ nghĩa hình thành cùng thắng lợi cách mạng vô sản và nhà nước mới. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về sự ra đời dân chủ xã hội chủ nghĩa, giáo trình xác định: dân chủ xã hội chủ nghĩa hình thành cùng thắng lợi cách mạng vô sản và nhà nước mới."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q010",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bản chất chính trị của dân chủ xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng bản chất chính trị của dân chủ xã hội chủ nghĩa?",
+    "options": [
+      "Mang bản chất giai cấp công nhân và có tính nhân dân rộng rãi, tính dân tộc sâu sắc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trung lập vô điều kiện về giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là phục vụ một nhóm công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách khỏi lợi ích dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về bản chất chính trị của dân chủ xã hội chủ nghĩa, giáo trình xác định: mang bản chất giai cấp công nhân và có tính nhân dân rộng rãi, tính dân tộc sâu sắc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về bản chất chính trị của dân chủ xã hội chủ nghĩa, giáo trình xác định: mang bản chất giai cấp công nhân và có tính nhân dân rộng rãi, tính dân tộc sâu sắc."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q011",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bản chất kinh tế của dân chủ xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của bản chất kinh tế của dân chủ xã hội chủ nghĩa là gì?",
+    "options": [
+      "Không cần nền tảng kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Dựa trên độc quyền tư hữu tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dựa trên chế độ công hữu các tư liệu sản xuất chủ yếu và phát triển lực lượng sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dựa trên sản xuất nhỏ vĩnh viễn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về bản chất kinh tế của dân chủ xã hội chủ nghĩa, giáo trình xác định: dựa trên chế độ công hữu các tư liệu sản xuất chủ yếu và phát triển lực lượng sản xuất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về bản chất kinh tế của dân chủ xã hội chủ nghĩa, giáo trình xác định: dựa trên chế độ công hữu các tư liệu sản xuất chủ yếu và phát triển lực lượng sản xuất."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q012",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bản chất tư tưởng – văn hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về bản chất tư tưởng – văn hóa?",
+    "options": [
+      "Phủ nhận các di sản dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lấy hệ tư tưởng Mác – Lênin làm chủ đạo và kế thừa giá trị văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chấp nhận hệ tư tưởng tư sản thống trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách dân chủ khỏi văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về bản chất tư tưởng – văn hóa, giáo trình xác định: lấy hệ tư tưởng Mác – Lênin làm chủ đạo và kế thừa giá trị văn hóa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về bản chất tư tưởng – văn hóa, giáo trình xác định: lấy hệ tư tưởng Mác – Lênin làm chủ đạo và kế thừa giá trị văn hóa."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q013",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "mục tiêu dân chủ xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về mục tiêu dân chủ xã hội chủ nghĩa?",
+    "options": [
+      "Bảo đảm quyền lực thực tế của nhân dân và phát triển con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là duy trì bình đẳng hình thức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bảo vệ đặc quyền tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Giảm sự tham gia của nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về mục tiêu dân chủ xã hội chủ nghĩa, giáo trình xác định: bảo đảm quyền lực thực tế của nhân dân và phát triển con người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về mục tiêu dân chủ xã hội chủ nghĩa, giáo trình xác định: bảo đảm quyền lực thực tế của nhân dân và phát triển con người."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q014",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ và kỷ cương",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác dân chủ và kỷ cương?",
+    "options": [
+      "Kỷ cương phải gạt bỏ dân chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ cho phép đứng trên pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mở rộng dân chủ phải gắn với pháp luật, kỷ luật và trách nhiệm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai mặt không liên hệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về dân chủ và kỷ cương, giáo trình xác định: mở rộng dân chủ phải gắn với pháp luật, kỷ luật và trách nhiệm. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về dân chủ và kỷ cương, giáo trình xác định: mở rộng dân chủ phải gắn với pháp luật, kỷ luật và trách nhiệm."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q015",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ trực tiếp và đại diện",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét dân chủ trực tiếp và đại diện?",
+    "options": [
+      "Hai hình thức cần kết hợp để nhân dân thực hiện quyền làm chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ trực tiếp gạt bỏ các đại diện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đại diện làm nhân dân mất quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là một hình thức hợp pháp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dân chủ trực tiếp và đại diện, giáo trình xác định: hai hình thức cần kết hợp để nhân dân thực hiện quyền làm chủ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về dân chủ trực tiếp và đại diện, giáo trình xác định: hai hình thức cần kết hợp để nhân dân thực hiện quyền làm chủ."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q016",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "vận dụng quyền làm chủ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với vận dụng quyền làm chủ?",
+    "options": [
+      "Cần công khai thông tin, tạo cơ chế tham gia và chịu trách nhiệm giải trình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là lấy ý kiến hình thức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giữ kín thông tin liên quan dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần phản hồi kiến nghị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về vận dụng quyền làm chủ, giáo trình xác định: cần công khai thông tin, tạo cơ chế tham gia và chịu trách nhiệm giải trình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.1.2 > Dân chủ xã hội chủ nghĩa",
+      "text": "Về vận dụng quyền làm chủ, giáo trình xác định: cần công khai thông tin, tạo cơ chế tham gia và chịu trách nhiệm giải trình."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q017",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "nguồn gốc nhà nước xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về nguồn gốc nhà nước xã hội chủ nghĩa?",
+    "options": [
+      "Không liên hệ đấu tranh giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Do nhà nước tư sản tự chuyển hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có trước cách mạng vô sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Ra đời từ cách mạng do giai cấp công nhân và nhân dân lao động tiến hành, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về nguồn gốc nhà nước xã hội chủ nghĩa, giáo trình xác định: ra đời từ cách mạng do giai cấp công nhân và nhân dân lao động tiến hành. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về nguồn gốc nhà nước xã hội chủ nghĩa, giáo trình xác định: ra đời từ cách mạng do giai cấp công nhân và nhân dân lao động tiến hành."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q018",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bản chất nhà nước xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng bản chất nhà nước xã hội chủ nghĩa?",
+    "options": [
+      "Không mang bản chất giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mang bản chất công nhân, đồng thời có tính nhân dân rộng rãi và tính dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là bảo vệ lợi ích đảng viên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách khỏi cộng đồng dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về bản chất nhà nước xã hội chủ nghĩa, giáo trình xác định: mang bản chất công nhân, đồng thời có tính nhân dân rộng rãi và tính dân tộc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về bản chất nhà nước xã hội chủ nghĩa, giáo trình xác định: mang bản chất công nhân, đồng thời có tính nhân dân rộng rãi và tính dân tộc."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q019",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "chức năng trấn áp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của chức năng trấn áp là gì?",
+    "options": [
+      "Trấn áp các ý kiến khác biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trấn áp lực lượng chống phá và bảo vệ thành quả cách mạng theo pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là chức năng riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không chịu giới hạn pháp lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về chức năng trấn áp, giáo trình xác định: trấn áp lực lượng chống phá và bảo vệ thành quả cách mạng theo pháp luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về chức năng trấn áp, giáo trình xác định: trấn áp lực lượng chống phá và bảo vệ thành quả cách mạng theo pháp luật."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q020",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "chức năng tổ chức xây dựng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về chức năng tổ chức xây dựng?",
+    "options": [
+      "Đơn thuần là quản lý quân sự, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tổ chức kinh tế, văn hóa, xã hội và phục vụ đời sống nhân dân là nhiệm vụ cơ bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không tham gia phát triển xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Kém quan trọng hơn các hoạt động cưỡng chế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về chức năng tổ chức xây dựng, giáo trình xác định: tổ chức kinh tế, văn hóa, xã hội và phục vụ đời sống nhân dân là nhiệm vụ cơ bản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về chức năng tổ chức xây dựng, giáo trình xác định: tổ chức kinh tế, văn hóa, xã hội và phục vụ đời sống nhân dân là nhiệm vụ cơ bản."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q021",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "nhà nước nửa nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về nhà nước nửa nhà nước?",
+    "options": [
+      "Nhà nước biến mất ngay sau cách mạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước phải mạnh lên vô hạn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước xã hội chủ nghĩa tạo điều kiện để quyền lực nhà nước dần tiêu vong khi cơ sở giai cấp mất đi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước chẳng khi nào thay đổi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về nhà nước nửa nhà nước, giáo trình xác định: nhà nước xã hội chủ nghĩa tạo điều kiện để quyền lực nhà nước dần tiêu vong khi cơ sở giai cấp mất đi. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về nhà nước nửa nhà nước, giáo trình xác định: nhà nước xã hội chủ nghĩa tạo điều kiện để quyền lực nhà nước dần tiêu vong khi cơ sở giai cấp mất đi."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q022",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "quan hệ dân chủ và nhà nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác quan hệ dân chủ và nhà nước?",
+    "options": [
+      "Dân chủ không đòi hỏi nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước đảm nhiệm thay về căn bản dân chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ là cơ sở, còn nhà nước là công cụ chủ yếu để thực hiện quyền làm chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai yếu tố đối lập vô điều kiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về quan hệ dân chủ và nhà nước, giáo trình xác định: dân chủ là cơ sở, còn nhà nước là công cụ chủ yếu để thực hiện quyền làm chủ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về quan hệ dân chủ và nhà nước, giáo trình xác định: dân chủ là cơ sở, còn nhà nước là công cụ chủ yếu để thực hiện quyền làm chủ."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q023",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "pháp luật trong nhà nước mới",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét pháp luật trong nhà nước mới?",
+    "options": [
+      "Pháp luật có thể tùy nghi áp dụng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Pháp luật đơn thuần bảo vệ cơ quan công quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Pháp luật không ràng buộc cán bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Pháp luật thể chế hóa ý chí, quyền và lợi ích của nhân dân lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về pháp luật trong nhà nước mới, giáo trình xác định: pháp luật thể chế hóa ý chí, quyền và lợi ích của nhân dân lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về pháp luật trong nhà nước mới, giáo trình xác định: pháp luật thể chế hóa ý chí, quyền và lợi ích của nhân dân lao động."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q024",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "đánh giá cơ quan chỉ chú trọng cưỡng chế",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với đánh giá cơ quan chỉ chú trọng cưỡng chế?",
+    "options": [
+      "Nên giảm trách nhiệm với dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cưỡng chế là trọn vẹn bản chất nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần cung cấp dịch vụ công, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần tăng chức năng tổ chức, phục vụ và phát triển xã hội bên cạnh bảo vệ chế độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đánh giá cơ quan chỉ chú trọng cưỡng chế, giáo trình xác định: cần tăng chức năng tổ chức, phục vụ và phát triển xã hội bên cạnh bảo vệ chế độ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.2 > Nhà nước xã hội chủ nghĩa",
+      "text": "Về đánh giá cơ quan chỉ chú trọng cưỡng chế, giáo trình xác định: cần tăng chức năng tổ chức, phục vụ và phát triển xã hội bên cạnh bảo vệ chế độ."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q025",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bản chất dân chủ Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về bản chất dân chủ Việt Nam?",
+    "options": [
+      "Dân chủ đơn thuần là phương tiện tạm thời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ vừa là mục tiêu vừa là động lực của công cuộc đổi mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ đơn thuần dành cho cơ quan nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ tách khỏi phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về bản chất dân chủ Việt Nam, giáo trình xác định: dân chủ vừa là mục tiêu vừa là động lực của công cuộc đổi mới. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về bản chất dân chủ Việt Nam, giáo trình xác định: dân chủ vừa là mục tiêu vừa là động lực của công cuộc đổi mới."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q026",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "phương châm quyền làm chủ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng phương châm quyền làm chủ?",
+    "options": [
+      "Dân không đòi hỏi giám sát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Dân đơn thuần biết và chấp hành, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát và dân thụ hưởng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân thụ hưởng không đòi hỏi tham gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về phương châm quyền làm chủ, giáo trình xác định: dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát và dân thụ hưởng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về phương châm quyền làm chủ, giáo trình xác định: dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát và dân thụ hưởng."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q027",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ qua Nhà nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của dân chủ qua Nhà nước là gì?",
+    "options": [
+      "Bầu cử là hình thức riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước tự có quyền không do dân ủy quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhân dân thực hiện quyền lực thông qua bầu cử, đại diện và hoạt động của bộ máy nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đại diện không phải chịu giám sát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về dân chủ qua Nhà nước, giáo trình xác định: nhân dân thực hiện quyền lực thông qua bầu cử, đại diện và hoạt động của bộ máy nhà nước. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về dân chủ qua Nhà nước, giáo trình xác định: nhân dân thực hiện quyền lực thông qua bầu cử, đại diện và hoạt động của bộ máy nhà nước."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q028",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ qua tổ chức xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về dân chủ qua tổ chức xã hội?",
+    "options": [
+      "Mặt trận và đoàn thể tạo kênh tập hợp, phản biện và giám sát của nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các tổ chức đơn thuần truyền đạt một chiều, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có vai trò phản biện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Thay thế trọn vẹn cơ quan dân cử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dân chủ qua tổ chức xã hội, giáo trình xác định: mặt trận và đoàn thể tạo kênh tập hợp, phản biện và giám sát của nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về dân chủ qua tổ chức xã hội, giáo trình xác định: mặt trận và đoàn thể tạo kênh tập hợp, phản biện và giám sát của nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q029",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dân chủ ở cơ sở",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về dân chủ ở cơ sở?",
+    "options": [
+      "Phải gắn quyền tham gia với công khai, minh bạch và trách nhiệm giải trình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần họp dân định kỳ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần công khai ngân sách, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Ý kiến dân không đòi hỏi phản hồi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dân chủ ở cơ sở, giáo trình xác định: phải gắn quyền tham gia với công khai, minh bạch và trách nhiệm giải trình. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về dân chủ ở cơ sở, giáo trình xác định: phải gắn quyền tham gia với công khai, minh bạch và trách nhiệm giải trình."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q030",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "hạn chế cần khắc phục",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác hạn chế cần khắc phục?",
+    "options": [
+      "Vi phạm nhỏ không ảnh hưởng niềm tin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các cơ chế hiện hành đã hoàn thiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quan liêu giúp tăng dân chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tình trạng dân chủ hình thức, quan liêu và vi phạm quyền làm chủ phải được đấu tranh khắc phục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về hạn chế cần khắc phục, giáo trình xác định: tình trạng dân chủ hình thức, quan liêu và vi phạm quyền làm chủ phải được đấu tranh khắc phục. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về hạn chế cần khắc phục, giáo trình xác định: tình trạng dân chủ hình thức, quan liêu và vi phạm quyền làm chủ phải được đấu tranh khắc phục."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q031",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "quan hệ dân chủ và ổn định",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét quan hệ dân chủ và ổn định?",
+    "options": [
+      "Dân chủ tất yếu gây mất ổn định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ổn định đòi hỏi hạn chế các tham gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân chủ đúng hướng, có kỷ cương góp phần tạo đồng thuận và ổn định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai mục tiêu loại trừ nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về quan hệ dân chủ và ổn định, giáo trình xác định: dân chủ đúng hướng, có kỷ cương góp phần tạo đồng thuận và ổn định. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về quan hệ dân chủ và ổn định, giáo trình xác định: dân chủ đúng hướng, có kỷ cương góp phần tạo đồng thuận và ổn định."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q032",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "dự án cộng đồng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với dự án cộng đồng?",
+    "options": [
+      "Cần công khai phương án, lấy ý kiến thực chất và giải trình việc tiếp thu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là thông báo sau khi quyết định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chọn vài ý kiến thuận lợi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bỏ qua nhóm chịu tác động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dự án cộng đồng, giáo trình xác định: cần công khai phương án, lấy ý kiến thực chất và giải trình việc tiếp thu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.1 > Dân chủ xã hội chủ nghĩa ở Việt Nam",
+      "text": "Về dự án cộng đồng, giáo trình xác định: cần công khai phương án, lấy ý kiến thực chất và giải trình việc tiếp thu."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q033",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "nhà nước của nhân dân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về nhà nước của nhân dân?",
+    "options": [
+      "Nhân dân đơn thuần là đối tượng quản lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền lực thuộc riêng cơ quan hành pháp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các quyền lực nhà nước thuộc về nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền lực không đòi hỏi ủy quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về nhà nước của nhân dân, giáo trình xác định: mọi quyền lực nhà nước thuộc về nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về nhà nước của nhân dân, giáo trình xác định: mọi quyền lực nhà nước thuộc về nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q034",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "quyền lực nhà nước thống nhất",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng quyền lực nhà nước thống nhất?",
+    "options": [
+      "Một cơ quan nắm các quyền không kiểm soát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ba quyền tách biệt vô điều kiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần phân công, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Quyền lực thống nhất nhưng có phân công, phối hợp và kiểm soát giữa các cơ quan, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về quyền lực nhà nước thống nhất, giáo trình xác định: quyền lực thống nhất nhưng có phân công, phối hợp và kiểm soát giữa các cơ quan. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về quyền lực nhà nước thống nhất, giáo trình xác định: quyền lực thống nhất nhưng có phân công, phối hợp và kiểm soát giữa các cơ quan."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q035",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "vai trò Hiến pháp và pháp luật",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của vai trò Hiến pháp và pháp luật là gì?",
+    "options": [
+      "Đơn thuần là người dân phải tuân luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cơ quan công quyền đứng trên pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước tổ chức, hoạt động trong khuôn khổ Hiến pháp và pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Pháp luật không đòi hỏi công khai, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về vai trò Hiến pháp và pháp luật, giáo trình xác định: nhà nước tổ chức, hoạt động trong khuôn khổ Hiến pháp và pháp luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về vai trò Hiến pháp và pháp luật, giáo trình xác định: nhà nước tổ chức, hoạt động trong khuôn khổ Hiến pháp và pháp luật."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q036",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "tôn trọng quyền con người",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về tôn trọng quyền con người?",
+    "options": [
+      "Quyền con người đối lập chủ quyền dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền đơn thuần tồn tại khi cơ quan cho phép tùy ý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền không đi cùng nghĩa vụ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về tôn trọng quyền con người, giáo trình xác định: nhà nước công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về tôn trọng quyền con người, giáo trình xác định: nhà nước công nhận, tôn trọng, bảo vệ và bảo đảm quyền con người, quyền công dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q037",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "sự lãnh đạo của Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về sự lãnh đạo của Đảng?",
+    "options": [
+      "Đảng đảm nhiệm thay hoạt động Nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng lãnh đạo Nhà nước và xã hội trong khuôn khổ Hiến pháp, pháp luật và chịu giám sát của nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng tách khỏi pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lãnh đạo gạt bỏ kiểm soát quyền lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về sự lãnh đạo của Đảng, giáo trình xác định: đảng lãnh đạo Nhà nước và xã hội trong khuôn khổ Hiến pháp, pháp luật và chịu giám sát của nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về sự lãnh đạo của Đảng, giáo trình xác định: đảng lãnh đạo Nhà nước và xã hội trong khuôn khổ Hiến pháp, pháp luật và chịu giám sát của nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q038",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "kiểm soát quyền lực",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác kiểm soát quyền lực?",
+    "options": [
+      "Nhằm phòng ngừa lạm quyền, tham nhũng và bảo đảm quyền lực phục vụ nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhằm cản trở các quyết định hành chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là áp dụng với công dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần trong nhà nước của dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về kiểm soát quyền lực, giáo trình xác định: nhằm phòng ngừa lạm quyền, tham nhũng và bảo đảm quyền lực phục vụ nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về kiểm soát quyền lực, giáo trình xác định: nhằm phòng ngừa lạm quyền, tham nhũng và bảo đảm quyền lực phục vụ nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q039",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "bộ máy nhà nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét bộ máy nhà nước?",
+    "options": [
+      "Hiệu quả không liên hệ đạo đức công vụ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Càng nhiều tầng nấc càng tốt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần đủ biên chế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải tinh gọn, hiệu lực, hiệu quả và có đội ngũ liêm chính, chuyên nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về bộ máy nhà nước, giáo trình xác định: phải tinh gọn, hiệu lực, hiệu quả và có đội ngũ liêm chính, chuyên nghiệp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về bộ máy nhà nước, giáo trình xác định: phải tinh gọn, hiệu lực, hiệu quả và có đội ngũ liêm chính, chuyên nghiệp."
+    }
+  },
+  {
+    "id": "MLN131-C04-Q040",
+    "courseId": "mln131",
+    "chapter": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+    "chapterNum": 4,
+    "topic": "xử lý thủ tục tùy tiện",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với xử lý thủ tục tùy tiện?",
+    "options": [
+      "Có thể linh hoạt bỏ luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải áp dụng đúng luật, công khai căn cứ và có cơ chế khiếu nại, giám sát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giải thích nội bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần chịu trách nhiệm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về xử lý thủ tục tùy tiện, giáo trình xác định: phải áp dụng đúng luật, công khai căn cứ và có cơ chế khiếu nại, giám sát. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 4 > B.3.2 > Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam",
+      "text": "Về xử lý thủ tục tùy tiện, giáo trình xác định: phải áp dụng đúng luật, công khai căn cứ và có cơ chế khiếu nại, giám sát."
+    }
+  }
+]

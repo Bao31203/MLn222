@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "mln131",
+  "reviewStatus": "self-reviewed",
+  "reviewedAt": "2026-08-02",
+  "questionCount": 280,
+  "bankSha256": "6c1e2272f53912d9b3d1939b143c90f36675c4a673278c187e0cc49a9adcdd73",
+  "canonicalization": "Sort chapter filenames; parse and concatenate their question arrays; recursively sort object keys; serialize as compact UTF-8 JSON; calculate SHA-256.",
+  "sourceSha256": "1379d246e3466b5451752e31279c50081b85894296c3feea873fa68fd66c6ee8",
+  "configSha256": "d061219c854b72149b65a8d36863ec4da7793c22251fb07165e8251fa30e17be",
+  "blueprintSha256": "973e7e2e30066d7b2f38a68584b398a3535480f08f1cf658ca33c8f581d93f95",
+  "chapterFileSha256": {
+    "chapter-01.json": "cea52e208f72d713eb63ab445fe4e65d6f0d1202000240f83c665bdff677a17b",
+    "chapter-02.json": "fa986fee6ef42469f1c0342857c04ddc253519cb9e99dcddee1dc12267ef1c79",
+    "chapter-03.json": "ac3d4c6810dd7f296c1cac8a111a5aff4df6f01fba0d1503e6e106caf752b2cd",
+    "chapter-04.json": "5f192fbb2eb1024a805254164607f2b3fbc8e876927d39cedc3a57f626e8f02b",
+    "chapter-05.json": "fd180ff9580a23b396b787325dee0e793cd14d06033a227ad2ec7d8c4f7316b0",
+    "chapter-06.json": "5e987dc32972c451f93ba0d454995f092938410a94eaa08d847a10267ca91491",
+    "chapter-07.json": "230390aa0ae71ccea0552ed9bf2157154a71088e0d5b127d88f18907b1691740"
+  },
+  "distribution": {
+    "chapterQuestions": [35, 45, 45, 40, 35, 45, 35],
+    "difficulty": {"Nhận biết": 112, "Thông hiểu": 112, "Vận dụng": 56},
+    "answerPositions": [70, 70, 70, 70]
+  },
+  "review": {
+    "independentChapterReviews": 0,
+    "openCritical": 0,
+    "openHigh": 0,
+    "openMedium": 0,
+    "openLow": 0
+  },
+  "productionSources": ["giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md"]
+}

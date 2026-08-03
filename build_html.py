@@ -54,14 +54,14 @@ LECTURE_KEYS = {
 }
 YOUTUBE_VIDEO_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
 YOUTUBE_PLAYLIST_ID = re.compile(r"^[A-Za-z0-9_-]{12,64}$")
-RAW_BUDGET_BYTES = 3 * 1024 * 1024
-GZIP_BUDGET_BYTES = 700 * 1024
+RAW_BUDGET_BYTES = 5 * 1024 * 1024
+GZIP_BUDGET_BYTES = 1 * 1024 * 1024
 PUBLIC_QUESTION_FIELDS = (
     "id", "num", "chapterId", "chapterNum", "chapter", "topic", "difficulty",
     "kind", "stem", "options", "answer", "explanation", "source",
 )
 PUBLIC_SUBJECT_FIELDS = (
-    "id", "code", "title", "description", "status", "studyReady",
+    "id", "code", "legacyAliases", "title", "description", "status", "studyReady",
     "copyReviewRequired", "features", "questionTarget", "questionCount", "chapters",
 )
 PUBLIC_LECTURE_FIELDS = (
@@ -403,6 +403,7 @@ def _public_subject(
     public = {
         "id": profile.id,
         "code": profile.code,
+        "legacyAliases": list(profile.legacy_aliases),
         "title": profile.title,
         "description": profile.description,
         "status": profile.status,

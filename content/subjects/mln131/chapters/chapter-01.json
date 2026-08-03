@@ -1,0 +1,807 @@
+[
+  {
+    "id": "MLN131-C01-Q001",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Nghĩa rộng của chủ nghĩa xã hội khoa học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo nghĩa rộng, chủ nghĩa xã hội khoa học được hiểu như thế nào?",
+    "options": [
+      "Là chương trình quản lý hành chính của một nhà nước xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là riêng học thuyết kinh tế về giá trị thặng dư trong chủ nghĩa tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là tập hợp các tư tưởng bình đẳng xuất hiện trước thế kỷ XIX, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Là chủ nghĩa Mác – Lênin xét như một chỉnh thể luận giải sự chuyển biến lên xã hội cộng sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Theo nghĩa rộng, chủ nghĩa xã hội khoa học đồng nhất với chủ nghĩa Mác – Lênin trong việc luận giải quá trình tất yếu từ chủ nghĩa tư bản lên chủ nghĩa xã hội và chủ nghĩa cộng sản.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Theo nghĩa rộng, chủ nghĩa xã hội khoa học đồng nhất với chủ nghĩa Mác – Lênin trong việc luận giải quá trình tất yếu từ chủ nghĩa tư bản lên chủ nghĩa xã hội và chủ nghĩa cộng sản."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q002",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Nghĩa hẹp của chủ nghĩa xã hội khoa học",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào mô tả đúng nghĩa hẹp của chủ nghĩa xã hội khoa học?",
+    "options": [
+      "Một trong ba bộ phận cấu thành chủ nghĩa Mác – Lênin, nghiên cứu các quy luật chính trị – xã hội của sự chuyển biến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Toàn bộ triết học duy vật biện chứng và duy vật lịch sử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khoa học chuyên nghiên cứu kỹ thuật tổ chức sản xuất công nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hệ tư tưởng chung của các phong trào phản đối bất công, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Theo nghĩa hẹp, đây là một trong ba bộ phận cấu thành chủ nghĩa Mác – Lênin và tập trung vào các quy luật chính trị – xã hội của quá trình chuyển biến cách mạng.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Theo nghĩa hẹp, đây là một trong ba bộ phận cấu thành chủ nghĩa Mác – Lênin và tập trung vào các quy luật chính trị – xã hội của quá trình chuyển biến cách mạng."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q003",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Ba bộ phận của chủ nghĩa Mác – Lênin",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Chủ nghĩa xã hội khoa học đứng trong quan hệ nào với triết học và kinh tế chính trị học Mác – Lênin?",
+    "options": [
+      "Thay thế hai bộ phận ấy khi nghiên cứu xã hội hiện đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cùng với hai bộ phận ấy tạo thành ba bộ phận cấu thành thống nhất của chủ nghĩa Mác – Lênin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là vận dụng kết luận của kinh tế chính trị và không liên quan đến triết học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là môn lịch sử tách biệt, không có cơ sở phương pháp luận chung, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình trình bày triết học, kinh tế chính trị học và chủ nghĩa xã hội khoa học như ba bộ phận cấu thành có quan hệ hữu cơ trong chủ nghĩa Mác – Lênin.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Giáo trình trình bày triết học, kinh tế chính trị học và chủ nghĩa xã hội khoa học như ba bộ phận cấu thành có quan hệ hữu cơ trong chủ nghĩa Mác – Lênin."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q004",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Điều kiện kinh tế – xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sự phát triển của đại công nghiệp tư bản chủ nghĩa tạo tiền đề trực tiếp nào cho chủ nghĩa xã hội khoa học?",
+    "options": [
+      "Xóa bỏ ngay sự đối lập lợi ích giữa người lao động và nhà tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Làm bộc lộ mâu thuẫn giữa lực lượng sản xuất xã hội hóa với quan hệ sản xuất dựa trên chiếm hữu tư nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Làm cho sản xuất nhỏ trở thành hình thức thống trị lâu dài của nền kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khiến mâu thuẫn xã hội đơn thuần còn là khác biệt về lối sống cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Đại công nghiệp vừa phát triển lực lượng sản xuất mang tính xã hội hóa, vừa làm sâu sắc mâu thuẫn với chế độ chiếm hữu tư nhân tư bản chủ nghĩa.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Đại công nghiệp vừa phát triển lực lượng sản xuất mang tính xã hội hóa, vừa làm sâu sắc mâu thuẫn với chế độ chiếm hữu tư nhân tư bản chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q005",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Phong trào công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao phong trào công nhân thế kỷ XIX đặt ra yêu cầu về một lý luận khoa học?",
+    "options": [
+      "Các cuộc đấu tranh đều do giới quý tộc lãnh đạo nên thiếu một học thuyết bảo thủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phong trào đã hoàn thành mục tiêu chính trị nên đơn thuần cần tổng kết kinh nghiệm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Công nhân muốn tách về căn bản đấu tranh kinh tế khỏi đấu tranh chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phong trào phát triển từ tự phát lên tự giác và cần lý luận đơn thuần đường cho mục tiêu, lực lượng, phương pháp đấu tranh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Sự trưởng thành của phong trào công nhân đòi hỏi một hệ thống lý luận khoa học giúp nhận rõ sứ mệnh, mục tiêu và con đường đấu tranh.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Sự trưởng thành của phong trào công nhân đòi hỏi một hệ thống lý luận khoa học giúp nhận rõ sứ mệnh, mục tiêu và con đường đấu tranh."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q006",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa tiền đề khách quan và lý luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách giải thích nào đúng về vai trò của điều kiện kinh tế – xã hội đối với sự ra đời học thuyết?",
+    "options": [
+      "Chúng tạo cơ sở hiện thực và nhu cầu lịch sử, còn sự ra đời học thuyết cần hoạt động lý luận của Mác và Ăngghen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chúng tất yếu sản sinh một học thuyết hoàn chỉnh mà không đòi hỏi chủ thể nhận thức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chúng đơn thuần cung cấp ví dụ minh họa sau khi học thuyết đã hoàn thành, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Chúng quyết định các câu chữ của học thuyết và gạt bỏ vai trò kế thừa tư tưởng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Điều kiện khách quan làm xuất hiện nhu cầu và vật liệu hiện thực; vai trò chủ thể của Mác và Ăngghen biến các tiền đề đó thành lý luận khoa học.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Điều kiện khách quan làm xuất hiện nhu cầu và vật liệu hiện thực; vai trò chủ thể của Mác và Ăngghen biến các tiền đề đó thành lý luận khoa học."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q007",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Vận dụng điều kiện ra đời",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một nhóm nghiên cứu chỉ liệt kê các cuộc đấu tranh công nhân để giải thích sự ra đời của chủ nghĩa xã hội khoa học. Cần bổ sung yếu tố nào để lập luận đầy đủ hơn?",
+    "options": [
+      "Số lượng phát minh kỹ thuật nhưng không xét biến đổi xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Danh sách các nhà nước phong kiến và chính sách thuế của họ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Sự phát triển của đại công nghiệp, các tiền đề khoa học – tư tưởng và vai trò của Mác, Ăngghen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tiểu sử các nhà không tưởng mà không xét phong trào công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Sự ra đời của học thuyết là kết quả tổng hợp của điều kiện kinh tế – xã hội, tiền đề khoa học và tư tưởng, cùng vai trò sáng tạo của Mác và Ăngghen.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1 > Khái niệm và điều kiện ra đời của Chủ nghĩa xã hội khoa học",
+      "text": "Sự ra đời của học thuyết là kết quả tổng hợp của điều kiện kinh tế – xã hội, tiền đề khoa học và tư tưởng, cùng vai trò sáng tạo của Mác và Ăngghen."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q008",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Ba phát minh khoa học tự nhiên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tổ hợp nào gồm ba phát minh khoa học tự nhiên tiêu biểu làm tiền đề cho thế giới quan mới ở thế kỷ XIX?",
+    "options": [
+      "Học thuyết tiến hóa, định luật bảo toàn và chuyển hóa năng lượng, học thuyết tế bào, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cơ học lượng tử, thuyết tương đối và học thuyết tế bào, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Định luật vạn vật hấp dẫn, bảng tuần hoàn và thuyết nhật tâm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thuyết tương đối, di truyền học phân tử và định luật nhiệt động lực học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình nêu ba thành tựu tiêu biểu là học thuyết tiến hóa, định luật bảo toàn và chuyển hóa năng lượng, và học thuyết tế bào.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Giáo trình nêu ba thành tựu tiêu biểu là học thuyết tiến hóa, định luật bảo toàn và chuyển hóa năng lượng, và học thuyết tế bào."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q009",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Tiền đề triết học",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nguồn lý luận trực tiếp về triết học được Mác và Ăngghen kế thừa có phê phán là gì?",
+    "options": [
+      "Chủ nghĩa thực chứng thế kỷ XX và phân tâm học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Triết học kinh viện trung cổ với phương pháp giáo điều, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Triết học cổ điển Đức, đặc biệt phép biện chứng và chủ nghĩa duy vật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tư tưởng pháp quyền La Mã tách khỏi triết học hiện đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Triết học cổ điển Đức là một trong ba nguồn lý luận; Mác và Ăngghen kế thừa hạt nhân hợp lý đồng thời khắc phục tính duy tâm và hạn chế siêu hình.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Triết học cổ điển Đức là một trong ba nguồn lý luận; Mác và Ăngghen kế thừa hạt nhân hợp lý đồng thời khắc phục tính duy tâm và hạn chế siêu hình."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q010",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Tiền đề kinh tế chính trị",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kinh tế chính trị cổ điển Anh cung cấp tiền đề trực tiếp nào cho lý luận của Mác và Ăngghen?",
+    "options": [
+      "Một mô hình bác bỏ về căn bản vai trò của lao động trong tạo ra giá trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Những thành tựu nghiên cứu về lao động, giá trị và các quan hệ kinh tế của xã hội tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Học thuyết quản trị doanh nghiệp số và thị trường tài chính hiện đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Quan niệm coi các quan hệ kinh tế đơn thuần do ý chí nhà nước quyết định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Kinh tế chính trị cổ điển Anh đã đạt những kết quả quan trọng về lao động và giá trị, tạo nguồn lý luận để Mác phát triển kinh tế chính trị học khoa học.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Kinh tế chính trị cổ điển Anh đã đạt những kết quả quan trọng về lao động và giá trị, tạo nguồn lý luận để Mác phát triển kinh tế chính trị học khoa học."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q011",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa xã hội không tưởng phê phán",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ba đại biểu tiêu biểu của chủ nghĩa xã hội không tưởng phê phán đầu thế kỷ XIX là ai?",
+    "options": [
+      "Saint-Simon, Fourier và Robert Owen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hegel, Feuerbach và Kant, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Adam Smith, David Ricardo và William Petty, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Darwin, Schwann và Mayer, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình xác định Saint-Simon, Charles Fourier và Robert Owen là ba nhà xã hội chủ nghĩa không tưởng phê phán tiêu biểu đầu thế kỷ XIX.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Giáo trình xác định Saint-Simon, Charles Fourier và Robert Owen là ba nhà xã hội chủ nghĩa không tưởng phê phán tiêu biểu đầu thế kỷ XIX."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q012",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Giá trị của tư tưởng không tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Đóng góp quan trọng nào của chủ nghĩa xã hội không tưởng phê phán được giáo trình ghi nhận?",
+    "options": [
+      "Phê phán xã hội tư bản và nêu nhiều dự đoán có giá trị về xã hội tương lai, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phát hiện đầy đủ quy luật giá trị thặng dư và sứ mệnh lịch sử của công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xây dựng hoàn chỉnh lý luận về đảng cộng sản và nhà nước vô sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chứng minh xã hội mới sẽ tự xuất hiện mà không đòi hỏi hoạt động của con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Các nhà không tưởng phê phán mạnh mẽ bất công tư bản và nêu nhiều giá trị nhân đạo, dự đoán tiến bộ về xã hội tương lai.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Các nhà không tưởng phê phán mạnh mẽ bất công tư bản và nêu nhiều giá trị nhân đạo, dự đoán tiến bộ về xã hội tương lai."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q013",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Hạn chế của tư tưởng không tưởng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vì sao chủ nghĩa xã hội không tưởng chưa trở thành một học thuyết khoa học về con đường giải phóng xã hội?",
+    "options": [
+      "Đơn thuần là vì các tác giả không viết tác phẩm về xã hội tương lai, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chưa phát hiện quy luật vận động của tư bản và lực lượng xã hội có khả năng thực hiện chuyển biến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Vì về căn bản tán thành chế độ tư hữu tư bản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Vì đơn thuần nghiên cứu khoa học tự nhiên mà không bàn đến xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Hạn chế cốt lõi là chưa chỉ ra bản chất và quy luật của chủ nghĩa tư bản, cũng chưa nhận ra sứ mệnh lịch sử của giai cấp công nhân.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Hạn chế cốt lõi là chưa chỉ ra bản chất và quy luật của chủ nghĩa tư bản, cũng chưa nhận ra sứ mệnh lịch sử của giai cấp công nhân."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q014",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Đánh giá một đề án không tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một đề án muốn xây xã hội bình đẳng chỉ bằng thuyết phục người giàu làm gương, không phân tích quy luật và lực lượng thực hiện. Theo giáo trình, hạn chế này gần với khuynh hướng nào?",
+    "options": [
+      "Chủ nghĩa duy vật lịch sử vì đã xác định đúng động lực giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chủ nghĩa xã hội không tưởng do dựa chủ yếu vào mong muốn đạo đức và thiếu cơ sở khoa học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Kinh tế chính trị Mác-xít vì đã làm rõ giá trị thặng dư, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Chủ nghĩa xã hội khoa học vì đã gắn mục tiêu với lực lượng hiện thực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Đặt hy vọng vào thiện chí mà không xác định quy luật khách quan và chủ thể xã hội là biểu hiện điển hình của tính không tưởng.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.1.2 > Tiền đề khoa học tự nhiên và tư tưởng lý luận",
+      "text": "Đặt hy vọng vào thiện chí mà không xác định quy luật khách quan và chủ thể xã hội là biểu hiện điển hình của tính không tưởng."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q015",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Chuyển biến lập trường triết học",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sự chuyển biến triết học của Mác và Ăngghen diễn ra theo hướng nào?",
+    "options": [
+      "Từ phép biện chứng sang phương pháp siêu hình, từ cách mạng sang bảo thủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Từ chủ nghĩa duy vật sang chủ nghĩa duy tâm, từ cộng sản sang tự do, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Từ chủ nghĩa duy tâm sang chủ nghĩa duy vật, từ lập trường dân chủ cách mạng sang lập trường cộng sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Từ kinh tế chính trị sang khoa học tự nhiên, không liên quan lập trường chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Quá trình hoạt động lý luận và thực tiễn đưa Mác, Ăngghen đến thế giới quan duy vật và lập trường cộng sản chủ nghĩa.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Quá trình hoạt động lý luận và thực tiễn đưa Mác, Ăngghen đến thế giới quan duy vật và lập trường cộng sản chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q016",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Chủ nghĩa duy vật lịch sử",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát kiến chủ nghĩa duy vật lịch sử giúp làm sáng tỏ vấn đề nào?",
+    "options": [
+      "Cách xác định giá hàng hóa đơn thuần bằng quan hệ cung cầu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cơ chế di truyền của tế bào và sự tiến hóa sinh học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Quy luật vận động của lịch sử xã hội và vai trò quyết định xét đến cùng của sản xuất vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quy luật tổ chức nội bộ của riêng các đảng chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Chủ nghĩa duy vật lịch sử chỉ ra cơ sở vật chất và các quy luật khách quan của sự phát triển xã hội, khắc phục cách giải thích duy tâm về lịch sử.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Chủ nghĩa duy vật lịch sử chỉ ra cơ sở vật chất và các quy luật khách quan của sự phát triển xã hội, khắc phục cách giải thích duy tâm về lịch sử."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q017",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Học thuyết giá trị thặng dư",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Học thuyết giá trị thặng dư vạch rõ bí mật kinh tế nào của chủ nghĩa tư bản?",
+    "options": [
+      "Bóc lột đơn thuần xuất hiện khi hàng hóa được bán cao hơn giá trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lợi nhuận hình thành về căn bản do nhà tư bản tiết kiệm trong tiêu dùng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các thu nhập trong xã hội đều là kết quả trực tiếp của trao đổi ngang giá, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nguồn gốc lợi nhuận tư bản từ phần giá trị do công nhân tạo ra vượt quá giá trị sức lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Phát kiến này giải thích cơ chế bóc lột trong quan hệ sản xuất tư bản chủ nghĩa thông qua việc chiếm đoạt giá trị thặng dư.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Phát kiến này giải thích cơ chế bóc lột trong quan hệ sản xuất tư bản chủ nghĩa thông qua việc chiếm đoạt giá trị thặng dư."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q018",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát kiến nào biến chủ nghĩa xã hội từ không tưởng thành khoa học về chủ thể thực hiện?",
+    "options": [
+      "Học thuyết về sứ mệnh lịch sử thế giới của giai cấp công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Học thuyết tế bào về cấu tạo của cơ thể sống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Thuyết phân quyền trong tổ chức nhà nước tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quan niệm cải tạo xã hội bằng các cộng đồng mẫu đơn lẻ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Việc phát hiện giai cấp công nhân là lực lượng xã hội có sứ mệnh xóa bỏ chủ nghĩa tư bản đã xác định chủ thể hiện thực của sự chuyển biến.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Việc phát hiện giai cấp công nhân là lực lượng xã hội có sứ mệnh xóa bỏ chủ nghĩa tư bản đã xác định chủ thể hiện thực của sự chuyển biến."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q019",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Tuyên ngôn của Đảng Cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Tác phẩm nào đánh dấu sự ra đời cơ bản của chủ nghĩa xã hội khoa học?",
+    "options": [
+      "Chống Đuy-rinh do Ăngghen xuất bản cuối thế kỷ XIX, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tư bản do Mác xuất bản tập đầu tiên năm 1867, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tuyên ngôn của Đảng Cộng sản do Mác và Ăngghen công bố năm 1848, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước và cách mạng do Lênin viết năm 1917, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Tuyên ngôn của Đảng Cộng sản là cương lĩnh chính trị đầu tiên của phong trào cộng sản và đánh dấu sự hình thành cơ bản của học thuyết.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Tuyên ngôn của Đảng Cộng sản là cương lĩnh chính trị đầu tiên của phong trào cộng sản và đánh dấu sự hình thành cơ bản của học thuyết."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q020",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Điều kiện đủ của sự ra đời học thuyết",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nếu các tiền đề khách quan đã chín muồi nhưng thiếu hoạt động khoa học và thực tiễn của Mác, Ăngghen, kết luận nào hợp lý nhất?",
+    "options": [
+      "Các nhà không tưởng đã có thể đảm nhiệm thay về căn bản vai trò của Mác và Ăngghen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Học thuyết vẫn tất yếu xuất hiện với nội dung giống hệt và cùng thời điểm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phong trào công nhân tất yếu tạo ra ba phát kiến lý luận không đòi hỏi nghiên cứu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các tiền đề chưa tự chuyển thành một hệ thống chủ nghĩa xã hội khoa học hoàn chỉnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Tiền đề khách quan là điều kiện cần; tài năng, lập trường và lao động khoa học của Mác, Ăngghen là nhân tố chủ quan có ý nghĩa quyết định để hình thành học thuyết.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Tiền đề khách quan là điều kiện cần; tài năng, lập trường và lao động khoa học của Mác, Ăngghen là nhân tố chủ quan có ý nghĩa quyết định để hình thành học thuyết."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q021",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Quan hệ giữa ba phát kiến",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Một bài thuyết trình giải thích xã hội bằng duy vật lịch sử và bóc lột bằng giá trị thặng dư nhưng bỏ qua lực lượng chuyển biến. Cần bổ sung nội dung nào?",
+    "options": [
+      "Thuyết tế bào với tư cách mô hình tổ chức xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Sứ mệnh lịch sử của giai cấp công nhân với tư cách chủ thể cách mạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quan niệm cải lương bằng lòng nhân ái của tầng lớp thống trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lý thuyết cân bằng thị trường không xét quan hệ giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Ba phát kiến liên kết với nhau: quy luật lịch sử, bản chất kinh tế của tư bản và chủ thể có khả năng thực hiện sự chuyển biến cách mạng.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.1.2 > Vai trò của C. Mác và Ph. Ăngghen",
+      "text": "Ba phát kiến liên kết với nhau: quy luật lịch sử, bản chất kinh tế của tư bản và chủ thể có khả năng thực hiện sự chuyển biến cách mạng."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q022",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Giai đoạn Mác và Ăngghen",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong giai đoạn từ 1848 đến Công xã Paris, Mác và Ăngghen chủ yếu phát triển học thuyết qua hoạt động nào?",
+    "options": [
+      "Tách lý luận khỏi phong trào để bảo đảm tính thuần túy học thuật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gắn nghiên cứu lý luận với tổng kết thực tiễn đấu tranh của phong trào công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là nghiên cứu mô hình cộng đồng không tưởng ở quy mô nhỏ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Từ bỏ quan điểm cách mạng sau khi Tuyên ngôn được công bố, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Mác và Ăngghen liên tục kiểm nghiệm, bổ sung lý luận thông qua thực tiễn cách mạng và phong trào công nhân quốc tế.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Mác và Ăngghen liên tục kiểm nghiệm, bổ sung lý luận thông qua thực tiễn cách mạng và phong trào công nhân quốc tế."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q023",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Bài học Công xã Paris",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc tổng kết Công xã Paris giúp Mác và Ăngghen nhấn mạnh yêu cầu nào?",
+    "options": [
+      "Giai cấp công nhân phải đập tan bộ máy nhà nước tư sản và xây dựng quyền lực chính trị mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có thể sử dụng nguyên vẹn bộ máy nhà nước tư sản để giải phóng lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đấu tranh kinh tế tự phát đủ đảm nhiệm thay các hình thức đấu tranh chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cách mạng đơn thuần cần diễn ra trong phạm vi một xí nghiệp riêng lẻ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Kinh nghiệm Công xã Paris làm sâu sắc lý luận về nhà nước, chuyên chính vô sản và hình thức quyền lực của giai cấp công nhân.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Kinh nghiệm Công xã Paris làm sâu sắc lý luận về nhà nước, chuyên chính vô sản và hình thức quyền lực của giai cấp công nhân."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q024",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Lênin trước Cách mạng Tháng Mười",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Đóng góp nổi bật của Lênin trong điều kiện chủ nghĩa tư bản chuyển sang đế quốc chủ nghĩa là gì?",
+    "options": [
+      "Giới hạn chủ nghĩa xã hội khoa học ở việc phê phán đạo đức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phủ nhận vai trò của tổ chức chính trị trong phong trào công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khẳng định cách mạng đơn thuần có thể thắng đồng thời ở tất cả các nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phát triển lý luận về đảng kiểu mới, cách mạng vô sản và khả năng thắng lợi ở một số nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Lênin bảo vệ và phát triển học thuyết trong thời đại đế quốc chủ nghĩa, đặc biệt về đảng cách mạng và quy luật cách mạng vô sản.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Lênin bảo vệ và phát triển học thuyết trong thời đại đế quốc chủ nghĩa, đặc biệt về đảng cách mạng và quy luật cách mạng vô sản."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q025",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Lênin sau Cách mạng Tháng Mười",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sau Cách mạng Tháng Mười, trọng tâm phát triển lý luận của Lênin chuyển mạnh sang vấn đề nào?",
+    "options": [
+      "Từ bỏ liên minh công – nông và vai trò lãnh đạo của đảng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Khôi phục nguyên trạng chế độ chính trị và kinh tế tư bản trước cách mạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xây dựng chủ nghĩa xã hội trong thực tiễn, tổ chức nhà nước mới và chính sách kinh tế phù hợp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là nghiên cứu lịch sử tư tưởng không tưởng ở Tây Âu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Thực tiễn nước Nga Xô viết đặt ra các vấn đề mới về chính quyền, kinh tế, liên minh xã hội và con đường xây dựng xã hội mới.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Thực tiễn nước Nga Xô viết đặt ra các vấn đề mới về chính quyền, kinh tế, liên minh xã hội và con đường xây dựng xã hội mới."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q026",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Phát triển sau Lênin",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Sau khi Lênin qua đời, chủ nghĩa xã hội khoa học được phát triển trong bối cảnh nào?",
+    "options": [
+      "Đơn thuần là còn là học thuyết lịch sử, không liên hệ với các phong trào xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Vừa xây dựng chủ nghĩa xã hội hiện thực, vừa đấu tranh giải phóng dân tộc và điều chỉnh mô hình qua thực tiễn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Được áp dụng theo một mô hình bất biến cho các quốc gia và thời đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chấm dứt các tranh luận sau khi một nước xây dựng chủ nghĩa xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình khái quát quá trình phát triển phong phú nhưng phức tạp, gồm thành tựu, khủng hoảng và những tìm tòi đổi mới ở nhiều quốc gia.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Giáo trình khái quát quá trình phát triển phong phú nhưng phức tạp, gồm thành tựu, khủng hoảng và những tìm tòi đổi mới ở nhiều quốc gia."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q027",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Đổi mới ở Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo giáo trình, thực tiễn đổi mới ở Việt Nam đóng góp vào sự phát triển lý luận theo hướng nào?",
+    "options": [
+      "Làm rõ hơn con đường đi lên chủ nghĩa xã hội phù hợp điều kiện Việt Nam, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thay thế mục tiêu xã hội chủ nghĩa bằng mục tiêu tư bản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sao chép đầy đủ mô hình quản lý của một quốc gia khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tách phát triển kinh tế khỏi tiến bộ và công bằng xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Đường lối đổi mới vừa kiên định mục tiêu xã hội chủ nghĩa vừa bổ sung nhận thức về mô hình, bước đi và phương thức phát triển phù hợp Việt Nam.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Đường lối đổi mới vừa kiên định mục tiêu xã hội chủ nghĩa vừa bổ sung nhận thức về mô hình, bước đi và phương thức phát triển phù hợp Việt Nam."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q028",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Vận dụng sáng tạo học thuyết",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Một quốc gia áp dụng nguyên xi mọi biện pháp của mô hình lịch sử khác dù điều kiện đã thay đổi. Cách làm đó trái với bài học phương pháp nào?",
+    "options": [
+      "Phải vận dụng và phát triển sáng tạo lý luận trên cơ sở điều kiện lịch sử – cụ thể, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần giữ nguyên biện pháp cũ vì lý luận chẳng khi nào cần bổ sung, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nên bỏ trọn vẹn nguyên lý chung để lựa chọn mục tiêu ngắn hạn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Các quốc gia đều phải trải qua một lịch trình và hình thức tổ chức giống nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Lịch sử phát triển học thuyết cho thấy phải thống nhất kiên định nguyên lý với tổng kết thực tiễn và vận dụng sáng tạo trong hoàn cảnh cụ thể.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.2 > Các giai đoạn phát triển của Chủ nghĩa xã hội khoa học",
+      "text": "Lịch sử phát triển học thuyết cho thấy phải thống nhất kiên định nguyên lý với tổng kết thực tiễn và vận dụng sáng tạo trong hoàn cảnh cụ thể."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q029",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Đối tượng nghiên cứu",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đối tượng nghiên cứu trực tiếp của chủ nghĩa xã hội khoa học là gì?",
+    "options": [
+      "Kỹ thuật quản trị sản xuất trong từng doanh nghiệp công nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các quy luật của tự nhiên và xã hội không phân biệt lĩnh vực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các quy luật và tính quy luật chính trị – xã hội của quá trình phát sinh, hình thành và phát triển hình thái cộng sản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tiểu sử đầy đủ của các nhà tư tưởng xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Môn học nghiên cứu các quy luật chính trị – xã hội, điều kiện, con đường, hình thức và phương pháp đấu tranh để chuyển biến sang xã hội mới.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Môn học nghiên cứu các quy luật chính trị – xã hội, điều kiện, con đường, hình thức và phương pháp đấu tranh để chuyển biến sang xã hội mới."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q030",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Khách thể và đối tượng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách phân biệt nào đúng giữa khách thể và đối tượng của môn học?",
+    "options": [
+      "Khách thể là phương pháp nghiên cứu; đối tượng là kết quả kiểm tra, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Khách thể và đối tượng là hai từ đồng nghĩa về căn bản trong các nghiên cứu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khách thể đơn thuần là tài liệu thành văn; đối tượng đơn thuần là tiểu sử tác giả, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khách thể là quá trình xã hội rộng lớn; đối tượng là các quy luật chính trị – xã hội được môn học tập trung khám phá, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Quá trình chuyển biến xã hội là phạm vi hiện thực, còn môn học lựa chọn các quy luật và quan hệ chính trị – xã hội cốt lõi làm đối tượng trực tiếp.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Quá trình chuyển biến xã hội là phạm vi hiện thực, còn môn học lựa chọn các quy luật và quan hệ chính trị – xã hội cốt lõi làm đối tượng trực tiếp."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q031",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Phương pháp luận chung",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cơ sở phương pháp luận chung của việc nghiên cứu chủ nghĩa xã hội khoa học là gì?",
+    "options": [
+      "Chủ nghĩa kinh nghiệm thuần túy và suy đoán đạo đức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phương pháp thực nghiệm sinh học áp dụng nguyên vẹn cho xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phương pháp siêu hình tách các hiện tượng khỏi quan hệ phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Duy vật biện chứng và duy vật lịch sử giúp xem xét hiện tượng xã hội trong quan hệ, vận động và điều kiện lịch sử cụ thể.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Duy vật biện chứng và duy vật lịch sử giúp xem xét hiện tượng xã hội trong quan hệ, vận động và điều kiện lịch sử cụ thể."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q032",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Phương pháp lịch sử và logic",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết hợp phương pháp lịch sử với logic nhằm đạt mục đích nào?",
+    "options": [
+      "Thay chứng cứ lịch sử bằng các phán đoán chủ quan, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là sắp xếp sự kiện theo niên đại mà không đòi hỏi khái quát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xây dựng khái niệm trừu tượng và bỏ qua diễn biến thực tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tái hiện quá trình cụ thể đồng thời rút ra bản chất, quan hệ và xu hướng có tính quy luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Phương pháp lịch sử theo dõi sự vận động cụ thể, còn phương pháp logic khái quát bản chất và quy luật; hai phương pháp cần hỗ trợ nhau.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Phương pháp lịch sử theo dõi sự vận động cụ thể, còn phương pháp logic khái quát bản chất và quy luật; hai phương pháp cần hỗ trợ nhau."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q033",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Phương pháp khảo sát và phân tích",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Khi nghiên cứu biến đổi cơ cấu giai cấp hiện nay, lựa chọn phương pháp nào phù hợp với tinh thần giáo trình?",
+    "options": [
+      "Thay trọn vẹn phân tích xã hội bằng thí nghiệm phòng lab, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là dựa vào một ví dụ cá nhân rồi khái quát cho toàn xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là suy luận từ định nghĩa cũ mà không kiểm tra dữ liệu mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Kết hợp khảo sát thực tiễn, phân tích – tổng hợp và so sánh trong khung phương pháp luận duy vật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Môn học sử dụng nhiều phương pháp cụ thể như khảo sát, phân tích, tổng hợp, so sánh nhưng đều đặt trên nền tảng phương pháp luận chung.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Môn học sử dụng nhiều phương pháp cụ thể như khảo sát, phân tích, tổng hợp, so sánh nhưng đều đặt trên nền tảng phương pháp luận chung."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q034",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa lý luận",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Học tập chủ nghĩa xã hội khoa học có ý nghĩa lý luận chủ yếu nào?",
+    "options": [
+      "Thay thế việc học triết học và kinh tế chính trị Mác – Lênin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cung cấp các công thức kỹ thuật có thể áp dụng giống nhau ở các nơi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trang bị nhận thức khoa học về quy luật, con đường và mục tiêu của quá trình xây dựng xã hội mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giúp ghi nhớ sự kiện mà không đòi hỏi hiểu bản chất và quan hệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Kiến thức môn học góp phần củng cố thế giới quan, phương pháp luận và nhận thức khoa học về con đường đi lên chủ nghĩa xã hội.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Kiến thức môn học góp phần củng cố thế giới quan, phương pháp luận và nhận thức khoa học về con đường đi lên chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C01-Q035",
+    "courseId": "mln131",
+    "chapter": "Nhập môn Chủ nghĩa xã hội khoa học",
+    "chapterNum": 1,
+    "topic": "Ý nghĩa thực tiễn",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Một sinh viên dùng lý luận để phân tích cả thành tựu, hạn chế và điều kiện cụ thể của công cuộc đổi mới. Việc đó thể hiện ý nghĩa nào của môn học?",
+    "options": [
+      "Tách niềm tin chính trị khỏi nhận thức khoa học và hành động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dùng lý luận như khuôn mẫu để bỏ qua các dữ kiện trái với dự đoán, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Gắn tri thức khoa học với đánh giá thực tiễn và trách nhiệm tham gia xây dựng, bảo vệ chế độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giới hạn môn học ở việc học thuộc các thuật ngữ lịch sử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Ý nghĩa thực tiễn nằm ở năng lực nhận diện đúng vấn đề, củng cố niềm tin có cơ sở và hành động phù hợp trong xây dựng, bảo vệ Tổ quốc.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 1 > B.3 > Đối tượng, phương pháp và ý nghĩa nghiên cứu",
+      "text": "Ý nghĩa thực tiễn nằm ở năng lực nhận diện đúng vấn đề, củng cố niềm tin có cơ sở và hành động phù hợp trong xây dựng, bảo vệ Tổ quốc."
+    }
+  }
+]

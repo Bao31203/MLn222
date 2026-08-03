@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "MLN131-C06-Q001",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "dân tộc theo nghĩa quốc gia",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về dân tộc theo nghĩa quốc gia?",
+    "options": [
+      "Đơn thuần là nhóm cùng nghề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cộng đồng ổn định có lãnh thổ, kinh tế, ngôn ngữ và văn hóa chung, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cộng đồng tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhóm cư trú tạm thời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về dân tộc theo nghĩa quốc gia, giáo trình xác định: cộng đồng ổn định có lãnh thổ, kinh tế, ngôn ngữ và văn hóa chung. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về dân tộc theo nghĩa quốc gia, giáo trình xác định: cộng đồng ổn định có lãnh thổ, kinh tế, ngôn ngữ và văn hóa chung."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q002",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "dân tộc theo nghĩa tộc người",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng dân tộc theo nghĩa tộc người?",
+    "options": [
+      "Một tổ chức chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Một quốc gia có chủ quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Một tầng lớp kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cộng đồng bền vững có ý thức tự giác, ngôn ngữ và văn hóa tộc người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về dân tộc theo nghĩa tộc người, giáo trình xác định: cộng đồng bền vững có ý thức tự giác, ngôn ngữ và văn hóa tộc người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về dân tộc theo nghĩa tộc người, giáo trình xác định: cộng đồng bền vững có ý thức tự giác, ngôn ngữ và văn hóa tộc người."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q003",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "đặc trưng lãnh thổ quốc gia",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của đặc trưng lãnh thổ quốc gia là gì?",
+    "options": [
+      "Có thể thiếu về căn bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là nơi cư trú tùy ý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ chủ quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lãnh thổ thống nhất là không gian sinh tồn và chủ quyền của cộng đồng quốc gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đặc trưng lãnh thổ quốc gia, giáo trình xác định: lãnh thổ thống nhất là không gian sinh tồn và chủ quyền của cộng đồng quốc gia. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về đặc trưng lãnh thổ quốc gia, giáo trình xác định: lãnh thổ thống nhất là không gian sinh tồn và chủ quyền của cộng đồng quốc gia."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q004",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "đặc trưng kinh tế quốc gia",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về đặc trưng kinh tế quốc gia?",
+    "options": [
+      "Thị trường và các liên hệ kinh tế chung gắn kết cộng đồng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mỗi vùng tự cấp biệt lập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần cùng tiền tệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Kinh tế không tạo liên kết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về đặc trưng kinh tế quốc gia, giáo trình xác định: thị trường và các liên hệ kinh tế chung gắn kết cộng đồng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về đặc trưng kinh tế quốc gia, giáo trình xác định: thị trường và các liên hệ kinh tế chung gắn kết cộng đồng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q005",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "xu hướng tách ra độc lập",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về xu hướng tách ra độc lập?",
+    "options": [
+      "Các nhóm nghề đều lập quốc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cộng đồng dân tộc bị áp bức có xu hướng đấu tranh xác lập quyền tự quyết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xu hướng đơn thuần do ngôn ngữ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ áp bức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về xu hướng tách ra độc lập, giáo trình xác định: cộng đồng dân tộc bị áp bức có xu hướng đấu tranh xác lập quyền tự quyết. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về xu hướng tách ra độc lập, giáo trình xác định: cộng đồng dân tộc bị áp bức có xu hướng đấu tranh xác lập quyền tự quyết."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q006",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "xu hướng liên hiệp dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác xu hướng liên hiệp dân tộc?",
+    "options": [
+      "Liên hiệp xóa chủ quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Các dân tộc phải đồng hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhu cầu phát triển lực lượng sản xuất và giao lưu thúc đẩy các dân tộc xích lại gần nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xảy ra do cưỡng bức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về xu hướng liên hiệp dân tộc, giáo trình xác định: nhu cầu phát triển lực lượng sản xuất và giao lưu thúc đẩy các dân tộc xích lại gần nhau. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về xu hướng liên hiệp dân tộc, giáo trình xác định: nhu cầu phát triển lực lượng sản xuất và giao lưu thúc đẩy các dân tộc xích lại gần nhau."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q007",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "quan hệ hai xu hướng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét quan hệ hai xu hướng?",
+    "options": [
+      "Hai xu hướng loại trừ vô điều kiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai xu hướng khách quan vừa khẳng định độc lập vừa tăng hợp tác bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xu hướng tách ra tồn tại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hợp tác bác bỏ bản sắc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về quan hệ hai xu hướng, giáo trình xác định: hai xu hướng khách quan vừa khẳng định độc lập vừa tăng hợp tác bình đẳng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về quan hệ hai xu hướng, giáo trình xác định: hai xu hướng khách quan vừa khẳng định độc lập vừa tăng hợp tác bình đẳng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q008",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "phân biệt hai nghĩa dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với phân biệt hai nghĩa dân tộc?",
+    "options": [
+      "Hai nghĩa luôn đồng nhất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải dựa vào phạm vi quốc gia hay cộng đồng tộc người trong ngữ cảnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là dựa số dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là dựa nơi cư trú, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về phân biệt hai nghĩa dân tộc, giáo trình xác định: phải dựa vào phạm vi quốc gia hay cộng đồng tộc người trong ngữ cảnh. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về phân biệt hai nghĩa dân tộc, giáo trình xác định: phải dựa vào phạm vi quốc gia hay cộng đồng tộc người trong ngữ cảnh."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q009",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "hợp tác khu vực",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về hợp tác khu vực?",
+    "options": [
+      "Cho phép dân tộc lớn áp đặt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đòi từ bỏ chủ quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải tôn trọng độc lập, bản sắc và cùng có lợi khi tăng liên kết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Buộc đồng nhất văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về hợp tác khu vực, giáo trình xác định: phải tôn trọng độc lập, bản sắc và cùng có lợi khi tăng liên kết. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.1 > Khái niệm, đặc trưng và hai xu hướng dân tộc",
+      "text": "Về hợp tác khu vực, giáo trình xác định: phải tôn trọng độc lập, bản sắc và cùng có lợi khi tăng liên kết."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q010",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "các dân tộc hoàn toàn bình đẳng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng các dân tộc hoàn toàn bình đẳng?",
+    "options": [
+      "Không cần chống kỳ thị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bình đẳng đơn thuần trên danh nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân tộc lớn được ưu tiên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các dân tộc có quyền và nghĩa vụ ngang nhau, không dân tộc nào có đặc quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về các dân tộc hoàn toàn bình đẳng, giáo trình xác định: mọi dân tộc có quyền và nghĩa vụ ngang nhau, không dân tộc nào có đặc quyền. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về các dân tộc hoàn toàn bình đẳng, giáo trình xác định: mọi dân tộc có quyền và nghĩa vụ ngang nhau, không dân tộc nào có đặc quyền."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q011",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "quyền dân tộc tự quyết",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của quyền dân tộc tự quyết là gì?",
+    "options": [
+      "Dân tộc có quyền quyết định chế độ và con đường phát triển, kể cả phân lập hay liên hiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các nhóm nhỏ tùy ý ly khai, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là quyền văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Do nước lớn quyết định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về quyền dân tộc tự quyết, giáo trình xác định: dân tộc có quyền quyết định chế độ và con đường phát triển, kể cả phân lập hay liên hiệp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về quyền dân tộc tự quyết, giáo trình xác định: dân tộc có quyền quyết định chế độ và con đường phát triển, kể cả phân lập hay liên hiệp."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q012",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "liên hiệp công nhân các dân tộc",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cách hiểu nào phù hợp về liên hiệp công nhân các dân tộc?",
+    "options": [
+      "Đơn thuần là liên minh trong một nghề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Công nhân phải tách theo dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Công nhân các dân tộc đoàn kết chống áp bức và chủ nghĩa dân tộc hẹp hòi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phủ nhận lợi ích dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về liên hiệp công nhân các dân tộc, giáo trình xác định: công nhân các dân tộc đoàn kết chống áp bức và chủ nghĩa dân tộc hẹp hòi. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về liên hiệp công nhân các dân tộc, giáo trình xác định: công nhân các dân tộc đoàn kết chống áp bức và chủ nghĩa dân tộc hẹp hòi."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q013",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "quan hệ ba nội dung cương lĩnh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về quan hệ ba nội dung cương lĩnh?",
+    "options": [
+      "Ba nội dung độc lập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bình đẳng là cơ sở, tự quyết là quyền, liên hiệp công nhân là bảo đảm đoàn kết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tự quyết loại trừ liên hiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là bình đẳng là đủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về quan hệ ba nội dung cương lĩnh, giáo trình xác định: bình đẳng là cơ sở, tự quyết là quyền, liên hiệp công nhân là bảo đảm đoàn kết. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về quan hệ ba nội dung cương lĩnh, giáo trình xác định: bình đẳng là cơ sở, tự quyết là quyền, liên hiệp công nhân là bảo đảm đoàn kết."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q014",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "chống đặc quyền dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác chống đặc quyền dân tộc?",
+    "options": [
+      "Không cần hỗ trợ dân tộc yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần tuyên bố bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cho phép ưu thế dân tộc đông, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải xóa bỏ phân biệt đối xử và tạo điều kiện phát triển thực chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chống đặc quyền dân tộc, giáo trình xác định: phải xóa bỏ phân biệt đối xử và tạo điều kiện phát triển thực chất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về chống đặc quyền dân tộc, giáo trình xác định: phải xóa bỏ phân biệt đối xử và tạo điều kiện phát triển thực chất."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q015",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "hiểu đúng tự quyết",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét hiểu đúng tự quyết?",
+    "options": [
+      "Cần xuất phát lợi ích dân tộc và tiến bộ, chống lợi dụng ly khai phản động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các yêu sách ly khai đều tiến bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tự quyết do bên ngoài áp đặt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tự quyết bác bỏ toàn vẹn quốc gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về hiểu đúng tự quyết, giáo trình xác định: cần xuất phát lợi ích dân tộc và tiến bộ, chống lợi dụng ly khai phản động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về hiểu đúng tự quyết, giáo trình xác định: cần xuất phát lợi ích dân tộc và tiến bộ, chống lợi dụng ly khai phản động."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q016",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "chủ nghĩa dân tộc hẹp hòi",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với chủ nghĩa dân tộc hẹp hòi?",
+    "options": [
+      "Làm suy yếu đoàn kết giữa người lao động các dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Luôn bảo vệ bình đẳng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là cơ sở của quốc tế vô sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không gây chia rẽ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về chủ nghĩa dân tộc hẹp hòi, giáo trình xác định: làm suy yếu đoàn kết giữa người lao động các dân tộc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về chủ nghĩa dân tộc hẹp hòi, giáo trình xác định: làm suy yếu đoàn kết giữa người lao động các dân tộc."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q017",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "chính sách ngôn ngữ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về chính sách ngôn ngữ?",
+    "options": [
+      "Ép đồng hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cấm ngôn ngữ thiểu số, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách biệt giáo dục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bảo đảm quyền dùng tiếng nói dân tộc đồng thời tạo điều kiện giao lưu chung, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chính sách ngôn ngữ, giáo trình xác định: bảo đảm quyền dùng tiếng nói dân tộc đồng thời tạo điều kiện giao lưu chung. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về chính sách ngôn ngữ, giáo trình xác định: bảo đảm quyền dùng tiếng nói dân tộc đồng thời tạo điều kiện giao lưu chung."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q018",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tranh chấp bị kích động",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng tranh chấp bị kích động?",
+    "options": [
+      "Ủng hộ chia rẽ ngay, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cần bảo vệ bình đẳng, đối thoại và đoàn kết, đồng thời ngăn lợi dụng tự quyết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Để nước ngoài quyết định, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phủ nhận các quyền dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về tranh chấp bị kích động, giáo trình xác định: cần bảo vệ bình đẳng, đối thoại và đoàn kết, đồng thời ngăn lợi dụng tự quyết. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.2 > Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
+      "text": "Về tranh chấp bị kích động, giáo trình xác định: cần bảo vệ bình đẳng, đối thoại và đoàn kết, đồng thời ngăn lợi dụng tự quyết."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q019",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "cộng đồng dân tộc Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của cộng đồng dân tộc Việt Nam là gì?",
+    "options": [
+      "Đơn thuần là có một dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Việt Nam thống nhất gồm nhiều dân tộc cùng sinh sống, đoàn kết lâu đời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các dân tộc không giao lưu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Mỗi dân tộc có quốc gia riêng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về cộng đồng dân tộc Việt Nam, giáo trình xác định: việt Nam thống nhất gồm nhiều dân tộc cùng sinh sống, đoàn kết lâu đời. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về cộng đồng dân tộc Việt Nam, giáo trình xác định: việt Nam thống nhất gồm nhiều dân tộc cùng sinh sống, đoàn kết lâu đời."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q020",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "chênh lệch phát triển",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về chênh lệch phát triển?",
+    "options": [
+      "Không cần chính sách hỗ trợ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các vùng đã ngang nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Chênh lệch đơn thuần do văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trình độ kinh tế – xã hội giữa các dân tộc còn không đều, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chênh lệch phát triển, giáo trình xác định: trình độ kinh tế – xã hội giữa các dân tộc còn không đều. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về chênh lệch phát triển, giáo trình xác định: trình độ kinh tế – xã hội giữa các dân tộc còn không đều."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q021",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "cư trú xen kẽ",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về cư trú xen kẽ?",
+    "options": [
+      "Đơn thuần là sống ở đồng bằng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mỗi dân tộc cư trú tách biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các dân tộc phân bố xen kẽ, không có lãnh thổ tộc người riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có di cư, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về cư trú xen kẽ, giáo trình xác định: các dân tộc phân bố xen kẽ, không có lãnh thổ tộc người riêng biệt. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về cư trú xen kẽ, giáo trình xác định: các dân tộc phân bố xen kẽ, không có lãnh thổ tộc người riêng biệt."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q022",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "dân tộc thiểu số ở địa bàn chiến lược",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác dân tộc thiểu số ở địa bàn chiến lược?",
+    "options": [
+      "Không có tài nguyên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là tập trung đô thị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ an ninh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhiều cộng đồng sống tại biên giới, miền núi có vị trí quốc phòng, an ninh quan trọng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về dân tộc thiểu số ở địa bàn chiến lược, giáo trình xác định: nhiều cộng đồng sống tại biên giới, miền núi có vị trí quốc phòng, an ninh quan trọng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về dân tộc thiểu số ở địa bàn chiến lược, giáo trình xác định: nhiều cộng đồng sống tại biên giới, miền núi có vị trí quốc phòng, an ninh quan trọng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q023",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "bản sắc văn hóa dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét bản sắc văn hóa dân tộc?",
+    "options": [
+      "Mỗi dân tộc có sắc thái riêng góp phần tạo văn hóa Việt Nam thống nhất trong đa dạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bản sắc phải bị đồng hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đa dạng cản trở đoàn kết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là văn hóa đa số có giá trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về bản sắc văn hóa dân tộc, giáo trình xác định: mỗi dân tộc có sắc thái riêng góp phần tạo văn hóa Việt Nam thống nhất trong đa dạng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về bản sắc văn hóa dân tộc, giáo trình xác định: mỗi dân tộc có sắc thái riêng góp phần tạo văn hóa Việt Nam thống nhất trong đa dạng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q024",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "nguyên tắc chính sách dân tộc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với nguyên tắc chính sách dân tộc?",
+    "options": [
+      "Bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ban phát từ dân tộc lớn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đồng hóa cưỡng bức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tách phát triển khỏi đoàn kết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về nguyên tắc chính sách dân tộc, giáo trình xác định: bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về nguyên tắc chính sách dân tộc, giáo trình xác định: bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q025",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "phát triển vùng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về phát triển vùng dân tộc?",
+    "options": [
+      "Khai thác tài nguyên bất kể dân sinh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là trợ cấp ngắn hạn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần đầu tư hạ tầng, giáo dục, y tế, sinh kế và phát huy nội lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Áp một mô hình sinh kế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về phát triển vùng dân tộc, giáo trình xác định: cần đầu tư hạ tầng, giáo dục, y tế, sinh kế và phát huy nội lực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về phát triển vùng dân tộc, giáo trình xác định: cần đầu tư hạ tầng, giáo dục, y tế, sinh kế và phát huy nội lực."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q026",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "cán bộ dân tộc thiểu số",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng cán bộ dân tộc thiểu số?",
+    "options": [
+      "Không cần dân tham gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là điều cán bộ nơi khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần tiếng bản địa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không chỉ xét về hình thức, cần đào tạo, sử dụng đội ngũ tại chỗ và bảo đảm sự tham gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về cán bộ dân tộc thiểu số, giáo trình xác định: cần đào tạo, sử dụng đội ngũ tại chỗ và bảo đảm sự tham gia. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về cán bộ dân tộc thiểu số, giáo trình xác định: cần đào tạo, sử dụng đội ngũ tại chỗ và bảo đảm sự tham gia."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q027",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "dự án ở vùng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của dự án ở vùng dân tộc là gì?",
+    "options": [
+      "Phải tham vấn cộng đồng, bảo vệ sinh kế và văn hóa cùng mục tiêu phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tính lợi nhuận, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Di dời không tham vấn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bỏ qua tri thức bản địa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về dự án ở vùng dân tộc, giáo trình xác định: phải tham vấn cộng đồng, bảo vệ sinh kế và văn hóa cùng mục tiêu phát triển. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.1.3 > Đặc điểm và chính sách dân tộc Việt Nam",
+      "text": "Về dự án ở vùng dân tộc, giáo trình xác định: phải tham vấn cộng đồng, bảo vệ sinh kế và văn hóa cùng mục tiêu phát triển."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q028",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "bản chất tôn giáo",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về bản chất tôn giáo?",
+    "options": [
+      "Không có cơ sở xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là là tri thức khoa học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là phong tục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là hình thái ý thức xã hội phản ánh hư ảo hiện thực và có niềm tin, nghi lễ, tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về bản chất tôn giáo, giáo trình xác định: là hình thái ý thức xã hội phản ánh hư ảo hiện thực và có niềm tin, nghi lễ, tổ chức. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về bản chất tôn giáo, giáo trình xác định: là hình thái ý thức xã hội phản ánh hư ảo hiện thực và có niềm tin, nghi lễ, tổ chức."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q029",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "nguồn gốc tự nhiên – kinh tế",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về nguồn gốc tự nhiên – kinh tế?",
+    "options": [
+      "Sự bất lực trước tự nhiên và các lực lượng kinh tế – xã hội góp phần nảy sinh tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là do thiếu giáo dục, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là do cá nhân bịa đặt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ điều kiện sống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về nguồn gốc tự nhiên – kinh tế, giáo trình xác định: sự bất lực trước tự nhiên và các lực lượng kinh tế – xã hội góp phần nảy sinh tôn giáo. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về nguồn gốc tự nhiên – kinh tế, giáo trình xác định: sự bất lực trước tự nhiên và các lực lượng kinh tế – xã hội góp phần nảy sinh tôn giáo."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q030",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "nguồn gốc nhận thức",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác nguồn gốc nhận thức?",
+    "options": [
+      "Giới hạn nhận thức và việc vô điều kiện hóa mặt nào đó tạo khả năng phản ánh hư ảo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Khoa học càng phát triển tôn giáo tự tăng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhận thức không liên hệ tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là người không biết chữ có tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về nguồn gốc nhận thức, giáo trình xác định: giới hạn nhận thức và việc tuyệt đối hóa mặt nào đó tạo khả năng phản ánh hư ảo. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về nguồn gốc nhận thức, giáo trình xác định: giới hạn nhận thức và việc tuyệt đối hóa mặt nào đó tạo khả năng phản ánh hư ảo."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q031",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "nguồn gốc tâm lý",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét nguồn gốc tâm lý?",
+    "options": [
+      "Đơn thuần là do cưỡng bức pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sợ hãi, hy vọng, lòng biết ơn và nhu cầu tinh thần góp phần duy trì niềm tin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có yếu tố tình cảm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là do lợi ích kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về nguồn gốc tâm lý, giáo trình xác định: sợ hãi, hy vọng, lòng biết ơn và nhu cầu tinh thần góp phần duy trì niềm tin. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về nguồn gốc tâm lý, giáo trình xác định: sợ hãi, hy vọng, lòng biết ơn và nhu cầu tinh thần góp phần duy trì niềm tin."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q032",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tính lịch sử của tôn giáo",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với tính lịch sử của tôn giáo?",
+    "options": [
+      "Có trước loài người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tôn giáo bất biến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tôn giáo ra đời, biến đổi và có thể mất đi theo điều kiện lịch sử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không đổi theo xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về tính lịch sử của tôn giáo, giáo trình xác định: tôn giáo ra đời, biến đổi và có thể mất đi theo điều kiện lịch sử. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về tính lịch sử của tôn giáo, giáo trình xác định: tôn giáo ra đời, biến đổi và có thể mất đi theo điều kiện lịch sử."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q033",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tính quần chúng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo giáo trình, nhận định nào đúng về tính quần chúng?",
+    "options": [
+      "Tôn giáo đáp ứng nhu cầu tinh thần của một bộ phận đông đảo nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các tín đồ đều mê tín, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là giới chức theo đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có giá trị văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về tính quần chúng, giáo trình xác định: tôn giáo đáp ứng nhu cầu tinh thần của một bộ phận đông đảo nhân dân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về tính quần chúng, giáo trình xác định: tôn giáo đáp ứng nhu cầu tinh thần của một bộ phận đông đảo nhân dân."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q034",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tính chính trị",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng tính chính trị?",
+    "options": [
+      "Tôn giáo chẳng khi nào bị lợi dụng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các sinh hoạt tôn giáo đều phản động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xuất hiện khi tôn giáo bị các lực lượng xã hội sử dụng trong quan hệ lợi ích và quyền lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đức tin đồng nhất chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về tính chính trị, giáo trình xác định: xuất hiện khi tôn giáo bị các lực lượng xã hội sử dụng trong quan hệ lợi ích và quyền lực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về tính chính trị, giáo trình xác định: xuất hiện khi tôn giáo bị các lực lượng xã hội sử dụng trong quan hệ lợi ích và quyền lực."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q035",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "phân biệt tín ngưỡng và mê tín",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của phân biệt tín ngưỡng và mê tín là gì?",
+    "options": [
+      "Mê tín là quyền bất khả hạn chế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải cấm các tín ngưỡng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cần tôn trọng nhu cầu chính đáng nhưng chống hành vi mê muội gây hại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai hiện tượng luôn giống nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về phân biệt tín ngưỡng và mê tín, giáo trình xác định: cần tôn trọng nhu cầu chính đáng nhưng chống hành vi mê muội gây hại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về phân biệt tín ngưỡng và mê tín, giáo trình xác định: cần tôn trọng nhu cầu chính đáng nhưng chống hành vi mê muội gây hại."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q036",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "xử lý lễ nghi gây hại",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về xử lý lễ nghi gây hại?",
+    "options": [
+      "Bỏ qua vì là đức tin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cấm trọn vẹn tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bảo đảm tự do niềm tin nhưng ngăn hành vi xâm hại sức khỏe, tài sản theo pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Để tổ chức tự xử không theo luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về xử lý lễ nghi gây hại, giáo trình xác định: bảo đảm tự do niềm tin nhưng ngăn hành vi xâm hại sức khỏe, tài sản theo pháp luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1 > Bản chất, nguồn gốc và tính chất của tôn giáo",
+      "text": "Về xử lý lễ nghi gây hại, giáo trình xác định: bảo đảm tự do niềm tin nhưng ngăn hành vi xâm hại sức khỏe, tài sản theo pháp luật."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q037",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tôn trọng tự do tín ngưỡng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về tôn trọng tự do tín ngưỡng?",
+    "options": [
+      "Khuyến khích cưỡng ép theo đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bảo đảm quyền theo hoặc không theo tôn giáo và bình đẳng trước pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là bảo vệ người có đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cấm thay đổi niềm tin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về tôn trọng tự do tín ngưỡng, giáo trình xác định: bảo đảm quyền theo hoặc không theo tôn giáo và bình đẳng trước pháp luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về tôn trọng tự do tín ngưỡng, giáo trình xác định: bảo đảm quyền theo hoặc không theo tôn giáo và bình đẳng trước pháp luật."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q038",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "khắc phục ảnh hưởng tiêu cực",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác khắc phục ảnh hưởng tiêu cực?",
+    "options": [
+      "Đơn thuần là dùng mệnh lệnh hành chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải gắn với cải tạo xã hội cũ và nâng cao đời sống vật chất, tinh thần, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tranh luận giáo lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần phát triển xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về khắc phục ảnh hưởng tiêu cực, giáo trình xác định: phải gắn với cải tạo xã hội cũ và nâng cao đời sống vật chất, tinh thần. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về khắc phục ảnh hưởng tiêu cực, giáo trình xác định: phải gắn với cải tạo xã hội cũ và nâng cao đời sống vật chất, tinh thần."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q039",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "phân biệt hai mặt tôn giáo",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét phân biệt hai mặt tôn giáo?",
+    "options": [
+      "Các hoạt động đều thuần túy tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đồng nhất tín đồ với kẻ lợi dụng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần phân biệt nhu cầu tín ngưỡng với việc lợi dụng tôn giáo cho mục đích chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần căn cứ hành vi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về phân biệt hai mặt tôn giáo, giáo trình xác định: cần phân biệt nhu cầu tín ngưỡng với việc lợi dụng tôn giáo cho mục đích chính trị. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về phân biệt hai mặt tôn giáo, giáo trình xác định: cần phân biệt nhu cầu tín ngưỡng với việc lợi dụng tôn giáo cho mục đích chính trị."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q040",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "quan điểm lịch sử – cụ thể",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với quan điểm lịch sử – cụ thể?",
+    "options": [
+      "Suy từ cá nhân ra cộng đồng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dùng một kết luận bất biến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không xét bối cảnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đánh giá từng tôn giáo, thời kỳ và vấn đề trên điều kiện cụ thể, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về quan điểm lịch sử – cụ thể, giáo trình xác định: đánh giá từng tôn giáo, thời kỳ và vấn đề trên điều kiện cụ thể. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về quan điểm lịch sử – cụ thể, giáo trình xác định: đánh giá từng tôn giáo, thời kỳ và vấn đề trên điều kiện cụ thể."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q041",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "đặc điểm tôn giáo Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về đặc điểm tôn giáo Việt Nam?",
+    "options": [
+      "Đơn thuần là có một tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Việt Nam có nhiều tôn giáo, tín đồ đông, phần lớn đồng hành cùng dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tín đồ tách khỏi dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không có giao lưu tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về đặc điểm tôn giáo Việt Nam, giáo trình xác định: việt Nam có nhiều tôn giáo, tín đồ đông, phần lớn đồng hành cùng dân tộc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về đặc điểm tôn giáo Việt Nam, giáo trình xác định: việt Nam có nhiều tôn giáo, tín đồ đông, phần lớn đồng hành cùng dân tộc."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q042",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "chính sách tôn giáo Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nội dung nào phản ánh đúng chính sách tôn giáo Việt Nam?",
+    "options": [
+      "Đồng nhất quản lý với cấm đoán, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hạn chế quyền theo đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ưu đãi một tôn giáo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đoàn kết đồng bào có và không có đạo, bảo đảm sinh hoạt hợp pháp và đấu tranh với lợi dụng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chính sách tôn giáo Việt Nam, giáo trình xác định: đoàn kết đồng bào có và không có đạo, bảo đảm sinh hoạt hợp pháp và đấu tranh với lợi dụng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về chính sách tôn giáo Việt Nam, giáo trình xác định: đoàn kết đồng bào có và không có đạo, bảo đảm sinh hoạt hợp pháp và đấu tranh với lợi dụng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q043",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "quan hệ dân tộc – tôn giáo",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của quan hệ dân tộc – tôn giáo là gì?",
+    "options": [
+      "Hai lĩnh vực gắn bó, có thể củng cố đoàn kết hoặc bị lợi dụng gây chia rẽ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hoàn toàn độc lập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tôn giáo quyết định dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Dân tộc gạt bỏ niềm tin, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về quan hệ dân tộc – tôn giáo, giáo trình xác định: hai lĩnh vực gắn bó, có thể củng cố đoàn kết hoặc bị lợi dụng gây chia rẽ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về quan hệ dân tộc – tôn giáo, giáo trình xác định: hai lĩnh vực gắn bó, có thể củng cố đoàn kết hoặc bị lợi dụng gây chia rẽ."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q044",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "vai trò hệ thống chính trị cơ sở",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về vai trò hệ thống chính trị cơ sở?",
+    "options": [
+      "Phải gần dân, nắm tình hình, vận động và giải quyết nhu cầu chính đáng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là xử lý khi có xung đột, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần người uy tín, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Dùng cưỡng chế là chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về vai trò hệ thống chính trị cơ sở, giáo trình xác định: phải gần dân, nắm tình hình, vận động và giải quyết nhu cầu chính đáng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về vai trò hệ thống chính trị cơ sở, giáo trình xác định: phải gần dân, nắm tình hình, vận động và giải quyết nhu cầu chính đáng."
+    }
+  },
+  {
+    "id": "MLN131-C06-Q045",
+    "courseId": "mln131",
+    "chapter": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 6,
+    "topic": "tin giả kích động chia rẽ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về tin giả kích động chia rẽ?",
+    "options": [
+      "Cắt các kênh đối thoại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Quy kết trọn vẹn tín đồ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần xác minh, đối thoại với chức sắc và cộng đồng, xử lý hành vi vi phạm theo luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chấp nhận thông tin chưa kiểm chứng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về tin giả kích động chia rẽ, giáo trình xác định: cần xác minh, đối thoại với chức sắc và cộng đồng, xử lý hành vi vi phạm theo luật. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 6 > B.2.1.2–B.3 > Giải quyết tôn giáo và quan hệ dân tộc – tôn giáo",
+      "text": "Về tin giả kích động chia rẽ, giáo trình xác định: cần xác minh, đối thoại với chức sắc và cộng đồng, xử lý hành vi vi phạm theo luật."
+    }
+  }
+]

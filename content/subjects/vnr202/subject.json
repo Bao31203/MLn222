@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "vnr202",
+  "code": "VNR202",
+  "legacyAliases": ["vnr201"],
+  "title": "Lịch sử Đảng Cộng sản Việt Nam",
+  "description": "Ngân hàng 850 câu ôn tập bao phủ phần nhập môn, ba chương lịch sử và các bài học tổng kết của giáo trình.",
+  "status": "ready",
+  "studyReady": true,
+  "copyReviewRequired": false,
+  "features": {
+    "quiz": true,
+    "flashcards": true,
+    "search": true,
+    "lectures": false,
+    "game": false
+  },
+  "questionTarget": 850,
+  "chapters": [
+    {
+      "id": "vnr202-c01",
+      "number": 1,
+      "title": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+      "questionTarget": 63
+    },
+    {
+      "id": "vnr202-c02",
+      "number": 2,
+      "title": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+      "questionTarget": 120
+    },
+    {
+      "id": "vnr202-c03",
+      "number": 3,
+      "title": "Đảng lãnh đạo hai cuộc kháng chiến, hoàn thành giải phóng và thống nhất đất nước (1945–1975)",
+      "questionTarget": 220
+    },
+    {
+      "id": "vnr202-c04",
+      "number": 4,
+      "title": "Đảng lãnh đạo cả nước quá độ lên chủ nghĩa xã hội và tiến hành công cuộc đổi mới (1975–2018)",
+      "questionTarget": 400
+    },
+    {
+      "id": "vnr202-c05",
+      "number": 5,
+      "title": "Kết luận: Những thắng lợi và bài học lớn của cách mạng Việt Nam",
+      "questionTarget": 47
+    }
+  ],
+  "questionFiles": [
+    {"chapterNum": 1, "path": "subjects/vnr202/chapters/chapter-01.json"},
+    {"chapterNum": 2, "path": "subjects/vnr202/chapters/chapter-02.json"},
+    {"chapterNum": 3, "path": "subjects/vnr202/chapters/chapter-03.json"},
+    {"chapterNum": 4, "path": "subjects/vnr202/chapters/chapter-04.json"},
+    {"chapterNum": 5, "path": "subjects/vnr202/chapters/chapter-05.json"}
+  ],
+  "lectureManifest": null,
+  "validation": {
+    "questionIdPattern": "^VNR202-C\\d{2}-Q\\d{3}$",
+    "courseIdPolicy": "required",
+    "allowedKinds": [
+      "nhan_biet_khai_niem",
+      "thong_hieu_phan_biet",
+      "trinh_tu_quan_he",
+      "van_dung_tinh_huong"
+    ],
+    "difficultyTargets": {"Nhận biết": 340, "Thông hiểu": 340, "Vận dụng": 170},
+    "answerPositionTargets": [213, 213, 212, 212],
+    "chapterTargets": [
+      {
+        "chapterNum": 1,
+        "difficultyTargets": {"Nhận biết": 25, "Thông hiểu": 25, "Vận dụng": 13},
+        "answerPositionTargets": [16, 16, 16, 15]
+      },
+      {
+        "chapterNum": 2,
+        "difficultyTargets": {"Nhận biết": 48, "Thông hiểu": 48, "Vận dụng": 24},
+        "answerPositionTargets": [30, 30, 30, 30]
+      },
+      {
+        "chapterNum": 3,
+        "difficultyTargets": {"Nhận biết": 88, "Thông hiểu": 88, "Vận dụng": 44},
+        "answerPositionTargets": [55, 55, 55, 55]
+      },
+      {
+        "chapterNum": 4,
+        "difficultyTargets": {"Nhận biết": 160, "Thông hiểu": 160, "Vận dụng": 80},
+        "answerPositionTargets": [100, 100, 100, 100]
+      },
+      {
+        "chapterNum": 5,
+        "difficultyTargets": {"Nhận biết": 19, "Thông hiểu": 19, "Vận dụng": 9},
+        "answerPositionTargets": [12, 12, 11, 12]
+      }
+    ],
+    "sourcePolicy": {
+      "schema": "markdown-section",
+      "allowedSources": [
+        {
+          "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+          "label": "Giáo trình Lịch sử Đảng Cộng sản Việt Nam"
+        }
+      ],
+      "allowedSlideFiles": [],
+      "chapterPageRanges": []
+    },
+    "reviewSignoffPath": "subjects/vnr202/review-signoff.json"
+  }
+}

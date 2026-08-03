@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "VNR202-C02-Q001",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Sự chuyển biến của chủ nghĩa tư bản và vấn đề thuộc địa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Từ nửa sau thế kỷ XIX, sự chuyển biến nào của chủ nghĩa tư bản phương Tây làm gia tăng quá trình xâm chiếm thuộc địa?",
+    "options": [
+      "Chuyển từ tự do cạnh tranh sang giai đoạn độc quyền, đế quốc chủ nghĩa",
+      "Chuyển từ sản xuất công nghiệp sang nền kinh tế nông nghiệp tự cấp",
+      "Chuyển từ mở rộng thị trường sang hạn chế quan hệ với các châu lục",
+      "Chuyển từ chế độ tư bản sang mô hình xã hội chủ nghĩa trên diện rộng"
+    ],
+    "answer": 0,
+    "explanation": "Giáo trình gắn sự chuyển từ tự do cạnh tranh sang độc quyền, tức đế quốc chủ nghĩa, với việc các nước tư bản đẩy mạnh xâm chiếm và nô dịch các nước nhỏ yếu. Các phương án còn lại không phản ánh chuyển biến được nguồn nêu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình thế giới (logical lines 635-665)",
+      "text": "Chủ nghĩa tư bản phương Tây chuyển sang giai đoạn độc quyền và tăng cường xâm chiếm các nước nhỏ yếu làm thuộc địa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q002",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vị trí của phong trào giải phóng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Theo giáo trình, phong trào giải phóng dân tộc ở thuộc địa đầu thế kỷ XX có quan hệ như thế nào với phong trào vô sản ở các nước tư bản?",
+    "options": [
+      "Là bộ phận phụ trợ, phát triển sau khi phong trào vô sản ở chính quốc giành thắng lợi",
+      "Là phong trào dân chủ tư sản ở thuộc địa, phối hợp với các chính phủ tư bản để tiến hành cải cách",
+      "Là một bộ phận quan trọng của cuộc đấu tranh chung chống tư bản và thực dân",
+      "Là mặt trận dân tộc theo mục tiêu riêng, liên hệ với phong trào vô sản chủ yếu qua sự ủng hộ ngoại giao"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn đặt hai phong trào trong cuộc đấu tranh chung chống tư bản và thực dân, đồng thời xác định phong trào giải phóng dân tộc là một bộ phận quan trọng. Vì vậy, quan hệ này không phải tách biệt, phụ thuộc hay thay thế nhau.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình thế giới (logical lines 635-665)",
+      "text": "Phong trào giải phóng dân tộc và phong trào vô sản cùng tham gia cuộc đấu tranh chung chống tư bản, thực dân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q003",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của Quốc tế Cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào phân biệt vai trò của Quốc tế Cộng sản đối với vấn đề dân tộc và thuộc địa theo giáo trình?",
+    "options": [
+      "Chủ yếu tổ chức trao đổi kinh tế giữa các nước thuộc địa với nhau",
+      "Vạch phương hướng, giúp đỡ và truyền bá tư tưởng cách mạng vô sản vào phong trào giải phóng dân tộc",
+      "Tập trung duy trì hệ thống thuộc địa để tránh xung đột giữa các đế quốc",
+      "Giới hạn hoạt động trong phong trào công nhân ở một số nước châu Âu"
+    ],
+    "answer": 1,
+    "explanation": "Quốc tế Cộng sản không giới hạn ở phong trào công nhân chính quốc; tổ chức này còn nghiên cứu chiến lược dân tộc, thuộc địa, giúp đỡ phong trào giải phóng và truyền bá khuynh hướng vô sản. Các phương án khác làm sai mục tiêu hoặc phạm vi hoạt động.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình thế giới (logical lines 635-665)",
+      "text": "Quốc tế Cộng sản vạch đường hướng và thúc đẩy phong trào giải phóng dân tộc đi theo khuynh hướng vô sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q004",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mục đích khai thác thuộc địa của thực dân Pháp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mưu đồ kinh tế chủ yếu của thực dân Pháp khi tiến hành khai thác thuộc địa ở Việt Nam là gì?",
+    "options": [
+      "Xây dựng nền công nghiệp tự chủ để Việt Nam cạnh tranh với chính quốc",
+      "Phát triển bình đẳng các khu vực kinh tế nhằm nâng cao đời sống bản xứ",
+      "Chuyển quyền sở hữu tài nguyên cho người lao động trong các ngành sản xuất",
+      "Biến thuộc địa thành thị trường tiêu thụ, nơi vơ vét tài nguyên và bóc lột lao động"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình nêu mục đích của khai thác thuộc địa là phục vụ lợi ích chính quốc thông qua thị trường tiêu thụ, vơ vét tài nguyên và sử dụng lao động rẻ. Ba phương án kia trái với tính chất bóc lột được nguồn mô tả.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Pháp biến Việt Nam thành thị trường tiêu thụ của chính quốc, đồng thời vơ vét tài nguyên và bóc lột lao động bản xứ."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q005",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Địa vị của giai cấp nông dân Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giai cấp nào được giáo trình mô tả là đông đảo nhất và bị cả thực dân lẫn phong kiến bóc lột nặng nề?",
+    "options": [
+      "Giai cấp tư sản dân tộc",
+      "Giai cấp nông dân",
+      "Tầng lớp tiểu tư sản",
+      "Giai cấp địa chủ"
+    ],
+    "answer": 1,
+    "explanation": "Nông dân chiếm hơn 90% dân số theo nguồn và chịu sự bóc lột nặng nề của thực dân, phong kiến. Những giai cấp, tầng lớp còn lại có địa vị kinh tế và quy mô khác với mô tả trong stem.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Nông dân là lực lượng đông đảo nhất, chịu áp bức nặng nề và có tinh thần đấu tranh vì độc lập và ruộng đất."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q006",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mâu thuẫn chủ yếu của xã hội Việt Nam thuộc địa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Mâu thuẫn nào trở thành mâu thuẫn chủ yếu nhất trong xã hội Việt Nam dưới ách thuộc địa Pháp?",
+    "options": [
+      "Toàn thể dân tộc Việt Nam với thực dân Pháp và phong kiến phản động",
+      "Tư sản dân tộc với tiểu tư sản thành thị trong hoạt động kinh doanh",
+      "Công nhân công nghiệp với nông dân trong phân phối sản phẩm xã hội",
+      "Địa chủ yêu nước với sĩ phu tiến bộ trong lựa chọn phương pháp cứu nước"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn xác định mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp và phong kiến phản động là mâu thuẫn chủ yếu, ngày càng gay gắt. Các quan hệ còn lại không được xác định ở vị trí đó.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Sự thống trị thuộc địa làm nổi lên mâu thuẫn chủ yếu giữa toàn thể dân tộc Việt Nam với thực dân Pháp và phong kiến phản động."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q007",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Khả năng lãnh đạo của giai cấp công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao giai cấp công nhân Việt Nam được giáo trình đánh giá có năng lực lãnh đạo cách mạng dù lực lượng còn nhỏ bé?",
+    "options": [
+      "Vì nắm phần lớn ruộng đất và có ảnh hưởng trực tiếp đối với nông dân",
+      "Vì có tiềm lực kinh tế độc lập và không chịu sự chèn ép của thực dân",
+      "Vì hình thành trước khi Pháp khai thác thuộc địa và có tổ chức chính trị sẵn có",
+      "Vì sớm tiếp nhận tư tưởng tiên tiến và chuyển nhanh từ tự phát lên tự giác"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn nhấn mạnh công nhân Việt Nam tuy ít nhưng sớm tiếp nhận tư tưởng tiên tiến của thời đại và phát triển từ tự phát đến tự giác. Sở hữu ruộng đất, độc lập kinh tế hay hình thành trước khai thác thuộc địa đều không phải căn cứ của nhận định này.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Giai cấp công nhân sớm tiếp nhận tư tưởng tiên tiến và chuyển từ tự phát lên tự giác, thể hiện năng lực lãnh đạo cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q008",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Sự phân hóa của giai cấp tư sản Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm phân biệt cơ bản giữa tư sản mại bản và tư sản dân tộc Việt Nam theo giáo trình là gì?",
+    "options": [
+      "Tư sản mại bản hoạt động ở nông thôn, còn tư sản dân tộc hoạt động tại đô thị",
+      "Tư sản mại bản xuất thân từ công nhân, còn tư sản dân tộc xuất thân từ địa chủ",
+      "Tư sản mại bản gắn lợi ích với tư bản Pháp, còn tư sản dân tộc bị Pháp chèn ép và lệ thuộc",
+      "Tư sản mại bản có tinh thần dân tộc, còn tư sản dân tộc phục vụ chính quyền thuộc địa"
+    ],
+    "answer": 2,
+    "explanation": "Tiêu chí phân biệt trong nguồn là quan hệ lợi ích với tư bản Pháp: mại bản gắn lợi ích với Pháp, còn tư sản dân tộc bị chèn ép, kìm hãm và lệ thuộc. Các phương án khác đảo đặc điểm hoặc dùng tiêu chí nguồn không nêu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Tư sản mại bản gắn lợi ích với tư bản Pháp, trong khi tư sản dân tộc bị thực dân chèn ép và yếu về kinh tế."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q009",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Đặc điểm chính trị của tầng lớp tiểu tư sản",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Địa vị kinh tế bấp bênh của tầng lớp tiểu tư sản dẫn đến hạn chế chính trị nào theo giáo trình?",
+    "options": [
+      "Không có tinh thần dân tộc và ít quan tâm đến thời cuộc",
+      "Gắn lợi ích ổn định với tư bản Pháp và chính quyền thuộc địa",
+      "Thái độ dễ dao động, thiếu kiên định nên không thể lãnh đạo cách mạng",
+      "Không thể tham gia bất kỳ phong trào yêu nước nào của dân tộc"
+    ],
+    "answer": 2,
+    "explanation": "Nguồn mô tả tiểu tư sản có tinh thần yêu nước và nhạy cảm chính trị, nhưng địa vị kinh tế bấp bênh khiến họ hay dao động, thiếu kiên định. Hạn chế này khác với việc phủ nhận tinh thần dân tộc hoặc khả năng tham gia phong trào.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Tiểu tư sản yêu nước và nhạy cảm chính trị nhưng dễ dao động do địa vị kinh tế bấp bênh, nên không đủ khả năng lãnh đạo."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q010",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Suy luận về lực lượng có năng lực lãnh đạo cách mạng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức muốn chọn lực lượng lãnh đạo phong trào chống thực dân. Lực lượng A ra đời trong khai thác thuộc địa, phần lớn xuất thân từ nông dân, chịu áp bức trực tiếp, có kỷ luật và đã chuyển dần sang đấu tranh tự giác. Nên đánh giá thế nào?",
+    "options": [
+      "Xếp A vào tiểu tư sản và giao vai trò lãnh đạo vì lực lượng này có nguồn gốc chủ yếu từ nông dân",
+      "Xác định A là công nhân và có thể giữ vai trò lãnh đạo khi tiếp nhận lý luận cách mạng tiên tiến",
+      "Xác định A là tư sản dân tộc và dựa vào vị thế kinh doanh độc lập để lãnh đạo phong trào",
+      "Xếp A vào nông dân và coi tính kỷ luật công nghiệp là đặc điểm ít ảnh hưởng đến năng lực chính trị"
+    ],
+    "answer": 1,
+    "explanation": "Các dữ kiện về nguồn gốc, quan hệ với tư bản thực dân, tính tổ chức và sự chuyển sang tự giác cho phép xác định A là giai cấp công nhân, lực lượng có khả năng tiếp nhận lý luận tiên tiến và lãnh đạo cách mạng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Bối cảnh lịch sử > Tình hình Việt Nam (logical lines 666-794)",
+      "text": "Các đặc điểm về nguồn gốc, hoàn cảnh ra đời và sự chuyển biến tự giác là căn cứ để nguồn đánh giá năng lực lãnh đạo của công nhân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q011",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Khuynh hướng của phong trào Cần Vương",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phong trào Cần Vương được giáo trình xếp vào khuynh hướng cứu nước nào?",
+    "options": [
+      "Khuynh hướng phong kiến",
+      "Khuynh hướng vô sản",
+      "Khuynh hướng cải cách dân chủ",
+      "Khuynh hướng cộng hòa tư sản"
+    ],
+    "answer": 0,
+    "explanation": "Cần Vương do lực lượng phong kiến yêu nước khởi xướng và lãnh đạo, vì vậy thuộc khuynh hướng phong kiến. Các khuynh hướng cải cách, tư sản và vô sản xuất hiện trong những điều kiện và tổ chức khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Phong trào Cần Vương thể hiện cuộc đấu tranh chống Pháp dưới ngọn cờ của lực lượng phong kiến yêu nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q012",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mục tiêu và phương pháp của Việt Nam Quốc dân Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tổ hợp nào phản ánh đúng mục tiêu và phương pháp của Việt Nam Quốc dân Đảng theo giáo trình?",
+    "options": [
+      "Cải cách chế độ quân chủ bằng giáo dục và mở mang thực nghiệp",
+      "Xây dựng chế độ phong kiến độc lập bằng phong trào Cần Vương",
+      "Truyền bá chủ nghĩa Mác-Lênin thông qua phong trào vô sản hóa",
+      "Giành độc lập, lập cộng hòa tư sản bằng đấu tranh vũ trang mang tính manh động"
+    ],
+    "answer": 3,
+    "explanation": "Việt Nam Quốc dân Đảng hướng tới độc lập và chế độ cộng hòa tư sản, sử dụng đấu tranh vũ trang nhưng theo lối manh động, ám sát cá nhân. Ba phương án kia thuộc các xu hướng hoặc tổ chức khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Việt Nam Quốc dân Đảng chủ trương giành độc lập và xây dựng cộng hòa tư sản bằng phương pháp vũ trang còn manh động."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q013",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phân biệt khuynh hướng Phan Bội Châu và Phan Châu Trinh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Khác biệt chủ yếu giữa khuynh hướng của Phan Bội Châu và Phan Châu Trinh là gì?",
+    "options": [
+      "Phan Bội Châu thiên về bạo động, còn Phan Châu Trinh chủ trương cải cách dựa vào sự bảo hộ của Pháp",
+      "Phan Bội Châu chủ trương cải cách giáo dục, còn Phan Châu Trinh tổ chức đấu tranh vô sản",
+      "Phan Bội Châu dựa vào chính quyền Pháp, còn Phan Châu Trinh xây dựng lực lượng ở Nhật Bản",
+      "Phan Bội Châu theo khuynh hướng phong kiến, còn Phan Châu Trinh lãnh đạo Việt Nam Quốc dân Đảng"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn xác định Phan Bội Châu tiêu biểu cho xu hướng bạo động, còn Phan Châu Trinh chủ trương cải cách và đề nghị nhà nước bảo hộ Pháp thực hiện cải cách. Các phương án khác đảo vai trò hoặc gán họ với phong trào không tương ứng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Phan Bội Châu đại diện xu hướng bạo động, còn Phan Châu Trinh theo xu hướng cải cách và trông cậy vào bảo hộ Pháp."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q014",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Giới hạn của phong trào Yên Thế",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao phong trào Yên Thế không phát triển thành một cuộc cách mạng giải phóng dân tộc theo đánh giá của giáo trình?",
+    "options": [
+      "Vì phong trào đặt nhiệm vụ truyền bá chủ nghĩa Mác-Lênin lên trước đấu tranh chống Pháp",
+      "Vì phong trào còn mang cốt cách phong kiến, không mở rộng hợp tác và thống nhất trên phạm vi dân tộc",
+      "Vì phong trào dựa vào tư sản mại bản và từ bỏ việc xây dựng lực lượng chiến đấu",
+      "Vì phong trào theo đuổi cải cách ôn hòa và không lập căn cứ đấu tranh"
+    ],
+    "answer": 1,
+    "explanation": "Giáo trình ghi nhận sức chiến đấu kiên cường của Yên Thế nhưng chỉ ra giới hạn là cốt cách phong kiến và thiếu khả năng mở rộng hợp tác, thống nhất thành cách mạng toàn quốc. Những mô tả khác không phù hợp với phong trào này.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Phong trào Yên Thế còn mang cốt cách phong kiến và không tạo được sự hợp tác, thống nhất trên phạm vi cả nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q015",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nguyên nhân chung của sự thất bại trước khi có Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Tổ hợp nguyên nhân nào giải thích đầy đủ nhất sự thất bại của các phong trào yêu nước trước khi có Đảng?",
+    "options": [
+      "Thiếu viện trợ quốc tế, thiếu căn cứ ở đô thị và thiếu hoạt động báo chí",
+      "Thiếu vũ khí hiện đại, thiếu số lượng người tham gia và thiếu địa bàn nông thôn",
+      "Thiếu sự tham gia của sĩ phu, thiếu mục tiêu độc lập và thiếu tinh thần yêu nước",
+      "Thiếu đường lối đúng, tổ chức vững mạnh và phương pháp đấu tranh thích hợp"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn quy thất bại về ba thiếu hụt cốt lõi: đường lối chính trị đúng đắn, tổ chức đủ mạnh để giác ngộ và tập hợp toàn dân, cùng phương pháp phù hợp để đánh đổ kẻ thù. Các tổ hợp khác đưa vào yếu tố không phải kết luận chung của giáo trình.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Các phong trào thất bại vì thiếu đường lối đúng, tổ chức lãnh đạo vững mạnh và phương pháp đấu tranh thích hợp."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q016",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vận dụng tiêu chí đánh giá phong trào yêu nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào có tinh thần yêu nước mạnh nhưng đường lối chưa giải quyết đúng mâu thuẫn chủ yếu, tổ chức phân tán và phương pháp thiếu phù hợp. Theo khung phân tích của giáo trình, nhận định nào hợp lý nhất?",
+    "options": [
+      "Phong trào có thể bỏ qua việc xác định đường lối nếu mở rộng địa bàn hoạt động",
+      "Phong trào sẽ thành công nhờ tinh thần yêu nước bù đắp mọi hạn chế tổ chức",
+      "Phong trào khó tập hợp toàn dân và khó giành thắng lợi dù có tinh thần đấu tranh",
+      "Phong trào sẽ trở thành lực lượng lãnh đạo khi duy trì nguyên vẹn phương pháp cũ"
+    ],
+    "answer": 2,
+    "explanation": "Theo giáo trình, tinh thần yêu nước là giá trị tích cực nhưng không thay thế được đường lối, tổ chức và phương pháp thích hợp. Vì vậy, một phong trào thiếu ba điều kiện này khó tập hợp lực lượng và giành thắng lợi; đáp án đúng về nội dung là phương án nêu kết luận đó.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.1 Các phong trào yêu nước trước khi có Đảng (logical lines 795-914)",
+      "text": "Kinh nghiệm từ các phong trào thất bại cho thấy tinh thần yêu nước cần được dẫn dắt bởi đường lối, tổ chức và phương pháp phù hợp."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q017",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nguyễn Ái Quốc ra đi tìm đường cứu nước",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Năm 1911, Nguyễn Tất Thành quyết định làm gì để tìm lời giải mới cho sự nghiệp giải phóng dân tộc?",
+    "options": [
+      "Thành lập ngay một chính đảng cộng sản ở Việt Nam",
+      "Ra đi tìm một con đường cứu nước mới cho dân tộc",
+      "Tổ chức phong trào Đông Du đưa thanh niên sang Nhật",
+      "Thành lập Việt Nam Quốc dân Đảng tại Bắc Kỳ"
+    ],
+    "answer": 1,
+    "explanation": "Trước yêu cầu giải phóng dân tộc và vượt lên hạn chế của các bậc tiền bối, Nguyễn Tất Thành quyết định ra đi tìm đường cứu nước năm 1911. Các tổ chức và phong trào ở phương án khác thuộc chủ thể hoặc thời điểm khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2 Nguyễn Ái Quốc lựa chọn con đường cách mạng vô sản (logical lines 915-970)",
+      "text": "Năm 1911, Nguyễn Tất Thành ra đi tìm đường cứu nước nhằm tìm giải pháp mới cho sự nghiệp giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q018",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Quyết định tại Đại hội Tours",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tại Đại hội Tours tháng 12-1920, Nguyễn Ái Quốc đã lựa chọn phương án chính trị nào?",
+    "options": [
+      "Ủng hộ việc duy trì Đảng Xã hội Pháp ngoài phong trào cộng sản",
+      "Thành lập một tổ chức cải cách dựa vào chính quyền thuộc địa",
+      "Trở về nước để tham gia Việt Nam Quốc dân Đảng",
+      "Bỏ phiếu tán thành Quốc tế Cộng sản và tham gia thành lập Đảng Cộng sản Pháp"
+    ],
+    "answer": 3,
+    "explanation": "Nguyễn Ái Quốc bỏ phiếu tán thành Quốc tế III và cùng những người có cùng lựa chọn thành lập Phân bộ Pháp của Quốc tế Cộng sản, tức Đảng Cộng sản Pháp. Đây không phải lựa chọn cải cách hay đứng ngoài phong trào cộng sản.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2 Nguyễn Ái Quốc lựa chọn con đường cách mạng vô sản (logical lines 915-970)",
+      "text": "Tại Đại hội Tours, Nguyễn Ái Quốc tán thành Quốc tế Cộng sản và trở thành một sáng lập viên của Đảng Cộng sản Pháp."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q019",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tác động của Luận cương về vấn đề dân tộc và thuộc địa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao việc đọc Luận cương của Lênin tháng 7-1920 là bước quan trọng trong quá trình Nguyễn Ái Quốc tìm đường cứu nước?",
+    "options": [
+      "Luận cương cung cấp kế hoạch xây dựng chế độ quân chủ lập hiến ở Việt Nam",
+      "Luận cương đề nghị các dân tộc thuộc địa dựa vào sự bảo hộ của chính quốc",
+      "Luận cương giải đáp các vấn đề cơ bản và chỉ hướng cho cách mạng giải phóng dân tộc",
+      "Luận cương đặt nhiệm vụ cải cách kinh tế thuộc địa cao hơn độc lập dân tộc"
+    ],
+    "answer": 2,
+    "explanation": "Theo nguồn, các luận điểm của Lênin về dân tộc và thuộc địa giải đáp những vấn đề cơ bản và chỉ ra hướng phát triển cho sự nghiệp cứu nước. Các phương án còn lại gán cho Luận cương mục tiêu cải cách hoặc lệ thuộc mà nguồn không nêu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2 Nguyễn Ái Quốc lựa chọn con đường cách mạng vô sản (logical lines 915-970)",
+      "text": "Luận cương của Lênin giúp Nguyễn Ái Quốc giải đáp vấn đề dân tộc, thuộc địa và xác định hướng đi của cách mạng giải phóng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q020",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bước chuyển trong lập trường chính trị của Nguyễn Ái Quốc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Ý nghĩa trực tiếp của chuỗi sự kiện Nguyễn Ái Quốc tán thành Quốc tế Cộng sản và tham gia thành lập Đảng Cộng sản Pháp là gì?",
+    "options": [
+      "Đánh dấu bước chuyển quyết định sang lập trường cộng sản và xác định con đường cách mạng vô sản",
+      "Đánh dấu việc hoàn thành ngay quá trình thành lập Đảng Cộng sản Việt Nam trong nước",
+      "Đánh dấu sự trở lại khuynh hướng cải cách dựa vào chính quyền thực dân Pháp",
+      "Đánh dấu việc chấm dứt hoạt động quốc tế để tập trung vào phong trào Đông Du"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn coi đây là bước chuyển biến quyết định trong tư tưởng và lập trường chính trị của Nguyễn Ái Quốc, gắn với con đường cách mạng vô sản. Sự kiện chưa đồng nghĩa với việc Đảng Cộng sản Việt Nam đã được thành lập.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2 Nguyễn Ái Quốc lựa chọn con đường cách mạng vô sản (logical lines 915-970)",
+      "text": "Việc tham gia thành lập Đảng Cộng sản Pháp đánh dấu bước chuyển quyết định của Nguyễn Ái Quốc sang lập trường cộng sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q021",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Xác định mốc chuyển biến trong quá trình tìm đường cứu nước",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một nhóm yêu nước ở thuộc địa đã đòi quyền dân tộc nhưng chương trình vẫn dựa vào cải cách của chính quốc và chưa xác định lực lượng, tổ chức cách mạng. Nếu vận dụng bước chuyển lập trường của Nguyễn Ái Quốc, nhóm nên điều chỉnh theo hướng nào?",
+    "options": [
+      "Giữ mục tiêu xin quyền tự trị, mở rộng kiến nghị tới nghị viện chính quốc và chờ chính quyền thuộc địa từng bước cải cách",
+      "Tìm sự bảo trợ của một cường quốc châu Á, xây dựng lực lượng lưu vong và tiếp tục đường lối dân chủ tư sản",
+      "Tiếp nhận lý luận cách mạng vô sản về dân tộc, thuộc địa, gắn phong trào với Quốc tế Cộng sản và xây dựng tổ chức cộng sản",
+      "Khôi phục ngọn cờ quân chủ, tập hợp văn thân địa phương và dùng viện trợ bên ngoài để tổ chức khởi nghĩa"
+    ],
+    "answer": 2,
+    "explanation": "Điểm yếu của chương trình là còn ở lập trường cải lương và thiếu nền tảng tổ chức. Vận dụng bước chuyển của Nguyễn Ái Quốc đòi hỏi đồng thời tiếp nhận lý luận cách mạng vô sản về thuộc địa, lựa chọn liên hệ quốc tế và xây dựng tổ chức cộng sản.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2 Nguyễn Ái Quốc lựa chọn con đường cách mạng vô sản (logical lines 915-970)",
+      "text": "Chuỗi đọc Luận cương, tán thành Quốc tế Cộng sản và tham gia thành lập Đảng Cộng sản Pháp thể hiện bước chuyển lập trường."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q022",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hoạt động chuẩn bị về tư tưởng của Nguyễn Ái Quốc",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Từ giữa năm 1921 tại Pháp, Nguyễn Ái Quốc tham gia thành lập tổ chức nào để góp phần tập hợp lực lượng chống chủ nghĩa thực dân?",
+    "options": [
+      "Hội Việt Nam Cách mạng thanh niên",
+      "Hội Liên hiệp các dân tộc bị áp bức ở Á Đông",
+      "Mặt trận Việt Minh",
+      "Hội Liên hiệp thuộc địa"
+    ],
+    "answer": 3,
+    "explanation": "Nguyễn Ái Quốc cùng một số nhà cách mạng thuộc địa tham gia thành lập Hội Liên hiệp thuộc địa tại Pháp. Các tổ chức còn lại ra đời trong những bối cảnh khác.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tư tưởng (logical lines 971-999)",
+      "text": "Từ giữa năm 1921, Nguyễn Ái Quốc cùng các nhà cách mạng thuộc địa tham gia thành lập Hội Liên hiệp thuộc địa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q023",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nội dung chuẩn bị về tư tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nội dung nào thể hiện đúng trọng tâm chuẩn bị về tư tưởng của Nguyễn Ái Quốc cho sự ra đời của Đảng?",
+    "options": [
+      "Truyền bá tư tưởng vô sản và lý luận Mác-Lênin vào phong trào công nhân, phong trào yêu nước",
+      "Truyền bá tư tưởng dân chủ tư sản vào phong trào yêu nước, lấy cải cách thuộc địa làm bước chuyển tiếp",
+      "Giới thiệu chủ nghĩa Mác-Lênin chủ yếu trong giới trí thức, sau đó mở rộng tới phong trào công nhân",
+      "Tổng kết truyền thống yêu nước thành học thuyết dân tộc, lấy kinh nghiệm nghị trường làm phương pháp trung tâm"
+    ],
+    "answer": 0,
+    "explanation": "Nguồn nhấn mạnh việc truyền bá tư tưởng vô sản và lý luận Mác-Lênin vào cả phong trào công nhân lẫn phong trào yêu nước Việt Nam. Ba phương án kia thu hẹp hoặc làm sai mục tiêu ấy.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tư tưởng (logical lines 971-999)",
+      "text": "Nguyễn Ái Quốc chủ trương truyền bá tư tưởng vô sản, lý luận Mác-Lênin vào phong trào công nhân và phong trào yêu nước Việt Nam."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q024",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của chủ nghĩa cách mạng đối với Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Nguyễn Ái Quốc cho rằng một đảng cách mạng phải lấy một chủ nghĩa làm cốt?",
+    "options": [
+      "Để đảng có thể thay quần chúng quyết định mọi nhiệm vụ cách mạng",
+      "Để đảng có nền tảng định hướng thống nhất, như người có trí khôn và tàu có bàn chỉ nam",
+      "Để đảng chỉ cần nghiên cứu lý luận mà không phải tổ chức đấu tranh thực tiễn",
+      "Để đảng phụ thuộc hoàn toàn vào sự chỉ đạo của một tổ chức ở nước ngoài"
+    ],
+    "answer": 1,
+    "explanation": "So sánh trong nguồn làm rõ chủ nghĩa là nền tảng định hướng để đảng hiểu và hành động thống nhất. Điều đó không phủ nhận vai trò quần chúng, thực tiễn hay tính chủ động của cách mạng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tư tưởng (logical lines 971-999)",
+      "text": "Nguyễn Ái Quốc ví đảng không có chủ nghĩa như người không có trí khôn, tàu không có bàn chỉ nam."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q025",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vận dụng tiêu chí chuẩn bị về tư tưởng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tài liệu vận động đã tố cáo sự áp bức của chủ nghĩa thực dân nhưng chưa chỉ ra con đường giải phóng. Để tài liệu thực hiện đầy đủ chức năng chuẩn bị tư tưởng như hoạt động của Nguyễn Ái Quốc, nên bổ sung nội dung nào?",
+    "options": [
+      "Truyền bá lý luận Mác-Lênin, thức tỉnh các dân tộc bị áp bức và chỉ ra con đường cách mạng vô sản",
+      "Giới thiệu mô hình quân chủ lập hiến châu Âu như đích đến phù hợp cho các dân tộc thuộc địa",
+      "Khuyên người yêu nước hoạt động tách biệt với công nhân để tránh ảnh hưởng của tư tưởng vô sản",
+      "Thu hẹp mục tiêu vào cải thiện điều kiện lao động tại Pháp, chưa gắn với sự nghiệp giải phóng thuộc địa"
+    ],
+    "answer": 0,
+    "explanation": "Tố cáo chủ nghĩa thực dân mới là mặt phê phán; để chuẩn bị tư tưởng đầy đủ còn phải truyền bá lý luận Mác-Lênin và con đường cách mạng vô sản tới các dân tộc bị áp bức.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tư tưởng (logical lines 971-999)",
+      "text": "Nguyễn Ái Quốc tố cáo bản chất áp bức của chủ nghĩa thực dân, thức tỉnh các dân tộc bị áp bức và tuyên truyền con đường cách mạng theo lý luận Mác-Lênin."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q026",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của đảng cách mạng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo quan điểm Nguyễn Ái Quốc được giáo trình dẫn lại, cách mạng trước hết phải có gì?",
+    "options": [
+      "Một đội quân thường trực do địa chủ tổ chức",
+      "Một chính phủ liên hiệp với chính quyền thuộc địa",
+      "Một đảng cách mệnh",
+      "Một chương trình cải lương không cần tổ chức lãnh đạo"
+    ],
+    "answer": 2,
+    "explanation": "Nguyễn Ái Quốc khẳng định cách mạng trước hết phải có đảng cách mệnh để tổ chức lực lượng trong nước và liên lạc với lực lượng cách mạng bên ngoài.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về chính trị (logical lines 1000-1031)",
+      "text": "Nguyễn Ái Quốc nêu rằng cách mạng trước hết phải có đảng cách mệnh."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q027",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phong trào Vô sản hóa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phong trào “Vô sản hóa” do Kỳ bộ Bắc Kỳ Hội Việt Nam Cách mạng thanh niên phát động đã góp phần chủ yếu vào việc gì?",
+    "options": [
+      "Thành lập ngay chính quyền công nông trên cả nước",
+      "Truyền bá tư tưởng vô sản, rèn luyện cán bộ và phát triển tổ chức công nhân",
+      "Hợp nhất ba tổ chức cộng sản tại một hội nghị trong nước",
+      "Chuyển trọng tâm sang vận động cải cách trong tầng lớp địa chủ"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn xác định phong trào góp phần truyền bá tư tưởng vô sản, rèn luyện cán bộ và xây dựng, phát triển tổ chức của công nhân; chưa phải sự kiện lập chính quyền hay hợp nhất đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về chính trị (logical lines 1000-1031)",
+      "text": "Phong trào Vô sản hóa góp phần truyền bá tư tưởng vô sản, rèn luyện cán bộ và xây dựng phát triển tổ chức của công nhân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q028",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chức năng trong nước và quốc tế của đảng cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cặp nhiệm vụ nào phản ánh đúng quan niệm của Nguyễn Ái Quốc về vai trò của đảng cách mạng?",
+    "options": [
+      "Trong nước chỉ tuyên truyền; ngoài nước chỉ vận động viện trợ quân sự",
+      "Trong nước thương lượng với thực dân; ngoài nước tránh liên hệ với phong trào vô sản",
+      "Trong nước dựa vào địa chủ; ngoài nước phụ thuộc vào cách mạng ở chính quốc",
+      "Trong nước vận động, tổ chức dân chúng; ngoài nước liên lạc với dân tộc bị áp bức và giai cấp vô sản"
+    ],
+    "answer": 3,
+    "explanation": "Quan niệm được dẫn trong nguồn gắn tổ chức dân chúng ở trong nước với liên lạc các dân tộc bị áp bức và giai cấp vô sản ở bên ngoài. Các phương án kia đều cắt rời hoặc đảo ngược hai mặt này.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về chính trị (logical lines 1000-1031)",
+      "text": "Đảng cách mệnh phải vận động, tổ chức dân chúng ở trong và liên lạc với dân tộc bị áp bức, giai cấp vô sản ở ngoài."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q029",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Điều kiện thành công của cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Hình ảnh “người cầm lái có vững thuyền mới chạy” được dùng để nhấn mạnh quan hệ nào?",
+    "options": [
+      "Cách mạng thành công trước hết nhờ viện trợ vật chất, còn năng lực của tổ chức lãnh đạo giữ vai trò hỗ trợ",
+      "Phong trào quần chúng đủ sức đảm nhiệm chức năng định hướng mà tổ chức lãnh đạo thường thực hiện",
+      "Đường lối chính trị không liên quan đến năng lực tổ chức của đảng",
+      "Đảng có vững thì mới có thể lãnh đạo cách mạng đi tới thành công"
+    ],
+    "answer": 3,
+    "explanation": "Phép so sánh nhấn mạnh năng lực và sự vững mạnh của đảng là điều kiện lãnh đạo cách mạng thành công, chứ không hạ thấp quần chúng hay tuyệt đối hóa viện trợ.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về chính trị (logical lines 1000-1031)",
+      "text": "Nguyễn Ái Quốc khẳng định đảng có vững thì cách mạng mới thành công, như người cầm lái có vững thì thuyền mới chạy."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q030",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Đánh giá tác dụng của phong trào Vô sản hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức thanh niên đã mở lớp lý luận nhưng hội viên còn xa đời sống công nhân. Nếu vận dụng kinh nghiệm phong trào Vô sản hóa năm 1928, biện pháp nào phù hợp nhất?",
+    "options": [
+      "Đưa hội viên vào nhà máy, hầm mỏ và đồn điền để rèn luyện, tuyên truyền và phát triển tổ chức công nhân",
+      "Đưa hội viên sang Nhật học quân sự, tìm sự bảo trợ bên ngoài rồi trở về tổ chức phong trào yêu nước",
+      "Để hội viên tiếp tục học lý luận ở nước ngoài, còn phong trào công nhân phát triển theo các hội nghề nghiệp sẵn có",
+      "Chuyển hội viên về nông thôn vận động văn thân khôi phục chế độ quân chủ và xây dựng đội quân địa phương"
+    ],
+    "answer": 0,
+    "explanation": "Vô sản hóa khắc phục khoảng cách giữa cán bộ và phong trào bằng cách đưa hội viên vào các trung tâm lao động để tự rèn luyện, truyền bá tư tưởng và xây dựng tổ chức công nhân.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về chính trị (logical lines 1000-1031)",
+      "text": "Phong trào Vô sản hóa do Kỳ bộ Bắc Kỳ phát động năm 1928 góp phần rèn luyện cán bộ và phát triển tổ chức công nhân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q031",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Báo Thanh niên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tờ báo nào do Nguyễn Ái Quốc sáng lập, trực tiếp chỉ đạo và dùng để tuyên truyền chủ nghĩa Mác-Lênin, phương hướng giải phóng dân tộc Việt Nam?",
+    "options": [
+      "Búa liềm",
+      "Người cùng khổ",
+      "Thanh niên",
+      "Cờ vô sản"
+    ],
+    "answer": 2,
+    "explanation": "Báo Thanh niên là cơ quan do Nguyễn Ái Quốc sáng lập và trực tiếp chỉ đạo, tuyên truyền tôn chỉ của Hội, chủ nghĩa Mác-Lênin và phương hướng giải phóng dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tổ chức (logical lines 1032-1108)",
+      "text": "Hội xuất bản báo Thanh niên do Nguyễn Ái Quốc sáng lập và trực tiếp chỉ đạo để tuyên truyền chủ nghĩa Mác-Lênin và phương hướng giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q032",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tác phẩm Đường Cách mệnh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Các bài giảng của Nguyễn Ái Quốc tại những lớp đào tạo ở Quảng Châu được xuất bản thành tác phẩm nào?",
+    "options": [
+      "Bản án chế độ thực dân Pháp",
+      "Đường Cách mệnh",
+      "Nhật ký trong tù",
+      "Tuyên ngôn độc lập"
+    ],
+    "answer": 1,
+    "explanation": "Các bài giảng được xuất bản thành cuốn Đường Cách mệnh, tác phẩm trình bày con đường, mục tiêu, lực lượng và phương pháp đấu tranh của cách mạng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tổ chức (logical lines 1032-1108)",
+      "text": "Các bài giảng tại Quảng Châu được xuất bản thành cuốn Đường Cách mệnh."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q033",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của Hội Việt Nam Cách mạng thanh niên",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phân biệt đúng Hội Việt Nam Cách mạng thanh niên với một chính đảng cộng sản đã hoàn chỉnh?",
+    "options": [
+      "Hội đã có cương lĩnh và hệ thống tổ chức kiểu đảng, nhưng hoạt động dưới tên gọi một mặt trận thanh niên",
+      "Hội là tổ chức cộng sản khu vực ở Nam Kỳ, chuẩn bị hợp nhất với các tổ chức cộng sản còn lại",
+      "Hội chưa phải chính đảng cộng sản nhưng là tổ chức tiền thân, chuẩn bị quan trọng về tổ chức",
+      "Hội là liên minh nghề nghiệp của thanh niên yêu nước, thiên về đào tạo văn hóa hơn chuẩn bị chính trị"
+    ],
+    "answer": 2,
+    "explanation": "Giáo trình xác định Hội chưa phải chính đảng cộng sản nhưng thể hiện lập trường công nhân, trực tiếp truyền bá chủ nghĩa Mác-Lênin và chuẩn bị về tổ chức cho chính đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tổ chức (logical lines 1032-1108)",
+      "text": "Hội Việt Nam Cách mạng thanh niên chưa phải chính đảng cộng sản nhưng là tổ chức tiền thân và sự chuẩn bị quan trọng về tổ chức cho việc thành lập Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q034",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nhận diện hệ thống chuẩn bị về tổ chức",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức đã có lý luận cách mạng nhưng thiếu cán bộ và mạng lưới trong nước. Nếu vận dụng cách chuẩn bị tổ chức của Hội Việt Nam Cách mạng thanh niên, lộ trình nào xử lý đúng hai điểm yếu đó?",
+    "options": [
+      "Lập tổ chức nòng cốt, huấn luyện cán bộ, đưa họ về cơ sở để phát triển mạng lưới và xây dựng phong trào trong nước",
+      "Tập trung xuất bản tài liệu ở nước ngoài, còn việc xây dựng cơ sở trong nước giao cho các hội nghề nghiệp tự phát",
+      "Mở rộng tên gọi và số hội viên trước, hoãn đào tạo cán bộ cùng việc xác lập hệ thống liên lạc giữa các địa phương",
+      "Đào tạo một nhóm lý luận chuyên sâu, giữ họ tách khỏi quần chúng để bảo toàn lực lượng cho thời điểm thuận lợi hơn"
+    ],
+    "answer": 0,
+    "explanation": "Kinh nghiệm của Hội là kết hợp tổ chức nòng cốt, đào tạo cán bộ và đưa cán bộ về nước phát triển cơ sở; nhờ vậy lý luận được chuyển thành mạng lưới và phong trào thực tế.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.2. Chuẩn bị về tổ chức (logical lines 1032-1108)",
+      "text": "Hội tổ chức huấn luyện, đưa hội viên về nước xây dựng phong trào và phát triển cơ sở, tạo sự chuẩn bị quan trọng về tổ chức cho việc thành lập Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q035",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ba tổ chức cộng sản năm 1929",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm nào gồm đủ ba tổ chức cộng sản ra đời ở Việt Nam trong năm 1929?",
+    "options": [
+      "Đông Dương Cộng sản Đảng, Việt Nam Quốc dân Đảng, Tân Việt Cách mạng Đảng",
+      "Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng, Đông Dương Cộng sản Liên đoàn",
+      "An Nam Cộng sản Đảng, Hội Việt Nam Cách mạng thanh niên, Việt Nam Quốc dân Đảng",
+      "Đông Dương Cộng sản Liên đoàn, Việt Nam Quang phục hội, Hội Phục Việt"
+    ],
+    "answer": 1,
+    "explanation": "Ba tổ chức cộng sản là Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng và Đông Dương Cộng sản Liên đoàn. Các phương án khác trộn với tổ chức yêu nước hoặc tổ chức tiền thân.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Thành lập Đảng > Các tổ chức cộng sản ra đời (logical lines 1109-1178)",
+      "text": "Trong nửa cuối năm 1929, Đông Dương Cộng sản Đảng, An Nam Cộng sản Đảng và Đông Dương Cộng sản Liên đoàn lần lượt ra đời."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q036",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Sự thành lập An Nam Cộng sản Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Tổ chức cộng sản nào được thành lập trên cơ sở các chi bộ cộng sản ở Nam Kỳ vào tháng 11-1929?",
+    "options": [
+      "Đông Dương Cộng sản Liên đoàn",
+      "Đông Dương Cộng sản Đảng",
+      "Hội Việt Nam Cách mạng thanh niên",
+      "An Nam Cộng sản Đảng"
+    ],
+    "answer": 3,
+    "explanation": "An Nam Cộng sản Đảng được thành lập tại Khánh Hội, Sài Gòn trên cơ sở các chi bộ cộng sản ở Nam Kỳ vào tháng 11-1929.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Thành lập Đảng > Các tổ chức cộng sản ra đời (logical lines 1109-1178)",
+      "text": "Tháng 11-1929, An Nam Cộng sản Đảng được thành lập tại Khánh Hội, Sài Gòn trên cơ sở các chi bộ cộng sản ở Nam Kỳ."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q037",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mặt tiến bộ của sự ra đời các tổ chức cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Mặt tiến bộ nổi bật của việc ba tổ chức cộng sản ra đời trong nửa cuối năm 1929 là gì?",
+    "options": [
+      "Khẳng định bước phát triển về chất của phong trào yêu nước theo khuynh hướng cách mạng vô sản",
+      "Xóa bỏ ngay sự phân tán lực lượng và thống nhất tổ chức trên cả nước",
+      "Hoàn thành việc thành lập một chính đảng duy nhất trước Hội nghị hợp nhất",
+      "Chuyển phong trào cách mạng sang khuynh hướng dân chủ tư sản"
+    ],
+    "answer": 0,
+    "explanation": "Sự ra đời ba tổ chức chứng tỏ phong trào yêu nước đã phát triển về chất theo khuynh hướng vô sản. Tuy vậy, lúc đó lực lượng vẫn phân tán và tổ chức chưa thống nhất.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Thành lập Đảng > Các tổ chức cộng sản ra đời (logical lines 1109-1178)",
+      "text": "Ba tổ chức cộng sản ra đời khẳng định bước phát triển về chất của phong trào yêu nước Việt Nam theo khuynh hướng cách mạng vô sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q038",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hạn chế của tình trạng nhiều tổ chức cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao sự tồn tại đồng thời của ba tổ chức cộng sản cuối năm 1929 đặt ra yêu cầu phải hợp nhất?",
+    "options": [
+      "Vì cả ba đều từ bỏ khuynh hướng cách mạng vô sản",
+      "Vì tình trạng tự nhận là đảng chân chính gây phân tán lực lượng và thiếu thống nhất tổ chức",
+      "Vì phong trào công nhân và yêu nước suy giảm đến mức chưa tạo yêu cầu về một chính đảng thống nhất",
+      "Vì Quốc tế Cộng sản yêu cầu các tổ chức ngừng hoạt động trong nước và chuyển cán bộ sang nước ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Dù cùng ủng hộ Quốc tế Cộng sản, các tổ chức đều tự nhận là đảng chân chính, dẫn tới phân tán lực lượng và thiếu thống nhất; đó là hạn chế cần khắc phục bằng hợp nhất.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Thành lập Đảng > Các tổ chức cộng sản ra đời (logical lines 1109-1178)",
+      "text": "Sự tồn tại ba tổ chức cộng sản không tránh khỏi phân tán lực lượng và thiếu thống nhất về tổ chức trên cả nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q039",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Yêu cầu thống nhất các tổ chức cộng sản",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một phong trào đang lên cao nhưng các tổ chức cùng khuynh hướng lại cạnh tranh và phân tán lực lượng. Từ bối cảnh cuối năm 1929, giải pháp phù hợp nhất là gì?",
+    "options": [
+      "Giữ nguyên ba tổ chức để mỗi miền có một đường lối riêng",
+      "Chuyển toàn bộ phong trào sang mục tiêu cải lương hợp pháp",
+      "Tạm dừng hoạt động quần chúng cho đến khi tình hình quốc tế thay đổi",
+      "Hợp nhất thành một chính đảng đủ khả năng tập hợp và lãnh đạo lực lượng toàn dân tộc"
+    ],
+    "answer": 3,
+    "explanation": "Bối cảnh đặt ra nhu cầu cấp bách về một chính đảng thống nhất có khả năng tập hợp lực lượng toàn dân tộc và lãnh đạo sự nghiệp giải phóng, thay cho tình trạng phân tán.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Thành lập Đảng > Các tổ chức cộng sản ra đời (logical lines 1109-1178)",
+      "text": "Phong trào phát triển làm cho nhu cầu thành lập một chính đảng đủ sức tập hợp toàn dân tộc và lãnh đạo giải phóng trở nên bức thiết."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q040",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Người chủ trì Hội nghị thành lập Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Ai chủ trì Hội nghị hợp nhất các tổ chức cộng sản thành Đảng Cộng sản Việt Nam?",
+    "options": [
+      "Trần Phú",
+      "Hà Huy Tập",
+      "Nguyễn Ái Quốc",
+      "Lê Hồng Phong"
+    ],
+    "answer": 2,
+    "explanation": "Nguyễn Ái Quốc, với tư cách phái viên của Quốc tế Cộng sản, triệu tập và chủ trì Hội nghị hợp nhất tại Hồng Kông.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Hội nghị thành lập Đảng Cộng sản Việt Nam (logical lines 1179-1258)",
+      "text": "Hội nghị hợp nhất diễn ra dưới sự chủ trì của Nguyễn Ái Quốc, đại biểu của Quốc tế Cộng sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q041",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Văn kiện được thông qua tại Hội nghị thành lập Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nhóm văn kiện nào được Hội nghị thành lập Đảng thông qua theo giáo trình?",
+    "options": [
+      "Luận cương chính trị, Nghị quyết Trung ương và Chỉ thị Nhật-Pháp bắn nhau",
+      "Chánh cương vắn tắt, Sách lược vắn tắt, Chương trình tóm tắt và Điều lệ vắn tắt",
+      "Đề cương văn hóa, Tuyên ngôn độc lập và Lời kêu gọi toàn quốc kháng chiến",
+      "Chính cương Đảng Lao động Việt Nam và Báo cáo chính trị Đại hội II"
+    ],
+    "answer": 1,
+    "explanation": "Hội nghị thông qua bốn văn kiện do Nguyễn Ái Quốc soạn thảo: Chánh cương vắn tắt, Sách lược vắn tắt, Chương trình tóm tắt và Điều lệ vắn tắt.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Hội nghị thành lập Đảng Cộng sản Việt Nam (logical lines 1179-1258)",
+      "text": "Hội nghị thông qua Chánh cương vắn tắt, Sách lược vắn tắt, Chương trình tóm tắt và Điều lệ vắn tắt của Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q042",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kết quả cốt lõi của Hội nghị hợp nhất",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết quả cốt lõi nào trực tiếp khắc phục tình trạng chia rẽ của phong trào cộng sản cuối năm 1929?",
+    "options": [
+      "Thống nhất các nhóm cộng sản thành một chính đảng duy nhất với đường lối chung",
+      "Duy trì ba tổ chức và lập một cơ quan liên lạc không có quyền lãnh đạo",
+      "Chuyển quyền lãnh đạo cách mạng cho một đảng dân chủ tư sản",
+      "Giải thể các tổ chức cộng sản và quay lại mô hình Hội thanh niên"
+    ],
+    "answer": 0,
+    "explanation": "Hội nghị giải quyết trực tiếp sự chia rẽ bằng việc thống nhất các nhóm cộng sản thành Đảng Cộng sản Việt Nam và xác lập các văn kiện chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Hội nghị thành lập Đảng Cộng sản Việt Nam (logical lines 1179-1258)",
+      "text": "Hội nghị thảo luận việc hợp nhất tất cả các nhóm cộng sản thành một Đảng Cộng sản chân chính."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q043",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Giá trị của Hội nghị thành lập Đảng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao Hội nghị thành lập Đảng được đánh giá có giá trị như một Đại hội Đảng?",
+    "options": [
+      "Vì Hội nghị tập trung quyết định địa điểm đặt trụ sở và phạm vi hoạt động của một tổ chức khu vực",
+      "Vì Hội nghị không bàn đường lối nhưng bầu đủ cơ quan nhà nước",
+      "Vì Hội nghị chuyển trọng tâm từ vận động quần chúng trong nước sang hoạt động ngoại giao ở nước ngoài",
+      "Vì Hội nghị thống nhất tổ chức, thông qua văn kiện nền tảng và định hướng xây dựng hệ thống Đảng"
+    ],
+    "answer": 3,
+    "explanation": "Hội nghị không chỉ hợp nhất tổ chức mà còn thông qua văn kiện quan trọng, xác định tôn chỉ và chủ trương lập Trung ương lâm thời, nên có giá trị như một Đại hội.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Hội nghị thành lập Đảng Cộng sản Việt Nam (logical lines 1179-1258)",
+      "text": "Hội nghị thống nhất tổ chức, thông qua các văn kiện quan trọng và được giáo trình đánh giá có giá trị như một Đại hội Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q044",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Quá trình hoàn tất thống nhất các tổ chức cộng sản",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tiến trình hợp nhất đã quy tụ hai tổ chức cùng khuynh hướng nhưng còn một tổ chức đứng ngoài và xin gia nhập sau hội nghị. Từ cách hoàn tất thống nhất tháng 2-1930, phương án xử lý nào phù hợp nhất?",
+    "options": [
+      "Giữ nguyên hai tổ chức đã dự hội nghị và xem tổ chức còn lại như một lực lượng cạnh tranh ngoài phong trào",
+      "Yêu cầu tổ chức còn lại giải thể cơ sở trước khi được trao đổi về đường lối và nguyên tắc của chính đảng chung",
+      "Tiếp tục thống nhất trên nền đường lối chung, như việc chấp nhận Đông Dương Cộng sản Liên đoàn gia nhập ngày 24-2-1930",
+      "Lùi việc hợp nhất đến khi các tổ chức xây dựng xong hệ thống riêng và có ảnh hưởng tương đương tại từng địa phương"
+    ],
+    "answer": 2,
+    "explanation": "Thống nhất không dừng ở các tổ chức dự hội nghị: việc tiếp nhận Đông Dương Cộng sản Liên đoàn ngày 24-2-1930 cho thấy cần tiếp tục quy tụ lực lượng cùng khuynh hướng trên nền đường lối và tổ chức chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Hội nghị thành lập Đảng Cộng sản Việt Nam (logical lines 1179-1258)",
+      "text": "Ngày 24-2-1930, Đông Dương Cộng sản Liên đoàn được chấp nhận gia nhập Đảng, hoàn tất việc thống nhất các tổ chức cộng sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q045",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Các văn kiện hợp thành Cương lĩnh đầu tiên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hai văn kiện nào phản ánh đường hướng, chiến lược và sách lược, hợp thành Cương lĩnh chính trị đầu tiên của Đảng?",
+    "options": [
+      "Chương trình tóm tắt và Điều lệ vắn tắt",
+      "Luận cương chính trị và Nghị quyết Trung ương",
+      "Tuyên ngôn của Đảng và Lời kêu gọi thành lập Đảng",
+      "Chánh cương vắn tắt và Sách lược vắn tắt"
+    ],
+    "answer": 3,
+    "explanation": "Giáo trình xác định Chánh cương vắn tắt và Sách lược vắn tắt là hai văn kiện thể hiện những vấn đề cơ bản về chiến lược, sách lược và hợp thành Cương lĩnh đầu tiên.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Chánh cương vắn tắt và Sách lược vắn tắt phản ánh đường hướng, chiến lược và sách lược của cách mạng Việt Nam, tạo thành Cương lĩnh đầu tiên."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q046",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mục tiêu chiến lược của Cương lĩnh đầu tiên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cương lĩnh chính trị đầu tiên xác định đường lối chiến lược của cách mạng Việt Nam như thế nào?",
+    "options": [
+      "Làm cách mạng dân tộc dân chủ rồi phát triển theo con đường tư bản chủ nghĩa",
+      "Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản",
+      "Làm cách mạng ruộng đất trước, tiếp đó tiến hành cách mạng giải phóng dân tộc và cách mạng xã hội chủ nghĩa",
+      "Làm cách mạng giải phóng dân tộc, xây dựng nhà nước dân chủ tư sản và ổn định ở hình thái đó"
+    ],
+    "answer": 1,
+    "explanation": "Cương lĩnh nêu phương hướng làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản, đặt cách mạng thuộc địa trong phạm trù cách mạng vô sản.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh chủ trương làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q047",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nhiệm vụ hàng đầu của Cương lĩnh đầu tiên",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Trong hai nhiệm vụ chống đế quốc và chống phong kiến, Cương lĩnh đầu tiên đặt nhiệm vụ nào ở vị trí hàng đầu?",
+    "options": [
+      "Xây dựng ngay nền công nghiệp xã hội chủ nghĩa",
+      "Xóa bỏ mọi thành phần kinh tế tư nhân",
+      "Chống đế quốc, giành độc lập dân tộc",
+      "Cải cách chế độ thuộc địa bằng đấu tranh nghị trường"
+    ],
+    "answer": 2,
+    "explanation": "Cương lĩnh coi chống đế quốc và chống phong kiến là nhiệm vụ cơ bản nhưng đặt chống đế quốc, giành độc lập dân tộc ở vị trí hàng đầu.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh đặt nhiệm vụ chống đế quốc, giành độc lập dân tộc ở vị trí hàng đầu."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q048",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Lực lượng cơ bản của cách mạng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cương lĩnh đầu tiên xác định lực lượng cơ bản của cách mạng gồm những giai cấp nào?",
+    "options": [
+      "Công nhân và nông dân, trong đó giai cấp công nhân lãnh đạo",
+      "Địa chủ và tư sản mại bản, trong đó địa chủ lãnh đạo",
+      "Tiểu tư sản và trí thức, đặt vai trò lãnh đạo vào một liên minh ngoài giai cấp công nhân",
+      "Giai cấp công nhân hoạt động độc lập, còn nông dân tham gia qua các tổ chức địa phương"
+    ],
+    "answer": 0,
+    "explanation": "Cương lĩnh xác định công nhân và nông dân là lực lượng cơ bản, giai cấp công nhân giữ vai trò lãnh đạo, đồng thời còn chủ trương tập hợp rộng rãi lực lượng yêu nước.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh xác định công nhân và nông dân là lực lượng cơ bản, trong đó giai cấp công nhân lãnh đạo."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q049",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Quan hệ giữa nhiệm vụ dân tộc và giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào phản ánh đúng cách Cương lĩnh đầu tiên xử lý hai nhiệm vụ chống đế quốc và chống phong kiến?",
+    "options": [
+      "Đều là nhiệm vụ cơ bản, nhưng giải phóng dân tộc khỏi đế quốc được ưu tiên hàng đầu",
+      "Chống phong kiến là nhiệm vụ quyết định trước mắt, còn giải phóng dân tộc giữ vai trò hỗ trợ",
+      "Hai nhiệm vụ được đặt ở cùng cấp độ và tiến hành theo một nhịp trên mọi địa bàn",
+      "Cải thiện dân sinh được ưu tiên để tạo lực lượng, rồi lần lượt giải quyết đế quốc và phong kiến"
+    ],
+    "answer": 0,
+    "explanation": "Cương lĩnh kết hợp chống đế quốc với chống phong kiến nhưng ưu tiên nhiệm vụ giành độc lập dân tộc, phù hợp mâu thuẫn chủ yếu của xã hội thuộc địa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Chống đế quốc và chống phong kiến là hai nhiệm vụ cơ bản; chống đế quốc, giành độc lập dân tộc được đặt lên hàng đầu."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q050",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chính sách tập hợp lực lượng của Cương lĩnh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm nào thể hiện tư tưởng đại đoàn kết trong chính sách lực lượng của Cương lĩnh đầu tiên?",
+    "options": [
+      "Tập hợp công nhân làm lực lượng trung tâm, còn các tầng lớp yêu nước khác tham gia ở giai đoạn sau",
+      "Giao vai trò lãnh đạo cho những giai cấp chưa rõ thái độ cách mạng",
+      "Xếp các tầng lớp ngoài công nông vào phía phản cách mạng ngay từ khi xác định lực lượng",
+      "Lấy công nông làm nền tảng, đồng thời liên lạc và tranh thủ các lực lượng tiến bộ, yêu nước"
+    ],
+    "answer": 3,
+    "explanation": "Cương lĩnh đặt công nông ở vị trí cơ bản nhưng không khép kín lực lượng; còn chủ trương tập hợp tiểu tư sản, trí thức, trung nông và phân hóa các tầng lớp khác theo thái độ chính trị.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh chủ trương đoàn kết công nông và tập hợp rộng rãi các giai cấp, lực lượng tiến bộ, yêu nước để chống đế quốc và tay sai."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q051",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Quan hệ giữa cách mạng Việt Nam và cách mạng thế giới",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cương lĩnh đầu tiên xác định quan hệ quốc tế của cách mạng Việt Nam như thế nào?",
+    "options": [
+      "Độc lập dân tộc đòi hỏi cách mạng Việt Nam giữ quan hệ hạn chế với phong trào cách mạng quốc tế",
+      "Cách mạng Việt Nam là bộ phận của cách mạng vô sản thế giới và liên lạc với các dân tộc bị áp bức, giai cấp vô sản",
+      "Cách mạng Việt Nam đặt quan hệ chủ yếu với chính quyền thực dân tại chính quốc để tranh thủ cải cách",
+      "Cách mạng Việt Nam phải chờ cách mạng ở chính quốc thắng lợi rồi mới hành động"
+    ],
+    "answer": 1,
+    "explanation": "Cương lĩnh gắn nhiệm vụ độc lập với đoàn kết quốc tế, coi cách mạng Việt Nam là một bộ phận của cách mạng vô sản thế giới và tranh thủ lực lượng bị áp bức, vô sản quốc tế.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh nêu cách mạng Việt Nam liên lạc mật thiết, là một bộ phận của cách mạng vô sản thế giới và đoàn kết với các dân tộc bị áp bức."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q052",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phân loại nhiệm vụ xã hội và kinh tế trong Cương lĩnh",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một địa phương sau cách mạng đã thực hiện cải cách kinh tế nhưng phụ nữ chưa có quyền ngang nam giới và con em công nông khó tiếp cận trường học. Nếu vận dụng phương diện xã hội của Cương lĩnh đầu tiên, gói chính sách nào xử lý đúng hai vấn đề?",
+    "options": [
+      "Mở mang công nghiệp và dùng lợi nhuận của các xí nghiệp lớn để cấp học bổng cho một bộ phận lao động nữ",
+      "Chia thêm ruộng đất cho hộ nghèo và giảm sưu thuế, xem cải thiện thu nhập là điều kiện đủ để tạo bình đẳng xã hội",
+      "Thực hiện nam nữ bình quyền và phổ thông giáo dục theo hướng công nông hóa để mở quyền học tập cho quần chúng",
+      "Quy định ngày làm tám giờ và mở trường nghề cho công nhân nam, còn quyền của phụ nữ được giải quyết theo phong tục địa phương"
+    ],
+    "answer": 2,
+    "explanation": "Tình huống có hai thiếu hụt xã hội trực tiếp: bất bình đẳng giới và cơ hội học tập của công nông. Gói nam nữ bình quyền cùng phổ thông giáo dục công nông hóa xử lý đúng cả hai theo Cương lĩnh.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Về xã hội, Cương lĩnh nêu quyền tự do tổ chức, nam nữ bình quyền và phổ thông giáo dục theo công nông hóa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q053",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tính độc lập, tự chủ và sáng tạo của Cương lĩnh",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Khi soạn đường lối cho một thuộc địa nửa phong kiến, có ý kiến đề nghị sao chép nguyên trạng mô hình nước ngoài. Cách xử lý nào thể hiện tinh thần độc lập, tự chủ và sáng tạo của Cương lĩnh đầu tiên?",
+    "options": [
+      "Áp dụng mô hình nước ngoài theo từng bước có sẵn, xem đặc điểm xã hội Việt Nam là yếu tố bổ trợ khi tổ chức thực hiện",
+      "Phân tích đặc điểm thuộc địa nửa phong kiến, mâu thuẫn và thái độ từng giai tầng để xây dựng chiến lược phù hợp Việt Nam",
+      "Đặt đấu tranh giai cấp lên trước nhiệm vụ giải phóng dân tộc dù mâu thuẫn với đế quốc đang chi phối đời sống xã hội",
+      "Thu hẹp liên minh vào công nông ngay từ đầu, xem các lực lượng yêu nước khác là đối tượng trung lập cần đứng bên ngoài"
+    ],
+    "answer": 1,
+    "explanation": "Độc lập, sáng tạo đòi hỏi xuất phát từ cấu trúc và mâu thuẫn cụ thể của xã hội Việt Nam để xác định nhiệm vụ, lực lượng và phương pháp, thay vì sao chép mô hình có sẵn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.3. Nội dung cơ bản của Cương lĩnh chính trị đầu tiên (logical lines 1259-1357)",
+      "text": "Cương lĩnh thể hiện bản lĩnh độc lập, tự chủ, sáng tạo khi đánh giá đặc điểm xã hội, mâu thuẫn và thái độ các giai tầng Việt Nam để xác định đường lối."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q054",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Các yếu tố dẫn tới sự ra đời của Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, Đảng Cộng sản Việt Nam ra đời là sản phẩm của sự kết hợp nào?",
+    "options": [
+      "Chủ nghĩa dân tộc tư sản với phong trào địa chủ và phong trào cải lương",
+      "Phong trào nông dân với chủ nghĩa Tam dân và khuynh hướng quân chủ",
+      "Phong trào công nhân với phong trào nghị trường của tư sản Pháp",
+      "Chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh với phong trào công nhân và phong trào yêu nước Việt Nam"
+    ],
+    "answer": 3,
+    "explanation": "Nguồn nêu sự kết hợp chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh với phong trào công nhân và phong trào yêu nước Việt Nam là cơ sở dẫn tới sự ra đời của Đảng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.4. Ý nghĩa lịch sử của việc thành lập Đảng (logical lines 1358-1403)",
+      "text": "Đảng ra đời là sản phẩm của sự kết hợp chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh với phong trào công nhân và phong trào yêu nước Việt Nam."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q055",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bước ngoặt do sự ra đời của Đảng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sự ra đời của Đảng Cộng sản Việt Nam trực tiếp chấm dứt cuộc khủng hoảng, bế tắc nào của cách mạng Việt Nam?",
+    "options": [
+      "Khủng hoảng về thị trường xuất khẩu của nền kinh tế thuộc địa",
+      "Khủng hoảng về quan hệ ngoại giao với các nước láng giềng",
+      "Khủng hoảng về đường lối cứu nước",
+      "Khủng hoảng về ngân sách của chính quyền thực dân"
+    ],
+    "answer": 2,
+    "explanation": "Đảng ra đời cùng đường lối đúng đắn đã chấm dứt tình trạng khủng hoảng, bế tắc về đường lối cứu nước và mở ra bước ngoặt lịch sử cho cách mạng Việt Nam.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.4. Ý nghĩa lịch sử của việc thành lập Đảng (logical lines 1358-1403)",
+      "text": "Đảng Cộng sản Việt Nam ra đời chấm dứt cuộc khủng hoảng, bế tắc về đường lối cứu nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q056",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Giá trị lịch sử của Cương lĩnh đầu tiên",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giá trị nổi bật của Cương lĩnh chính trị đầu tiên đối với tiến trình cách mạng Việt Nam là gì?",
+    "options": [
+      "Phản ánh quy luật khách quan, đáp ứng nhu cầu cấp bách và định hướng chiến lược đúng đắn",
+      "Thay mục tiêu độc lập bằng việc duy trì lâu dài chế độ thuộc địa",
+      "Chỉ giải quyết vấn đề tổ chức nội bộ, không đề cập nhiệm vụ hay lực lượng cách mạng",
+      "Tách cách mạng Việt Nam khỏi xu thế của thời đại và phong trào thế giới"
+    ],
+    "answer": 0,
+    "explanation": "Cương lĩnh lần đầu đem lại một định hướng chiến lược phản ánh thực tiễn xã hội Việt Nam, đáp ứng yêu cầu cơ bản, cấp bách và phù hợp xu thế thời đại.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.4. Ý nghĩa lịch sử của việc thành lập Đảng (logical lines 1358-1403)",
+      "text": "Cương lĩnh phản ánh quy luật khách quan của xã hội Việt Nam, đáp ứng nhu cầu cơ bản, cấp bách và định hướng chiến lược đúng đắn cho cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q057",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Sự trưởng thành của giai cấp công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Việc thành lập Đảng chứng tỏ giai cấp vô sản Việt Nam đã trưởng thành theo nghĩa nào?",
+    "options": [
+      "Đã trở thành giai cấp đông đảo nhất nên liên minh với nông dân giữ vai trò hỗ trợ trong phong trào",
+      "Đã tạo điều kiện hoàn thành sớm nhiệm vụ dân tộc và dân chủ ngay trong năm Đảng thành lập",
+      "Đã đảm nhiệm phần lớn vai trò của các tầng lớp yêu nước trong sự nghiệp giải phóng dân tộc",
+      "Đã đủ sức đảm nhiệm vai trò lãnh đạo cách mạng thông qua chính đảng của mình"
+    ],
+    "answer": 3,
+    "explanation": "Sự trưởng thành được biểu hiện ở năng lực tổ chức thành chính đảng và đảm nhiệm vai trò lãnh đạo cách mạng, không đồng nghĩa với việc đứng ngoài liên minh hay đã hoàn tất mọi nhiệm vụ.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.4. Ý nghĩa lịch sử của việc thành lập Đảng (logical lines 1358-1403)",
+      "text": "Việc thành lập Đảng chứng tỏ giai cấp vô sản Việt Nam đã trưởng thành và đủ sức lãnh đạo cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q058",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Đánh giá ý nghĩa bước ngoặt của việc thành lập Đảng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Ba tổ chức cùng khuynh hướng đang cạnh tranh, phong trào thiếu một đường lối và trung tâm lãnh đạo thống nhất. Nếu họ hợp nhất thành một đảng có Cương lĩnh chung, chuyển biến nào làm sự kiện trở thành bước ngoặt?",
+    "options": [
+      "Phong trào chuyển sang khuynh hướng dân chủ tư sản và giảm liên hệ với phong trào cách mạng vô sản thế giới",
+      "Các tổ chức tiếp tục cạnh tranh nhưng thống nhất tên gọi, còn từng địa phương vẫn tự lựa chọn đường lối hành động",
+      "Khủng hoảng đường lối và lực lượng lãnh đạo được giải quyết, con đường cách mạng vô sản được xác lập thống nhất",
+      "Nhiệm vụ giải phóng dân tộc và ruộng đất được hoàn thành ngay khi đảng ra đời, trước khi phong trào tiếp tục phát triển"
+    ],
+    "answer": 2,
+    "explanation": "Trong tình huống, bước ngoặt nằm ở việc giải quyết đồng thời khủng hoảng đường lối, tổ chức lãnh đạo và con đường phát triển; sự ra đời của Đảng chưa đồng nghĩa các nhiệm vụ cách mạng đã hoàn thành.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > I.4. Ý nghĩa lịch sử của việc thành lập Đảng (logical lines 1358-1403)",
+      "text": "Đảng ra đời chấm dứt khủng hoảng đường lối, khẳng định con đường cách mạng vô sản và trở thành nhân tố hàng đầu dẫn dắt các thắng lợi tiếp theo."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q059",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bối cảnh của phong trào cách mạng 1930–1931",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào làm mâu thuẫn giữa dân tộc Việt Nam với đế quốc Pháp và tay sai thêm gay gắt trước cao trào 1930–1931?",
+    "options": [
+      "Khủng hoảng kinh tế 1929–1933 khiến Pháp tăng bóc lột và tiến hành khủng bố trắng",
+      "Chính quyền thuộc địa chấm dứt bóc lột, bãi bỏ khủng bố trắng và mở rộng đầy đủ quyền dân chủ cho nhân dân",
+      "Kinh tế Đông Dương phát triển ổn định, sản xuất mở rộng và đời sống các tầng lớp lao động được cải thiện",
+      "Phong trào thế giới suy yếu, mâu thuẫn dân tộc ở Đông Dương được hóa giải"
+    ],
+    "answer": 0,
+    "explanation": "Khủng hoảng kinh tế làm sản xuất đình đốn; thực dân Pháp tăng bóc lột và khủng bố trắng, khiến mâu thuẫn dân tộc với đế quốc và tay sai gay gắt hơn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Khủng hoảng 1929–1933 tác động đến Đông Dương; thực dân Pháp tăng bóc lột và khủng bố trắng, làm mâu thuẫn dân tộc thêm gay gắt."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q060",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Đỉnh cao của phong trào 1930–1931",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hình thức chính quyền cách mạng nào xuất hiện ở một số vùng nông thôn Nghệ An và Hà Tĩnh trong cao trào 1930–1931?",
+    "options": [
+      "Chính phủ liên hiệp tư sản–địa chủ",
+      "Các ủy ban tự quản theo kiểu Xô viết",
+      "Hội đồng thuộc địa do thực dân bổ nhiệm",
+      "Chính quyền quân chủ lập hiến"
+    ],
+    "answer": 1,
+    "explanation": "Khi bộ máy đế quốc và tay sai tan rã ở nhiều nơi, các ban chấp hành nông hội quản lý đời sống xã hội dưới hình thức ủy ban tự quản theo kiểu Xô viết.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Các ban chấp hành nông hội đứng ra quản lý đời sống nông thôn và làm chức năng chính quyền cách mạng dưới hình thức ủy ban tự quản kiểu Xô viết."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q061",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bản chất của chính quyền Xô viết",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Đặc điểm nào thể hiện bản chất cách mạng của các chính quyền Xô viết Nghệ–Tĩnh?",
+    "options": [
+      "Thiết lập bộ máy đại biểu công-nông nhưng vận hành theo luật lệ thuộc địa trong các lĩnh vực hành chính",
+      "Tổ chức cứu tế, tương trợ sản xuất và giao chức năng hành chính cho các hương lý được bầu lại",
+      "Quản lý an ninh địa phương và thuế khóa, còn quyền dân chủ của quần chúng do các hội đoàn đảm nhiệm",
+      "Thực hiện chuyên chính với kẻ thù, dân chủ với nhân dân và quản lý đời sống địa phương"
+    ],
+    "answer": 3,
+    "explanation": "Các ủy ban tự quản thực hiện chức năng của một chính quyền cách mạng: trấn áp kẻ thù, thực hành dân chủ với quần chúng và quản lý các mặt đời sống xã hội.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Chính quyền Xô viết thực hiện chuyên chính với kẻ thù, dân chủ với quần chúng và quản lý mọi mặt đời sống ở nông thôn."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q062",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ý nghĩa của phong trào 1930–1931 đối với vai trò lãnh đạo",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phong trào 1930–1931 đã kiểm chứng vai trò lãnh đạo của Đảng và giai cấp công nhân như thế nào?",
+    "options": [
+      "Chứng minh phong trào tự phát ở từng địa phương có thể phát triển thành thắng lợi quốc gia với sự liên kết lỏng lẻo",
+      "Khẳng định trong thực tế quyền và năng lực lãnh đạo cách mạng của giai cấp vô sản thông qua Đảng",
+      "Chuyển quyền lãnh đạo sang giai cấp địa chủ và tư sản vì các lực lượng này có nhiều điều kiện kinh tế hơn",
+      "Cho thấy nhiệm vụ dân tộc nên được giải quyết trước hết bằng cải cách do chính quyền thực dân tiến hành"
+    ],
+    "answer": 1,
+    "explanation": "Cao trào là lần kiểm nghiệm thực tiễn sớm, khẳng định quyền và năng lực lãnh đạo của giai cấp vô sản mà Đảng là đại biểu, đồng thời củng cố niềm tin của quần chúng công nông.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Phong trào khẳng định trong thực tế quyền lãnh đạo và năng lực lãnh đạo cách mạng của giai cấp vô sản mà đại biểu là Đảng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q063",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Giá trị lâu dài của cao trào 1930–1931",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao phong trào 1930–1931 vẫn có ý nghĩa lớn dù bị đàn áp và tổ chức chịu tổn thất nặng?",
+    "options": [
+      "Vì phong trào đã lập được một nhà nước ổn định trên toàn quốc và hoàn thành mọi nhiệm vụ dân tộc, dân chủ",
+      "Vì phong trào buộc thực dân Pháp trao trả độc lập và chấm dứt bộ máy thuộc địa ở Đông Dương",
+      "Vì phong trào rèn luyện lực lượng, củng cố niềm tin quần chúng và để lại kinh nghiệm cho thắng lợi sau",
+      "Vì phong trào làm cho đấu tranh công nhân tách khỏi nông dân và chuyển trọng tâm cách mạng ra khỏi nông thôn"
+    ],
+    "answer": 2,
+    "explanation": "Cao trào rèn luyện cán bộ, đảng viên và quần chúng, củng cố lòng tin vào sức mạnh công nông và để lại kinh nghiệm tổ chức, đấu tranh cho các giai đoạn tiếp theo.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Dù thất bại, phong trào rèn luyện đội ngũ, gây ảnh hưởng lớn trong quần chúng và mở đường cho thắng lợi về sau."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q064",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kinh nghiệm của cao trào 1930–1931",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một hồ sơ về cao trào 1930–1931 mô tả công nhân thành thị và nông dân vùng phụ cận hoạt động rời rạc; nơi kiến nghị chính trị, nơi tự phát vũ trang. Nhận định nào chỉ ra đúng yếu tố lịch sử còn thiếu trong hồ sơ?",
+    "options": [
+      "Hồ sơ thiếu sự liên kết công-nông, thành thị-nông thôn và phối hợp các hình thức dưới sự lãnh đạo thống nhất",
+      "Hồ sơ chủ yếu thiếu một phong trào nông dân độc lập, có mục tiêu và nhịp độ riêng với công nhân thành thị",
+      "Điểm hạn chế nằm ở việc hai tuyến phản đế đô thị và phản phong kiến nông thôn chưa có lực lượng lãnh đạo riêng",
+      "Vấn đề chính là kiến nghị chính trị chiếm ưu thế, trong khi mỗi địa bàn cần phát triển vũ trang theo cùng một nhịp"
+    ],
+    "answer": 0,
+    "explanation": "Đây là phân tích một hồ sơ lịch sử: dữ kiện cho thấy lực lượng và hình thức bị phân tán, còn kinh nghiệm cao trào là liên kết công-nông, thành thị-nông thôn và phối hợp chính trị-vũ trang dưới sự lãnh đạo chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Phong trào cách mạng 1930-1931 (logical lines 1404-1494)",
+      "text": "Cao trào để lại kinh nghiệm kết hợp liên minh công nông, phong trào nông thôn với thành thị và đấu tranh chính trị với đấu tranh vũ trang."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q065",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phương hướng chiến lược của Luận cương tháng 10-1930",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Luận cương chính trị tháng 10-1930 xác định cách mạng Đông Dương lúc đầu có tính chất gì?",
+    "options": [
+      "Cách mạng xã hội chủ nghĩa hoàn chỉnh, không qua nhiệm vụ dân chủ",
+      "Cách mạng cải lương nhằm duy trì chế độ thuộc địa nửa phong kiến",
+      "Cách mạng tư sản dân quyền có tính chất thổ địa và phản đế",
+      "Cách mạng dân chủ tư sản do giai cấp tư sản lãnh đạo"
+    ],
+    "answer": 2,
+    "explanation": "Luận cương nêu cách mạng Đông Dương ban đầu là cách mạng tư sản dân quyền có tính chất thổ địa và phản đế, sau đó phát triển lên con đường xã hội chủ nghĩa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Luận cương chính trị tháng 10-1930 (logical lines 1495-1581)",
+      "text": "Luận cương xác định cách mạng Đông Dương lúc đầu là cách mạng tư sản dân quyền có tính chất thổ địa và phản đế."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q066",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Điều kiện lãnh đạo theo Luận cương tháng 10-1930",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo Luận cương tháng 10-1930, điều kiện cốt yếu cho thắng lợi của cách mạng Đông Dương là gì?",
+    "options": [
+      "Một mặt trận gồm các tầng lớp hữu sản, có chương trình cải lương và hoạt động tách khỏi quần chúng công nông",
+      "Một đội quân nước ngoài giữ vai trò chủ lực, lực lượng trong nước tập trung tiếp tế và vận động quần chúng",
+      "Một phong trào tự phát với kỷ luật phân tán, đường lối riêng ở địa phương và quan hệ rời rạc với quần chúng",
+      "Một Đảng Cộng sản có đường lối đúng, kỷ luật tập trung và liên hệ mật thiết với quần chúng"
+    ],
+    "answer": 3,
+    "explanation": "Luận cương coi một Đảng Cộng sản có đường lối đúng, kỷ luật tập trung, gắn bó quần chúng và trưởng thành trong đấu tranh là điều kiện cốt yếu cho thắng lợi.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Luận cương chính trị tháng 10-1930 (logical lines 1495-1581)",
+      "text": "Luận cương nêu điều kiện cốt yếu là có Đảng Cộng sản với đường lối đúng, kỷ luật tập trung, liên hệ quần chúng và từng trải đấu tranh."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q067",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hạn chế về xác định mâu thuẫn và nhiệm vụ dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hạn chế trọng yếu của Luận cương tháng 10-1930 trong xử lý vấn đề dân tộc là gì?",
+    "options": [
+      "Không nêu rõ mâu thuẫn chủ yếu của xã hội thuộc địa và chưa nhấn mạnh nhiệm vụ giải phóng dân tộc",
+      "Đặt giải phóng dân tộc lên hàng đầu, tạm gác nhiệm vụ ruộng đất đến sau khi giành được độc lập",
+      "Hạ vai trò lãnh đạo của Đảng Cộng sản, chuyển quyền lãnh đạo cách mạng cho tư sản dân tộc và tiểu tư sản",
+      "Tách cách mạng Đông Dương khỏi cách mạng thế giới và không đoàn kết với vô sản các nước"
+    ],
+    "answer": 0,
+    "explanation": "Luận cương chưa chỉ rõ mâu thuẫn dân tộc chủ yếu và nặng về đấu tranh giai cấp, cách mạng ruộng đất nên chưa đặt đúng trọng tâm giải phóng dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Luận cương chính trị tháng 10-1930 (logical lines 1495-1581)",
+      "text": "Luận cương không nêu rõ mâu thuẫn chủ yếu của xã hội thuộc địa, không nhấn mạnh giải phóng dân tộc và nặng về đấu tranh giai cấp, ruộng đất."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q068",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hạn chế về tập hợp lực lượng của Luận cương",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Hạn chế của Luận cương tháng 10-1930 về chính sách lực lượng biểu hiện ở điểm nào?",
+    "options": [
+      "Chủ trương xây dựng một liên minh dân tộc quá rộng, trao vai trò lãnh đạo cho địa chủ và hạ thấp nền tảng công nông",
+      "Chưa đề ra được chiến lược liên minh dân tộc và giai cấp rộng rãi chống đế quốc và tay sai",
+      "Trao vai trò lãnh đạo cách mạng cho tiểu tư sản, trí thức và xem công nhân là lực lượng hỗ trợ ở đô thị",
+      "Không xác định công nông là động lực và dựa chủ yếu vào tư sản mại bản, địa chủ phong kiến"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn phê bình Luận cương chưa xây dựng được chiến lược liên minh dân tộc, giai cấp rộng rãi; dù vẫn xác định công nhân và nông dân là động lực.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Luận cương chính trị tháng 10-1930 (logical lines 1495-1581)",
+      "text": "Luận cương không đề ra được chiến lược liên minh dân tộc và giai cấp rộng rãi trong cuộc đấu tranh chống đế quốc và tay sai."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q069",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Điều chỉnh chính sách tập hợp lực lượng sau Luận cương",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức cách mạng có cơ sở công-nông nhưng khó tiếp cận các tầng lớp yêu nước khác, khiến lực lượng chống đế quốc còn hẹp. Vận dụng sự điều chỉnh cuối năm 1930, nên chọn giải pháp nào?",
+    "options": [
+      "Giữ mặt trận trong phạm vi công nhân và nông dân, vận động các tầng lớp yêu nước khác ủng hộ từ bên ngoài tổ chức",
+      "Lập một mặt trận phản đế để đoàn kết công-nông với các giai cấp, tầng lớp dân tộc có khả năng chống đế quốc",
+      "Thu các tổ chức quần chúng về hoạt động nội bộ của Đảng, chờ phong trào công-nông đủ mạnh rồi mới mở rộng liên minh",
+      "Chuyển trọng tâm sang vấn đề ruộng đất ở nông thôn, xem việc tập hợp lực lượng chống đế quốc là nhiệm vụ của giai đoạn sau"
+    ],
+    "answer": 1,
+    "explanation": "Nút thắt là phạm vi liên minh hẹp; mô hình Hội phản đế Đồng minh mở một mặt trận để tập hợp thêm các giai cấp, tầng lớp dân tộc mà vẫn giữ nền tảng công-nông.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Luận cương chính trị tháng 10-1930 (logical lines 1495-1581)",
+      "text": "Ngày 18-11-1930, Trung ương ban hành Chỉ thị thành lập Hội phản đế Đồng minh, tổ chức mặt trận đầu tiên để đoàn kết các giai cấp, tầng lớp dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q070",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chương trình hành động năm 1932",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Chương trình hành động của Đảng Cộng sản Đông Dương tháng 6-1932 đặt nhiệm vụ trước mắt nào?",
+    "options": [
+      "Công khai hóa hệ thống tổ chức Đảng trong điều kiện chính quyền thực dân đang tăng cường khủng bố",
+      "Thành lập ngay chính phủ trên phạm vi toàn Đông Dương",
+      "Khôi phục hệ thống tổ chức Đảng và phong trào cách mạng",
+      "Thu hẹp hoạt động quần chúng để ưu tiên nghiên cứu lý luận và củng cố một số cơ quan lãnh đạo"
+    ],
+    "answer": 2,
+    "explanation": "Chương trình hành động vạch ra nhiệm vụ khôi phục hệ thống tổ chức Đảng và phong trào cách mạng, đồng thời xây dựng một tổ chức bí mật, kỷ luật nghiêm.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Khôi phục tổ chức và Đại hội I (logical lines 1582-1700)",
+      "text": "Chương trình hành động ngày 15-6-1932 đề ra nhiệm vụ khôi phục tổ chức Đảng và phong trào cách mạng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q071",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nhiệm vụ của Đại hội I năm 1935",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đại hội đại biểu lần thứ nhất của Đảng tháng 3-1935 đề ra ba nhiệm vụ trước mắt nào?",
+    "options": [
+      "Đàm phán với Pháp, lập chính phủ liên hiệp, giải thể phần lớn tổ chức bí mật và chuyển trọng tâm sang hoạt động hợp pháp",
+      "Tổng khởi nghĩa, tuyên bố độc lập và xây dựng ngay nhà nước dân chủ trên cả nước",
+      "Cải cách ruộng đất triệt để, quốc hữu hóa các ngành công nghiệp lớn và lập quân đội trước khi khôi phục hệ thống Đảng",
+      "Củng cố, phát triển Đảng; đẩy mạnh tập hợp quần chúng; mở rộng tuyên truyền chống đế quốc và chiến tranh"
+    ],
+    "answer": 3,
+    "explanation": "Đại hội I tập trung củng cố, phát triển Đảng, vận động quần chúng và mở rộng tuyên truyền chống đế quốc, chống chiến tranh, ủng hộ phong trào cách mạng quốc tế.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Khôi phục tổ chức và Đại hội I (logical lines 1582-1700)",
+      "text": "Đại hội I đề ra ba nhiệm vụ: củng cố phát triển Đảng, đẩy mạnh vận động tập hợp quần chúng và mở rộng tuyên truyền chống đế quốc, chiến tranh."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q072",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ý nghĩa của Đại hội I năm 1935",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Ý nghĩa trực tiếp của Đại hội I tháng 3-1935 đối với phong trào cách mạng là gì?",
+    "options": [
+      "Đánh dấu sự phục hồi hệ thống tổ chức Đảng và phong trào quần chúng, tạo điều kiện cho cao trào mới",
+      "Hoàn thành ngay nhiệm vụ giải phóng dân tộc, lập chính quyền toàn quốc và chấm dứt thời kỳ hoạt động bí mật",
+      "Chuyển Đảng thành tổ chức hợp pháp dưới sự bảo trợ của chính quyền thuộc địa và tham gia bộ máy cai trị",
+      "Khắc phục mọi hạn chế chiến lược, ưu tiên giải phóng dân tộc và tập hợp được toàn dân"
+    ],
+    "answer": 0,
+    "explanation": "Đại hội đánh dấu tổ chức Đảng và phong trào quần chúng đã được phục hồi sau đàn áp, tạo tiền đề bước vào cao trào mới; các hạn chế chiến lược vẫn còn.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Khôi phục tổ chức và Đại hội I (logical lines 1582-1700)",
+      "text": "Đại hội I đánh dấu sự phục hồi hệ thống tổ chức Đảng và phong trào cách mạng quần chúng, tạo điều kiện cho một cao trào mới."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q073",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hạn chế chiến lược tại Đại hội I",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Sau một đợt khủng bố, tổ chức cách mạng đã khôi phục hệ thống và củng cố cơ sở, nhưng chương trình vẫn chưa ưu tiên nguy cơ mất nước và liên minh dân tộc còn hẹp. Đánh giá nào vận dụng đúng kinh nghiệm Đại hội I năm 1935?",
+    "options": [
+      "Tổ chức chưa đạt kết quả phục hồi, nhưng chiến lược đã giải quyết đầy đủ nhiệm vụ dân tộc và xây dựng được mặt trận rộng rãi",
+      "Thành tựu tổ chức đủ bù cho hạn chế chiến lược, vì khôi phục hệ thống sẽ tự dẫn đến việc tập hợp lực lượng dân tộc",
+      "Hạn chế nằm ở công tác tổ chức, còn thứ tự nhiệm vụ và phạm vi liên minh đã phù hợp với nguy cơ mất nước trước mắt",
+      "Cần ghi nhận phục hồi tổ chức nhưng tiếp tục sửa chiến lược bằng cách đặt giải phóng dân tộc lên trước và mở rộng lực lượng"
+    ],
+    "answer": 3,
+    "explanation": "Tình huống cho thấy thành tựu về tổ chức không tự khắc phục hạn chế chiến lược; kinh nghiệm Đại hội I đòi hỏi vừa ghi nhận phục hồi vừa sửa thứ tự nhiệm vụ và phạm vi tập hợp lực lượng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.1. Khôi phục tổ chức và Đại hội I (logical lines 1582-1700)",
+      "text": "Đại hội I đánh dấu phục hồi tổ chức nhưng chưa đề ra chiến lược sát thực tiễn, chưa đặt giải phóng dân tộc lên hàng đầu và tập hợp toàn dân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q074",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nhiệm vụ trước mắt giai đoạn 1936–1939",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nghị Trung ương tháng 7-1936 xác định nhiệm vụ trước mắt nào?",
+    "options": [
+      "Đánh đổ đế quốc Pháp và phong kiến, chuẩn bị giành chính quyền bằng khởi nghĩa vũ trang",
+      "Tập trung chống phong kiến, thực hiện người cày có ruộng và thành lập chính quyền công nông",
+      "Chống phát xít, chiến tranh đế quốc, phản động thuộc địa; đòi tự do, dân chủ, cơm áo và hòa bình",
+      "Đòi quyền dân sinh, dân chủ gắn với duy trì trật tự thuộc địa và ủng hộ bộ máy cai trị của Pháp"
+    ],
+    "answer": 2,
+    "explanation": "Trước nguy cơ phát xít và chiến tranh, Đảng xác định nhiệm vụ trực tiếp là chống phát xít, chiến tranh và phản động thuộc địa, gắn với các yêu sách dân chủ, dân sinh, hòa bình.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Điều kiện lịch sử và chủ trương của Đảng (logical lines 1701-1791)",
+      "text": "Hội nghị tháng 7-1936 nêu nhiệm vụ chống phát xít, chiến tranh đế quốc, phản động thuộc địa và đòi tự do, dân chủ, cơm áo, hòa bình."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q075",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Hình thức tổ chức và đấu tranh giai đoạn 1936–1939",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Chủ trương về hình thức tổ chức và đấu tranh trong giai đoạn 1936–1939 là gì?",
+    "options": [
+      "Kết hợp công khai, nửa công khai, hợp pháp, nửa hợp pháp với bí mật, bất hợp pháp",
+      "Ưu tiên hình thức bí mật, bất hợp pháp và thu hẹp hoạt động công khai dù điều kiện pháp lý đang mở ra",
+      "Ưu tiên đấu tranh nghị trường, báo chí công khai và giảm vai trò các cơ sở bí mật của Đảng tại địa phương",
+      "Ngừng tổ chức quần chúng, chờ quốc tế ổn định rồi mới hoạt động"
+    ],
+    "answer": 0,
+    "explanation": "Đảng chủ trương tận dụng khả năng công khai, hợp pháp và nửa hợp pháp nhưng vẫn kết hợp với hoạt động bí mật, bất hợp pháp để mở rộng phong trào.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Điều kiện lịch sử và chủ trương của Đảng (logical lines 1701-1791)",
+      "text": "Đảng chuyển sang các hình thức công khai, nửa công khai, hợp pháp, nửa hợp pháp, đồng thời kết hợp bí mật và bất hợp pháp."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q076",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chủ trương thành lập mặt trận rộng rãi",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Vì sao Đảng chủ trương lập một mặt trận nhân dân rộng rãi trong giai đoạn 1936–1939?",
+    "options": [
+      "Để chuyển mục tiêu cách mạng sang bảo vệ lâu dài chế độ thuộc địa và hợp tác với chính quyền phản động",
+      "Để tập hợp nhiều giai cấp, đảng phái, đoàn thể và dân tộc cùng chống kẻ thù nguy hiểm trước mắt",
+      "Để loại công nhân và nông dân khỏi phong trào dân chủ, giao vai trò trung tâm cho địa chủ và tư sản mại bản",
+      "Để tập trung vận động các tổ chức tôn giáo, còn đảng phái, đoàn thể và các dân tộc khác tham gia ở giai đoạn sau"
+    ],
+    "answer": 1,
+    "explanation": "Mặt trận rộng rãi phù hợp nhiệm vụ chống phát xít, phản động thuộc địa và giành quyền dân chủ trước mắt, cho phép huy động các lực lượng khác nhau quanh mục tiêu chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Điều kiện lịch sử và chủ trương của Đảng (logical lines 1701-1791)",
+      "text": "Đảng chủ trương lập mặt trận nhân dân phản đế rộng rãi gồm các giai cấp, đảng phái, đoàn thể, tôn giáo và dân tộc để đấu tranh cho quyền dân chủ."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q077",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mục tiêu trước mắt và mục tiêu chiến lược",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm mới trong cách xử lý quan hệ giữa nhiệm vụ phản đế và điền địa của Đảng năm 1936 là gì?",
+    "options": [
+      "Hai nhiệm vụ phải được triển khai cùng mức độ trong mọi hoàn cảnh, dù đấu tranh điền địa làm thu hẹp mặt trận phản đế",
+      "Nhiệm vụ điền địa phải hoàn tất trước khi tập hợp lực lượng chống đế quốc, vì mâu thuẫn giai cấp luôn quyết định trước",
+      "Không máy móc buộc hai nhiệm vụ cùng tiến; khi cần phải chọn kẻ thù chính để tập trung lực lượng dân tộc chống lại",
+      "Nhiệm vụ phản đế được tách khỏi quyền lợi nông dân, còn vấn đề ruộng đất được giao cho chính quyền thuộc địa cải cách"
+    ],
+    "answer": 2,
+    "explanation": "Văn kiện năm 1936 phê phán cách gắn cứng phản đế với điền địa và yêu cầu, khi hai nhiệm vụ xung đột, xác định kẻ thù chính để tập trung lực lượng dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Điều kiện lịch sử và chủ trương của Đảng (logical lines 1701-1791)",
+      "text": "Văn kiện Chung quanh vấn đề chiến sách mới nêu rằng phản đế không nhất thiết phải kết chặt máy móc với điền địa; cần chọn kẻ thù chính, nguy hiểm nhất để tập trung lực lượng dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q078",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Lựa chọn kẻ thù nguy hiểm trước mắt",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo nhận thức mới năm 1936, nếu một yêu cầu về ruộng đất làm cản trở việc tập trung chống kẻ thù dân tộc nguy hiểm nhất thì nên xử lý thế nào?",
+    "options": [
+      "Ưu tiên nhiệm vụ cấp bách hơn để tập trung lực lượng dân tộc đánh kẻ thù chính",
+      "Duy trì phản đế và điền địa ở cùng mức, điều chỉnh hình thức vận động theo từng địa bàn",
+      "Ưu tiên yêu cầu ruộng đất để thu hút nông dân, sau đó mở rộng mặt trận phản đế",
+      "Giữ trọng tâm phản đế nhưng phân tán lực lượng theo từng yêu sách địa phương, chưa xác định một kẻ thù chính"
+    ],
+    "answer": 0,
+    "explanation": "Văn kiện năm 1936 chủ trương xét hoàn cảnh cụ thể, lựa chọn vấn đề quan trọng hơn và kẻ thù chính để tập trung lực lượng, qua đó bước đầu khắc phục hạn chế của Luận cương 1930.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Điều kiện lịch sử và chủ trương của Đảng (logical lines 1701-1791)",
+      "text": "Nếu đấu tranh chia đất cản trở phản đế thì phải chọn vấn đề quan trọng hơn, xác định địch nhân chính và tập trung lực lượng dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q079",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Cuộc vận động Đông Dương đại hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cuộc vận động lập “Ủy ban trù bị Đông Dương đại hội” nhằm mục đích trực tiếp nào?",
+    "options": [
+      "Tập hợp đại biểu các tổ chức dân chủ để xây dựng chương trình tranh cử vào Viện dân biểu",
+      "Thu thập nguyện vọng quần chúng và tiến tới triệu tập Đại hội đại biểu nhân dân Đông Dương",
+      "Soạn bản dân nguyện gửi phái đoàn Quốc hội Pháp, lấy đó làm chương trình hành động dài hạn",
+      "Hợp nhất các ủy ban hành động thành một mặt trận chính trị hoạt động hợp pháp trên toàn Đông Dương"
+    ],
+    "answer": 1,
+    "explanation": "Phong trào Đông Dương đại hội hướng tới tập hợp dân nguyện và triệu tập đại biểu nhân dân, tạo điều kiện cho quần chúng tổ chức mít tinh, hội họp và lập ủy ban hành động.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Đảng phát động lập Ủy ban trù bị Đông Dương đại hội để thu thập dân nguyện và tiến tới triệu tập Đại hội đại biểu nhân dân Đông Dương."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q080",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mặt trận Dân chủ Đông Dương",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nghị Trung ương tháng 3-1938 quyết định thành lập mặt trận nào để tập hợp rộng rãi lực lượng?",
+    "options": [
+      "Mặt trận Việt Minh",
+      "Mặt trận Liên Việt",
+      "Mặt trận Thống nhất dân tộc phản đế Đông Dương",
+      "Mặt trận Dân chủ Đông Dương"
+    ],
+    "answer": 3,
+    "explanation": "Hội nghị Trung ương tháng 3-1938 quyết định lập Mặt trận Dân chủ Đông Dương nhằm mở rộng lực lượng và phát triển phong trào dân chủ.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Hội nghị Trung ương ngày 29–30-3-1938 quyết định lập Mặt trận Dân chủ Đông Dương."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q081",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kết hợp các hình thức hoạt động trong phong trào dân chủ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc kết hợp hoạt động công khai với bí mật trong phong trào dân chủ đem lại lợi thế gì?",
+    "options": [
+      "Vừa tận dụng khả năng hợp pháp để tập hợp rộng rãi quần chúng, vừa duy trì lực lượng và sự lãnh đạo cách mạng",
+      "Làm cho tổ chức cơ sở bí mật giảm vai trò, trong khi hoạt động công khai dựa nhiều hơn vào thể chế thuộc địa",
+      "Biến yêu sách dân chủ thành mục tiêu lâu dài, đẩy nhiệm vụ giải phóng dân tộc và cải biến xã hội sang giai đoạn xa hơn",
+      "Mở rộng phong trào chủ yếu ở thành thị, giảm hoạt động nông thôn và hạn chế xây dựng các tổ chức quần chúng"
+    ],
+    "answer": 0,
+    "explanation": "Sự kết hợp linh hoạt giúp Đảng tận dụng không gian công khai để mở rộng phong trào mà vẫn giữ tổ chức bí mật cần thiết trong điều kiện thuộc địa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Phong trào kết hợp các hình thức tổ chức bí mật và công khai cùng nhiều phương pháp đấu tranh để tập hợp quần chúng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q082",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kết quả tổ chức và rèn luyện quần chúng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Kết quả nào cho thấy phong trào dân chủ 1936–1939 đã tạo lực lượng chính trị rộng lớn?",
+    "options": [
+      "Phong trào tập hợp lực lượng chủ yếu trong công nhân, nông dân; ảnh hưởng của Đảng mở rộng chậm ở trí thức và tiểu tư sản",
+      "Hàng triệu người được tập hợp, giác ngộ, rèn luyện; uy tín và tổ chức của Đảng được mở rộng, củng cố",
+      "Phong trào mở rộng các tổ chức quần chúng công khai nhưng hoạt động bí mật của Đảng suy giảm do đàn áp",
+      "Phong trào rèn luyện đội ngũ cán bộ, đảng viên, còn quy mô quần chúng tập trung tại các trung tâm đô thị"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn nhấn mạnh một đội quân chính trị hàng triệu người được tập hợp và rèn luyện, trong khi ảnh hưởng, uy tín và tổ chức của Đảng cùng được củng cố, phát triển.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Qua cuộc vận động dân chủ, hàng triệu quần chúng được tập hợp, giác ngộ và rèn luyện; uy tín, ảnh hưởng và tổ chức Đảng được mở rộng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q083",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò chuẩn bị của phong trào dân chủ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phong trào dân chủ 1936–1939 có quan hệ như thế nào với thắng lợi của Cách mạng Tháng Tám sau này?",
+    "options": [
+      "Phong trào tạo kinh nghiệm dân chủ nhưng làm chậm chuyển hướng giải phóng dân tộc do lực lượng phân tán",
+      "Phong trào cung cấp đội ngũ cán bộ, còn kinh nghiệm mặt trận và hình thức đấu tranh được hình thành từ năm 1939",
+      "Phong trào chuẩn bị về vận động công khai, còn lực lượng chính trị cho Tổng khởi nghĩa chủ yếu hình thành sau năm 1941",
+      "Phong trào mở rộng trận địa, rèn luyện lực lượng và trở thành một bước chuẩn bị quan trọng"
+    ],
+    "answer": 3,
+    "explanation": "Việc mở rộng lực lượng ở cả nông thôn và thành thị, rèn luyện đội quân chính trị và tích lũy kinh nghiệm khiến cao trào trở thành bước chuẩn bị cho Cách mạng Tháng Tám.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Cuộc vận động dân chủ mở rộng trận địa và lực lượng cách mạng ở nông thôn, thành thị, là bước chuẩn bị cho Cách mạng Tháng Tám."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q084",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kinh nghiệm từ phong trào dân chủ 1936–1939",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tổ chức muốn xây dựng phong trào quần chúng trong điều kiện có một số khả năng hoạt động hợp pháp. Bài học nào từ giai đoạn 1936–1939 phù hợp nhất?",
+    "options": [
+      "Nêu mục tiêu chiến lược xa, xem nguyện vọng trực tiếp và việc xác định kẻ thù trước mắt là vấn đề thứ yếu",
+      "Ưu tiên hoạt động bí mật, giảm tận dụng khả năng hợp pháp và xây dựng mặt trận trong phạm vi lực lượng nòng cốt",
+      "Nêu yêu sách sát nguyện vọng, lập mặt trận phù hợp và phối hợp linh hoạt hình thức công khai với bí mật",
+      "Mở rộng lực lượng trước khi xác định kẻ thù chính, mục tiêu trước mắt và nguyên tắc phối hợp giữa các tổ chức"
+    ],
+    "answer": 2,
+    "explanation": "Phong trào cho thấy yêu cầu phù hợp nguyện vọng sẽ được quần chúng hưởng ứng; mặt trận rộng và sự phối hợp hình thức đấu tranh giúp cô lập kẻ thù chính, mở rộng lực lượng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.2. Phong trào đấu tranh đòi tự do, dân chủ, cơm áo, hòa bình (logical lines 1792-1890)",
+      "text": "Kinh nghiệm là xây dựng mặt trận rộng, cô lập kẻ thù nguy hiểm, kết hợp công khai với bí mật và đề ra yêu cầu đúng nguyện vọng nhân dân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q085",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tác động của Chiến tranh thế giới thứ hai ở Đông Dương",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sau khi quân Nhật vào Đông Dương tháng 9-1940, nhân dân Đông Dương rơi vào tình cảnh nào?",
+    "options": [
+      "Được trao quyền tự quyết rộng dưới sự bảo hộ của Nhật, còn chính quyền Pháp giảm mạnh hoạt động bóc lột",
+      "Thoát khỏi ách thuộc địa vì Pháp tự nguyện rút quân và Nhật thừa nhận độc lập thực sự của Đông Dương",
+      "Chịu bộ máy thống trị chủ yếu của Nhật, trong khi chính quyền Pháp đã mất khả năng chi phối đời sống thuộc địa",
+      "Chịu ách thống trị, bóc lột của cả Pháp và Nhật, trong cảnh “một cổ hai tròng”"
+    ],
+    "answer": 3,
+    "explanation": "Thực dân Pháp đầu hàng và câu kết với Nhật để thống trị, bóc lột Đông Dương, khiến nhân dân đồng thời chịu áp bức của cả hai thế lực.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Bối cảnh và chủ trương chiến lược mới tháng 11-1939 (logical lines 1891-1946)",
+      "text": "Tháng 9-1940, Nhật vào Đông Dương; Pháp đầu hàng và câu kết với Nhật, làm nhân dân chịu cảnh một cổ hai tròng."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q086",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chuyển hướng chiến lược tháng 11-1939",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi trong chuyển hướng chiến lược tại Hội nghị Trung ương tháng 11-1939 là gì?",
+    "options": [
+      "Đặt quyền lợi dân tộc lên tối cao, tạm gác khẩu hiệu cách mạng ruộng đất để tập trung giành độc lập",
+      "Đặt đấu tranh nghị trường thành hướng hoạt động trung tâm trong thời chiến, tiếp tục duy trì các yêu sách dân chủ",
+      "Thu hẹp mặt trận dân tộc, xây dựng tổ chức riêng của công nhân và giữ nguyên khẩu hiệu ruộng đất",
+      "Duy trì nguyên vẹn nhiệm vụ dân chủ 1936–1939, không chuyển trọng tâm dù chiến tranh và ách thống trị đã thay đổi"
+    ],
+    "answer": 0,
+    "explanation": "Hội nghị chuyển trọng tâm sang giải phóng dân tộc, lấy lợi ích dân tộc làm tối cao và điều chỉnh yêu cầu ruộng đất để phục vụ việc tập hợp lực lượng chống ngoại xâm.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Bối cảnh và chủ trương chiến lược mới tháng 11-1939 (logical lines 1891-1946)",
+      "text": "Hội nghị tháng 11-1939 lấy quyền lợi dân tộc làm tối cao, tạm gác cách mạng ruộng đất và đưa nhân dân vào thời kỳ trực tiếp vận động giải phóng dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q087",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mặt trận dân tộc thống nhất phản đế",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Trong tình thế độc lập dân tộc bị đe dọa trực tiếp, phương án nào vận dụng đúng tinh thần Hội nghị tháng 11-1939?",
+    "options": [
+      "Giữ khẩu hiệu ruộng đất triệt để cao hơn nhiệm vụ chống ngoại xâm, làm điều kiện bắt buộc trước khi xây dựng mặt trận dân tộc",
+      "Chỉ huy động một giai cấp, từ chối hợp tác với các đảng phái, dân tộc và cá nhân yêu nước trong mặt trận chung",
+      "Tập hợp các lực lượng yêu nước trong mặt trận phản đế và điều chỉnh yêu cầu ruộng đất theo mục tiêu độc lập",
+      "Tiếp tục ưu tiên yêu sách dân chủ hợp pháp như trước chiến tranh, chưa chuyển sang trực tiếp vận động giải phóng dân tộc"
+    ],
+    "answer": 2,
+    "explanation": "Chủ trương đúng là xây dựng mặt trận dân tộc thống nhất phản đế rộng rãi, đồng thời tạm gác yêu cầu ruộng đất triệt để để mọi vấn đề phục vụ mục tiêu độc lập.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Bối cảnh và chủ trương chiến lược mới tháng 11-1939 (logical lines 1891-1946)",
+      "text": "Hội nghị lập Mặt trận dân tộc thống nhất phản đế Đông Dương, thu hút các dân tộc, giai cấp, đảng phái và cá nhân yêu nước để giành độc lập."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q088",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Điểm chưa hoàn chỉnh trong chủ trương tháng 11-1940",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nghị cán bộ Trung ương tháng 11-1940 còn chưa thật dứt khoát ở điểm nào?",
+    "options": [
+      "Chuyển hẳn sang giải phóng dân tộc nhưng tiếp tục dùng hình thức vận động công khai của giai đoạn 1936–1939",
+      "Vẫn cho rằng phản đế và thổ địa phải đồng thời tiến, chưa kiên quyết đặt giải phóng dân tộc lên hàng đầu",
+      "Đặt giải phóng dân tộc lên hàng đầu nhưng chưa xác định quan hệ giữa nhiệm vụ phản đế và điền địa",
+      "Xác định phản đế là nhiệm vụ cấp bách nhưng đặt trọng tâm tổ chức ở đô thị hơn căn cứ nông thôn"
+    ],
+    "answer": 1,
+    "explanation": "Hội nghị thừa nhận nhiệm vụ phản đế thiết dụng hơn nhưng vẫn gắn phản đế với thổ địa theo cách đồng thời, nên chưa dứt khoát với chuyển hướng đã nêu năm 1939.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Hội nghị tháng 11-1940 và Hội nghị Trung ương VIII tháng 5-1941 (logical lines 1947-2040)",
+      "text": "Hội nghị tháng 11-1940 vẫn cho rằng phản đế và thổ địa phải đồng thời tiến, nên chưa dứt khoát đặt giải phóng dân tộc lên hàng đầu."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q089",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Mâu thuẫn chủ yếu tại Hội nghị Trung ương VIII",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nghị Trung ương VIII tháng 5-1941 xác định mâu thuẫn chủ yếu, cấp bách là giữa những lực lượng nào?",
+    "options": [
+      "Công nhân Việt Nam với nông dân Việt Nam",
+      "Dân tộc Việt Nam với đế quốc phát xít Pháp–Nhật",
+      "Tư sản dân tộc với tiểu tư sản trí thức",
+      "Các dân tộc Đông Dương với phong trào vô sản thế giới"
+    ],
+    "answer": 1,
+    "explanation": "Dưới hai tầng áp bức Pháp–Nhật, vận mệnh dân tộc bị đe dọa nghiêm trọng; vì vậy mâu thuẫn giữa toàn dân tộc Việt Nam với Pháp–Nhật là mâu thuẫn cần giải quyết cấp bách.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Hội nghị tháng 11-1940 và Hội nghị Trung ương VIII tháng 5-1941 (logical lines 1947-2040)",
+      "text": "Hội nghị VIII nhấn mạnh mâu thuẫn chủ yếu, cấp bách giữa dân tộc Việt Nam với đế quốc phát xít Pháp–Nhật."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q090",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tính cấp bách của nhiệm vụ giải phóng dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao Hội nghị Trung ương VIII đặt quyền lợi bộ phận và giai cấp dưới sự tồn vong của quốc gia, dân tộc?",
+    "options": [
+      "Vì Hội nghị cho rằng các vấn đề giai cấp cơ bản đã được giải quyết, nên nhiệm vụ kinh tế-xã hội sau độc lập giữ vai trò phụ",
+      "Vì Hội nghị muốn duy trì lâu dài quyền sở hữu của đế quốc, Việt gian và gác lại quyền lợi của quần chúng lao động",
+      "Vì mục tiêu độc lập trước hết liên quan đến các tầng lớp thành thị, còn quyền lợi nông thôn sẽ được xử lý ở giai đoạn sau",
+      "Vì không giành được độc lập cho toàn dân tộc thì quyền lợi của từng bộ phận cũng không thể được bảo đảm"
+    ],
+    "answer": 3,
+    "explanation": "Trong tình thế dân tộc nguy vong, độc lập là điều kiện chung để các giai cấp và bộ phận có thể giành quyền lợi; vì thế giải phóng dân tộc phải được ưu tiên.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Hội nghị tháng 11-1940 và Hội nghị Trung ương VIII tháng 5-1941 (logical lines 1947-2040)",
+      "text": "Hội nghị chỉ rõ nếu không giải quyết dân tộc giải phóng và giành độc lập thì quyền lợi của bộ phận, giai cấp cũng không thể đòi lại."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q091",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Giải quyết vấn đề dân tộc trong từng nước Đông Dương",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Chủ trương “dân tộc tự quyết” của Hội nghị Trung ương VIII được thể hiện như thế nào?",
+    "options": [
+      "Mỗi dân tộc được quyền chọn liên bang dân chủ hoặc quốc gia riêng, đồng thời đoàn kết ba dân tộc chống kẻ thù chung",
+      "Cả ba nước phải tổ chức thành một quốc gia thống nhất sau độc lập, chưa đặt ra quyền lựa chọn liên bang hoặc đứng riêng",
+      "Mỗi dân tộc tập trung đấu tranh trong phạm vi nước mình, giảm phối hợp giữa các mặt trận chống kẻ thù chung Pháp–Nhật",
+      "Vấn đề dân tộc phải do chính quyền thuộc địa quyết định sau chiến tranh, còn các dân tộc Đông Dương chưa có quyền tự quyết"
+    ],
+    "answer": 0,
+    "explanation": "Hội nghị tôn trọng quyền tự quyết và lập mặt trận riêng ở từng nước, nhưng vẫn yêu cầu đoàn kết Việt Nam, Lào, Campuchia để cùng chống kẻ thù chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Hội nghị tháng 11-1940 và Hội nghị Trung ương VIII tháng 5-1941 (logical lines 1947-2040)",
+      "text": "Hội nghị giải quyết vấn đề dân tộc trong từng nước, thừa nhận quyền tự quyết và kết hợp đoàn kết từng dân tộc với đoàn kết ba dân tộc Đông Dương."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q092",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của chuẩn bị khởi nghĩa vũ trang",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một bản thuyết minh về Hội nghị Trung ương VIII viết rằng lực lượng cách mạng sẽ chờ đến Tổng khởi nghĩa rồi mới chuẩn bị vũ trang, vì khởi nghĩa từng phần chưa được đặt ra. Cách hiệu chỉnh nào đúng với chủ trương lịch sử?",
+    "options": [
+      "Bổ sung viện trợ quốc tế như điều kiện mở đầu, rồi mới trình bày việc xây dựng lực lượng và căn cứ trong nước",
+      "Giữ cách trình bày và xem đấu tranh kinh tế là bước chuẩn bị trực tiếp trước Tổng khởi nghĩa",
+      "Nêu rõ việc chuẩn bị lực lượng thường xuyên và khả năng khởi nghĩa từng phần để mở đường cho Tổng khởi nghĩa",
+      "Đưa Tổng khởi nghĩa lên giai đoạn đầu, còn xây dựng lực lượng và căn cứ được trình bày như kết quả sau thắng lợi"
+    ],
+    "answer": 2,
+    "explanation": "Bản thuyết minh đã đảo trình tự lịch sử. Hội nghị coi chuẩn bị khởi nghĩa vũ trang là nhiệm vụ trung tâm, duy trì lực lượng sẵn sàng và dự kiến khởi nghĩa từng phần khi thuận lợi để tiến tới Tổng khởi nghĩa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Hội nghị tháng 11-1940 và Hội nghị Trung ương VIII tháng 5-1941 (logical lines 1947-2040)",
+      "text": "Hội nghị VIII xác định chuẩn bị khởi nghĩa vũ trang là nhiệm vụ trung tâm, sẵn sàng khởi nghĩa từng phần để mở đường cho tổng khởi nghĩa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q093",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ý nghĩa báo hiệu của các cuộc nổi dậy 1940–1941",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khởi nghĩa Bắc Sơn, khởi nghĩa Nam Kỳ và binh biến Đô Lương được đánh giá có ý nghĩa gì?",
+    "options": [
+      "Là những tiếng súng báo hiệu khởi nghĩa toàn quốc và bước đầu đấu tranh bằng vũ lực",
+      "Là những cuộc Tổng khởi nghĩa đã giành chính quyền trên toàn Đông Dương và lập chính phủ thống nhất ở ba nước",
+      "Là các hoạt động nghị trường tiêu biểu của thời kỳ dân chủ, chủ yếu nhằm đòi quyền hợp pháp trong chế độ thuộc địa",
+      "Là bằng chứng phong trào từ bỏ độc lập để theo cải cách thuộc địa"
+    ],
+    "answer": 0,
+    "explanation": "Ba cuộc nổi dậy chưa giành thắng lợi chung cuộc nhưng báo hiệu xu thế khởi nghĩa toàn quốc và đánh dấu bước đầu đấu tranh vũ trang của các dân tộc Đông Dương.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Phong trào chống Pháp-Nhật và chuẩn bị lực lượng (logical lines 2042-2190)",
+      "text": "Bắc Sơn, Nam Kỳ và Đô Lương được coi là những tiếng súng báo hiệu khởi nghĩa toàn quốc, bước đầu đấu tranh bằng vũ lực."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q094",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của Mặt trận Việt Minh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Vai trò nổi bật của Mặt trận Việt Minh trong chuẩn bị Tổng khởi nghĩa là gì?",
+    "options": [
+      "Tập hợp các đoàn thể cứu quốc thành hệ thống chính quyền lâm thời tại căn cứ Việt Bắc",
+      "Tổ chức lực lượng quân sự tập trung để giữ căn cứ, lấy chiến thắng tác chiến làm phương thức mở rộng mặt trận",
+      "Tập hợp công nhân, nông dân trong liên minh giai cấp, rồi mở rộng các tầng lớp khác sau khi khởi nghĩa",
+      "Tập hợp, giác ngộ và rèn luyện lực lượng chính trị rộng lớn trong khối đại đoàn kết dân tộc"
+    ],
+    "answer": 3,
+    "explanation": "Việt Minh là mặt trận đại đoàn kết dân tộc, nơi xây dựng đội quân chính trị rộng lớn có ý nghĩa cơ bản và quyết định đối với Tổng khởi nghĩa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Phong trào chống Pháp-Nhật và chuẩn bị lực lượng (logical lines 2042-2190)",
+      "text": "Việt Minh tập hợp, giác ngộ và rèn luyện lực lượng chính trị rộng lớn, lực lượng cơ bản có ý nghĩa quyết định trong Tổng khởi nghĩa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q095",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phân biệt chuẩn bị lực lượng chính trị và vũ trang",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Cặp hoạt động nào lần lượt thuộc chuẩn bị lực lượng chính trị và chuẩn bị lực lượng vũ trang?",
+    "options": [
+      "Lập Đội Việt Nam Tuyên truyền Giải phóng quân làm lực lượng chính trị; phát triển các hội cứu quốc làm lực lượng vũ trang",
+      "Dựng căn cứ địa làm hoạt động vận động chính trị; xuất bản sách báo tuyên truyền làm hoạt động quân sự chủ yếu",
+      "Phát triển đoàn thể cứu quốc trong Việt Minh; xây dựng Cứu quốc quân và đội tự vệ, du kích",
+      "Tổ chức các trận Phai Khắt, Nà Ngần làm công tác chính trị; thành lập Hội Văn hóa cứu quốc làm lực lượng tác chiến"
+    ],
+    "answer": 2,
+    "explanation": "Đoàn thể cứu quốc tập hợp đội quân chính trị, còn Cứu quốc quân, tự vệ và du kích là các hình thức xây dựng lực lượng vũ trang; các cặp khác đảo thứ tự.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Phong trào chống Pháp-Nhật và chuẩn bị lực lượng (logical lines 2042-2190)",
+      "text": "Đảng vừa xây dựng lực lượng chính trị qua Việt Minh và các đoàn thể cứu quốc, vừa chuẩn bị Cứu quốc quân, tự vệ và du kích."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q096",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Đánh giá điều kiện phát động chiến tranh du kích",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao Hồ Chí Minh quyết định đình chỉ phát động chiến tranh du kích rộng lớn ở Cao–Bắc–Lạng cuối năm 1944?",
+    "options": [
+      "Vì nhiệm vụ giải phóng dân tộc đã hoàn thành, chính quyền cách mạng được lập và không còn cần lực lượng vũ trang",
+      "Vì điều kiện chưa chín muồi, cần chọn hình thức xây dựng lực lượng phù hợp hơn thay vì hành động nóng vội",
+      "Vì Đảng từ bỏ chuẩn bị lực lượng vũ trang, chuyển hẳn sang hoạt động công khai và đấu tranh nghị trường hợp pháp",
+      "Vì quân Nhật đã đầu hàng, chính quyền đã về tay nhân dân nên chiến tranh du kích rộng lớn không còn mục tiêu nào"
+    ],
+    "answer": 1,
+    "explanation": "Quyết định thể hiện đánh giá tỉnh táo về tương quan và điều kiện: chưa phát động chiến tranh du kích quy mô rộng, nhưng tiếp tục xây dựng lực lượng bằng đội tuyên truyền giải phóng quân.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Phong trào chống Pháp-Nhật và chuẩn bị lực lượng (logical lines 2042-2190)",
+      "text": "Hồ Chí Minh đình chỉ phát động chiến tranh du kích rộng lớn vì chưa đủ điều kiện, rồi chỉ thị thành lập Đội Việt Nam Tuyên truyền Giải phóng quân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q097",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ý nghĩa thành lập Đội Việt Nam Tuyên truyền Giải phóng quân",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một bản tổng kết về Đội Việt Nam Tuyên truyền Giải phóng quân sau Phay Khắt–Nà Ngần ghi thành tích tác chiến nhưng chưa giải thích cách Đội mở rộng cơ sở quanh căn cứ. Nội dung bổ sung nào đúng với phương thức lịch sử?",
+    "options": [
+      "Đội lấy tác chiến làm nhiệm vụ trung tâm, còn tuyên truyền và xây dựng cơ sở thuộc các đoàn thể địa phương",
+      "Đội chuyển trọng tâm sang vận động chính trị sau hai trận đầu, rồi nối lại tác chiến khi cơ sở đã ổn định",
+      "Đội tập trung giữ địa bàn hiện có và triển khai tuyên truyền trong phạm vi các đơn vị vũ trang",
+      "Đội kết hợp tác chiến với vũ trang tuyên truyền, gây dựng cơ sở chính trị và từng bước mở rộng căn cứ"
+    ],
+    "answer": 3,
+    "explanation": "Bản tổng kết thiếu một mặt hoạt động lịch sử của Đội: tác chiến được kết hợp với vũ trang tuyên truyền để gây dựng lực lượng chính trị và mở rộng căn cứ cách mạng.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Phong trào chống Pháp-Nhật và chuẩn bị lực lượng (logical lines 2042-2190)",
+      "text": "Đội Việt Nam Tuyên truyền Giải phóng quân ra đời ngày 22-12-1944, kết hợp vũ trang tuyên truyền, chính trị và quân sự để xây dựng cơ sở, mở rộng căn cứ."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q098",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kẻ thù trước mắt sau cuộc đảo chính Nhật–Pháp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Sau cuộc đảo chính ngày 9-3-1945, Chỉ thị “Nhật, Pháp bắn nhau và hành động của chúng ta” xác định kẻ thù cụ thể, trước mắt và duy nhất là ai?",
+    "options": [
+      "Thực dân Pháp",
+      "Quân Đồng minh",
+      "Phát xít Nhật",
+      "Tư sản dân tộc Việt Nam"
+    ],
+    "answer": 2,
+    "explanation": "Sau khi Nhật lật đổ Pháp và độc chiếm Đông Dương, Chỉ thị xác định phát xít Nhật là kẻ thù trước mắt duy nhất và đổi khẩu hiệu thành đánh đuổi phát xít Nhật.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Cao trào kháng Nhật cứu nước (logical lines 2191-2309)",
+      "text": "Chỉ thị ngày 12-3-1945 xác định kẻ thù cụ thể, trước mắt và duy nhất sau đảo chính là phát xít Nhật."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q099",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Chủ trương phát động cao trào kháng Nhật",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Chỉ thị ngày 12-3-1945 quyết định phát động phong trào nào làm tiền đề cho Tổng khởi nghĩa?",
+    "options": [
+      "Phong trào dân chủ đòi tự do, cơm áo và hòa bình",
+      "Cao trào kháng Nhật cứu nước",
+      "Phong trào Vô sản hóa",
+      "Cuộc vận động Đông Dương đại hội"
+    ],
+    "answer": 1,
+    "explanation": "Chỉ thị phát động cao trào kháng Nhật cứu nước mạnh mẽ, chuẩn bị trực tiếp và sẵn sàng chuyển lên Tổng khởi nghĩa khi điều kiện chín muồi.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Cao trào kháng Nhật cứu nước (logical lines 2191-2309)",
+      "text": "Chỉ thị quyết định phát động cao trào kháng Nhật cứu nước làm tiền đề cho Tổng khởi nghĩa và sẵn sàng chuyển lên khi đủ điều kiện."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q100",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Thực chất của cao trào kháng Nhật cứu nước",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Thực chất của cao trào kháng Nhật cứu nước được giáo trình khái quát như thế nào?",
+    "options": [
+      "Một cuộc khởi nghĩa từng phần và chiến tranh du kích cục bộ, giành chính quyền nơi có điều kiện",
+      "Một cao trào đấu tranh chính trị rộng lớn, kết hợp vận động dân sinh trong hình thức hợp pháp",
+      "Một cuộc Tổng khởi nghĩa diễn ra theo từng địa bàn, hoàn thành chính quyền ở nông thôn trước các đô thị",
+      "Một giai đoạn chuẩn bị trực tiếp, lấy vũ trang tuyên truyền và xây dựng căn cứ làm nội dung chủ yếu"
+    ],
+    "answer": 0,
+    "explanation": "Cao trào phát triển thành khởi nghĩa từng phần và chiến tranh du kích cục bộ, giải phóng nhiều địa bàn và đưa toàn dân tới trạng thái sẵn sàng Tổng khởi nghĩa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Cao trào kháng Nhật cứu nước (logical lines 2191-2309)",
+      "text": "Thực chất cao trào là khởi nghĩa từng phần và chiến tranh du kích cục bộ, giành chính quyền ở những nơi có điều kiện."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q101",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Khu giải phóng và lực lượng vũ trang thống nhất",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Việc thống nhất lực lượng vũ trang thành Việt Nam Giải phóng quân và thành lập Khu giải phóng Việt Bắc có tác dụng gì?",
+    "options": [
+      "Tăng khả năng tác chiến tập trung, đồng thời chuyển căn cứ địa chính từ Việt Bắc xuống đồng bằng",
+      "Tạo bộ chỉ huy chung cho lực lượng vũ trang, còn lực lượng chính trị hoạt động riêng với Khu giải phóng",
+      "Tăng khả năng phối hợp vũ trang và tạo căn cứ địa chính cho cách mạng cả nước",
+      "Hoàn chỉnh chính quyền trung ương lâm thời và chuyển căn cứ thành trung tâm hành chính của cả nước"
+    ],
+    "answer": 2,
+    "explanation": "Hội nghị quân sự thống nhất lực lượng vũ trang, còn Khu giải phóng trở thành căn cứ địa chính; hai bước này củng cố thế và lực cho cuộc khởi nghĩa toàn quốc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Cao trào kháng Nhật cứu nước (logical lines 2191-2309)",
+      "text": "Các lực lượng vũ trang được thống nhất thành Việt Nam Giải phóng quân; Khu giải phóng Việt Bắc trở thành căn cứ địa chính của cách mạng cả nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q102",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Gắn yêu cầu dân sinh với động viên khởi nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một tư liệu về cao trào năm 1945 ghi nhận nạn đói lan rộng, kho lương của quân Nhật còn đầy và quần chúng đang bất bình. Nhận định nào giải thích đúng tác dụng lịch sử của khẩu hiệu “phá kho thóc, giải quyết nạn đói”?",
+    "options": [
+      "Khẩu hiệu gắn nhu cầu sống còn với việc tổ chức quần chúng hành động, tạo khí thế tiến tới giành quyền làm chủ",
+      "Khẩu hiệu chủ yếu tạo cơ chế cứu trợ trong Chính phủ Trần Trọng Kim, rồi mở rộng vận động quần chúng ở giai đoạn sau",
+      "Khẩu hiệu điều chỉnh hệ thống thu mua lương thực của quân Nhật và hướng nông dân vào mùa vụ kế tiếp",
+      "Khẩu hiệu biến cứu đói thành hoạt động tương trợ để ổn định trật tự trước khi phong trào chuyển sang đấu tranh chính trị"
+    ],
+    "answer": 0,
+    "explanation": "Trong cao trào lịch sử, phá kho thóc vừa giải quyết nạn đói vừa tổ chức quần chúng hành động chống bộ máy chiếm đóng; yêu cầu dân sinh trở thành động lực phát triển đấu tranh chính trị và khởi nghĩa từng phần.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Cao trào kháng Nhật cứu nước (logical lines 2191-2309)",
+      "text": "Khẩu hiệu phá kho thóc, giải quyết nạn đói phát động quần chúng vùng dậy với khí thế tiến tới Tổng khởi nghĩa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q103",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Thời cơ Tổng khởi nghĩa tháng Tám",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Khoảng thời gian thuận lợi trực tiếp để giành chính quyền trong tháng Tám năm 1945 là khi nào?",
+    "options": [
+      "Sau khi quân Đồng minh đã ổn định bộ máy cai trị trên toàn Đông Dương",
+      "Từ khi Nhật đầu hàng đến trước khi quân Đồng minh vào Đông Dương",
+      "Trước khi Nhật đảo chính Pháp ngày 9-3-1945",
+      "Sau khi Pháp đã khôi phục hoàn toàn chính quyền thuộc địa"
+    ],
+    "answer": 1,
+    "explanation": "Nhật đầu hàng làm quân Nhật và chính quyền tay sai rệu rã, trong khi quân Đồng minh chưa vào; khoảng trống ngắn này là thời cơ trực tiếp cho Tổng khởi nghĩa.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Thời cơ giành chính quyền tồn tại từ khi Nhật tuyên bố đầu hàng đến trước khi quân Đồng minh vào Đông Dương."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q104",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nguyên tắc chỉ đạo Tổng khởi nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Hội nghị toàn quốc của Đảng tháng 8-1945 xác định ba nguyên tắc chỉ đạo khởi nghĩa nào?",
+    "options": [
+      "Phân tán, độc lập và kéo dài",
+      "Bí mật, phòng ngự và thỏa hiệp",
+      "Tự phát, cục bộ và tuần tự",
+      "Tập trung, thống nhất và kịp thời"
+    ],
+    "answer": 3,
+    "explanation": "Ba nguyên tắc tập trung, thống nhất và kịp thời phù hợp yêu cầu huy động sức mạnh toàn quốc và chớp thời cơ rất ngắn trước khi quân Đồng minh tiến vào.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Hội nghị toàn quốc xác định ba nguyên tắc chỉ đạo khởi nghĩa là tập trung, thống nhất và kịp thời."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q105",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Cơ quan phát lệnh Tổng khởi nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cơ quan nào ban bố Quân lệnh số 1, phát lệnh Tổng khởi nghĩa trong toàn quốc?",
+    "options": [
+      "Ủy ban lâm thời Khu giải phóng",
+      "Ủy ban Khởi nghĩa toàn quốc",
+      "Chính phủ Trần Trọng Kim",
+      "Hội nghị quân sự cách mạng Bắc Kỳ"
+    ],
+    "answer": 1,
+    "explanation": "Ngày 13-8-1945, Trung ương Đảng và Tổng bộ Việt Minh lập Ủy ban Khởi nghĩa toàn quốc; cơ quan này ban bố Quân lệnh số 1 trong đêm cùng ngày.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Ủy ban Khởi nghĩa toàn quốc được thành lập ngày 13-8-1945 và ban bố Quân lệnh số 1 phát lệnh Tổng khởi nghĩa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q106",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phối hợp lực lượng trong Tổng khởi nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Sự phối hợp chính trị và quân sự trong Tổng khởi nghĩa được thể hiện đúng ở phương án nào?",
+    "options": [
+      "Quần chúng mít tinh gây sức ép, còn lực lượng vũ trang duy trì ở căn cứ để tránh xung đột trực tiếp",
+      "Lực lượng vũ trang mở các trận riêng, còn quần chúng tham gia sau khi cơ quan chính quyền đã bị đánh chiếm",
+      "Quần chúng nổi dậy chiếm cơ quan chính quyền, có lực lượng vũ trang hỗ trợ và làm tan rã đối phương",
+      "Dựa chủ yếu vào thương lượng với quân Nhật, còn lực lượng tại chỗ giữ nhiệm vụ bảo đảm trật tự"
+    ],
+    "answer": 2,
+    "explanation": "Chủ trương yêu cầu quân sự và chính trị phối hợp. Thực tế, quần chúng đông đảo nổi dậy giành công sở, trong khi Giải phóng quân và tự vệ hỗ trợ, tác động làm đối phương tê liệt.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Hội nghị yêu cầu quân sự và chính trị phối hợp; lực lượng vũ trang hỗ trợ quần chúng nổi dậy giành chính quyền tại nhiều địa phương."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q107",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò chủ động của các địa phương",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Việc một số địa phương giành chính quyền sớm dù chưa nhận được lệnh Tổng khởi nghĩa cho thấy điều gì?",
+    "options": [
+      "Các địa phương hành động không liên quan đến bất kỳ nghị quyết hay chỉ thị nào của Đảng",
+      "Chủ trương trung ương không có vai trò trong việc chuẩn bị tinh thần và lực lượng",
+      "Mỗi địa phương theo một mục tiêu riêng, không hướng tới chính quyền nhân dân",
+      "Đảng bộ địa phương đã nắm tinh thần chỉ đạo trước đó và chủ động vận dụng vào tình hình thực tiễn"
+    ],
+    "answer": 3,
+    "explanation": "Sự chủ động không phải tự phát: các đảng bộ dựa vào nghị quyết, chỉ thị đã quán triệt và đánh giá đúng điều kiện địa phương để kịp thời lãnh đạo nổi dậy.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Một số đảng bộ dù chưa nhận lệnh vẫn nắm vững chỉ đạo trước đó, căn cứ thực tiễn và chủ động lãnh đạo nhân dân khởi nghĩa."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q108",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Vai trò của các cuộc khởi nghĩa ở đô thị lớn",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Vì sao thắng lợi tại Hà Nội, Huế và Sài Gòn có ý nghĩa quyết định đối với Tổng khởi nghĩa cả nước?",
+    "options": [
+      "Các cuộc khởi nghĩa đập tan những cơ quan đầu não, làm chính quyền tay sai tê liệt và cổ vũ mạnh các địa phương",
+      "Ba đô thị có tỷ lệ quần chúng tham gia cao hơn, còn khởi nghĩa nông thôn đóng vai trò hỗ trợ cho thắng lợi toàn quốc",
+      "Thắng lợi tại đô thị khiến việc giành chính quyền ở nông thôn trở thành hoạt động củng cố sau khi trung ương đã thắng",
+      "Các cuộc khởi nghĩa diễn ra sau khi Nhà nước mới được lập, có bộ máy hoàn chỉnh và đã được quốc tế công nhận"
+    ],
+    "answer": 0,
+    "explanation": "Việc giành các trung tâm chính trị lớn đánh sập đầu não đối phương, tạo hiệu ứng lan tỏa và điều kiện thuận lợi quyết định cho tiến trình giành chính quyền trong cả nước.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Khởi nghĩa ở Hà Nội, Huế và Sài Gòn đập tan các cơ quan đầu não của kẻ thù, có ý nghĩa quyết định đối với thắng lợi cả nước."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q109",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Phân tích nguyên nhân thắng lợi của Tổng khởi nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Giả sử Nhật đầu hàng đồng thời ở hai địa bàn: A đã có cơ sở Việt Minh, lực lượng chính trị-vũ trang và kế hoạch khởi nghĩa; B chưa chuẩn bị các điều kiện đó. Nhận định nào giải thích đúng vì sao A có khả năng chớp thời cơ cao hơn?",
+    "options": [
+      "Thời cơ khách quan phát huy tác dụng khi gặp đường lối, tổ chức lãnh đạo và lực lượng quần chúng đã được chuẩn bị lâu dài",
+      "Sự đầu hàng của Nhật đủ làm bộ máy tay sai chuyển quyền cho bên có mặt sớm hơn, dù địa bàn đó chưa tổ chức lực lượng",
+      "Khả năng thắng lợi phụ thuộc vào quân Đồng minh đến tổ chức khởi nghĩa và lập chính quyền giúp từng địa bàn",
+      "Địa bàn đô thị sẽ giành chính quyền trước nhờ vị trí hành chính, còn mức độ chuẩn bị chính trị-vũ trang ít ảnh hưởng"
+    ],
+    "answer": 0,
+    "explanation": "Hai địa bàn có cùng thời cơ khách quan nhưng khác năng lực hành động; A có ưu thế vì thời cơ được kết hợp với đường lối, tổ chức và lực lượng đã chuẩn bị, đúng logic thắng lợi tháng Tám.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.3. Tổng khởi nghĩa giành chính quyền (logical lines 2310-2552)",
+      "text": "Cách mạng diễn ra khi Nhật đầu hàng nhưng là kết quả, đỉnh cao của 15 năm đấu tranh dưới sự lãnh đạo của Đảng với đường lối và lực lượng được chuẩn bị."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q110",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tính chất của Cách mạng Tháng Tám",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách mạng Tháng Tám năm 1945 được xác định có tính chất cơ bản nào?",
+    "options": [
+      "Cách mạng xã hội chủ nghĩa hoàn chỉnh",
+      "Cách mạng giải phóng dân tộc mang tính chất dân chủ mới",
+      "Cách mạng dân chủ tư sản do giai cấp tư sản lãnh đạo",
+      "Cải cách hành chính trong khuôn khổ thuộc địa"
+    ],
+    "answer": 1,
+    "explanation": "Cách mạng Tháng Tám trước hết là cuộc cách mạng giải phóng dân tộc, đồng thời mang nội dung dân chủ mới và là bộ phận của cách mạng dân tộc dân chủ nhân dân.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Tính chất Cách mạng Tháng Tám (logical lines 2553-2613)",
+      "text": "Cách mạng Tháng Tám là cuộc cách mạng giải phóng dân tộc mang tính chất dân chủ mới."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q111",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Lực lượng toàn dân tộc trong Cách mạng Tháng Tám",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Đặc điểm nào phản ánh lực lượng của Cách mạng Tháng Tám mang tính toàn dân tộc?",
+    "options": [
+      "Lực lượng vũ trang chuyên nghiệp giữ vai trò quyết định, còn quần chúng tham gia chủ yếu bằng hoạt động hậu cần",
+      "Công nhân đô thị là lực lượng trung tâm của mặt trận, các tầng lớp khác tham gia qua phong trào hỗ trợ",
+      "Các tầng lớp nhân dân được đoàn kết trong Việt Minh và các tổ chức cứu quốc",
+      "Quần chúng nông thôn tham gia sau khi lực lượng ở các đô thị lớn đã hoàn tất việc giành chính quyền"
+    ],
+    "answer": 2,
+    "explanation": "Việt Minh và các đoàn thể cứu quốc huy động rộng rãi mọi lực lượng dân tộc, làm Tổng khởi nghĩa trở thành cuộc vùng dậy của toàn dân.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Tính chất Cách mạng Tháng Tám (logical lines 2553-2613)",
+      "text": "Lực lượng cách mạng gồm toàn dân tộc, đoàn kết trong Mặt trận Việt Minh và các tổ chức quần chúng cứu quốc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q112",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nội dung và giới hạn dân chủ của Cách mạng Tháng Tám",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Nhận định nào đánh giá đúng nội dung dân chủ và giới hạn của Cách mạng Tháng Tám?",
+    "options": [
+      "Cách mạng lập chính quyền dân chủ nhân dân và hoàn thành đồng thời việc xóa quan hệ địa chủ–nông dân",
+      "Cách mạng xóa quân chủ và thiết lập chính quyền công nông theo mô hình Xô viết, đưa ruộng đất vào sở hữu tập thể",
+      "Cách mạng thiết lập nền cộng hòa tư sản, mở rộng quyền chính trị nhưng giữ cấu trúc xã hội thuộc địa",
+      "Cách mạng lập chính quyền dân chủ nhân dân và xóa quân chủ, nhưng chưa thực hiện đầy đủ cách mạng ruộng đất"
+    ],
+    "answer": 3,
+    "explanation": "Nội dung dân chủ thể hiện ở nhà nước dân chủ nhân dân, quyền tự do và việc xóa chế độ quân chủ; mức độ chưa sâu vì quan hệ ruộng đất phong kiến chưa được giải quyết triệt để.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Tính chất Cách mạng Tháng Tám (logical lines 2553-2613)",
+      "text": "Cách mạng xây dựng chính quyền dân chủ nhân dân, xóa chế độ quân chủ nhưng chưa làm cách mạng ruộng đất và chưa xóa hết quan hệ phong kiến."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q113",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Nhận diện tính chất giải phóng dân tộc điển hình",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một cuộc cách mạng ở thuộc địa tập trung đánh đổ ách ngoại xâm, quy tụ nhiều giai cấp trong mặt trận dân tộc và lập nhà nước chung của dân tộc, dù chưa giải quyết triệt để ruộng đất. Theo tiêu chí từ Cách mạng Tháng Tám, nên xếp cuộc cách mạng này vào loại nào?",
+    "options": [
+      "Cách mạng xã hội thuần túy vì tiêu chí quyết định là cải tạo sở hữu, còn đối tượng ngoại xâm giữ vai trò thứ yếu",
+      "Cách mạng của một giai cấp vì mặt trận dân tộc không làm thay đổi nền tảng lực lượng và mục tiêu chính trị của phong trào",
+      "Cách mạng giải phóng dân tộc điển hình vì giải quyết mâu thuẫn với đế quốc, huy động toàn dân và lập nhà nước chung",
+      "Phong trào cải lương thuộc địa vì nhiệm vụ ruộng đất chưa hoàn thành, dù độc lập và chính quyền dân tộc đã được xác lập"
+    ],
+    "answer": 2,
+    "explanation": "Dữ kiện mới đáp ứng ba tiêu chí của một cách mạng giải phóng dân tộc điển hình: đối tượng chính là đế quốc, lực lượng là toàn dân và kết quả là nhà nước chung của dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Tính chất Cách mạng Tháng Tám (logical lines 2553-2613)",
+      "text": "Cách mạng tập trung giải phóng dân tộc, huy động toàn dân qua Việt Minh và thành lập nhà nước dân chủ của chung toàn dân tộc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q114",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Ý nghĩa về chính quyền của Cách mạng Tháng Tám",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Thành quả nhà nước trực tiếp của Cách mạng Tháng Tám là gì?",
+    "options": [
+      "Khôi phục chế độ quân chủ chuyên chế với một triều đại mới",
+      "Thành lập nước Việt Nam Dân chủ Cộng hòa, nhà nước của nhân dân",
+      "Thiết lập lại Liên bang Đông Dương dưới quyền thực dân Pháp",
+      "Trao quyền cai trị cho quân Đồng minh sau khi giải giáp Nhật"
+    ],
+    "answer": 1,
+    "explanation": "Thắng lợi đập tan ách thuộc địa và chế độ quân chủ, lập nên nước Việt Nam Dân chủ Cộng hòa, giải quyết vấn đề cơ bản của cách mạng là chính quyền.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Ý nghĩa Cách mạng Tháng Tám (logical lines 2614-2669)",
+      "text": "Cách mạng Tháng Tám chấm dứt chế độ thuộc địa, quân chủ và lập nước Việt Nam Dân chủ Cộng hòa, nhà nước của nhân dân."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q115",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Sự chuyển biến địa vị của nhân dân và dân tộc",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Thắng lợi tháng Tám làm thay đổi địa vị của nhân dân và nước Việt Nam như thế nào?",
+    "options": [
+      "Nhân dân vẫn là thần dân của chế độ quân chủ, còn Việt Nam chuyển từ thuộc địa sang một xứ ủy trị của nước ngoài",
+      "Nhân dân có thêm quyền kinh tế, trong khi quyền chính trị và vận mệnh quốc gia vẫn do các cường quốc quyết định",
+      "Việt Nam có tên nước và chính phủ mới nhưng chưa có chủ quyền, còn nhân dân chưa trở thành người làm chủ",
+      "Nhân dân từ nô lệ thành người làm chủ, Việt Nam từ thuộc địa thành quốc gia độc lập có chủ quyền"
+    ],
+    "answer": 3,
+    "explanation": "Cách mạng đồng thời giải phóng con người về địa vị chính trị và đưa quốc gia thoát khỏi thân phận thuộc địa, tạo quyền tự quyết cho nhân dân và dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Ý nghĩa Cách mạng Tháng Tám (logical lines 2614-2669)",
+      "text": "Nhân dân từ thân phận nô lệ trở thành người chủ đất nước; Việt Nam từ thuộc địa trở thành quốc gia độc lập có chủ quyền."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q116",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Tác động quốc tế và đóng góp lý luận",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Ở một thuộc địa, cách mạng giải phóng do Đảng Cộng sản lãnh đạo thắng lợi trước khi giai cấp công nhân ở chính quốc giành chính quyền. Từ ý nghĩa Cách mạng Tháng Tám, có thể rút ra kết luận nào?",
+    "options": [
+      "Thắng lợi có thể cổ vũ các dân tộc thuộc địa và cho thấy cách mạng giải phóng dưới sự lãnh đạo cộng sản có khả năng thắng trước chính quốc",
+      "Thắng lợi chủ yếu là ngoại lệ địa phương, tác động hạn chế đến phong trào thuộc địa và chưa tạo kinh nghiệm có giá trị khái quát",
+      "Thắng lợi cho thấy thuộc địa nên chờ cách mạng vô sản ở chính quốc thành công rồi mới phát động đấu tranh giành độc lập",
+      "Thắng lợi có ý nghĩa chính trị thực tiễn nhưng ít liên quan đến việc bổ sung nhận thức về cách mạng giải phóng dân tộc"
+    ],
+    "answer": 0,
+    "explanation": "Tình huống tái hiện đóng góp quốc tế và lý luận của Cách mạng Tháng Tám: cổ vũ thuộc địa và chứng minh khả năng chủ động thắng lợi trước chính quốc dưới sự lãnh đạo cộng sản.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Ý nghĩa Cách mạng Tháng Tám (logical lines 2614-2669)",
+      "text": "Thắng lợi cổ vũ các dân tộc thuộc địa và chứng tỏ cách mạng giải phóng do Đảng Cộng sản lãnh đạo có thể thắng trước cách mạng vô sản ở chính quốc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q117",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bài học chỉ đạo chiến lược",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bài học chỉ đạo chiến lược hàng đầu từ Cách mạng Tháng Tám là gì?",
+    "options": [
+      "Đặt cách mạng ruộng đất cao hơn nhiệm vụ dân tộc trong cả thời kỳ chuẩn bị khởi nghĩa",
+      "Giương cao ngọn cờ giải phóng dân tộc và giải quyết đúng quan hệ với nhiệm vụ ruộng đất",
+      "Tách độc lập dân tộc khỏi những nguyện vọng thiết thực của quần chúng trong quá trình vận động",
+      "Ưu tiên yêu sách dân chủ hợp pháp kể cả khi chiến tranh làm nhiệm vụ giải phóng dân tộc trở nên cấp bách"
+    ],
+    "answer": 1,
+    "explanation": "Kinh nghiệm chiến lược là ưu tiên giải phóng dân tộc trong cách mạng thuộc địa, đồng thời thực hiện nhiệm vụ ruộng đất từng bước để phục vụ mục tiêu chống đế quốc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Kinh nghiệm Cách mạng Tháng Tám (logical lines 2670-2720)",
+      "text": "Bài học chiến lược là đặt giải phóng dân tộc lên hàng đầu và thực hiện nhiệm vụ ruộng đất từng bước thích hợp phục vụ chống đế quốc."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q118",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bài học xây dựng lực lượng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Bài học xây dựng lực lượng từ Cách mạng Tháng Tám nhấn mạnh mô hình nào?",
+    "options": [
+      "Lấy liên minh công-nông làm lực lượng trực tiếp, vận động các tầng lớp khác ủng hộ từ bên ngoài mặt trận",
+      "Tập hợp các giai cấp, tầng lớp yêu nước ngang nhau, lấy tiểu tư sản làm nền tảng tổ chức",
+      "Lấy lực lượng vũ trang làm cơ sở, xây dựng lực lượng chính trị theo sự phát triển của căn cứ",
+      "Lấy liên minh công nông làm cơ sở và tập hợp mọi lực lượng yêu nước trong mặt trận rộng rãi"
+    ],
+    "answer": 3,
+    "explanation": "Khối liên minh công nông tạo nền tảng, còn mặt trận dân tộc thống nhất giúp khơi dậy tinh thần yêu nước và huy động sức mạnh của toàn dân tộc.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Kinh nghiệm Cách mạng Tháng Tám (logical lines 2670-2720)",
+      "text": "Bài học lực lượng là dựa trên liên minh công nông và tập hợp mọi lực lượng yêu nước trong mặt trận dân tộc thống nhất rộng rãi."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q119",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Bài học về phương pháp cách mạng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Trình tự nào phản ánh đúng bài học phương pháp cách mạng từ thắng lợi tháng Tám?",
+    "options": [
+      "Xây dựng lực lượng chính trị và vũ trang, khởi nghĩa từng phần, chớp thời cơ tổng khởi nghĩa ở cả nông thôn và thành thị",
+      "Xây dựng lực lượng vũ trang trước, phát triển lực lượng chính trị sau các cuộc khởi nghĩa từng phần ở căn cứ",
+      "Xây dựng lực lượng chính trị, chờ thời cơ Tổng khởi nghĩa rồi phát triển lực lượng vũ trang trong quá trình giành chính quyền",
+      "Khởi nghĩa từng phần ở nông thôn, củng cố chính quyền địa phương rồi mở rộng vào đô thị bằng lực lượng riêng"
+    ],
+    "answer": 0,
+    "explanation": "Bài học là chuẩn bị đồng thời hai loại lực lượng, kết hợp chính trị với vũ trang, phát triển từ du kích và khởi nghĩa từng phần đến Tổng khởi nghĩa đúng thời cơ.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Kinh nghiệm Cách mạng Tháng Tám (logical lines 2670-2720)",
+      "text": "Kinh nghiệm phương pháp là kết hợp lực lượng chính trị với vũ trang, khởi nghĩa từng phần và chớp thời cơ Tổng khởi nghĩa ở nông thôn, thành thị."
+    }
+  },
+  {
+    "id": "VNR202-C02-Q120",
+    "courseId": "vnr202",
+    "chapter": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+    "chapterNum": 2,
+    "topic": "Kết hợp lãnh đạo chiến lược với chủ động địa phương",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Một biên bản tháng 8-1945 ghi: Trung ương đã xác định mục tiêu Tổng khởi nghĩa; bộ máy đối phương ở địa phương tan rã sớm và đảng bộ hành động trước khi nhận chỉ dẫn chi tiết nhưng vẫn bám mục tiêu chung. Đánh giá nào đúng?",
+    "options": [
+      "Biên bản cho thấy địa phương đã đổi mục tiêu chiến lược và đặt tiến trình riêng cao hơn chủ trương toàn quốc",
+      "Biên bản cho thấy địa phương vượt thẩm quyền vì mọi hành động phải chờ Trung ương tổ chức chi tiết",
+      "Biên bản thể hiện sự thống nhất với chủ trương Trung ương đồng thời phát huy chủ động tại chỗ để chớp thời cơ",
+      "Biên bản chứng minh thắng lợi phụ thuộc chủ yếu vào thời điểm quân Đồng minh thiết lập trật tự mới"
+    ],
+    "answer": 2,
+    "explanation": "Biên bản minh họa kinh nghiệm thống nhất mục tiêu và chủ trương ở Trung ương nhưng phát huy đánh giá, sáng tạo tại chỗ; hành động kịp thời của địa phương vẫn nằm trong tiến trình chiến lược chung.",
+    "source": {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "section": "Chương 1 > II.4. Kinh nghiệm Cách mạng Tháng Tám (logical lines 2670-2720)",
+      "text": "Kinh nghiệm xây dựng Đảng nhấn mạnh vai trò lãnh đạo chiến lược của Trung ương đồng thời phát huy chủ động, sáng tạo của đảng bộ địa phương."
+    }
+  }
+]

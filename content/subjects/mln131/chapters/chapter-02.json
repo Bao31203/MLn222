@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "MLN131-C02-Q001",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "phương diện kinh tế – xã hội của giai cấp công nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về phương diện kinh tế – xã hội của giai cấp công nhân?",
+    "options": [
+      "Họ chủ yếu lao động riêng lẻ bằng công cụ thủ công, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ lao động bằng phương thức công nghiệp, gắn với công cụ sản xuất hiện đại và tính xã hội hóa cao, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ được xác định trước hết bởi mức thu nhập cao, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ không tham gia quá trình sản xuất vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về phương diện kinh tế – xã hội của giai cấp công nhân, giáo trình xác định: họ lao động bằng phương thức công nghiệp, gắn với công cụ sản xuất hiện đại và tính xã hội hóa cao. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về phương diện kinh tế – xã hội của giai cấp công nhân, giáo trình xác định: họ lao động bằng phương thức công nghiệp, gắn với công cụ sản xuất hiện đại và tính xã hội hóa cao."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q002",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "phương diện chính trị – xã hội của giai cấp công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng phương diện chính trị – xã hội của giai cấp công nhân?",
+    "options": [
+      "Họ sở hữu trọn vẹn tư liệu sản xuất chủ yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trong chủ nghĩa tư bản, họ không sở hữu tư liệu sản xuất chủ yếu và phải bán sức lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ sống chủ yếu bằng địa tô từ ruộng đất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ tách khỏi quan hệ thuê mướn lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về phương diện chính trị – xã hội của giai cấp công nhân, giáo trình xác định: trong chủ nghĩa tư bản, họ không sở hữu tư liệu sản xuất chủ yếu và phải bán sức lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về phương diện chính trị – xã hội của giai cấp công nhân, giáo trình xác định: trong chủ nghĩa tư bản, họ không sở hữu tư liệu sản xuất chủ yếu và phải bán sức lao động."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q003",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "đặc trưng lao động công nghiệp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của đặc trưng lao động công nghiệp là gì?",
+    "options": [
+      "Lao động không chịu tác động của khoa học công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lao động luôn phân tán và không đòi hỏi phối hợp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lao động đơn thuần dựa vào kinh nghiệm gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lao động có tính tổ chức, kỷ luật, hợp tác và ngày càng xã hội hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đặc trưng lao động công nghiệp, giáo trình xác định: lao động có tính tổ chức, kỷ luật, hợp tác và ngày càng xã hội hóa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về đặc trưng lao động công nghiệp, giáo trình xác định: lao động có tính tổ chức, kỷ luật, hợp tác và ngày càng xã hội hóa."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q004",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "giai cấp công nhân trong xã hội tư bản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về giai cấp công nhân trong xã hội tư bản?",
+    "options": [
+      "Họ không tạo ra giá trị cho xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Họ và tư sản có lợi ích căn bản về căn bản thống nhất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ là tầng lớp sở hữu tư bản tài chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Địa vị của họ đối lập cơ bản với giai cấp tư sản trong quan hệ sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về giai cấp công nhân trong xã hội tư bản, giáo trình xác định: địa vị của họ đối lập cơ bản với giai cấp tư sản trong quan hệ sản xuất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về giai cấp công nhân trong xã hội tư bản, giáo trình xác định: địa vị của họ đối lập cơ bản với giai cấp tư sản trong quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q005",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "giai cấp công nhân trong xã hội xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về giai cấp công nhân trong xã hội xã hội chủ nghĩa?",
+    "options": [
+      "Họ tiếp tục là giai cấp làm thuê bị tư sản bóc lột, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ cùng nhân dân lao động làm chủ những tư liệu sản xuất chủ yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ tách khỏi liên minh với các tầng lớp lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ mất vai trò trong tổ chức sản xuất hiện đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về giai cấp công nhân trong xã hội xã hội chủ nghĩa, giáo trình xác định: họ cùng nhân dân lao động làm chủ những tư liệu sản xuất chủ yếu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về giai cấp công nhân trong xã hội xã hội chủ nghĩa, giáo trình xác định: họ cùng nhân dân lao động làm chủ những tư liệu sản xuất chủ yếu."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q006",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sản phẩm của nền đại công nghiệp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác sản phẩm của nền đại công nghiệp?",
+    "options": [
+      "Giai cấp công nhân không liên hệ với công nghiệp hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Giai cấp công nhân xuất hiện trước các hình thức sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giai cấp công nhân đơn thuần do ý chí chính trị tạo ra, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giai cấp công nhân ra đời và phát triển cùng nền đại công nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về sản phẩm của nền đại công nghiệp, giáo trình xác định: giai cấp công nhân ra đời và phát triển cùng nền đại công nghiệp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về sản phẩm của nền đại công nghiệp, giáo trình xác định: giai cấp công nhân ra đời và phát triển cùng nền đại công nghiệp."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q007",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "tính tiên tiến của giai cấp công nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét tính tiên tiến của giai cấp công nhân?",
+    "options": [
+      "Tính tiên tiến đồng nghĩa với số lượng đông nhất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tính tiên tiến bắt nguồn từ đặc quyền sở hữu tư nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tính tiên tiến do tách khỏi các xung đột xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Địa vị gắn với lực lượng sản xuất hiện đại tạo cơ sở cho vai trò tiên phong, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về tính tiên tiến của giai cấp công nhân, giáo trình xác định: địa vị gắn với lực lượng sản xuất hiện đại tạo cơ sở cho vai trò tiên phong. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về tính tiên tiến của giai cấp công nhân, giáo trình xác định: địa vị gắn với lực lượng sản xuất hiện đại tạo cơ sở cho vai trò tiên phong."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q008",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nhận diện công nhân hiện đại",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với nhận diện công nhân hiện đại?",
+    "options": [
+      "Đơn thuần là cần xét trang phục và nơi cư trú, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cần xét cả phương thức lao động công nghiệp và địa vị trong quan hệ sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần xét mức lương tại một thời điểm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần xét người đó có làm việc chân tay hay không, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về nhận diện công nhân hiện đại, giáo trình xác định: cần xét cả phương thức lao động công nghiệp và địa vị trong quan hệ sản xuất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về nhận diện công nhân hiện đại, giáo trình xác định: cần xét cả phương thức lao động công nghiệp và địa vị trong quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q009",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "trường hợp kỹ sư làm thuê trong nhà máy",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về trường hợp kỹ sư làm thuê trong nhà máy?",
+    "options": [
+      "Không thể là công nhân vì có trình độ chuyên môn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có thể thuộc giai cấp công nhân hiện đại nếu lao động trong hệ thống công nghiệp và không sở hữu tư liệu chủ yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đương nhiên là tư sản vì sử dụng công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Không thuộc giai cấp nào vì không trực tiếp lao động chân tay, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về trường hợp kỹ sư làm thuê trong nhà máy, giáo trình xác định: có thể thuộc giai cấp công nhân hiện đại nếu lao động trong hệ thống công nghiệp và không sở hữu tư liệu chủ yếu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.1 > Khái niệm và đặc điểm giai cấp công nhân",
+      "text": "Về trường hợp kỹ sư làm thuê trong nhà máy, giáo trình xác định: có thể thuộc giai cấp công nhân hiện đại nếu lao động trong hệ thống công nghiệp và không sở hữu tư liệu chủ yếu."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q010",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung kinh tế của sứ mệnh lịch sử",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng nội dung kinh tế của sứ mệnh lịch sử?",
+    "options": [
+      "Duy trì lâu dài chế độ chiếm hữu tư nhân tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phát triển lực lượng sản xuất hiện đại và tạo tiền đề vật chất cho quan hệ sản xuất mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách lao động khỏi tiến bộ khoa học kỹ thuật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thu hẹp sản xuất về quy mô tự cấp tự túc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về nội dung kinh tế của sứ mệnh lịch sử, giáo trình xác định: phát triển lực lượng sản xuất hiện đại và tạo tiền đề vật chất cho quan hệ sản xuất mới. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về nội dung kinh tế của sứ mệnh lịch sử, giáo trình xác định: phát triển lực lượng sản xuất hiện đại và tạo tiền đề vật chất cho quan hệ sản xuất mới."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q011",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung chính trị – xã hội của sứ mệnh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của nội dung chính trị – xã hội của sứ mệnh là gì?",
+    "options": [
+      "Đấu tranh giành quyền lực và xây dựng nhà nước của nhân dân lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tránh các hình thức tổ chức và đấu tranh chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trao trọn vẹn quyền lực cho giai cấp tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cải thiện tiền lương trong từng doanh nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về nội dung chính trị – xã hội của sứ mệnh, giáo trình xác định: đấu tranh giành quyền lực và xây dựng nhà nước của nhân dân lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về nội dung chính trị – xã hội của sứ mệnh, giáo trình xác định: đấu tranh giành quyền lực và xây dựng nhà nước của nhân dân lao động."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q012",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung văn hóa – tư tưởng của sứ mệnh",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cách hiểu nào phù hợp về nội dung văn hóa – tư tưởng của sứ mệnh?",
+    "options": [
+      "Phủ nhận các thành tựu văn hóa của nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Xây dựng hệ giá trị mới, đấu tranh khắc phục ý thức hệ và tập quán lạc hậu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là thay đổi kỹ thuật sản xuất mà không đổi đời sống tinh thần, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Áp đặt lối sống đồng nhất và gạt bỏ nhu cầu cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về nội dung văn hóa – tư tưởng của sứ mệnh, giáo trình xác định: xây dựng hệ giá trị mới, đấu tranh khắc phục ý thức hệ và tập quán lạc hậu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về nội dung văn hóa – tư tưởng của sứ mệnh, giáo trình xác định: xây dựng hệ giá trị mới, đấu tranh khắc phục ý thức hệ và tập quán lạc hậu."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q013",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "mục tiêu giải phóng của sứ mệnh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về mục tiêu giải phóng của sứ mệnh?",
+    "options": [
+      "Duy trì sự phân chia giai cấp như một mục tiêu lâu dài, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thay vị trí thống trị của một thiểu số bằng thiểu số khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giải phóng người lao động trong một ngành, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Giải phóng giai cấp công nhân, nhân dân lao động và tiến tới giải phóng con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về mục tiêu giải phóng của sứ mệnh, giáo trình xác định: giải phóng giai cấp công nhân, nhân dân lao động và tiến tới giải phóng con người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về mục tiêu giải phóng của sứ mệnh, giáo trình xác định: giải phóng giai cấp công nhân, nhân dân lao động và tiến tới giải phóng con người."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q014",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "tính khách quan của sứ mệnh",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác tính khách quan của sứ mệnh?",
+    "options": [
+      "Bắt nguồn từ việc công nhân tách khỏi sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Bắt nguồn từ mong muốn chủ quan của một cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bắt nguồn từ ưu thế sở hữu tư bản của công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bắt nguồn từ địa vị kinh tế và chính trị – xã hội của giai cấp công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về tính khách quan của sứ mệnh, giáo trình xác định: bắt nguồn từ địa vị kinh tế và chính trị – xã hội của giai cấp công nhân. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về tính khách quan của sứ mệnh, giáo trình xác định: bắt nguồn từ địa vị kinh tế và chính trị – xã hội của giai cấp công nhân."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q015",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "tính tự giác trong thực hiện sứ mệnh",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét tính tự giác trong thực hiện sứ mệnh?",
+    "options": [
+      "Không cần mục tiêu chính trị hoặc tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần phản ứng tự phát trước khó khăn kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đòi hỏi giác ngộ lý luận, tổ chức và sự lãnh đạo của đảng cộng sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là dựa vào sự nhượng bộ tự nguyện của tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về tính tự giác trong thực hiện sứ mệnh, giáo trình xác định: đòi hỏi giác ngộ lý luận, tổ chức và sự lãnh đạo của đảng cộng sản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về tính tự giác trong thực hiện sứ mệnh, giáo trình xác định: đòi hỏi giác ngộ lý luận, tổ chức và sự lãnh đạo của đảng cộng sản."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q016",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "tính triệt để của cách mạng vô sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với tính triệt để của cách mạng vô sản?",
+    "options": [
+      "Hướng tới xóa bỏ chế độ người bóc lột người chứ không lập đặc quyền bóc lột mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hướng tới đổi chỗ hai nhóm sở hữu tư nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Hướng tới duy trì nguyên vẹn quan hệ tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hướng tới tách công nhân khỏi nhân dân lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về tính triệt để của cách mạng vô sản, giáo trình xác định: hướng tới xóa bỏ chế độ người bóc lột người chứ không lập đặc quyền bóc lột mới. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về tính triệt để của cách mạng vô sản, giáo trình xác định: hướng tới xóa bỏ chế độ người bóc lột người chứ không lập đặc quyền bóc lột mới."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q017",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "mối liên hệ ba nội dung sứ mệnh",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về mối liên hệ ba nội dung sứ mệnh?",
+    "options": [
+      "Đơn thuần là nội dung kinh tế có ý nghĩa còn hai nội dung kia không đòi hỏi thiết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ba nội dung loại trừ và có thể đảm nhiệm thay nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Kinh tế, chính trị – xã hội và văn hóa – tư tưởng gắn bó trong một quá trình cải biến toàn diện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nội dung văn hóa phải hoàn tất trước khi có các biến đổi kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về mối liên hệ ba nội dung sứ mệnh, giáo trình xác định: kinh tế, chính trị – xã hội và văn hóa – tư tưởng gắn bó trong một quá trình cải biến toàn diện. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về mối liên hệ ba nội dung sứ mệnh, giáo trình xác định: kinh tế, chính trị – xã hội và văn hóa – tư tưởng gắn bó trong một quá trình cải biến toàn diện."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q018",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "đánh giá chương trình chỉ tăng năng suất",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng đánh giá chương trình chỉ tăng năng suất?",
+    "options": [
+      "Chương trình chứng minh sứ mệnh đơn thuần là vấn đề kỹ thuật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chương trình đã hoàn thành trọn vẹn sứ mệnh lịch sử, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Chương trình chưa đủ nếu không gắn phát triển kinh tế với biến đổi chính trị – xã hội và văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chương trình cho phép bỏ qua mục tiêu giải phóng con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về đánh giá chương trình chỉ tăng năng suất, giáo trình xác định: chương trình chưa đủ nếu không gắn phát triển kinh tế với biến đổi chính trị – xã hội và văn hóa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.2 > Nội dung và đặc điểm sứ mệnh lịch sử",
+      "text": "Về đánh giá chương trình chỉ tăng năng suất, giáo trình xác định: chương trình chưa đủ nếu không gắn phát triển kinh tế với biến đổi chính trị – xã hội và văn hóa."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q019",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "địa vị kinh tế của giai cấp công nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của địa vị kinh tế của giai cấp công nhân là gì?",
+    "options": [
+      "Lao động phân tán khiến công nhân không đòi hỏi tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sở hữu tư nhân lớn giúp công nhân duy trì trật tự tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Vị trí ngoài sản xuất giúp công nhân lãnh đạo sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Sự gắn bó với lực lượng sản xuất tiên tiến tạo cơ sở vật chất cho khả năng cải tạo xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về địa vị kinh tế của giai cấp công nhân, giáo trình xác định: sự gắn bó với lực lượng sản xuất tiên tiến tạo cơ sở vật chất cho khả năng cải tạo xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về địa vị kinh tế của giai cấp công nhân, giáo trình xác định: sự gắn bó với lực lượng sản xuất tiên tiến tạo cơ sở vật chất cho khả năng cải tạo xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q020",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "địa vị chính trị – xã hội của giai cấp công nhân",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về địa vị chính trị – xã hội của giai cấp công nhân?",
+    "options": [
+      "Lợi ích căn bản đối lập với tư sản và thống nhất với đông đảo người lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lợi ích căn bản đồng nhất với giai cấp tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lợi ích tách biệt về căn bản với các tầng lớp lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lợi ích đơn thuần giới hạn ở tiêu dùng cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về địa vị chính trị – xã hội của giai cấp công nhân, giáo trình xác định: lợi ích căn bản đối lập với tư sản và thống nhất với đông đảo người lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về địa vị chính trị – xã hội của giai cấp công nhân, giáo trình xác định: lợi ích căn bản đối lập với tư sản và thống nhất với đông đảo người lao động."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q021",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sự phát triển về số lượng",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về sự phát triển về số lượng?",
+    "options": [
+      "Là một điều kiện chủ quan cần gắn với cơ cấu hợp lý và chất lượng của giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tự nó bảo đảm hoàn thành sứ mệnh trong các hoàn cảnh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ với quá trình công nghiệp hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Có thể đảm nhiệm thay về căn bản giác ngộ và tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về sự phát triển về số lượng, giáo trình xác định: là một điều kiện chủ quan cần gắn với cơ cấu hợp lý và chất lượng của giai cấp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về sự phát triển về số lượng, giáo trình xác định: là một điều kiện chủ quan cần gắn với cơ cấu hợp lý và chất lượng của giai cấp."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q022",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sự phát triển về chất lượng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác sự phát triển về chất lượng?",
+    "options": [
+      "Không bao gồm bản lĩnh chính trị và ý thức tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là thể hiện ở mức tăng thu nhập bình quân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là thể hiện ở tỷ lệ lao động chân tay, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Thể hiện ở giác ngộ chính trị, trình độ nghề nghiệp, kỷ luật và năng lực làm chủ khoa học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về sự phát triển về chất lượng, giáo trình xác định: thể hiện ở giác ngộ chính trị, trình độ nghề nghiệp, kỷ luật và năng lực làm chủ khoa học. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về sự phát triển về chất lượng, giáo trình xác định: thể hiện ở giác ngộ chính trị, trình độ nghề nghiệp, kỷ luật và năng lực làm chủ khoa học."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q023",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "vai trò của đảng cộng sản",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét vai trò của đảng cộng sản?",
+    "options": [
+      "Đảng đơn thuần làm nhiệm vụ nghề nghiệp trong doanh nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng đảm nhiệm thay các hoạt động tự giác của giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đảng là đội tiên phong, đưa lý luận khoa học vào phong trào và tổ chức đấu tranh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng hình thành ngoài phong trào công nhân và không liên hệ với lý luận, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về vai trò của đảng cộng sản, giáo trình xác định: đảng là đội tiên phong, đưa lý luận khoa học vào phong trào và tổ chức đấu tranh. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về vai trò của đảng cộng sản, giáo trình xác định: đảng là đội tiên phong, đưa lý luận khoa học vào phong trào và tổ chức đấu tranh."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q024",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "quan hệ giữa đảng và giai cấp công nhân",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với quan hệ giữa đảng và giai cấp công nhân?",
+    "options": [
+      "Đảng mang bản chất giai cấp công nhân nhưng không đồng nhất với trọn vẹn giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng và trọn vẹn giai cấp là một tổ chức về căn bản đồng nhất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đảng không đòi hỏi liên hệ lợi ích của công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đảng đơn thuần đại diện cho một nhóm sở hữu tư nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về quan hệ giữa đảng và giai cấp công nhân, giáo trình xác định: đảng mang bản chất giai cấp công nhân nhưng không đồng nhất với toàn bộ giai cấp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về quan hệ giữa đảng và giai cấp công nhân, giáo trình xác định: đảng mang bản chất giai cấp công nhân nhưng không đồng nhất với toàn bộ giai cấp."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q025",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "liên minh giai cấp",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về liên minh giai cấp?",
+    "options": [
+      "Liên minh yêu cầu xóa các khác biệt nghề nghiệp ngay lập tức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Công nhân phải tự cô lập để giữ vai trò tiên phong, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Liên minh đơn thuần là thỏa thuận tạm thời không có cơ sở lợi ích, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Liên minh với nông dân và các tầng lớp lao động tạo sức mạnh xã hội rộng lớn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về liên minh giai cấp, giáo trình xác định: liên minh với nông dân và các tầng lớp lao động tạo sức mạnh xã hội rộng lớn. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về liên minh giai cấp, giáo trình xác định: liên minh với nông dân và các tầng lớp lao động tạo sức mạnh xã hội rộng lớn."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q026",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "thống nhất điều kiện khách quan và chủ quan",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng thống nhất điều kiện khách quan và chủ quan?",
+    "options": [
+      "Địa vị khách quan tạo khả năng, còn giác ngộ, tổ chức và đảng biến khả năng thành hiện thực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Điều kiện khách quan tất yếu bảo đảm thắng lợi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Điều kiện chủ quan có thể đảm nhiệm thay các cơ sở vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai nhóm điều kiện không có quan hệ với nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về thống nhất điều kiện khách quan và chủ quan, giáo trình xác định: địa vị khách quan tạo khả năng, còn giác ngộ, tổ chức và đảng biến khả năng thành hiện thực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về thống nhất điều kiện khách quan và chủ quan, giáo trình xác định: địa vị khách quan tạo khả năng, còn giác ngộ, tổ chức và đảng biến khả năng thành hiện thực."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q027",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "một phong trào đông nhưng thiếu tổ chức",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của một phong trào đông nhưng thiếu tổ chức là gì?",
+    "options": [
+      "Nên tách phong trào khỏi các liên minh xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần tiếp tục tăng số lượng thành viên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nên gạt bỏ mục tiêu chính trị để giữ tính tự phát, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần nâng cao giác ngộ, xây dựng tổ chức và gắn với lý luận khoa học, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về một phong trào đông nhưng thiếu tổ chức, giáo trình xác định: cần nâng cao giác ngộ, xây dựng tổ chức và gắn với lý luận khoa học. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.1.3 > Điều kiện thực hiện sứ mệnh lịch sử",
+      "text": "Về một phong trào đông nhưng thiếu tổ chức, giáo trình xác định: cần nâng cao giác ngộ, xây dựng tổ chức và gắn với lý luận khoa học."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q028",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "điểm ổn định của công nhân hiện đại",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về điểm ổn định của công nhân hiện đại?",
+    "options": [
+      "Họ đã trở thành chủ sở hữu tư bản chủ yếu ở các nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ vẫn là lực lượng sản xuất cơ bản và bị chi phối bởi quan hệ thuê mướn trong chủ nghĩa tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Họ không còn tham gia tạo ra của cải xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Họ về căn bản mất quan hệ với sản xuất công nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về điểm ổn định của công nhân hiện đại, giáo trình xác định: họ vẫn là lực lượng sản xuất cơ bản và bị chi phối bởi quan hệ thuê mướn trong chủ nghĩa tư bản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về điểm ổn định của công nhân hiện đại, giáo trình xác định: họ vẫn là lực lượng sản xuất cơ bản và bị chi phối bởi quan hệ thuê mướn trong chủ nghĩa tư bản."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q029",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "xu hướng trí tuệ hóa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về xu hướng trí tuệ hóa?",
+    "options": [
+      "Trí tuệ hóa làm biến mất quan hệ lợi ích giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Lao động hiện đại ngày càng gạt bỏ các yêu cầu học tập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tri thức và công nghệ ngày càng trở thành bộ phận trực tiếp trong lao động công nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Trí tuệ hóa đồng nghĩa các người lao động đều thành tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về xu hướng trí tuệ hóa, giáo trình xác định: tri thức và công nghệ ngày càng trở thành bộ phận trực tiếp trong lao động công nghiệp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về xu hướng trí tuệ hóa, giáo trình xác định: tri thức và công nghệ ngày càng trở thành bộ phận trực tiếp trong lao động công nghiệp."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q030",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "xu hướng trung lưu hóa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác xu hướng trung lưu hóa?",
+    "options": [
+      "Thu nhập cao tất yếu xóa bỏ quan hệ làm thuê, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Các công nhân có cổ phần nhỏ đều trở thành nhà tư bản lớn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Một bộ phận công nhân có đời sống và cổ phần cải thiện nhưng địa vị cơ bản vẫn phải xét trong quan hệ sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mức sống là tiêu chí riêng biệt xác định giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về xu hướng trung lưu hóa, giáo trình xác định: một bộ phận công nhân có đời sống và cổ phần cải thiện nhưng địa vị cơ bản vẫn phải xét trong quan hệ sản xuất. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về xu hướng trung lưu hóa, giáo trình xác định: một bộ phận công nhân có đời sống và cổ phần cải thiện nhưng địa vị cơ bản vẫn phải xét trong quan hệ sản xuất."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q031",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "công nhân trong kinh tế tri thức",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét công nhân trong kinh tế tri thức?",
+    "options": [
+      "Kinh tế tri thức làm giai cấp công nhân biến mất về căn bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là lao động cơ bắp mới được xem là công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Người vận hành tất yếu hóa luôn là chủ tư liệu sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lao động điều khiển, kiểm soát công nghệ vẫn có thể mang bản chất lao động công nghiệp hiện đại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về công nhân trong kinh tế tri thức, giáo trình xác định: lao động điều khiển, kiểm soát công nghệ vẫn có thể mang bản chất lao động công nghiệp hiện đại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về công nhân trong kinh tế tri thức, giáo trình xác định: lao động điều khiển, kiểm soát công nghệ vẫn có thể mang bản chất lao động công nghiệp hiện đại."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q032",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "mâu thuẫn cơ bản hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với mâu thuẫn cơ bản hiện nay?",
+    "options": [
+      "Sở hữu tư nhân đã biến thành sở hữu toàn dân ở các nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sản xuất đã về căn bản cá thể hóa nên không còn mâu thuẫn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mâu thuẫn đơn thuần còn giữa các thế hệ trong gia đình, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tính xã hội hóa cao của sản xuất vẫn mâu thuẫn với chiếm hữu tư nhân tư bản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về mâu thuẫn cơ bản hiện nay, giáo trình xác định: tính xã hội hóa cao của sản xuất vẫn mâu thuẫn với chiếm hữu tư nhân tư bản chủ nghĩa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về mâu thuẫn cơ bản hiện nay, giáo trình xác định: tính xã hội hóa cao của sản xuất vẫn mâu thuẫn với chiếm hữu tư nhân tư bản chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q033",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung kinh tế hiện nay",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo giáo trình, nhận định nào đúng về nội dung kinh tế hiện nay?",
+    "options": [
+      "Công nhân giữ vai trò chủ yếu trong sản xuất vật chất và đấu tranh cho lợi ích trong quan hệ lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Công nhân rời khỏi sản xuất để đơn thuần hoạt động văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nội dung kinh tế đơn thuần là tăng tiêu dùng cá nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nội dung kinh tế không liên hệ với công bằng xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về nội dung kinh tế hiện nay, giáo trình xác định: công nhân giữ vai trò chủ yếu trong sản xuất vật chất và đấu tranh cho lợi ích trong quan hệ lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về nội dung kinh tế hiện nay, giáo trình xác định: công nhân giữ vai trò chủ yếu trong sản xuất vật chất và đấu tranh cho lợi ích trong quan hệ lao động."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q034",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung chính trị hiện nay",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng nội dung chính trị hiện nay?",
+    "options": [
+      "Từ bỏ các quyền chính trị để tập trung vào kỹ thuật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đấu tranh chống bất công, vì dân chủ, tiến bộ và một trật tự xã hội tốt đẹp hơn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Ủng hộ vô điều kiện đặc quyền của tư bản độc quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Giới hạn hoạt động vào cạnh tranh cá nhân giữa công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về nội dung chính trị hiện nay, giáo trình xác định: đấu tranh chống bất công, vì dân chủ, tiến bộ và một trật tự xã hội tốt đẹp hơn. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về nội dung chính trị hiện nay, giáo trình xác định: đấu tranh chống bất công, vì dân chủ, tiến bộ và một trật tự xã hội tốt đẹp hơn."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q035",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nội dung văn hóa hiện nay",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của nội dung văn hóa hiện nay là gì?",
+    "options": [
+      "Coi chủ nghĩa cá nhân cực đoan là giá trị trung tâm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phủ nhận tri thức khoa học và văn hóa nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bảo vệ giá trị lao động, đoàn kết, bình đẳng và đấu tranh với hệ tư tưởng tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách văn hóa khỏi các điều kiện xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về nội dung văn hóa hiện nay, giáo trình xác định: bảo vệ giá trị lao động, đoàn kết, bình đẳng và đấu tranh với hệ tư tưởng tư sản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về nội dung văn hóa hiện nay, giáo trình xác định: bảo vệ giá trị lao động, đoàn kết, bình đẳng và đấu tranh với hệ tư tưởng tư sản."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q036",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "đánh giá nhận định công nhân đã biến mất",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về đánh giá nhận định công nhân đã biến mất?",
+    "options": [
+      "Nhận định đúng vì máy tính xóa các quan hệ giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhận định sai vì hình thức lao động biến đổi nhưng vị trí trong sản xuất và quan hệ làm thuê vẫn tồn tại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhận định đúng vì lao động dịch vụ không tạo giá trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhận định sai đơn thuần vì số công nhân luôn tăng ở các quốc gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về đánh giá nhận định công nhân đã biến mất, giáo trình xác định: nhận định sai vì hình thức lao động biến đổi nhưng vị trí trong sản xuất và quan hệ làm thuê vẫn tồn tại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.2 > Giai cấp công nhân và sứ mệnh lịch sử hiện nay",
+      "text": "Về đánh giá nhận định công nhân đã biến mất, giáo trình xác định: nhận định sai vì hình thức lao động biến đổi nhưng vị trí trong sản xuất và quan hệ làm thuê vẫn tồn tại."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q037",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "nguồn gốc công nhân Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về nguồn gốc công nhân Việt Nam?",
+    "options": [
+      "Giai cấp công nhân hình thành chủ yếu từ quý tộc phong kiến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giai cấp công nhân ra đời sau khi đất nước hoàn thành công nghiệp hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giai cấp công nhân Việt Nam ra đời từ khai thác thuộc địa và trước giai cấp tư sản dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Giai cấp công nhân không có quan hệ với nông dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về nguồn gốc công nhân Việt Nam, giáo trình xác định: giai cấp công nhân Việt Nam ra đời từ khai thác thuộc địa và trước giai cấp tư sản dân tộc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về nguồn gốc công nhân Việt Nam, giáo trình xác định: giai cấp công nhân Việt Nam ra đời từ khai thác thuộc địa và trước giai cấp tư sản dân tộc."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q038",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "đặc điểm chính trị của công nhân Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác đặc điểm chính trị của công nhân Việt Nam?",
+    "options": [
+      "Sớm tiếp thu chủ nghĩa Mác – Lênin và trở thành lực lượng lãnh đạo cách mạng thông qua Đảng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sớm nắm tư liệu sản xuất nên không đòi hỏi đấu tranh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách biệt với phong trào yêu nước của dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không có tổ chức chính trị đại diện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về đặc điểm chính trị của công nhân Việt Nam, giáo trình xác định: sớm tiếp thu chủ nghĩa Mác – Lênin và trở thành lực lượng lãnh đạo cách mạng thông qua Đảng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về đặc điểm chính trị của công nhân Việt Nam, giáo trình xác định: sớm tiếp thu chủ nghĩa Mác – Lênin và trở thành lực lượng lãnh đạo cách mạng thông qua Đảng."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q039",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "quan hệ công nhân – nông dân Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét quan hệ công nhân – nông dân Việt Nam?",
+    "options": [
+      "Nguồn gốc trực tiếp từ nông dân tạo cơ sở tự nhiên cho liên minh công – nông, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai giai cấp không có lợi ích chung trong cách mạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Liên minh đơn thuần hình thành sau khi không còn nông nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nguồn gốc nông dân làm công nhân mất tính tổ chức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về quan hệ công nhân – nông dân Việt Nam, giáo trình xác định: nguồn gốc trực tiếp từ nông dân tạo cơ sở tự nhiên cho liên minh công – nông. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về quan hệ công nhân – nông dân Việt Nam, giáo trình xác định: nguồn gốc trực tiếp từ nông dân tạo cơ sở tự nhiên cho liên minh công – nông."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q040",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sứ mệnh kinh tế ở Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với sứ mệnh kinh tế ở Việt Nam?",
+    "options": [
+      "Duy trì sản xuất nhỏ, phân tán như mô hình lâu dài, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đi đầu trong công nghiệp hóa, hiện đại hóa và nâng cao năng suất, chất lượng lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách lao động khỏi đổi mới công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là chú trọng phân phối mà không phát triển lực lượng sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về sứ mệnh kinh tế ở Việt Nam, giáo trình xác định: đi đầu trong công nghiệp hóa, hiện đại hóa và nâng cao năng suất, chất lượng lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về sứ mệnh kinh tế ở Việt Nam, giáo trình xác định: đi đầu trong công nghiệp hóa, hiện đại hóa và nâng cao năng suất, chất lượng lao động."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q041",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sứ mệnh chính trị ở Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về sứ mệnh chính trị ở Việt Nam?",
+    "options": [
+      "Giữ vững bản chất giai cấp công nhân của Đảng và củng cố liên minh dưới sự lãnh đạo của Đảng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thay vai trò của Đảng bằng các nhóm lợi ích doanh nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thu hẹp dân chủ và tách khỏi nhân dân lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là tham gia quản lý kỹ thuật tại nơi làm việc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về sứ mệnh chính trị ở Việt Nam, giáo trình xác định: giữ vững bản chất giai cấp công nhân của Đảng và củng cố liên minh dưới sự lãnh đạo của Đảng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về sứ mệnh chính trị ở Việt Nam, giáo trình xác định: giữ vững bản chất giai cấp công nhân của Đảng và củng cố liên minh dưới sự lãnh đạo của Đảng."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q042",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "sứ mệnh văn hóa ở Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nội dung nào phản ánh đúng sứ mệnh văn hóa ở Việt Nam?",
+    "options": [
+      "Coi văn hóa là lĩnh vực không liên quan công nhân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Loại bỏ trọn vẹn truyền thống văn hóa dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Xây dựng con người mới, hệ giá trị lao động và nền văn hóa tiên tiến, đậm đà bản sắc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đồng nhất văn hóa mới với tiêu dùng vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về sứ mệnh văn hóa ở Việt Nam, giáo trình xác định: xây dựng con người mới, hệ giá trị lao động và nền văn hóa tiên tiến, đậm đà bản sắc. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về sứ mệnh văn hóa ở Việt Nam, giáo trình xác định: xây dựng con người mới, hệ giá trị lao động và nền văn hóa tiên tiến, đậm đà bản sắc."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q043",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "xây dựng giai cấp công nhân Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của xây dựng giai cấp công nhân Việt Nam là gì?",
+    "options": [
+      "Đơn thuần là nâng lương mà không đòi hỏi đào tạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tăng số lượng lao động giản đơn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải phát triển cả số lượng, chất lượng, cơ cấu và bản lĩnh chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là chú trọng một ngành công nghiệp truyền thống, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về xây dựng giai cấp công nhân Việt Nam, giáo trình xác định: phải phát triển cả số lượng, chất lượng, cơ cấu và bản lĩnh chính trị. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về xây dựng giai cấp công nhân Việt Nam, giáo trình xác định: phải phát triển cả số lượng, chất lượng, cơ cấu và bản lĩnh chính trị."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q044",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "trí thức hóa công nhân Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về trí thức hóa công nhân Việt Nam?",
+    "options": [
+      "Gắn đào tạo nghề, tri thức khoa học công nghệ với tác phong công nghiệp và ý thức chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Thay trọn vẹn công nhân bằng nhà quản lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là đào tạo lý thuyết và bỏ kỹ năng nghề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách giáo dục nghề nghiệp khỏi nhu cầu công nghiệp hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về trí thức hóa công nhân Việt Nam, giáo trình xác định: gắn đào tạo nghề, tri thức khoa học công nghệ với tác phong công nghiệp và ý thức chính trị. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về trí thức hóa công nhân Việt Nam, giáo trình xác định: gắn đào tạo nghề, tri thức khoa học công nghệ với tác phong công nghiệp và ý thức chính trị."
+    }
+  },
+  {
+    "id": "MLN131-C02-Q045",
+    "courseId": "mln131",
+    "chapter": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "chapterNum": 2,
+    "topic": "doanh nghiệp tự động hóa cần xây dựng đội ngũ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về doanh nghiệp tự động hóa cần xây dựng đội ngũ?",
+    "options": [
+      "Đơn thuần là trang bị máy móc và bỏ qua yếu tố con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giảm số lao động mà không đào tạo lại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nên đồng thời đào tạo công nghệ, nâng kỷ luật lao động và bảo vệ quyền lợi chính đáng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tuyên truyền chính trị mà không nâng kỹ năng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về doanh nghiệp tự động hóa cần xây dựng đội ngũ, giáo trình xác định: nên đồng thời đào tạo công nghệ, nâng kỷ luật lao động và bảo vệ quyền lợi chính đáng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 2 > B.3 > Sứ mệnh lịch sử của giai cấp công nhân Việt Nam",
+      "text": "Về doanh nghiệp tự động hóa cần xây dựng đội ngũ, giáo trình xác định: nên đồng thời đào tạo công nghệ, nâng kỷ luật lao động và bảo vệ quyền lợi chính đáng."
+    }
+  }
+]

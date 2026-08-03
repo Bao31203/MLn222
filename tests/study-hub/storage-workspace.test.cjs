@@ -60,6 +60,9 @@ test("subject persistence writes memory first and resets only declared active ke
   assert.match(TEMPLATE, /mln-study-hub\.v1\.hcm202\.marked/);
   assert.match(TEMPLATE, /mln-study-hub\.v1\.hcm202\.stats/);
   assert.match(TEMPLATE, /mln-study-hub\.v1\.hcm202\.studyProgress/);
+  assert.match(TEMPLATE, /mln-study-hub\.v1\.vnr202\.marked/);
+  assert.match(TEMPLATE, /mln-study-hub\.v1\.vnr202\.stats/);
+  assert.match(TEMPLATE, /mln-study-hub\.v1\.vnr202\.studyProgress/);
   assert.match(TEMPLATE, /marked:"mln222\.v2\.marked"/);
   assert.match(TEMPLATE, /stats:"mln222\.v2\.stats"/);
   assert.match(TEMPLATE, /progress:"mln222\.v3\.studyProgress"/);

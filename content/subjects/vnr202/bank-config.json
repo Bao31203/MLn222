@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "courseId": "vnr202",
+  "courseCode": "VNR202",
+  "questionIdPattern": "^VNR202-C\\d{2}-Q\\d{3}$",
+  "questionFiles": [
+    "chapters/chapter-01.json",
+    "chapters/chapter-02.json",
+    "chapters/chapter-03.json",
+    "chapters/chapter-04.json",
+    "chapters/chapter-05.json"
+  ],
+  "sources": [
+    {
+      "file": "gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "path": "F:/Kỳ 9/Lịch sử đảng cộng sản Việt Nam - VNR202/gt-lich-su-dang-csvn-ban-tuyen-giao-tw.md",
+      "sha256": "a686d4395752bf70302dff62cbf1502187f19ebcd1e9406a9a402e97b76799bc"
+    }
+  ],
+  "target": 850,
+  "difficulties": ["Nhận biết", "Thông hiểu", "Vận dụng"],
+  "allowedKinds": [
+    "nhan_biet_khai_niem",
+    "thong_hieu_phan_biet",
+    "trinh_tu_quan_he",
+    "van_dung_tinh_huong"
+  ],
+  "difficultyKinds": {
+    "Nhận biết": ["nhan_biet_khai_niem"],
+    "Thông hiểu": ["thong_hieu_phan_biet", "trinh_tu_quan_he"],
+    "Vận dụng": ["van_dung_tinh_huong"]
+  },
+  "difficultyTargets": {"Nhận biết": 340, "Thông hiểu": 340, "Vận dụng": 170},
+  "answerPositionTargets": [213, 213, 212, 212],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Nhập môn Lịch sử Đảng Cộng sản Việt Nam",
+      "target": 63,
+      "difficultyTargets": {"Nhận biết": 25, "Thông hiểu": 25, "Vận dụng": 13},
+      "answerPositionTargets": [16, 16, 16, 15]
+    },
+    {
+      "number": 2,
+      "title": "Đảng ra đời và lãnh đạo đấu tranh giành chính quyền (1930–1945)",
+      "target": 120,
+      "difficultyTargets": {"Nhận biết": 48, "Thông hiểu": 48, "Vận dụng": 24},
+      "answerPositionTargets": [30, 30, 30, 30]
+    },
+    {
+      "number": 3,
+      "title": "Đảng lãnh đạo hai cuộc kháng chiến, hoàn thành giải phóng và thống nhất đất nước (1945–1975)",
+      "target": 220,
+      "difficultyTargets": {"Nhận biết": 88, "Thông hiểu": 88, "Vận dụng": 44},
+      "answerPositionTargets": [55, 55, 55, 55]
+    },
+    {
+      "number": 4,
+      "title": "Đảng lãnh đạo cả nước quá độ lên chủ nghĩa xã hội và tiến hành công cuộc đổi mới (1975–2018)",
+      "target": 400,
+      "difficultyTargets": {"Nhận biết": 160, "Thông hiểu": 160, "Vận dụng": 80},
+      "answerPositionTargets": [100, 100, 100, 100]
+    },
+    {
+      "number": 5,
+      "title": "Kết luận: Những thắng lợi và bài học lớn của cách mạng Việt Nam",
+      "target": 47,
+      "difficultyTargets": {"Nhận biết": 19, "Thông hiểu": 19, "Vận dụng": 9},
+      "answerPositionTargets": [12, 12, 11, 12]
+    }
+  ],
+  "quality": {
+    "maxAnswerRun": 3,
+    "maxUniqueLongestRatio": 0.45,
+    "maxUniqueShortestRatio": 0.45,
+    "maxCorrectDistractorLengthDeltaRatio": 0.15,
+    "rollingWindow": 20,
+    "maxRollingExtremeCount": 14,
+    "similarityThreshold": 0.82
+  }
+}

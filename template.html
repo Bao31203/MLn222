@@ -955,18 +955,34 @@ const QUESTION_BANKS=Object.assign(Object.create(null),/*__QUESTION_BANKS__*/{})
 const LECTURE_CATALOGS=Object.assign(Object.create(null),/*__LECTURE_CATALOGS__*/{});
 const EMPTY_QUESTION_BANK=Object.freeze([]);
 const SUBJECTS_BY_ID=Object.create(null);
+const SUBJECT_ALIASES=Object.create(null);
 SUBJECT_CATALOG.forEach(function(subject){
   if(subject&&typeof subject.id==="string")SUBJECTS_BY_ID[subject.id]=subject;
 });
 function hasOwn(record,key){return Object.prototype.hasOwnProperty.call(record,key);}
-function hasSubject(id){return typeof id==="string"&&hasOwn(SUBJECTS_BY_ID,id);}
-function getSubject(id){return hasSubject(id)?SUBJECTS_BY_ID[id]:null;}
+SUBJECT_CATALOG.forEach(function(subject){
+  if(!subject||!Array.isArray(subject.legacyAliases))return;
+  subject.legacyAliases.forEach(function(alias){
+    if(typeof alias==="string"&&!hasOwn(SUBJECTS_BY_ID,alias)&&!hasOwn(SUBJECT_ALIASES,alias)){
+      SUBJECT_ALIASES[alias]=subject.id;
+    }
+  });
+});
+function canonicalSubjectId(id){
+  if(typeof id!=="string")return null;
+  if(hasOwn(SUBJECTS_BY_ID,id))return id;
+  return hasOwn(SUBJECT_ALIASES,id)?SUBJECT_ALIASES[id]:null;
+}
+function hasSubject(id){return canonicalSubjectId(id)!==null;}
+function getSubject(id){const canonical=canonicalSubjectId(id);return canonical?SUBJECTS_BY_ID[canonical]:null;}
 function getQuestionBank(id){
-  const bank=typeof id==="string"&&hasOwn(QUESTION_BANKS,id)?QUESTION_BANKS[id]:null;
+  const canonical=canonicalSubjectId(id);
+  const bank=canonical&&hasOwn(QUESTION_BANKS,canonical)?QUESTION_BANKS[canonical]:null;
   return Array.isArray(bank)?bank:EMPTY_QUESTION_BANK;
 }
 function getLectures(id){
-  const manifest=typeof id==="string"&&hasOwn(LECTURE_CATALOGS,id)?LECTURE_CATALOGS[id]:null;
+  const canonical=canonicalSubjectId(id);
+  const manifest=canonical&&hasOwn(LECTURE_CATALOGS,canonical)?LECTURE_CATALOGS[canonical]:null;
   return manifest&&typeof manifest==="object"&&!Array.isArray(manifest)?manifest:null;
 }
 Object.defineProperty(globalThis,"MLN222_QUESTIONS",{
@@ -1006,6 +1022,11 @@ const STORAGE_BY_SUBJECT=Object.freeze({
     marked:"mln-study-hub.v1.hcm202.marked",
     stats:"mln-study-hub.v1.hcm202.stats",
     progress:"mln-study-hub.v1.hcm202.studyProgress",
+  }),
+  vnr202:Object.freeze({
+    marked:"mln-study-hub.v1.vnr202.marked",
+    stats:"mln-study-hub.v1.vnr202.stats",
+    progress:"mln-study-hub.v1.vnr202.studyProgress",
   }),
   mln112:Object.freeze({
     marked:"mln222.v2.marked",

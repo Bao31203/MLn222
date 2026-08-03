@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "MLN131-C03-Q001",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "chủ nghĩa xã hội theo nghĩa phong trào",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về chủ nghĩa xã hội theo nghĩa phong trào?",
+    "options": [
+      "Đơn thuần là một thành tựu khoa học tự nhiên, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là một mô hình quản trị doanh nghiệp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giai đoạn cộng sản phát triển cao, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là phong trào thực tiễn đấu tranh của người lao động chống áp bức và bất công, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chủ nghĩa xã hội theo nghĩa phong trào, giáo trình xác định: chỉ phong trào thực tiễn đấu tranh của người lao động chống áp bức và bất công. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về chủ nghĩa xã hội theo nghĩa phong trào, giáo trình xác định: chỉ phong trào thực tiễn đấu tranh của người lao động chống áp bức và bất công."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q002",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "chủ nghĩa xã hội theo nghĩa trào lưu tư tưởng",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Nội dung nào phản ánh đúng chủ nghĩa xã hội theo nghĩa trào lưu tư tưởng?",
+    "options": [
+      "Đơn thuần là hệ thống quan niệm phản ánh khát vọng về xã hội công bằng và tốt đẹp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là hoạt động kinh tế của nhà nước, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là các quy tắc pháp luật tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là phong tục của cộng đồng nông thôn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về chủ nghĩa xã hội theo nghĩa trào lưu tư tưởng, giáo trình xác định: chỉ hệ thống quan niệm phản ánh khát vọng về xã hội công bằng và tốt đẹp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về chủ nghĩa xã hội theo nghĩa trào lưu tư tưởng, giáo trình xác định: chỉ hệ thống quan niệm phản ánh khát vọng về xã hội công bằng và tốt đẹp."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q003",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "chủ nghĩa xã hội theo nghĩa khoa học",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Điểm cốt lõi của chủ nghĩa xã hội theo nghĩa khoa học là gì?",
+    "options": [
+      "Là học thuyết bác bỏ quy luật khách quan, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là trọn vẹn các ước mơ không đòi hỏi cơ sở hiện thực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là kỹ thuật phân phối hàng hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Là một bộ phận lý luận của chủ nghĩa Mác – Lênin về quá trình chuyển biến xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về chủ nghĩa xã hội theo nghĩa khoa học, giáo trình xác định: là một bộ phận lý luận của chủ nghĩa Mác – Lênin về quá trình chuyển biến xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về chủ nghĩa xã hội theo nghĩa khoa học, giáo trình xác định: là một bộ phận lý luận của chủ nghĩa Mác – Lênin về quá trình chuyển biến xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q004",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "chủ nghĩa xã hội theo nghĩa chế độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về chủ nghĩa xã hội theo nghĩa chế độ?",
+    "options": [
+      "Đơn thuần là nhà nước phúc lợi trong xã hội tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giai đoạn cuối của chủ nghĩa tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là một cộng đồng tự quản nhỏ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về chủ nghĩa xã hội theo nghĩa chế độ, giáo trình xác định: chỉ giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về chủ nghĩa xã hội theo nghĩa chế độ, giáo trình xác định: chỉ giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q005",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "tiền đề kinh tế của chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về tiền đề kinh tế của chủ nghĩa xã hội?",
+    "options": [
+      "Lực lượng sản xuất xã hội hóa cao xung đột với quan hệ chiếm hữu tư nhân tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sản xuất nhỏ tự cấp tự túc trở thành nền tảng riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các mâu thuẫn kinh tế tự biến mất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tư hữu tư bản phù hợp vĩnh viễn với sản xuất xã hội hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về tiền đề kinh tế của chủ nghĩa xã hội, giáo trình xác định: lực lượng sản xuất xã hội hóa cao xung đột với quan hệ chiếm hữu tư nhân tư bản. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về tiền đề kinh tế của chủ nghĩa xã hội, giáo trình xác định: lực lượng sản xuất xã hội hóa cao xung đột với quan hệ chiếm hữu tư nhân tư bản."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q006",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "tiền đề chính trị – xã hội của chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác tiền đề chính trị – xã hội của chủ nghĩa xã hội?",
+    "options": [
+      "Sự tách công nhân khỏi các lực lượng lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sự biến mất của các giai cấp trước cách mạng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Sự tự nguyện từ bỏ sở hữu của trọn vẹn tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sự trưởng thành của giai cấp công nhân và đấu tranh giành quyền lực chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về tiền đề chính trị – xã hội của chủ nghĩa xã hội, giáo trình xác định: sự trưởng thành của giai cấp công nhân và đấu tranh giành quyền lực chính trị. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về tiền đề chính trị – xã hội của chủ nghĩa xã hội, giáo trình xác định: sự trưởng thành của giai cấp công nhân và đấu tranh giành quyền lực chính trị."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q007",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "vai trò của cách mạng vô sản",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét vai trò của cách mạng vô sản?",
+    "options": [
+      "Đơn thuần là thay người cầm quyền mà giữ nguyên quan hệ bóc lột, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là là cuộc thay đổi kỹ thuật sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là con đường chính trị để giai cấp công nhân và nhân dân lao động xác lập quyền lực mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ với xây dựng xã hội mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về vai trò của cách mạng vô sản, giáo trình xác định: là con đường chính trị để giai cấp công nhân và nhân dân lao động xác lập quyền lực mới. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về vai trò của cách mạng vô sản, giáo trình xác định: là con đường chính trị để giai cấp công nhân và nhân dân lao động xác lập quyền lực mới."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q008",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quan hệ tiền đề vật chất và chủ thể",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với quan hệ tiền đề vật chất và chủ thể?",
+    "options": [
+      "Ý chí chủ quan có thể đảm nhiệm thay các điều kiện kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Lực lượng sản xuất tất yếu lập nên chế độ mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Tiền đề vật chất tạo khả năng, còn lực lượng cách mạng có tổ chức biến khả năng thành hiện thực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hai yếu tố tồn tại độc lập và không tác động nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về quan hệ tiền đề vật chất và chủ thể, giáo trình xác định: tiền đề vật chất tạo khả năng, còn lực lượng cách mạng có tổ chức biến khả năng thành hiện thực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về quan hệ tiền đề vật chất và chủ thể, giáo trình xác định: tiền đề vật chất tạo khả năng, còn lực lượng cách mạng có tổ chức biến khả năng thành hiện thực."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q009",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đánh giá điều kiện xây dựng xã hội mới",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Theo giáo trình, nhận định nào đúng về đánh giá điều kiện xây dựng xã hội mới?",
+    "options": [
+      "Đơn thuần là cần sao chép thể chế từ nơi khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần tuyên bố mục tiêu mà không đòi hỏi cơ sở vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần tăng sản lượng bất kể quan hệ xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần đồng thời phát triển lực lượng sản xuất và xây dựng lực lượng chính trị – xã hội có năng lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đánh giá điều kiện xây dựng xã hội mới, giáo trình xác định: cần đồng thời phát triển lực lượng sản xuất và xây dựng lực lượng chính trị – xã hội có năng lực. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1 > Chủ nghĩa xã hội và điều kiện ra đời",
+      "text": "Về đánh giá điều kiện xây dựng xã hội mới, giáo trình xác định: cần đồng thời phát triển lực lượng sản xuất và xây dựng lực lượng chính trị – xã hội có năng lực."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q010",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "mục tiêu giải phóng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng mục tiêu giải phóng?",
+    "options": [
+      "Giải phóng giai cấp, dân tộc, xã hội và con người, tạo điều kiện phát triển toàn diện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Duy trì áp bức giai cấp dưới hình thức mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là tăng của cải cho một thiểu số, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách tự do cá nhân khỏi giải phóng xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về mục tiêu giải phóng, giáo trình xác định: giải phóng giai cấp, dân tộc, xã hội và con người, tạo điều kiện phát triển toàn diện. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về mục tiêu giải phóng, giáo trình xác định: giải phóng giai cấp, dân tộc, xã hội và con người, tạo điều kiện phát triển toàn diện."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q011",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "cơ sở vật chất của chủ nghĩa xã hội",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của cơ sở vật chất của chủ nghĩa xã hội là gì?",
+    "options": [
+      "Nền kinh tế không đòi hỏi khoa học công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nền sản xuất nhỏ phân tán và tư hữu vô điều kiện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và sở hữu xã hội về tư liệu chủ yếu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nền kinh tế đơn thuần dựa vào phân phối hiện vật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về cơ sở vật chất của chủ nghĩa xã hội, giáo trình xác định: nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và sở hữu xã hội về tư liệu chủ yếu. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về cơ sở vật chất của chủ nghĩa xã hội, giáo trình xác định: nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và sở hữu xã hội về tư liệu chủ yếu."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q012",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "chủ thể làm chủ xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Cách hiểu nào phù hợp về chủ thể làm chủ xã hội?",
+    "options": [
+      "Một nhóm tư bản độc quyền nắm trọn vẹn quyền lực, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhân dân lao động là chủ thể của quyền lực và quản lý xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền lực tách khỏi nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là chuyên gia kỹ thuật được tham gia quản lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về chủ thể làm chủ xã hội, giáo trình xác định: nhân dân lao động là chủ thể của quyền lực và quản lý xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về chủ thể làm chủ xã hội, giáo trình xác định: nhân dân lao động là chủ thể của quyền lực và quản lý xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q013",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "nhà nước kiểu mới",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về nhà nước kiểu mới?",
+    "options": [
+      "Nhà nước không có chức năng tổ chức xây dựng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước trung lập vô điều kiện với các lợi ích giai cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước bảo vệ riêng sở hữu tư bản độc quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhà nước mang bản chất giai cấp công nhân, đại biểu lợi ích và quyền lực của nhân dân lao động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về nhà nước kiểu mới, giáo trình xác định: nhà nước mang bản chất giai cấp công nhân, đại biểu lợi ích và quyền lực của nhân dân lao động. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về nhà nước kiểu mới, giáo trình xác định: nhà nước mang bản chất giai cấp công nhân, đại biểu lợi ích và quyền lực của nhân dân lao động."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q014",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "nền văn hóa xã hội chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác nền văn hóa xã hội chủ nghĩa?",
+    "options": [
+      "Phủ nhận trọn vẹn di sản văn hóa trước đó, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Có trình độ phát triển cao, kế thừa giá trị dân tộc và tinh hoa nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách khỏi cơ sở kinh tế và đời sống xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là chấp nhận một hình thức biểu đạt riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về nền văn hóa xã hội chủ nghĩa, giáo trình xác định: có trình độ phát triển cao, kế thừa giá trị dân tộc và tinh hoa nhân loại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về nền văn hóa xã hội chủ nghĩa, giáo trình xác định: có trình độ phát triển cao, kế thừa giá trị dân tộc và tinh hoa nhân loại."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q015",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quan hệ dân tộc trong chủ nghĩa xã hội",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét quan hệ dân tộc trong chủ nghĩa xã hội?",
+    "options": [
+      "Dân tộc lớn có quyền đồng hóa dân tộc nhỏ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bình đẳng dân tộc không đòi hỏi điều kiện phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mỗi dân tộc phải tách biệt khỏi cộng đồng chung, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về quan hệ dân tộc trong chủ nghĩa xã hội, giáo trình xác định: các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về quan hệ dân tộc trong chủ nghĩa xã hội, giáo trình xác định: các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q016",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quan hệ quốc tế của chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với quan hệ quốc tế của chủ nghĩa xã hội?",
+    "options": [
+      "Hữu nghị, hợp tác với nhân dân các nước vì hòa bình và tiến bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Biệt lập khỏi các quan hệ quốc tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Áp đặt mô hình bằng cưỡng bức đối với nước khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là hợp tác khi có thể chi phối quốc gia yếu hơn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về quan hệ quốc tế của chủ nghĩa xã hội, giáo trình xác định: hữu nghị, hợp tác với nhân dân các nước vì hòa bình và tiến bộ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về quan hệ quốc tế của chủ nghĩa xã hội, giáo trình xác định: hữu nghị, hợp tác với nhân dân các nước vì hòa bình và tiến bộ."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q017",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "tính hệ thống của các đặc trưng",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về tính hệ thống của các đặc trưng?",
+    "options": [
+      "Đơn thuần là đặc trưng kinh tế quyết định trực tiếp các kết quả, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Mỗi đặc trưng có thể tồn tại riêng không đòi hỏi điều kiện khác, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các đặc trưng kinh tế, chính trị, văn hóa và xã hội hỗ trợ nhau trong một chỉnh thể, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đặc trưng văn hóa loại trừ phát triển vật chất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về tính hệ thống của các đặc trưng, giáo trình xác định: các đặc trưng kinh tế, chính trị, văn hóa và xã hội hỗ trợ nhau trong một chỉnh thể. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về tính hệ thống của các đặc trưng, giáo trình xác định: các đặc trưng kinh tế, chính trị, văn hóa và xã hội hỗ trợ nhau trong một chỉnh thể."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q018",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đánh giá chính sách chỉ tăng trưởng",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng đánh giá chính sách chỉ tăng trưởng?",
+    "options": [
+      "Chưa đủ nếu tăng trưởng không đi cùng quyền làm chủ, công bằng, văn hóa và phát triển con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đã thể hiện đầy đủ các đặc trưng của chủ nghĩa xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có thể bỏ qua quan hệ dân tộc và hợp tác quốc tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Chứng minh mục tiêu giải phóng không đòi hỏi thiết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về đánh giá chính sách chỉ tăng trưởng, giáo trình xác định: chưa đủ nếu tăng trưởng không đi cùng quyền làm chủ, công bằng, văn hóa và phát triển con người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.1.2 > Những đặc trưng cơ bản của chủ nghĩa xã hội",
+      "text": "Về đánh giá chính sách chỉ tăng trưởng, giáo trình xác định: chưa đủ nếu tăng trưởng không đi cùng quyền làm chủ, công bằng, văn hóa và phát triển con người."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q019",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "tính tất yếu của thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của tính tất yếu của thời kỳ quá độ là gì?",
+    "options": [
+      "Có thể hình thành hoàn chỉnh ngay sau khi giành chính quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không chỉ xét về hình thức, xã hội mới cần thời gian cải biến sâu sắc kinh tế, chính trị, văn hóa và con người từ di sản cũ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là cần thay tên nhà nước mà không đổi cơ sở xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần xây dựng lực lượng sản xuất mới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về tính tất yếu của thời kỳ quá độ, giáo trình xác định: xã hội mới cần thời gian cải biến sâu sắc kinh tế, chính trị, văn hóa và con người từ di sản cũ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về tính tất yếu của thời kỳ quá độ, giáo trình xác định: xã hội mới cần thời gian cải biến sâu sắc kinh tế, chính trị, văn hóa và con người từ di sản cũ."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q020",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quá độ trực tiếp",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về quá độ trực tiếp?",
+    "options": [
+      "Diễn ra từ xã hội tiền tư bản bỏ qua các hình thức trung gian, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Diễn ra từ chủ nghĩa tư bản phát triển lên chủ nghĩa xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là quá trình trở lại chế độ phong kiến, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là thay đổi đơn thuần trong lĩnh vực văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về quá độ trực tiếp, giáo trình xác định: diễn ra từ chủ nghĩa tư bản phát triển lên chủ nghĩa xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về quá độ trực tiếp, giáo trình xác định: diễn ra từ chủ nghĩa tư bản phát triển lên chủ nghĩa xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q021",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quá độ gián tiếp",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về quá độ gián tiếp?",
+    "options": [
+      "Không cần công nghiệp hóa và phát triển lực lượng sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần tiếp thu thành tựu văn minh tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không chỉ xét về hình thức, diễn ra ở nước chưa trải qua chủ nghĩa tư bản phát triển, cần những bước đi và hình thức trung gian, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có thể bỏ qua các quan hệ kinh tế quá độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về quá độ gián tiếp, giáo trình xác định: diễn ra ở nước chưa trải qua chủ nghĩa tư bản phát triển, cần những bước đi và hình thức trung gian. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về quá độ gián tiếp, giáo trình xác định: diễn ra ở nước chưa trải qua chủ nghĩa tư bản phát triển, cần những bước đi và hình thức trung gian."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q022",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đặc điểm kinh tế thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Phát biểu nào diễn đạt chính xác đặc điểm kinh tế thời kỳ quá độ?",
+    "options": [
+      "Kinh tế ngừng vận động cho đến khi chế độ mới hoàn thành, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là còn ngay một hình thức sở hữu riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tồn tại nhiều thành phần kinh tế và hình thức sở hữu đan xen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các quan hệ thị trường bị xóa bỏ tức thời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 2,
+    "explanation": "Về đặc điểm kinh tế thời kỳ quá độ, giáo trình xác định: tồn tại nhiều thành phần kinh tế và hình thức sở hữu đan xen. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về đặc điểm kinh tế thời kỳ quá độ, giáo trình xác định: tồn tại nhiều thành phần kinh tế và hình thức sở hữu đan xen."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q023",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đặc điểm chính trị thời kỳ quá độ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Kết luận nào đúng khi xem xét đặc điểm chính trị thời kỳ quá độ?",
+    "options": [
+      "Giai cấp công nhân giữ quyền lực và tổ chức xây dựng xã hội mới trong đấu tranh với lực lượng cũ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các khác biệt lợi ích biến mất ngay, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhà nước không còn cần thiết từ ngày đầu, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền lực thuộc lại giai cấp tư sản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về đặc điểm chính trị thời kỳ quá độ, giáo trình xác định: giai cấp công nhân giữ quyền lực và tổ chức xây dựng xã hội mới trong đấu tranh với lực lượng cũ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về đặc điểm chính trị thời kỳ quá độ, giáo trình xác định: giai cấp công nhân giữ quyền lực và tổ chức xây dựng xã hội mới trong đấu tranh với lực lượng cũ."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q024",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đặc điểm tư tưởng – văn hóa thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với đặc điểm tư tưởng – văn hóa thời kỳ quá độ?",
+    "options": [
+      "Di sản cũ phải bị xóa bỏ trọn vẹn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là còn riêng biệt tư tưởng mới ngay lập tức, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Văn hóa không chịu ảnh hưởng của biến đổi kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nhiều hệ tư tưởng và giá trị cũ mới cùng tồn tại, đấu tranh và chuyển hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đặc điểm tư tưởng – văn hóa thời kỳ quá độ, giáo trình xác định: nhiều hệ tư tưởng và giá trị cũ mới cùng tồn tại, đấu tranh và chuyển hóa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về đặc điểm tư tưởng – văn hóa thời kỳ quá độ, giáo trình xác định: nhiều hệ tư tưởng và giá trị cũ mới cùng tồn tại, đấu tranh và chuyển hóa."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q025",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đặc điểm xã hội thời kỳ quá độ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về đặc điểm xã hội thời kỳ quá độ?",
+    "options": [
+      "Cơ cấu xã hội không thay đổi theo kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không còn một khác biệt xã hội nào, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là còn hai cá nhân có lợi ích giống nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Còn nhiều giai cấp, tầng lớp và khác biệt lợi ích cần được điều tiết, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về đặc điểm xã hội thời kỳ quá độ, giáo trình xác định: còn nhiều giai cấp, tầng lớp và khác biệt lợi ích cần được điều tiết. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về đặc điểm xã hội thời kỳ quá độ, giáo trình xác định: còn nhiều giai cấp, tầng lớp và khác biệt lợi ích cần được điều tiết."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q026",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "mâu thuẫn của thời kỳ quá độ",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng mâu thuẫn của thời kỳ quá độ?",
+    "options": [
+      "Các yếu tố cũ đều có vai trò tiến bộ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là có sự phát triển thuận chiều không phát sinh khó khăn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các yếu tố xã hội mới và tàn dư xã hội cũ vừa đấu tranh vừa đan xen, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Yếu tố mới không đòi hỏi được xây dựng và bảo vệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về mâu thuẫn của thời kỳ quá độ, giáo trình xác định: các yếu tố xã hội mới và tàn dư xã hội cũ vừa đấu tranh vừa đan xen. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về mâu thuẫn của thời kỳ quá độ, giáo trình xác định: các yếu tố xã hội mới và tàn dư xã hội cũ vừa đấu tranh vừa đan xen."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q027",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "xử lý thành phần kinh tế trong quá độ",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của xử lý thành phần kinh tế trong quá độ là gì?",
+    "options": [
+      "Cần quản lý, định hướng và phát huy các thành phần phù hợp lộ trình thay vì xóa bỏ chủ quan, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần xóa các thành phần ngoài quốc doanh tức thời, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Cần để các thành phần phát triển tự phát không định hướng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cần ngừng phát triển lực lượng sản xuất để tránh khác biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về xử lý thành phần kinh tế trong quá độ, giáo trình xác định: cần quản lý, định hướng và phát huy các thành phần phù hợp lộ trình thay vì xóa bỏ chủ quan. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.2 > Thời kỳ quá độ lên chủ nghĩa xã hội",
+      "text": "Về xử lý thành phần kinh tế trong quá độ, giáo trình xác định: cần quản lý, định hướng và phát huy các thành phần phù hợp lộ trình thay vì xóa bỏ chủ quan."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q028",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "đặc điểm xuất phát của Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Cách hiểu nào phù hợp về đặc điểm xuất phát của Việt Nam?",
+    "options": [
+      "Đi lên từ nền tư bản phát triển hàng đầu thế giới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đi lên từ xã hội thuộc địa, nửa phong kiến với lực lượng sản xuất thấp và hậu quả chiến tranh nặng nề, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đi lên khi đã hoàn thành đầy đủ cơ sở vật chất xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đi lên trong điều kiện không có ảnh hưởng quốc tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về đặc điểm xuất phát của Việt Nam, giáo trình xác định: đi lên từ xã hội thuộc địa, nửa phong kiến với lực lượng sản xuất thấp và hậu quả chiến tranh nặng nề. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về đặc điểm xuất phát của Việt Nam, giáo trình xác định: đi lên từ xã hội thuộc địa, nửa phong kiến với lực lượng sản xuất thấp và hậu quả chiến tranh nặng nề."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q029",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "bỏ qua chế độ tư bản chủ nghĩa",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về bỏ qua chế độ tư bản chủ nghĩa?",
+    "options": [
+      "Bỏ qua các thành tựu khoa học và quản trị của nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bỏ qua phát triển kinh tế thị trường và lực lượng sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bỏ qua các hình thức sở hữu và phân phối trung gian, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về bỏ qua chế độ tư bản chủ nghĩa, giáo trình xác định: bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về bỏ qua chế độ tư bản chủ nghĩa, giáo trình xác định: bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q030",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "kế thừa thành tựu tư bản chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Phát biểu nào diễn đạt chính xác kế thừa thành tựu tư bản chủ nghĩa?",
+    "options": [
+      "Đơn thuần là tiếp thu văn hóa tiêu dùng mà không tiếp thu công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải bác bỏ trọn vẹn vì đều mang bản chất tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Phải sao chép nguyên vẹn cả quan hệ thống trị tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải tiếp thu có chọn lọc thành tựu về lực lượng sản xuất, khoa học, công nghệ và quản lý, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về kế thừa thành tựu tư bản chủ nghĩa, giáo trình xác định: phải tiếp thu có chọn lọc thành tựu về lực lượng sản xuất, khoa học, công nghệ và quản lý. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về kế thừa thành tựu tư bản chủ nghĩa, giáo trình xác định: phải tiếp thu có chọn lọc thành tựu về lực lượng sản xuất, khoa học, công nghệ và quản lý."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q031",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "tính lâu dài và phức tạp",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Kết luận nào đúng khi xem xét tính lâu dài và phức tạp?",
+    "options": [
+      "Quá độ ở Việt Nam là sự nghiệp lâu dài, nhiều bước đi và hình thức tổ chức kinh tế – xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Có thể hoàn tất bằng một quyết định hành chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không phát sinh mâu thuẫn hoặc bước lùi, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đơn thuần là cần thay đổi lĩnh vực chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về tính lâu dài và phức tạp, giáo trình xác định: quá độ ở Việt Nam là sự nghiệp lâu dài, nhiều bước đi và hình thức tổ chức kinh tế – xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về tính lâu dài và phức tạp, giáo trình xác định: quá độ ở Việt Nam là sự nghiệp lâu dài, nhiều bước đi và hình thức tổ chức kinh tế – xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q032",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "vai trò lãnh đạo",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Yếu tố nào gắn trực tiếp với vai trò lãnh đạo?",
+    "options": [
+      "Thị trường tự phát tự quyết định mục tiêu xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Sự lãnh đạo của Đảng Cộng sản Việt Nam là nhân tố quyết định định hướng quá độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Các nhóm lợi ích riêng đảm nhiệm thay vai trò chính trị, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không cần một lực lượng tổ chức và định hướng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về vai trò lãnh đạo, giáo trình xác định: sự lãnh đạo của Đảng Cộng sản Việt Nam là nhân tố quyết định định hướng quá độ. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về vai trò lãnh đạo, giáo trình xác định: sự lãnh đạo của Đảng Cộng sản Việt Nam là nhân tố quyết định định hướng quá độ."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q033",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "kinh tế thị trường định hướng xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Theo giáo trình, nhận định nào đúng về kinh tế thị trường định hướng xã hội chủ nghĩa?",
+    "options": [
+      "Đơn thuần là thừa nhận một hình thức sở hữu riêng biệt, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đồng nhất về căn bản với kinh tế thị trường tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là bước từ bỏ mục tiêu xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Là công cụ phát triển lực lượng sản xuất được quản lý và định hướng tới mục tiêu xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về kinh tế thị trường định hướng xã hội chủ nghĩa, giáo trình xác định: là công cụ phát triển lực lượng sản xuất được quản lý và định hướng tới mục tiêu xã hội chủ nghĩa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về kinh tế thị trường định hướng xã hội chủ nghĩa, giáo trình xác định: là công cụ phát triển lực lượng sản xuất được quản lý và định hướng tới mục tiêu xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q034",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "độc lập dân tộc gắn với chủ nghĩa xã hội",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Nội dung nào phản ánh đúng độc lập dân tộc gắn với chủ nghĩa xã hội?",
+    "options": [
+      "Là hai mục tiêu loại trừ nhau, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Là lựa chọn xuyên suốt nhằm bảo đảm giải phóng dân tộc gắn với giải phóng xã hội và con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Độc lập dân tộc đơn thuần có ý nghĩa kinh tế, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Chủ nghĩa xã hội không liên hệ với chủ quyền quốc gia, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về độc lập dân tộc gắn với chủ nghĩa xã hội, giáo trình xác định: là lựa chọn xuyên suốt nhằm bảo đảm giải phóng dân tộc gắn với giải phóng xã hội và con người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về độc lập dân tộc gắn với chủ nghĩa xã hội, giáo trình xác định: là lựa chọn xuyên suốt nhằm bảo đảm giải phóng dân tộc gắn với giải phóng xã hội và con người."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q035",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "vận dụng khái niệm bỏ qua",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Điểm cốt lõi của vận dụng khái niệm bỏ qua là gì?",
+    "options": [
+      "Phải hiểu là xóa ngay các yếu tố thị trường, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không được hiểu bỏ qua là đốt cháy giai đoạn hoặc bác bỏ thành tựu văn minh nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải hiểu là không đòi hỏi công nghiệp hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải hiểu là cô lập khỏi kinh tế thế giới, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 1,
+    "explanation": "Về vận dụng khái niệm bỏ qua, giáo trình xác định: không được hiểu bỏ qua là đốt cháy giai đoạn hoặc phủ nhận thành tựu văn minh nhân loại. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về vận dụng khái niệm bỏ qua, giáo trình xác định: không được hiểu bỏ qua là đốt cháy giai đoạn hoặc phủ nhận thành tựu văn minh nhân loại."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q036",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "lựa chọn công nghệ nước ngoài",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về lựa chọn công nghệ nước ngoài?",
+    "options": [
+      "Nên nhập nguyên cả thể chế chính trị kèm công nghệ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nên từ chối các thành tựu vì có nguồn gốc tư bản, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nên tiếp thu công nghệ và quản trị có chọn lọc, đồng thời giữ định hướng phát triển độc lập và xã hội chủ nghĩa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Nên đơn thuần mua thiết bị mà không đào tạo con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về lựa chọn công nghệ nước ngoài, giáo trình xác định: nên tiếp thu công nghệ và quản trị có chọn lọc, đồng thời giữ định hướng phát triển độc lập và xã hội chủ nghĩa. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.1 > Quá độ lên chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về lựa chọn công nghệ nước ngoài, giáo trình xác định: nên tiếp thu công nghệ và quản trị có chọn lọc, đồng thời giữ định hướng phát triển độc lập và xã hội chủ nghĩa."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q037",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "mục tiêu dân giàu, nước mạnh",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về mục tiêu dân giàu, nước mạnh?",
+    "options": [
+      "Gắn dân giàu, nước mạnh với dân chủ, công bằng và văn minh, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là nhấn mạnh tăng của cải của một nhóm, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách sức mạnh quốc gia khỏi đời sống nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Loại bỏ yêu cầu dân chủ và công bằng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về mục tiêu dân giàu, nước mạnh, giáo trình xác định: gắn dân giàu, nước mạnh với dân chủ, công bằng và văn minh. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về mục tiêu dân giàu, nước mạnh, giáo trình xác định: gắn dân giàu, nước mạnh với dân chủ, công bằng và văn minh."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q038",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "nhân dân làm chủ",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Phát biểu nào diễn đạt chính xác nhân dân làm chủ?",
+    "options": [
+      "Nhân dân là chủ thể quyền lực và tham gia quản lý nhà nước, xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền lực thuộc riêng bộ máy hành chính, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Nhân dân đơn thuần là đối tượng thụ hưởng thụ động, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Quyền làm chủ không đòi hỏi cơ chế pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 0,
+    "explanation": "Về nhân dân làm chủ, giáo trình xác định: nhân dân là chủ thể quyền lực và tham gia quản lý nhà nước, xã hội. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về nhân dân làm chủ, giáo trình xác định: nhân dân là chủ thể quyền lực và tham gia quản lý nhà nước, xã hội."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q039",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "nền kinh tế Việt Nam xã hội chủ nghĩa",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Kết luận nào đúng khi xem xét nền kinh tế Việt Nam xã hội chủ nghĩa?",
+    "options": [
+      "Không chấp nhận đa dạng hình thức sở hữu trong quá độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là dựa vào sản xuất nhỏ tự cấp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Có lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ, phù hợp, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách tiến bộ quan hệ sản xuất khỏi trình độ lực lượng sản xuất, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về nền kinh tế Việt Nam xã hội chủ nghĩa, giáo trình xác định: có lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ, phù hợp. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về nền kinh tế Việt Nam xã hội chủ nghĩa, giáo trình xác định: có lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ, phù hợp."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q040",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "nền văn hóa Việt Nam",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Yếu tố nào gắn trực tiếp với nền văn hóa Việt Nam?",
+    "options": [
+      "Phủ nhận các truyền thống dân tộc, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Đóng kín trước tinh hoa văn hóa nhân loại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tiên tiến, đậm đà bản sắc dân tộc và hướng tới phát triển con người, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là phục vụ hoạt động giải trí thương mại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về nền văn hóa Việt Nam, giáo trình xác định: tiên tiến, đậm đà bản sắc dân tộc và hướng tới phát triển con người. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về nền văn hóa Việt Nam, giáo trình xác định: tiên tiến, đậm đà bản sắc dân tộc và hướng tới phát triển con người."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q041",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "con người trong xã hội Việt Nam",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Theo giáo trình, nhận định nào đúng về con người trong xã hội Việt Nam?",
+    "options": [
+      "Phải hy sinh các nhu cầu cá nhân chính đáng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Đơn thuần là được đánh giá bằng thu nhập, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Có cuộc sống ấm no, tự do, hạnh phúc và điều kiện phát triển toàn diện, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Không liên hệ với tiến bộ và công bằng xã hội, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 2,
+    "explanation": "Về con người trong xã hội Việt Nam, giáo trình xác định: có cuộc sống ấm no, tự do, hạnh phúc và điều kiện phát triển toàn diện. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về con người trong xã hội Việt Nam, giáo trình xác định: có cuộc sống ấm no, tự do, hạnh phúc và điều kiện phát triển toàn diện."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q042",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "các dân tộc trong cộng đồng Việt Nam",
+    "difficulty": "Vận dụng",
+    "kind": "van_dung_tinh_huong",
+    "stem": "Nội dung nào phản ánh đúng các dân tộc trong cộng đồng Việt Nam?",
+    "options": [
+      "Bình đẳng hình thức nhưng không đòi hỏi hỗ trợ vùng khó khăn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Cạnh tranh để một dân tộc giữ đặc quyền, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Tách biệt về kinh tế và văn hóa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về các dân tộc trong cộng đồng Việt Nam, giáo trình xác định: bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về các dân tộc trong cộng đồng Việt Nam, giáo trình xác định: bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q043",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "Nhà nước pháp quyền xã hội chủ nghĩa",
+    "difficulty": "Nhận biết",
+    "kind": "nhan_biet_khai_niem",
+    "stem": "Điểm cốt lõi của Nhà nước pháp quyền xã hội chủ nghĩa là gì?",
+    "options": [
+      "Là nhà nước do các tập đoàn kinh tế lãnh đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là nhà nước tách khỏi lợi ích nhân dân, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Là nhà nước không bị ràng buộc bởi pháp luật, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Là nhà nước của nhân dân, do nhân dân, vì nhân dân và do Đảng lãnh đạo, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 3,
+    "explanation": "Về Nhà nước pháp quyền xã hội chủ nghĩa, giáo trình xác định: là nhà nước của nhân dân, do nhân dân, vì nhân dân và do Đảng lãnh đạo. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về Nhà nước pháp quyền xã hội chủ nghĩa, giáo trình xác định: là nhà nước của nhân dân, do nhân dân, vì nhân dân và do Đảng lãnh đạo."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q044",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "quan hệ đối ngoại",
+    "difficulty": "Thông hiểu",
+    "kind": "trinh_tu_quan_he",
+    "stem": "Cách hiểu nào phù hợp về quan hệ đối ngoại?",
+    "options": [
+      "Việt Nam chủ động hữu nghị, hợp tác với các nước trên cơ sở tôn trọng và cùng phát triển, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Việt Nam phải biệt lập để giữ định hướng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Việt Nam đơn thuần quan hệ với nước có cùng chế độ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Hợp tác cho phép từ bỏ độc lập tự chủ, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề"
+    ],
+    "answer": 0,
+    "explanation": "Về quan hệ đối ngoại, giáo trình xác định: việt Nam chủ động hữu nghị, hợp tác với các nước trên cơ sở tôn trọng và cùng phát triển. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về quan hệ đối ngoại, giáo trình xác định: việt Nam chủ động hữu nghị, hợp tác với các nước trên cơ sở tôn trọng và cùng phát triển."
+    }
+  },
+  {
+    "id": "MLN131-C03-Q045",
+    "courseId": "mln131",
+    "chapter": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+    "chapterNum": 3,
+    "topic": "xử lý các quan hệ lớn",
+    "difficulty": "Thông hiểu",
+    "kind": "thong_hieu_phan_biet",
+    "stem": "Giáo trình nhấn mạnh điều gì khi bàn về xử lý các quan hệ lớn?",
+    "options": [
+      "Đơn thuần là ưu tiên một vế và bác bỏ vế còn lại, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Phải nhận thức và giải quyết hài hòa các quan hệ như đổi mới – ổn định – phát triển và thị trường – định hướng, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra",
+      "Coi các quan hệ là mâu thuẫn không thể điều hòa, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề, đồng thời được coi là căn cứ trực tiếp để nhận diện vấn đề",
+      "Giải quyết bằng công thức bất biến không xét thực tiễn, xét trong phạm vi nội dung, mối quan hệ, điều kiện, bối cảnh cụ thể và cách diễn giải mà câu hỏi đang đặt ra"
+    ],
+    "answer": 1,
+    "explanation": "Về xử lý các quan hệ lớn, giáo trình xác định: phải nhận thức và giải quyết hài hòa các quan hệ như đổi mới – ổn định – phát triển và thị trường – định hướng. Các phương án khác làm sai lệch phạm vi, điều kiện hoặc bản chất của nội dung này.",
+    "source": {
+      "file": "giao-trinh-chu-nghia-xa-hoi-khoa-hoc-2021.md",
+      "section": "Chương 3 > B.3.2 > Đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam",
+      "text": "Về xử lý các quan hệ lớn, giáo trình xác định: phải nhận thức và giải quyết hài hòa các quan hệ như đổi mới – ổn định – phát triển và thị trường – định hướng."
+    }
+  }
+]

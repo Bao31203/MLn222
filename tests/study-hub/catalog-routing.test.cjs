@@ -26,32 +26,40 @@ const FEATURES_NONE = Object.freeze({
 const SUBJECTS = [
   {
     id: "mln111", code: "MLN111", title: "Triết học Mác – Lênin",
+    legacyAliases: [],
     status: "ready", studyReady: true,
     features: { ...FEATURES_NONE, quiz: true, flashcards: true, search: true },
   },
   {
     id: "mln112", code: "MLN112", title: "Kinh tế chính trị Mác – Lênin",
+    legacyAliases: ["mln122", "mln222"],
     status: "ready", studyReady: true,
     features: { quiz: true, flashcards: true, search: true, lectures: true, game: true },
   },
   {
-    id: "mln131", code: "MLN131", title: "MLN131",
-    status: "comingSoon", studyReady: false, features: FEATURES_NONE,
+    id: "mln131", code: "MLN131", title: "Chủ nghĩa xã hội khoa học",
+    legacyAliases: [],
+    status: "draft", studyReady: false,
+    features: { ...FEATURES_NONE, quiz: true, flashcards: true, search: true },
   },
   {
     id: "hcm202", code: "HCM202", title: "Tư tưởng Hồ Chí Minh",
+    legacyAliases: [],
     status: "ready", studyReady: true,
     features: { ...FEATURES_NONE, quiz: true, flashcards: true, search: true },
   },
   {
-    id: "vnr201", code: "VNR201", title: "VNR201",
-    status: "comingSoon", studyReady: false, features: FEATURES_NONE,
+    id: "vnr202", code: "VNR202", title: "Lịch sử Đảng Cộng sản Việt Nam",
+    legacyAliases: ["vnr201"],
+    status: "ready", studyReady: true,
+    features: { ...FEATURES_NONE, quiz: true, flashcards: true, search: true },
   },
 ];
 const BANKS = {
   mln111: [{ id: "MLN111-C01-Q001" }],
   mln112: [{ id: "C01-Q001" }],
   hcm202: [{ id: "HCM202-C01-Q001" }],
+  vnr202: [{ id: "VNR202-C01-Q001" }],
 };
 
 function boot() {
@@ -88,6 +96,8 @@ test("catalog accessors are own-property safe and feature modes are subject-deri
   assert.equal(api.hasSubject("__proto__"), false);
   assert.equal(api.getSubject("constructor"), null);
   assert.equal(api.getQuestionBank("mln111").length, 1);
+  assert.equal(api.getSubject("vnr201").id, "vnr202");
+  assert.equal(api.getQuestionBank("vnr201").length, 1);
   assert.equal(api.getQuestionBank("missing").length, 0);
   assert.equal(api.getLectures("toString"), null);
   assert.deepEqual(
@@ -100,6 +110,10 @@ test("catalog accessors are own-property safe and feature modes are subject-deri
   );
   assert.deepEqual(
     Array.from(api.availableModes(api.getSubject("hcm202")), (mode) => mode.id),
+    ["quiz", "flash", "search"],
+  );
+  assert.deepEqual(
+    Array.from(api.availableModes(api.getSubject("vnr202")), (mode) => mode.id),
     ["quiz", "flash", "search"],
   );
   assert.deepEqual(Array.from(api.availableModes(api.getSubject("mln131"))), []);
@@ -120,6 +134,13 @@ test("canonical route table accepts only ready subjects and enabled modes", () =
     ["#/hcm202/quiz", ["hcm202", "quiz", "#/hcm202/quiz"]],
     ["#/hcm202/search", ["hcm202", "search", "#/hcm202/search"]],
     ["#/hcm202/game", ["hcm202", null, "#/hcm202"]],
+    ["#/vnr202", ["vnr202", null, "#/vnr202"]],
+    ["#/vnr202/quiz", ["vnr202", "quiz", "#/vnr202/quiz"]],
+    ["#/vnr202/flash", ["vnr202", "flash", "#/vnr202/flash"]],
+    ["#/vnr202/search", ["vnr202", "search", "#/vnr202/search"]],
+    ["#/vnr202/game", ["vnr202", null, "#/vnr202"]],
+    ["#/vnr201", ["vnr202", null, "#/vnr202"]],
+    ["#/vnr201/quiz", ["vnr202", "quiz", "#/vnr202/quiz"]],
     ["#/mln111/game", ["mln111", null, "#/mln111"]],
     ["#/mln131", ["mln131", null, "#/mln131"]],
     ["#/mln131/quiz", ["mln131", null, "#/mln131"]],
@@ -171,6 +192,7 @@ test("route serialization round-trips canonically and is idempotent", () => {
     { subjectId: "mln111", mode: "quiz" },
     { subjectId: "mln112", mode: "game" },
     { subjectId: "hcm202", mode: "flash" },
+    { subjectId: "vnr202", mode: "search" },
     { subjectId: "mln131", mode: null },
   ];
   for (const route of routes) {

@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "target": 110,
+  "groups": [
+    {
+      "id": "IM-00",
+      "chapterNum": 1,
+      "label": "Bìa, hội đồng biên soạn và metadata xuất bản",
+      "sourceSections": ["Logical lines 1–54 — bìa, tiêu đề lặp, hội đồng biên soạn, ngày xuất bản và số trang"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "excluded",
+      "reason": "Metadata, nội dung bìa lặp và số trang không phải tri thức cần kiểm tra.",
+      "questionIds": []
+    },
+    {
+      "id": "IM-01",
+      "chapterNum": 1,
+      "label": "Lời dẫn và lịch sử hình thành chuyên ngành",
+      "sourceSections": ["Logical lines 55–103 — tên chương, lời dẫn, lịch sử hình thành chuyên ngành và giáo trình"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Dùng định vị môn học và nguồn giáo trình; giá trị kiểm tra thấp hơn các khái niệm, chức năng và phương pháp cốt lõi.",
+      "questionIds": []
+    },
+    {
+      "id": "IM-02",
+      "chapterNum": 1,
+      "label": "Đối tượng nghiên cứu tổng quát",
+      "sourceSections": ["Logical lines 105–109 — I. Đối tượng nghiên cứu của môn học Lịch sử Đảng Cộng sản Việt Nam"],
+      "learningObjectives": ["Nêu đúng đối tượng tổng quát gồm sự ra đời, phát triển và hoạt động lãnh đạo của Đảng qua các thời kỳ lịch sử."],
+      "target": 1,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q001"]
+    },
+    {
+      "id": "IM-03",
+      "chapterNum": 1,
+      "label": "Sự kiện lịch sử Đảng",
+      "sourceSections": ["Logical lines 111–129 — I.1. Các sự kiện lịch sử Đảng"],
+      "learningObjectives": [
+        "Phân biệt sự kiện lịch sử Đảng với sự kiện lịch sử dân tộc và lịch sử quân sự trong cùng thời kỳ.",
+        "Xác định phạm vi lĩnh vực và nội dung của sự kiện lịch sử Đảng gắn với sự lãnh đạo của Đảng.",
+        "Nhận diện yêu cầu phản ánh cả thắng lợi, khó khăn, hy sinh và đóng góp của các chủ thể lịch sử.",
+        "Vận dụng yêu cầu tư liệu chính xác, trung thực và khách quan khi tái hiện sự kiện."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q002", "VNR202-C01-Q003", "VNR202-C01-Q004", "VNR202-C01-Q005"]
+    },
+    {
+      "id": "IM-04",
+      "chapterNum": 1,
+      "label": "Cương lĩnh, đường lối, chủ trương và chính sách",
+      "sourceSections": ["Logical lines 131–154 — I.2. Cương lĩnh và đường lối của Đảng"],
+      "learningObjectives": [
+        "Nhận diện Cương lĩnh và đường lối là một đối tượng nghiên cứu của Lịch sử Đảng.",
+        "Phân tích Cương lĩnh, đường lối theo nội dung, cơ sở lý luận, cơ sở thực tiễn và giá trị hiện thực.",
+        "Giải thích vai trò của đường lối đúng đắn và yêu cầu bổ sung, phát triển phù hợp lý luận, thực tiễn.",
+        "Phân biệt việc đề ra đường lối với việc tổ chức phong trào quần chúng để hiện thực hóa đường lối."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q006", "VNR202-C01-Q007", "VNR202-C01-Q008", "VNR202-C01-Q009"]
+    },
+    {
+      "id": "IM-05",
+      "chapterNum": 1,
+      "label": "Chỉ đạo, tổ chức thực tiễn và tổng kết lịch sử",
+      "sourceSections": ["Logical lines 156–177 — I.3. Quá trình chỉ đạo, tổ chức thực tiễn"],
+      "learningObjectives": [
+        "Nhận diện quá trình chỉ đạo và tổ chức thực tiễn là một đối tượng nghiên cứu.",
+        "Đánh giá hoạt động lãnh đạo trên cả thành tựu, kinh nghiệm, hạn chế và nguy cơ.",
+        "Phân biệt kinh nghiệm, bài học và quy luật được tổng kết từ lịch sử.",
+        "Nhận diện bốn truyền thống nổi bật được nguồn liệt kê."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q010", "VNR202-C01-Q011", "VNR202-C01-Q012", "VNR202-C01-Q013"]
+    },
+    {
+      "id": "IM-06",
+      "chapterNum": 1,
+      "label": "Hệ thống tổ chức và công tác xây dựng Đảng",
+      "sourceSections": ["Logical lines 179–192 — I.4. Hệ thống tổ chức và xây dựng Đảng"],
+      "learningObjectives": [
+        "Nhận diện bốn mặt xây dựng Đảng: chính trị, tư tưởng, tổ chức và đạo đức.",
+        "Giải thích nội dung xây dựng Đảng về chính trị.",
+        "Giải thích nội dung xây dựng Đảng về tư tưởng.",
+        "Giải thích nội dung xây dựng Đảng về tổ chức.",
+        "Vận dụng yêu cầu xây dựng Đảng về đạo đức để phân biệt với ba mặt còn lại."
+      ],
+      "target": 5,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q014", "VNR202-C01-Q015", "VNR202-C01-Q016", "VNR202-C01-Q017", "VNR202-C01-Q018"]
+    },
+    {
+      "id": "IM-07",
+      "chapterNum": 1,
+      "label": "Chức năng nhận thức",
+      "sourceSections": ["Logical lines 194–223 — II.1. Chức năng nhận thức của khoa học Lịch sử Đảng"],
+      "learningObjectives": [
+        "Giải thích chức năng nhận thức cung cấp tri thức có hệ thống về lãnh đạo, đấu tranh và cầm quyền của Đảng.",
+        "Nhận diện quy luật ra đời của Đảng theo tổ hợp các yếu tố được nguồn nêu.",
+        "Phân biệt vai trò lãnh đạo từ năm 1930 với tư cách Đảng cầm quyền từ Cách mạng Tháng Tám năm 1945.",
+        "Giải thích vai trò tổng kết lịch sử đối với nhận thức quy luật cách mạng."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 2, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q019", "VNR202-C01-Q020", "VNR202-C01-Q021", "VNR202-C01-Q022"]
+    },
+    {
+      "id": "IM-08",
+      "chapterNum": 1,
+      "label": "Chức năng giáo dục",
+      "sourceSections": ["Logical lines 225–242 — chức năng giáo dục của khoa học Lịch sử Đảng"],
+      "learningObjectives": [
+        "Nhận diện nội dung giáo dục lòng yêu nước, tự hào, tự lực và tự cường dân tộc.",
+        "Giải thích quan hệ giữa chức năng giáo dục với lý tưởng độc lập dân tộc và chủ nghĩa xã hội.",
+        "Vận dụng chức năng giáo dục để nhận diện vai trò của truyền thống, đạo đức, nhân cách và tấm gương cách mạng."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q023", "VNR202-C01-Q024", "VNR202-C01-Q025"]
+    },
+    {
+      "id": "IM-09",
+      "chapterNum": 1,
+      "label": "Chức năng dự báo và phê phán",
+      "sourceSections": ["Logical lines 244–253 — chức năng dự báo và phê phán"],
+      "learningObjectives": [
+        "Phân biệt bốn chức năng nhận thức, giáo dục, dự báo và phê phán.",
+        "Giải thích quan hệ nhận thức quá khứ, hiểu hiện tại và dự báo tương lai.",
+        "Vận dụng vai trò tự phê bình và phê bình để nhận diện mục tiêu phát triển tổ chức."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q026", "VNR202-C01-Q027", "VNR202-C01-Q028"]
+    },
+    {
+      "id": "IM-10",
+      "chapterNum": 1,
+      "label": "Nhiệm vụ trình bày Cương lĩnh và đường lối",
+      "sourceSections": ["Logical lines 255–268 — II.2. Nhiệm vụ trình bày có hệ thống Cương lĩnh, đường lối"],
+      "learningObjectives": [
+        "Nhận diện nhiệm vụ trình bày có hệ thống Cương lĩnh và đường lối của Đảng.",
+        "Giải thích quan hệ giữa mục tiêu, nền tảng lý luận và thực tiễn lịch sử trong đánh giá đường lối."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q029", "VNR202-C01-Q030"]
+    },
+    {
+      "id": "IM-11",
+      "chapterNum": 1,
+      "label": "Nhiệm vụ tái hiện tiến trình lịch sử",
+      "sourceSections": ["Logical lines 270–280 — nhiệm vụ tái hiện tiến trình lãnh đạo, đấu tranh"],
+      "learningObjectives": [
+        "Nhận diện vai trò của tư liệu thành văn và không thành văn trong tái hiện lịch sử.",
+        "Phân biệt thời kỳ, giai đoạn và dấu mốc trong tiến trình lịch sử.",
+        "Vận dụng quan hệ giữa hoạt động của Đảng với sức mạnh của nhân dân và khối đại đoàn kết khi giải thích sự kiện."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q031", "VNR202-C01-Q032", "VNR202-C01-Q033"]
+    },
+    {
+      "id": "IM-12",
+      "chapterNum": 1,
+      "label": "Nhiệm vụ tổng kết lịch sử",
+      "sourceSections": ["Logical lines 282–306 — nhiệm vụ tổng kết lịch sử của Đảng"],
+      "learningObjectives": [
+        "Giải thích vì sao nghiên cứu Lịch sử Đảng không dừng ở mô tả và tái hiện sự kiện.",
+        "Phân biệt cấp độ khái quát của kinh nghiệm, bài học, quy luật và vấn đề lý luận.",
+        "Vận dụng thao tác xem xét, so sánh, kết luận và kiểm chứng bằng thực tế trong tổng kết lý luận."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q034", "VNR202-C01-Q035", "VNR202-C01-Q036"]
+    },
+    {
+      "id": "IM-13",
+      "chapterNum": 1,
+      "label": "Vai trò tổ chức, truyền thống và con người",
+      "sourceSections": ["Logical lines 308–316 — nhiệm vụ làm rõ tổ chức, truyền thống và tấm gương tiêu biểu"],
+      "learningObjectives": [
+        "Giải thích vai trò và sức chiến đấu của hệ thống tổ chức đảng từ Trung ương đến cơ sở.",
+        "Nhận diện vai trò giáo dục, động lực của truyền thống, cán bộ, đảng viên và tấm gương tiêu biểu."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q037", "VNR202-C01-Q038"]
+    },
+    {
+      "id": "IM-14",
+      "chapterNum": 1,
+      "label": "Phương pháp luận sử học",
+      "sourceSections": ["Logical lines 327–357 — III.1. Quán triệt phương pháp luận sử học"],
+      "learningObjectives": [
+        "Nhận diện chủ nghĩa duy vật biện chứng và duy vật lịch sử là nền tảng phương pháp luận.",
+        "Phân biệt các quan điểm khách quan, toàn diện, phát triển và lịch sử cụ thể.",
+        "Giải thích vai trò của thực tiễn và kết quả hoạt động thực tiễn như tiêu chuẩn của chân lý.",
+        "Phân tích sự kiện qua các cặp quan hệ nguyên nhân–kết quả, hình thức–nội dung, hiện tượng–bản chất, chung–riêng, phổ biến–đặc thù.",
+        "Nhận diện các phạm trù duy vật lịch sử được dùng để xem xét tiến trình cách mạng.",
+        "Vận dụng tư tưởng và phong cách khoa học Hồ Chí Minh để phân biệt sáng tạo với giáo điều, chủ quan duy ý chí."
+      ],
+      "target": 6,
+      "difficultyTargets": {"Nhận biết": 3, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q039", "VNR202-C01-Q040", "VNR202-C01-Q041", "VNR202-C01-Q042", "VNR202-C01-Q043", "VNR202-C01-Q044"]
+    },
+    {
+      "id": "IM-15",
+      "chapterNum": 1,
+      "label": "Phương pháp lịch sử",
+      "sourceSections": ["Logical lines 359–387 — III.2. Phương pháp lịch sử"],
+      "learningObjectives": [
+        "Nhận diện phương pháp lịch sử và phương pháp logic là hai phương pháp cơ bản.",
+        "Nêu đúng định nghĩa và mục đích của phương pháp lịch sử.",
+        "Giải thích yêu cầu phát hiện tính cụ thể, đặc thù, quanh co và không lặp lại hoàn toàn.",
+        "Nhận diện yêu cầu về chi tiết, con người, không gian và thời gian khi tái hiện lịch sử.",
+        "Vận dụng tiêu chí của phương pháp lịch sử để phân biệt nghiên cứu bản chất với học thuộc lòng sự kiện."
+      ],
+      "target": 5,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q045", "VNR202-C01-Q046", "VNR202-C01-Q047", "VNR202-C01-Q048", "VNR202-C01-Q049"]
+    },
+    {
+      "id": "IM-16",
+      "chapterNum": 1,
+      "label": "Phương pháp logic",
+      "sourceSections": ["Logical lines 389–403 — III.2. Phương pháp logic"],
+      "learningObjectives": [
+        "Nêu đúng định nghĩa và mục đích của phương pháp logic.",
+        "Phân biệt bản chất, cái phổ biến và cái lặp lại với chi tiết cá biệt của hiện tượng lịch sử.",
+        "Nhận diện vai trò của phân tích, so sánh, tổng hợp và lựa chọn sự kiện, nhân vật, giai đoạn điển hình.",
+        "Vận dụng quy luật khách quan được nhận thức để lựa chọn cách xử lý trong thực tiễn."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q050", "VNR202-C01-Q051", "VNR202-C01-Q052", "VNR202-C01-Q053"]
+    },
+    {
+      "id": "IM-17",
+      "chapterNum": 1,
+      "label": "Quan hệ giữa phương pháp lịch sử và logic",
+      "sourceSections": ["Logical lines 405–411 — quan hệ giữa phương pháp lịch sử và phương pháp logic"],
+      "learningObjectives": [
+        "Giải thích quan hệ mật thiết và thống nhất giữa phương pháp lịch sử với phương pháp logic.",
+        "Vận dụng mối quan hệ này cùng nguyên tắc tính khoa học và tính đảng trong một lựa chọn nghiên cứu."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q054", "VNR202-C01-Q055"]
+    },
+    {
+      "id": "IM-18",
+      "chapterNum": 1,
+      "label": "Tổng kết thực tiễn và phương pháp so sánh",
+      "sourceSections": ["Logical lines 413–422 — tổng kết thực tiễn, nghiên cứu lý luận và so sánh"],
+      "learningObjectives": [
+        "Giải thích yêu cầu gắn tổng kết thực tiễn lịch sử với nghiên cứu lý luận.",
+        "Nhận diện các chiều so sánh giữa giai đoạn, sự kiện, hiện tượng, quan hệ trong nước và thế giới."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q056", "VNR202-C01-Q057"]
+    },
+    {
+      "id": "IM-19",
+      "chapterNum": 1,
+      "label": "Phương pháp học tập của sinh viên",
+      "sourceSections": ["Logical lines 424–431 — nghe giảng, làm việc nhóm, công nghệ và học tập tại bảo tàng, di tích"],
+      "learningObjectives": ["Nhận diện nhóm phương pháp học tập được nguồn khuyến nghị cho sinh viên."],
+      "target": 1,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q058"]
+    },
+    {
+      "id": "IM-20",
+      "chapterNum": 1,
+      "label": "Vận dụng lý luận vào thực tiễn",
+      "sourceSections": ["Logical lines 433–438 — yêu cầu vận dụng lý luận vào thực tiễn"],
+      "learningObjectives": [
+        "Nhận diện các nền tảng lý luận cần nắm để nghiên cứu Lịch sử Đảng.",
+        "Vận dụng quan hệ lý luận–thực tiễn Việt Nam để nhận thức bản chất sự kiện, hiện tượng lịch sử."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 0, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q059", "VNR202-C01-Q060"]
+    },
+    {
+      "id": "IM-21",
+      "chapterNum": 1,
+      "label": "Tính khoa học và tính đảng",
+      "sourceSections": ["Logical lines 440–451 — nguyên tắc tính khoa học và tính đảng"],
+      "learningObjectives": [
+        "Nêu đúng yêu cầu của tính khoa học trong nghiên cứu lịch sử.",
+        "Nêu đúng nội hàm tính đảng theo phạm vi của nguồn.",
+        "Giải thích sự thống nhất giữa tính khoa học và tính đảng trong mục tiêu nghiên cứu."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C01-Q061", "VNR202-C01-Q062", "VNR202-C01-Q063"]
+    },
+    {
+      "id": "IM-22",
+      "chapterNum": 1,
+      "label": "Phân bổ tín chỉ và phạm vi chương trình",
+      "sourceSections": ["Logical lines 453–465 — phạm vi hệ không chuyên và hệ chuyên lý luận chính trị"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Metadata chương trình đào tạo, không phải kiến thức cốt lõi cần cấp quota trong ngân hàng nội dung.",
+      "questionIds": []
+    },
+    {
+      "id": "IM-23",
+      "chapterNum": 1,
+      "label": "Khái quát nội dung dành cho hệ không chuyên",
+      "sourceSections": ["Logical lines 467–517 — bản xem trước các giai đoạn lịch sử và yêu cầu học tập"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Đây là bản xem trước nội dung các chương lịch sử; quota thuộc các chương sở hữu để tránh lặp learning objective.",
+      "questionIds": []
+    },
+    {
+      "id": "IM-24",
+      "chapterNum": 1,
+      "label": "Yêu cầu dành cho hệ chuyên lý luận chính trị",
+      "sourceSections": ["Logical lines 519–577 — yêu cầu học tập, nghiên cứu Cương lĩnh, tổng kết và xây dựng Đảng"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Yêu cầu riêng của hệ chuyên và phần lớn lặp các đối tượng, nhiệm vụ hoặc chương nội dung chính.",
+      "questionIds": []
+    },
+    {
+      "id": "IM-25",
+      "chapterNum": 1,
+      "label": "Giá trị nghiên cứu Lịch sử Đảng — đoạn biên bị cắt",
+      "sourceSections": ["Logical lines 579–586 — đoạn tổng kết dừng giữa câu tại ranh giới phạm vi"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Ranh giới dòng 586 cắt giữa câu; không được dùng độc lập trước khi ghép với phần nguồn kế tiếp.",
+      "questionIds": []
+    },
+
+    {
+      "id": "KT-00",
+      "chapterNum": 5,
+      "label": "Đuôi mục hạn chế và nguyên nhân của công cuộc đổi mới",
+      "sourceSections": ["Logical lines 9086–9132 — phần tiếp nối bắt đầu giữa câu trước mục kinh nghiệm"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "context-only",
+      "reason": "Đây là seam bắt đầu giữa câu và thuộc mục sở hữu ở lát trước; phải ghép về mục đó để tránh câu hỏi phân mảnh hoặc trùng.",
+      "questionIds": []
+    },
+    {
+      "id": "KT-01",
+      "chapterNum": 5,
+      "label": "Kinh nghiệm đổi mới: chủ động, sáng tạo và kiên định mục tiêu",
+      "sourceSections": ["Logical lines 9133–9162 — kinh nghiệm thứ nhất trong lãnh đạo công cuộc đổi mới"],
+      "learningObjectives": [
+        "Nêu nguyên tắc chủ động, sáng tạo trên cơ sở kiên định mục tiêu độc lập dân tộc và chủ nghĩa xã hội.",
+        "Giải thích vì sao đổi mới không đồng nghĩa với từ bỏ mục tiêu chủ nghĩa xã hội.",
+        "Phân biệt đổi mới sáng tạo với xa rời chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh.",
+        "Vận dụng yêu cầu kết hợp truyền thống dân tộc, tinh hoa nhân loại và kinh nghiệm quốc tế phù hợp Việt Nam."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q001", "VNR202-C05-Q002", "VNR202-C05-Q003", "VNR202-C05-Q004"]
+    },
+    {
+      "id": "KT-02",
+      "chapterNum": 5,
+      "label": "Kinh nghiệm đổi mới: dân là gốc",
+      "sourceSections": ["Logical lines 9164–9183 — kinh nghiệm thứ hai trong lãnh đạo công cuộc đổi mới"],
+      "learningObjectives": [
+        "Nêu nguyên tắc đổi mới vì lợi ích nhân dân, dựa vào nhân dân và phát huy vai trò làm chủ của nhân dân.",
+        "Phân biệt vai trò của nhân dân như nguồn sáng kiến, chủ thể thực hiện và người thụ hưởng thành quả đổi mới.",
+        "Giải thích dân chủ xã hội chủ nghĩa vừa là mục tiêu vừa là động lực phát triển.",
+        "Vận dụng quan hệ giữa dân chủ, đại đoàn kết với yêu cầu phòng chống đặc quyền, đặc lợi và suy thoái."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q005", "VNR202-C05-Q006", "VNR202-C05-Q007", "VNR202-C05-Q008"]
+    },
+    {
+      "id": "KT-03",
+      "chapterNum": 5,
+      "label": "Kinh nghiệm đổi mới: toàn diện, đồng bộ và bám sát thực tiễn",
+      "sourceSections": ["Logical lines 9185–9212 — kinh nghiệm thứ ba trong lãnh đạo công cuộc đổi mới"],
+      "learningObjectives": [
+        "Nêu yêu cầu đổi mới toàn diện và đồng bộ trên các lĩnh vực, cấp độ của hệ thống.",
+        "Phân biệt bước đi phù hợp với hai khuynh hướng nóng vội và bảo thủ, trì trệ.",
+        "Giải thích quan hệ giữa tôn trọng quy luật khách quan, bám sát thực tiễn và phát triển lý luận.",
+        "Vận dụng yêu cầu giải quyết kịp thời vấn đề thực tiễn và nói đi đôi với làm."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q009", "VNR202-C05-Q010", "VNR202-C05-Q011", "VNR202-C05-Q012"]
+    },
+    {
+      "id": "KT-04",
+      "chapterNum": 5,
+      "label": "Kinh nghiệm đổi mới: lợi ích quốc gia và hội nhập quốc tế",
+      "sourceSections": ["Logical lines 9214–9226 — kinh nghiệm thứ tư trong lãnh đạo công cuộc đổi mới"],
+      "learningObjectives": [
+        "Nêu nguyên tắc đặt lợi ích quốc gia–dân tộc lên trên hết và kiên định độc lập, tự chủ.",
+        "Giải thích quan hệ kết hợp sức mạnh dân tộc với sức mạnh thời đại, sức mạnh trong nước với sức mạnh quốc tế.",
+        "Vận dụng các nguyên tắc độc lập, chủ quyền, không can thiệp, bình đẳng và cùng có lợi trong một tình huống hội nhập."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q013", "VNR202-C05-Q014", "VNR202-C05-Q015"]
+    },
+    {
+      "id": "KT-05",
+      "chapterNum": 5,
+      "label": "Kinh nghiệm đổi mới: xây dựng Đảng và hệ thống chính trị",
+      "sourceSections": ["Logical lines 9228–9256 — kinh nghiệm thứ năm trong lãnh đạo công cuộc đổi mới"],
+      "learningObjectives": [
+        "Giải thích vai trò của tự đổi mới, tự chỉnh đốn và nâng cao năng lực lãnh đạo của Đảng.",
+        "Nhận diện vai trò then chốt của đội ngũ cán bộ, nhất là cán bộ cấp chiến lược.",
+        "Phân biệt vai trò của Nhà nước, Mặt trận Tổ quốc và các tổ chức chính trị–xã hội.",
+        "Vận dụng quan hệ giữa sức mạnh hệ thống chính trị và mối quan hệ mật thiết với nhân dân."
+      ],
+      "target": 4,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 2, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q016", "VNR202-C05-Q017", "VNR202-C05-Q018", "VNR202-C05-Q019"]
+    },
+    {
+      "id": "KT-06",
+      "chapterNum": 5,
+      "label": "Nhận thức rõ hơn về con đường đi lên chủ nghĩa xã hội",
+      "sourceSections": ["Logical lines 9258–9268 — kết quả nhận thức lý luận từ công cuộc đổi mới"],
+      "learningObjectives": [
+        "Giải thích nội hàm bỏ qua chủ nghĩa tư bản theo đúng phạm vi diễn giải của nguồn.",
+        "Nhận diện các phương diện nhận thức rõ hơn về mô hình, hình thức tổ chức và chặng đường quá độ."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q020", "VNR202-C05-Q021"]
+    },
+    {
+      "id": "KT-07",
+      "chapterNum": 5,
+      "label": "Nội dung ôn tập và thảo luận",
+      "sourceSections": ["Logical lines 9270–9288 — năm câu hỏi ôn tập và thảo luận"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "duplicate",
+      "reason": "Chỉ dùng làm checklist kiểm độ phủ; không sao chép câu hỏi ôn tập thành câu trắc nghiệm mới.",
+      "questionIds": []
+    },
+    {
+      "id": "KT-08",
+      "chapterNum": 5,
+      "label": "Kết luận: khái quát tuần tự các thời kỳ lịch sử",
+      "sourceSections": ["Logical lines 9290–9372 — khái quát tiến trình từ trước khi thành lập Đảng đến công cuộc đổi mới"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "duplicate",
+      "reason": "Đây là phần tổng thuật các chương lịch sử; quota sự kiện và trình tự thuộc các chương sở hữu để tránh trùng learning objective.",
+      "questionIds": []
+    },
+    {
+      "id": "KT-09",
+      "chapterNum": 5,
+      "label": "Ba thắng lợi vĩ đại của cách mạng Việt Nam",
+      "sourceSections": [
+        "Logical line 9374 — tiêu đề Những thắng lợi vĩ đại của cách mạng Việt Nam",
+        "Logical lines 9379–9381 — thắng lợi thứ nhất",
+        "Logical lines 9426–9430 — thắng lợi thứ hai",
+        "Logical lines 9475–9477 — thắng lợi thứ ba"
+      ],
+      "learningObjectives": ["Nhận diện đúng ba thắng lợi lớn được phần kết luận tổng hợp."],
+      "target": 1,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q022"]
+    },
+    {
+      "id": "KT-10",
+      "chapterNum": 5,
+      "label": "Thắng lợi của Cách mạng Tháng Tám năm 1945",
+      "sourceSections": ["Logical lines 9379–9424 — ý nghĩa, tính chất và các nhân tố thắng lợi của Cách mạng Tháng Tám"],
+      "learningObjectives": [
+        "Giải thích ý nghĩa và tính chất giải phóng dân tộc, dân chủ của Cách mạng Tháng Tám.",
+        "Phân tích nền tảng của các phong trào cách mạng liên tục trong 15 năm và vai trò lãnh đạo.",
+        "Vận dụng quan hệ giữa thực lực trong nước, chớp thời cơ và xử lý quan hệ quốc tế để giải thích thắng lợi."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q023", "VNR202-C05-Q024", "VNR202-C05-Q025"]
+    },
+    {
+      "id": "KT-11",
+      "chapterNum": 5,
+      "label": "Thắng lợi của các cuộc kháng chiến",
+      "sourceSections": ["Logical lines 9426–9473 — ý nghĩa, đường lối và phương pháp của các cuộc kháng chiến"],
+      "learningObjectives": [
+        "Giải thích ý nghĩa của các cuộc kháng chiến và vai trò của đường lối chính trị, quân sự.",
+        "Phân biệt hai chiến lược cách mạng được thực hiện đồng thời trong thời kỳ 1954–1975.",
+        "Vận dụng sự kết hợp đường lối, phương pháp cách mạng, sức mạnh trong nước và quốc tế để giải thích kết quả."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q026", "VNR202-C05-Q027", "VNR202-C05-Q028"]
+    },
+    {
+      "id": "KT-12",
+      "chapterNum": 5,
+      "label": "Thắng lợi, thành tựu và bài học của công cuộc đổi mới",
+      "sourceSections": ["Logical lines 9475–9609 — thắng lợi thứ ba, thành tựu, hạn chế, bài học và các mối quan hệ lớn"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "duplicate",
+      "reason": "Năm bài học và phần lớn nội dung đổi mới lặp trực tiếp KT-01 đến KT-06 hoặc mục sở hữu của chương; giữ làm nguồn đối chiếu, không cấp quota riêng.",
+      "questionIds": []
+    },
+    {
+      "id": "KT-13",
+      "chapterNum": 5,
+      "label": "Bài học lớn: độc lập dân tộc và chủ nghĩa xã hội",
+      "sourceSections": ["Logical lines 9611–9640 — bài học lớn thứ nhất về sự lãnh đạo của Đảng"],
+      "learningObjectives": [
+        "Giải thích quan hệ điều kiện tiên quyết và cơ sở bảo đảm giữa độc lập dân tộc với chủ nghĩa xã hội.",
+        "Nhận diện diễn tiến thực hiện hai mục tiêu chiến lược qua các giai đoạn được nguồn nêu.",
+        "Vận dụng quan hệ giữa xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc xã hội chủ nghĩa."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q029", "VNR202-C05-Q030", "VNR202-C05-Q031"]
+    },
+    {
+      "id": "KT-14",
+      "chapterNum": 5,
+      "label": "Bài học lớn: sự nghiệp cách mạng của nhân dân",
+      "sourceSections": ["Logical lines 9642–9679 — bài học lớn thứ hai về sự lãnh đạo của Đảng"],
+      "learningObjectives": [
+        "Giải thích vai trò của nhân dân như người làm nên và là chủ thể của lịch sử.",
+        "Phân tích yêu cầu mọi hoạt động của Đảng xuất phát từ lợi ích, nguyện vọng chính đáng của nhân dân.",
+        "Vận dụng bài học lấy dân làm gốc để nhận diện nguy cơ xa dân và phương thức phát huy quyền làm chủ."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 1},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q032", "VNR202-C05-Q033", "VNR202-C05-Q034"]
+    },
+    {
+      "id": "KT-15",
+      "chapterNum": 5,
+      "label": "Bài học lớn: không ngừng củng cố đoàn kết",
+      "sourceSections": ["Logical lines 9681–9714 — bài học lớn thứ ba về sự lãnh đạo của Đảng"],
+      "learningObjectives": [
+        "Nhận diện các cấp độ đoàn kết trong Đảng, toàn dân, dân tộc và quốc tế.",
+        "Giải thích đoàn kết và đại đoàn kết dân tộc như nguồn sức mạnh trong các thắng lợi lịch sử.",
+        "Phân biệt các yêu cầu của chiến lược đại đoàn kết trong công cuộc đổi mới."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q035", "VNR202-C05-Q036", "VNR202-C05-Q037"]
+    },
+    {
+      "id": "KT-16",
+      "chapterNum": 5,
+      "label": "Bài học lớn: kết hợp sức mạnh dân tộc với sức mạnh thời đại",
+      "sourceSections": ["Logical lines 9716–9749 — bài học lớn thứ tư về sự lãnh đạo của Đảng"],
+      "learningObjectives": [
+        "Nhận diện cơ sở của yêu cầu kết hợp sức mạnh dân tộc với sức mạnh thời đại.",
+        "Phân biệt cách kết hợp nguồn lực trong Cách mạng Tháng Tám, hai cuộc kháng chiến và xây dựng chủ nghĩa xã hội.",
+        "Giải thích quan hệ giữa hội nhập quốc tế với giữ vững độc lập, tự chủ và con đường phát triển."
+      ],
+      "target": 3,
+      "difficultyTargets": {"Nhận biết": 2, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q038", "VNR202-C05-Q039", "VNR202-C05-Q040"]
+    },
+    {
+      "id": "KT-17",
+      "chapterNum": 5,
+      "label": "Bài học lớn: sự lãnh đạo đúng đắn của Đảng",
+      "sourceSections": ["Logical lines 9751–9801 — bài học lớn thứ năm về sự lãnh đạo của Đảng"],
+      "learningObjectives": [
+        "Nhận diện các điều kiện về lý luận, Cương lĩnh, tổ chức và kỷ luật của một Đảng cách mạng.",
+        "Phân biệt nền tảng tư tưởng, mục tiêu và các nguyên tắc tổ chức, sinh hoạt được nguồn nêu.",
+        "Giải thích vai trò của công tác cán bộ và rèn luyện đạo đức cách mạng.",
+        "Phân tích phương thức lãnh đạo thông qua đường lối, tổ chức và đội ngũ cán bộ, đảng viên.",
+        "Giải thích yêu cầu tự đổi mới, tự chỉnh đốn và phòng ngừa sai lầm, quan liêu, xa dân, suy thoái."
+      ],
+      "target": 5,
+      "difficultyTargets": {"Nhận biết": 3, "Thông hiểu": 2, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q041", "VNR202-C05-Q042", "VNR202-C05-Q043", "VNR202-C05-Q044", "VNR202-C05-Q045"]
+    },
+    {
+      "id": "KT-18",
+      "chapterNum": 5,
+      "label": "Những truyền thống vẻ vang và tấm gương tiêu biểu",
+      "sourceSections": ["Logical lines 9803–9844 — truyền thống, các tấm gương hy sinh và nhận định kết luận"],
+      "learningObjectives": [
+        "Hệ thống hóa các truyền thống vẻ vang được phần kết luận nêu.",
+        "Giải thích vai trò giáo dục của truyền thống và tấm gương tiêu biểu mà không yêu cầu học thuộc toàn bộ danh sách tên người."
+      ],
+      "target": 2,
+      "difficultyTargets": {"Nhận biết": 1, "Thông hiểu": 1, "Vận dụng": 0},
+      "status": "covered",
+      "reason": null,
+      "questionIds": ["VNR202-C05-Q046", "VNR202-C05-Q047"]
+    },
+    {
+      "id": "KT-19",
+      "chapterNum": 5,
+      "label": "Tài liệu chủ yếu sử dụng trong biên soạn giáo trình",
+      "sourceSections": ["Logical lines 9846–9916 — danh mục tài liệu, footnote lẫn vào danh mục và số trang cuối"],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {"Nhận biết": 0, "Thông hiểu": 0, "Vận dụng": 0},
+      "status": "excluded",
+      "reason": "Thư mục tham khảo, footnote và số trang là metadata truy vết, không phải tri thức để kiểm tra.",
+      "questionIds": []
+    }
+  ]
+}

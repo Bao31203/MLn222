@@ -1,0 +1,1808 @@
+{
+  "schemaVersion": 1,
+  "target": 460,
+  "groups": [
+    {
+      "id": "c03-seam-prior-chapter",
+      "chapterNum": 3,
+      "label": "Seam đầu phạm vi: phần cuối Chương 1",
+      "sourceSections": [
+        "Logical lines 2682-2740 > Phần cuối nội dung và ôn tập của Chương 1"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "excluded",
+      "reason": "Ngoài phạm vi nội dung Chương 2; giữ lại để làm rõ seam của lát cắt nguồn 2682-5130.",
+      "questionIds": []
+    },
+    {
+      "id": "c03-context-chapter-intro",
+      "chapterNum": 3,
+      "label": "Tiêu đề, mục tiêu và đề mục dẫn nhập Chương 2",
+      "sourceSections": [
+        "Logical lines 2742-2766 > Tiêu đề và mục tiêu Chương 2",
+        "Logical lines 2768-2772 > Đề mục dẫn nhập phần I"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "context-only",
+      "reason": "Dùng định tuyến phạm vi và kiểm tra bao phủ; không lấy câu chữ mục tiêu hoặc đề mục làm bằng chứng đáp án.",
+      "questionIds": []
+    },
+    {
+      "id": "c03-i01a-situation-1945",
+      "chapterNum": 3,
+      "label": "Tình hình Việt Nam sau Cách mạng Tháng Tám",
+      "sourceSections": [
+        "Logical lines 2774-2842 > I.1.a Tình hình Việt Nam sau Cách mạng Tháng Tám năm 1945"
+      ],
+      "learningObjectives": [
+        "Nhận diện các thuận lợi quốc tế và trong nước của chính quyền cách mạng",
+        "Phân biệt các khó khăn quốc tế với khó khăn kinh tế, xã hội và chính trị trong nước",
+        "Xác định sự bố trí các lực lượng nước ngoài và diễn biến ngày 23-9-1945",
+        "Giải thích nhận định tình thế cách mạng ở thế ngàn cân treo sợi tóc"
+      ],
+      "target": 6,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q001",
+        "VNR202-C03-Q002",
+        "VNR202-C03-Q003",
+        "VNR202-C03-Q004",
+        "VNR202-C03-Q005",
+        "VNR202-C03-Q006"
+      ]
+    },
+    {
+      "id": "c03-i01b-build-new-regime",
+      "chapterNum": 3,
+      "label": "Xây dựng chế độ mới và chính quyền cách mạng",
+      "sourceSections": [
+        "Logical lines 2844-2947 > I.1.b Xây dựng chế độ mới và chính quyền cách mạng"
+      ],
+      "learningObjectives": [
+        "Xác định ba nhiệm vụ ngày 3-9-1945 và kẻ thù chính trong Chỉ thị Kháng chiến kiến quốc",
+        "Phân tích mục tiêu, khẩu hiệu, bốn nhiệm vụ cấp bách và nguyên tắc ngoại giao của Đảng",
+        "Phân biệt biện pháp chống đói với biện pháp chống nạn mù chữ và kết quả của từng lĩnh vực",
+        "Giải thích vai trò của tổng tuyển cử, bộ máy nhà nước, Hiến pháp, mặt trận đoàn kết và lực lượng vũ trang"
+      ],
+      "target": 9,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q007",
+        "VNR202-C03-Q008",
+        "VNR202-C03-Q009",
+        "VNR202-C03-Q010",
+        "VNR202-C03-Q011",
+        "VNR202-C03-Q012",
+        "VNR202-C03-Q013",
+        "VNR202-C03-Q014",
+        "VNR202-C03-Q015"
+      ]
+    },
+    {
+      "id": "c03-i01c-south-resistance-government",
+      "chapterNum": 3,
+      "label": "Kháng chiến Nam Bộ và bảo vệ chính quyền non trẻ",
+      "sourceSections": [
+        "Logical lines 2949-3144 > I.1.c Kháng chiến Nam Bộ và đấu tranh bảo vệ chính quyền cách mạng"
+      ],
+      "learningObjectives": [
+        "Trình bày sự bùng nổ, chỉ đạo ngày 25-10-1945, hình thức đấu tranh và phong trào chi viện Nam Bộ",
+        "Giải thích kết quả chiến lược của kháng chiến Nam Bộ và việc chuẩn bị kháng chiến lâu dài",
+        "Phân tích sách lược đối với quân Tưởng và tay sai, việc Đảng tuyên bố tự giải tán và các nhân nhượng cần thiết",
+        "Xâu chuỗi Hiệp ước Hoa-Pháp, chỉ thị ngày 3-3, Hiệp định Sơ bộ, chủ trương Hòa để tiến và hoạt động ngoại giao năm 1946",
+        "Đánh giá việc xử lý vụ Ôn Như Hầu, chuẩn bị an toàn khu và các kết quả, kinh nghiệm bảo vệ chính quyền 1945-1946"
+      ],
+      "target": 11,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q016",
+        "VNR202-C03-Q017",
+        "VNR202-C03-Q018",
+        "VNR202-C03-Q019",
+        "VNR202-C03-Q020",
+        "VNR202-C03-Q021",
+        "VNR202-C03-Q022",
+        "VNR202-C03-Q023",
+        "VNR202-C03-Q024",
+        "VNR202-C03-Q025",
+        "VNR202-C03-Q026"
+      ]
+    },
+    {
+      "id": "c03-i02a-national-resistance-line",
+      "chapterNum": 3,
+      "label": "Toàn quốc kháng chiến và đường lối kháng chiến",
+      "sourceSections": [
+        "Logical lines 3150-3290 > I.2.a Phát động toàn quốc kháng chiến và hình thành đường lối kháng chiến"
+      ],
+      "learningObjectives": [
+        "Giải thích chuỗi nguyên nhân dẫn đến toàn quốc kháng chiến và các quyết định từ ngày 12 đến 19-12-1946",
+        "Phân tích vai trò của cuộc chiến đấu ở Hà Nội và các đô thị trong giai đoạn đầu",
+        "Nhận diện hệ thống văn kiện hình thành đường lối kháng chiến",
+        "Phân tích mục tiêu và các nội dung toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính",
+        "Đánh giá ý nghĩa của đường lối kháng chiến đối với thực tiễn"
+      ],
+      "target": 13,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q027",
+        "VNR202-C03-Q028",
+        "VNR202-C03-Q029",
+        "VNR202-C03-Q030",
+        "VNR202-C03-Q031",
+        "VNR202-C03-Q032",
+        "VNR202-C03-Q033",
+        "VNR202-C03-Q034",
+        "VNR202-C03-Q035",
+        "VNR202-C03-Q036",
+        "VNR202-C03-Q037",
+        "VNR202-C03-Q038",
+        "VNR202-C03-Q039"
+      ]
+    },
+    {
+      "id": "c03-i02b-resistance-1947-1950",
+      "chapterNum": 3,
+      "label": "Tổ chức, chỉ đạo kháng chiến 1947-1950",
+      "sourceSections": [
+        "Logical lines 3292-3472 > I.2.b Tổ chức, chỉ đạo cuộc kháng chiến từ năm 1947 đến năm 1950"
+      ],
+      "learningObjectives": [
+        "Khái quát việc xây dựng chính quyền, lực lượng chính trị, vũ trang và hậu phương kháng chiến",
+        "Phân tích âm mưu, chỉ đạo, kết quả và ý nghĩa của Chiến dịch Việt Bắc Thu-Đông 1947",
+        "Xâu chuỗi sự phát triển chiến tranh nhân dân trên các chiến trường giai đoạn 1948-1950",
+        "Nhận diện công tác xây dựng Đảng, xây dựng quân đội và việc sửa chữa khuyết điểm",
+        "Giải thích mục tiêu, kết quả và tác động của Chiến dịch Biên giới năm 1950"
+      ],
+      "target": 11,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 5,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q040",
+        "VNR202-C03-Q041",
+        "VNR202-C03-Q042",
+        "VNR202-C03-Q043",
+        "VNR202-C03-Q044",
+        "VNR202-C03-Q045",
+        "VNR202-C03-Q046",
+        "VNR202-C03-Q047",
+        "VNR202-C03-Q048",
+        "VNR202-C03-Q049",
+        "VNR202-C03-Q050"
+      ]
+    },
+    {
+      "id": "c03-i03a-congress-ii-platform",
+      "chapterNum": 3,
+      "label": "Đại hội II và Chính cương của Đảng Lao động Việt Nam",
+      "sourceSections": [
+        "Logical lines 3476-3582 > I.3.a Đại hội II và Chính cương của Đảng Lao động Việt Nam"
+      ],
+      "learningObjectives": [
+        "Giải thích bối cảnh Đại hội II, việc tổ chức đảng ở ba nước Đông Dương và đổi tên Đảng",
+        "Xác định nhiệm vụ trước mắt, tính chất xã hội và các đối tượng của cách mạng Việt Nam",
+        "Phân tích hệ thống nhiệm vụ, thứ tự ưu tiên, lực lượng, vai trò lãnh đạo, triển vọng và các giai đoạn cách mạng",
+        "Nhận diện chính sách, Điều lệ, nhân sự được thông qua và ý nghĩa của Đại hội",
+        "Đánh giá những điểm còn hạn chế trong nhận thức và chỉ đạo"
+      ],
+      "target": 13,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q051",
+        "VNR202-C03-Q052",
+        "VNR202-C03-Q053",
+        "VNR202-C03-Q054",
+        "VNR202-C03-Q055",
+        "VNR202-C03-Q056",
+        "VNR202-C03-Q057",
+        "VNR202-C03-Q058",
+        "VNR202-C03-Q059",
+        "VNR202-C03-Q060",
+        "VNR202-C03-Q061",
+        "VNR202-C03-Q062",
+        "VNR202-C03-Q063"
+      ]
+    },
+    {
+      "id": "c03-i03b-develop-all-fronts",
+      "chapterNum": 3,
+      "label": "Phát triển kháng chiến về mọi mặt",
+      "sourceSections": [
+        "Logical lines 3584-3656 > I.3.b Phát triển cuộc kháng chiến về mọi mặt"
+      ],
+      "learningObjectives": [
+        "Nhận diện các chiến dịch quân sự tiêu biểu sau Đại hội II",
+        "Phân tích việc củng cố hậu phương trên các mặt chính trị, kinh tế, văn hóa và xã hội",
+        "Xâu chuỗi sự phát triển của chính sách ruộng đất",
+        "Đánh giá kết quả và sai lầm trong thực hiện cải cách ruộng đất"
+      ],
+      "target": 8,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q064",
+        "VNR202-C03-Q065",
+        "VNR202-C03-Q066",
+        "VNR202-C03-Q067",
+        "VNR202-C03-Q068",
+        "VNR202-C03-Q069",
+        "VNR202-C03-Q070",
+        "VNR202-C03-Q071"
+      ]
+    },
+    {
+      "id": "c03-i03c-military-diplomacy",
+      "chapterNum": 3,
+      "label": "Kết hợp đấu tranh quân sự và ngoại giao",
+      "sourceSections": [
+        "Logical lines 3658-3802 > I.3.c Kết hợp đấu tranh quân sự với đấu tranh ngoại giao"
+      ],
+      "learningObjectives": [
+        "Phân tích nội dung và điểm yếu của Kế hoạch Nava",
+        "Giải thích mục tiêu chỉ đạo Đông-Xuân 1953-1954 và quyết định mở Chiến dịch Điện Biên Phủ",
+        "Xâu chuỗi diễn biến, kết quả và ý nghĩa của Chiến dịch Điện Biên Phủ",
+        "Phân tích lập trường ngoại giao, tiến trình Hội nghị Genève và quan hệ giữa thắng lợi quân sự với đàm phán",
+        "Nhận diện nội dung pháp lý và ý nghĩa của Hiệp định Genève"
+      ],
+      "target": 14,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q072",
+        "VNR202-C03-Q073",
+        "VNR202-C03-Q074",
+        "VNR202-C03-Q075",
+        "VNR202-C03-Q076",
+        "VNR202-C03-Q077",
+        "VNR202-C03-Q078",
+        "VNR202-C03-Q079",
+        "VNR202-C03-Q080",
+        "VNR202-C03-Q081",
+        "VNR202-C03-Q082",
+        "VNR202-C03-Q083",
+        "VNR202-C03-Q084",
+        "VNR202-C03-Q085"
+      ]
+    },
+    {
+      "id": "c03-i04a-french-resistance-significance",
+      "chapterNum": 3,
+      "label": "Ý nghĩa của kháng chiến chống thực dân Pháp",
+      "sourceSections": [
+        "Logical lines 3808-3831 > I.4.a Ý nghĩa thắng lợi của cuộc kháng chiến chống thực dân Pháp"
+      ],
+      "learningObjectives": [
+        "Phân tích ý nghĩa của thắng lợi đối với cách mạng và dân tộc Việt Nam",
+        "Giải thích tác động khu vực, quốc tế và ảnh hưởng đối với phong trào giải phóng dân tộc"
+      ],
+      "target": 5,
+      "difficultyTargets": {
+        "Nhận biết": 2,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q086",
+        "VNR202-C03-Q087",
+        "VNR202-C03-Q088",
+        "VNR202-C03-Q089",
+        "VNR202-C03-Q090"
+      ]
+    },
+    {
+      "id": "c03-i04b-french-resistance-experience",
+      "chapterNum": 3,
+      "label": "Kinh nghiệm lãnh đạo kháng chiến chống thực dân Pháp",
+      "sourceSections": [
+        "Logical lines 3833-3907 > I.4.b Kinh nghiệm lãnh đạo kháng chiến chống thực dân Pháp"
+      ],
+      "learningObjectives": [
+        "Giải thích vai trò của đường lối đúng đắn và sự kết hợp sức mạnh trong nước với quốc tế",
+        "Phân tích quan hệ giữa kháng chiến và kiến quốc",
+        "Nhận diện cách tổ chức lãnh đạo chiến tranh nhân dân và các loại hình tác chiến",
+        "Giải thích việc xây dựng ba thứ quân",
+        "Đánh giá yêu cầu xây dựng Đảng và sửa chữa các khuynh hướng lệch lạc"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q091",
+        "VNR202-C03-Q092",
+        "VNR202-C03-Q093",
+        "VNR202-C03-Q094",
+        "VNR202-C03-Q095",
+        "VNR202-C03-Q096",
+        "VNR202-C03-Q097",
+        "VNR202-C03-Q098",
+        "VNR202-C03-Q099",
+        "VNR202-C03-Q100"
+      ]
+    },
+    {
+      "id": "c03-ii01a-north-1954-1960",
+      "chapterNum": 3,
+      "label": "Miền Bắc 1954-1960",
+      "sourceSections": [
+        "Logical lines 3919-4068 > II.1.a Miền Bắc khôi phục kinh tế và cải tạo xã hội chủ nghĩa 1954-1960"
+      ],
+      "learningObjectives": [
+        "Giải thích bối cảnh đất nước tạm thời chia làm hai miền và nhiệm vụ của miền Bắc",
+        "Nhận diện việc thi hành Hiệp định Genève, khôi phục kinh tế và ổn định đời sống",
+        "Phân tích kết quả, sai lầm và sửa sai trong cải cách ruộng đất",
+        "Phân biệt cải tạo nông nghiệp, thủ công nghiệp với cải tạo công thương nghiệp tư bản tư doanh",
+        "Giải thích nguyên tắc hợp tác hóa và phương pháp cải tạo hòa bình"
+      ],
+      "target": 13,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q101",
+        "VNR202-C03-Q102",
+        "VNR202-C03-Q103",
+        "VNR202-C03-Q104",
+        "VNR202-C03-Q105",
+        "VNR202-C03-Q106",
+        "VNR202-C03-Q107",
+        "VNR202-C03-Q108",
+        "VNR202-C03-Q109",
+        "VNR202-C03-Q110",
+        "VNR202-C03-Q111",
+        "VNR202-C03-Q112",
+        "VNR202-C03-Q113"
+      ]
+    },
+    {
+      "id": "c03-ii01a-south-1954-1960",
+      "chapterNum": 3,
+      "label": "Miền Nam 1954-1960",
+      "sourceSections": [
+        "Logical lines 4070-4208 > II.1.a Miền Nam đấu tranh chống Mỹ-Diệm 1954-1960"
+      ],
+      "learningObjectives": [
+        "Phân tích mục tiêu, bộ máy và thủ đoạn của chính quyền Mỹ-Diệm",
+        "Giải thích sự chuyển hướng hình thức đấu tranh và ba nhiệm vụ trước mắt",
+        "Nhận diện vai trò của Đề cương cách mạng miền Nam, việc giữ gìn lực lượng và Nghị quyết 15",
+        "Xâu chuỗi việc mở đường chi viện, diễn biến, kết quả và ý nghĩa phong trào Đồng khởi",
+        "Giải thích sự ra đời của Mặt trận Dân tộc Giải phóng miền Nam Việt Nam"
+      ],
+      "target": 15,
+      "difficultyTargets": {
+        "Nhận biết": 6,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q114",
+        "VNR202-C03-Q115",
+        "VNR202-C03-Q116",
+        "VNR202-C03-Q117",
+        "VNR202-C03-Q118",
+        "VNR202-C03-Q119",
+        "VNR202-C03-Q120",
+        "VNR202-C03-Q121",
+        "VNR202-C03-Q122",
+        "VNR202-C03-Q123",
+        "VNR202-C03-Q124",
+        "VNR202-C03-Q125",
+        "VNR202-C03-Q126",
+        "VNR202-C03-Q127",
+        "VNR202-C03-Q128"
+      ]
+    },
+    {
+      "id": "c03-ii01b-north-1961-1965",
+      "chapterNum": 3,
+      "label": "Miền Bắc 1961-1965",
+      "sourceSections": [
+        "Logical lines 4210-4389 > II.1.b Miền Bắc xây dựng chủ nghĩa xã hội 1961-1965"
+      ],
+      "learningObjectives": [
+        "Phân tích hai chiến lược cách mạng và mục tiêu chung được Đại hội III xác định",
+        "Phân biệt vai trò của cách mạng mỗi miền và phương hướng thống nhất hòa bình",
+        "Giải thích con đường xây dựng chủ nghĩa xã hội, công nghiệp hóa và ba cuộc cách mạng",
+        "Nhận diện đường lối chung, những hạn chế nhận thức và nội dung kế hoạch 5 năm",
+        "Đánh giá vai trò hậu phương và hoạt động chi viện miền Nam"
+      ],
+      "target": 15,
+      "difficultyTargets": {
+        "Nhận biết": 6,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q129",
+        "VNR202-C03-Q130",
+        "VNR202-C03-Q131",
+        "VNR202-C03-Q132",
+        "VNR202-C03-Q133",
+        "VNR202-C03-Q134",
+        "VNR202-C03-Q135",
+        "VNR202-C03-Q136",
+        "VNR202-C03-Q137",
+        "VNR202-C03-Q138",
+        "VNR202-C03-Q139",
+        "VNR202-C03-Q140",
+        "VNR202-C03-Q141",
+        "VNR202-C03-Q142",
+        "VNR202-C03-Q143"
+      ]
+    },
+    {
+      "id": "c03-ii01b-south-1961-1965",
+      "chapterNum": 3,
+      "label": "Miền Nam 1961-1965",
+      "sourceSections": [
+        "Logical lines 4391-4513 > II.1.b Miền Nam chống chiến lược Chiến tranh đặc biệt 1961-1965"
+      ],
+      "learningObjectives": [
+        "Nhận diện công thức, kế hoạch và thủ đoạn của chiến lược Chiến tranh đặc biệt",
+        "Phân tích phương châm đấu tranh trên ba vùng chiến lược bằng ba mũi giáp công",
+        "Giải thích việc xây dựng lực lượng và ý nghĩa chiến thắng Ấp Bắc",
+        "Xâu chuỗi đấu tranh phá ấp chiến lược, đấu tranh đô thị và Nghị quyết Trung ương 9",
+        "Đánh giá các thắng lợi dẫn đến phá sản chiến lược Chiến tranh đặc biệt"
+      ],
+      "target": 13,
+      "difficultyTargets": {
+        "Nhận biết": 6,
+        "Thông hiểu": 5,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q144",
+        "VNR202-C03-Q145",
+        "VNR202-C03-Q146",
+        "VNR202-C03-Q147",
+        "VNR202-C03-Q148",
+        "VNR202-C03-Q149",
+        "VNR202-C03-Q150",
+        "VNR202-C03-Q151",
+        "VNR202-C03-Q152",
+        "VNR202-C03-Q153",
+        "VNR202-C03-Q154",
+        "VNR202-C03-Q155",
+        "VNR202-C03-Q156"
+      ]
+    },
+    {
+      "id": "c03-ii02a-us-resistance-line",
+      "chapterNum": 3,
+      "label": "Đường lối kháng chiến chống Mỹ, cứu nước",
+      "sourceSections": [
+        "Logical lines 4517-4609 > II.2.a Đường lối kháng chiến chống Mỹ trong giai đoạn mới"
+      ],
+      "learningObjectives": [
+        "Phân tích đặc điểm của chiến tranh cục bộ và tương quan lực lượng",
+        "Xác định quyết tâm, mục tiêu và phương châm chiến lược của Đảng",
+        "Phân biệt nhiệm vụ và phương thức đấu tranh ở mỗi miền",
+        "Giải thích quan hệ hậu phương lớn với tiền tuyến lớn",
+        "Đánh giá sự kế thừa và phát triển đường lối từ Đại hội III"
+      ],
+      "target": 12,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q157",
+        "VNR202-C03-Q158",
+        "VNR202-C03-Q159",
+        "VNR202-C03-Q160",
+        "VNR202-C03-Q161",
+        "VNR202-C03-Q162",
+        "VNR202-C03-Q163",
+        "VNR202-C03-Q164",
+        "VNR202-C03-Q165",
+        "VNR202-C03-Q166",
+        "VNR202-C03-Q167",
+        "VNR202-C03-Q168"
+      ]
+    },
+    {
+      "id": "c03-ii02b-north-1965-1968",
+      "chapterNum": 3,
+      "label": "Miền Bắc 1965-1968",
+      "sourceSections": [
+        "Logical lines 4611-4699 > II.2.b Miền Bắc vừa sản xuất vừa chiến đấu 1965-1968"
+      ],
+      "learningObjectives": [
+        "Nhận diện bốn nhiệm vụ chuyển hướng của miền Bắc",
+        "Giải thích nội dung và tác dụng của các phong trào chiến tranh nhân dân",
+        "Phân tích thành tựu kinh tế, xã hội trong điều kiện chiến tranh",
+        "Đánh giá kết quả chiến đấu và chi viện tiền tuyến"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q169",
+        "VNR202-C03-Q170",
+        "VNR202-C03-Q171",
+        "VNR202-C03-Q172",
+        "VNR202-C03-Q173",
+        "VNR202-C03-Q174",
+        "VNR202-C03-Q175",
+        "VNR202-C03-Q176",
+        "VNR202-C03-Q177",
+        "VNR202-C03-Q178"
+      ]
+    },
+    {
+      "id": "c03-ii02b-south-1965-1968",
+      "chapterNum": 3,
+      "label": "Miền Nam 1965-1968",
+      "sourceSections": [
+        "Logical lines 4701-4835 > II.2.b Miền Nam chống chiến tranh cục bộ 1965-1968"
+      ],
+      "learningObjectives": [
+        "Xâu chuỗi hai cuộc phản công mùa khô và việc giữ quyền chủ động chiến trường",
+        "Phân tích đấu tranh chống bình định và sự hình thành mặt trận ngoại giao",
+        "Giải thích quyết định, diễn biến chính và ý nghĩa của Tổng tiến công và nổi dậy Tết Mậu Thân",
+        "Đánh giá tác động của Mậu Thân đối với đàm phán Paris",
+        "Nhận diện sai lầm trong chỉ đạo và hậu quả cần rút kinh nghiệm"
+      ],
+      "target": 14,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q179",
+        "VNR202-C03-Q180",
+        "VNR202-C03-Q181",
+        "VNR202-C03-Q182",
+        "VNR202-C03-Q183",
+        "VNR202-C03-Q184",
+        "VNR202-C03-Q185",
+        "VNR202-C03-Q186",
+        "VNR202-C03-Q187",
+        "VNR202-C03-Q188",
+        "VNR202-C03-Q189",
+        "VNR202-C03-Q190",
+        "VNR202-C03-Q191",
+        "VNR202-C03-Q192"
+      ]
+    },
+    {
+      "id": "c03-ii02c-north-1969-1975",
+      "chapterNum": 3,
+      "label": "Miền Bắc 1969-1975",
+      "sourceSections": [
+        "Logical lines 4837-4927 > II.2.c Miền Bắc khôi phục, chiến đấu và chi viện 1969-1975"
+      ],
+      "learningObjectives": [
+        "Khái quát quá trình khôi phục kinh tế và quốc phòng 1969-1972",
+        "Phân tích việc đánh bại cuộc chiến tranh phá hoại lần thứ hai",
+        "Nhận diện quá trình khôi phục, phát triển năm 1974-1975",
+        "Đánh giá vai trò hậu phương và nghĩa vụ quốc tế của miền Bắc"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C03-Q193",
+        "VNR202-C03-Q194",
+        "VNR202-C03-Q195",
+        "VNR202-C03-Q196",
+        "VNR202-C03-Q197",
+        "VNR202-C03-Q198",
+        "VNR202-C03-Q199",
+        "VNR202-C03-Q200",
+        "VNR202-C03-Q201",
+        "VNR202-C03-Q202"
+      ]
+    },
+    {
+      "id": "c03-ii02c-south-1969-1975-complete",
+      "chapterNum": 3,
+      "label": "Miền Nam 1969-1975 trong phần nguồn hoàn chỉnh",
+      "sourceSections": [
+        "Logical lines 4929-5124 > II.2.c Miền Nam chống Việt Nam hóa chiến tranh và tiến tới Tổng tiến công Xuân 1975, đến quyết định thành lập Bộ Chỉ huy chiến dịch"
+      ],
+      "learningObjectives": [
+        "Phân tích chiến lược Việt Nam hóa chiến tranh và các bước thực hiện của Mỹ",
+        "Xâu chuỗi phối hợp chiến trường Việt Nam-Lào-Campuchia và cuộc tiến công chiến lược năm 1972",
+        "Giải thích kết quả Hiệp định Paris và chủ trương sau Hiệp định thể hiện trong Nghị quyết 21",
+        "Đánh giá ý nghĩa thắng lợi Phước Long và quá trình chuẩn bị lực lượng, hậu cần",
+        "Phân tích quyết định của Bộ Chính trị và diễn biến Xuân 1975 qua Tây Nguyên, Huế-Đà Nẵng đến việc thành lập Bộ Chỉ huy chiến dịch"
+      ],
+      "target": 18,
+      "difficultyTargets": {
+        "Nhận biết": 7,
+        "Thông hiểu": 7,
+        "Vận dụng": 4
+      },
+      "status": "covered",
+      "reason": "Quota chỉ dùng phần nội dung hoàn chỉnh trước seam; không suy đoán phần câu bị cắt ở logical line 5126.",
+      "questionIds": [
+        "VNR202-C03-Q203",
+        "VNR202-C03-Q204",
+        "VNR202-C03-Q205",
+        "VNR202-C03-Q206",
+        "VNR202-C03-Q207",
+        "VNR202-C03-Q208",
+        "VNR202-C03-Q209",
+        "VNR202-C03-Q210",
+        "VNR202-C03-Q211",
+        "VNR202-C03-Q212",
+        "VNR202-C03-Q213",
+        "VNR202-C03-Q214",
+        "VNR202-C03-Q215",
+        "VNR202-C03-Q216",
+        "VNR202-C03-Q217",
+        "VNR202-C03-Q218",
+        "VNR202-C03-Q219",
+        "VNR202-C03-Q220"
+      ]
+    },
+    {
+      "id": "c03-seam-ho-chi-minh-campaign",
+      "chapterNum": 3,
+      "label": "Seam cuối phạm vi: câu dở về Chiến dịch Hồ Chí Minh",
+      "sourceSections": [
+        "Logical lines 5126-5130 > Câu bắt đầu bằng 'Chiến dịch Hồ Chí Minh giải phóng' và metadata trang"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "excluded",
+      "reason": "Phạm vi kết thúc giữa câu trước khi nội dung Chiến dịch Hồ Chí Minh hoàn chỉnh; tuyệt đối không tạo câu hỏi từ mảnh này. Nội dung tiếp nối thuộc lát cắt nguồn kế tiếp.",
+      "questionIds": []
+    },
+    {
+      "id": "c04b-a01-sea-strategy-tail",
+      "chapterNum": 4,
+      "label": "Chiến lược biển đến năm 2020 - phần tiếp nối",
+      "sourceSections": [
+        "Logical lines 7101-7121 > Phần cuối chủ trương và quan điểm phát triển kinh tế biển"
+      ],
+      "learningObjectives": [
+        "Xác định mục tiêu trở thành quốc gia mạnh về biển, làm giàu từ biển",
+        "Phân tích yêu cầu kết hợp phát triển kinh tế-xã hội với quốc phòng, an ninh, hợp tác quốc tế và bảo vệ môi trường",
+        "Vận dụng nguyên tắc phát huy nội lực, tranh thủ ngoại lực gắn với bảo vệ chủ quyền"
+      ],
+      "target": 3,
+      "difficultyTargets": {
+        "Nhận biết": 1,
+        "Thông hiểu": 1,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": "Đây là phần tiếp nối từ lát cắt trước; chỉ dùng các mệnh đề hoàn chỉnh tại 7101-7121 và không suy đoán phần mở đầu bị thiếu.",
+      "questionIds": [
+        "VNR202-C04-Q161",
+        "VNR202-C04-Q162",
+        "VNR202-C04-Q163"
+      ]
+    },
+    {
+      "id": "c04b-a02-market-institutions",
+      "chapterNum": 4,
+      "label": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
+      "sourceSections": [
+        "Logical lines 7123-7155 > Chủ trương Hội nghị Trung ương 6 khóa X về hoàn thiện thể chế kinh tế thị trường"
+      ],
+      "learningObjectives": [
+        "Nhận diện bối cảnh và những hạn chế của thể chế kinh tế thị trường",
+        "Giải thích yêu cầu tôn trọng quy luật thị trường đồng thời giữ vững định hướng xã hội chủ nghĩa",
+        "Phân tích tính đồng bộ giữa các bộ phận thể chế, Nhà nước, thị trường và xã hội",
+        "Đánh giá quan hệ giữa tăng trưởng, công bằng xã hội, văn hóa, môi trường và hội nhập"
+      ],
+      "target": 5,
+      "difficultyTargets": {
+        "Nhận biết": 2,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q164",
+        "VNR202-C04-Q165",
+        "VNR202-C04-Q166",
+        "VNR202-C04-Q167",
+        "VNR202-C04-Q168"
+      ]
+    },
+    {
+      "id": "c04b-a03-agriculture-farmers-rural",
+      "chapterNum": 4,
+      "label": "Nông nghiệp, nông dân và nông thôn",
+      "sourceSections": [
+        "Logical lines 7157-7195 > Chủ trương Hội nghị Trung ương 7 khóa X về tam nông"
+      ],
+      "learningObjectives": [
+        "Xác định vị trí chiến lược của nông nghiệp, nông dân và nông thôn",
+        "Giải thích yêu cầu giải quyết đồng bộ ba vấn đề trong công nghiệp hóa, hiện đại hóa",
+        "Phân tích vai trò của cơ chế thị trường, đầu tư, khoa học-công nghệ và nguồn nhân lực",
+        "Vận dụng quan điểm khơi dậy nội lực của nông dân và trách nhiệm của hệ thống chính trị"
+      ],
+      "target": 5,
+      "difficultyTargets": {
+        "Nhận biết": 2,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q169",
+        "VNR202-C04-Q170",
+        "VNR202-C04-Q171",
+        "VNR202-C04-Q172",
+        "VNR202-C04-Q173"
+      ]
+    },
+    {
+      "id": "c04b-a04-economic-results-context",
+      "chapterNum": 4,
+      "label": "Kết quả kinh tế 2005-2010 dùng làm bối cảnh",
+      "sourceSections": [
+        "Logical lines 7197-7203 > Các chỉ số tổng hợp về tăng trưởng, đầu tư, FDI và thu nhập"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "context-only",
+      "reason": "Đoạn thống kê ngắn, dày số liệu và có câu chữ OCR thiếu ổn định; chỉ dùng làm bối cảnh cho chủ trương, không kiểm tra số liệu rời rạc.",
+      "questionIds": []
+    },
+    {
+      "id": "c04b-a05-anticorruption-waste",
+      "chapterNum": 4,
+      "label": "Phòng, chống tham nhũng và lãng phí",
+      "sourceSections": [
+        "Logical lines 7205-7230 > Tăng cường lãnh đạo phòng, chống tham nhũng, lãng phí"
+      ],
+      "learningObjectives": [
+        "Giải thích vì sao tham nhũng, lãng phí là nguy cơ lớn đối với Đảng và chế độ",
+        "Phân tích quan điểm phát huy sức mạnh toàn hệ thống và kết hợp các biện pháp",
+        "Phân biệt phòng ngừa là chính với yêu cầu kiên quyết đấu tranh",
+        "Đánh giá quan hệ giữa phòng, chống tham nhũng với xây dựng, chỉnh đốn Đảng"
+      ],
+      "target": 6,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q174",
+        "VNR202-C04-Q175",
+        "VNR202-C04-Q176",
+        "VNR202-C04-Q177",
+        "VNR202-C04-Q178",
+        "VNR202-C04-Q179"
+      ]
+    },
+    {
+      "id": "c04b-a06-party-inspection-supervision",
+      "chapterNum": 4,
+      "label": "Công tác kiểm tra, giám sát của Đảng",
+      "sourceSections": [
+        "Logical lines 7231-7254 > Chủ trương tăng cường kiểm tra, giám sát"
+      ],
+      "learningObjectives": [
+        "Xác định vị trí và chủ thể chịu trách nhiệm về kiểm tra, giám sát",
+        "Phân tích các nguyên tắc công khai, dân chủ, khách quan, thận trọng và đúng phương pháp công tác đảng",
+        "Phân biệt yêu cầu giám sát mở rộng với kiểm tra có trọng tâm, trọng điểm",
+        "Giải thích quan hệ giữa xây và chống, phòng ngừa và xử lý vi phạm"
+      ],
+      "target": 7,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q180",
+        "VNR202-C04-Q181",
+        "VNR202-C04-Q182",
+        "VNR202-C04-Q183",
+        "VNR202-C04-Q184",
+        "VNR202-C04-Q185",
+        "VNR202-C04-Q186"
+      ]
+    },
+    {
+      "id": "c04b-a07-apparatus-grassroots-party",
+      "chapterNum": 4,
+      "label": "Tinh gọn bộ máy và củng cố tổ chức cơ sở đảng",
+      "sourceSections": [
+        "Logical lines 7256-7280 > Sắp xếp bộ máy và nâng cao năng lực tổ chức cơ sở đảng"
+      ],
+      "learningObjectives": [
+        "Nhận diện định hướng sắp xếp bộ máy Trung ương",
+        "Giải thích vị trí nền tảng, hạt nhân chính trị và cầu nối với nhân dân của tổ chức cơ sở đảng",
+        "Phân tích yêu cầu dựa vào dân và phát huy hệ thống chính trị để xây dựng Đảng"
+      ],
+      "target": 4,
+      "difficultyTargets": {
+        "Nhận biết": 1,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q187",
+        "VNR202-C04-Q188",
+        "VNR202-C04-Q189",
+        "VNR202-C04-Q190"
+      ]
+    },
+    {
+      "id": "c04b-a08-leadership-administrative-reform",
+      "chapterNum": 4,
+      "label": "Đổi mới phương thức lãnh đạo và cải cách hành chính",
+      "sourceSections": [
+        "Logical lines 7282-7338 > Đổi mới phương thức lãnh đạo, cải cách hành chính và điều chỉnh địa giới Hà Nội"
+      ],
+      "learningObjectives": [
+        "Giải thích tác động của phương thức lãnh đạo đối với hệ thống chính trị",
+        "Phân tích các nguyên tắc đổi mới phương thức lãnh đạo của Đảng",
+        "Nhận diện vai trò, hạn chế và quan điểm chỉ đạo cải cách hành chính",
+        "Vận dụng yêu cầu phân công, phân cấp, trách nhiệm và giám sát của nhân dân",
+        "Khái quát ý nghĩa của việc điều chỉnh địa giới hành chính Hà Nội"
+      ],
+      "target": 9,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q191",
+        "VNR202-C04-Q192",
+        "VNR202-C04-Q193",
+        "VNR202-C04-Q194",
+        "VNR202-C04-Q195",
+        "VNR202-C04-Q196",
+        "VNR202-C04-Q197",
+        "VNR202-C04-Q198",
+        "VNR202-C04-Q199"
+      ]
+    },
+    {
+      "id": "c04b-a09-workers-youth-intellectuals",
+      "chapterNum": 4,
+      "label": "Xây dựng giai cấp công nhân, thanh niên và đội ngũ trí thức",
+      "sourceSections": [
+        "Logical lines 7340-7425 > Chủ trương đối với công nhân, thanh niên và trí thức"
+      ],
+      "learningObjectives": [
+        "Phân tích vị trí và yêu cầu xây dựng giai cấp công nhân trong công nghiệp hóa, hiện đại hóa",
+        "Giải thích vai trò của thanh niên và trách nhiệm của Đảng, Nhà nước, Đoàn, gia đình, nhà trường, xã hội",
+        "Phân tích vai trò đặc biệt của trí thức và quan điểm đầu tư phát triển đội ngũ trí thức",
+        "So sánh chủ thể, mục tiêu và phương thức phát huy ba lực lượng xã hội"
+      ],
+      "target": 8,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q200",
+        "VNR202-C04-Q201",
+        "VNR202-C04-Q202",
+        "VNR202-C04-Q203",
+        "VNR202-C04-Q204",
+        "VNR202-C04-Q205",
+        "VNR202-C04-Q206",
+        "VNR202-C04-Q207"
+      ]
+    },
+    {
+      "id": "c04b-a10-ideology-culture-integration",
+      "chapterNum": 4,
+      "label": "Tư tưởng, văn hóa, an sinh, hội nhập WTO và đối ngoại",
+      "sourceSections": [
+        "Logical lines 7427-7565 > Học tập đạo đức Hồ Chí Minh; công tác tư tưởng, văn hóa, tiền lương; hội nhập WTO và đối ngoại"
+      ],
+      "learningObjectives": [
+        "Giải thích mục đích, nội dung và kết quả bước đầu của cuộc vận động học tập và làm theo tấm gương đạo đức Hồ Chí Minh",
+        "Phân tích vị trí, nguyên tắc của công tác tư tưởng, lý luận, báo chí và văn học, nghệ thuật",
+        "Nhận diện quan điểm cải cách tiền lương, bảo hiểm xã hội và trợ cấp người có công",
+        "Phân tích cơ hội, thách thức và quan điểm chỉ đạo khi Việt Nam gia nhập WTO",
+        "Khái quát thành tựu và hạn chế đối ngoại giai đoạn 2006-2010"
+      ],
+      "target": 8,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q208",
+        "VNR202-C04-Q209",
+        "VNR202-C04-Q210",
+        "VNR202-C04-Q211",
+        "VNR202-C04-Q212",
+        "VNR202-C04-Q213",
+        "VNR202-C04-Q214",
+        "VNR202-C04-Q215"
+      ]
+    },
+    {
+      "id": "c04b-b01-congress-xi",
+      "chapterNum": 4,
+      "label": "Đại hội XI: bối cảnh, nội dung và ý nghĩa",
+      "sourceSections": [
+        "Logical lines 7567-7599 > Đại hội đại biểu toàn quốc lần thứ XI"
+      ],
+      "learningObjectives": [
+        "Nhận diện bối cảnh và các văn kiện nổi bật của Đại hội XI",
+        "Xác định kết quả nhân sự chủ chốt",
+        "Giải thích ý nghĩa của Đại hội đối với việc tiếp tục hoàn thiện đường lối đổi mới"
+      ],
+      "target": 4,
+      "difficultyTargets": {
+        "Nhận biết": 1,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q216",
+        "VNR202-C04-Q217",
+        "VNR202-C04-Q218",
+        "VNR202-C04-Q219"
+      ]
+    },
+    {
+      "id": "c04b-b02-platform-2011-lessons",
+      "chapterNum": 4,
+      "label": "Cương lĩnh năm 2011: quá trình cách mạng và các bài học",
+      "sourceSections": [
+        "Logical lines 7601-7629 > Kết cấu Cương lĩnh, thắng lợi cách mạng và năm bài học kinh nghiệm"
+      ],
+      "learningObjectives": [
+        "Nhận diện kết cấu và điểm bổ sung của Cương lĩnh năm 2011",
+        "Khái quát cách Cương lĩnh đánh giá các thắng lợi và sai lầm, khuyết điểm",
+        "Phân tích năm bài học kinh nghiệm lớn",
+        "Giải thích các điểm diễn đạt mới về vai trò của nhân dân và sự lãnh đạo của Đảng"
+      ],
+      "target": 9,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q220",
+        "VNR202-C04-Q221",
+        "VNR202-C04-Q222",
+        "VNR202-C04-Q223",
+        "VNR202-C04-Q224",
+        "VNR202-C04-Q225",
+        "VNR202-C04-Q226",
+        "VNR202-C04-Q227",
+        "VNR202-C04-Q228"
+      ]
+    },
+    {
+      "id": "c04b-b03-platform-2011-model-directions",
+      "chapterNum": 4,
+      "label": "Cương lĩnh năm 2011: bối cảnh, mô hình, mục tiêu và phương hướng",
+      "sourceSections": [
+        "Logical lines 7631-7740 > Bối cảnh thời đại; mô hình, mục tiêu, tám phương hướng và tám mối quan hệ lớn"
+      ],
+      "learningObjectives": [
+        "Phân tích đánh giá của Cương lĩnh về thời đại, chủ nghĩa xã hội, chủ nghĩa tư bản và các vấn đề toàn cầu",
+        "Nhận diện tám đặc trưng của xã hội xã hội chủ nghĩa Việt Nam",
+        "Giải thích mục tiêu kết thúc thời kỳ quá độ và mục tiêu giữa thế kỷ XXI",
+        "Phân loại tám phương hướng cơ bản xây dựng chủ nghĩa xã hội",
+        "Vận dụng yêu cầu giải quyết tốt tám mối quan hệ lớn"
+      ],
+      "target": 12,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q229",
+        "VNR202-C04-Q230",
+        "VNR202-C04-Q231",
+        "VNR202-C04-Q232",
+        "VNR202-C04-Q233",
+        "VNR202-C04-Q234",
+        "VNR202-C04-Q235",
+        "VNR202-C04-Q236",
+        "VNR202-C04-Q237",
+        "VNR202-C04-Q238",
+        "VNR202-C04-Q239",
+        "VNR202-C04-Q240"
+      ]
+    },
+    {
+      "id": "c04b-b04-platform-2011-sector-directions",
+      "chapterNum": 4,
+      "label": "Cương lĩnh năm 2011: định hướng trên các lĩnh vực",
+      "sourceSections": [
+        "Logical lines 7742-7921 > Kinh tế, văn hóa, con người, giáo dục, khoa học, xã hội, quốc phòng, đối ngoại, dân chủ, Nhà nước, Mặt trận và Đảng"
+      ],
+      "learningObjectives": [
+        "Phân tích định hướng kinh tế thị trường, cơ cấu thành phần kinh tế và công nghiệp hóa, hiện đại hóa",
+        "Giải thích quan điểm về văn hóa, con người, giáo dục, khoa học-công nghệ và chính sách xã hội",
+        "Phân biệt các định hướng quốc phòng, an ninh và đối ngoại",
+        "Phân tích quan niệm về dân chủ xã hội chủ nghĩa, Nhà nước pháp quyền và Mặt trận Tổ quốc",
+        "Giải thích bản chất, nền tảng tư tưởng, phương thức lãnh đạo và quan hệ giữa Đảng với nhân dân",
+        "Đánh giá ý nghĩa lý luận và thực tiễn của Cương lĩnh"
+      ],
+      "target": 16,
+      "difficultyTargets": {
+        "Nhận biết": 6,
+        "Thông hiểu": 7,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q241",
+        "VNR202-C04-Q242",
+        "VNR202-C04-Q243",
+        "VNR202-C04-Q244",
+        "VNR202-C04-Q245",
+        "VNR202-C04-Q246",
+        "VNR202-C04-Q247",
+        "VNR202-C04-Q248",
+        "VNR202-C04-Q249",
+        "VNR202-C04-Q250",
+        "VNR202-C04-Q251",
+        "VNR202-C04-Q252",
+        "VNR202-C04-Q253",
+        "VNR202-C04-Q254",
+        "VNR202-C04-Q255",
+        "VNR202-C04-Q256"
+      ]
+    },
+    {
+      "id": "c04b-b05-strategy-2011-2020",
+      "chapterNum": 4,
+      "label": "Chiến lược phát triển kinh tế-xã hội 2011-2020",
+      "sourceSections": [
+        "Logical lines 7923-7943 > Quan điểm phát triển, ba đột phá và định hướng phát triển kinh tế-xã hội"
+      ],
+      "learningObjectives": [
+        "Giải thích yêu cầu phát triển nhanh gắn với phát triển bền vững",
+        "Nhận diện ba đột phá chiến lược",
+        "Phân tích quan hệ giữa đổi mới mô hình tăng trưởng, vai trò Nhà nước-thị trường và cải cách hành chính",
+        "Vận dụng yêu cầu phát huy dân chủ và phòng, chống tham nhũng trong xây dựng bộ máy"
+      ],
+      "target": 8,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q257",
+        "VNR202-C04-Q258",
+        "VNR202-C04-Q259",
+        "VNR202-C04-Q260",
+        "VNR202-C04-Q261",
+        "VNR202-C04-Q262",
+        "VNR202-C04-Q263",
+        "VNR202-C04-Q264"
+      ]
+    },
+    {
+      "id": "c04b-b06-congress-xi-review",
+      "chapterNum": 4,
+      "label": "Đại hội XI: tổng kết kinh nghiệm và định hướng triển khai",
+      "sourceSections": [
+        "Logical lines 7949-7970 > Năm kinh nghiệm và các lĩnh vực trọng tâm sau Đại hội XI"
+      ],
+      "learningObjectives": [
+        "Phân tích năm kinh nghiệm được rút ra tại Đại hội XI",
+        "Giải thích quan hệ giữa kiên định mục tiêu đổi mới với nhạy bén, sáng tạo trong lãnh đạo",
+        "Khái quát các lĩnh vực trọng tâm cần tiếp tục đổi mới"
+      ],
+      "target": 6,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 2,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q265",
+        "VNR202-C04-Q266",
+        "VNR202-C04-Q267",
+        "VNR202-C04-Q268",
+        "VNR202-C04-Q269",
+        "VNR202-C04-Q270"
+      ]
+    },
+    {
+      "id": "c04b-c01-infrastructure-land-soe",
+      "chapterNum": 4,
+      "label": "Hạ tầng, đất đai và doanh nghiệp nhà nước 2011-2015",
+      "sourceSections": [
+        "Logical lines 7972-8052 > Chỉ đạo về kết cấu hạ tầng, chính sách đất đai, doanh nghiệp nhà nước và kết quả kinh tế"
+      ],
+      "learningObjectives": [
+        "Phân tích quan điểm xây dựng kết cấu hạ tầng đồng bộ và huy động nguồn lực xã hội",
+        "Giải thích chế độ sở hữu, quản lý, phân bổ và sử dụng đất đai",
+        "Phân tích vai trò, hạn chế và định hướng sắp xếp doanh nghiệp nhà nước",
+        "Khái quát kết quả ổn định kinh tế vĩ mô của giai đoạn"
+      ],
+      "target": 7,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q271",
+        "VNR202-C04-Q272",
+        "VNR202-C04-Q273",
+        "VNR202-C04-Q274",
+        "VNR202-C04-Q275",
+        "VNR202-C04-Q276",
+        "VNR202-C04-Q277"
+      ]
+    },
+    {
+      "id": "c04b-c02-party-building-anticorruption",
+      "chapterNum": 4,
+      "label": "Học tập Hồ Chí Minh, chỉnh đốn Đảng và phòng, chống tham nhũng",
+      "sourceSections": [
+        "Logical lines 8054-8104 > Chỉ thị 03, Nghị quyết Trung ương 4 khóa XI và chủ trương phòng, chống tham nhũng",
+        "Logical lines 8115-8137 > Tổ chức chỉ đạo phòng, chống tham nhũng và kết quả tự phê bình, phê bình"
+      ],
+      "learningObjectives": [
+        "Giải thích mục đích và nội dung tiếp tục học tập, làm theo tấm gương đạo đức Hồ Chí Minh",
+        "Phân tích ba vấn đề cấp bách về xây dựng Đảng và xác định vấn đề trọng tâm",
+        "Giải thích quan điểm, cơ chế tổ chức phòng, chống tham nhũng",
+        "Đánh giá ý nghĩa của tự phê bình, phê bình và thái độ nhận lỗi, sửa chữa khuyết điểm"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": "Loại riêng đoạn lặp 8105-8114; quota chỉ áp dụng cho nội dung không trùng lặp.",
+      "questionIds": [
+        "VNR202-C04-Q278",
+        "VNR202-C04-Q279",
+        "VNR202-C04-Q280",
+        "VNR202-C04-Q281",
+        "VNR202-C04-Q282",
+        "VNR202-C04-Q283",
+        "VNR202-C04-Q284",
+        "VNR202-C04-Q285",
+        "VNR202-C04-Q286",
+        "VNR202-C04-Q287"
+      ]
+    },
+    {
+      "id": "c04b-c02-duplicate-three-urgent-issues",
+      "chapterNum": 4,
+      "label": "Đoạn lặp ba vấn đề cấp bách về xây dựng Đảng",
+      "sourceSections": [
+        "Logical lines 8105-8114 > Lặp gần nguyên văn nội dung tại logical lines 8085-8093"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "duplicate",
+      "reason": "Nội dung lặp lại ba vấn đề cấp bách đã được bao phủ trong group c04b-c02-party-building-anticorruption; không cấp quota riêng.",
+      "questionIds": []
+    },
+    {
+      "id": "c04b-c03-political-system-mass-mobilization",
+      "chapterNum": 4,
+      "label": "Hệ thống chính trị, công tác dân vận và Hiến pháp năm 2013",
+      "sourceSections": [
+        "Logical lines 8139-8180 > Hoàn thiện hệ thống chính trị, đổi mới công tác dân vận và sửa đổi Hiến pháp"
+      ],
+      "learningObjectives": [
+        "Nhận diện định hướng hoàn thiện hệ thống chính trị và nguyên tắc của Nhà nước pháp quyền xã hội chủ nghĩa",
+        "Phân tích quan điểm nhân dân là chủ, nhân dân làm chủ trong công tác dân vận",
+        "Giải thích trách nhiệm của Đảng, chính quyền, Mặt trận, đoàn thể và cán bộ trong công tác dân vận",
+        "Khái quát tinh thần tiếp thu ý kiến nhân dân và việc ban hành Hiến pháp năm 2013"
+      ],
+      "target": 6,
+      "difficultyTargets": {
+        "Nhận biết": 2,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q288",
+        "VNR202-C04-Q289",
+        "VNR202-C04-Q290",
+        "VNR202-C04-Q291",
+        "VNR202-C04-Q292",
+        "VNR202-C04-Q293"
+      ]
+    },
+    {
+      "id": "c04b-c04-science-education-reform",
+      "chapterNum": 4,
+      "label": "Phát triển khoa học-công nghệ và đổi mới giáo dục-đào tạo",
+      "sourceSections": [
+        "Logical lines 8182-8252 > Nghị quyết về khoa học-công nghệ và đổi mới căn bản, toàn diện giáo dục-đào tạo"
+      ],
+      "learningObjectives": [
+        "Phân tích mục tiêu và quan điểm coi khoa học-công nghệ là quốc sách hàng đầu",
+        "Giải thích yêu cầu đổi mới tổ chức, cơ chế, đầu tư và phát triển nhân lực khoa học-công nghệ",
+        "Nhận diện vai trò của doanh nghiệp, hội nhập quốc tế và nghiên cứu ứng dụng",
+        "Giải thích nội hàm đổi mới căn bản, toàn diện giáo dục-đào tạo",
+        "Phân tích chuyển hướng từ trang bị kiến thức sang phát triển năng lực, phẩm chất người học"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q294",
+        "VNR202-C04-Q295",
+        "VNR202-C04-Q296",
+        "VNR202-C04-Q297",
+        "VNR202-C04-Q298",
+        "VNR202-C04-Q299",
+        "VNR202-C04-Q300",
+        "VNR202-C04-Q301",
+        "VNR202-C04-Q302",
+        "VNR202-C04-Q303"
+      ]
+    },
+    {
+      "id": "c04b-c05-culture-social-environment",
+      "chapterNum": 4,
+      "label": "Văn hóa, con người, chính sách xã hội và môi trường",
+      "sourceSections": [
+        "Logical lines 8254-8320 > Văn hóa, con người, chính sách xã hội và bối cảnh biến đổi khí hậu",
+        "Logical lines 8328-8333 > Quan điểm quản lý tổng hợp tài nguyên và phát triển bền vững"
+      ],
+      "learningObjectives": [
+        "Giải thích vị trí của văn hóa và trọng tâm xây dựng con người Việt Nam",
+        "Phân tích vai trò của Đảng, Nhà nước, nhân dân và trí thức trong phát triển văn hóa",
+        "Nhận diện nguyên tắc ưu đãi người có công và xây dựng hệ thống an sinh xã hội",
+        "Phân tích yêu cầu ứng phó biến đổi khí hậu, quản lý tài nguyên và bảo vệ môi trường theo hướng liên ngành, liên vùng",
+        "Vận dụng quan hệ giữa tài nguyên, mô hình tăng trưởng và phát triển bền vững"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": "Không dùng các mốc thời gian lỗi trong logical lines 8321-8327; chỉ dùng các quan điểm hoàn chỉnh và nhất quán ở phần còn lại.",
+      "questionIds": [
+        "VNR202-C04-Q304",
+        "VNR202-C04-Q305",
+        "VNR202-C04-Q306",
+        "VNR202-C04-Q307",
+        "VNR202-C04-Q308",
+        "VNR202-C04-Q309",
+        "VNR202-C04-Q310",
+        "VNR202-C04-Q311",
+        "VNR202-C04-Q312",
+        "VNR202-C04-Q313"
+      ]
+    },
+    {
+      "id": "c04b-c05-excluded-corrupt-dates",
+      "chapterNum": 4,
+      "label": "Dữ kiện niên đại không nhất quán về biến đổi khí hậu",
+      "sourceSections": [
+        "Logical lines 8321-8327 > Mốc '6-2016' và mục tiêu 'đến năm 2000' trong ngữ cảnh khóa XI"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "excluded",
+      "reason": "Đoạn có lỗi niên đại nội tại và OCR làm thay đổi ý nghĩa; không dùng để kiểm tra ngày tháng, nhiệm kỳ hoặc mục tiêu thời gian.",
+      "questionIds": []
+    },
+    {
+      "id": "c04b-c06-defense-foreign-affairs",
+      "chapterNum": 4,
+      "label": "Chiến lược bảo vệ Tổ quốc và thành tựu đối ngoại",
+      "sourceSections": [
+        "Logical lines 8335-8380 > Chiến lược bảo vệ Tổ quốc trong tình hình mới và đối ngoại 2011-2015"
+      ],
+      "learningObjectives": [
+        "Phân tích các quan điểm mới của Chiến lược bảo vệ Tổ quốc",
+        "Giải thích quan hệ giữa xây dựng và bảo vệ Tổ quốc, nội lực và ngoại lực, chiến lược và sách lược",
+        "Khái quát thành tựu đối ngoại song phương, đa phương, kinh tế và văn hóa",
+        "Đánh giá vai trò của luật pháp quốc tế và ASEAN đối với vấn đề Biển Đông"
+      ],
+      "target": 9,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q314",
+        "VNR202-C04-Q315",
+        "VNR202-C04-Q316",
+        "VNR202-C04-Q317",
+        "VNR202-C04-Q318",
+        "VNR202-C04-Q319",
+        "VNR202-C04-Q320",
+        "VNR202-C04-Q321",
+        "VNR202-C04-Q322"
+      ]
+    },
+    {
+      "id": "c04b-d01-congress-xii",
+      "chapterNum": 4,
+      "label": "Đại hội XII: tổng kết, mục tiêu và sáu nhiệm vụ trọng tâm",
+      "sourceSections": [
+        "Logical lines 8382-8501 > Đại hội XII, năm kinh nghiệm, nhiệm vụ các lĩnh vực và sáu nhiệm vụ trọng tâm"
+      ],
+      "learningObjectives": [
+        "Nhận diện bối cảnh, chủ đề, kết quả nhân sự và ý nghĩa Đại hội XII",
+        "Phân tích năm kinh nghiệm sau nhiệm kỳ Đại hội XI",
+        "Khái quát mục tiêu và các nhiệm vụ phát triển đất nước giai đoạn 2016-2020",
+        "Phân loại sáu nhiệm vụ trọng tâm của nhiệm kỳ XII",
+        "Vận dụng quan hệ giữa phát triển kinh tế, xây dựng Đảng, văn hóa, quốc phòng-an ninh và hội nhập"
+      ],
+      "target": 14,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q323",
+        "VNR202-C04-Q324",
+        "VNR202-C04-Q325",
+        "VNR202-C04-Q326",
+        "VNR202-C04-Q327",
+        "VNR202-C04-Q328",
+        "VNR202-C04-Q329",
+        "VNR202-C04-Q330",
+        "VNR202-C04-Q331",
+        "VNR202-C04-Q332",
+        "VNR202-C04-Q333",
+        "VNR202-C04-Q334",
+        "VNR202-C04-Q335",
+        "VNR202-C04-Q336"
+      ]
+    },
+    {
+      "id": "c04b-d02-economic-renewal-integration",
+      "chapterNum": 4,
+      "label": "Đổi mới mô hình tăng trưởng, thể chế kinh tế và hội nhập",
+      "sourceSections": [
+        "Logical lines 8503-8688 > Chủ trương khóa XII về tăng trưởng, hội nhập, thể chế, doanh nghiệp nhà nước và kinh tế tư nhân"
+      ],
+      "learningObjectives": [
+        "Phân tích quan điểm đổi mới mô hình tăng trưởng và nâng cao năng suất, sức cạnh tranh",
+        "Giải thích trọng tâm cơ cấu lại nền kinh tế và vai trò của khoa học-công nghệ, nguồn nhân lực",
+        "Phân tích quan điểm hội nhập kinh tế quốc tế trong các hiệp định thương mại tự do thế hệ mới",
+        "Giải thích yêu cầu hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
+        "Phân biệt vai trò của doanh nghiệp nhà nước với kinh tế tư nhân",
+        "Vận dụng nguyên tắc phát triển kinh tế tư nhân lành mạnh gắn với kiểm tra, minh bạch và trách nhiệm xã hội"
+      ],
+      "target": 16,
+      "difficultyTargets": {
+        "Nhận biết": 7,
+        "Thông hiểu": 6,
+        "Vận dụng": 3
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q337",
+        "VNR202-C04-Q338",
+        "VNR202-C04-Q339",
+        "VNR202-C04-Q340",
+        "VNR202-C04-Q341",
+        "VNR202-C04-Q342",
+        "VNR202-C04-Q343",
+        "VNR202-C04-Q344",
+        "VNR202-C04-Q345",
+        "VNR202-C04-Q346",
+        "VNR202-C04-Q347",
+        "VNR202-C04-Q348",
+        "VNR202-C04-Q349",
+        "VNR202-C04-Q350",
+        "VNR202-C04-Q351",
+        "VNR202-C04-Q352"
+      ]
+    },
+    {
+      "id": "c04b-d03-sea-party-cadres",
+      "chapterNum": 4,
+      "label": "Kinh tế biển, xây dựng Đảng và công tác cán bộ",
+      "sourceSections": [
+        "Logical lines 8690-8793 > Chiến lược biển 2030-2045; học tập Hồ Chí Minh; chỉnh đốn Đảng; tổ chức bộ máy và cán bộ"
+      ],
+      "learningObjectives": [
+        "Phân tích quan điểm phát triển bền vững kinh tế biển gắn với chủ quyền, quốc phòng, môi trường và hợp tác quốc tế",
+        "Giải thích vai trò của Chỉ thị 05 trong xây dựng, chỉnh đốn Đảng",
+        "Nhận diện yêu cầu ngăn chặn suy thoái, tự diễn biến, tự chuyển hóa",
+        "Phân tích hạn chế và định hướng tinh gọn tổ chức bộ máy hệ thống chính trị",
+        "Giải thích vị trí, nguyên tắc và trách nhiệm xây dựng đội ngũ cán bộ cấp chiến lược",
+        "Nhận diện yêu cầu nêu gương của cán bộ, đảng viên"
+      ],
+      "target": 12,
+      "difficultyTargets": {
+        "Nhận biết": 5,
+        "Thông hiểu": 5,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q353",
+        "VNR202-C04-Q354",
+        "VNR202-C04-Q355",
+        "VNR202-C04-Q356",
+        "VNR202-C04-Q357",
+        "VNR202-C04-Q358",
+        "VNR202-C04-Q359",
+        "VNR202-C04-Q360",
+        "VNR202-C04-Q361",
+        "VNR202-C04-Q362",
+        "VNR202-C04-Q363",
+        "VNR202-C04-Q364"
+      ]
+    },
+    {
+      "id": "c04b-d03-officeholding-context",
+      "chapterNum": 4,
+      "label": "Thông tin chức danh lãnh đạo năm 2018",
+      "sourceSections": [
+        "Logical lines 8794-8800 > Quốc hội bầu Tổng Bí thư Nguyễn Phú Trọng giữ cương vị Chủ tịch nước"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "context-only",
+      "reason": "Dữ kiện chức danh chỉ nối mạch niên biểu, không phải learning objective cốt lõi của nhóm xây dựng Đảng và công tác cán bộ.",
+      "questionIds": []
+    },
+    {
+      "id": "c04b-d04-health-population-social-security",
+      "chapterNum": 4,
+      "label": "Sức khỏe, dân số, tiền lương và bảo hiểm xã hội",
+      "sourceSections": [
+        "Logical lines 8802-8848 > Chủ trương khóa XII về y tế, dân số, cải cách tiền lương và bảo hiểm xã hội"
+      ],
+      "learningObjectives": [
+        "Giải thích quan điểm sức khỏe là vốn quý và đầu tư cho sức khỏe là đầu tư cho phát triển",
+        "Phân tích trách nhiệm của cá nhân, hệ thống chính trị, xã hội và vai trò nòng cốt của ngành y tế",
+        "Nhận diện nguyên tắc cải cách chính sách tiền lương",
+        "Giải thích vị trí của bảo hiểm xã hội trong hệ thống an sinh"
+      ],
+      "target": 6,
+      "difficultyTargets": {
+        "Nhận biết": 2,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q365",
+        "VNR202-C04-Q366",
+        "VNR202-C04-Q367",
+        "VNR202-C04-Q368",
+        "VNR202-C04-Q369",
+        "VNR202-C04-Q370"
+      ]
+    },
+    {
+      "id": "c04b-e01-renewal-economic-achievements",
+      "chapterNum": 4,
+      "label": "Thành tựu kinh tế của công cuộc đổi mới",
+      "sourceSections": [
+        "Logical lines 8850-8903 > Khái quát đổi mới; tăng trưởng, thể chế thị trường và cơ sở hạ tầng"
+      ],
+      "learningObjectives": [
+        "Giải thích tầm vóc và ý nghĩa cách mạng của công cuộc đổi mới",
+        "Khái quát thành tựu tăng trưởng, ổn định vĩ mô và nâng cao thu nhập",
+        "Phân tích quá trình hình thành thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
+        "Nhận diện sự phát triển của các chủ thể, yếu tố và loại thị trường",
+        "Đánh giá vai trò của cơ sở vật chất, kết cấu hạ tầng đối với phát triển"
+      ],
+      "target": 8,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q371",
+        "VNR202-C04-Q372",
+        "VNR202-C04-Q373",
+        "VNR202-C04-Q374",
+        "VNR202-C04-Q375",
+        "VNR202-C04-Q376",
+        "VNR202-C04-Q377",
+        "VNR202-C04-Q378"
+      ]
+    },
+    {
+      "id": "c04b-e02-renewal-cultural-social-achievements",
+      "chapterNum": 4,
+      "label": "Thành tựu văn hóa và xã hội của công cuộc đổi mới",
+      "sourceSections": [
+        "Logical lines 8905-8951 > Phát triển văn hóa, việc làm, giảm nghèo, giáo dục, y tế và an sinh xã hội"
+      ],
+      "learningObjectives": [
+        "Khái quát bước tiến nhận thức, thể chế và nguồn lực phát triển văn hóa",
+        "Phân tích thành tựu về việc làm, giảm nghèo và xây dựng nông thôn mới",
+        "Nhận diện tiến bộ giáo dục, chăm sóc sức khỏe và chính sách người có công",
+        "Giải thích sự hình thành hệ thống an sinh xã hội toàn diện, đa dạng"
+      ],
+      "target": 7,
+      "difficultyTargets": {
+        "Nhận biết": 3,
+        "Thông hiểu": 3,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q379",
+        "VNR202-C04-Q380",
+        "VNR202-C04-Q381",
+        "VNR202-C04-Q382",
+        "VNR202-C04-Q383",
+        "VNR202-C04-Q384",
+        "VNR202-C04-Q385"
+      ]
+    },
+    {
+      "id": "c04b-e03-renewal-defense-foreign-achievements",
+      "chapterNum": 4,
+      "label": "Thành tựu quốc phòng, an ninh và đối ngoại của công cuộc đổi mới",
+      "sourceSections": [
+        "Logical lines 8953-9010 > Xây dựng và bảo vệ Tổ quốc; đổi mới tư duy và thành tựu đối ngoại"
+      ],
+      "learningObjectives": [
+        "Phân tích quan hệ biện chứng giữa xây dựng và bảo vệ Tổ quốc",
+        "Giải thích sự kết hợp kinh tế, quốc phòng, an ninh và đối ngoại",
+        "Khái quát kết quả biên giới, phân định và sức mạnh tổng hợp bảo vệ Tổ quốc",
+        "Xâu chuỗi sự phát triển tư duy đối ngoại từ phá bao vây, cấm vận đến hội nhập quốc tế toàn diện",
+        "Phân tích quan niệm đối tác-đối tượng trên cơ sở lợi ích quốc gia-dân tộc",
+        "Nhận diện thành tựu quan hệ song phương, đa phương và vị thế quốc tế của Việt Nam"
+      ],
+      "target": 10,
+      "difficultyTargets": {
+        "Nhận biết": 4,
+        "Thông hiểu": 4,
+        "Vận dụng": 2
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q386",
+        "VNR202-C04-Q387",
+        "VNR202-C04-Q388",
+        "VNR202-C04-Q389",
+        "VNR202-C04-Q390",
+        "VNR202-C04-Q391",
+        "VNR202-C04-Q392",
+        "VNR202-C04-Q393",
+        "VNR202-C04-Q394",
+        "VNR202-C04-Q395"
+      ]
+    },
+    {
+      "id": "c04b-e04-renewal-political-system-significance",
+      "chapterNum": 4,
+      "label": "Thành tựu hệ thống chính trị, ý nghĩa và nguyên nhân đổi mới",
+      "sourceSections": [
+        "Logical lines 9012-9069 > Dân chủ, Nhà nước pháp quyền, xây dựng Đảng; ý nghĩa và nguyên nhân thành tựu đổi mới"
+      ],
+      "learningObjectives": [
+        "Giải thích bước phát triển nhận thức về dân chủ xã hội chủ nghĩa, cơ chế vận hành hệ thống chính trị và Nhà nước pháp quyền",
+        "Phân tích nhận thức mới về bản chất, nền tảng tư tưởng, xây dựng và phương thức lãnh đạo của Đảng",
+        "Đánh giá ý nghĩa và các nguyên nhân chủ yếu tạo nên thành tựu đổi mới"
+      ],
+      "target": 3,
+      "difficultyTargets": {
+        "Nhận biết": 1,
+        "Thông hiểu": 1,
+        "Vận dụng": 1
+      },
+      "status": "covered",
+      "reason": null,
+      "questionIds": [
+        "VNR202-C04-Q396",
+        "VNR202-C04-Q397",
+        "VNR202-C04-Q398"
+      ]
+    },
+    {
+      "id": "c04b-e05-renewal-limitations-complete",
+      "chapterNum": 4,
+      "label": "Một số hạn chế của công cuộc đổi mới - phần hoàn chỉnh",
+      "sourceSections": [
+        "Logical lines 9071-9082 > Hạn chế về tổng kết lý luận và tính bền vững của phát triển"
+      ],
+      "learningObjectives": [
+        "Nhận diện hạn chế trong tổng kết thực tiễn, nghiên cứu lý luận và làm rõ con đường đi lên chủ nghĩa xã hội",
+        "Phân tích các biểu hiện phát triển kinh tế, văn hóa, xã hội và môi trường chưa bền vững"
+      ],
+      "target": 2,
+      "difficultyTargets": {
+        "Nhận biết": 1,
+        "Thông hiểu": 1,
+        "Vận dụng": 0
+      },
+      "status": "covered",
+      "reason": "Chỉ bao phủ hai đoạn hoàn chỉnh trước seam cuối; không suy rộng sang mệnh đề bị cắt ở 9084-9085.",
+      "questionIds": [
+        "VNR202-C04-Q399",
+        "VNR202-C04-Q400"
+      ]
+    },
+    {
+      "id": "c04b-e06-renewal-limitations-seam",
+      "chapterNum": 4,
+      "label": "Seam cuối phạm vi: đoạn hạn chế bị cắt",
+      "sourceSections": [
+        "Logical lines 9084-9085 > Mệnh đề về các vấn đề xã hội và nguy cơ còn dang dở"
+      ],
+      "learningObjectives": [],
+      "target": 0,
+      "difficultyTargets": {
+        "Nhận biết": 0,
+        "Thông hiểu": 0,
+        "Vận dụng": 0
+      },
+      "status": "excluded",
+      "reason": "Lát cắt kết thúc giữa đoạn văn; không đủ bằng chứng hoàn chỉnh để tạo learning objective hoặc câu hỏi. Phần tiếp nối thuộc fragment kế tiếp.",
+      "questionIds": []
+    }
+  ]
+}
