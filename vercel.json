@@ -11,7 +11,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'self'; form-action 'none'; script-src 'self' 'sha256-jl5l5DuNnsu4fVj5+6og96LHO99CD7s+GFGj1cA3qDk=' 'sha256-mCTjx6FlMHHm7TSy6uQy6zK3P/dCJbNYsE/1l6D+nzQ='; script-src-attr 'none'; style-src 'self'; style-src-elem 'self' 'sha256-BzJBYxP1P1nxmcxVkadonktI+yyLhVikNbD0hwnBoJs='; style-src-attr 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube-nocookie.com; connect-src 'self'; font-src 'self'; media-src 'none'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests"
+          "value": "default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'self'; form-action 'none'; script-src 'self' 'sha256-YJli8ezFN70YLsFy9l9sdHVKIoyb5Fo5qHiYBIAN1Jw=' 'sha256-jl5l5DuNnsu4fVj5+6og96LHO99CD7s+GFGj1cA3qDk='; script-src-attr 'none'; style-src 'self'; style-src-elem 'self' 'sha256-BzJBYxP1P1nxmcxVkadonktI+yyLhVikNbD0hwnBoJs='; style-src-attr 'unsafe-inline'; img-src 'self' data: https://i.ytimg.com; frame-src https://www.youtube-nocookie.com; connect-src 'self'; font-src 'self'; media-src 'none'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests"
         },
         {
           "key": "X-Content-Type-Options",

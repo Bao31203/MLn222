@@ -127,6 +127,7 @@ Kết quả release gate hiện tại:
 - Hai clean build cho output giống nhau, gồm 5 môn/1.364 câu. `dist/index.html`: SHA-256 `b2faf6a295176cd136b7619d82630d0af1636378fc99728215b499eb70d3442d`, 2.827.553 byte raw, 704.131 byte gzip; input snapshot `ee30d33c369227206966fd6e63adc8b0c25f5cbdb00033f20b20cef90a2c7254`.
 - Browser QA pass ở desktop 1440×900 và mobile 390×844: Home có 5 môn/3 môn sẵn sàng; overview HCM202 có 480 câu/6 chương; Quiz và Flashcard dùng được bằng bàn phím; Search không phân biệt dấu; Back, deep link và feature gate chặn Lecture/Game HCM202 đều đúng. Có 0 page/console error và 0 horizontal overflow.
 - Local HTTP trả 200 cho root và 404 cho đường dẫn không tồn tại. Request 404 duy nhất trong phiên browser là favicon tùy chọn do trình duyệt tự yêu cầu.
+- Cập nhật VNR202: build mới có 5 môn/2.494 câu, trong đó VNR202 có 850 câu; `dist/index.html` raw 4.527.482 byte, dưới ngưỡng 5 MiB raw và 1 MiB gzip.
 
 Bằng chứng giao diện: [HCM202 trên Home](docs/screenshots/08-hcm202-course-home.png), [overview 480 câu/6 chương](docs/screenshots/09-hcm202-overview.png), [Flashcard](docs/screenshots/10-hcm202-flashcard.png), [Search](docs/screenshots/11-hcm202-search.png) và [Quiz mobile](docs/screenshots/12-hcm202-mobile-quiz.png).
 

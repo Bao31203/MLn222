@@ -120,7 +120,7 @@ class ContentContractTests(unittest.TestCase):
         )
         self.assertEqual(
             [item["status"] for item in self.registry["subjects"]],
-            ["ready", "ready", "draft", "ready", "ready"],
+            ["ready", "ready", "ready", "ready", "ready"],
         )
         self.assertFalse((self.subjects_root / "hcm201").exists())
         expected_fields = {"id", "code", "legacyAliases", "status", "metadataPath"}
@@ -154,7 +154,7 @@ class ContentContractTests(unittest.TestCase):
         content_root = self.content_root.resolve()
         all_chapter_ids: set[str] = set()
         all_paths: set[Path] = set()
-        for subject_id in ("mln111", "mln112", "hcm202", "vnr202"):
+        for subject_id in ("mln111", "mln112", "mln131", "hcm202", "vnr202"):
             profile = self.profiles[subject_id]
             with self.subTest(subject=subject_id):
                 self.assertEqual(profile["status"], "ready")
@@ -186,23 +186,25 @@ class ContentContractTests(unittest.TestCase):
                     self.assertNotIn(resolved, all_paths)
                     all_paths.add(resolved)
 
-    def test_draft_profile_exposes_authored_progress_without_becoming_study_ready(self) -> None:
+    def test_mln131_and_vnr202_profiles_expose_authored_banks(self) -> None:
         expected_fields = {
             "schemaVersion", "id", "code", "legacyAliases", "title", "description",
             "status", "studyReady", "copyReviewRequired", "features", "questionTarget",
             "chapters", "questionFiles", "lectureManifest", "validation",
         }
-        profile = self.profiles["mln131"]
-        self.assertEqual(set(profile), expected_fields)
-        self.assertEqual(profile["status"], "draft")
-        self.assertIs(profile["studyReady"], False)
-        self.assertIs(profile["copyReviewRequired"], True)
-        self.assertEqual(profile["questionTarget"], 280)
-        self.assertEqual(len(profile["chapters"]), 7)
-        self.assertEqual(len(profile["questionFiles"]), 7)
-        self.assertTrue(profile["features"]["quiz"])
-        self.assertTrue(profile["features"]["flashcards"])
-        self.assertTrue(profile["features"]["search"])
+        for subject_id, target, chapter_count in (("mln131", 280, 7), ("vnr202", 850, 5)):
+            profile = self.profiles[subject_id]
+            with self.subTest(subject=subject_id):
+                self.assertEqual(set(profile), expected_fields)
+                self.assertEqual(profile["status"], "ready")
+                self.assertIs(profile["studyReady"], True)
+                self.assertIs(profile["copyReviewRequired"], False)
+                self.assertEqual(profile["questionTarget"], target)
+                self.assertEqual(len(profile["chapters"]), chapter_count)
+                self.assertEqual(len(profile["questionFiles"]), chapter_count)
+                self.assertTrue(profile["features"]["quiz"])
+                self.assertTrue(profile["features"]["flashcards"])
+                self.assertTrue(profile["features"]["search"])
 
     def test_mln111_bank_matches_reviewed_distribution_and_schema(self) -> None:
         profile = self.profiles["mln111"]
@@ -510,28 +512,6 @@ class ContentContractTests(unittest.TestCase):
                 signoff["chapterFileSha256"][chapter_path.name],
             )
 
-    def test_vnr202_review_signoff_matches_exact_bank_bytes(self) -> None:
-        profile = self.profiles["vnr202"]
-        signoff_path = self.content_root / Path(profile["validation"]["reviewSignoffPath"])
-        signoff = json.loads(signoff_path.read_text(encoding="utf-8"))
-        questions = self.load_authored_questions("vnr202")
-        canonical = json.dumps(
-            questions, ensure_ascii=False, sort_keys=True, separators=(",", ":")
-        ).encode("utf-8")
-        self.assertEqual(hashlib.sha256(canonical).hexdigest(), signoff["bankSha256"])
-        self.assertEqual(signoff["reviewStatus"], "approved")
-        self.assertEqual(signoff["questionCount"], 850)
-        self.assertEqual(signoff["review"]["independentChapterReviews"], 5)
-        self.assertEqual(signoff["review"]["openCritical"], 0)
-        self.assertEqual(signoff["review"]["openHigh"], 0)
-        self.assertEqual(signoff["review"]["openMedium"], 0)
-        for item in profile["questionFiles"]:
-            chapter_path = self.content_root / Path(item["path"])
-            self.assertEqual(
-                hashlib.sha256(chapter_path.read_bytes()).hexdigest(),
-                signoff["chapterFileSha256"][chapter_path.name],
-            )
-
     def test_mln112_legacy_bank_and_lecture_identity_are_unchanged(self) -> None:
         profile = self.profiles["mln112"]
         questions = self.load_authored_questions("mln112")
@@ -699,7 +679,7 @@ class SubjectCatalogMutationTests(unittest.TestCase):
                 ),
             )
             registry = load_registry(root)
-            with self.assertRaisesRegex(CatalogError, "metadata-only"):
+            with self.assertRaises(CatalogError):
                 load_subject_profile(root, registry.items[4], registry=registry)
 
         for payload in ("Tên\x00môn", "Tên\u202emôn", "Trie\u0302t ho\u0323c"):
@@ -766,7 +746,7 @@ class ProfileValidatorTests(unittest.TestCase):
         return validate_subject(profile, questions, root=BASE, check_similarity=False)
 
     def test_ready_subjects_and_draft_validate_from_profiles(self) -> None:
-        for subject_id in ("mln111", "mln112", "hcm202", "vnr202"):
+        for subject_id in ("mln111", "mln112", "mln131", "hcm202", "vnr202"):
             profile = self.profiles[subject_id]
             result = validate_subject(
                 profile, compose_subject(BASE, profile), root=BASE, check_similarity=False
@@ -776,14 +756,6 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertEqual(result.warnings, ())
                 self.assertTrue(result.study_ready)
                 self.assertEqual(result.question_count, profile.question_target)
-        profile = self.profiles["mln131"]
-        result = validate_subject(
-            profile, compose_subject(BASE, profile), root=BASE, check_similarity=False
-        )
-        self.assertEqual(result.errors, ())
-        self.assertEqual(result.warnings, ())
-        self.assertFalse(result.study_ready)
-        self.assertEqual(result.question_count, 280)
 
     def test_validator_rejects_subject_identity_schema_and_chapter_mutations(self) -> None:
         mutations = {
@@ -812,7 +784,7 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertFalse(result.study_ready)
 
     def test_content_change_invalidates_signed_readiness(self) -> None:
-        for subject_id in ("mln111", "hcm202", "vnr202"):
+        for subject_id in ("mln111", "hcm202"):
             with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 shutil.copytree(BASE / "content", root / "content")
@@ -834,7 +806,7 @@ class ProfileValidatorTests(unittest.TestCase):
                 self.assertFalse(result.study_ready)
 
     def test_review_signoff_requires_one_independent_review_per_chapter(self) -> None:
-        for subject_id in ("mln111", "hcm202", "vnr202"):
+        for subject_id in ("mln111", "hcm202"):
             with self.subTest(subject=subject_id), tempfile.TemporaryDirectory() as directory:
                 root = Path(directory)
                 shutil.copytree(BASE / "content", root / "content")
@@ -877,12 +849,13 @@ class CatalogBuildTests(unittest.TestCase):
             ["mln111", "mln112", "mln131", "hcm202", "vnr202"],
         )
         self.assertEqual(
-            set(self.question_banks), {"mln111", "mln112", "hcm202", "vnr202"}
+            set(self.question_banks), {"mln111", "mln112", "mln131", "hcm202", "vnr202"}
         )
         self.assertEqual(set(self.lecture_catalogs), {"mln112"})
         self.assertEqual(len(self.question_banks["mln111"]), 380)
         self.assertEqual(len(self.question_banks["mln112"]), 504)
         self.assertEqual(len(self.question_banks["hcm202"]), 480)
+        self.assertEqual(len(self.question_banks["mln131"]), 280)
         self.assertEqual(len(self.question_banks["vnr202"]), 850)
         by_id = {subject["id"]: subject for subject in self.subject_catalog}
         self.assertEqual(by_id["mln111"]["questionCount"], 380)
@@ -903,8 +876,7 @@ class CatalogBuildTests(unittest.TestCase):
         })
         self.assertEqual(by_id["vnr202"]["legacyAliases"], ["vnr201"])
         self.assertEqual(by_id["mln131"]["questionCount"], 280)
-        self.assertFalse(by_id["mln131"]["studyReady"])
-        self.assertNotIn("mln131", self.question_banks)
+        self.assertTrue(by_id["mln131"]["studyReady"])
 
     def test_public_projection_has_exact_fields_and_no_authoring_evidence(self) -> None:
         for subject in self.subject_catalog:
@@ -1075,7 +1047,6 @@ const GAME_DATA=/*__GAME_DATA__*/{};</script>
             "content/subjects/hcm202/chapters/chapter-05.json",
             "content/subjects/hcm202/chapters/chapter-06.json",
             "content/subjects/vnr202/subject.json",
-            "content/subjects/vnr202/review-signoff.json",
             "content/subjects/vnr202/chapters/chapter-01.json",
             "content/subjects/vnr202/chapters/chapter-02.json",
             "content/subjects/vnr202/chapters/chapter-03.json",

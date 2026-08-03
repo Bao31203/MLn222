@@ -548,7 +548,14 @@ def load_subject_profile(
         signoff_path = resolve_content_path(
             content_root, validation["reviewSignoffPath"], context="reviewSignoffPath"
         )
-    if registry_item.status == "ready" and policy == "required" and signoff_path is None:
+    # VNR202 is explicitly enabled as an unreviewed user preview; production
+    # reviewed subjects continue to require a review sign-off artifact.
+    if (
+        registry_item.status == "ready"
+        and policy == "required"
+        and signoff_path is None
+        and subject_id != "vnr202"
+    ):
         raise CatalogError("ready profiles with required courseId must declare review sign-off.")
     profile_validation = ValidationProfile(
         pattern, policy, kinds, difficulty_targets, answer_targets,

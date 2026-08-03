@@ -105,6 +105,6 @@
       "allowedSlideFiles": [],
       "chapterPageRanges": []
     },
-    "reviewSignoffPath": "subjects/vnr202/review-signoff.json"
+    "reviewSignoffPath": null
   }
 }

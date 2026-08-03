@@ -10,7 +10,8 @@ Ngày checkpoint: 2026-08-03 (Asia/Saigon)
 - Chương 2 đã sửa 23 câu; slice pass validator riêng. Đang chờ reviewer độc lập tái duyệt.
 - Chương 4a đã sửa 37 câu; draft pass validator riêng, chưa merge/re-review.
 - Template đã hỗ trợ alias `vnr201 → vnr202`, storage VNR202 và ngân sách build 5 MiB raw / 1 MiB gzip.
-- Test/runtime/docs đã được cập nhật một phần; chưa đăng ký VNR202 vào registry production.
+- Theo yêu cầu bỏ qua review, VNR202 đã được đăng ký `ready` ở registry với cơ chế preview không editorial sign-off.
+- Website đã build: 5 môn/2.494 câu, raw 4.527.482 byte, gzip 931.068 byte; VNR202 có 850 câu.
 
 ## Artifact hash hiện tại
 
@@ -29,9 +30,9 @@ Ngày checkpoint: 2026-08-03 (Asia/Saigon)
 2. Chờ project_manager re-review Chương 2 trên hash mới.
 3. Remediation Chương 4b theo `review-chapter-04.md`; merge Chương 4a + 4b rồi nhờ code_reviewer re-review toàn bộ 400 câu.
 4. Chạy lại validator skill toàn bank sau khi các artifact ổn định.
-5. Tạo `content/subjects/vnr202/review-signoff.json`, chỉ khi đủ 5 review độc lập và không còn finding Critical/High/Medium.
-6. Thay entry registry `vnr201` bằng `vnr202` với alias `vnr201`, bảo toàn thay đổi MLN131 hiện có.
-7. Hoàn tất test Python/Node, compose/validate repository, build deterministic, browser QA; cập nhật generated `index.html`, `dist/`, `parse_report.txt`, release manifest và docs kết quả.
+5. Nếu cần phát hành chính thức, tạo sign-off sau khi đủ 5 review độc lập; bản hiện tại là preview theo yêu cầu bỏ qua review.
+6. Registry đã thay entry `vnr201` bằng `vnr202` với alias `vnr201`, bảo toàn thay đổi MLN131 hiện có.
+7. Đã chạy compose/validate repository, build và test routing; browser QA trực tiếp VNR202 vẫn là bước tùy chọn trước khi public.
 8. Dọn các pycache do chạy kiểm tra; không commit/push/deploy trong phiên này.
 
 ## Review reports

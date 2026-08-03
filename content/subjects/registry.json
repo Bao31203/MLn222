@@ -33,11 +33,11 @@
       "metadataPath": "subjects/hcm202/subject.json"
     },
     {
-      "id": "vnr201",
-      "code": "VNR201",
-      "legacyAliases": [],
-      "status": "comingSoon",
-      "metadataPath": "subjects/vnr201/subject.json"
+      "id": "vnr202",
+      "code": "VNR202",
+      "legacyAliases": ["vnr201"],
+      "status": "ready",
+      "metadataPath": "subjects/vnr202/subject.json"
     }
   ]
 }
